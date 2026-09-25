@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Estudo pilares fairhealth</title>
+<style>
+@font-face{font-family:Poppins;font-weight:400;src:url(../../marca/fontes/poppins-latin-400-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:600;src:url(../../marca/fontes/poppins-latin-600-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:800;src:url(../../marca/fontes/poppins-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:400;src:url(../../marca/fontes/oswald-latin-400-normal.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#ccc;font-family:Poppins,sans-serif;color:#1a1d1c}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;margin:0 0 40px;background:var(--fundo)}
+.kicker{font-family:Oswald;font-size:34px;color:#6b706e;letter-spacing:.5px}
+.foto{position:absolute;border-radius:40px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.18)}
+.foto img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.15) brightness(1.05)}
+.foto::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,var(--c1),var(--c2));mix-blend-mode:color}
+.foto .vazio{width:100%;height:100%;background:linear-gradient(135deg,var(--c1),var(--c2));display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:30px;font-weight:600;text-align:center;padding:40px;opacity:.9}
+.palavra{position:absolute;font-weight:800;font-size:170px;line-height:1;letter-spacing:-4px;color:var(--cor)}
+.texto{position:absolute;font-size:38px;line-height:1.45}
+.texto b{font-weight:600;color:var(--cor)}
+.pilar{position:absolute;top:70px;left:90px;font-family:Oswald;font-size:30px;letter-spacing:4px;text-transform:uppercase;color:var(--cor)}
+.handle{position:absolute;bottom:64px;left:90px;font-size:28px;font-weight:600;color:#6b706e}
+.logo{position:absolute;bottom:40px;right:80px;width:110px;border-radius:50%}
+</style></head><body>
+
+<!-- Pilar 03: Sono (foto à esquerda, palavra invade a foto pela direita) -->
+<section class="slide" id="pl-sono" style="--fundo:#F1F1FA;--cor:#4B4FA8;--c1:#2C2F7A;--c2:#8E7CE0">
+  <div class="pilar">Pilar 03 de 7</div>
+  <div class="foto" style="left:90px;top:250px;width:640px;height:560px"><img src="../../marca/espaco/copa-parede-verde.jpg" style="object-position:40% 60%"></div>
+  <div class="kicker" style="position:absolute;right:90px;top:180px;text-align:right">Descansar também é cuidar</div>
+  <div class="palavra" style="left:560px;top:320px">Sono</div>
+  <div class="texto" style="left:90px;right:110px;top:890px">
+    Dormir bem é quando o corpo se recupera e a cabeça organiza o dia. <b>Horário regular, tela longe da cama e café só até o começo da tarde</b> já fazem diferença.
+  </div>
+  <div class="handle">@fairhealth.br</div>
+  <img class="logo" src="../../marca/logo-circulo.png" alt="">
+</section>
+
+<!-- Pilar 06: Relações sociais (palavra à esquerda invade a foto) -->
+<section class="slide" id="pl-relacoes" style="--fundo:#FCF1F4;--cor:#C94A6E;--c1:#B8325A;--c2:#F29A6B">
+  <div class="pilar">Pilar 06 de 7</div>
+  <div class="kicker" style="position:absolute;left:90px;top:180px">Ninguém se cuida sozinho</div>
+  <div class="foto" style="right:90px;top:330px;width:620px;height:560px"><img src="../../marca/espaco/sala-atendimento-e-espera.jpg" style="object-position:80% 70%"></div>
+  <div class="palavra" style="left:80px;top:310px;font-size:150px">Relações</div>
+  <div class="texto" style="left:90px;right:110px;top:960px">
+    Conversa, amizade e apoio no trabalho protegem a saúde. <b>Um café com um colega também é cuidado.</b>
+  </div>
+  <div class="handle">@fairhealth.br</div>
+  <img class="logo" src="../../marca/logo-circulo.png" alt="">
+</section>
+
+<!-- Wearables no mesmo sistema: foto de braço (a fotografar) em duotone da marca -->
+<section class="slide" id="pl-wearable" style="--fundo:#EEF6F4;--cor:#2F6B64;--c1:#1F4F49;--c2:#96C3BA">
+  <div class="pilar">Escritório do Cuidado</div>
+  <div class="foto" style="left:90px;top:250px;width:640px;height:600px"><div class="vazio">FOTO: braço com a smartband<br>(duotone verde)</div></div>
+  <div class="kicker" style="position:absolute;right:90px;top:180px;text-align:right">O cuidado continua depois da consulta</div>
+  <div class="palavra" style="left:520px;top:340px;font-size:140px">Rotina</div>
+  <div class="texto" style="left:90px;right:110px;top:930px">
+    A smartband acompanha sono e movimento no dia a dia. <b>Na consulta, a conversa fica mais concreta.</b>
+  </div>
+  <div class="handle">@fairhealth.br</div>
+  <img class="logo" src="../../marca/logo-circulo.png" alt="">
+</section>
+</body></html>
