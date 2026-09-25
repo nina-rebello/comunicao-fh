@@ -1,0 +1,31 @@
+/* Linha visual "humana" da fairhealth: mais calor, mais respiro, formas orgânicas. */
+@import url(base.css);
+:root{--creme:#F7F3EE;--areia:#EADBC8;--escuro:#2F6B64;--agua:#96C3BA;--menta:#D6EBE6;--tinta:#1E2A28}
+.slide{padding:150px 120px}
+.creme{background:var(--creme);color:var(--tinta);--acento:var(--escuro);--caixa:var(--areia)}
+.menta{background:var(--menta);color:var(--tinta);--acento:var(--escuro);--caixa:#fff}
+.verde{background:var(--escuro);color:#fff;--acento:var(--menta);--caixa:var(--creme)}
+h1{font-size:84px;line-height:1.16;font-weight:500;letter-spacing:0}
+h1.g{font-size:96px}
+h1.m{font-size:72px}
+b,em{font-weight:700;font-style:italic;color:var(--acento)}
+.sub{font-size:42px;line-height:1.4;font-weight:400}
+.caixa{border-radius:36px;font-size:40px;line-height:1.4;padding:44px 52px}
+.caixa b{color:var(--escuro)}
+.bolha{position:absolute;background:var(--agua);opacity:.35;border-radius:58% 42% 55% 45% / 48% 60% 40% 52%}
+.bolha.a{width:620px;height:560px;top:-160px;right:-200px}
+.bolha.b{width:520px;height:480px;bottom:-180px;left:-180px;background:var(--areia);opacity:.7}
+.verde .bolha{background:#3E7C74;opacity:1}
+.verde .bolha.b{background:#28605A}
+.cartao{width:820px;height:560px;border-radius:44px;background-size:cover;background-position:center;margin-bottom:64px;
+  box-shadow:0 24px 60px rgba(30,42,40,.18)}
+.cartao.alto{height:640px}
+.lista li{border-bottom:3px dotted color-mix(in srgb,var(--acento) 40%,transparent)}
+.lista li span{font-weight:700}
+.num{font-size:120px;font-weight:700;color:var(--acento);opacity:.9;margin-bottom:28px}
+.handle{font-weight:600;font-size:30px;opacity:.8}
+.coracao{width:210px;mix-blend-mode:multiply;margin-bottom:40px}
+.assina{font-size:36px;font-style:italic;margin-top:56px}
+.seta{background:var(--escuro);color:#fff !important;bottom:120px}
+.verde .seta{background:var(--menta);color:var(--escuro) !important}
+.num small{font-size:60px;letter-spacing:.5px}

@@ -136,7 +136,16 @@ em `instagram/referencias.md`.
 - **Paleta derivada da logo:** verde-escuro `#2F6B64` (fundo com texto branco),
   verde-água `#96C3BA` (fundo com texto escuro), menta `#BFE0D9` (destaque
   sobre o fundo escuro), off-white `#F6F8F7`, texto `#141B1B`.
-- **Estilo das legendas (modelo @fairedu.br):** a primeira linha é uma pergunta
+- **Tom fairhealth: mais humano que o @fairedu.br.** Do modelo da fairedu,
+  pegamos a fonte e a estrutura. O tom é mais quente:
+  - Falar de **pessoas e cenas do dia a dia** ("uma noite mal dormida", "uma dor
+    que foi ficando") antes de falar de indicadores.
+  - Usar "a gente" e "você" com naturalidade. Frases curtas, como numa conversa.
+  - Visual: fundo creme, menta e areia, formas orgânicas arredondadas, fotos em
+    cartão com cantos arredondados, logo em coração nos slides de fechamento.
+    Negrito itálico em peso 700, não 800. Base em .
+  - Fechamento com a assinatura "Com cuidado, equipe fairhealth" quando couber.
+- **Estrutura das legendas (herdada do @fairedu.br):** a primeira linha é uma pergunta
   ou uma afirmação curta. Parágrafos de 1 a 3 frases, tom reflexivo e sóbrio,
   construções como "Isso não elimina X. Mas também não...", fechamento com a
   marca ("É esse cuidado que a fairhealth leva..."). Sem emoji. 5 hashtags, a
