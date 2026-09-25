@@ -23,8 +23,10 @@ DOM 04  -
 - **Gancho (rascunho):** "Seu programa de saúde tem adesão baixa, e não é culpa
   do colaborador."
 - **Rosto:** Dra. Floriana.
-- **Prova:** usar os 98% de adesão da Chemitec só se o cliente liberar
-  [PENDENTE]. Se não liberar, o roteiro sai sem número.
+- **Prova (liberada):** Chemitec, 1º semestre de 2026: 98% de adesão
+  (48 colaboradores) e 81,3% voltaram para 2 ou mais atendimentos.
+- **Gancho alternativo com número (#23 The Statistic):** "98% do time usou.
+  81% voltou." 
 
 ### QUA: REEL · PROOF · #13 Before And After, On Screen
 - **Tema:** evidência / "da intenção à evidência"
@@ -76,6 +78,14 @@ Todo dia útil, de 3 a 5 quadros.
   antes de mandar DM e nunca vender em comentário.
 
 Depois de definida, a lista vai para o `/ig-comment`.
+
+## Depoimentos (quando autorizados)
+
+- **STORIES de quarta:** um trecho curto do e-mail, sem nome e sem a condição
+  de saúde, sobre um card com a logo em coração. Frase sugerida: "o processo
+  não precisa ser perfeito para estar funcionando".
+- **STORY da próxima semana:** o depoimento em vídeo pode virar o Reel do tipo
+  STORY, depois de transcrito e autorizado.
 
 ## Próxima semana
 

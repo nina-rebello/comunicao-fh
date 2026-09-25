@@ -53,6 +53,7 @@ português do Brasil.
   de um dado sério. Nunca no gancho.
 - **Rosto no vídeo:** revezamos os rostos do time.
   - **Dr. Ronald** e **Dra. Floriana**: autoridade clínica e NR-01.
+  - **Dra. Marília**: acompanhamento clínico (aparece nos depoimentos).
   - **Nina**: narra os conteúdos de dados e os bastidores.
   - Colaboradores atendidos **nunca aparecem**.
 - **Voiceover ou para a câmera:** para a câmera nos conteúdos clínicos e de
@@ -95,14 +96,43 @@ As skills nunca inventam números. Quando faltar um dado, o roteiro sai com
   de 34 para cerca de 20, uma redução de aproximadamente 40%. A conformidade
   média dos processos foi de 98,2%. O estudo foi apresentado em congresso
   internacional e é o dado mais seguro para divulgar.
-- **Chemitec (1º semestre de 2026): [PENDENTE], depende da liberação do
-  cliente.** 161 atendimentos, 48 colaboradores atendidos (98% de adesão),
-  81,3% voltaram para 2 ou mais atendimentos, 46 smartbands em uso.
+- **Chemitec (1º semestre de 2026): LIBERADO.** 161 atendimentos,
+  48 colaboradores atendidos (98% de adesão), 81,3% voltaram para 2 ou mais
+  atendimentos, 46 smartbands em uso. Usar sempre agregado, nunca por pessoa.
 - **Estudos externos: [PENDENTE], verificar as referências exatas antes de
   postar e sempre citar a fonte.**
   - −27% de absenteísmo
   - R$ 2,70 de retorno para cada R$ 1 investido
   - 70% dos custos do plano vêm de doenças crônicas evitáveis
+
+## Depoimentos
+
+Temos depoimentos reais (e-mail e vídeo). As regras abaixo valem até a
+confirmação com o Dr. Ronald:
+
+- **[PENDENTE]** Autorização **por escrito** de quem deu o depoimento, para
+  aquele uso específico (LGPD: dado de saúde é dado sensível).
+- **[PENDENTE]** Confirmar se o formato é permitido pelas regras de publicidade
+  médica do CFM.
+- Sem nome, sem rosto e sem condição de saúde identificável ("joelho",
+  diagnóstico, tratamento), a menos que a autorização cubra isso.
+- Usar o depoimento para falar do **cuidado** (acolhimento, acompanhamento,
+  constância), nunca como prova de resultado clínico.
+- Os arquivos originais ficam fora do repositório.
+
+## Marca
+
+Os arquivos ficam em `instagram/marca/`.
+
+- **Logo em círculo** (`logo-circulo.png`): uso padrão e institucional. Foto de
+  perfil, marca d'água nos Reels (dentro da área segura), canto do último slide
+  dos carrosséis e posts de dados, NR-01 e oferta. O arquivo atual tem só
+  196 px; **[PENDENTE]** versão em alta resolução ou vetor.
+- **Logo em coração** (`logo-coracao.png`): momentos de cuidado e de pessoas.
+  Depoimentos, bastidores com o time, datas como Setembro Amarelo, cards de
+  agradecimento e stickers nos Stories. Nunca junto de dado ou número sério.
+  **[PENDENTE]** Substituir pelo PNG final com fundo transparente.
+- Uma única logo por peça.
 
 ## A chamada final
 
