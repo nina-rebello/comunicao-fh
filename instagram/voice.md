@@ -107,18 +107,15 @@ As skills nunca inventam números. Quando faltar um dado, o roteiro sai com
 
 ## Depoimentos
 
-Temos depoimentos reais (e-mail e vídeo). As regras abaixo valem até a
-confirmação com o Dr. Ronald:
+Os trechos aprovados ficam em `instagram/depoimentos.md`.
 
-- **[PENDENTE]** Autorização **por escrito** de quem deu o depoimento, para
-  aquele uso específico (LGPD: dado de saúde é dado sensível).
-- **[PENDENTE]** Confirmar se o formato é permitido pelas regras de publicidade
-  médica do CFM.
-- Sem nome, sem rosto e sem condição de saúde identificável ("joelho",
-  diagnóstico, tratamento), a menos que a autorização cubra isso.
-- Usar o depoimento para falar do **cuidado** (acolhimento, acompanhamento,
-  constância), nunca como prova de resultado clínico.
-- Os arquivos originais ficam fora do repositório.
+- **Vídeos de colaboradores não são postados.** Só trechos transcritos,
+  isolados, em texto (card, legenda, Stories).
+- Sem nome, rosto, empresa ou condição de saúde identificável.
+- Assinatura: "Colaboradora atendida pelo Escritório do Cuidado".
+- O depoimento fala de **cuidado, hábito e cultura**, nunca prova resultado
+  clínico.
+- **[PENDENTE]** Confirmar o formato com o Dr. Ronald (publicidade médica, CFM).
 
 ## Marca
 

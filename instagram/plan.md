@@ -26,7 +26,10 @@ DOM 04  -
 - **Prova (liberada):** Chemitec, 1º semestre de 2026: 98% de adesão
   (48 colaboradores) e 81,3% voltaram para 2 ou mais atendimentos.
 - **Gancho alternativo com número (#23 The Statistic):** "98% do time usou.
-  81% voltou." 
+  81% voltou."
+- **Card final (depoimento A4):** "Eu quero muito que cada um de vocês passe."
+  (colaboradora atendida). É adesão contada por quem usa: um colega chamando
+  o outro.
 
 ### QUA: REEL · PROOF · #13 Before And After, On Screen
 - **Tema:** evidência / "da intenção à evidência"
@@ -79,13 +82,16 @@ Todo dia útil, de 3 a 5 quadros.
 
 Depois de definida, a lista vai para o `/ig-comment`.
 
-## Depoimentos (quando autorizados)
+## Depoimentos
 
-- **STORIES de quarta:** um trecho curto do e-mail, sem nome e sem a condição
-  de saúde, sobre um card com a logo em coração. Frase sugerida: "o processo
-  não precisa ser perfeito para estar funcionando".
-- **STORY da próxima semana:** o depoimento em vídeo pode virar o Reel do tipo
-  STORY, depois de transcrito e autorizado.
+Trechos em `instagram/depoimentos.md`. O vídeo não é postado.
+
+- **STORIES de quarta:** 3 quadros de texto com a logo em coração: B1 "O
+  processo não precisa ser perfeito para estar funcionando", depois A1 "Não é
+  aquela dieta impossível. É algo pra vida.", depois uma caixa de perguntas.
+- **Reel STORY da próxima semana (#21 Mid-Sentence):** narrado pela Nina, com
+  os trechos em cards. Gancho: "Ela não gosta de gravar vídeo. Gravou um mesmo
+  assim." (A6 → A2 → A3 → A4). O vídeo não aparece.
 
 ## Próxima semana
 
