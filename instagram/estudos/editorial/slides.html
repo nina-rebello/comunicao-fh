@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Estudo editorial fairhealth</title>
+<link rel="stylesheet" href="../../marca/base.css">
+<style>
+@font-face{font-family:"Instrument Serif";font-style:normal;src:url(../../marca/fontes/instrument-serif-latin-400-normal.woff2)}
+@font-face{font-family:"Instrument Serif";font-style:italic;src:url(../../marca/fontes/instrument-serif-latin-400-italic.woff2)}
+:root{--papel:#FBF8F3;--tinta:#161A19}
+.ed{background:var(--papel);color:var(--tinta);text-align:left;align-items:stretch;justify-content:flex-start;padding:0}
+.serif{font-family:"Instrument Serif",serif;font-weight:400;letter-spacing:-1px;line-height:.98}
+.serif i{font-style:italic}
+.dest{color:var(--escuro)}
+.foto-dest{color:var(--menta)}
+.arraste{position:absolute;left:96px;right:96px;bottom:70px;font-size:22px;letter-spacing:6px;font-weight:700;text-transform:uppercase}
+.arraste::before{content:"";display:block;border-top:3px solid currentColor;margin-bottom:22px}
+.arraste::after{content:"→";position:absolute;right:-6px;top:-19px;font-size:34px;letter-spacing:0}
+.corpo{font-size:38px;line-height:1.4;font-weight:500}
+.corpo p+p{margin-top:28px}
+.marca{position:absolute;top:70px;left:0;right:0;text-align:center;font-family:"Instrument Serif";font-size:58px;letter-spacing:-1px}
+/* A: capa foto */
+.capa{background-size:cover;background-position:center;color:#fff}
+.capa::before{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(10,14,13,.88))}
+.capa .txt{position:absolute;left:96px;right:96px;bottom:200px}
+.capa h2{font-size:84px;line-height:1.02;font-weight:800;letter-spacing:-2px}
+.capa .sub{font-size:38px;margin-top:28px}
+/* B: diagrama */
+.pilares{align-items:center;text-align:center;padding-top:150px}
+.pilares h2{font-size:120px}
+.pilares svg{margin-top:50px}
+.pilares text{font-family:Raleway;font-weight:700;font-size:25px;letter-spacing:2px;fill:var(--tinta)}
+/* C: split */
+.split .topo{padding:110px 96px 0;height:780px}
+.split h2{font-size:108px;margin-bottom:44px}
+.split .img{position:absolute;left:0;right:0;bottom:0;height:570px;background-size:cover;background-position:center}
+/* D: citação */
+.cita{justify-content:center;padding:0 110px}
+.cita blockquote{font-size:104px}
+.cita .aspas{font-family:"Instrument Serif";font-size:260px;line-height:.6;color:var(--escuro);opacity:.35}
+.cita .quem{font-size:32px;font-weight:600;margin-top:56px;letter-spacing:.5px}
+.selo{position:absolute;bottom:70px;left:0;right:0;text-align:center;font-size:30px;font-weight:600}
+</style></head><body>
+
+<section class="slide ed capa" id="ed-a" style="background-image:url(../../marca/espaco/sala-atendimento-e-espera.jpg)">
+  <div class="txt">
+    <h2>O afastamento não começa no atestado. <span class="foto-dest">Começa na rotina.</span></h2>
+    <p class="sub">E se o cuidado estivesse onde a rotina acontece?</p>
+  </div>
+  <div class="arraste">Arraste para o lado</div>
+</section>
+
+<section class="slide ed pilares" id="ed-b">
+  <h2 class="serif">7 pilares da <i>saúde</i></h2>
+  <svg width="880" height="880" viewBox="0 0 880 880" fill="none" stroke="#161A19" stroke-width="2.5">
+    <circle cx="440" cy="440" r="420"/>
+    <ellipse cx="440" cy="110" rx="250" ry="62"/><text x="440" y="119" text-anchor="middle" stroke="none">ALIMENTAÇÃO</text>
+    <ellipse cx="440" cy="220" rx="345" ry="62"/><text x="440" y="229" text-anchor="middle" stroke="none">ATIVIDADE FÍSICA</text>
+    <ellipse cx="440" cy="330" rx="400" ry="62"/><text x="440" y="339" text-anchor="middle" stroke="none">SONO</text>
+    <ellipse cx="440" cy="440" rx="418" ry="62"/><text x="440" y="449" text-anchor="middle" stroke="none">SAÚDE MENTAL</text>
+    <ellipse cx="440" cy="550" rx="400" ry="62"/><text x="440" y="559" text-anchor="middle" stroke="none">EVITAR SUBSTÂNCIAS</text>
+    <ellipse cx="440" cy="660" rx="345" ry="62"/><text x="440" y="669" text-anchor="middle" stroke="none">RELAÇÕES SOCIAIS</text>
+    <ellipse cx="440" cy="770" rx="250" ry="62"/><text x="440" y="779" text-anchor="middle" stroke="none">PROPÓSITO</text>
+  </svg>
+  <div class="selo">@fairhealth.br</div>
+</section>
+
+<section class="slide ed split" id="ed-c">
+  <div class="topo">
+    <h2 class="serif">Cuidado que dá para <i class="dest">medir.</i></h2>
+    <div class="corpo">
+      <p>No Hospital Dia Santo Amaro, as reclamações mensais caíram de 34 para cerca de 20 em 2025.</p>
+      <p>Uma redução de aproximadamente 40%, com 98,2% de conformidade nos processos.</p>
+    </div>
+  </div>
+  <div class="img" style="background-image:url(../../marca/espaco/copa-parede-verde.jpg)"></div>
+</section>
+
+<section class="slide ed cita" id="ed-d">
+  <div class="aspas">“</div>
+  <blockquote class="serif">O processo não precisa ser <i class="dest">perfeito</i> para estar funcionando.</blockquote>
+  <p class="quem">Colaboradora atendida pelo Escritório do Cuidado</p>
+  <div class="selo">@fairhealth.br</div>
+</section>
+</body></html>
