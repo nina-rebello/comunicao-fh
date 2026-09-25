@@ -119,7 +119,14 @@ Os trechos aprovados ficam em `instagram/depoimentos.md`.
 
 ## Marca
 
-Os arquivos ficam em `instagram/marca/`.
+Os arquivos ficam em `instagram/marca/`. Resumo dos materiais institucionais
+em `instagram/referencias.md`.
+
+- **Cores (tiradas da logo):** verde-água `#96C3BA` (principal), quase-preto
+  `#141B1B` (texto), off-white `#F8F8F6` (fundo). Uma única cor de destaque.
+- **Slogan:** « Fazemos o certo pelos motivos certos »
+- **Fonte e estilo de texto:** seguir o modelo do @fairedu.br (agência).
+  **[PENDENTE]** Receber prints para replicar.
 
 - **Logo em círculo** (`logo-circulo.png`): uso padrão e institucional. Foto de
   perfil, marca d'água nos Reels (dentro da área segura), canto do último slide
@@ -136,6 +143,7 @@ Os arquivos ficam em `instagram/marca/`.
 - **Palavra-chave:** `CUIDADO`
   - "Comenta CUIDADO que eu te mostro como funciona o Escritório do Cuidado."
 - **Alternativa institucional:** "Quer levar isso para sua empresa? Link na bio."
-- **O que a palavra-chave envia:** a definir (por exemplo, uma apresentação do
-  Escritório do Cuidado ou um agendamento de conversa).
-- **Para onde vai o link:** a definir.
+- **O que a palavra-chave envia:** o **diagnóstico gratuito**, uma reunião para
+  mapear as necessidades da empresa (primeiro passo comercial do Executive
+  Summary).
+- **Para onde vai o link:** www.fairhealth.com.br (confirmar).
