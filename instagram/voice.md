@@ -99,11 +99,12 @@ As skills nunca inventam números. Quando faltar um dado, o roteiro sai com
 - **Chemitec (1º semestre de 2026): LIBERADO.** 161 atendimentos,
   48 colaboradores atendidos (98% de adesão), 81,3% voltaram para 2 ou mais
   atendimentos, 46 smartbands em uso. Usar sempre agregado, nunca por pessoa.
-- **Estudos externos: [PENDENTE], verificar as referências exatas antes de
-  postar e sempre citar a fonte.**
-  - −27% de absenteísmo
-  - R$ 2,70 de retorno para cada R$ 1 investido
-  - 70% dos custos do plano vêm de doenças crônicas evitáveis
+- **Estudos externos (números oficiais, do Executive Summary): sempre citar
+  a fonte.**
+  - −28% de absenteísmo (Harvard Business Review, 2022)
+  - −22% de custos com saúde (SHRM, 2023)
+- Não usar: −27%, "R$ 2,70 por R$ 1" e "70% dos custos do plano", substituídos
+  pelos números acima.
 
 ## Depoimentos
 
@@ -125,8 +126,21 @@ em `instagram/referencias.md`.
 - **Cores (tiradas da logo):** verde-água `#96C3BA` (principal), quase-preto
   `#141B1B` (texto), off-white `#F8F8F6` (fundo). Uma única cor de destaque.
 - **Slogan:** « Fazemos o certo pelos motivos certos »
-- **Fonte e estilo de texto:** seguir o modelo do @fairedu.br (agência).
-  **[PENDENTE]** Receber prints para replicar.
+- **Estilo visual (modelo @fairedu.br):**
+  - Fonte **Raleway**. Texto em peso regular, com as palavras-chave em
+    **negrito itálico** (ExtraBold Italic).
+  - Fundo de cor chapada ou foto com película escura. Texto centralizado.
+  - Destaques: palavra sublinhada na cor de destaque, ou uma caixa de cor com
+    texto por cima.
+  - @fairhealth.br no rodapé, centralizado. Botão de seta na capa.
+- **Paleta derivada da logo:** verde-escuro `#2F6B64` (fundo com texto branco),
+  verde-água `#96C3BA` (fundo com texto escuro), menta `#BFE0D9` (destaque
+  sobre o fundo escuro), off-white `#F6F8F7`, texto `#141B1B`.
+- **Estilo das legendas (modelo @fairedu.br):** a primeira linha é uma pergunta
+  ou uma afirmação curta. Parágrafos de 1 a 3 frases, tom reflexivo e sóbrio,
+  construções como "Isso não elimina X. Mas também não...", fechamento com a
+  marca ("É esse cuidado que a fairhealth leva..."). Sem emoji. 5 hashtags, a
+  primeira sempre #fairhealth.
 
 - **Logo em círculo** (`logo-circulo.png`): uso padrão e institucional. Foto de
   perfil, marca d'água nos Reels (dentro da área segura), canto do último slide

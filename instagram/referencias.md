@@ -23,8 +23,7 @@ guia "Saúde mental: o cuidado no dia a dia". Os originais ficam fora do repo.
 - **Contato:** www.fairhealth.com.br · ola@fairjob.com.br
 - **Números citados:** −28% de absenteísmo (Harvard Business Review, 2022) e
   −22% de custos com saúde (SHRM, 2023).
-  **[PENDENTE]** Eles não batem com os do voice.md (−27%, R$ 2,70 por R$ 1).
-  Definir qual versão é a oficial e conferir a fonte original.
+  **Estes são os números oficiais** (decisão de 25/09).
 
 ## Cartilha do Escritório do Cuidado: os 7 pilares da MEV
 
