@@ -143,7 +143,7 @@ em `instagram/referencias.md`.
   - Usar "a gente" e "você" com naturalidade. Frases curtas, como numa conversa.
   - Visual: fundo creme, menta e areia, formas orgânicas arredondadas, fotos em
     cartão com cantos arredondados, logo em coração nos slides de fechamento.
-    Negrito itálico em peso 700, não 800. Base em .
+    Negrito itálico em peso 700, não 800. Base em `marca/base-humano.css`.
   - Fechamento com a assinatura "Com cuidado, equipe fairhealth" quando couber.
 - **Estrutura das legendas (herdada do @fairedu.br):** a primeira linha é uma pergunta
   ou uma afirmação curta. Parágrafos de 1 a 3 frases, tom reflexivo e sóbrio,
