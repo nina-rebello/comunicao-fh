@@ -15,12 +15,12 @@
 .capa .handle{left:110px;right:auto;bottom:80px}
 /* pessoa: foto em tela cheia, nome no topo, bloco com linha vertical embaixo */
 .pessoa{padding:0;color:#fff;background:linear-gradient(170deg,#4f8a82,#1f3f3b)}
-.pessoa::after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(0,0,0,.18),transparent 28%,transparent 52%,rgba(10,20,19,.7))}
+.pessoa::after{content:"";position:absolute;inset:0;z-index:3;background:linear-gradient(rgba(0,0,0,.18),transparent 28%,transparent 52%,rgba(10,20,19,.7))}
 .pessoa>*{position:absolute;z-index:1}
 .aviso{top:46%;left:50%;transform:translate(-50%,-50%);border:3px dashed rgba(255,255,255,.55);border-radius:24px;padding:36px 48px;
   font-size:30px;font-weight:700;letter-spacing:4px;opacity:.8;line-height:1.6;z-index:0}
 .aviso small{font-size:24px;font-weight:500;letter-spacing:1px}
-.nome{top:120px;left:0;right:0;font-size:170px;font-weight:800;font-style:italic;letter-spacing:-4px;line-height:1}
+.nome{top:70px;left:0;right:0;font-size:170px;font-weight:800;font-style:italic;letter-spacing:-4px;line-height:1}
 .bloco{right:90px;bottom:130px;width:600px;text-align:left;border-left:6px solid var(--agua);padding-left:32px}
 .desc{font-size:40px;line-height:1.25;font-weight:500}
 .pergunta{font-size:32px;line-height:1.35;margin-top:26px}
@@ -28,6 +28,9 @@
 .pessoa .pag{z-index:2}
 .com-foto{background-size:cover;background-position:center 30%}
 .com-foto .aviso{display:none}
+.recorte{inset:0;background-size:cover;z-index:2}
+.pessoa .nome{z-index:1}
+.pessoa .bloco,.pessoa .pag{z-index:4}
 </style></head><body>
 <section class="slide escuro capa" id="t-01">
   <div class="kicker">FAIR HEALTH</div>
@@ -45,10 +48,11 @@
     <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
   </div>
 </section>
-<section class="slide pessoa com-foto" id="t-03" style="background-image:url(fotos/nina.jpg);background-position:center 0%">
+<section class="slide pessoa com-foto" id="t-03" style="background-image:url(fotos/nina-ext.jpg);background-position:center 0%">
   <div class="pag">3/10</div>
   <div class="aviso">FOTO DE NINA<br><small>retrato em tela cheia</small></div>
   <h2 class="nome">Nina</h2>
+  <div class="recorte" style="background-image:url(fotos/nina-recorte-ext.png);background-position:center 0%"></div>
   <div class="bloco">
     <p class="desc">[pequena descrição]</p>
     <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
@@ -63,10 +67,11 @@
     <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
   </div>
 </section>
-<section class="slide pessoa com-foto" id="t-05" style="background-image:url(fotos/floriana.jpg);background-position:center 0%">
+<section class="slide pessoa com-foto" id="t-05" style="background-image:url(fotos/floriana-ext.jpg);background-position:center 0%">
   <div class="pag">5/10</div>
   <div class="aviso">FOTO DE FLORIANA<br><small>retrato em tela cheia</small></div>
   <h2 class="nome">Floriana</h2>
+  <div class="recorte" style="background-image:url(fotos/floriana-recorte-ext.png);background-position:center 0%"></div>
   <div class="bloco">
     <p class="desc">[pequena descrição]</p>
     <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
@@ -76,6 +81,7 @@
   <div class="pag">6/10</div>
   <div class="aviso">FOTO DE RENATA<br><small>retrato em tela cheia</small></div>
   <h2 class="nome">Renata</h2>
+  <div class="recorte" style="background-image:url(fotos/renata-recorte.png);background-position:center 35%"></div>
   <div class="bloco">
     <p class="desc">[pequena descrição]</p>
     <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
