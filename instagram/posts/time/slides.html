@@ -2,98 +2,121 @@
 <html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel do time (aprovação)</title>
 <link rel="stylesheet" href="../../marca/base.css">
 <style>
+@font-face{font-family:"Instrument Serif";font-style:normal;src:url(../../marca/fontes/instrument-serif-latin-400-normal.woff2)}
+@font-face{font-family:"Instrument Serif";font-style:italic;src:url(../../marca/fontes/instrument-serif-latin-400-italic.woff2)}
+.serif{font-family:"Instrument Serif",serif;font-weight:400}
 /* capa */
-.capa{justify-content:flex-end;align-items:flex-start;text-align:left;padding:140px 110px 170px}
-.capa .kicker{position:absolute;top:120px;left:110px;font-size:28px;font-weight:700;letter-spacing:8px;color:var(--menta)}
-.capa .kicker::after{content:"";display:block;width:90px;height:4px;background:var(--menta);margin-top:28px}
-.capa h1{font-size:230px;line-height:.92;font-weight:400;letter-spacing:-6px}
-.capa h1 b{color:var(--menta)}
-.capa .sub{margin-top:48px;font-size:40px;opacity:.9}
-.flecha{position:absolute;right:110px;bottom:48px;width:110px;height:110px;border-radius:50%;border:4px solid var(--menta);
+.capa{background:#F6F4EF;color:#16302C}
+.capa h1{font-family:"Instrument Serif",serif;font-size:250px;line-height:.9;letter-spacing:-5px;font-weight:400}
+.capa h1 i{color:var(--escuro)}
+.capa .sub{font-size:40px;color:#3d5a55;margin-top:36px}
+.capa .linha{width:120px;height:3px;background:var(--agua);margin:52px auto 0}
+.flecha{position:absolute;right:100px;bottom:90px;width:110px;height:110px;border-radius:50%;border:3px solid var(--escuro);
   display:flex;align-items:center;justify-content:center}
-.flecha svg{width:60px;height:60px}
-.capa .handle{left:110px;right:auto;bottom:70px}
+.flecha svg{width:54px;height:54px}
+.capa .handle{bottom:120px;left:100px;right:auto;color:#3d5a55}
 /* pessoa */
-.foto-vazia{width:440px;height:440px;border-radius:50%;border:4px dashed currentColor;opacity:.4;display:flex;align-items:center;
-  justify-content:center;font-size:36px;font-weight:700;letter-spacing:5px;margin-bottom:52px}
-.nome{font-size:64px;font-weight:800;font-style:italic;margin-bottom:36px}
-.frase{font-size:50px;line-height:1.25;max-width:840px}
-.lacuna{font-style:italic;opacity:.55}
-.fora{font-size:34px;margin-top:40px;opacity:.75}
-.fora b{font-style:normal;font-weight:700}
+.pessoa{padding:0;color:#fff;background:linear-gradient(170deg,var(--tom),#2b3533)}
+.pessoa::after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(0,0,0,.15),transparent 30%,transparent 55%,rgba(0,0,0,.55))}
+.pessoa>*{position:absolute;z-index:1}
+.aviso{top:50%;left:50%;transform:translate(-50%,-50%);border:3px dashed rgba(255,255,255,.55);border-radius:24px;padding:36px 48px;
+  font-size:30px;font-weight:700;letter-spacing:4px;opacity:.8;line-height:1.6;z-index:0}
+.aviso small{font-size:24px;font-weight:500;letter-spacing:1px}
+.nome-serif{top:120px;left:0;right:0;font-family:"Instrument Serif",serif;font-weight:400;font-size:190px;line-height:1;letter-spacing:-3px}
+.bloco{right:90px;bottom:120px;width:560px;text-align:left;border-left:5px solid var(--agua);padding-left:30px}
+.citacao{font-family:"Instrument Serif",serif;font-style:italic;font-size:58px;line-height:1.05}
+.ama{font-size:30px;margin-top:22px}
+.ama b{font-weight:800}
+.pag2{top:50px;right:60px;background:rgba(0,0,0,.35);border-radius:30px;padding:8px 22px;font-size:26px}
+/* fechamento */
+.fecho{background:var(--escuro);color:#fff}
+.fecho h1{font-family:"Instrument Serif",serif;font-weight:400;font-size:104px;line-height:1.02;letter-spacing:-1px}
+.fecho h1 i{color:var(--menta)}
+.fecho .sub{font-size:40px;margin-top:48px}
+.fecho .logo{margin:70px 0 0;width:150px}
 </style></head><body>
-<section class="slide escuro capa" id="t-01">
-  <div class="kicker">O TIME FAIR HEALTH</div>
-  <h1>Quem <b>cuida.</b></h1>
-  <p class="sub">8 pessoas por trás de cada cuidado.</p>
-  <div class="flecha"><svg viewBox="0 0 24 24" fill="none" stroke="#BFE0D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+<section class="slide capa" id="t-01">
+  <h1>Nosso <i>Time</i></h1>
+  <p class="sub">Conheça quem cuida da saúde da sua empresa.</p>
+  <div class="linha"></div>
+  <div class="flecha"><svg viewBox="0 0 24 24" fill="none" stroke="#2F6B64" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide agua" id="t-02"><div class="pag">2/11</div>
-  <h1>Por trás de cada cuidado, <b>tem gente.</b></h1>
-  <div class="caixa">Pedimos a cada pessoa do time que completasse uma frase: <b>“Cuidar, para mim, é…”</b></div>
-  <div class="handle">@fairhealth.br</div>
+<section class="slide pessoa" id="t-02" style="--tom:#6f8f89">
+  <div class="pag2">2/10</div>
+  <div class="aviso">FOTO DE MARÍLIA<br><small>retrato, luz natural, fundo real</small></div>
+  <h2 class="nome-serif">Marília</h2>
+  <div class="bloco">
+    <p class="citacao">“Cuidar é [resposta curta].”</p>
+    <p class="ama"><b>Ama:</b> [ ] &nbsp;|&nbsp; [ ] &nbsp;|&nbsp; [ ]</p>
+  </div>
 </section>
-<section class="slide agua pessoa" id="t-03"><div class="pag">3/11</div>
-  <div class="foto-vazia">FOTO</div>
-  <div class="nome">Marília</div>
-  <p class="frase">“Cuidar, para mim, é <span class="lacuna">[resposta]</span>.”</p>
-  <p class="fora"><b>Fora daqui:</b> [o que gosta de fazer]</p>
-  <div class="handle">@fairhealth.br</div>
+<section class="slide pessoa" id="t-03" style="--tom:#5e7c86">
+  <div class="pag2">3/10</div>
+  <div class="aviso">FOTO DE NINA<br><small>retrato, luz natural, fundo real</small></div>
+  <h2 class="nome-serif">Nina</h2>
+  <div class="bloco">
+    <p class="citacao">“Cuidar é [resposta curta].”</p>
+    <p class="ama"><b>Ama:</b> [ ] &nbsp;|&nbsp; [ ] &nbsp;|&nbsp; [ ]</p>
+  </div>
 </section>
-<section class="slide escuro pessoa" id="t-04"><div class="pag">4/11</div>
-  <div class="foto-vazia">FOTO</div>
-  <div class="nome">Nina</div>
-  <p class="frase">“Cuidar, para mim, é <span class="lacuna">[resposta]</span>.”</p>
-  <p class="fora"><b>Fora daqui:</b> [o que gosta de fazer]</p>
-  <div class="handle">@fairhealth.br</div>
+<section class="slide pessoa" id="t-04" style="--tom:#7d8a78">
+  <div class="pag2">4/10</div>
+  <div class="aviso">FOTO DE RONALD<br><small>retrato, luz natural, fundo real</small></div>
+  <h2 class="nome-serif">Ronald</h2>
+  <div class="bloco">
+    <p class="citacao">“Cuidar é [resposta curta].”</p>
+    <p class="ama"><b>Ama:</b> [ ] &nbsp;|&nbsp; [ ] &nbsp;|&nbsp; [ ]</p>
+  </div>
 </section>
-<section class="slide off pessoa" id="t-05"><div class="pag">5/11</div>
-  <div class="foto-vazia">FOTO</div>
-  <div class="nome">Ronald</div>
-  <p class="frase">“Cuidar, para mim, é <span class="lacuna">[resposta]</span>.”</p>
-  <p class="fora"><b>Fora daqui:</b> [o que gosta de fazer]</p>
-  <div class="handle">@fairhealth.br</div>
+<section class="slide pessoa" id="t-05" style="--tom:#8a7f74">
+  <div class="pag2">5/10</div>
+  <div class="aviso">FOTO DE FLORIANA<br><small>retrato, luz natural, fundo real</small></div>
+  <h2 class="nome-serif">Floriana</h2>
+  <div class="bloco">
+    <p class="citacao">“Cuidar é [resposta curta].”</p>
+    <p class="ama"><b>Ama:</b> [ ] &nbsp;|&nbsp; [ ] &nbsp;|&nbsp; [ ]</p>
+  </div>
 </section>
-<section class="slide agua pessoa" id="t-06"><div class="pag">6/11</div>
-  <div class="foto-vazia">FOTO</div>
-  <div class="nome">Floriana</div>
-  <p class="frase">“Cuidar, para mim, é <span class="lacuna">[resposta]</span>.”</p>
-  <p class="fora"><b>Fora daqui:</b> [o que gosta de fazer]</p>
-  <div class="handle">@fairhealth.br</div>
+<section class="slide pessoa" id="t-06" style="--tom:#6d7f8c">
+  <div class="pag2">6/10</div>
+  <div class="aviso">FOTO DE RENATA<br><small>retrato, luz natural, fundo real</small></div>
+  <h2 class="nome-serif">Renata</h2>
+  <div class="bloco">
+    <p class="citacao">“Cuidar é [resposta curta].”</p>
+    <p class="ama"><b>Ama:</b> [ ] &nbsp;|&nbsp; [ ] &nbsp;|&nbsp; [ ]</p>
+  </div>
 </section>
-<section class="slide escuro pessoa" id="t-07"><div class="pag">7/11</div>
-  <div class="foto-vazia">FOTO</div>
-  <div class="nome">Renata</div>
-  <p class="frase">“Cuidar, para mim, é <span class="lacuna">[resposta]</span>.”</p>
-  <p class="fora"><b>Fora daqui:</b> [o que gosta de fazer]</p>
-  <div class="handle">@fairhealth.br</div>
+<section class="slide pessoa" id="t-07" style="--tom:#7f8a86">
+  <div class="pag2">7/10</div>
+  <div class="aviso">FOTO DE LILIANE<br><small>retrato, luz natural, fundo real</small></div>
+  <h2 class="nome-serif">Liliane</h2>
+  <div class="bloco">
+    <p class="citacao">“Cuidar é [resposta curta].”</p>
+    <p class="ama"><b>Ama:</b> [ ] &nbsp;|&nbsp; [ ] &nbsp;|&nbsp; [ ]</p>
+  </div>
 </section>
-<section class="slide off pessoa" id="t-08"><div class="pag">8/11</div>
-  <div class="foto-vazia">FOTO</div>
-  <div class="nome">Liliane</div>
-  <p class="frase">“Cuidar, para mim, é <span class="lacuna">[resposta]</span>.”</p>
-  <p class="fora"><b>Fora daqui:</b> [o que gosta de fazer]</p>
-  <div class="handle">@fairhealth.br</div>
+<section class="slide pessoa" id="t-08" style="--tom:#77857c">
+  <div class="pag2">8/10</div>
+  <div class="aviso">FOTO DE FERNANDO<br><small>retrato, luz natural, fundo real</small></div>
+  <h2 class="nome-serif">Fernando</h2>
+  <div class="bloco">
+    <p class="citacao">“Cuidar é [resposta curta].”</p>
+    <p class="ama"><b>Ama:</b> [ ] &nbsp;|&nbsp; [ ] &nbsp;|&nbsp; [ ]</p>
+  </div>
 </section>
-<section class="slide agua pessoa" id="t-09"><div class="pag">9/11</div>
-  <div class="foto-vazia">FOTO</div>
-  <div class="nome">Fernando</div>
-  <p class="frase">“Cuidar, para mim, é <span class="lacuna">[resposta]</span>.”</p>
-  <p class="fora"><b>Fora daqui:</b> [o que gosta de fazer]</p>
-  <div class="handle">@fairhealth.br</div>
+<section class="slide pessoa" id="t-09" style="--tom:#6f7a86">
+  <div class="pag2">9/10</div>
+  <div class="aviso">FOTO DE CHARLES<br><small>retrato, luz natural, fundo real</small></div>
+  <h2 class="nome-serif">Charles</h2>
+  <div class="bloco">
+    <p class="citacao">“Cuidar é [resposta curta].”</p>
+    <p class="ama"><b>Ama:</b> [ ] &nbsp;|&nbsp; [ ] &nbsp;|&nbsp; [ ]</p>
+  </div>
 </section>
-<section class="slide escuro pessoa" id="t-10"><div class="pag">10/11</div>
-  <div class="foto-vazia">FOTO</div>
-  <div class="nome">Charles</div>
-  <p class="frase">“Cuidar, para mim, é <span class="lacuna">[resposta]</span>.”</p>
-  <p class="fora"><b>Fora daqui:</b> [o que gosta de fazer]</p>
-  <div class="handle">@fairhealth.br</div>
-</section>
-<section class="slide agua" id="t-11"><div class="pag">11/11</div>
+<section class="slide fecho" id="t-10"><div class="pag">10/10</div>
+  <h1>Pessoas diferentes, <i>um mesmo jeito</i> de cuidar.</h1>
+  <p class="sub">E para você, o que é cuidar? Conta aqui nos comentários.</p>
   <img class="logo" src="../../marca/logo-circulo.png" alt="">
-  <h1 class="m">Histórias diferentes, <b>o mesmo jeito de cuidar.</b></h1>
-  <p class="sub">E para você, <b>o que é cuidar?</b> Conta aqui nos comentários.</p>
-  <div class="handle">@fairhealth.br</div>
 </section>
 </body></html>
