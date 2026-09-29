@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel do time (aprovação)</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
+<style>/* Base visual fairhealth para posts (modelo de estilo @fairedu.br). */
+:root{--escuro:#2F6B64;--agua:#96C3BA;--menta:#BFE0D9;--off:#F6F8F7;--tinta:#141B1B}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#ccc;font-family:Raleway,sans-serif}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;padding:150px 130px;margin:0 0 40px}
+.escuro{background:var(--escuro);color:#fff;--acento:var(--menta);--caixa:var(--agua)}
+.agua{background:var(--agua);color:var(--tinta);--acento:var(--escuro);--caixa:var(--off)}
+.off{background:var(--off);color:var(--tinta);--acento:var(--escuro);--caixa:var(--agua)}
+.foto{color:#fff;--acento:var(--menta);--caixa:var(--agua);background-size:cover;background-position:center}
+.foto::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(20,27,27,.45),rgba(20,27,27,.72))}
+.slide>*{position:relative}
+h1{font-size:96px;line-height:1.08;font-weight:400;letter-spacing:-.5px}
+h1.g{font-size:112px}
+h1.m{font-size:80px}
+b,em{font-weight:800;font-style:italic}
+.u{text-decoration:underline;text-decoration-thickness:7px;text-underline-offset:12px;text-decoration-color:var(--acento)}
+.cor{color:var(--acento)}
+.sub{font-size:44px;line-height:1.3;margin-top:44px;font-weight:400}
+.caixa{background:var(--caixa);color:var(--tinta);font-size:42px;line-height:1.35;padding:40px 48px;margin-top:56px}
+.caixa b{color:var(--escuro)}
+.num{font-size:150px;font-weight:800;font-style:italic;color:var(--acento);line-height:1;margin-bottom:36px}
+.lista{list-style:none;font-size:46px;line-height:1.3;margin-top:48px;text-align:left;width:100%}
+.lista li{padding:22px 0;border-bottom:3px solid color-mix(in srgb,var(--acento) 35%,transparent)}
+.lista li:last-child{border:0}
+.lista li span{font-weight:800;font-style:italic;color:var(--acento);margin-right:18px}
+.handle{position:absolute;bottom:64px;left:0;right:0;font-size:32px;font-weight:700}
+.pag{position:absolute;top:60px;right:70px;font-size:28px;font-weight:500;opacity:.6}
+.seta{position:absolute;bottom:130px;left:50%;transform:translateX(-50%);width:92px;height:92px;border-radius:50%;
+  background:var(--acento);color:var(--caixa);font-size:54px;font-weight:700;line-height:92px}
+.escuro .seta,.foto .seta{color:var(--escuro)}
+.agua .seta,.off .seta{color:#fff}
+.logo{width:170px;margin-bottom:48px}
+.lente{position:absolute;width:980px;height:520px;border-radius:50%;background:var(--menta);opacity:.55;left:50%;top:50%;transform:translate(-50%,-50%)}
+.slogan{font-size:34px;font-style:italic;margin-top:56px;opacity:.85}
+</style>
+<style>
+/* capa */
+.capa{justify-content:flex-end;align-items:flex-start;text-align:left;padding:140px 110px 190px}
+.capa .kicker{position:absolute;top:120px;left:110px;font-size:28px;font-weight:700;letter-spacing:8px;color:var(--menta)}
+.capa .kicker::after{content:"";display:block;width:90px;height:4px;background:var(--menta);margin-top:28px}
+.capa h1{font-size:220px;line-height:.92;font-weight:400;letter-spacing:-6px}
+.capa h1 b{color:var(--menta)}
+.capa .sub{margin-top:48px;font-size:40px;opacity:.9}
+.flecha{position:absolute;right:110px;bottom:48px;width:110px;height:110px;border-radius:50%;border:4px solid var(--menta);
+  display:flex;align-items:center;justify-content:center}
+.flecha svg{width:56px;height:56px}
+.capa .handle{left:110px;right:auto;bottom:80px}
+/* pessoa: foto em tela cheia, nome no topo, bloco com linha vertical embaixo */
+.pessoa{padding:0;color:#fff;background:linear-gradient(170deg,#4f8a82,#1f3f3b)}
+.pessoa::after{content:"";position:absolute;inset:0;z-index:3;background:linear-gradient(rgba(0,0,0,.18),transparent 28%,transparent 52%,rgba(10,20,19,.7))}
+.pessoa>*{position:absolute;z-index:1}
+.aviso{top:46%;left:50%;transform:translate(-50%,-50%);border:3px dashed rgba(255,255,255,.55);border-radius:24px;padding:36px 48px;
+  font-size:30px;font-weight:700;letter-spacing:4px;opacity:.8;line-height:1.6;z-index:0}
+.aviso small{font-size:24px;font-weight:500;letter-spacing:1px}
+.nome{top:70px;left:0;right:0;font-size:170px;font-weight:800;font-style:italic;letter-spacing:-4px;line-height:1}
+.bloco{right:90px;bottom:130px;width:600px;text-align:left;border-left:6px solid var(--agua);padding-left:32px}
+.desc{font-size:40px;line-height:1.25;font-weight:500}
+.pergunta{font-size:32px;line-height:1.35;margin-top:26px}
+.pergunta b{color:var(--menta)}
+.pessoa .pag{z-index:2}
+.com-foto{background-size:cover;background-position:center 30%}
+.com-foto .aviso{display:none}
+.recorte{inset:0;background-size:cover;z-index:2}
+.pessoa .nome{z-index:1}
+.pessoa .bloco,.pessoa .pag{z-index:4}
+</style></head><body>
+<section data-document-role="page" class="slide escuro capa" id="t-01">
+  <div class="kicker">FAIR HEALTH</div>
+  <h1>Nosso <b>time.</b></h1>
+  <p class="sub">Conheça quem cuida da saúde da sua empresa.</p>
+  <div class="flecha"><svg viewBox="0 0 24 24" fill="none" stroke="#BFE0D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+<section data-document-role="page" class="slide pessoa" id="t-02">
+  <div class="pag">2/10</div>
+  <div class="aviso">FOTO DE MARÍLIA<br><small>retrato em tela cheia</small></div>
+  <h2 class="nome">Marília</h2>
+  <div class="bloco">
+    <p class="desc">[pequena descrição]</p>
+    <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
+  </div>
+</section>
+<section data-document-role="page" class="slide pessoa com-foto" id="t-03" style="background-image:url(https://raw.githubusercontent.com/nina-rebello/Comunica-o-FH/claude/eager-bell-tblhnh/instagram/posts/time/fotos/nina-ext.jpg);background-position:center 0%">
+  <div class="pag">3/10</div>
+  <div class="aviso">FOTO DE NINA<br><small>retrato em tela cheia</small></div>
+  <h2 class="nome">Nina</h2>
+  <div class="recorte" style="background-image:url(https://raw.githubusercontent.com/nina-rebello/Comunica-o-FH/claude/eager-bell-tblhnh/instagram/posts/time/fotos/nina-recorte-ext.png);background-position:center 0%"></div>
+  <div class="bloco">
+    <p class="desc">[pequena descrição]</p>
+    <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
+  </div>
+</section>
+<section data-document-role="page" class="slide pessoa" id="t-04">
+  <div class="pag">4/10</div>
+  <div class="aviso">FOTO DE RONALD<br><small>retrato em tela cheia</small></div>
+  <h2 class="nome">Ronald</h2>
+  <div class="bloco">
+    <p class="desc">[pequena descrição]</p>
+    <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
+  </div>
+</section>
+<section data-document-role="page" class="slide pessoa com-foto" id="t-05" style="background-image:url(https://raw.githubusercontent.com/nina-rebello/Comunica-o-FH/claude/eager-bell-tblhnh/instagram/posts/time/fotos/floriana-ext.jpg);background-position:center 0%">
+  <div class="pag">5/10</div>
+  <div class="aviso">FOTO DE FLORIANA<br><small>retrato em tela cheia</small></div>
+  <h2 class="nome">Floriana</h2>
+  <div class="recorte" style="background-image:url(https://raw.githubusercontent.com/nina-rebello/Comunica-o-FH/claude/eager-bell-tblhnh/instagram/posts/time/fotos/floriana-recorte-ext.png);background-position:center 0%"></div>
+  <div class="bloco">
+    <p class="desc">[pequena descrição]</p>
+    <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
+  </div>
+</section>
+<section data-document-role="page" class="slide pessoa com-foto" id="t-06" style="background-image:url(https://raw.githubusercontent.com/nina-rebello/Comunica-o-FH/claude/eager-bell-tblhnh/instagram/posts/time/fotos/renata.jpg);background-position:center 35%">
+  <div class="pag">6/10</div>
+  <div class="aviso">FOTO DE RENATA<br><small>retrato em tela cheia</small></div>
+  <h2 class="nome">Renata</h2>
+  <div class="recorte" style="background-image:url(https://raw.githubusercontent.com/nina-rebello/Comunica-o-FH/claude/eager-bell-tblhnh/instagram/posts/time/fotos/renata-recorte.png);background-position:center 35%"></div>
+  <div class="bloco">
+    <p class="desc">[pequena descrição]</p>
+    <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
+  </div>
+</section>
+<section data-document-role="page" class="slide pessoa" id="t-07">
+  <div class="pag">7/10</div>
+  <div class="aviso">FOTO DE LILIANE<br><small>retrato em tela cheia</small></div>
+  <h2 class="nome">Liliane</h2>
+  <div class="bloco">
+    <p class="desc">[pequena descrição]</p>
+    <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
+  </div>
+</section>
+<section data-document-role="page" class="slide pessoa" id="t-08">
+  <div class="pag">8/10</div>
+  <div class="aviso">FOTO DE FERNANDO<br><small>retrato em tela cheia</small></div>
+  <h2 class="nome">Fernando</h2>
+  <div class="bloco">
+    <p class="desc">[pequena descrição]</p>
+    <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
+  </div>
+</section>
+<section data-document-role="page" class="slide pessoa" id="t-09">
+  <div class="pag">9/10</div>
+  <div class="aviso">FOTO DE CHARLES<br><small>retrato em tela cheia</small></div>
+  <h2 class="nome">Charles</h2>
+  <div class="bloco">
+    <p class="desc">[pequena descrição]</p>
+    <p class="pergunta"><b>O que é importante para você?</b><br>[resposta]</p>
+  </div>
+</section>
+<section data-document-role="page" class="slide escuro" id="t-10"><div class="pag">10/10</div>
+  <h1 class="m">Pessoas diferentes, <b class="cor">um mesmo jeito de cuidar.</b></h1>
+  <p class="sub">E para você, <b>o que é importante?</b> Conta aqui nos comentários.</p>
+  <img class="logo" src="https://raw.githubusercontent.com/nina-rebello/Comunica-o-FH/claude/eager-bell-tblhnh/instagram/marca/logo-circulo.png" alt="" style="margin:64px 0 0">
+  <div class="handle">@fairhealth.br</div>
+</section>
+</body></html>

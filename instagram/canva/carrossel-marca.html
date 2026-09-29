@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel de apresentação da marca</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
+<style>/* Base visual fairhealth para posts (modelo de estilo @fairedu.br). */
+:root{--escuro:#2F6B64;--agua:#96C3BA;--menta:#BFE0D9;--off:#F6F8F7;--tinta:#141B1B}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#ccc;font-family:Raleway,sans-serif}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;padding:150px 130px;margin:0 0 40px}
+.escuro{background:var(--escuro);color:#fff;--acento:var(--menta);--caixa:var(--agua)}
+.agua{background:var(--agua);color:var(--tinta);--acento:var(--escuro);--caixa:var(--off)}
+.off{background:var(--off);color:var(--tinta);--acento:var(--escuro);--caixa:var(--agua)}
+.foto{color:#fff;--acento:var(--menta);--caixa:var(--agua);background-size:cover;background-position:center}
+.foto::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(20,27,27,.45),rgba(20,27,27,.72))}
+.slide>*{position:relative}
+h1{font-size:96px;line-height:1.08;font-weight:400;letter-spacing:-.5px}
+h1.g{font-size:112px}
+h1.m{font-size:80px}
+b,em{font-weight:800;font-style:italic}
+.u{text-decoration:underline;text-decoration-thickness:7px;text-underline-offset:12px;text-decoration-color:var(--acento)}
+.cor{color:var(--acento)}
+.sub{font-size:44px;line-height:1.3;margin-top:44px;font-weight:400}
+.caixa{background:var(--caixa);color:var(--tinta);font-size:42px;line-height:1.35;padding:40px 48px;margin-top:56px}
+.caixa b{color:var(--escuro)}
+.num{font-size:150px;font-weight:800;font-style:italic;color:var(--acento);line-height:1;margin-bottom:36px}
+.lista{list-style:none;font-size:46px;line-height:1.3;margin-top:48px;text-align:left;width:100%}
+.lista li{padding:22px 0;border-bottom:3px solid color-mix(in srgb,var(--acento) 35%,transparent)}
+.lista li:last-child{border:0}
+.lista li span{font-weight:800;font-style:italic;color:var(--acento);margin-right:18px}
+.handle{position:absolute;bottom:64px;left:0;right:0;font-size:32px;font-weight:700}
+.pag{position:absolute;top:60px;right:70px;font-size:28px;font-weight:500;opacity:.6}
+.seta{position:absolute;bottom:130px;left:50%;transform:translateX(-50%);width:92px;height:92px;border-radius:50%;
+  background:var(--acento);color:var(--caixa);font-size:54px;font-weight:700;line-height:92px}
+.escuro .seta,.foto .seta{color:var(--escuro)}
+.agua .seta,.off .seta{color:#fff}
+.logo{width:170px;margin-bottom:48px}
+.lente{position:absolute;width:980px;height:520px;border-radius:50%;background:var(--menta);opacity:.55;left:50%;top:50%;transform:translate(-50%,-50%)}
+.slogan{font-size:34px;font-style:italic;margin-top:56px;opacity:.85}
+</style>
+<style>
+/* capa: mesma composição da capa do time */
+.capa{justify-content:flex-end;align-items:flex-start;text-align:left;padding:140px 110px 200px}
+.capa .kicker{position:absolute;top:120px;left:110px;font-size:28px;font-weight:700;letter-spacing:8px;color:var(--menta)}
+.capa .kicker::after{content:"";display:block;width:90px;height:4px;background:var(--menta);margin-top:28px}
+.capa h1{font-size:128px;line-height:1;font-weight:400;letter-spacing:-3px}
+.capa h1 b{color:var(--menta)}
+.capa .sub{margin-top:44px;font-size:40px;opacity:.9}
+.flecha{position:absolute;right:110px;bottom:48px;width:110px;height:110px;border-radius:50%;border:4px solid var(--menta);
+  display:flex;align-items:center;justify-content:center}
+.flecha svg{width:56px;height:56px}
+.capa .handle{left:110px;right:auto;bottom:80px}
+.pergunta-grande{font-size:104px;line-height:1.05;margin:36px 0 12px}
+</style></head><body>
+
+<section data-document-role="page" class="slide escuro capa" id="m-01">
+  <div class="kicker">BEM-VINDOS À FAIR HEALTH</div>
+  <h1>O afastamento <b>não começa</b> no atestado.</h1>
+  <p class="sub">Por que a FAIR HEALTH existe.</p>
+  <div class="flecha"><svg viewBox="0 0 24 24" fill="none" stroke="#BFE0D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<section data-document-role="page" class="slide agua" id="m-02"><div class="pag">2/9</div>
+  <h1>Quando vira atestado, o adoecimento <b>já começou faz tempo.</b></h1>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<section data-document-role="page" class="slide escuro" id="m-03"><div class="pag">3/9</div>
+  <h1>O RH costuma enxergar só <b class="u">o fim da história:</b></h1>
+  <div class="caixa"><b>atestado</b>, <b>afastamento</b> e <b>sinistro</b> no plano de saúde. O começo não aparece em nenhum relatório.</div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<section data-document-role="page" class="slide off" id="m-04"><div class="pag">4/9</div>
+  <h1 class="m">E o começo <b>é pequeno.</b></h1>
+  <ul class="lista">
+    <li><span>·</span>Sono ruim</li><li><span>·</span>Estresse acumulado</li>
+    <li><span>·</span>Um hábito que escorrega</li><li><span>·</span>Uma dor que ninguém trata</li>
+  </ul>
+  <p class="sub">Tudo isso acontece <b>dentro do expediente.</b></p>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<section data-document-role="page" class="slide agua" id="m-05"><div class="pag">5/9</div>
+  <div class="lente"></div>
+  <h1>Por isso levamos o cuidado <b>para dentro</b> da empresa.</h1>
+  <p class="sub">Médicos, psicólogos e assistentes sociais onde o time <b>já está.</b></p>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<section data-document-role="page" class="slide escuro" id="m-06"><div class="pag">6/9</div>
+  <p class="sub" style="margin:0">E todo cuidado começa com uma pergunta:</p>
+  <h1 class="pergunta-grande"><b class="cor">O que importa para você?</b></h1>
+  <div class="caixa">Rotina, objetivos e contexto viram um <b>plano de cuidado individual</b>, baseado na Medicina do Estilo de Vida.</div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<section data-document-role="page" class="slide off" id="m-07"><div class="pag">7/9</div>
+  <h1>E <b>comprovamos</b> com dados.</h1>
+  <div class="caixa">Cuidado sem dado é intenção. O RH recebe <b>relatórios anonimizados</b>. Nenhum dado individual.</div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<section data-document-role="page" class="slide agua" id="m-08"><div class="pag">8/9</div>
+  <h1 class="m">Por que <b>existimos</b></h1>
+  <ul class="lista">
+    <li><span>1</span>O adoecimento começa antes do atestado.</li>
+    <li><span>2</span>O RH só vê o fim da história.</li>
+    <li><span>3</span>O cuidado precisa estar perto.</li>
+    <li><span>4</span>Cada pessoa tem um plano.</li>
+    <li><span>5</span>Comprovamos com dados.</li>
+  </ul>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<section data-document-role="page" class="slide escuro" id="m-09"><div class="pag">9/9</div>
+  <img class="logo" src="https://raw.githubusercontent.com/nina-rebello/Comunica-o-FH/claude/eager-bell-tblhnh/instagram/marca/logo-circulo.png" alt="">
+  <h1 class="m">Siga <b class="cor">@fairhealth.br</b></h1>
+  <p class="sub">e conheça <b>quem cuida.</b></p>
+  <p class="slogan">« Fazemos o certo pelos motivos certos »</p>
+</section>
+</body></html>
