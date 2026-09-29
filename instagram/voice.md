@@ -52,9 +52,12 @@ português do Brasil.
   leitura. De 1 a 3 por post, sempre funcionais (✅ 📊 💙). Nenhum emoji no meio
   de um dado sério. Nunca no gancho.
 - **Rosto no vídeo:** revezamos os rostos do time.
-  - **Dr. Ronald** e **Dra. Floriana**: autoridade clínica e NR-01.
-  - **Dra. Marília**: acompanhamento clínico (aparece nos depoimentos).
-  - **Nina**: narra os conteúdos de dados e os bastidores.
+  - **Time (8 pessoas):** Fernando Brancaccio, Charles Beck Varani, Dr. Ronald
+    Maia Filho, Dra. Renata Livramento, Dra. Floriana, Liliane Gallo,
+    Dra. Marília e Nina Rebello.
+  - **Nos posts do time:** sem foco em cargo ou função (pedido do sócio).
+    Destacar características humanas e a resposta de cada um a "O que importa
+    para você?".
   - Colaboradores atendidos **nunca aparecem**.
 - **Voiceover ou para a câmera:** para a câmera nos conteúdos clínicos e de
   NR-01; narração nos conteúdos de dados e bastidores.
