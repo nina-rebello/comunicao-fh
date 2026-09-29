@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel da marca: opções com foto do espaço</title>
+<link rel="stylesheet" href="../../marca/base.css">
+<style>
+/* fundo: foto do projeto arquitetônico com véu escuro para leitura */
+.foto-espaco{color:#fff;background-size:cover;--acento:var(--menta);--caixa:var(--agua)}
+.foto-espaco::before{content:"";position:absolute;inset:0;background:rgba(20,27,27,.55)}
+.foto-espaco.claro::before{background:rgba(20,27,27,.42)}
+.foto-espaco h1{font-size:104px;line-height:1.1;text-shadow:0 2px 24px rgba(0,0,0,.25)}
+.foto-espaco .sub{font-size:40px}
+.foto-espaco .marca{font-weight:800;font-style:italic}
+.foto-espaco .u{text-decoration-color:var(--menta)}
+.seta-cheia{position:absolute;bottom:170px;left:50%;transform:translateX(-50%);width:92px;height:92px;border-radius:50%;
+  background:var(--menta);display:flex;align-items:center;justify-content:center}
+.seta-cheia svg{width:44px;height:44px}
+</style></head><body>
+
+<section class="slide foto-espaco" id="m-01-foto" style="background-image:url(../../marca/espaco/sala-atendimento-e-espera.jpg);background-position:52% center">
+  <h1>O afastamento <b>não começa</b> no atestado.</h1>
+  <p class="sub">Por que a <span class="marca">fairhealth</span> existe.</p>
+  <div class="seta-cheia"><svg viewBox="0 0 24 24" fill="none" stroke="#2F6B64" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<section class="slide foto-espaco claro" id="m-05-foto" style="background-image:url(../../marca/espaco/recepcao-parede-pedra.jpg);background-position:30% 20%;background-size:auto 118%"><div class="pag">6/9</div>
+  <h1>Por isso levamos o cuidado <b class="u">para dentro</b> da empresa.</h1>
+  <p class="sub">Médicos, psicólogos e assistentes sociais onde o time <b>já está.</b></p>
+  <div class="handle">@fairhealth.br</div>
+</section>
+</body></html>
