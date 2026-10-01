@@ -77,6 +77,8 @@ Antes de exame, antes de número, a gente quer saber da sua rotina, do seu traba
 
 O Escritório do Cuidado fica dentro da empresa, perto de onde você já está. Lá, médicos e psicólogos se revezam para montar com você um cuidado que caiba na sua vida, com base na Medicina do Estilo de Vida.
 
+O objetivo da fairhealth é melhorar a qualidade de vida de quem trabalha, com um cuidado feito para cada pessoa e acompanhado de perto.
+
 E o que você conta fica entre você e quem cuida.
 
 Arrasta para o lado para ver como funciona.
