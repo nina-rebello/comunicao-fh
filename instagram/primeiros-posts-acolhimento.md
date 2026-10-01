@@ -50,18 +50,23 @@ Seja bem-vindo. Nos próximos dias, você vai conhecer quem cuida por aqui.
 
 **Gancho (capa):** Aqui, o cuidado começa com uma pergunta. (sub: Como funciona o Escritório do Cuidado)
 
+A ordem segue a dinâmica real das consultas (ver `instagram/essencia.md`).
+
 | Slide | Texto | Fundo sugerido |
 | --- | --- | --- |
 | 1 · Capa | **Aqui, o cuidado começa com uma pergunta.** / Como funciona o Escritório do Cuidado. | foto da recepção |
-| 2 | **O que é importante para você?** / É assim que toda conversa começa. Antes de exame, antes de número. | verde |
-| 3 · Escuta | **Primeiro, a gente ouve.** / Sua rotina, seu trabalho, o que anda pesando e o que você gostaria de mudar. | água |
-| 4 · O espaço | **Fica dentro da empresa.** / Pertinho de onde você já está. Sem deslocamento, sem fila. | foto da copa |
-| 5 · Quem cuida | **Gente que cuida de gente.** / Médicos, psicólogos e assistentes sociais. Cada um olha para uma parte da sua vida. | verde |
-| 6 · Ponto de partida | **Entender antes de propor.** / Quando faz sentido, a gente olha sono, hábitos e composição corporal. Para conhecer você, não para julgar. | off |
-| 7 · O plano | **O plano é seu.** / As metas são combinadas com você, do tamanho da sua rotina, com base na Medicina do Estilo de Vida. | água |
-| 8 · Acompanhamento | **E a gente caminha junto.** / Nos retornos, ajustamos o plano sempre que a vida muda. | foto da sala |
+| 2 · O espaço | **Fica dentro da empresa.** / Pertinho de onde você já está. Sem deslocamento, sem fila. | foto da copa |
+| 3 · Quem cuida | **Gente que cuida de gente.** / Médicos e psicólogos que se revezam no espaço, olhando para a pessoa inteira. | verde |
+| 4 · Anamnese | **Primeiro, a gente te conhece.** / Uma conversa sobre sua rotina, seus hábitos e sua saúde. | água |
+| 5 · A pergunta | **E pergunta: o que é importante para você?** / É a partir da sua resposta que o cuidado ganha sentido. | verde |
+| 6 · Ponto de partida | **Entender antes de propor.** / Bioimpedância e uma smartband por 48 horas, para conhecer seu sono e seu dia a dia de verdade. Para entender, não para julgar. | off |
+| 7 · O plano | **O plano é seu.** / Ações nos pilares da Medicina do Estilo de Vida, montadas a partir do que é importante para você. | água |
+| 8 · Retorno | **No retorno, a gente explica cada passo.** / E segue junto, ajustando o plano quando a vida muda. | foto da sala |
 | 9 · Sigilo | **O que você conta fica aqui.** / Fica entre você e quem cuida. A empresa só vê dados do grupo, sem identificar ninguém. | verde |
 | 10 · CTA | **E para você, o que é importante?** / Conta pra gente nos comentários. @fairhealth.br | verde |
+
+**[PENDENTE]** Assistentes sociais: o Executive Summary fala em médicos e psicólogos.
+Confirmar se o serviço social faz parte do atendimento antes de citar.
 
 **Legenda:**
 
@@ -80,6 +85,14 @@ Arrasta para o lado para ver como funciona.
 ```
 
 **CTA:** Comente: e para você, o que é importante?
+
+## Sugestão: post de origem (semana 2)
+
+**"Tudo começou num hospital."** Carrossel ou Reel contando a história da
+`essencia.md`: o Escritório do Paciente (2009) colocou o paciente no centro do
+cuidado; a ideia evoluiu com os "Aims" da saúde e virou o Escritório do Cuidado,
+agora com o colaborador no centro. Cabe no lugar do ID 6 (12/10) ou do ID 9
+(15/10). **[PENDENTE]** Quem idealizou o Escritório do Paciente.
 
 ## ID 5 · Método com os verbos de quem é atendido
 
