@@ -75,7 +75,7 @@ Aqui, o cuidado começa com uma pergunta: o que é importante para você?
 
 Antes de exame, antes de número, a gente quer saber da sua rotina, do seu trabalho, do que anda pesando e do que você gostaria de mudar.
 
-O Escritório do Cuidado fica dentro da empresa, perto de onde você já está. Lá estão médicos, psicólogos e assistentes sociais, para montar com você um cuidado que caiba na sua vida, com base na Medicina do Estilo de Vida.
+O Escritório do Cuidado fica dentro da empresa, perto de onde você já está. Lá, médicos e psicólogos se revezam para montar com você um cuidado que caiba na sua vida, com base na Medicina do Estilo de Vida.
 
 E o que você conta fica entre você e quem cuida.
 
