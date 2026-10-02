@@ -22,65 +22,50 @@ CSS = f"""
 @font-face{{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}}
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{font-family:Raleway,sans-serif;background:#ccc}}
-.slide{{width:1080px;height:1350px;position:relative;overflow:hidden;margin:0 0 40px}}
-.slide>*{{position:absolute}}
-.k{{font-size:26px;font-weight:700;letter-spacing:8px;display:flex;align-items:center;gap:22px}}
-.k i{{display:block;width:64px;height:4px;background:currentColor}}
-h1{{font-weight:400;line-height:1.02;letter-spacing:-2px}}
+.slide{{width:1080px;height:1350px;position:relative;overflow:hidden;margin:0 0 40px;padding:0 120px;
+  display:flex;flex-direction:column;justify-content:center}}
+.k{{position:absolute;top:120px;left:120px;font-size:24px;font-weight:700;letter-spacing:8px}}
+.pag{{position:absolute;top:120px;right:120px;font-size:24px;font-weight:500;opacity:.6}}
+.handle{{position:absolute;bottom:110px;left:120px;font-size:26px;font-weight:700}}
+.traco{{width:72px;height:6px;margin-bottom:56px}}
+h1{{font-size:132px;font-weight:400;line-height:1.02;letter-spacing:-2.5px}}
 h1 b{{font-weight:800;font-style:italic;letter-spacing:-1px}}
-.p{{font-size:40px;line-height:1.35}}
-.p b{{font-weight:800;font-style:italic}}
-.pag{{top:96px;right:96px;font-size:28px;font-weight:500;opacity:.7}}
-.handle{{bottom:84px;left:96px;font-size:30px;font-weight:700}}
-.num{{font-size:1100px;font-weight:800;font-style:italic;line-height:.8;letter-spacing:-40px}}
-.pill{{display:inline-block;font-size:34px;font-weight:700;padding:20px 36px;border-radius:60px;margin:0 14px 16px 0}}
+.p{{font-size:38px;line-height:1.4;margin-top:56px;max-width:720px;opacity:.9}}
+.centro{{align-items:center;text-align:center}}
+.centro .p{{margin-left:auto;margin-right:auto}}
 """
 
-def marca(cor):
-    return f"background:linear-gradient(transparent 74%,{cor} 74%,{cor} 94%,transparent 94%)"
-
 def slides(slug, hexa, escura):
-    escura_txt = slug in ('ameixa', 'petroleo')          # a cor serve como cor de texto nos fundos claros
-    tinta = hexa if escura_txt else TINTA                  # texto nos fundos creme e base
-    sobre = CREME if escura else TINTA                     # texto sobre o fundo da cor
-    kw_creme = f'color:{hexa};{marca(BASE)}' if escura else f'color:{TINTA};{marca(hexa)}'
-    kw_base = f'color:{hexa}' if escura_txt else f'color:{TINTA};{marca(hexa)}'
-    kw_sobre = f'color:{BASE}' if escura else f'color:{TINTA};{marca(CREME)}'
+    escura_txt = slug in ('ameixa', 'petroleo')      # a cor tem contraste para ser letra nos fundos claros
+    tinta = hexa if escura_txt else TINTA
+    sobre = CREME if escura else TINTA
+    sub = lambda cor: f'text-decoration:underline;text-decoration-color:{cor};text-decoration-thickness:8px;text-underline-offset:16px'
+    kw_creme = f'color:{hexa}' if escura else f'color:{TINTA};{sub(hexa)}'
+    kw_base = f'color:{hexa}' if escura_txt else f'color:{TINTA};{sub(hexa)}'
+    kw_sobre = f'color:{BASE}' if escura else f'color:{TINTA};{sub(CREME)}'
     if slug == 'framboesa':
-        kw_sobre = f'color:{CREME}'
-    on = CREME if escura else TINTA                        # texto dentro de etiqueta/botão na cor
-    pilares = ''.join(f'<span class="pill" style="border:3px solid {sobre};color:{sobre}">{p}</span>'
-                      for p in ['Alimentação', 'Movimento', 'Sono', 'Estresse', 'Vícios', 'Relações'])
+        kw_sobre = f'color:{CREME};{sub(CREME)}'
+    traco_creme = hexa
     return f"""
 <section class="slide" id="{slug}-1" style="background:{CREME};color:{tinta}">
-  <div class="num" style="right:-70px;bottom:-140px;font-size:940px;color:{BASE};opacity:.5">3</div>
-  <div class="pag">6/10</div>
-  <div class="k" style="left:96px;top:96px"><i></i>PASSO 3</div>
-  <h1 style="left:96px;top:250px;width:900px;font-size:128px">Entender<br><b style="{kw_creme}">antes de<br>propor.</b></h1>
-  <div style="left:96px;top:700px;width:900px">
-    <span class="pill" style="background:{hexa};color:{on}">Bioimpedância</span><span class="pill" style="background:{hexa};color:{on}">Smartband por 48 horas</span>
-  </div>
-  <p class="p" style="left:96px;top:870px;width:640px">Para conhecer seu sono e seu dia a dia de verdade.<br><b>Para entender, não para julgar.</b></p>
+  <div class="k">PASSO 3</div><div class="pag">6/10</div>
+  <div class="traco" style="background:{traco_creme}"></div>
+  <h1>Entender<br><b style="{kw_creme}">antes de propor.</b></h1>
+  <p class="p">Bioimpedância e smartband por 48 horas. Para entender, não para julgar.</p>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide" id="{slug}-2" style="background:{BASE};color:{tinta}">
-  <div style="left:50%;top:50%;width:1240px;height:1240px;margin:-620px 0 0 -620px;border-radius:50%;border:3px solid {tinta};opacity:.18"></div>
-  <div style="left:50%;top:50%;width:900px;height:900px;margin:-450px 0 0 -450px;border-radius:50%;background:{CREME};opacity:.35"></div>
+<section class="slide centro" id="{slug}-2" style="background:{BASE};color:{tinta}">
   <div class="pag">10/10</div>
-  <img src="../../marca/logo-circulo.png" style="left:50%;top:150px;width:170px;margin-left:-85px;border-radius:50%;box-shadow:0 0 0 14px {CREME}">
-  <div class="k" style="left:0;right:0;top:420px;justify-content:center">E PARA VOCÊ,</div>
-  <h1 style="left:70px;right:70px;top:490px;text-align:center;font-size:136px">o que é <b style="{kw_base}">importante?</b></h1>
-  <div style="left:0;right:0;top:880px;text-align:center"><span class="pill" style="background:{hexa};color:{on};font-size:38px;padding:28px 56px;margin:0">Conta pra gente nos comentários</span></div>
-  <p style="left:0;right:0;top:1030px;text-align:center;font-size:30px;font-style:italic">« Fazemos o certo pelos motivos certos »</p>
+  <div class="traco" style="background:{hexa}"></div>
+  <h1 style="font-size:124px">E para você,<br><b style="{kw_base}">o que é importante?</b></h1>
+  <p class="p">Conta pra gente nos comentários.</p>
   <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
 </section>
 <section class="slide" id="{slug}-3" style="background:{hexa};color:{sobre}">
-  <div class="num" style="right:-170px;top:-330px;color:{BASE};opacity:{'.22' if escura else '.35'}">4</div>
-  <div class="pag">7/10</div>
-  <div class="k" style="left:96px;top:96px"><i></i>PASSO 4</div>
-  <h1 style="left:96px;top:330px;font-size:150px">O plano<br><b style="{kw_sobre}">é seu.</b></h1>
-  <p class="p" style="left:96px;top:690px;width:860px">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
-  <div style="left:96px;top:900px;width:900px">{pilares}</div>
+  <div class="k">PASSO 4</div><div class="pag">7/10</div>
+  <div class="traco" style="background:{BASE if escura else TINTA}"></div>
+  <h1 style="font-size:150px">O plano<br><b style="{kw_sobre}">é seu.</b></h1>
+  <p class="p">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida.</p>
   <div class="handle">@fairhealth.br</div>
 </section>"""
 
