@@ -66,14 +66,13 @@ def slides(slug, hexa, escura):
   <p class="sub">Para conhecer seu sono e seu dia a dia de verdade. <b>Para entender, não para julgar.</b></p>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide centro" id="{slug}-2" style="background:{BASE};color:{TINTA};justify-content:center;padding:0">
-  <div style="position:absolute;left:50%;top:50%;width:1320px;height:1320px;margin:-660px 0 0 -660px;border-radius:50%;background:{CREME}"></div>
-  <div style="position:relative;width:860px;text-align:center">
-    <p style="font-size:64px;font-weight:400;line-height:1.1;color:{tinta}">E para você,</p>
-    <h1 style="font-size:148px;line-height:.98;letter-spacing:-3px;margin-top:10px;color:{hexa if (escura) else TINTA}"><b>o que é importante?</b></h1>
-    <p style="font-size:54px;line-height:1.55;margin-top:56px;font-weight:500"><span style="background:{hexa};color:{pill_on};padding:2px 14px;box-decoration-break:clone;-webkit-box-decoration-break:clone">Conta pra gente</span><br><span style="background:{hexa};color:{pill_on};padding:2px 14px;box-decoration-break:clone;-webkit-box-decoration-break:clone">nos comentários.</span></p>
-  </div>
-  <div class="handle" style="left:0;right:0;text-align:center;bottom:60px">@fairhealth.br</div>
+<section class="slide centro" id="{slug}-2" style="background:{BASE};color:{TINTA};justify-content:center;padding:0 120px"><div class="pag">10/10</div>
+  <div style="width:96px;height:8px;background:{hexa};margin-bottom:64px"></div>
+  <p style="font-size:64px;font-weight:400;line-height:1.1">E para você,</p>
+  <h1 style="font-size:150px;line-height:.98;letter-spacing:-3px;margin-top:10px"><b>o que é <span style="text-decoration:underline;text-decoration-color:{hexa};text-decoration-thickness:12px;text-underline-offset:18px">importante?</span></b></h1>
+  <p style="font-size:44px;line-height:1.4;margin-top:72px">Conta pra gente nos comentários.</p>
+  <div style="margin-top:56px;width:110px;height:110px;border-radius:50%;background:{hexa};display:flex;align-items:center;justify-content:center"><svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="{pill_on}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div>
+  <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
 </section>
 <section class="slide" id="{slug}-3" style="background:{hexa};color:{sobre}"><div class="pag">7/10</div>
   <div class="passo"><div class="n" style="background:{BASE};color:{tinta if slug in ('ameixa','petroleo') else TINTA}">4</div><div class="t">PASSO 4</div></div>
