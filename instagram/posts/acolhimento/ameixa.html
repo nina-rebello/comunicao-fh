@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel acolhimento: paleta verde-água + ameixa</title>
+<link rel="stylesheet" href="../../marca/base.css">
+<style>
+/* Paleta em teste: verde-água #9FC5BD (167°, claro) + ameixa #603A42 (347°, escuro).
+   Opostas no círculo e com claridade espelhada: contraste 5,1 entre as duas. */
+:root{--verde:#9FC5BD;--ameixa:#603A42;--creme:#F6F1EA;--rose:#EBDCDD;--verde-claro:#D6E8E3}
+.slide{align-items:flex-start;text-align:left;padding:120px 110px;justify-content:center}
+.slide>.handle,.slide>.pag,.slide>.seta,.slide>.circulo{position:absolute}
+.kicker{font-size:26px;font-weight:700;letter-spacing:7px;text-transform:uppercase;margin-bottom:44px}
+.kicker::after{content:"";display:block;width:72px;height:4px;background:currentColor;margin-top:24px}
+h1{font-size:104px;line-height:1.04;letter-spacing:-1.5px;font-weight:400}
+h1 b{font-weight:800;font-style:italic}
+.sub{font-size:42px;line-height:1.32;margin-top:40px;max-width:820px}
+.handle{left:110px;right:auto;text-align:left;bottom:72px;font-size:30px}
+.pag{top:72px;right:110px;opacity:.7}
+.seta{left:auto;right:110px;bottom:56px;transform:none;width:104px;height:104px;border-radius:50%;display:flex;align-items:center;justify-content:center;line-height:1}
+.seta svg{width:50px;height:50px}
+
+/* fundos */
+.f-verde{background:var(--verde);color:var(--ameixa)}
+.f-ameixa{background:var(--ameixa);color:var(--creme)}
+.f-creme{background:var(--creme);color:var(--ameixa)}
+.f-foto{color:var(--creme);background-size:cover}
+.f-foto::before{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(96,58,66,.05) 0%,rgba(96,58,66,.35) 38%,rgba(70,40,47,.93) 78%)}
+.f-foto{justify-content:flex-end;padding-bottom:210px}
+.escuro-mais::before{background:linear-gradient(180deg,rgba(96,58,66,.15) 0%,rgba(80,46,54,.78) 34%,rgba(70,40,47,.95) 70%)}
+
+/* destaques */
+.em-verde{color:var(--verde)}
+.sublinha{background:linear-gradient(transparent 78%,var(--verde) 78%,var(--verde) 92%,transparent 92%)}
+.sublinha-a{background:linear-gradient(transparent 80%,rgba(96,58,66,.28) 80%)}
+
+/* elementos */
+.passo{display:flex;align-items:center;gap:28px;margin-bottom:56px}
+.passo .n{width:132px;height:132px;border-radius:50%;border:4px solid currentColor;display:flex;align-items:center;justify-content:center;
+  font-size:56px;font-weight:800;font-style:italic}
+.passo .t{font-size:26px;font-weight:700;letter-spacing:7px}
+.circulo{position:absolute;border-radius:50%;pointer-events:none}
+.pills{display:flex;flex-wrap:wrap;gap:18px;margin-top:52px;max-width:860px}
+.pill{font-size:32px;font-weight:700;padding:18px 32px;border-radius:60px}
+.cartao{margin-top:52px;padding:44px 52px;font-size:40px;line-height:1.35;border-radius:28px;max-width:860px}
+.cartao b{font-weight:800;font-style:italic}
+.split{padding:0;justify-content:flex-start}
+.split .foto{width:100%;height:700px;background-size:cover;background-position:42% 40%}
+.split .painel{flex:1;width:100%;padding:90px 110px 0}
+.icone{width:150px;height:150px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:60px}
+.icone svg{width:72px;height:72px}
+.centro{align-items:center;text-align:center}
+.centro .sub{margin-left:auto;margin-right:auto}
+.botao{display:inline-block;margin-top:56px;font-size:36px;font-weight:700;padding:26px 52px;border-radius:70px}
+.assina{font-size:30px;font-style:italic;margin-top:52px;opacity:.85}
+.logo-c{width:180px;margin-bottom:64px}
+</style></head><body>
+
+<!-- 1 · capa -->
+<section class="slide f-foto" id="b-01" style="background-image:url(../../marca/espaco/recepcao-parede-pedra.jpg);background-position:30% 18%;background-size:auto 118%">
+  <div class="kicker em-verde">Escritório do Cuidado</div>
+  <h1>Aqui, o cuidado começa com <b class="em-verde">uma pergunta.</b></h1>
+  <div class="seta" style="background:var(--verde)"><svg viewBox="0 0 24 24" fill="none" stroke="#603A42" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 2 · o espaço -->
+<section class="slide split f-verde" id="b-02">
+  <div class="foto" style="background-image:url(../../marca/espaco/copa-parede-verde.jpg)"></div>
+  <div class="painel">
+    <h1 style="font-size:92px">Fica <b><span class="sublinha-a">dentro da empresa.</span></b></h1>
+    <p class="sub" style="margin-top:32px">Pertinho de onde você já está. Sem deslocamento, sem fila.</p>
+  </div>
+  <div class="pag" style="color:#fff">2/10</div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 3 · quem cuida -->
+<section class="slide f-ameixa" id="b-03"><div class="pag">3/10</div>
+  <div class="circulo" style="width:820px;height:820px;right:-300px;top:-240px;border:3px solid rgba(159,197,189,.45)"></div>
+  <div class="circulo" style="width:520px;height:520px;right:-120px;top:-60px;background:rgba(159,197,189,.12)"></div>
+  <div class="kicker em-verde">Quem cuida</div>
+  <h1>Gente que cuida <b class="em-verde">de gente.</b></h1>
+  <p class="sub">Médicos e psicólogos que se revezam no espaço, olhando para a pessoa inteira.</p>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 4 · passo 1 -->
+<section class="slide f-creme" id="b-04"><div class="pag">4/10</div>
+  <div class="passo"><div class="n" style="color:var(--ameixa);background:var(--verde);border-color:var(--verde)">1</div><div class="t">PASSO 1</div></div>
+  <h1>Primeiro, a gente <b><span class="sublinha">te conhece.</span></b></h1>
+  <p class="sub">Uma conversa sobre sua rotina, seus hábitos e sua saúde.</p>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 5 · passo 2: a pergunta -->
+<section class="slide f-verde centro" id="b-05"><div class="pag">5/10</div>
+  <div class="circulo" style="width:980px;height:980px;left:50%;top:50%;transform:translate(-50%,-54%);background:var(--verde-claro)"></div>
+  <div class="passo" style="justify-content:center;margin-bottom:40px"><div class="t">PASSO 2 · A PERGUNTA</div></div>
+  <h1 style="font-size:128px;line-height:1">O que é <b>importante</b> para você?</h1>
+  <p class="sub" style="max-width:720px">É a partir da sua resposta que o cuidado ganha sentido.</p>
+  <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
+</section>
+
+<!-- 6 · passo 3 -->
+<section class="slide f-creme" id="b-06"><div class="pag">6/10</div>
+  <div class="passo"><div class="n" style="color:var(--ameixa);background:var(--verde);border-color:var(--verde)">3</div><div class="t">PASSO 3</div></div>
+  <h1>Entender <b><span class="sublinha">antes de propor.</span></b></h1>
+  <div class="pills">
+    <span class="pill" style="background:var(--ameixa);color:var(--creme)">Bioimpedância</span>
+    <span class="pill" style="background:var(--ameixa);color:var(--creme)">Smartband por 48 horas</span>
+  </div>
+  <p class="sub">Para conhecer seu sono e seu dia a dia de verdade. <b>Para entender, não para julgar.</b></p>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 7 · passo 4 -->
+<section class="slide f-ameixa" id="b-07"><div class="pag">7/10</div>
+  <div class="passo"><div class="n" style="color:var(--ameixa);background:var(--verde);border-color:var(--verde)">4</div><div class="t em-verde">PASSO 4</div></div>
+  <h1>O plano <b class="em-verde">é seu.</b></h1>
+  <p class="sub">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
+  <div class="pills" style="margin-top:40px">
+    <span class="pill" style="border:3px solid var(--verde);color:var(--verde)">Alimentação</span>
+    <span class="pill" style="border:3px solid var(--verde);color:var(--verde)">Movimento</span>
+    <span class="pill" style="border:3px solid var(--verde);color:var(--verde)">Sono</span>
+    <span class="pill" style="border:3px solid var(--verde);color:var(--verde)">Estresse</span>
+    <span class="pill" style="border:3px solid var(--verde);color:var(--verde)">Vícios</span>
+    <span class="pill" style="border:3px solid var(--verde);color:var(--verde)">Relações</span>
+  </div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 8 · passo 5 -->
+<section class="slide f-foto escuro-mais" id="b-08" style="background-image:url(../../marca/espaco/sala-atendimento-e-espera.jpg);background-position:22% center"><div class="pag">8/10</div>
+  <div class="passo" style="margin-bottom:44px"><div class="n" style="color:var(--ameixa);background:var(--verde);border-color:var(--verde)">5</div><div class="t em-verde">PASSO 5</div></div>
+  <h1>No retorno, a gente <b class="em-verde">explica cada passo.</b></h1>
+  <p class="sub">E segue junto, ajustando o plano quando a vida muda.</p>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 9 · sigilo -->
+<section class="slide f-creme" id="b-09"><div class="pag">9/10</div>
+  <div class="icone" style="background:var(--verde)"><svg viewBox="0 0 24 24" fill="none" stroke="#603A42" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
+  <h1>O que você conta <b><span class="sublinha">fica aqui.</span></b></h1>
+  <div class="cartao" style="background:var(--rose)">Fica entre você e quem cuida. A empresa só vê <b>dados do grupo</b>, sem identificar ninguém.</div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 10 · convite -->
+<section class="slide f-verde centro" id="b-10"><div class="pag">10/10</div>
+  <img class="logo-c" src="../../marca/logo-circulo.png" alt="">
+  <h1 style="font-size:96px">E para você, <b>o que é importante?</b></h1>
+  <span class="botao" style="background:var(--ameixa);color:var(--creme)">Conta pra gente nos comentários</span>
+  <p class="assina">« Fazemos o certo pelos motivos certos »</p>
+  <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
+</section>
+</body></html>
