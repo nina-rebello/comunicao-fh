@@ -1,101 +1,74 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Pessoa + etiquetas</title><style>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Etiquetas</title><style>
 @font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
 @font-face{font-family:Raleway;font-weight:500;src:url(../../marca/fontes/raleway-latin-500-normal.woff2)}
 @font-face{font-family:Raleway;font-weight:700;src:url(../../marca/fontes/raleway-latin-700-normal.woff2)}
 @font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Raleway,sans-serif;background:#ccc}
-.slide{width:1080px;height:1350px;position:relative;overflow:hidden;margin:0 0 40px}
-.slide>*{position:absolute}
-.foto{bottom:0;background-repeat:no-repeat;background-size:contain;background-position:right bottom}
-.col{left:84px;top:250px;width:620px}
-h1{font-size:76px;font-weight:800;line-height:1.08;letter-spacing:-1.5px}
-.sub{font-size:36px;font-weight:400;line-height:1.35;margin-top:34px}
-.pills{display:flex;flex-wrap:wrap;gap:16px;margin-top:52px;align-items:center}
-.pill{font-size:29px;font-weight:700;padding:18px 30px;border-radius:50px}
-.mais{width:66px;height:66px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:700;line-height:1}
-.rod{left:84px;bottom:84px;display:flex;align-items:center;gap:22px}
-.rod img{width:96px;height:96px;border-radius:50%}
-.url{display:flex;align-items:center;gap:14px;font-size:24px;font-weight:700;letter-spacing:2px;padding:12px 26px 12px 12px;border-radius:40px;border:2px solid}
-.url i{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-style:normal}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;margin:0 0 40px;
+  display:flex;flex-direction:column;justify-content:center;padding:0 110px}
+.top{position:absolute;top:100px;left:110px;right:110px;display:flex;justify-content:space-between;font-size:28px;font-weight:700}
+.top span:last-child{font-weight:500;opacity:.7}
+h1{font-size:100px;font-weight:800;line-height:1.06;letter-spacing:-2px}
+.sub{font-size:40px;font-weight:400;line-height:1.4;margin-top:40px;max-width:780px}
+.pills{display:flex;flex-wrap:wrap;gap:14px;margin-top:64px}
+.pill{font-size:28px;font-weight:700;padding:18px 28px;border-radius:50px}
+.seta{position:absolute;right:110px;bottom:100px;width:104px;height:104px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.mk{padding:0 14px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 </style></head><body>
-<section class="slide" id="ameixa-a" style="background:#F0F0E9">
-  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:#9FC5BD"></div>
-  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:#603A42"></div>
-  <div class="col" style="color:#603A42">
-    <h1>Um cuidado mais perto começa com uma conversa.</h1>
-    <p class="sub" style="color:#603A42">Um espaço dentro da empresa para cuidar de você, com escuta e sem pressa.</p>
-    <div class="pills"><span class="pill" style="background:#603A42;color:#F0F0E9">Médicos</span><span class="pill" style="background:#603A42;color:#F0F0E9">Psicólogos</span><span class="pill" style="background:#603A42;color:#F0F0E9">Bioimpedância</span><span class="pill" style="background:#603A42;color:#F0F0E9">Smartband</span><span class="mais" style="background:#603A42;color:#F0F0E9">+</span></div>
-  </div>
-  <div class="rod"><img src="../../marca/logo-circulo.png"><div class="url" style="border-color:#603A42;color:#603A42"><i style="background:#603A42"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></i>@FAIRHEALTH.BR</div></div>
+<section class="slide" id="ameixa-a" style="background:#9FC5BD;color:#603A42">
+  <div class="top"><span>@fairhealth.br</span><span>1/2</span></div>
+  <h1>Um cuidado mais perto começa com uma conversa.</h1>
+  <p class="sub">Um espaço dentro da empresa para cuidar de você, com escuta e sem pressa.</p>
+  <div class="pills"><span class="pill" style="background:#603A42;color:#F0F0E9">Médicos</span><span class="pill" style="background:#603A42;color:#F0F0E9">Psicólogos</span><span class="pill" style="background:#603A42;color:#F0F0E9">Escuta</span><span class="pill" style="background:#603A42;color:#F0F0E9">Plano individual</span></div>
+  <div class="seta" style="background:#603A42"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#9FC5BD" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
 </section>
-<section class="slide" id="ameixa-b" style="background:#9FC5BD">
-  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:#F0F0E9"></div>
-  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:#603A42"></div>
-  <div class="col" style="color:#603A42">
-    <h1>O que é <span style="background:#603A42;color:#F0F0E9;padding:0 12px;box-decoration-break:clone;-webkit-box-decoration-break:clone">importante</span> para você?</h1>
-    <p class="sub" style="color:#603A42">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
-    <div class="pills"><span class="pill" style="background:#F0F0E9;color:#603A42">Sono</span><span class="pill" style="background:#F0F0E9;color:#603A42">Alimentação</span><span class="pill" style="background:#F0F0E9;color:#603A42">Movimento</span><span class="pill" style="background:#F0F0E9;color:#603A42">Estresse</span><span class="mais" style="background:#603A42;color:#F0F0E9">+</span></div>
-  </div>
-  <div class="rod"><img src="../../marca/logo-circulo.png"><div class="url" style="border-color:#603A42;color:#603A42"><i style="background:#603A42"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></i>@FAIRHEALTH.BR</div></div>
+<section class="slide" id="ameixa-b" style="background:#F0F0E9;color:#603A42">
+  <div class="top"><span>@fairhealth.br</span><span>2/2</span></div>
+  <h1>O que é <span class="mk" style="background:#603A42;color:#F0F0E9">importante</span> para você?</h1>
+  <p class="sub">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
+  <div class="pills"><span class="pill" style="background:#9FC5BD;color:#603A42">Sono</span><span class="pill" style="background:#9FC5BD;color:#603A42">Alimentação</span><span class="pill" style="background:#9FC5BD;color:#603A42">Movimento</span><span class="pill" style="background:#9FC5BD;color:#603A42">Estresse</span></div>
+  <div class="seta" style="background:#9FC5BD"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#603A42" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
 </section>
-<section class="slide" id="lima-a" style="background:#F0F0E9">
-  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:#9FC5BD"></div>
-  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:#DAFC92"></div>
-  <div class="col" style="color:#1F3A36">
-    <h1>Um cuidado mais perto começa com uma conversa.</h1>
-    <p class="sub" style="color:#1F3A36">Um espaço dentro da empresa para cuidar de você, com escuta e sem pressa.</p>
-    <div class="pills"><span class="pill" style="background:#DAFC92;color:#1F3A36">Médicos</span><span class="pill" style="background:#DAFC92;color:#1F3A36">Psicólogos</span><span class="pill" style="background:#DAFC92;color:#1F3A36">Bioimpedância</span><span class="pill" style="background:#DAFC92;color:#1F3A36">Smartband</span><span class="mais" style="background:#1F3A36;color:#F0F0E9">+</span></div>
-  </div>
-  <div class="rod"><img src="../../marca/logo-circulo.png"><div class="url" style="border-color:#1F3A36;color:#1F3A36"><i style="background:#1F3A36"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></i>@FAIRHEALTH.BR</div></div>
+<section class="slide" id="lima-a" style="background:#9FC5BD;color:#1F3A36">
+  <div class="top"><span>@fairhealth.br</span><span>1/2</span></div>
+  <h1>Um cuidado mais perto começa com uma conversa.</h1>
+  <p class="sub">Um espaço dentro da empresa para cuidar de você, com escuta e sem pressa.</p>
+  <div class="pills"><span class="pill" style="background:#DAFC92;color:#1F3A36">Médicos</span><span class="pill" style="background:#DAFC92;color:#1F3A36">Psicólogos</span><span class="pill" style="background:#DAFC92;color:#1F3A36">Escuta</span><span class="pill" style="background:#DAFC92;color:#1F3A36">Plano individual</span></div>
+  <div class="seta" style="background:#1F3A36"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#9FC5BD" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
 </section>
-<section class="slide" id="lima-b" style="background:#9FC5BD">
-  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:#F0F0E9"></div>
-  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:#DAFC92"></div>
-  <div class="col" style="color:#1F3A36">
-    <h1>O que é <span style="background:#DAFC92;color:#1F3A36;padding:0 12px;box-decoration-break:clone;-webkit-box-decoration-break:clone">importante</span> para você?</h1>
-    <p class="sub" style="color:#1F3A36">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
-    <div class="pills"><span class="pill" style="background:#F0F0E9;color:#1F3A36">Sono</span><span class="pill" style="background:#F0F0E9;color:#1F3A36">Alimentação</span><span class="pill" style="background:#F0F0E9;color:#1F3A36">Movimento</span><span class="pill" style="background:#F0F0E9;color:#1F3A36">Estresse</span><span class="mais" style="background:#DAFC92;color:#1F3A36">+</span></div>
-  </div>
-  <div class="rod"><img src="../../marca/logo-circulo.png"><div class="url" style="border-color:#1F3A36;color:#1F3A36"><i style="background:#1F3A36"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></i>@FAIRHEALTH.BR</div></div>
+<section class="slide" id="lima-b" style="background:#F0F0E9;color:#1F3A36">
+  <div class="top"><span>@fairhealth.br</span><span>2/2</span></div>
+  <h1>O que é <span class="mk" style="background:#DAFC92;color:#1F3A36">importante</span> para você?</h1>
+  <p class="sub">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
+  <div class="pills"><span class="pill" style="background:#9FC5BD;color:#1F3A36">Sono</span><span class="pill" style="background:#9FC5BD;color:#1F3A36">Alimentação</span><span class="pill" style="background:#9FC5BD;color:#1F3A36">Movimento</span><span class="pill" style="background:#9FC5BD;color:#1F3A36">Estresse</span></div>
+  <div class="seta" style="background:#9FC5BD"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#1F3A36" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
 </section>
-<section class="slide" id="coral-a" style="background:#F0F0E9">
-  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:#9FC5BD"></div>
-  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:#E55838"></div>
-  <div class="col" style="color:#1F3A36">
-    <h1>Um cuidado mais perto começa com uma conversa.</h1>
-    <p class="sub" style="color:#1F3A36">Um espaço dentro da empresa para cuidar de você, com escuta e sem pressa.</p>
-    <div class="pills"><span class="pill" style="background:#E55838;color:#1F3A36">Médicos</span><span class="pill" style="background:#E55838;color:#1F3A36">Psicólogos</span><span class="pill" style="background:#E55838;color:#1F3A36">Bioimpedância</span><span class="pill" style="background:#E55838;color:#1F3A36">Smartband</span><span class="mais" style="background:#1F3A36;color:#F0F0E9">+</span></div>
-  </div>
-  <div class="rod"><img src="../../marca/logo-circulo.png"><div class="url" style="border-color:#1F3A36;color:#1F3A36"><i style="background:#1F3A36"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></i>@FAIRHEALTH.BR</div></div>
+<section class="slide" id="coral-a" style="background:#9FC5BD;color:#1F3A36">
+  <div class="top"><span>@fairhealth.br</span><span>1/2</span></div>
+  <h1>Um cuidado mais perto começa com uma conversa.</h1>
+  <p class="sub">Um espaço dentro da empresa para cuidar de você, com escuta e sem pressa.</p>
+  <div class="pills"><span class="pill" style="background:#E55838;color:#1F3A36">Médicos</span><span class="pill" style="background:#E55838;color:#1F3A36">Psicólogos</span><span class="pill" style="background:#E55838;color:#1F3A36">Escuta</span><span class="pill" style="background:#E55838;color:#1F3A36">Plano individual</span></div>
+  <div class="seta" style="background:#1F3A36"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#9FC5BD" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
 </section>
-<section class="slide" id="coral-b" style="background:#9FC5BD">
-  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:#F0F0E9"></div>
-  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:#E55838"></div>
-  <div class="col" style="color:#1F3A36">
-    <h1>O que é <span style="background:#E55838;color:#1F3A36;padding:0 12px;box-decoration-break:clone;-webkit-box-decoration-break:clone">importante</span> para você?</h1>
-    <p class="sub" style="color:#1F3A36">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
-    <div class="pills"><span class="pill" style="background:#F0F0E9;color:#1F3A36">Sono</span><span class="pill" style="background:#F0F0E9;color:#1F3A36">Alimentação</span><span class="pill" style="background:#F0F0E9;color:#1F3A36">Movimento</span><span class="pill" style="background:#F0F0E9;color:#1F3A36">Estresse</span><span class="mais" style="background:#E55838;color:#1F3A36">+</span></div>
-  </div>
-  <div class="rod"><img src="../../marca/logo-circulo.png"><div class="url" style="border-color:#1F3A36;color:#1F3A36"><i style="background:#1F3A36"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></i>@FAIRHEALTH.BR</div></div>
+<section class="slide" id="coral-b" style="background:#F0F0E9;color:#1F3A36">
+  <div class="top"><span>@fairhealth.br</span><span>2/2</span></div>
+  <h1>O que é <span class="mk" style="background:#E55838;color:#1F3A36">importante</span> para você?</h1>
+  <p class="sub">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
+  <div class="pills"><span class="pill" style="background:#9FC5BD;color:#1F3A36">Sono</span><span class="pill" style="background:#9FC5BD;color:#1F3A36">Alimentação</span><span class="pill" style="background:#9FC5BD;color:#1F3A36">Movimento</span><span class="pill" style="background:#9FC5BD;color:#1F3A36">Estresse</span></div>
+  <div class="seta" style="background:#9FC5BD"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#1F3A36" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
 </section>
-<section class="slide" id="amarelo-a" style="background:#F0F0E9">
-  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:#9FC5BD"></div>
-  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:#F2C14E"></div>
-  <div class="col" style="color:#1F3A36">
-    <h1>Um cuidado mais perto começa com uma conversa.</h1>
-    <p class="sub" style="color:#1F3A36">Um espaço dentro da empresa para cuidar de você, com escuta e sem pressa.</p>
-    <div class="pills"><span class="pill" style="background:#F2C14E;color:#1F3A36">Médicos</span><span class="pill" style="background:#F2C14E;color:#1F3A36">Psicólogos</span><span class="pill" style="background:#F2C14E;color:#1F3A36">Bioimpedância</span><span class="pill" style="background:#F2C14E;color:#1F3A36">Smartband</span><span class="mais" style="background:#1F3A36;color:#F0F0E9">+</span></div>
-  </div>
-  <div class="rod"><img src="../../marca/logo-circulo.png"><div class="url" style="border-color:#1F3A36;color:#1F3A36"><i style="background:#1F3A36"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></i>@FAIRHEALTH.BR</div></div>
+<section class="slide" id="amarelo-a" style="background:#9FC5BD;color:#1F3A36">
+  <div class="top"><span>@fairhealth.br</span><span>1/2</span></div>
+  <h1>Um cuidado mais perto começa com uma conversa.</h1>
+  <p class="sub">Um espaço dentro da empresa para cuidar de você, com escuta e sem pressa.</p>
+  <div class="pills"><span class="pill" style="background:#F2C14E;color:#1F3A36">Médicos</span><span class="pill" style="background:#F2C14E;color:#1F3A36">Psicólogos</span><span class="pill" style="background:#F2C14E;color:#1F3A36">Escuta</span><span class="pill" style="background:#F2C14E;color:#1F3A36">Plano individual</span></div>
+  <div class="seta" style="background:#1F3A36"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#9FC5BD" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
 </section>
-<section class="slide" id="amarelo-b" style="background:#9FC5BD">
-  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:#F0F0E9"></div>
-  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:#F2C14E"></div>
-  <div class="col" style="color:#1F3A36">
-    <h1>O que é <span style="background:#F2C14E;color:#1F3A36;padding:0 12px;box-decoration-break:clone;-webkit-box-decoration-break:clone">importante</span> para você?</h1>
-    <p class="sub" style="color:#1F3A36">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
-    <div class="pills"><span class="pill" style="background:#F0F0E9;color:#1F3A36">Sono</span><span class="pill" style="background:#F0F0E9;color:#1F3A36">Alimentação</span><span class="pill" style="background:#F0F0E9;color:#1F3A36">Movimento</span><span class="pill" style="background:#F0F0E9;color:#1F3A36">Estresse</span><span class="mais" style="background:#F2C14E;color:#1F3A36">+</span></div>
-  </div>
-  <div class="rod"><img src="../../marca/logo-circulo.png"><div class="url" style="border-color:#1F3A36;color:#1F3A36"><i style="background:#1F3A36"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></i>@FAIRHEALTH.BR</div></div>
+<section class="slide" id="amarelo-b" style="background:#F0F0E9;color:#1F3A36">
+  <div class="top"><span>@fairhealth.br</span><span>2/2</span></div>
+  <h1>O que é <span class="mk" style="background:#F2C14E;color:#1F3A36">importante</span> para você?</h1>
+  <p class="sub">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
+  <div class="pills"><span class="pill" style="background:#9FC5BD;color:#1F3A36">Sono</span><span class="pill" style="background:#9FC5BD;color:#1F3A36">Alimentação</span><span class="pill" style="background:#9FC5BD;color:#1F3A36">Movimento</span><span class="pill" style="background:#9FC5BD;color:#1F3A36">Estresse</span></div>
+  <div class="seta" style="background:#9FC5BD"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#1F3A36" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
 </section></body></html>
