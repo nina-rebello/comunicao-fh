@@ -5,126 +5,171 @@
 @font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Raleway,sans-serif;background:#ccc}
-.slide{width:1080px;height:1350px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:center;
-  align-items:flex-start;text-align:left;padding:120px 110px;margin:0 0 40px}
-h1{font-size:104px;line-height:1.04;letter-spacing:-1.5px;font-weight:400;width:100%}
-h1 b{font-weight:800;font-style:italic}
-.sub{font-size:42px;line-height:1.32;margin-top:40px;max-width:840px}
-.sub b{font-weight:800;font-style:italic}
-.pag{position:absolute;top:72px;right:110px;font-size:28px;font-weight:500;opacity:.7}
-.handle{position:absolute;bottom:72px;left:110px;font-size:30px;font-weight:700}
-.passo{display:flex;align-items:center;gap:28px;margin-bottom:56px}
-.n{width:132px;height:132px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:56px;font-weight:800;font-style:italic}
-.t{font-size:26px;font-weight:700;letter-spacing:7px}
-.pills{display:flex;flex-wrap:wrap;gap:18px;margin-top:48px;max-width:880px}
-.pill{font-size:32px;font-weight:700;padding:18px 32px;border-radius:60px}
-.centro{align-items:center;text-align:center}
-.logo{width:180px;margin-bottom:64px}
-.botao{display:inline-block;margin-top:56px;font-size:36px;font-weight:700;padding:26px 52px;border-radius:70px}
-.assina{font-size:30px;font-style:italic;margin-top:52px;opacity:.85}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;margin:0 0 40px}
+.slide>*{position:absolute}
+.k{font-size:26px;font-weight:700;letter-spacing:8px;display:flex;align-items:center;gap:22px}
+.k i{display:block;width:64px;height:4px;background:currentColor}
+h1{font-weight:400;line-height:1.02;letter-spacing:-2px}
+h1 b{font-weight:800;font-style:italic;letter-spacing:-1px}
+.p{font-size:40px;line-height:1.35}
+.p b{font-weight:800;font-style:italic}
+.pag{top:96px;right:96px;font-size:28px;font-weight:500;opacity:.7}
+.handle{bottom:84px;left:96px;font-size:30px;font-weight:700}
+.num{font-size:1100px;font-weight:800;font-style:italic;line-height:.8;letter-spacing:-40px}
+.pill{display:inline-block;font-size:34px;font-weight:700;padding:20px 36px;border-radius:60px;margin:0 14px 16px 0}
 </style></head><body>
-<section class="slide" id="ameixa-1" style="background:#F0F0E9;color:#603A42"><div class="pag">6/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#603A42">3</div><div class="t">PASSO 3</div></div>
-  <h1>Entender <b style="color:#603A42;background:linear-gradient(transparent 76%,#9FC5BD 76%,#9FC5BD 94%,transparent 94%)">antes de propor.</b></h1>
-  <div class="pills"><span class="pill" style="background:#603A42;color:#F0F0E9">Bioimpedância</span><span class="pill" style="background:#603A42;color:#F0F0E9">Smartband por 48 horas</span></div>
-  <p class="sub">Para conhecer seu sono e seu dia a dia de verdade. <b>Para entender, não para julgar.</b></p>
+<section class="slide" id="ameixa-1" style="background:#F0F0E9;color:#603A42">
+  <div class="num" style="right:-70px;bottom:-140px;font-size:940px;color:#9FC5BD;opacity:.5">3</div>
+  <div class="pag">6/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 3</div>
+  <h1 style="left:96px;top:250px;width:900px;font-size:128px">Entender<br><b style="color:#603A42;background:linear-gradient(transparent 74%,#9FC5BD 74%,#9FC5BD 94%,transparent 94%)">antes de<br>propor.</b></h1>
+  <div style="left:96px;top:700px;width:900px">
+    <span class="pill" style="background:#603A42;color:#F0F0E9">Bioimpedância</span><span class="pill" style="background:#603A42;color:#F0F0E9">Smartband por 48 horas</span>
+  </div>
+  <p class="p" style="left:96px;top:870px;width:640px">Para conhecer seu sono e seu dia a dia de verdade.<br><b>Para entender, não para julgar.</b></p>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide centro" id="ameixa-2" style="background:#9FC5BD;color:#603A42"><div class="pag">10/10</div>
-  <img class="logo" src="../../marca/logo-circulo.png" alt="">
-  <h1 style="font-size:96px">E para você, <b style="color:#603A42">o que é importante?</b></h1>
-  <span class="botao" style="background:#603A42;color:#F0F0E9">Conta pra gente nos comentários</span>
-  <p class="assina">« Fazemos o certo pelos motivos certos »</p>
+<section class="slide" id="ameixa-2" style="background:#9FC5BD;color:#603A42">
+  <div style="left:50%;top:50%;width:1240px;height:1240px;margin:-620px 0 0 -620px;border-radius:50%;border:3px solid #603A42;opacity:.18"></div>
+  <div style="left:50%;top:50%;width:900px;height:900px;margin:-450px 0 0 -450px;border-radius:50%;background:#F0F0E9;opacity:.35"></div>
+  <div class="pag">10/10</div>
+  <img src="../../marca/logo-circulo.png" style="left:50%;top:150px;width:170px;margin-left:-85px;border-radius:50%;box-shadow:0 0 0 14px #F0F0E9">
+  <div class="k" style="left:0;right:0;top:420px;justify-content:center">E PARA VOCÊ,</div>
+  <h1 style="left:70px;right:70px;top:490px;text-align:center;font-size:136px">o que é <b style="color:#603A42">importante?</b></h1>
+  <div style="left:0;right:0;top:880px;text-align:center"><span class="pill" style="background:#603A42;color:#F0F0E9;font-size:38px;padding:28px 56px;margin:0">Conta pra gente nos comentários</span></div>
+  <p style="left:0;right:0;top:1030px;text-align:center;font-size:30px;font-style:italic">« Fazemos o certo pelos motivos certos »</p>
   <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
 </section>
-<section class="slide" id="ameixa-3" style="background:#603A42;color:#F0F0E9"><div class="pag">7/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#603A42">4</div><div class="t">PASSO 4</div></div>
-  <h1>O plano <b style="color:#9FC5BD">é seu.</b></h1>
-  <p class="sub">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
-  <div class="pills" style="margin-top:40px"><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Alimentação</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Movimento</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Sono</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Estresse</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Vícios</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Relações</span></div>
+<section class="slide" id="ameixa-3" style="background:#603A42;color:#F0F0E9">
+  <div class="num" style="right:-170px;top:-330px;color:#9FC5BD;opacity:.22">4</div>
+  <div class="pag">7/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 4</div>
+  <h1 style="left:96px;top:330px;font-size:150px">O plano<br><b style="color:#9FC5BD">é seu.</b></h1>
+  <p class="p" style="left:96px;top:690px;width:860px">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
+  <div style="left:96px;top:900px;width:900px"><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Alimentação</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Movimento</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Sono</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Estresse</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Vícios</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Relações</span></div>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide" id="coral-1" style="background:#F0F0E9;color:#1F3A36"><div class="pag">6/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#1F3A36">3</div><div class="t">PASSO 3</div></div>
-  <h1>Entender <b style="color:#1F3A36;background:linear-gradient(transparent 76%,#EC7768 76%,#EC7768 94%,transparent 94%)">antes de propor.</b></h1>
-  <div class="pills"><span class="pill" style="background:#EC7768;color:#1F3A36">Bioimpedância</span><span class="pill" style="background:#EC7768;color:#1F3A36">Smartband por 48 horas</span></div>
-  <p class="sub">Para conhecer seu sono e seu dia a dia de verdade. <b>Para entender, não para julgar.</b></p>
+<section class="slide" id="coral-1" style="background:#F0F0E9;color:#1F3A36">
+  <div class="num" style="right:-70px;bottom:-140px;font-size:940px;color:#9FC5BD;opacity:.5">3</div>
+  <div class="pag">6/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 3</div>
+  <h1 style="left:96px;top:250px;width:900px;font-size:128px">Entender<br><b style="color:#1F3A36;background:linear-gradient(transparent 74%,#EC7768 74%,#EC7768 94%,transparent 94%)">antes de<br>propor.</b></h1>
+  <div style="left:96px;top:700px;width:900px">
+    <span class="pill" style="background:#EC7768;color:#1F3A36">Bioimpedância</span><span class="pill" style="background:#EC7768;color:#1F3A36">Smartband por 48 horas</span>
+  </div>
+  <p class="p" style="left:96px;top:870px;width:640px">Para conhecer seu sono e seu dia a dia de verdade.<br><b>Para entender, não para julgar.</b></p>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide centro" id="coral-2" style="background:#9FC5BD;color:#1F3A36"><div class="pag">10/10</div>
-  <img class="logo" src="../../marca/logo-circulo.png" alt="">
-  <h1 style="font-size:96px">E para você, <b style="color:#1F3A36;background:linear-gradient(transparent 76%,#EC7768 76%,#EC7768 94%,transparent 94%)">o que é importante?</b></h1>
-  <span class="botao" style="background:#EC7768;color:#1F3A36">Conta pra gente nos comentários</span>
-  <p class="assina">« Fazemos o certo pelos motivos certos »</p>
+<section class="slide" id="coral-2" style="background:#9FC5BD;color:#1F3A36">
+  <div style="left:50%;top:50%;width:1240px;height:1240px;margin:-620px 0 0 -620px;border-radius:50%;border:3px solid #1F3A36;opacity:.18"></div>
+  <div style="left:50%;top:50%;width:900px;height:900px;margin:-450px 0 0 -450px;border-radius:50%;background:#F0F0E9;opacity:.35"></div>
+  <div class="pag">10/10</div>
+  <img src="../../marca/logo-circulo.png" style="left:50%;top:150px;width:170px;margin-left:-85px;border-radius:50%;box-shadow:0 0 0 14px #F0F0E9">
+  <div class="k" style="left:0;right:0;top:420px;justify-content:center">E PARA VOCÊ,</div>
+  <h1 style="left:70px;right:70px;top:490px;text-align:center;font-size:136px">o que é <b style="color:#1F3A36;background:linear-gradient(transparent 74%,#EC7768 74%,#EC7768 94%,transparent 94%)">importante?</b></h1>
+  <div style="left:0;right:0;top:880px;text-align:center"><span class="pill" style="background:#EC7768;color:#1F3A36;font-size:38px;padding:28px 56px;margin:0">Conta pra gente nos comentários</span></div>
+  <p style="left:0;right:0;top:1030px;text-align:center;font-size:30px;font-style:italic">« Fazemos o certo pelos motivos certos »</p>
   <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
 </section>
-<section class="slide" id="coral-3" style="background:#EC7768;color:#1F3A36"><div class="pag">7/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#1F3A36">4</div><div class="t">PASSO 4</div></div>
-  <h1>O plano <b style="color:#1F3A36;background:linear-gradient(transparent 76%,#F0F0E9 76%,#F0F0E9 94%,transparent 94%)">é seu.</b></h1>
-  <p class="sub">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
-  <div class="pills" style="margin-top:40px"><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Alimentação</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Movimento</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Sono</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Estresse</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Vícios</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Relações</span></div>
+<section class="slide" id="coral-3" style="background:#EC7768;color:#1F3A36">
+  <div class="num" style="right:-170px;top:-330px;color:#9FC5BD;opacity:.35">4</div>
+  <div class="pag">7/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 4</div>
+  <h1 style="left:96px;top:330px;font-size:150px">O plano<br><b style="color:#1F3A36;background:linear-gradient(transparent 74%,#F0F0E9 74%,#F0F0E9 94%,transparent 94%)">é seu.</b></h1>
+  <p class="p" style="left:96px;top:690px;width:860px">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
+  <div style="left:96px;top:900px;width:900px"><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Alimentação</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Movimento</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Sono</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Estresse</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Vícios</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Relações</span></div>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide" id="amarelo-1" style="background:#F0F0E9;color:#1F3A36"><div class="pag">6/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#1F3A36">3</div><div class="t">PASSO 3</div></div>
-  <h1>Entender <b style="color:#1F3A36;background:linear-gradient(transparent 76%,#F2C14E 76%,#F2C14E 94%,transparent 94%)">antes de propor.</b></h1>
-  <div class="pills"><span class="pill" style="background:#F2C14E;color:#1F3A36">Bioimpedância</span><span class="pill" style="background:#F2C14E;color:#1F3A36">Smartband por 48 horas</span></div>
-  <p class="sub">Para conhecer seu sono e seu dia a dia de verdade. <b>Para entender, não para julgar.</b></p>
+<section class="slide" id="amarelo-1" style="background:#F0F0E9;color:#1F3A36">
+  <div class="num" style="right:-70px;bottom:-140px;font-size:940px;color:#9FC5BD;opacity:.5">3</div>
+  <div class="pag">6/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 3</div>
+  <h1 style="left:96px;top:250px;width:900px;font-size:128px">Entender<br><b style="color:#1F3A36;background:linear-gradient(transparent 74%,#F2C14E 74%,#F2C14E 94%,transparent 94%)">antes de<br>propor.</b></h1>
+  <div style="left:96px;top:700px;width:900px">
+    <span class="pill" style="background:#F2C14E;color:#1F3A36">Bioimpedância</span><span class="pill" style="background:#F2C14E;color:#1F3A36">Smartband por 48 horas</span>
+  </div>
+  <p class="p" style="left:96px;top:870px;width:640px">Para conhecer seu sono e seu dia a dia de verdade.<br><b>Para entender, não para julgar.</b></p>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide centro" id="amarelo-2" style="background:#9FC5BD;color:#1F3A36"><div class="pag">10/10</div>
-  <img class="logo" src="../../marca/logo-circulo.png" alt="">
-  <h1 style="font-size:96px">E para você, <b style="color:#1F3A36;background:linear-gradient(transparent 76%,#F2C14E 76%,#F2C14E 94%,transparent 94%)">o que é importante?</b></h1>
-  <span class="botao" style="background:#F2C14E;color:#1F3A36">Conta pra gente nos comentários</span>
-  <p class="assina">« Fazemos o certo pelos motivos certos »</p>
+<section class="slide" id="amarelo-2" style="background:#9FC5BD;color:#1F3A36">
+  <div style="left:50%;top:50%;width:1240px;height:1240px;margin:-620px 0 0 -620px;border-radius:50%;border:3px solid #1F3A36;opacity:.18"></div>
+  <div style="left:50%;top:50%;width:900px;height:900px;margin:-450px 0 0 -450px;border-radius:50%;background:#F0F0E9;opacity:.35"></div>
+  <div class="pag">10/10</div>
+  <img src="../../marca/logo-circulo.png" style="left:50%;top:150px;width:170px;margin-left:-85px;border-radius:50%;box-shadow:0 0 0 14px #F0F0E9">
+  <div class="k" style="left:0;right:0;top:420px;justify-content:center">E PARA VOCÊ,</div>
+  <h1 style="left:70px;right:70px;top:490px;text-align:center;font-size:136px">o que é <b style="color:#1F3A36;background:linear-gradient(transparent 74%,#F2C14E 74%,#F2C14E 94%,transparent 94%)">importante?</b></h1>
+  <div style="left:0;right:0;top:880px;text-align:center"><span class="pill" style="background:#F2C14E;color:#1F3A36;font-size:38px;padding:28px 56px;margin:0">Conta pra gente nos comentários</span></div>
+  <p style="left:0;right:0;top:1030px;text-align:center;font-size:30px;font-style:italic">« Fazemos o certo pelos motivos certos »</p>
   <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
 </section>
-<section class="slide" id="amarelo-3" style="background:#F2C14E;color:#1F3A36"><div class="pag">7/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#1F3A36">4</div><div class="t">PASSO 4</div></div>
-  <h1>O plano <b style="color:#1F3A36;background:linear-gradient(transparent 76%,#F0F0E9 76%,#F0F0E9 94%,transparent 94%)">é seu.</b></h1>
-  <p class="sub">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
-  <div class="pills" style="margin-top:40px"><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Alimentação</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Movimento</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Sono</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Estresse</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Vícios</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Relações</span></div>
+<section class="slide" id="amarelo-3" style="background:#F2C14E;color:#1F3A36">
+  <div class="num" style="right:-170px;top:-330px;color:#9FC5BD;opacity:.35">4</div>
+  <div class="pag">7/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 4</div>
+  <h1 style="left:96px;top:330px;font-size:150px">O plano<br><b style="color:#1F3A36;background:linear-gradient(transparent 74%,#F0F0E9 74%,#F0F0E9 94%,transparent 94%)">é seu.</b></h1>
+  <p class="p" style="left:96px;top:690px;width:860px">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
+  <div style="left:96px;top:900px;width:900px"><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Alimentação</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Movimento</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Sono</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Estresse</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Vícios</span><span class="pill" style="border:3px solid #1F3A36;color:#1F3A36">Relações</span></div>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide" id="petroleo-1" style="background:#F0F0E9;color:#1F5560"><div class="pag">6/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#1F5560">3</div><div class="t">PASSO 3</div></div>
-  <h1>Entender <b style="color:#1F5560;background:linear-gradient(transparent 76%,#9FC5BD 76%,#9FC5BD 94%,transparent 94%)">antes de propor.</b></h1>
-  <div class="pills"><span class="pill" style="background:#1F5560;color:#F0F0E9">Bioimpedância</span><span class="pill" style="background:#1F5560;color:#F0F0E9">Smartband por 48 horas</span></div>
-  <p class="sub">Para conhecer seu sono e seu dia a dia de verdade. <b>Para entender, não para julgar.</b></p>
+<section class="slide" id="petroleo-1" style="background:#F0F0E9;color:#1F5560">
+  <div class="num" style="right:-70px;bottom:-140px;font-size:940px;color:#9FC5BD;opacity:.5">3</div>
+  <div class="pag">6/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 3</div>
+  <h1 style="left:96px;top:250px;width:900px;font-size:128px">Entender<br><b style="color:#1F5560;background:linear-gradient(transparent 74%,#9FC5BD 74%,#9FC5BD 94%,transparent 94%)">antes de<br>propor.</b></h1>
+  <div style="left:96px;top:700px;width:900px">
+    <span class="pill" style="background:#1F5560;color:#F0F0E9">Bioimpedância</span><span class="pill" style="background:#1F5560;color:#F0F0E9">Smartband por 48 horas</span>
+  </div>
+  <p class="p" style="left:96px;top:870px;width:640px">Para conhecer seu sono e seu dia a dia de verdade.<br><b>Para entender, não para julgar.</b></p>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide centro" id="petroleo-2" style="background:#9FC5BD;color:#1F5560"><div class="pag">10/10</div>
-  <img class="logo" src="../../marca/logo-circulo.png" alt="">
-  <h1 style="font-size:96px">E para você, <b style="color:#1F5560">o que é importante?</b></h1>
-  <span class="botao" style="background:#1F5560;color:#F0F0E9">Conta pra gente nos comentários</span>
-  <p class="assina">« Fazemos o certo pelos motivos certos »</p>
+<section class="slide" id="petroleo-2" style="background:#9FC5BD;color:#1F5560">
+  <div style="left:50%;top:50%;width:1240px;height:1240px;margin:-620px 0 0 -620px;border-radius:50%;border:3px solid #1F5560;opacity:.18"></div>
+  <div style="left:50%;top:50%;width:900px;height:900px;margin:-450px 0 0 -450px;border-radius:50%;background:#F0F0E9;opacity:.35"></div>
+  <div class="pag">10/10</div>
+  <img src="../../marca/logo-circulo.png" style="left:50%;top:150px;width:170px;margin-left:-85px;border-radius:50%;box-shadow:0 0 0 14px #F0F0E9">
+  <div class="k" style="left:0;right:0;top:420px;justify-content:center">E PARA VOCÊ,</div>
+  <h1 style="left:70px;right:70px;top:490px;text-align:center;font-size:136px">o que é <b style="color:#1F5560">importante?</b></h1>
+  <div style="left:0;right:0;top:880px;text-align:center"><span class="pill" style="background:#1F5560;color:#F0F0E9;font-size:38px;padding:28px 56px;margin:0">Conta pra gente nos comentários</span></div>
+  <p style="left:0;right:0;top:1030px;text-align:center;font-size:30px;font-style:italic">« Fazemos o certo pelos motivos certos »</p>
   <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
 </section>
-<section class="slide" id="petroleo-3" style="background:#1F5560;color:#F0F0E9"><div class="pag">7/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#1F5560">4</div><div class="t">PASSO 4</div></div>
-  <h1>O plano <b style="color:#9FC5BD">é seu.</b></h1>
-  <p class="sub">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
-  <div class="pills" style="margin-top:40px"><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Alimentação</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Movimento</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Sono</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Estresse</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Vícios</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Relações</span></div>
+<section class="slide" id="petroleo-3" style="background:#1F5560;color:#F0F0E9">
+  <div class="num" style="right:-170px;top:-330px;color:#9FC5BD;opacity:.22">4</div>
+  <div class="pag">7/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 4</div>
+  <h1 style="left:96px;top:330px;font-size:150px">O plano<br><b style="color:#9FC5BD">é seu.</b></h1>
+  <p class="p" style="left:96px;top:690px;width:860px">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
+  <div style="left:96px;top:900px;width:900px"><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Alimentação</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Movimento</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Sono</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Estresse</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Vícios</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Relações</span></div>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide" id="framboesa-1" style="background:#F0F0E9;color:#1F3A36"><div class="pag">6/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#1F3A36">3</div><div class="t">PASSO 3</div></div>
-  <h1>Entender <b style="color:#C2456B;background:linear-gradient(transparent 76%,#9FC5BD 76%,#9FC5BD 94%,transparent 94%)">antes de propor.</b></h1>
-  <div class="pills"><span class="pill" style="background:#C2456B;color:#F0F0E9">Bioimpedância</span><span class="pill" style="background:#C2456B;color:#F0F0E9">Smartband por 48 horas</span></div>
-  <p class="sub">Para conhecer seu sono e seu dia a dia de verdade. <b>Para entender, não para julgar.</b></p>
+<section class="slide" id="framboesa-1" style="background:#F0F0E9;color:#1F3A36">
+  <div class="num" style="right:-70px;bottom:-140px;font-size:940px;color:#9FC5BD;opacity:.5">3</div>
+  <div class="pag">6/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 3</div>
+  <h1 style="left:96px;top:250px;width:900px;font-size:128px">Entender<br><b style="color:#C2456B;background:linear-gradient(transparent 74%,#9FC5BD 74%,#9FC5BD 94%,transparent 94%)">antes de<br>propor.</b></h1>
+  <div style="left:96px;top:700px;width:900px">
+    <span class="pill" style="background:#C2456B;color:#F0F0E9">Bioimpedância</span><span class="pill" style="background:#C2456B;color:#F0F0E9">Smartband por 48 horas</span>
+  </div>
+  <p class="p" style="left:96px;top:870px;width:640px">Para conhecer seu sono e seu dia a dia de verdade.<br><b>Para entender, não para julgar.</b></p>
   <div class="handle">@fairhealth.br</div>
 </section>
-<section class="slide centro" id="framboesa-2" style="background:#9FC5BD;color:#1F3A36"><div class="pag">10/10</div>
-  <img class="logo" src="../../marca/logo-circulo.png" alt="">
-  <h1 style="font-size:96px">E para você, <b style="color:#1F3A36;background:linear-gradient(transparent 76%,#C2456B 76%,#C2456B 94%,transparent 94%)">o que é importante?</b></h1>
-  <span class="botao" style="background:#C2456B;color:#F0F0E9">Conta pra gente nos comentários</span>
-  <p class="assina">« Fazemos o certo pelos motivos certos »</p>
+<section class="slide" id="framboesa-2" style="background:#9FC5BD;color:#1F3A36">
+  <div style="left:50%;top:50%;width:1240px;height:1240px;margin:-620px 0 0 -620px;border-radius:50%;border:3px solid #1F3A36;opacity:.18"></div>
+  <div style="left:50%;top:50%;width:900px;height:900px;margin:-450px 0 0 -450px;border-radius:50%;background:#F0F0E9;opacity:.35"></div>
+  <div class="pag">10/10</div>
+  <img src="../../marca/logo-circulo.png" style="left:50%;top:150px;width:170px;margin-left:-85px;border-radius:50%;box-shadow:0 0 0 14px #F0F0E9">
+  <div class="k" style="left:0;right:0;top:420px;justify-content:center">E PARA VOCÊ,</div>
+  <h1 style="left:70px;right:70px;top:490px;text-align:center;font-size:136px">o que é <b style="color:#1F3A36;background:linear-gradient(transparent 74%,#C2456B 74%,#C2456B 94%,transparent 94%)">importante?</b></h1>
+  <div style="left:0;right:0;top:880px;text-align:center"><span class="pill" style="background:#C2456B;color:#F0F0E9;font-size:38px;padding:28px 56px;margin:0">Conta pra gente nos comentários</span></div>
+  <p style="left:0;right:0;top:1030px;text-align:center;font-size:30px;font-style:italic">« Fazemos o certo pelos motivos certos »</p>
   <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
 </section>
-<section class="slide" id="framboesa-3" style="background:#C2456B;color:#F0F0E9"><div class="pag">7/10</div>
-  <div class="passo"><div class="n" style="background:#9FC5BD;color:#1F3A36">4</div><div class="t">PASSO 4</div></div>
-  <h1>O plano <b style="color:#F0F0E9">é seu.</b></h1>
-  <p class="sub">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
-  <div class="pills" style="margin-top:40px"><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Alimentação</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Movimento</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Sono</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Estresse</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Vícios</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Relações</span></div>
+<section class="slide" id="framboesa-3" style="background:#C2456B;color:#F0F0E9">
+  <div class="num" style="right:-170px;top:-330px;color:#9FC5BD;opacity:.22">4</div>
+  <div class="pag">7/10</div>
+  <div class="k" style="left:96px;top:96px"><i></i>PASSO 4</div>
+  <h1 style="left:96px;top:330px;font-size:150px">O plano<br><b style="color:#F0F0E9">é seu.</b></h1>
+  <p class="p" style="left:96px;top:690px;width:860px">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
+  <div style="left:96px;top:900px;width:900px"><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Alimentação</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Movimento</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Sono</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Estresse</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Vícios</span><span class="pill" style="border:3px solid #F0F0E9;color:#F0F0E9">Relações</span></div>
   <div class="handle">@fairhealth.br</div>
 </section></body></html>
