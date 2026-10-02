@@ -126,7 +126,7 @@ Os trechos aprovados ficam em `instagram/depoimentos.md`.
 Os arquivos ficam em `instagram/marca/`. Resumo dos materiais institucionais
 em `instagram/referencias.md`.
 
-- **Cores (tiradas da logo):** verde-água `#96C3BA` (principal), quase-preto
+- **Cores (tiradas da logo):** verde-água `#9FC5BD` (principal, medido na arte oficial em 02/10; antes usávamos `#96C3BA`), quase-preto
   `#141B1B` (texto), off-white `#F8F8F6` (fundo). Uma única cor de destaque.
 - **Slogan:** « Fazemos o certo pelos motivos certos »
 - **Estilo visual (modelo @fairedu.br):**
@@ -154,6 +154,7 @@ em `instagram/referencias.md`.
   agradecimento e stickers nos Stories. Nunca junto de dado ou número sério.
   **[PENDENTE]** Substituir pelo PNG final com fundo transparente.
 - Uma única logo por peça.
+- **Cor complementar:** em teste. Estudo em `instagram/estudos/cores/` (vinho, terracota, coral, pêssego). Amarelo e roxo ficam fora porque são as cores do fairedu.
 
 ## A chamada final
 

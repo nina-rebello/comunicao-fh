@@ -4,94 +4,83 @@
 @font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
 @font-face{font-family:Raleway;font-weight:700;src:url(../../marca/fontes/raleway-latin-700-normal.woff2)}
 @font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
-:root{--escuro:#2F6B64;--agua:#96C3BA;--menta:#BFE0D9;--off:#F6F1EA;--tinta:#141B1B}
+:root{--main:#9FC5BD;--escuro:#2F6B64;--off:#F6F1EA;--tinta:#141B1B}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Raleway,sans-serif;background:#fff;color:var(--tinta);width:1600px;padding:56px 64px}
-h1{font-size:40px;font-weight:700;margin-bottom:8px}
-.intro{font-size:19px;line-height:1.5;color:#4a5352;max-width:1200px;margin-bottom:40px}
-.roda{display:flex;gap:6px;margin:14px 0 40px;align-items:center;font-size:15px;color:#4a5352}
-.roda span{display:inline-block;width:22px;height:22px;border-radius:50%;margin-right:4px;vertical-align:middle}
-.linha{display:grid;grid-template-columns:330px 300px 300px 1fr;gap:28px;align-items:start;padding:32px 0;border-top:1px solid #e3e6e5}
+h1{font-size:40px;font-weight:700;margin-bottom:10px}
+.intro{font-size:19px;line-height:1.5;color:#3b4443;max-width:1400px;margin-bottom:14px}
+.ref{display:flex;gap:28px;align-items:center;margin:22px 0 34px;font-size:15px;color:#3b4443}
+.ref .sw{display:inline-flex;align-items:center;gap:8px}
+.ref i{display:inline-block;width:34px;height:34px;border-radius:6px}
+.linha{display:grid;grid-template-columns:300px 260px 260px 260px 1fr;gap:24px;align-items:start;padding:30px 0;border-top:1px solid #e3e6e5}
 .nome{font-size:26px;font-weight:700}
-.hex{font-family:ui-monospace,monospace;font-size:15px;color:#4a5352;margin:6px 0 14px}
-.barra{display:flex;height:44px;border-radius:10px;overflow:hidden;margin-bottom:12px}
-.barra div{height:100%}
+.hex{font-family:ui-monospace,monospace;font-size:14px;color:#4a5352;margin:6px 0 14px}
+.barra{display:flex;height:40px;border-radius:10px;overflow:hidden;margin-bottom:12px}
 .nota{font-size:15px;line-height:1.5;color:#3b4443}
-.nota b{color:var(--tinta)}
-.mini{width:300px;height:375px;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:36px 30px;overflow:hidden}
-.mini h2{font-size:31px;line-height:1.12;font-weight:400}
+.mini{width:260px;height:325px;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:30px 24px;overflow:hidden}
+.mini h2{font-size:27px;line-height:1.12;font-weight:400}
 .mini h2 b{font-weight:800;font-style:italic}
-.mini p{font-size:14px;line-height:1.35;margin-top:14px}
-.mini .h{position:absolute;bottom:16px;left:0;right:0;font-size:11px;font-weight:700}
-.mini .pag{position:absolute;top:16px;right:20px;font-size:10px;opacity:.6}
+.mini .h{position:absolute;bottom:14px;left:0;right:0;font-size:10px;font-weight:700}
 .u{text-decoration:underline;text-decoration-thickness:4px;text-underline-offset:6px}
-.btn{position:absolute;bottom:44px;left:50%;transform:translateX(-50%);width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center}
-.caixa{padding:14px 16px;margin-top:16px;font-size:14px;line-height:1.4;border-radius:2px}
-.tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:3px;padding:5px 10px;border-radius:20px;margin-bottom:16px}
+.btn{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.caixa{padding:12px 14px;margin-top:14px;font-size:13px;line-height:1.4}
+.num{font-size:64px;font-weight:800;font-style:italic;line-height:1}
 .uso{font-size:14px;line-height:1.55;color:#3b4443}
-.uso li{margin-left:18px}
-.ok{color:#2F6B64;font-weight:700}.no{color:#B3412F;font-weight:700}
+.uso li{margin-left:18px;margin-bottom:4px}
+.ok{color:#2F6B64;font-weight:700}.no{color:#A94A2C;font-weight:700}
+.rec{display:inline-block;background:#2F6B64;color:#fff;font-size:12px;font-weight:700;letter-spacing:2px;padding:4px 10px;border-radius:20px;margin-left:8px;vertical-align:middle}
 </style></head><body>
 
-<h1>Cor complementar para a fairhealth: 5 testes</h1>
-<p class="intro">Base da marca: verde-escuro <b>#2F6B64</b> e verde-água <b>#96C3BA</b>, ambos com matiz perto de 173° no círculo cromático. Uma cor dá vida quando contrasta em <b>matiz</b> (lado oposto do círculo) e em <b>temperatura</b> (quente contra frio). Todos os testes seguem a regra 60-30-10: verde domina, um neutro quente apoia e a cor nova aparece só em detalhes (palavra-chave, botão, sublinhado, selo, número).</p>
-<div class="roda">Posição no círculo em relação ao verde (173°):
-  <span style="background:#2F6B64"></span>verde 173°
-  <span style="background:#FF6F61;margin-left:14px"></span>coral 5° (oposto)
-  <span style="background:#F4A27E;margin-left:14px"></span>pêssego 18°
-  <span style="background:#C8603F;margin-left:14px"></span>terracota 14°
-  <span style="background:#C94F7C;margin-left:14px"></span>framboesa 338°
-  <span style="background:#F2BE4A;margin-left:14px"></span>sol 41°
+<h1>Cor complementar para a fairhealth</h1>
+<p class="intro">A cor principal medida é o verde-água <b>#9FC5BD</b>: matiz 167°, <b>clara</b> (luminosidade 70%) e <b>pouco saturada</b>. O fairedu funciona porque junta duas cores quase opostas no círculo <b>e</b> de claridades diferentes: o roxo escuro e o amarelo claro trocam de papel (um é fundo, o outro é texto ou caixa) e sempre se leem bem. Para a fairhealth fazer o mesmo, a cor nova precisa ser <b>quente</b> (oposta ao verde) e <b>escura</b> (oposta à claridade do verde). Cores claras como coral e pêssego têm quase a mesma claridade do verde-água: juntas elas "vibram", mas não dão para usar uma sobre a outra.</p>
+<div class="ref">
+  <span class="sw"><i style="background:#9FC5BD"></i>fairhealth #9FC5BD · 167° · clara</span>
+  <span class="sw"><i style="background:#6B3F96"></i><i style="background:#F7C552"></i>fairedu: roxo 270° escuro + amarelo 42° claro</span>
+  <span class="sw" style="color:#A94A2C;font-weight:700">Amarelo e roxo ficam fora, para não confundir com o fairedu.</span>
 </div>
 
-<!-- 1 coral -->
+<!-- 1 vinho -->
 <div class="linha">
-  <div><div class="nome">1 · Coral</div><div class="hex">#FF6F61 · complementar direta (o seu exemplo)</div>
-    <div class="barra"><div style="flex:6;background:#2F6B64"></div><div style="flex:3;background:#F6F1EA"></div><div style="flex:1;background:#FF6F61"></div></div>
-    <p class="nota">O oposto exato do verde no círculo, então é o contraste mais forte e mais "vivo". Tom jovem e otimista. Risco: em área grande briga com o verde e fica com cara de marca de varejo.</p></div>
-  <div class="mini" style="background:#2F6B64;color:#fff"><div class="pag">1/10</div><h2>Aqui, o cuidado começa com <b class="u" style="text-decoration-color:#FF6F61">uma pergunta.</b></h2><div class="btn" style="background:#FF6F61"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div><div class="h">@fairhealth.br</div></div>
-  <div class="mini" style="background:#F6F1EA"><div class="pag">5/10</div><span class="tag" style="background:#FF6F61;color:#141B1B">PASSO 2</span><h2>O que é <b style="color:#2F6B64">importante</b> para você?</h2><div class="caixa" style="background:#FFD9D4">É a partir da sua resposta que o cuidado <b>ganha sentido.</b></div><div class="h">@fairhealth.br</div></div>
-  <ul class="uso"><li><span class="ok">Funciona</span> em botão, selo, sublinhado e número.</li><li><span class="ok">Texto escuro</span> sobre coral: contraste 6,4.</li><li><span class="no">Evitar</span> texto coral sobre o verde-escuro (2,3) e texto branco sobre coral (2,7).</li></ul>
+  <div><div class="nome">1 · Vinho <span class="rec">MAIS TÉCNICA</span></div><div class="hex">#8E2F4B · 342° · oposta exata, escura</div>
+    <div class="barra"><div style="flex:6;background:#9FC5BD"></div><div style="flex:3;background:#F6F1EA"></div><div style="flex:1;background:#8E2F4B"></div></div>
+    <p class="nota">É o oposto exato do verde-água no círculo e tem a claridade invertida, a mesma lógica do roxo e amarelo do fairedu. Elegante, afetiva, "cuidado com profundidade".</p></div>
+  <div class="mini" style="background:#9FC5BD"><h2>Aqui, o cuidado começa com <b class="u" style="color:#8E2F4B;text-decoration-color:#8E2F4B">uma pergunta.</b></h2><div class="btn" style="background:#8E2F4B"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div><div class="h">@fairhealth.br</div></div>
+  <div class="mini" style="background:#8E2F4B;color:#fff"><h2>O que é <b>importante</b> para você?</h2><div class="caixa" style="background:#9FC5BD;color:#141B1B">É a partir da sua resposta que o cuidado <b>ganha sentido.</b></div><div class="h">@fairhealth.br</div></div>
+  <div class="mini" style="background:#F6F1EA"><div class="num" style="color:#8E2F4B">98%</div><h2 style="font-size:20px;margin-top:10px">de adesão ao <b style="color:#2F6B64">Escritório do Cuidado</b></h2><div class="h">@fairhealth.br</div></div>
+  <ul class="uso"><li><span class="ok">Vinho sobre o verde-água:</span> 4,2</li><li><span class="ok">Branco sobre vinho:</span> 7,9</li><li><span class="ok">Vinho sobre o off-white:</span> 7,0</li><li>Dá para usar como <b>fundo inteiro</b>, igual ao roxo do fairedu.</li><li><span class="no">Cuidado:</span> é a que fica mais perto do roxo do fairedu (as duas são escuras e "joia"). Ver lado a lado no feed.</li></ul>
 </div>
 
-<!-- 2 pêssego -->
+<!-- 2 terracota -->
 <div class="linha">
-  <div><div class="nome">2 · Pêssego</div><div class="hex">#F4A27E · complementar suavizada</div>
-    <div class="barra"><div style="flex:6;background:#2F6B64"></div><div style="flex:3;background:#F6F1EA"></div><div style="flex:1;background:#F4A27E"></div></div>
-    <p class="nota">Mesmo lado do círculo que o coral, com menos saturação. Lembra pele e luz de fim de tarde: acolhimento sem gritar. É a que mais combina com o tom "ouvir e cuidar" dos primeiros posts.</p></div>
-  <div class="mini" style="background:#2F6B64;color:#fff"><div class="pag">1/10</div><h2>Aqui, o cuidado começa com <b style="color:#F4A27E">uma pergunta.</b></h2><div class="btn" style="background:#F4A27E"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2F6B64" stroke-width="2.6" stroke-linecap="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div><div class="h">@fairhealth.br</div></div>
-  <div class="mini" style="background:#F6F1EA"><div class="pag">5/10</div><span class="tag" style="background:#F4A27E;color:#141B1B">PASSO 2</span><h2>O que é <b style="color:#2F6B64">importante</b> para você?</h2><div class="caixa" style="background:#FBDCCB">É a partir da sua resposta que o cuidado <b>ganha sentido.</b></div><div class="h">@fairhealth.br</div></div>
-  <ul class="uso"><li><span class="ok">Funciona</span> como palavra-chave em título grande sobre o verde-escuro (3,0).</li><li><span class="ok">Texto escuro</span> sobre pêssego: 8,6.</li><li><span class="no">Evitar</span> texto pêssego sobre fundo claro (1,8).</li></ul>
+  <div><div class="nome">2 · Terracota <span class="rec">MAIS DISTINTA</span></div><div class="hex">#A94A2C · 14° · oposta, terrosa</div>
+    <div class="barra"><div style="flex:6;background:#9FC5BD"></div><div style="flex:3;background:#F6F1EA"></div><div style="flex:1;background:#A94A2C"></div></div>
+    <p class="nota">Quente e escura, mas puxada para o laranja: não lembra nada do fairedu. Conversa com a pedra e a madeira do Escritório do Cuidado, então funciona junto das fotos do espaço. Tom acolhedor e "de casa".</p></div>
+  <div class="mini" style="background:#9FC5BD"><h2>Aqui, o cuidado começa com <b class="u" style="color:#A94A2C;text-decoration-color:#A94A2C">uma pergunta.</b></h2><div class="btn" style="background:#A94A2C"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div><div class="h">@fairhealth.br</div></div>
+  <div class="mini" style="background:#A94A2C;color:#fff"><h2>O que é <b>importante</b> para você?</h2><div class="caixa" style="background:#9FC5BD;color:#141B1B">É a partir da sua resposta que o cuidado <b>ganha sentido.</b></div><div class="h">@fairhealth.br</div></div>
+  <div class="mini" style="background:#F6F1EA"><div class="num" style="color:#A94A2C">98%</div><h2 style="font-size:20px;margin-top:10px">de adesão ao <b style="color:#2F6B64">Escritório do Cuidado</b></h2><div class="h">@fairhealth.br</div></div>
+  <ul class="uso"><li><span class="ok">Terracota sobre o verde-água:</span> 3,0 (só título grande)</li><li><span class="ok">Branco sobre terracota:</span> 5,7</li><li><span class="ok">Terracota sobre o off-white:</span> 5,1</li><li>Também dá para usar como <b>fundo inteiro</b>.</li></ul>
 </div>
 
-<!-- 3 terracota -->
+<!-- 3 coral -->
 <div class="linha">
-  <div><div class="nome">3 · Terracota</div><div class="hex">#C8603F · complementar terrosa</div>
-    <div class="barra"><div style="flex:6;background:#2F6B64"></div><div style="flex:3;background:#F6F1EA"></div><div style="flex:1;background:#C8603F"></div></div>
-    <p class="nota">Complementar escurecida. Conversa com a pedra e a madeira do Escritório do Cuidado, então fica natural nas fotos do espaço. Mais sóbria e "premium", boa para falar com RH.</p></div>
-  <div class="mini" style="background:#2F6B64;color:#fff"><div class="pag">1/10</div><h2>Aqui, o cuidado começa com <b class="u" style="text-decoration-color:#C8603F">uma pergunta.</b></h2><div class="btn" style="background:#C8603F"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div><div class="h">@fairhealth.br</div></div>
-  <div class="mini" style="background:#F6F1EA"><div class="pag">5/10</div><span class="tag" style="background:#C8603F;color:#fff">PASSO 2</span><h2>O que é <b style="color:#C8603F">importante</b> para você?</h2><div class="caixa" style="background:#96C3BA">É a partir da sua resposta que o cuidado <b>ganha sentido.</b></div><div class="h">@fairhealth.br</div></div>
-  <ul class="uso"><li><span class="ok">Funciona</span> como texto sobre o fundo claro (3,6) e com texto branco por cima (4,0).</li><li><span class="no">Evitar</span> terracota sobre o verde-escuro (1,5): os dois têm o mesmo "peso" e somem juntos.</li></ul>
+  <div><div class="nome">3 · Coral</div><div class="hex">#FF6F61 · 5° · oposta, clara (o seu exemplo)</div>
+    <div class="barra"><div style="flex:6;background:#9FC5BD"></div><div style="flex:3;background:#F6F1EA"></div><div style="flex:1;background:#FF6F61"></div></div>
+    <p class="nota">A mais vibrante. Como tem a mesma claridade do verde-água, as duas lado a lado "vibram", mas uma não se lê sobre a outra. Serve só para detalhes, sempre com texto escuro.</p></div>
+  <div class="mini" style="background:#9FC5BD"><h2>Aqui, o cuidado começa com <b class="u" style="text-decoration-color:#FF6F61">uma pergunta.</b></h2><div class="btn" style="background:#FF6F61"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#141B1B" stroke-width="2.6" stroke-linecap="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div><div class="h">@fairhealth.br</div></div>
+  <div class="mini" style="background:#FF6F61"><h2>O que é <b>importante</b> para você?</h2><div class="caixa" style="background:#F6F1EA">É a partir da sua resposta que o cuidado <b>ganha sentido.</b></div><div class="h">@fairhealth.br</div></div>
+  <div class="mini" style="background:#F6F1EA"><div class="num" style="color:#141B1B;text-decoration:underline;text-decoration-color:#FF6F61;text-decoration-thickness:8px;text-underline-offset:6px">98%</div><h2 style="font-size:20px;margin-top:14px">de adesão ao <b style="color:#2F6B64">Escritório do Cuidado</b></h2><div class="h">@fairhealth.br</div></div>
+  <ul class="uso"><li><span class="no">Coral sobre o verde-água:</span> 1,5 (não lê)</li><li><span class="no">Branco sobre coral:</span> 2,7</li><li><span class="ok">Texto escuro sobre coral:</span> 6,4</li><li>Só em sublinhado, botão, selo e fundo de slide com texto escuro.</li></ul>
 </div>
 
-<!-- 4 framboesa -->
+<!-- 4 pêssego -->
 <div class="linha">
-  <div><div class="nome">4 · Framboesa</div><div class="hex">#C94F7C · complementar dividida</div>
-    <div class="barra"><div style="flex:6;background:#2F6B64"></div><div style="flex:3;background:#F6F1EA"></div><div style="flex:1;background:#C94F7C"></div></div>
-    <p class="nota">Fica de um lado do oposto exato (complementar dividida), o que dá contraste sem ficar óbvio. Traz afeto e cuidado; é comum em marcas de saúde da mulher. Combinação mais ousada e editorial.</p></div>
-  <div class="mini" style="background:#2F6B64;color:#fff"><div class="pag">1/10</div><h2>Aqui, o cuidado começa com <b class="u" style="text-decoration-color:#E58AAB">uma pergunta.</b></h2><div class="btn" style="background:#C94F7C"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div><div class="h">@fairhealth.br</div></div>
-  <div class="mini" style="background:#F6F1EA"><div class="pag">5/10</div><span class="tag" style="background:#C94F7C;color:#fff">PASSO 2</span><h2>O que é <b style="color:#C94F7C">importante</b> para você?</h2><div class="caixa" style="background:#F5D3DF">É a partir da sua resposta que o cuidado <b>ganha sentido.</b></div><div class="h">@fairhealth.br</div></div>
-  <ul class="uso"><li><span class="ok">Funciona</span> como texto sobre fundo claro (3,8) e com texto branco por cima (4,3).</li><li><span class="no">Evitar</span> sobre o verde-escuro (1,4); lá, usar a versão clara #E58AAB.</li></ul>
-</div>
-
-<!-- 5 sol -->
-<div class="linha">
-  <div><div class="nome">5 · Sol</div><div class="hex">#F2BE4A · triádica quente</div>
-    <div class="barra"><div style="flex:6;background:#2F6B64"></div><div style="flex:3;background:#F6F1EA"></div><div style="flex:1;background:#F2BE4A"></div></div>
-    <p class="nota">Um terço do círculo de distância (triádica). Energia e otimismo, ótima para destacar número e dado. <b>Atenção:</b> o fairedu usa amarelo; se for parecido, as marcas se confundem.</p></div>
-  <div class="mini" style="background:#2F6B64;color:#fff"><div class="pag">1/10</div><h2>Aqui, o cuidado começa com <b style="color:#F2BE4A">uma pergunta.</b></h2><div class="btn" style="background:#F2BE4A"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2F6B64" stroke-width="2.6" stroke-linecap="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div><div class="h">@fairhealth.br</div></div>
-  <div class="mini" style="background:#F6F1EA"><div class="pag">5/10</div><span class="tag" style="background:#F2BE4A;color:#141B1B">PASSO 2</span><h2>O que é <b style="color:#2F6B64">importante</b> para você?</h2><div class="caixa" style="background:#FBE6B4">É a partir da sua resposta que o cuidado <b>ganha sentido.</b></div><div class="h">@fairhealth.br</div></div>
-  <ul class="uso"><li><span class="ok">Funciona</span> como palavra-chave sobre o verde-escuro (3,6) e com texto escuro por cima (10,2).</li><li><span class="no">Evitar</span> texto amarelo sobre fundo claro (1,5).</li></ul>
+  <div><div class="nome">4 · Pêssego</div><div class="hex">#F4A27E · 18° · oposta, suave</div>
+    <div class="barra"><div style="flex:6;background:#9FC5BD"></div><div style="flex:3;background:#F6F1EA"></div><div style="flex:1;background:#F4A27E"></div></div>
+    <p class="nota">A versão mais delicada. Quase a mesma claridade do verde-água (contraste 1,1), então funciona como <b>fundo alternativo</b>, para o feed não ficar todo verde, e não como destaque. Quem faz o destaque é o verde-escuro.</p></div>
+  <div class="mini" style="background:#9FC5BD"><h2>Aqui, o cuidado começa com <b class="u" style="color:#2F6B64;text-decoration-color:#F4A27E">uma pergunta.</b></h2><div class="btn" style="background:#2F6B64"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F4A27E" stroke-width="2.6" stroke-linecap="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div><div class="h">@fairhealth.br</div></div>
+  <div class="mini" style="background:#F4A27E"><h2>O que é <b style="color:#2F6B64">importante</b> para você?</h2><div class="caixa" style="background:#9FC5BD">É a partir da sua resposta que o cuidado <b>ganha sentido.</b></div><div class="h">@fairhealth.br</div></div>
+  <div class="mini" style="background:#2F6B64;color:#fff"><div class="num" style="color:#F4A27E">98%</div><h2 style="font-size:20px;margin-top:10px">de adesão ao <b>Escritório do Cuidado</b></h2><div class="h">@fairhealth.br</div></div>
+  <ul class="uso"><li><span class="ok">Texto escuro sobre pêssego:</span> 8,6</li><li><span class="ok">Pêssego sobre o verde-escuro:</span> 3,0 (título e número)</li><li><span class="no">Pêssego sobre o verde-água:</span> 1,1 (não lê)</li></ul>
 </div>
 
 </body></html>
