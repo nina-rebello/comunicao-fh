@@ -8,16 +8,11 @@ CREME, BASE, TINTA = '#F0F0E9', '#9FC5BD', '#1F3A36'
 
 # nome, hex, escura?, nota técnica
 CORES = [
-    ('ameixa', 'Ameixa', '#603A42', True,
-     'Oposta exata do verde-água (347° x 167°) e com a claridade invertida. Sóbria, afetiva e elegante. Pode ser fundo e também cor de texto.'),
-    ('coral', 'Coral', '#EC7768', False,
-     'Quase oposta ao verde-água e bem saturada: a mais viva e calorosa. Pede texto escuro por cima; sobre o verde-água entra como marca-texto e botão.'),
-    ('amarelo', 'Amarelo', '#EDB84A', False,
-     'Luz e otimismo. Ótima para destacar. Atenção: é parecida com o amarelo do fairedu (#F7C552), então as marcas podem se confundir no feed.'),
-    ('terracota', 'Terracota', '#B4532F', True,
-     'Quente e terrosa, conversa com a pedra e a madeira do Escritório do Cuidado. Não lembra nada do fairedu. Aceita texto claro por cima.'),
-    ('pessego', 'Pêssego', '#F3A683', False,
-     'A versão mais suave e acolhedora do coral. Dá vida sem pesar. Pede texto escuro e funciona melhor em fundos e detalhes do que em letras.'),
+    ('ameixa', 'Bordô', '#603A42', True, ' (atual)'),
+    ('coral', 'Coral', '#EC7768', False, ''),
+    ('amarelo', 'Amarelo', '#F2C14E', False, ''),
+    ('petroleo', 'Azul petróleo', '#1F5560', True, ''),
+    ('framboesa', 'Framboesa', '#C2456B', True, ''),
 ]
 
 CSS = f"""
@@ -51,16 +46,18 @@ def marca(cor):
 
 def slides(slug, hexa, escura):
     # tinta = cor de texto nos fundos claros; sobre a cor = cor do texto no fundo da cor em teste
-    tinta = hexa if slug == 'ameixa' else TINTA
+    tinta = hexa if slug in ('ameixa', 'petroleo') else TINTA
     sobre = CREME if escura else TINTA
     destaque_sobre = BASE if escura else CREME
     # palavra-chave nos fundos claros: a própria cor se tiver contraste; senão tinta com marca-texto
     kw_creme = f'color:{hexa};{marca(BASE)}' if escura else f'color:{TINTA};{marca(hexa)}'
-    kw_base = f'color:{hexa}' if slug == 'ameixa' else f'color:{TINTA};{marca(hexa if not escura else CREME)}'
-    if slug == 'terracota':
+    kw_base = f'color:{hexa}' if slug in ('ameixa', 'petroleo') else f'color:{TINTA};{marca(hexa if not escura else CREME)}'
+    if slug == 'framboesa':
         kw_base = f'color:{TINTA};{marca(hexa)}'
     pill_on = CREME if escura else TINTA
     kw_sobre = f'color:{BASE}' if escura else f'color:{TINTA};{marca(CREME)}'
+    if slug == 'framboesa':
+        kw_sobre = f'color:{CREME}'
     return f"""
 <section class="slide" id="{slug}-1" style="background:{CREME};color:{tinta}"><div class="pag">6/10</div>
   <div class="passo"><div class="n" style="background:{BASE};color:{tinta}">3</div><div class="t">PASSO 3</div></div>
@@ -77,7 +74,7 @@ def slides(slug, hexa, escura):
   <div class="handle" style="left:0;right:0;text-align:center">@fairhealth.br</div>
 </section>
 <section class="slide" id="{slug}-3" style="background:{hexa};color:{sobre}"><div class="pag">7/10</div>
-  <div class="passo"><div class="n" style="background:{BASE};color:{tinta if slug=='ameixa' else TINTA}">4</div><div class="t">PASSO 4</div></div>
+  <div class="passo"><div class="n" style="background:{BASE};color:{tinta if slug in ('ameixa','petroleo') else TINTA}">4</div><div class="t">PASSO 4</div></div>
   <h1>O plano <b style="{kw_sobre}">é seu.</b></h1>
   <p class="sub">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida:</p>
   <div class="pills" style="margin-top:40px">""" + ''.join(
@@ -90,43 +87,25 @@ html = f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Te
 html += ''.join(slides(s, h, e) for s, _, h, e, _ in CORES) + '</body></html>'
 (AQUI / 'slides.html').write_text(html)
 
-# cartazes: um por cor e um geral
-CARTAZ_CSS = """
-@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
-@font-face{font-family:Raleway;font-weight:700;src:url(../../marca/fontes/raleway-latin-700-normal.woff2)}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Raleway,sans-serif;background:#F0F0E9;color:#1F3A36;width:1700px;padding:72px 80px}
-.topo{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:34px}
-h1{font-size:44px;font-weight:700}
-.sub{font-size:20px;color:#4a5a57;margin-top:8px}
-.paleta{display:flex;gap:10px;align-items:center;font-size:16px;color:#4a5a57}
-.paleta i{display:inline-block;width:42px;height:42px;border-radius:50%;border:1px solid rgba(0,0,0,.08)}
-.bloco{margin-bottom:56px}
-.cab{display:flex;align-items:center;gap:18px;margin-bottom:18px}
-.cab .sw{width:56px;height:56px;border-radius:50%}
-.cab h2{font-size:44px;font-weight:700}
-.cab code{font-size:20px;color:#4a5a57;font-family:ui-monospace,monospace}
-.nota{font-size:18px;line-height:1.5;color:#3b4a47;max-width:1300px;margin-bottom:20px}
-.trio{display:flex;gap:28px}
-.trio{gap:30px}.trio figure{width:500px}
-.trio img{width:500px;height:625px;display:block;border-radius:18px;box-shadow:0 10px 30px rgba(31,58,54,.14)}
-.trio figcaption{font-size:16px;color:#4a5a57;margin-top:10px}
-"""
-
-def bloco(slug, nome, hexa, nota):
-    return f"""<div class="bloco"><div class="cab"><div class="sw" style="background:{hexa}"></div><h2>{nome}</h2><code>{hexa}</code></div>
-<p class="nota">{nota}</p><div class="trio">
-<figure><img src="png-v2/{slug}-1.png"><figcaption>Fundo creme #F0F0E9</figcaption></figure>
-<figure><img src="png-v2/{slug}-2.png"><figcaption>Fundo base #9FC5BD</figcaption></figure>
-<figure><img src="png-v2/{slug}-3.png"><figcaption>Fundo {nome.lower()} {hexa}</figcaption></figure></div></div>"""
-
-def pagina(titulo, blocos):
-    pal = ''.join(f'<i style="background:{c}"></i>' for c in [CREME, BASE])
-    return (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>{titulo}</title><style>{CARTAZ_CSS}</style></head><body>'
-            f'<div class="topo"><div><h1>{titulo}</h1><p class="sub">fairhealth · teste de cor complementar · os mesmos 3 slides em cada cor</p></div>'
-            f'<div class="paleta">base da marca {pal}</div></div>{blocos}</body></html>')
-
-for s, n, h, e, nota in CORES:
-    (AQUI / f'cartaz-{s}.html').write_text(pagina(f'Cor complementar: {n}', bloco(s, n, h, nota)))
-(AQUI / 'cartaz.html').write_text(pagina('Cor complementar: comparação', ''.join(bloco(s, n, h, nota) for s, n, h, e, nota in CORES)))
+# cartaz em colunas (mesmo formato do PDF "Combinações de cores")
+col = ''.join(f'''<div class="col"><h2>{i+1} · <b>{n}</b><small>{x}</small></h2>
+<img src="png/{s}-1.png"><span>Creme {CREME}</span>
+<img src="png/{s}-2.png"><span>Base {BASE}</span>
+<img src="png/{s}-3.png"><span>{n} {h}</span></div>''' for i, (s, n, h, e, x) in enumerate(CORES))
+(AQUI / 'cartaz-colunas.html').write_text(f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Combinações de cores</title><style>
+@font-face{{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}}
+@font-face{{font-family:Raleway;font-weight:700;src:url(../../marca/fontes/raleway-latin-700-normal.woff2)}}
+@font-face{{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}}
+*{{box-sizing:border-box;margin:0;padding:0}}
+body{{font-family:Raleway,sans-serif;background:#fff;color:#2b3332;width:2520px;padding:110px 110px 90px}}
+.topo{{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:80px}}
+h1{{font-size:96px;font-weight:400;letter-spacing:-2px}} h1 b{{font-weight:800;font-style:italic}}
+.at{{font-size:34px;font-weight:700}}
+.cols{{display:flex;gap:46px}} .col{{width:424px}}
+.col h2{{font-size:46px;font-weight:400;margin-bottom:30px;white-space:nowrap}} .col h2 b{{font-weight:800;font-style:italic}}
+.col h2 small{{font-size:24px;font-weight:700;margin-left:6px}}
+.col img{{width:424px;height:530px;display:block;border-radius:22px;box-shadow:0 0 0 1px #e4e4dd,0 10px 26px rgba(0,0,0,.08)}}
+.col span{{display:block;font-size:24px;font-weight:700;margin:14px 0 34px 6px;color:#4a5352}}
+</style></head><body><div class="topo"><h1>Combinações de <b>cores</b></h1><div class="at">@fairhealth.br</div></div>
+<div class="cols">{col}</div></body></html>''')
 print('ok')
