@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Testes de cor v2: arcos</title>
+<style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:500;src:url(../../marca/fontes/raleway-latin-500-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:700;src:url(../../marca/fontes/raleway-latin-700-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#ccc}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;margin:0 0 40px}
+.slide>*{position:absolute}
+h1{font-weight:400;letter-spacing:-2px;line-height:1}
+h1 b{font-weight:800;font-style:italic;letter-spacing:-1px}
+.k{font-size:24px;font-weight:700;letter-spacing:8px}
+.p{font-size:38px;line-height:1.35}
+.h{font-size:28px;font-weight:700}
+.arco{border-radius:999px 999px 0 0;overflow:hidden;background-size:cover}
+.foto-sala{background-image:url(../../marca/espaco/sala-atendimento-e-espera.jpg)}
+.foto-copa{background-image:url(../../marca/espaco/copa-parede-verde.jpg)}
+.foto-rec{background-image:url(../../marca/espaco/recepcao-parede-pedra.jpg)}
+
+/* tema por cor: --c (complementar), --sobre (texto sobre a complementar), --tinta (texto nos fundos claros), --kw (palavra-chave nos claros) */
+.ameixa{--c:#603A42;--sobre:#F0F0E9;--tinta:#603A42;--kw:#603A42;--kw2:#9FC5BD;--dec:transparent}
+.coral{--c:#EC7768;--sobre:#1F3A36;--tinta:#1F3A36;--kw:#C9503F;--kw2:#FFFFFF;--dec:transparent}
+.amarelo{--c:#EDB84A;--sobre:#1F3A36;--tinta:#1F3A36;--kw:#1F3A36;--kw2:#1F3A36;--dec:#EDB84A}
+.terracota{--c:#B4532F;--sobre:#F0F0E9;--tinta:#1F3A36;--kw:#B4532F;--kw2:#9FC5BD;--dec:transparent}
+.pessego{--c:#F3A683;--sobre:#1F3A36;--tinta:#1F3A36;--kw:#1F3A36;--kw2:#1F3A36;--dec:#F3A683}
+</style></head><body>
+
+<!-- os 3 slides são repetidos para cada tema -->
+<template id="t">
+<section class="slide" data-n="1" style="background:#F0F0E9;color:var(--tinta)">
+  <div class="arco foto-sala" style="right:-40px;top:-60px;width:620px;height:820px;background-position:62% center;border-radius:0 0 999px 999px"></div>
+  <div style="left:96px;top:96px;width:150px;height:150px;border-radius:50%;background:var(--c);color:var(--sobre);display:flex;align-items:center;justify-content:center;font-size:66px;font-weight:800;font-style:italic">3</div>
+  <div class="k" style="left:96px;top:290px">PASSO 3</div>
+  <h1 style="left:96px;top:700px;width:900px;font-size:124px;line-height:1.02">Entender<br><b style="color:var(--kw);text-decoration:underline;text-decoration-color:var(--dec);text-decoration-thickness:12px;text-underline-offset:14px">antes de<br>propor.</b></h1>
+  <p class="p" style="left:96px;top:1110px;width:820px">Bioimpedância e smartband por 48 horas. Para entender, não para julgar.</p>
+  <div class="h" style="left:96px;bottom:60px">@fairhealth.br</div>
+</section>
+<section class="slide" data-n="2" style="background:#9FC5BD;color:var(--tinta)">
+  <div style="left:50%;bottom:-560px;width:1300px;height:1300px;margin-left:-650px;border-radius:50%;background:var(--c)"></div>
+  <div class="k" style="left:0;right:0;top:150px;text-align:center">E PARA VOCÊ,</div>
+  <h1 style="left:60px;right:60px;top:230px;text-align:center;font-size:150px;line-height:.98">o que é <b>importante?</b></h1>
+  <p class="p" style="left:0;right:0;top:930px;text-align:center;color:var(--sobre);font-weight:700;font-size:44px">Conta pra gente<br>nos comentários.</p>
+  <p style="left:0;right:0;top:1130px;text-align:center;color:var(--sobre);font-size:28px;font-style:italic;opacity:.85">« Fazemos o certo pelos motivos certos »</p>
+  <div class="h" style="left:0;right:0;bottom:60px;text-align:center;color:var(--sobre)">@fairhealth.br</div>
+</section>
+<section class="slide" data-n="3" style="background:var(--c);color:var(--sobre)">
+  <div class="arco foto-copa" style="left:96px;bottom:0;width:888px;height:640px;background-position:45% 40%"></div>
+  <div class="k" style="left:96px;top:110px">PASSO 4</div>
+  <h1 style="left:96px;top:180px;font-size:150px">O plano<br><b style="color:var(--kw2)">é seu.</b></h1>
+  <p class="p" style="left:96px;top:520px;width:860px">Montado a partir do que é importante para você, nos pilares da Medicina do Estilo de Vida.</p>
+</section>
+</template>
+
+<div id="saida"></div>
+<script>
+const t=document.getElementById('t').content, saida=document.getElementById('saida');
+for(const tema of ['ameixa','coral','amarelo','terracota','pessego']){
+  for(const s of t.querySelectorAll('section')){
+    const c=s.cloneNode(true); c.classList.add(tema); c.id=tema+'-'+s.dataset.n; saida.appendChild(c);
+  }
+}
+</script>
+</body></html>

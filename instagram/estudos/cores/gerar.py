@@ -95,7 +95,7 @@ CARTAZ_CSS = """
 @font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
 @font-face{font-family:Raleway;font-weight:700;src:url(../../marca/fontes/raleway-latin-700-normal.woff2)}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Raleway,sans-serif;background:#FAFAF7;color:#1F3A36;width:1700px;padding:64px 70px}
+body{font-family:Raleway,sans-serif;background:#F0F0E9;color:#1F3A36;width:1700px;padding:72px 80px}
 .topo{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:34px}
 h1{font-size:44px;font-weight:700}
 .sub{font-size:20px;color:#4a5a57;margin-top:8px}
@@ -104,21 +104,21 @@ h1{font-size:44px;font-weight:700}
 .bloco{margin-bottom:56px}
 .cab{display:flex;align-items:center;gap:18px;margin-bottom:18px}
 .cab .sw{width:56px;height:56px;border-radius:50%}
-.cab h2{font-size:34px;font-weight:700}
+.cab h2{font-size:44px;font-weight:700}
 .cab code{font-size:20px;color:#4a5a57;font-family:ui-monospace,monospace}
 .nota{font-size:18px;line-height:1.5;color:#3b4a47;max-width:1300px;margin-bottom:20px}
 .trio{display:flex;gap:28px}
-.trio figure{width:500px}
-.trio img{width:500px;height:625px;display:block;box-shadow:0 6px 24px rgba(0,0,0,.10)}
+.trio{gap:30px}.trio figure{width:500px}
+.trio img{width:500px;height:625px;display:block;border-radius:18px;box-shadow:0 10px 30px rgba(31,58,54,.14)}
 .trio figcaption{font-size:16px;color:#4a5a57;margin-top:10px}
 """
 
 def bloco(slug, nome, hexa, nota):
     return f"""<div class="bloco"><div class="cab"><div class="sw" style="background:{hexa}"></div><h2>{nome}</h2><code>{hexa}</code></div>
 <p class="nota">{nota}</p><div class="trio">
-<figure><img src="png/{slug}-1.png"><figcaption>Fundo creme #F0F0E9</figcaption></figure>
-<figure><img src="png/{slug}-2.png"><figcaption>Fundo base #9FC5BD</figcaption></figure>
-<figure><img src="png/{slug}-3.png"><figcaption>Fundo {nome.lower()} {hexa}</figcaption></figure></div></div>"""
+<figure><img src="png-v2/{slug}-1.png"><figcaption>Fundo creme #F0F0E9</figcaption></figure>
+<figure><img src="png-v2/{slug}-2.png"><figcaption>Fundo base #9FC5BD</figcaption></figure>
+<figure><img src="png-v2/{slug}-3.png"><figcaption>Fundo {nome.lower()} {hexa}</figcaption></figure></div></div>"""
 
 def pagina(titulo, blocos):
     pal = ''.join(f'<i style="background:{c}"></i>' for c in [CREME, BASE])
