@@ -22,9 +22,11 @@ h1 b{font-weight:800;font-style:italic;letter-spacing:-1px}
 /* tema por cor: --c (complementar), --sobre (texto sobre a complementar), --tinta (texto nos fundos claros), --kw (palavra-chave nos claros) */
 .ameixa{--c:#603A42;--sobre:#F0F0E9;--tinta:#603A42;--kw:#603A42;--kw2:#9FC5BD;--dec:transparent}
 .coral{--c:#EC7768;--sobre:#1F3A36;--tinta:#1F3A36;--kw:#C9503F;--kw2:#FFFFFF;--dec:transparent}
-.amarelo{--c:#EDB84A;--sobre:#1F3A36;--tinta:#1F3A36;--kw:#1F3A36;--kw2:#1F3A36;--dec:#EDB84A}
+.amarelo{--c:#F2C14E;--sobre:#1F3A36;--tinta:#1F3A36;--kw:#1F3A36;--kw2:#1F3A36;--dec:#F2C14E}
 .terracota{--c:#B4532F;--sobre:#F0F0E9;--tinta:#1F3A36;--kw:#B4532F;--kw2:#9FC5BD;--dec:transparent}
 .pessego{--c:#F3A683;--sobre:#1F3A36;--tinta:#1F3A36;--kw:#1F3A36;--kw2:#1F3A36;--dec:#F3A683}
+.petroleo{--c:#1F5560;--sobre:#F0F0E9;--tinta:#1F5560;--kw:#1F5560;--kw2:#9FC5BD;--dec:transparent}
+.framboesa{--c:#C2456B;--sobre:#F0F0E9;--tinta:#1F3A36;--kw:#C2456B;--kw2:#FFFFFF;--dec:transparent}
 </style></head><body>
 
 <!-- os 3 slides são repetidos para cada tema -->
@@ -56,7 +58,7 @@ h1 b{font-weight:800;font-style:italic;letter-spacing:-1px}
 <div id="saida"></div>
 <script>
 const t=document.getElementById('t').content, saida=document.getElementById('saida');
-for(const tema of ['ameixa','coral','amarelo','terracota','pessego']){
+for(const tema of ['ameixa','coral','amarelo','petroleo','framboesa','terracota','pessego']){
   for(const s of t.querySelectorAll('section')){
     const c=s.cloneNode(true); c.classList.add(tema); c.id=tema+'-'+s.dataset.n; saida.appendChild(c);
   }
