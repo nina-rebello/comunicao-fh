@@ -51,12 +51,12 @@ def slides(s, ac, escuro):
   <div class="pills">{pills(['Médicos', 'Psicólogos', 'Escuta', 'Plano individual'], ac, on)}</div>
   <div class="seta" style="background:{tit}">{seta(BASE)}</div>
 </section>
-<section class="slide" id="{s}-b" style="background:{CREME};color:{tit}">
+<section class="slide" id="{s}-b" style="background:{CREME};color:{TINTA}">
   <div class="top"><span>@fairhealth.br</span><span>2/2</span></div>
   <h1>O que é <span class="mk" style="background:{ac};color:{on}">importante</span> para você?</h1>
   <p class="sub">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
-  <div class="pills">{pills(['Sono', 'Alimentação', 'Movimento', 'Estresse'], BASE, tit)}</div>
-  <div class="seta" style="background:{BASE}">{seta(tit)}</div>
+  <div class="pills">{pills(['Sono', 'Alimentação', 'Movimento', 'Estresse'], BASE, TINTA)}</div>
+  <div class="seta" style="background:{BASE}">{seta(TINTA)}</div>
 </section>"""
 
 
