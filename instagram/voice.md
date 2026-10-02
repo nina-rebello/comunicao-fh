@@ -154,6 +154,7 @@ em `instagram/referencias.md`.
   agradecimento e stickers nos Stories. Nunca junto de dado ou número sério.
   **[PENDENTE]** Substituir pelo PNG final com fundo transparente.
 - Uma única logo por peça.
+- **Regra da cor extra:** toda peça que usa a cor extra também tem o Tiffany #9FC5BD visível (fundo, forma ou detalhe), para a cor extra nunca roubar a cena da cor principal.
 - **Cor complementar:** em teste. Estudo em `instagram/estudos/cores/` (vinho, terracota, coral, pêssego). Amarelo e roxo ficam fora porque são as cores do fairedu.
 
 ## A chamada final

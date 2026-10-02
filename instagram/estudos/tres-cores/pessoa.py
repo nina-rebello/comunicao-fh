@@ -1,4 +1,4 @@
-# Modelo "pessoa + etiquetas" (referência Nürnberg) nas 4 combinações de três cores.
+# Modelo "etiquetas" (referência Nürnberg, sem foto) nas 4 combinações de três cores.
 # Uso: python3 instagram/estudos/tres-cores/pessoa.py
 #      node instagram/ferramentas/render.mjs instagram/estudos/tres-cores/pessoa.html instagram/estudos/tres-cores/png-pessoa
 import pathlib
@@ -23,7 +23,7 @@ body{font-family:Raleway,sans-serif;background:#ccc}
 .slide{width:1080px;height:1350px;position:relative;overflow:hidden;margin:0 0 40px}
 .slide>*{position:absolute}
 .foto{bottom:0;background-repeat:no-repeat;background-size:contain;background-position:right bottom}
-.col{left:84px;top:250px;width:600px}
+.col{left:84px;top:250px;width:620px}
 h1{font-size:76px;font-weight:800;line-height:1.08;letter-spacing:-1.5px}
 .sub{font-size:36px;font-weight:400;line-height:1.35;margin-top:34px}
 .pills{display:flex;flex-wrap:wrap;gap:16px;margin-top:52px;align-items:center}
@@ -49,16 +49,18 @@ def slides(s, ac, escuro):
     pills = lambda itens, bg, cor: ''.join(f'<span class="pill" style="background:{bg};color:{cor}">{p}</span>' for p in itens)
     return f"""
 <section class="slide" id="{s}-a" style="background:{CREME}">
-  <div class="foto" style="right:-150px;width:820px;height:1250px;background-image:url({FOTOS}floriana-recorte-ext.png)"></div>
+  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:{BASE}"></div>
+  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:{ac}"></div>
   <div class="col" style="color:{tit}">
     <h1>Um cuidado mais perto começa com uma conversa.</h1>
     <p class="sub" style="color:{TINTA if not escuro else tit}">Um espaço dentro da empresa para cuidar de você, com escuta e sem pressa.</p>
-    <div class="pills">{pills(['Médicos', 'Psicólogos', 'Bioimpedância', 'Smartband'], ac, on)}<span class="mais" style="background:{TINTA if not escuro else ac};color:{CREME}">+</span></div>
+    <div class="pills">{pills(['Médicos', 'Psicólogos', 'Bioimpedância', 'Smartband'], ac, on)}<span class="mais" style="background:{tit};color:{CREME}">+</span></div>
   </div>
   {rodape(tit)}
 </section>
 <section class="slide" id="{s}-b" style="background:{BASE}">
-  <div class="foto" style="right:-200px;width:880px;height:1260px;background-image:url({FOTOS}nina-recorte-ext.png)"></div>
+  <div style="right:-560px;top:240px;width:900px;height:900px;border-radius:50%;background:{CREME}"></div>
+  <div style="right:90px;top:330px;width:130px;height:130px;border-radius:50%;background:{ac}"></div>
   <div class="col" style="color:{tit}">
     <h1>O que é <span style="background:{ac};color:{on};padding:0 12px;box-decoration-break:clone;-webkit-box-decoration-break:clone">importante</span> para você?</h1>
     <p class="sub" style="color:{TINTA if not escuro else tit}">É a primeira pergunta de todo atendimento. O plano nasce da sua resposta.</p>
