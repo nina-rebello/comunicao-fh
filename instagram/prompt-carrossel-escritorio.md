@@ -1,5 +1,9 @@
 # Prompt: carrossel "Como funciona o Escritório do Cuidado"
 
+> Brief de uma versão de teste. Só o Tiffany é ponto de partida da marca; as outras
+> cores e os elementos gráficos abaixo estão em teste (ver
+> `instagram/diretrizes-criativas.md`).
+
 Crie um carrossel de Instagram com 10 slides de 1080×1350 px para a **fairhealth**
 (@fairhealth.br), marca de saúde corporativa do ecossistema fairjob.
 

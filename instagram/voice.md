@@ -16,17 +16,27 @@ português do Brasil.
 - **O que fazemos, em uma frase:** Levamos médicos, psicólogos e assistentes
   sociais para dentro da sua empresa para cuidar do time antes que o adoecimento
   vire afastamento, e comprovamos o resultado com dados.
-- **Com quem falamos:**
+- **Com quem falamos (PROVISÓRIO, a confirmar com o material estratégico
+  complementar; detalhes e perguntas de cada público em `estrategia.md`):**
   - **Principal:** líderes de RH (CHROs, gerentes de pessoas, business partners)
     de empresas brasileiras de médio e grande porte, principalmente indústria.
     Estão pressionados pela adequação à NR-01 e pela alta da sinistralidade do
     plano de saúde.
+  - **Colaboradores** que são ou podem ser atendidos pelo Escritório do Cuidado
+    (público dos posts de acolhimento).
   - **Secundário:** médicos do trabalho / SESMT e CFOs.
+  - O mesmo tema muda de abordagem conforme o público. Não repetir a mesma
+    mensagem para todos.
 - **O que vendemos:** o **Escritório do Cuidado**, um espaço físico dentro da
   empresa com atendimento médico, psicológico e social, presencial ou remoto.
-  O atendimento segue a Medicina do Estilo de Vida (MEV), usa monitoramento por
+  O atendimento segue a Medicina do Estilo de Vida (MEV), com um **Plano
+  Individualizado de Cuidado** para cada pessoa, usa monitoramento por
   smartbands e entrega relatórios anonimizados para o RH, integrados ao fairdata.
   O Escritório complementa o plano de saúde e o SST e ajuda na adequação à NR-01.
+  **[PENDENTE]** Confirmar se o serviço social faz parte do atendimento (o
+  Executive Summary cita médicos e psicólogos).
+- **Linhas editoriais:** institucional · produto · projetos, eventos e entregas
+  (ver `estrategia.md`).
 
 ## Como soamos
 
@@ -56,8 +66,9 @@ português do Brasil.
     Maia Filho, Dra. Renata Livramento, Dra. Floriana, Liliane Gallo,
     Dra. Marília e Nina Rebello.
   - **Nos posts do time:** sem foco em cargo ou função (pedido do sócio).
-    Destacar características humanas e a resposta de cada um a "O que importa
-    para você?".
+    Destacar características humanas e a resposta de cada um a "O que é
+    importante para você?". Cada integrante ganha uma apresentação individual
+    (série "Quem cuida", uma pessoa por semana).
   - Colaboradores atendidos **nunca aparecem**.
 - **Voiceover ou para a câmera:** para a câmera nos conteúdos clínicos e de
   NR-01; narração nos conteúdos de dados e bastidores.
@@ -83,12 +94,24 @@ Reels.
 
 - **Regras de publicidade médica do CFM:** não prometer resultado, não fazer
   sensacionalismo, não expor pacientes, sem antes/depois de pacientes.
-  **[PENDENTE]** Confirmar os limites com o Dr. Ronald.
+  **[PENDENTE]** Confirmar os limites com a responsável médica.
 - **Dados individuais:** nenhum dado individual de colaborador. Sempre
   anonimizado e agregado.
 - **Valores e preços:** não divulgar. **[PENDENTE]** Confirmação interna.
 - **Afirmações proibidas:** qualquer promessa de resultado clínico ou de
   "zero afastamento".
+
+## Validação antes de publicar
+
+- **Afirmações clínicas, benefícios, prazos de acompanhamento e resultados:** só
+  o que a Fair Health já aprovou. O que precisar de aval passa pela **responsável
+  médica** e fica marcado na coluna "Validação necessária" do calendário.
+  **[PENDENTE]** Confirmar o nome da responsável médica (o material anterior
+  citava o Dr. Ronald).
+- **Ciência com rigor e acessível:** um dado por slide, sempre com a fonte, em
+  linguagem de conversa. Assunto que pede mais de um conceito novo vira série.
+- **Texto de norma (NR-1):** sempre com fonte oficial. Nunca prometer
+  conformidade.
 
 ## Provas que podemos usar
 
@@ -119,27 +142,27 @@ Os trechos aprovados ficam em `instagram/depoimentos.md`.
 - Assinatura: "Colaboradora atendida pelo Escritório do Cuidado".
 - O depoimento fala de **cuidado, hábito e cultura**, nunca prova resultado
   clínico.
-- **[PENDENTE]** Confirmar o formato com o Dr. Ronald (publicidade médica, CFM).
+- **[PENDENTE]** Confirmar o formato com a responsável médica (publicidade médica, CFM).
 
 ## Marca
 
 Os arquivos ficam em `instagram/marca/`. Resumo dos materiais institucionais
 em `instagram/referencias.md`.
 
-- **Cores (tiradas da logo):** verde-água `#9FC5BD` (principal, medido na arte oficial em 02/10; antes usávamos `#96C3BA`), quase-preto
-  `#141B1B` (texto), off-white `#F8F8F6` (fundo). Uma única cor de destaque.
+- **Visual:** as regras completas estão em `instagram/diretrizes-criativas.md`.
+  - **Ponto de partida:** azul Tiffany `#9FC5BD` (principal, medido na arte
+    oficial em 02/10; antes usávamos `#96C3BA`).
+  - **Fonte em uso:** Raleway, com texto em peso regular e palavras-chave em
+    **negrito itálico** (ExtraBold Italic). **[PENDENTE]** Confirmar se é a
+    fonte oficial.
+  - **Em teste, não aprovados como identidade:** todas as outras cores (creme
+    `#F0F0E9`, amarelo `#F2C14E`, texto `#1F3A36`, a paleta derivada da logo
+    `#2F6B64` / `#BFE0D9` / `#F6F8F7` / `#141B1B`, e os estudos de cor) e os
+    elementos gráficos (marca-texto, cards de interface, chips, etiquetas).
+  - O @fairedu.br foi a referência inicial de tipografia e de destaque, não um
+    padrão. **Não copiar os arcos da Fair Edu.**
 - **Slogan:** « Fazemos o certo pelos motivos certos »
-- **Estilo visual (modelo @fairedu.br):**
-  - Fonte **Raleway**. Texto em peso regular, com as palavras-chave em
-    **negrito itálico** (ExtraBold Italic).
-  - Fundo de cor chapada ou foto com película escura. Texto centralizado.
-  - Destaques: palavra sublinhada na cor de destaque, ou uma caixa de cor com
-    texto por cima.
-  - @fairhealth.br no rodapé, centralizado. Botão de seta na capa.
-- **Paleta derivada da logo:** verde-escuro `#2F6B64` (fundo com texto branco),
-  verde-água `#96C3BA` (fundo com texto escuro), menta `#BFE0D9` (destaque
-  sobre o fundo escuro), off-white `#F6F8F7`, texto `#141B1B`.
-- **Estilo das legendas (modelo @fairedu.br):** a primeira linha é uma pergunta
+- **Estilo das legendas (referência inicial: @fairedu.br):** a primeira linha é uma pergunta
   ou uma afirmação curta. Parágrafos de 1 a 3 frases, tom reflexivo e sóbrio,
   construções como "Isso não elimina X. Mas também não...", fechamento com a
   marca ("É esse cuidado que a fairhealth leva..."). Sem emoji. 5 hashtags, a
@@ -155,7 +178,7 @@ em `instagram/referencias.md`.
   **[PENDENTE]** Substituir pelo PNG final com fundo transparente.
 - Uma única logo por peça.
 - **Regra da cor extra:** toda peça que usa a cor extra também tem o Tiffany #9FC5BD visível (fundo, forma ou detalhe), para a cor extra nunca roubar a cena da cor principal.
-- **Cor complementar:** em teste. Estudo em `instagram/estudos/cores/` (vinho, terracota, coral, pêssego). Amarelo e roxo ficam fora porque são as cores do fairedu.
+- **Cor complementar:** em teste. Estudo em `instagram/estudos/cores/` (vinho, terracota, coral, pêssego). Nota anterior: amarelo e roxo ficariam fora por serem cores do fairedu. **[PENDENTE]** O carrossel de acolhimento testou o amarelo; decidir as duas coisas juntas.
 
 ## A chamada final
 
@@ -166,3 +189,13 @@ em `instagram/referencias.md`.
   mapear as necessidades da empresa (primeiro passo comercial do Executive
   Summary).
 - **Para onde vai o link:** www.fairhealth.com.br (confirmar).
+
+## Canais
+
+- **Instagram (@fairhealth.br):** posts em **collab com a FairJob** e com os
+  perfis envolvidos em cada peça (integrante do time, empresa-cliente quando
+  autorizar).
+- **LinkedIn:** publicação **pelo perfil da FairJob**, conforme discutido, com
+  legenda adaptada para RH e diretoria e carrossel em PDF.
+- **[PENDENTE]** Detalhes operacionais de collab e LinkedIn: lista em
+  `estrategia.md`, seção 7.

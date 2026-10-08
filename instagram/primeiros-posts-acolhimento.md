@@ -7,6 +7,11 @@ estreia e volta a partir da semana 7, um indicador por vez.
 
 Pergunta padrão em todos os posts: **"O que é importante para você?"**
 
+> Os IDs abaixo são da planilha anterior (`Cronograma_Conteudo_FairHealth_90dias.xlsx`).
+> No calendário novo (`marketing/Calendario_Editorial_FairHealth.xlsx`), o Reel de
+> boas-vindas é o M1-01, o carrossel "Como funciona" é o M1-02 e o argumento de retorno
+> começa no Mês 2, com um indicador por vez.
+
 ## Semana 1 (IDs da planilha)
 
 | ID | Data | Formato | Antes | Agora |

@@ -66,6 +66,7 @@ Substitui os renders. Sem pessoas ou só com o time.
 | C3 | Bastidores: preparando a sala, organizando a agenda 🎬 | Reels e Stories de bastidor |
 | C4 | Nina no computador olhando um painel **genérico** 🎬 | Reels de dados narrados pela Nina |
 | C5 | Dr. Ronald e Dra. Floriana falando para a câmera (teste de 30 segundos) 🎬 | Reels de NR-01 e sinistralidade |
+| C6 | Cada integrante, sozinho, em vídeo vertical de 20 a 30 s: quem é (sem cargo) e a resposta a "O que é importante para você?" 🎬. Para quem preferir, só o retrato C1 | série "Quem cuida", uma pessoa por semana |
 
 ## D. Os 7 pilares da MEV (P2)
 

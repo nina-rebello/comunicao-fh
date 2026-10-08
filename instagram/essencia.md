@@ -83,8 +83,11 @@ saúde." · "Comer bem é cuidar do corpo e também da mente." · "Dormir não �
 perdido, é investimento em saúde." · "Cuidar dos vínculos é cuidar da saúde." ·
 "Emoções compreendidas geram decisões mais saudáveis."
 
-**[PENDENTE]** O site fala em 7 pilares (com propósito e espiritualidade) e a
-apresentação em 6. Definir qual versão vai para o Instagram.
+**Decisão (08/10):** o conteúdo trabalha com os **7 pilares** da cartilha do
+Escritório do Cuidado (alimentação saudável, atividade física, sono reparador, saúde
+mental e estresse, evitar substâncias, relações sociais, propósito e espiritualidade),
+que é a mesma versão do site. A apresentação institucional traz 6. **[PENDENTE]** A
+responsável médica confirma os nomes antes do primeiro post da série.
 
 ## O que fica para depois (argumento de retorno)
 

@@ -1,3 +1,7 @@
+> **Histórico.** Plano da semana de 28/09, anterior à revisão de 08/10. O
+> planejamento atual está em `instagram/estrategia.md` e na planilha
+> `marketing/Calendario_Editorial_FairHealth.xlsx`.
+
 # Plano: semana 1 do lançamento (Fase 1, Marca)
 
 Estratégia completa em `instagram/estrategia.md`. Horários em Brasília.
@@ -23,7 +27,7 @@ o Escritório do Cuidado".
 - [ ] Bio e foto de perfil (`/ig-profile`)
 - [ ] Fotos do time para o #5 (Dr. Ronald, Dra. Floriana, Dra. Marília e os
       demais)
-- [ ] Dr. Ronald aprova o texto dos posts com menção médica (CFM)
+- [ ] A responsável médica aprova o texto dos posts com menção médica (CFM)
 
 ## Engajamento
 

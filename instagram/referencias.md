@@ -35,13 +35,13 @@ guia "Saúde mental: o cuidado no dia a dia". Os originais ficam fora do repo.
 6. Relações sociais
 7. Propósito e espiritualidade
 
-Rende uma série de carrosséis na Fase 4, um pilar por post, voltada ao
-colaborador e ao RH.
+Rende a série "Pilares da MEV": um pilar por vez, espalhado pelo calendário,
+voltada ao colaborador e ao RH (ver `estrategia.md`).
 
 **[PENDENTE]** A cartilha traz muitos números sem fonte (por exemplo, "80% das
 doenças crônicas podem ser prevenidas", "7x mais eficaz", "+10 anos"). Nenhum
-deles vai para o Instagram sem fonte verificada e sem o aval do Dr. Ronald
-(publicidade médica). Frases de efeito como "pílula mágica" também ficam de
+deles vai para o Instagram sem fonte verificada e sem o aval da responsável
+médica (publicidade médica). Frases de efeito como "pílula mágica" também ficam de
 fora.
 
 ## Guia "Saúde mental: o cuidado no dia a dia"
@@ -50,8 +50,8 @@ Conteúdo educativo com fontes (OMS, APA, IPq-USP): o que é saúde mental,
 estresse crônico, TAG, depressão, pânico, burnout, sono, higiene do sono,
 comunicação em conflitos e onde pedir ajuda (CVV 188, CAPS).
 
-Rende carrosséis educativos na Fase 4. Todo post sobre saúde mental termina
-com "onde pedir ajuda" (CVV 188).
+Rende carrosséis educativos a partir do Mês 2 do calendário. Todo post sobre
+saúde mental termina com "onde pedir ajuda" (CVV 188).
 
 ## Espaço (imagens em `marca/espaco/`)
 

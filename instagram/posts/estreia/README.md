@@ -7,8 +7,10 @@ Fixar o #1.
   `slides.html`.
 - **Para regerar depois de editar:**
   `node instagram/ferramentas/render.mjs instagram/posts/estreia/slides.html instagram/posts/estreia/png`
-- **Estilo:** modelo @fairedu.br (Raleway, negrito itálico nas palavras-chave,
-  sublinhado e caixa de destaque) com a paleta da fairhealth.
+- **Estilo:** feito a partir da referência inicial do @fairedu.br (Raleway,
+  negrito itálico nas palavras-chave, sublinhado e caixa de destaque) com a paleta
+  da fairhealth. Antes de usar (M3-10 no calendário), adaptar ao visual atual
+  (`instagram/diretrizes-criativas.md`).
 - **[PENDENTE]** As fotos de fundo são renders do espaço. Confirmar se podem
   ser usadas.
 
