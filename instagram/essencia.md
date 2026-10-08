@@ -31,8 +31,9 @@ espaço de acolhimento e de medicina preventiva, onde tudo começa com uma pergu
 4. **Dentro do ecossistema fairjob** (medir, cuidar, provar, propagar), a fairhealth é
    o "cuidar". Fundador: **Fernando Brancaccio** (fundador da fairjob e da fairhealth,
    neurociência do comportamento, TEDx sobre felicidade e saúde mental).
-   **[PENDENTE]** Quem idealizou o Escritório do Paciente e quem mais está na fundação
-   da fairhealth (o site cita Renata Livramento como cofundadora num curso da fairedu).
+   O **Escritório do Paciente** foi fundado pelo **Dr. Ronald Maia Filho** (fonte: stories
+   "Conheça nosso time"). **[PENDENTE]** Quem mais está na fundação da fairhealth (o site
+   cita Renata Livramento como cofundadora num curso da fairedu).
 
 ## Em que a gente acredita
 
