@@ -100,3 +100,12 @@ mudam com frequência. Os números abaixo são o ponto de partida.
 - Logos, fontes e imagens do espaço: `marca/`.
 - O brief para IA do carrossel de acolhimento (`prompt-carrossel-escritorio.md`)
   descreve uma versão de teste. As cores dele seguem a seção 1 deste documento.
+
+## 6. Como trabalhar no Canva (pedido da Nina, 08/10)
+
+- **Não criar designs novos no Canva.** Toda versão nova entra como página (bloco)
+  dentro do design que já está em uso, ao lado da versão anterior.
+- **Nunca apagar nada:** duplicar a página antes de modificar.
+- Montar as páginas direto no design existente (adicionar página, formas, texto e
+  imagens enviadas como mídia), em vez de importar um HTML, que sempre cria um
+  design novo.
