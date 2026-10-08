@@ -51,7 +51,8 @@ h1 b{font-weight:800;font-style:italic}
 
 def slides(i, p):
     n, a = p['nome'], p['art']
-    foto = f"background-image:url({p['foto']});background-position:{p['pos']}"
+    foto = f"background-image:url(../../marca/time/{p['id']}-capa.jpg);background-position:center"
+    rosto = f"background-image:url(../../marca/time/{p['id']}-quadrado.jpg);background-position:center"
     capa = f'''<section class="slide t" id="{p['id']}-1">
   <div class="foto" style="left:300px;top:96px;width:684px;height:880px;border-radius:48px;{foto}"></div>
   <div class="lbl" style="left:96px;top:120px;background:var(--c)">QUEM CUIDA</div>
@@ -61,7 +62,7 @@ def slides(i, p):
 </section>'''
     bio = f'''<section class="slide c" id="{p['id']}-2">
   <div class="lbl" style="left:96px;top:150px;background:var(--t)">QUEM CUIDA</div>
-  <div class="foto" style="right:96px;top:120px;width:150px;height:150px;border-radius:36px;{foto}"></div>
+  <div class="foto" style="right:96px;top:120px;width:150px;height:150px;border-radius:36px;{rosto}"></div>
   <h1 style="left:96px;top:310px;width:888px;font-size:96px">Quem é {a}<br><b>{n}</b></h1>
   <div style="left:96px;top:560px;width:888px">
     <p class="sub" style="font-size:36px">{p['bio']}</p>
@@ -77,7 +78,7 @@ def slides(i, p):
     <p style="font-size:22px;font-weight:700;letter-spacing:4px">PERGUNTAMOS {'AO' if a == 'o' else 'À'} {n.upper()}</p>
     <p style="font-size:50px;font-weight:700;line-height:1.2;margin-top:20px">O que é importante para você?</p>
   </div>
-  <div class="foto" style="left:96px;top:930px;width:96px;height:96px;border-radius:28px;{foto}"></div>
+  <div class="foto" style="left:96px;top:930px;width:96px;height:96px;border-radius:28px;{rosto}"></div>
   <div style="left:216px;right:96px;top:910px;background:var(--td);border-radius:36px;padding:32px 40px">
     <p style="font-size:36px;line-height:1.35;font-weight:500">“[resposta {'do' if a == 'o' else 'da'} {n}]”</p>
   </div>
