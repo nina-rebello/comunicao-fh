@@ -146,3 +146,18 @@ A v2 (foto como protagonista, faixas, cartões inclinados, duotone) foi **recusa
   (Diabetes Prevention Program).
 - **Não usar:** foto ocupando a peça inteira, foto sangrando a borda, texto sobre foto, cartões inclinados,
   duotone e os demais elementos da v2.
+
+## Tiffany no detalhe (09/10)
+
+O tiffany continua sendo a cor da marca, mas deixa de ser o fundo de todos os posts. Referência:
+`marca/identidade-visual-v4.html`, seção "Tiffany no detalhe".
+
+- **Na grade:** em cada linha de 3 posts, no máximo um com fundo tiffany. Os outros têm fundo
+  verde-autoridade ou creme. Dois posts vizinhos (lado a lado ou um embaixo do outro) nunca têm o mesmo fundo.
+- **Os seis detalhes em tiffany:** palavra-chave tiffany sobre o verde, número tiffany sobre o verde,
+  etiqueta em chip tiffany, canto tiffany com a seta de arrastar, sublinhado tiffany na palavra-chave
+  sobre o creme, e moldura tiffany em volta de um painel recuado.
+- **Contraste:** sobre o creme, o tiffany só entra como forma (chip, canto, sublinhado, moldura), nunca
+  como cor de texto (1,67:1).
+- **Atualiza a regra anterior** "o fundo é sempre #96C5BD": no Canva, o fundo continua sendo a última
+  camada, mas a cor dele pode ser tiffany, verde-autoridade ou creme, conforme o ritmo da grade.
