@@ -199,3 +199,28 @@ em `instagram/referencias.md`.
   legenda adaptada para RH e diretoria e carrossel em PDF.
 - **[PENDENTE]** Detalhes operacionais de collab e LinkedIn: lista em
   `estrategia.md`, seção 7.
+
+## Decisões de 09/10: nomes, números e ciência
+
+Estas regras valem por cima de qualquer trecho anterior deste arquivo.
+
+- **Nunca nomes reais nos posts.** Nem de pessoas (time, autores, atendidos) nem de
+  empresas-clientes ou hospitais. Clientes viram "uma indústria" ou "o hospital
+  onde o modelo começou". Artigos são citados só pelo título e pelo veículo.
+- **Personagens sempre fictícias.** Quando a história precisa de alguém, inventamos
+  (por exemplo, "Clara, 41 anos, supervisora de turno"). O post traz o aviso
+  "História ilustrativa. Personagem fictícia." Nunca apresentar como depoimento.
+- **Números, sim, com suavidade.** O foco é o cuidado:
+  - a frase de cuidado vem primeiro e o número entra depois, como contexto;
+  - um número principal por peça; os outros vão em texto menor ou na legenda;
+  - traduzir em gente ("8 em cada 10 pessoas") e arredondar com honestidade;
+  - tom calmo: verde-escuro, sem vermelho, sem seta, sem "recorde" nem "explodiu";
+  - fonte sempre visível;
+  - o número fala do estudo ou do grupo, nunca promete resultado a quem lê.
+- **Ciência no cuidado.** Estudos científicos e fontes oficiais viram posts que ligam
+  a evidência ao nosso trabalho. A lista, com referências completas e o jeito de
+  apresentar cada número, está na aba Ciência de
+  `marketing/Calendario_Editorial_FairHealth.xlsx`.
+- **Medicina do Estilo de Vida: 6 pilares** (ACLM): alimentação, atividade física,
+  sono, manejo do estresse, relacionamentos e evitar substâncias de risco. Sem
+  espiritualidade. **[PENDENTE]** confirmar.

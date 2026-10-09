@@ -304,3 +304,25 @@ apresentação da marca. A NR-1 entra pelo artigo e abre o mês seguinte.
 
 A aba **Formatos** explica por que cada formato funciona e o que precisa para ser
 produzido. A aba **Fontes** reúne o artigo e os números liberados.
+
+## 7. Atualização de 09/10 (tarde)
+
+Estas decisões mudam a seção 6:
+
+- **Sem nomes.** O artigo da RH Pra Você é citado só pelo título e pelo veículo, sem
+  o nome do autor. Nenhum nome real de pessoa ou empresa nos posts; quando a
+  história precisa de alguém, usamos personagem fictícia (M1-08 conta o plano da
+  "Clara", sinalizada como história ilustrativa).
+- **Números com suavidade.** O mês ganhou números, sempre depois da frase de cuidado:
+  - as licenças por saúde mental em 2024 no reel do "antes" (M1-03);
+  - "8 em cada 10 voltaram" no lugar do painel de percentuais (M1-09);
+  - os 58% do Diabetes Prevention Program (M1-16).
+- **Ciência no cuidado.** Entram dois posts baseados em estudos:
+  - a recomendação da OMS para preparar lideranças (M1-14);
+  - o Diabetes Prevention Program, na véspera do Dia Mundial do Diabetes (M1-16).
+
+  O checklist da NR-1 foi para o Banco de ideias e abre o Mês 2. A aba Ciência da
+  planilha lista os estudos com referência completa.
+- **6 pilares** da MEV, sem espiritualidade (a confirmar).
+
+As regras ficaram registradas em `voice.md`, seção "Decisões de 09/10".
