@@ -1,0 +1,52 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Quem cuida: capa cartão sobre Tiffany (Ronald)</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:500;src:url(../../marca/fontes/raleway-latin-500-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:700;src:url(../../marca/fontes/raleway-latin-700-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--t:#9FC5BD;--td:#5FA89A;--c:#F0F0E9;--k:#1F3A36;--fundo:#96C5BD}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#ccc}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;color:var(--k)}
+.slide>*{position:absolute}
+.cap{font-size:21px;font-weight:700;letter-spacing:7px}
+.chip{font-size:24px;line-height:1.4;font-weight:700;padding:15px 28px;border-radius:40px;background:var(--c);white-space:nowrap}
+</style></head><body>
+<!-- Mesma estrutura da capa escura (capa-ronald.html), agora sobre o Tiffany.
+     Cada elemento é um bloco independente (vira um elemento separado no Canva).
+     Ordem = camadas, do fundo para a frente. O fundo #96C5BD é a última camada. -->
+<section class="slide" id="ronald-capa-tiffany-cartao">
+  <div id="fundo" style="left:0;top:0;width:1080px;height:1350px;background:var(--fundo)"></div>
+  <!-- sombra do cartão -->
+  <div id="sombra" style="left:60px;top:540px;width:960px;height:750px;border-radius:56px;box-shadow:0 30px 70px rgba(31,58,54,.24)"></div>
+  <!-- cartão Tiffany escuro -->
+  <div id="cartao" style="left:60px;top:540px;width:960px;height:750px;border-radius:56px;background:var(--td)"></div>
+  <!-- luz suave atrás da cabeça, dentro do cartão -->
+  <div id="luz" style="left:60px;top:540px;width:960px;height:750px;border-radius:56px;
+    background:radial-gradient(circle at 70% 26%,rgba(255,255,255,.30) 0%,rgba(255,255,255,0) 52%)"></div>
+  <!-- retrato: recortado no cartão, com a cabeça saindo por cima -->
+  <div id="retrato" style="left:60px;top:0;width:960px;height:1290px;overflow:hidden;border-radius:0 0 56px 56px">
+    <img src="../../marca/time/ronald-recorte-hd.png" style="position:absolute;left:57px;top:374px;width:903px;height:1163px;
+      filter:drop-shadow(-22px 16px 36px rgba(31,58,54,.30))">
+  </div>
+
+  <!-- cabeçalho -->
+  <img id="logo" src="../../marca/logo-circulo.png" style="left:72px;top:60px;width:72px;height:72px">
+  <p id="rotulo" class="cap" style="left:0;width:1080px;top:86px;text-align:center">QUEM CUIDA</p>
+
+  <!-- nome -->
+  <p id="nome1" style="left:0;width:1080px;top:150px;text-align:center;font-size:84px;line-height:1;font-weight:400;letter-spacing:-1.5px">Dr. Ronald</p>
+  <p id="nome2" style="left:0;width:1080px;top:238px;text-align:center;font-size:132px;line-height:1;font-weight:800;font-style:italic;letter-spacing:-4px">Maia Filho</p>
+  <div id="pilula" style="left:272px;top:398px;width:536px;height:62px;border:2px solid var(--k);border-radius:31px"></div>
+  <p id="frase" style="left:0;width:1080px;top:412px;text-align:center;font-size:28px;font-weight:500">Fundador do Escritório do Paciente</p>
+
+  <!-- etiquetas (por cima do cartão) -->
+  <span id="chip1" class="chip" style="left:104px;top:596px">Pediatria</span>
+  <span id="chip2" class="chip" style="left:104px;top:680px">Hebiatria</span>
+  <span id="chip3" class="chip" style="left:104px;top:764px">Medicina do Esporte</span>
+  <span id="chip4" class="chip" style="left:104px;top:848px">Gestão hospitalar</span>
+
+  <!-- etiqueta de navegação -->
+  <div id="etiqueta" style="left:650px;top:1180px;width:330px;height:66px;border-radius:33px;background:var(--k)"></div>
+  <p id="arraste" style="left:650px;top:1198px;width:330px;text-align:center;font-size:24px;font-weight:700;color:var(--c)">Arraste para o lado →</p>
+</section>
+</body></html>
