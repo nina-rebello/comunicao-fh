@@ -109,3 +109,12 @@ mudam com frequência. Os números abaixo são o ponto de partida.
 - Montar as páginas direto no design existente (adicionar página, formas, texto e
   imagens enviadas como mídia), em vez de importar um HTML, que sempre cria um
   design novo.
+- **Cada bloco é um elemento independente e editável** (pedido da Nina, 09/10): o
+  fundo, o painel, o retrato, o cartão, as etiquetas, a faixa, os textos e as
+  sombras ficam separados. Nada de achatar vários blocos numa imagem só. Só o
+  retrato recortado e as sombras entram como imagem (PNG transparente), cada um
+  como peça própria.
+- **O fundo é sempre a última camada, na cor `#96C5BD`.**
+- Textos novos criados pela ferramenta do Canva saem numa fonte padrão (não
+  Raleway), e a ferramenta não troca a fonte. Para manter a Raleway, reaproveitar
+  textos que já existem na página (duplicar a página e reescrever os textos).
