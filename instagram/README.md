@@ -9,6 +9,7 @@ Comece por aqui. Atualizado em 08/10/2026.
 | Escrever no tom da marca e saber o que pode ou não ser dito | `voice.md` |
 | Contar a história e explicar o Escritório do Cuidado | `essencia.md` |
 | Criar as peças (visual, modelos, formatos e margens) | `diretrizes-criativas.md` |
+| Pedir ao Claude o Design System (prompt pronto) | `prompt-design-system.md` |
 | Citar materiais institucionais | `referencias.md` |
 | Usar depoimentos | `depoimentos.md` |
 | Planejar fotos e vídeos | `sessao-de-fotos.md` |
