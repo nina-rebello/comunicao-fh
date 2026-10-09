@@ -1,0 +1,89 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Exploração: eco + recorte (referência behappier)</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
+@font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--fundo:#96C5BD;--verde:#1F3A36;--creme:#F0F0E9;--tclaro:#BFE0D9;--vlogo:#2F6B64}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#ccc;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--fundo);color:var(--verde);font-variant-numeric:lining-nums}
+.slide>*{position:absolute}
+/* painel recuado, como na referência: a moldura é o fundo tiffany */
+.painel{left:64px;top:64px;width:952px;height:1116px;overflow:hidden}
+.painel>*{position:absolute}
+.escuro{background:var(--verde);color:var(--creme)}
+.claro{background:var(--creme);color:var(--verde)}
+/* eco: cópias em contorno acima do número cheio */
+.eco{font-weight:800;letter-spacing:-0.02em;white-space:nowrap;color:transparent;-webkit-text-stroke:2.5px var(--tclaro)}
+.claro .eco{-webkit-text-stroke:2.5px var(--vlogo);opacity:.55}
+.cheio{font-weight:800;letter-spacing:-0.02em;white-space:nowrap}
+.k{font-weight:800;font-style:italic}
+.it{font-style:italic}
+.sub{font-size:44px;line-height:56px}
+.corpo{font-size:34px;line-height:46px}
+.nota{font-size:24px;line-height:32px}
+.tif{color:var(--fundo)}
+.tc{color:var(--tclaro)}
+.vl{color:var(--vlogo)}
+.handle{font-size:24px;line-height:32px}
+</style></head><body>
+
+<!-- E1 · dor (M1-03): eco do número + trabalhador recortado saindo do painel -->
+<section class="slide" id="eco-1-licencas">
+  <div class="painel escuro">
+    <p class="eco" style="left:32px;top:-78px;font-size:170px;line-height:150px">470 mil</p>
+    <p class="eco" style="left:32px;top:72px;font-size:170px;line-height:150px">470 mil</p>
+    <p class="eco" style="left:32px;top:222px;font-size:170px;line-height:150px">470 mil</p>
+    <p class="cheio" style="left:32px;top:372px;font-size:170px;line-height:150px">470 mil</p>
+    <p class="sub" style="left:32px;top:560px;width:430px">licenças por saúde mental no Brasil em 2024.</p>
+    <p class="sub tif" style="left:32px;top:740px;width:430px">Cada uma teve um <span class="k">antes</span>.</p>
+    <p class="nota tc" style="left:32px;top:900px;width:430px">Fonte: Ministério da Previdência Social</p>
+    <img src="../../marca/logo-circulo.png" alt="" style="left:32px;top:980px;width:96px;height:96px">
+  </div>
+  <img src="../../marca/recortes/trabalhador-capacete.png" alt="" style="left:470px;top:722px;width:640px;height:auto">
+</section>
+
+<!-- E2 · prova (M1-09): eco do número suave + homem à mesa com café -->
+<section class="slide" id="eco-2-voltaram">
+  <div class="painel claro">
+    <p class="eco" style="left:32px;top:-66px;font-size:132px;line-height:124px">8 em cada 10</p>
+    <p class="eco" style="left:32px;top:58px;font-size:132px;line-height:124px">8 em cada 10</p>
+    <p class="eco" style="left:32px;top:182px;font-size:132px;line-height:124px">8 em cada 10</p>
+    <p class="cheio" style="left:32px;top:306px;font-size:132px;line-height:124px">8 em cada 10</p>
+    <p class="sub" style="left:32px;top:470px;width:470px">voltaram para mais de um <span class="k">atendimento</span>.</p>
+    <p class="corpo vl" style="left:32px;top:660px;width:420px">Ninguém volta a um lugar onde não se sentiu cuidado.</p>
+    <p class="nota vl" style="left:32px;top:860px;width:420px">Fonte: Escritório do Cuidado numa indústria, 1º sem. 2026</p>
+    <p class="handle" style="left:32px;top:1040px">@fairhealth.br</p>
+  </div>
+  <img src="../../marca/recortes/homem-cafe-mesa.png" alt="" style="left:430px;top:732px;width:640px;height:auto">
+</section>
+
+<!-- E3 · liderança (M1-14): eco da palavra-chave + mulher sentada -->
+<section class="slide" id="eco-3-importante">
+  <div class="painel escuro">
+    <p style="left:32px;top:64px;font-size:72px;line-height:80px">O que é</p>
+    <p class="eco it" style="left:26px;top:150px;font-size:150px;line-height:136px">importante</p>
+    <p class="eco it" style="left:26px;top:286px;font-size:150px;line-height:136px">importante</p>
+    <p class="cheio it" style="left:26px;top:422px;font-size:150px;line-height:136px">importante</p>
+    <p style="left:32px;top:584px;font-size:72px;line-height:80px">para você?</p>
+    <p class="corpo tc" style="left:32px;top:740px;width:420px">Uma pergunta que todo líder pode fazer.</p>
+    <img src="../../marca/logo-circulo.png" alt="" style="left:32px;top:980px;width:96px;height:96px">
+  </div>
+  <img src="../../marca/recortes/mulher-sentada.png" alt="" style="left:540px;top:640px;width:560px;height:auto">
+</section>
+
+<!-- E4 · ciência (M1-16): eco do número + prato saindo do painel -->
+<section class="slide" id="eco-4-ciencia">
+  <div class="painel claro">
+    <p class="nota vl" style="left:32px;top:990px;letter-spacing:.2em">CIÊNCIA NO CUIDADO</p>
+    <p class="eco" style="left:28px;top:20px;font-size:240px;line-height:210px">58%</p>
+    <p class="eco" style="left:28px;top:230px;font-size:240px;line-height:210px">58%</p>
+    <p class="cheio" style="left:28px;top:440px;font-size:240px;line-height:210px">58%</p>
+    <p class="sub" style="left:500px;top:470px;width:420px">menos casos novos de diabetes tipo 2 em quem mudou a <span class="k">rotina</span>.</p>
+    <p class="nota vl" style="left:32px;top:700px;width:860px">Diabetes Prevention Program · N Engl J Med, 2002 · adultos com risco aumentado</p>
+    <p class="handle" style="left:32px;top:1040px">@fairhealth.br</p>
+  </div>
+  <img src="../../marca/recortes/prato-saudavel.png" alt="" style="left:330px;top:820px;width:760px;height:auto">
+</section>
+
+</body></html>
