@@ -5,6 +5,7 @@ Comece por aqui. Atualizado em 08/10/2026.
 | Para… | Abra |
 | --- | --- |
 | Entender a estratégia (linhas editoriais, públicos, séries, cadência, canais) | `estrategia.md` |
+| Usar o posicionamento FairJob no plano mensal (argumentos, storytelling) | `posicionamento-e-plano-mensal.md` |
 | Planejar e revisar o mês | `../marketing/Calendario_Editorial_FairHealth.xlsx` |
 | Escrever no tom da marca e saber o que pode ou não ser dito | `voice.md` |
 | Contar a história e explicar o Escritório do Cuidado | `essencia.md` |
