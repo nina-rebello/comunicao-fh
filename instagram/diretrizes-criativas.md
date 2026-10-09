@@ -134,3 +134,15 @@ precisa de mais movimento e de gente. Referência visual completa em `marca/iden
   atrás da foto, duotone verde e fio contínuo entre os slides do carrossel.
 - **Texto sobre foto** só com apoio: faixa, folha creme, painel verde, degradê verde ou duotone.
 - **Logo sobre foto:** sempre num bloco verde, nunca solta na imagem.
+
+## Revisão da direção v2 (09/10): volta à v1, foto só em faixa
+
+A v2 (foto como protagonista, faixas, cartões inclinados, duotone) foi **recusada**. Vale de novo a v1
+(`marca/identidade-visual.html`), com um único acréscimo aprovado, registrado em
+`marca/identidade-visual-v3.html`:
+
+- **Foto em faixa dentro da folha creme:** 888 × 220 px na arte, alinhada às margens de 96 px, entre o
+  conteúdo e a referência. Uma faixa por slide. Referência: slide 3 do carrossel de ciência
+  (Diabetes Prevention Program).
+- **Não usar:** foto ocupando a peça inteira, foto sangrando a borda, texto sobre foto, cartões inclinados,
+  duotone e os demais elementos da v2.
