@@ -161,3 +161,19 @@ O tiffany continua sendo a cor da marca, mas deixa de ser o fundo de todos os po
   como cor de texto (1,67:1).
 - **Atualiza a regra anterior** "o fundo é sempre #96C5BD": no Canva, o fundo continua sendo a última
   camada, mas a cor dele pode ser tiffany, verde-autoridade ou creme, conforme o ritmo da grade.
+
+## Série Luz tiffany (aprovada em 09/10)
+
+Referências: AverCare, Fountain Life e Arounda, adaptadas. Peças em `posts/exploracoes/luz-tiffany.html` e
+seção "Luz tiffany" de `marca/identidade-visual-v5.html`.
+
+- **Para quê:** manifestos, ciência, dados e tecnologia, uma ou duas vezes por semana.
+- **Cor:** fundo verde-noite #0D1816. O tiffany entra como luz (feixes e brilho desfocados), nos pontos do
+  diagrama e na palavra-chave. Texto em creme, apoio em tiffany-claro.
+- **Atmosfera:** grão de filme leve e vinheta. Sem arco-íris, sem arcos (Fair Edu), sem vidro.
+- **Recursos liberados só nesta série:** etiquetas arredondadas com contorno (nunca preenchidas), diagrama
+  em círculo tracejado com pontos tiffany (só quando explica algo), itálico leve em títulos, e foto
+  ocupando a peça inteira (escurecida, tom tiffany, grão e título sobre degradê escuro).
+- **Na grade:** no máximo uma peça Luz tiffany por linha, ao lado de uma tiffany e de uma creme ou eco.
+- **No Canva:** a luz, o grão e a vinheta entram como uma imagem de fundo (PNG) atrás dos blocos; textos,
+  etiquetas e diagrama ficam editáveis.

@@ -10,7 +10,7 @@ Comece por aqui. Atualizado em 08/10/2026.
 | Escrever no tom da marca e saber o que pode ou não ser dito | `voice.md` |
 | Contar a história e explicar o Escritório do Cuidado | `essencia.md` |
 | Criar as peças (visual, modelos, formatos e margens) | `diretrizes-criativas.md` |
-| Ver a identidade visual (brand book com modelos e exemplos de uso) | `marca/identidade-visual-v4.html` (atual: v1 + foto em faixa + tiffany no detalhe), `marca/identidade-visual-v3.html`, `marca/identidade-visual.html` (v1) e `marca/identidade-visual-v2.html` (recusada) · https://claude.ai/artifact/DgAhEQ2eVjEwbBHBj2JGof |
+| Ver a identidade visual (brand book com modelos e exemplos de uso) | `marca/identidade-visual-v5.html` (atual: v1 + foto em faixa + tiffany no detalhe + Luz tiffany), `marca/identidade-visual-v4.html`, `marca/identidade-visual-v3.html`, `marca/identidade-visual.html` (v1) e `marca/identidade-visual-v2.html` (recusada) · https://claude.ai/artifact/DgAhEQ2eVjEwbBHBj2JGof |
 | Consultar o Design System e o mood board da marca (privado, no claude.ai) | https://claude.ai/artifact/RMM23SD9UBeFiuXWh78pn8 |
 | Pedir ao Claude o Design System (prompt pronto) | `prompt-design-system.md` |
 | Citar materiais institucionais | `referencias.md` |
