@@ -118,3 +118,19 @@ mudam com frequência. Os números abaixo são o ponto de partida.
 - Textos novos criados pela ferramenta do Canva saem numa fonte padrão (não
   Raleway), e a ferramenta não troca a fonte. Para manter a Raleway, reaproveitar
   textos que já existem na página (duplicar a página e reescrever os textos).
+
+## Direção v2 (09/10): mais gente, mais vida
+
+Pedido do time: o tiffany continua sendo a cor da marca, mas tudo tiffany cansa e some no feed. A peça
+precisa de mais movimento e de gente. Referência visual completa em `marca/identidade-visual-v2.html`.
+
+- **Foto é a protagonista.** Proporção aproximada por peça: foto 40%, tiffany 30%, verde 20%, creme 10%.
+- **Fotos de banco ilustrativas** (`marca/fotos-banco/`, Licença Unsplash): pessoas em situações reais,
+  luz natural. Nunca apresentar como o time, como cliente ou como colaborador atendido. Evitar pose de
+  banco (jaleco, braços cruzados, sorriso para a câmera), preto e branco e saturação forte.
+- **Tratamentos:** natural (padrão) ou duotone verde-tiffany quando houver texto grande por cima.
+- **Elementos de movimento** (no máximo dois por peça): faixa tiffany sobre a foto, cartão de resposta
+  inclinado até 3° (no máximo dois), marca-texto tiffany na palavra-chave, tiras de foto, bloco deslocado
+  atrás da foto, duotone verde e fio contínuo entre os slides do carrossel.
+- **Texto sobre foto** só com apoio: faixa, folha creme, painel verde, degradê verde ou duotone.
+- **Logo sobre foto:** sempre num bloco verde, nunca solta na imagem.
