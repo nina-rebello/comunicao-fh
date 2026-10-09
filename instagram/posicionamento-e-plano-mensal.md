@@ -274,3 +274,33 @@ antes da produção.
    - a personalidade;
    - a régua de tom por persona;
    - a frase-tese "Não é benefício, é infraestrutura de cuidado".
+
+---
+
+## 6. Mês 1 na planilha (versão de 09/10)
+
+A planilha `marketing/Calendario_Editorial_FairHealth.xlsx` passou a ser **mensal**:
+um mês por vez, com revisão conjunta antes de começar. A versão de 90 dias está em
+`marketing/arquivo/`, e o gerador da planilha em `marketing/ferramentas/`.
+
+**Decisões de 09/10:**
+- o primeiro post ("Antes de qualquer exame, uma conversa") está aprovado;
+- o time não será apresentado por enquanto (questão administrativa). A série Quem
+  cuida foi para o Banco de ideias, com status Adiada;
+- não podemos filmar clientes. Os vídeos do mês são de tipografia, motion, gravação
+  de tela ou imagem de banco;
+- o artigo do cofundador Fernando Brancaccio na RH Pra Você (25/09/2026) entra como
+  peça de autoridade, sem foto e sem apresentação do time.
+
+**Capítulo:** "Tudo começa com uma pergunta". O argumento é Liderança Bem-Estar, com a
+apresentação da marca. A NR-1 entra pelo artigo e abre o mês seguinte.
+
+| Sem. | Cena | Peças |
+| --- | --- | --- |
+| 1 | Abertura e dor | Vídeo de abertura (aprovado) · Carrossel do percurso · Reel tipográfico "Antes do afastamento, teve um sinal" · Carrossel-resumo do artigo "O trabalho não é o único vilão" |
+| 2 | Virada | Explicador animado da MEV · "Não é benefício. É infraestrutura de cuidado." · Gravação de tela "O que o RH vê (e o que não vê)" · "O plano é seu" |
+| 3 | Prova | Dado animado da Chemitec (98% de adesão) · Carrossel dos wearables · Linha do tempo "Tudo começou num hospital" · Card de citação do artigo |
+| 4 | Convite | Reel do sono com imagem de banco · Card "Uma pergunta que todo líder pode fazer" · "Como o Escritório do Cuidado chega à sua empresa" (CUIDADO) · Checklist "Antes de preencher a planilha" |
+
+A aba **Formatos** explica por que cada formato funciona e o que precisa para ser
+produzido. A aba **Fontes** reúne o artigo e os números liberados.
