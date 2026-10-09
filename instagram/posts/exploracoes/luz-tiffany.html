@@ -1,0 +1,105 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Exploração: Luz tiffany (referências AverCare, Fountain Life, Arounda)</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
+@font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--noite:#0D1816;--verde:#1F3A36;--tif:#96C5BD;--tclaro:#BFE0D9;--creme:#F0F0E9}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#888;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--noite);color:var(--creme);font-variant-numeric:lining-nums}
+.slide>*{position:absolute}
+/* luz: feixes e brilho tiffany desfocados */
+.feixe{width:240px;height:2000px;background:linear-gradient(180deg,rgba(150,197,189,0),rgba(150,197,189,.55) 45%,rgba(150,197,189,0));filter:blur(40px);transform-origin:center}
+.brilho{border-radius:50%;background:radial-gradient(circle,rgba(150,197,189,.55),rgba(150,197,189,0) 65%);filter:blur(30px)}
+/* grão de filme por cima de tudo */
+.grao{inset:0;opacity:.22;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.vinheta{inset:0;background:radial-gradient(ellipse at 50% 40%,rgba(13,24,22,0) 35%,rgba(13,24,22,.85) 100%)}
+.base{left:0;right:0;bottom:0;height:720px;background:linear-gradient(180deg,rgba(13,24,22,0),rgba(13,24,22,.92) 60%,var(--noite))}
+/* tipografia */
+.disp{font-size:112px;line-height:112px;letter-spacing:-0.015em;font-weight:400;background:linear-gradient(180deg,#F7F7F2,#B9C9C5);-webkit-background-clip:text;background-clip:text;color:transparent}
+.k{font-weight:800;font-style:italic;color:var(--tif);-webkit-text-fill-color:var(--tif)}
+.leve{font-style:italic;font-weight:400}
+.tit{font-size:76px;line-height:84px;letter-spacing:-0.01em}
+.sub{font-size:40px;line-height:52px;color:var(--tclaro)}
+.corpo{font-size:34px;line-height:46px;color:var(--tclaro)}
+.nota{font-size:24px;line-height:32px;color:var(--tclaro);opacity:.85}
+.pilula{border:2px solid rgba(240,240,233,.85);border-radius:999px;padding:18px 44px;font-size:26px;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap}
+.chip{border:2px solid rgba(191,224,217,.75);border-radius:999px;padding:18px 40px;font-size:32px;white-space:nowrap;text-align:center}
+.handle{font-size:24px;line-height:32px;color:var(--tclaro)}
+.centro{left:0;width:1080px;text-align:center}
+.foto{inset:0;background-size:cover;background-position:38% 50%;filter:grayscale(.35) brightness(.55) contrast(1.1)}
+.tinta{inset:0;background:var(--tif);mix-blend-mode:color;opacity:.55}
+</style></head><body>
+
+<!-- L1 · manifesto (dor): feixes de luz tiffany, grão e título embaixo -->
+<section class="slide" id="luz-1-tarde">
+  <div class="feixe" style="left:300px;top:-420px;transform:rotate(28deg)"></div>
+  <div class="feixe" style="left:560px;top:-460px;width:160px;transform:rotate(28deg);opacity:.7"></div>
+  <div class="feixe" style="left:-40px;top:-380px;width:120px;transform:rotate(28deg);opacity:.5"></div>
+  <div class="brilho" style="left:620px;top:-160px;width:720px;height:720px;opacity:.6"></div>
+  <div class="vinheta"></div>
+  <div class="grao"></div>
+  <p class="pilula" style="left:96px;top:96px">Cuidar antes</p>
+  <p class="disp" style="left:96px;top:820px;width:900px">O cuidado chega <span class="k">tarde</span>.</p>
+  <p class="sub" style="left:96px;top:1060px;width:820px">E a gente se acostumou a esperar o problema aparecer.</p>
+  <p class="handle" style="left:96px;top:1238px">@fairhealth.br</p>
+  <p class="handle" style="right:96px;top:1238px">Arraste para o lado →</p>
+</section>
+
+<!-- L2 · diagrama: o que o exame não vê (6 pilares em volta) -->
+<section class="slide" id="luz-2-diagrama">
+  <div class="brilho" style="left:190px;top:330px;width:700px;height:700px;opacity:.42"></div>
+  <div class="vinheta"></div>
+  <div class="grao"></div>
+  <p class="pilula" style="left:50%;top:96px;transform:translateX(-50%)">Medicina do Estilo de Vida</p>
+  <svg viewBox="0 0 1080 1350" style="inset:0;width:1080px;height:1350px" aria-hidden="true">
+    <circle cx="540" cy="700" r="320" fill="none" stroke="#F0F0E9" stroke-opacity=".8" stroke-width="2.5" stroke-dasharray="10 14"/>
+    <g fill="#96C5BD">
+      <circle cx="540" cy="380" r="14"/><circle cx="817" cy="540" r="14"/><circle cx="817" cy="860" r="14"/>
+      <circle cx="540" cy="1020" r="14"/><circle cx="263" cy="860" r="14"/><circle cx="263" cy="540" r="14"/>
+    </g>
+  </svg>
+  <p class="corpo centro" style="top:300px;color:#F0F0E9">Alimentação</p>
+  <p class="corpo" style="left:850px;top:494px;color:#F0F0E9">Sono</p>
+  <p class="corpo" style="left:850px;top:860px;color:#F0F0E9">Atividade<br>física</p>
+  <p class="corpo centro" style="top:1050px;color:#F0F0E9">Relacionamentos</p>
+  <p class="corpo" style="left:60px;top:860px;width:180px;text-align:right;color:#F0F0E9">Manejo do<br>estresse</p>
+  <p class="corpo" style="left:40px;top:470px;width:200px;text-align:right;color:#F0F0E9">Evitar<br>substâncias</p>
+  <p class="tit centro" style="top:580px">O que o exame<br><span class="k">não vê</span></p>
+  <p class="nota centro" style="top:1170px">O plano olha para a pessoa inteira, a partir da rotina real.</p>
+  <p class="handle" style="left:96px;top:1238px">@fairhealth.br</p>
+</section>
+
+<!-- L3 · pílulas em contorno: o plano é seu -->
+<section class="slide" id="luz-3-plano">
+  <div class="brilho" style="left:420px;top:-260px;width:1000px;height:1000px;opacity:.55"></div>
+  <div class="feixe" style="left:820px;top:-300px;width:200px;transform:rotate(-32deg);opacity:.6"></div>
+  <div class="vinheta"></div>
+  <div class="grao"></div>
+  <p class="pilula" style="left:50%;top:96px;transform:translateX(-50%)">Plano Individualizado</p>
+  <p class="disp centro" style="top:300px">Um plano feito<br><span class="leve" style="-webkit-text-fill-color:#96C5BD;color:#96C5BD">para você</span></p>
+  <p class="chip" style="left:150px;top:640px;width:370px">sono</p>
+  <p class="chip" style="left:560px;top:640px;width:370px">alimentação</p>
+  <p class="chip" style="left:200px;top:760px;width:330px">estresse</p>
+  <p class="chip" style="left:570px;top:760px;width:330px">atividade física</p>
+  <p class="corpo centro" style="top:960px;padding:0 140px;color:#F0F0E9">Começa pelo que é importante para você e cabe na sua rotina real.</p>
+  <p class="handle" style="left:96px;top:1238px">@fairhealth.br</p>
+  <p class="handle" style="right:96px;top:1238px">Arraste para o lado →</p>
+</section>
+
+<!-- L4 · foto cinematográfica com luz tiffany e grão -->
+<section class="slide" id="luz-4-sono">
+  <div class="foto" style="background-image:url(../../marca/fotos-banco/sono.jpg)"></div>
+  <div class="tinta"></div>
+  <div class="feixe" style="left:640px;top:-500px;transform:rotate(32deg);opacity:.8"></div>
+  <div class="base"></div>
+  <div class="grao"></div>
+  <p class="pilula" style="left:96px;top:96px">Pilares · Sono</p>
+  <p class="disp" style="left:96px;top:830px;width:900px">Dormir não é tempo <span class="k">perdido</span>.</p>
+  <p class="sub" style="left:96px;top:1070px;width:820px">Para adultos, 7 a 9 horas por noite.</p>
+  <p class="nota" style="left:96px;top:1140px">Fonte: RAND Europe, 2016</p>
+  <p class="handle" style="left:96px;top:1238px">@fairhealth.br</p>
+  <p class="handle" style="right:96px;top:1238px">Reel · 25 s</p>
+</section>
+
+</body></html>
