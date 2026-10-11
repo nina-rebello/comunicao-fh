@@ -198,15 +198,18 @@ e na aba "Elementos gráficos" de `marca/identidade-visual-v6.html`.
 - **Diagramas:** silhuetas em sequência de tom, Venn com legenda em fio, Venn com o encontro cheio em tiffany
   e ondas de respiração.
 - **Interface:** faixas de texto empilhadas sobre a janela de agenda e notificação de celular.
-- **Traço e forma:** título em escala mista com linha de respiração, traço único que vira coração e o cérebro
-  de corações (quatro lóbulos em forma de coração, como o símbolo da referência) com ícones entre fios e rodapé
-  de ficha. O cérebro substituiu as quatro pétalas (pedido da Nina, 11/10); as pétalas ficam guardadas em
-  `posts/exploracoes/png/el-11-petalas.png`, fora do livro da marca.
+- **Traço e forma:** título em escala mista com linha de respiração, traço único que vira coração e o cérebro.
+  O cérebro é a réplica exata do símbolo de referência (contorno traçado da imagem e espelhado nos quatro
+  lóbulos), só com as cores trocadas: tiffany-claro #BFE0D9 nas bordas, tiffany-escuro #5FA89A no centro,
+  lóbulos com 85% de opacidade para a lente de sobreposição aparecer. Dois usos: o símbolo sozinho
+  (`el-11-simbolo`) e a composição da embalagem (`el-11-uso`: símbolo grande cortado na borda, título por
+  cima, ícones entre fios e rodapé de ficha). Substituiu as pétalas e a primeira versão com corações
+  (pedidos da Nina, 11/10); as duas ficam guardadas em `posts/exploracoes/png/`, fora do livro da marca.
 - **Movimento no carrossel:** fio contínuo que atravessa os slides e dá um laço no do meio, e cartões
   espiando nas bordas com pílula de data sobre a borda.
 - **Regras:** um elemento gráfico principal por post. Círculo só quando carrega informação (Venn, cabeça do
   pictograma, respiração), nunca como enfeite; isso atualiza a regra "sem círculos decorativos". Degradê só
-  no cérebro de corações, claro nas bordas e tiffany-escuro no centro. Traço com ponta arredondada e espessura fixa (12 px na
+  no cérebro, tiffany-claro nas bordas e tiffany-escuro no centro. Traço com ponta arredondada e espessura fixa (12 px na
   linha, 48 px na fita, 2,4 px nos ícones). Pessoas em pictograma simples ou foto recortada. Faixas com até
   três linhas, em caixa alta, verde com texto creme.
 - **Ficou de fora das referências:** fonte de máquina de escrever, serifa com floreio, letra desenhada à mão,

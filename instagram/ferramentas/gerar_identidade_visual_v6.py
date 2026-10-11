@@ -1,7 +1,7 @@
 # Gera o brand book visual da fairhealth v1.4 (instagram/marca/identidade-visual-v6.html): a v1.3 com a aba
 # "Elementos gráficos" (11/10), com elementos tirados das referências de inspiração e adaptados à marca:
 # pessoas em pictograma, grade de 100, silhuetas, painéis de relatório, diagramas de Venn, faixas sobre a
-# agenda, notificação, escala mista, traço contínuo, cérebro de corações, ondas de respiração, fio contínuo e cartões nas bordas.
+# agenda, notificação, escala mista, traço contínuo, cérebro (réplica do símbolo de referência), ondas de respiração, fio contínuo e cartões nas bordas.
 # Base anterior: a v1.3 (Luz tiffany e grade mista).
 # As peças são desenhadas em unidades da arte de 1080 px (--u) e escalam com o container.
 # Uso: python3 instagram/ferramentas/gerar_identidade_visual_v6.py <logo-circulo.png> <logo-coracao.png> <saida.html> <pasta-fotos-web>
@@ -690,7 +690,8 @@ GRAF = [
     ('Traço e forma', [
         ('el-09-pausa', 'Escala mista e linha de respiração', 'Vem do "The power of your breath", com traço limpo no lugar do pincel.', 'Pausas e exercícios curtos.'),
         ('el-10-traco', 'Traço que vira coração', 'Vem do desenho em linha contínua.', 'Manifestos sobre cuidado contínuo.'),
-        ('el-11-cerebro', 'Cérebro de corações, ícones entre fios e ficha', 'Vem do símbolo HappyMynd: os quatro lóbulos são corações, com degradê só em tiffany.', 'Saúde mental e capas sobre os pilares.'),
+        ('el-11-uso', 'Cérebro em uso', 'Composição da embalagem de referência: símbolo grande cortado na borda, título por cima, ícones entre fios e ficha.', 'Capas de saúde mental e campanhas.'),
+        ('el-11-simbolo', 'Símbolo do cérebro', 'Réplica do símbolo da referência, só com as cores trocadas: tiffany-claro nas bordas, tiffany-escuro no centro.', 'Selo de saúde mental, capa de destaque, série.'),
     ]),
 ]
 
@@ -714,7 +715,7 @@ html.append(f"""<section class="faixa f-cre graf" id="graficos"><div class="wrap
 <div class="regras">
   <p><b>Um por post</b>Um elemento gráfico principal por post. O resto é texto, fio e etiqueta.</p>
   <p><b>Círculo com função</b>Só quando carrega informação: Venn, cabeça do pictograma, respiração. Nunca como enfeite.</p>
-  <p><b>Degradê</b>Só no cérebro de corações: claro nas bordas, tiffany-escuro no centro. Nunca amarelo.</p>
+  <p><b>Degradê</b>Só no cérebro: tiffany-claro nas bordas, tiffany-escuro no centro. Nunca amarelo.</p>
   <p><b>Traço</b>Ponta arredondada e espessura fixa: 12 px na linha, 48 px na fita, 2,4 px nos ícones.</p>
   <p><b>Pessoas</b>Pictograma simples ou foto recortada. Nada de ilustração com rosto ou mascote.</p>
   <p><b>Faixas</b>Até três linhas, em caixa alta, verde com texto creme.</p>
