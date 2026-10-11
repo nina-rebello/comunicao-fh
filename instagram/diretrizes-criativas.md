@@ -177,3 +177,12 @@ seção "Luz tiffany" de `marca/identidade-visual-v5.html`.
 - **Na grade:** no máximo uma peça Luz tiffany por linha, ao lado de uma tiffany e de uma creme ou eco.
 - **No Canva:** a luz, o grão e a vinheta entram como uma imagem de fundo (PNG) atrás dos blocos; textos,
   etiquetas e diagrama ficam editáveis.
+- **Onde estão (10/10):** design "Quem cuida · 3 Ronald", páginas 13 a 16 (L1 tarde, L2 diagrama, L3 plano,
+  L4 sono). Camadas, de baixo para cima: retângulo #0D1816, PNG de luz (`posts/exploracoes/canva/`), o
+  círculo tracejado (só no L2, também PNG) e por cima os textos e etiquetas, todos em Raleway.
+- **Ajustes da versão do Canva:** no L2 a nota "O plano olha para a pessoa inteira, a partir da rotina
+  real." vai para a legenda (a página não tinha mais um bloco de texto em Raleway para ela); no L2 e no L3
+  o @fairhealth.br saiu com espaçamento entre letras, herdado do bloco reaproveitado; no L4 a etiqueta
+  "Reel · 25 s" não entra na capa (o Instagram já marca o reel).
+- **Foto do sono:** usar `marca/fotos-banco/sono-limpa.jpg`. A original tem a estampa "DECORATION" no
+  lençol, que aparecia no canto do L4.
