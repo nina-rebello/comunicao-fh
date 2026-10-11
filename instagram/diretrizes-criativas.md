@@ -198,13 +198,15 @@ e na aba "Elementos gráficos" de `marca/identidade-visual-v6.html`.
 - **Diagramas:** silhuetas em sequência de tom, Venn com legenda em fio, Venn com o encontro cheio em tiffany
   e ondas de respiração.
 - **Interface:** faixas de texto empilhadas sobre a janela de agenda e notificação de celular.
-- **Traço e forma:** título em escala mista com linha de respiração, traço único que vira coração e as quatro
-  pétalas com ícones entre fios e rodapé de ficha.
+- **Traço e forma:** título em escala mista com linha de respiração, traço único que vira coração e o cérebro
+  de corações (quatro lóbulos em forma de coração, como o símbolo da referência) com ícones entre fios e rodapé
+  de ficha. O cérebro substituiu as quatro pétalas (pedido da Nina, 11/10); as pétalas ficam guardadas em
+  `posts/exploracoes/png/el-11-petalas.png`, fora do livro da marca.
 - **Movimento no carrossel:** fio contínuo que atravessa os slides e dá um laço no do meio, e cartões
   espiando nas bordas com pílula de data sobre a borda.
 - **Regras:** um elemento gráfico principal por post. Círculo só quando carrega informação (Venn, cabeça do
   pictograma, respiração), nunca como enfeite; isso atualiza a regra "sem círculos decorativos". Degradê só
-  nas pétalas, do tiffany-claro ao tiffany-escuro. Traço com ponta arredondada e espessura fixa (12 px na
+  no cérebro de corações, claro nas bordas e tiffany-escuro no centro. Traço com ponta arredondada e espessura fixa (12 px na
   linha, 48 px na fita, 2,4 px nos ícones). Pessoas em pictograma simples ou foto recortada. Faixas com até
   três linhas, em caixa alta, verde com texto creme.
 - **Ficou de fora das referências:** fonte de máquina de escrever, serifa com floreio, letra desenhada à mão,
