@@ -82,7 +82,9 @@ quatro frentes.
 ## Legenda
 
 ```
-O que é a fairhealth? Três respostas curtas.
+O que é a fairhealth? A resposta curta: saúde corporativa que cuida antes, dentro da empresa.
+
+Agora, com um pouco mais de calma.
 
 O que somos: uma empresa de medicina preventiva que cuida da saúde das pessoas dentro da empresa onde elas trabalham. No ecossistema fairjob, somos o cuidar.
 
