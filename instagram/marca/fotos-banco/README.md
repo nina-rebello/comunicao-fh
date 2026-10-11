@@ -20,6 +20,7 @@ Fotos ilustrativas da Licença Unsplash (uso comercial gratuito, sem atribuiçã
 | cafe-notebook.jpg | https://images.unsplash.com/photo-1611095973763-414019e72400 |
 | estresse.jpg | https://images.unsplash.com/photo-1586473219010-2ffc57b0d282 |
 | sono.jpg | https://images.unsplash.com/photo-1520206183501-b80df61043c2 |
+| sono-limpa.jpg | cópia de sono.jpg com a estampa "DECORATION" do lençol retocada (usar esta nas peças) |
 | comida.jpg | https://images.unsplash.com/photo-1490645935967-10de6ba17061 |
 | tenis.jpg | https://images.unsplash.com/photo-1483721310020-03333e577078 |
 | escada.jpg | https://images.unsplash.com/photo-1476480862126-209bfaa8edc8 |
