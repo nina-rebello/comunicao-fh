@@ -90,6 +90,9 @@ mental e estresse, evitar substâncias, relações sociais, propósito e espirit
 que é a mesma versão do site. A apresentação institucional traz 6. **[PENDENTE]** A
 responsável médica confirma os nomes antes do primeiro post da série.
 
+**Atualização (09/10 e 11/10):** valem **6 pilares**, sem espiritualidade (decisão de 09/10 em
+`voice.md`), confirmados pelo one-pager de 11/10. Ver "A oferta, segundo o one-pager", abaixo.
+
 ## O que fica para depois (argumento de retorno)
 
 −28% de absenteísmo (HBR, 2022), −22% de custos com saúde (SHRM, 2023), qualidade de
@@ -112,3 +115,80 @@ O one-pager "Saúde e Bem-Estar para sua empresa baseado na Medicina do Estilo d
 manejo de vícios e relacionamentos. O documento de posicionamento (v3.2) diz que a fairhealth rende mais
 quando o Programa MEV e o Escritório do Cuidado são implantados juntos. Texto do post "O que é a fairhealth"
 em `posts/o-que-e-a-fairhealth/texto.md`.
+
+## Posicionamento da marca (documento de posicionamento v3.2, 11/10)
+
+Resumo dos pontos que orientam todo conteúdo. O original fica fora do repositório. Como transformar a
+linguagem comercial do documento em texto de post está em `voice.md`, "Posicionamento e tom".
+
+**Quem é.** A solução de medicina preventiva que atua **dentro da empresa**. Não vende um benefício:
+oferece cuidado contínuo, com base na Medicina do Estilo de Vida e no Escritório do Cuidado, e trata a saúde
+corporativa como **investimento**, não como custo.
+
+**Promessa central.** Saúde preventiva + cuidado = produtividade.
+
+**Proposta de valor (one-pager).** Atendimento individualizado, que integra tecnologia e acompanhamento
+contínuo, para melhorar a qualidade de vida dos colaboradores. "Oferecemos uma ferramenta de cuidado centrado
+na pessoa."
+
+**Subpromessas** (o que a marca se compromete a entregar):
+- intervenções médicas e psicológicas baseadas em MEV;
+- um Escritório do Cuidado com Plano de Cuidado Individualizado para os colaboradores;
+- mudança de comportamento que traga bem-estar físico e emocional;
+- entrega ligada a indicadores de saúde e de custo;
+- marca empregadora mais forte, com um cuidado real e tangível.
+
+**Diferenciais.**
+1. **MEV com evidência clínica** na prevenção de doenças crônicas.
+2. **Escritório do Cuidado como infraestrutura**: cuidado contínuo, não programa pontual.
+3. **Atendimento presencial integrado**, médico e psicológico, dentro da empresa (não é solução só digital).
+4. **Resultado mensurável**: indicadores de saúde e de custo.
+5. **Marca empregadora**: compromisso visível com a saúde das pessoas.
+
+**Como nos diferenciamos** (no post, nunca citar concorrentes pelo nome):
+- **Plano de saúde tradicional** trata a doença depois que ela aparece. A fairhealth atua antes.
+- **Plataformas de bem-estar genéricas** dão acesso a academia ou terapia avulsa, sem estratégia de prevenção
+  nem acompanhamento. A fairhealth entrega plano individual e acompanhamento contínuo.
+- **Programas de qualidade de vida (QVT)** costumam ser ações isoladas, sem medir impacto. A fairhealth tem
+  método baseado em evidência e continuidade.
+
+**Por que acreditar.**
+- A eficácia da MEV (American College of Lifestyle Medicine e Colégio Brasileiro de Medicina do Estilo de
+  Vida).
+- O modelo do Escritório do Cuidado nasceu na saúde pública: o documento diz "modelo validado no SUS".
+  **[CONFIRMAR]** Como contar isso junto com a história do hospital (seção "De onde veio").
+- O time é multidisciplinar, com experiência em MEV, saúde corporativa, SUS e programas de prevenção.
+- Os dados da fairdata ajudam a focar o cuidado nas necessidades reais de cada empresa.
+- **O melhor resultado vem do Programa MEV e do Escritório do Cuidado juntos.** O Programa dá a base
+  científica e as ferramentas de mudança de hábito. O Escritório garante o suporte contínuo, a personalização
+  e a adesão.
+
+**Resultado esperado por público** (as frases entre aspas são as dores de entrada do documento, boas para
+gancho):
+
+| Público | Dor de entrada | O que espera |
+| --- | --- | --- |
+| **RH** (decisor principal: CHRO, gerente de RH) | "Meu plano de saúde encarece todo ano e eu não tenho um programa preventivo real para apresentar ao financeiro, só campanhas pontuais que não mudam o comportamento." | Menos absenteísmo e presenteísmo, saúde melhor, marca empregadora mais forte, ações de NR-1 documentáveis, mais engajamento |
+| **Financeiro** (CFO, quem aprova o investimento) | Custo do plano de saúde | Redução de custo com saúde, com dados |
+| **Medicina do Trabalho** (influência técnica) | "Minha sinistralidade não cai porque o plano de saúde trata doença depois que ela está instalada. Preciso de um programa dentro da empresa que atue no comportamento antes do adoecimento." | Controle de doenças crônicas, programa com dados que conversam com o PGR |
+| **Risco e Compliance** | NR-1 | Prevenção e cuidado documentados, menos passivos de saúde |
+| **Operação** | Afastamentos | Menos afastamentos, mais energia, foco e disposição no dia a dia |
+| **C-Level, RI e Conselho** | Custo e reputação | Indicadores de ESG e de capital humano |
+
+**Onde a fairhealth faz mais sentido.** Grandes empresas, em que o custo do plano de saúde pesa mais.
+Indústria, logística e construção, em que saúde física e mental são postas à prova todos os dias. E a
+própria saúde (hospitais e clínicas), em que cuidar de quem cuida é crítico.
+
+**Papel no grupo fairjob.** A fairhealth é a solução de **intervenção e cuidado** do ecossistema: a
+**ponte entre o diagnóstico e a melhoria real**. Gera os dados clínicos e comportamentais que sustentam a
+acreditação da **fairtrust**, e os casos de sucesso são validados pela fairtrust e propagados pela
+**fairedu**. Nos eixos comerciais do grupo:
+- **NR-1:** ação preventiva e corretiva pelo Plano de Cuidado;
+- **Stop Loss:** sinistralidade e absenteísmo;
+- **Liderança Bem-Estar:** "O que é importante para você?" inspira uma liderança mais empática;
+- **Marca empregadora:** sensibilização e novos comportamentos;
+- **Evidência e reputação:** relatório de impacto para o board, o financeiro e investidores.
+
+**Personalidade.** Cuidador proativo e eficaz: **científica** nas intervenções, **empática** no
+atendimento, **orientada a resultado** na proposta e **inovadora** na abordagem. O cuidado com a saúde é
+investimento inteligente, não custo.

@@ -232,5 +232,43 @@ Estas regras valem por cima de qualquer trecho anterior deste arquivo.
   (fairdata, fairhealth, fairedu e fairtrust), não um método só da fairhealth. A fairhealth é o
   **cuidar**. Nunca apresentar os quatro verbos como o jeito de trabalhar da fairhealth.
 - **[CONFIRMAR]** O verbo de cada empresa: cuidar = fairhealth (essência). Ligados pelo nome, ainda sem
-  confirmação: medir = fairdata, conscientizar = fairedu, comprovar = fairtrust. A `essencia.md` traz outra
+  confirmação: medir = fairdata, conscientizar = fairedu, comprovar = fairtrust. O documento de
+  posicionamento (v3.2) reforça essa leitura: a fairdata faz o diagnóstico, a fairhealth cuida, a fairtrust
+  valida (acreditação) e a fairedu propaga. A `essencia.md` traz outra
   lista ("medir, cuidar, provar, propagar"); vale a da Nina até a confirmação.
+
+## Posicionamento e tom (documento de posicionamento v3.2, 11/10)
+
+Vale para todo conteúdo, junto com as regras acima. O resumo do posicionamento (promessa, diferenciais, por
+que acreditar, públicos) está em `essencia.md`, "Posicionamento da marca".
+
+- **Personalidade:** cuidador proativo e eficaz. **Científica** (fonte e método), **empática** (escuta,
+  acolhimento), **orientada a resultado** (o que muda na prática) e **inovadora** (cuidado dentro da empresa,
+  tecnologia a serviço das pessoas).
+- **Tom:** acolhedor, mas também assertivo e pragmático. No Instagram e nos posts para colaboradores, pesa
+  mais o acolhimento. No LinkedIn e nos conteúdos para RH, financeiro e medicina do trabalho, pesa mais a
+  assertividade, sempre com fonte.
+- **A ideia que atravessa tudo:** cuidar da saúde é investimento inteligente, não custo. O Escritório do
+  Cuidado não é um benefício, é uma infraestrutura de prevenção.
+- **Frases do posicionamento que podemos usar:**
+  - "O Escritório do Cuidado não é um benefício. É uma infraestrutura de prevenção."
+  - "Saúde preventiva + cuidado = produtividade."
+  - "Uma ferramenta de cuidado centrado na pessoa."
+  - "A ponte entre o diagnóstico e a melhoria real."
+- **Dores de entrada para ganchos** (texto completo em `essencia.md`): o plano de saúde que encarece todo ano
+  sem um programa preventivo real; campanhas pontuais que não mudam comportamento; o plano de saúde que trata
+  a doença depois que ela está instalada.
+
+**Da linguagem do documento para o post.** O documento fala com o comprador e usa promessas que um post não
+pode fazer (regras de publicidade médica e "O que é proibido", acima). Ao usar o documento como base,
+traduzir assim:
+
+| No documento | No post |
+| --- | --- |
+| "Evita que as doenças comecem" | Cuidar antes que o adoecimento vire afastamento |
+| "Reduz a sinistralidade de forma comprovada", "ROI mensurável" | Medimos o que muda, com dados do grupo. Números só com fonte, como estudo, nunca como promessa |
+| "A única abordagem clínica com evidência de reversão de doença crônica" | A Medicina do Estilo de Vida é uma abordagem com evidência científica para prevenir e tratar doenças crônicas |
+| "Aderente à NR-1", "conformidade NR-1" | Apoio na prevenção de riscos psicossociais (NR-1). Nunca prometer conformidade |
+| "Garantindo acompanhamento e resultados duradouros" | Acompanhamento contínuo |
+| Concorrentes citados pelo nome | Nunca citar. Falar da categoria ("plataformas de bem-estar genéricas") |
+| "Diagnóstico gratuito" | Só com ok do comercial |

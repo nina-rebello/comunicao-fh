@@ -1,6 +1,9 @@
 # Base de conteúdo da Fair Health
 
-Comece por aqui. Atualizado em 08/10/2026.
+Comece por aqui. Atualizado em 11/10/2026.
+
+**Antes de produzir qualquer peça,** leia `essencia.md` (o que é a fairhealth, a oferta e o posicionamento
+da marca) e `voice.md` (como falamos, o que não se diz e como traduzir o posicionamento para post).
 
 | Para… | Abra |
 | --- | --- |
