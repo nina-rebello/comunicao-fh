@@ -1,0 +1,165 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel: O que é a fairhealth</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
+@font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--tif:#96C5BD;--verde:#1F3A36;--creme:#F0F0E9;--tclaro:#BFE0D9;--tesc:#5FA89A;--vlogo:#2F6B64}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#888;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;font-variant-numeric:lining-nums}
+.slide>*{position:absolute}
+.v{background:var(--verde);color:var(--creme)}
+.c{background:var(--creme);color:var(--verde)}
+.t{background:var(--tif);color:var(--verde)}
+.k{font-weight:800;font-style:italic}
+.v .k{color:var(--tif)}
+.rot{left:96px;top:96px;font-size:22px;line-height:28px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.v .rot{color:var(--tif)} .c .rot{color:var(--vlogo)}
+.disp{font-size:112px;line-height:112px;letter-spacing:-0.015em}
+.tit{font-size:72px;line-height:80px;letter-spacing:-0.01em}
+.sub{font-size:40px;line-height:52px}
+.corpo{font-size:36px;line-height:48px}
+.nota{font-size:24px;line-height:32px;opacity:.85}
+.tclaro{color:var(--tclaro)}
+.handle{left:96px;top:1238px;font-size:24px;line-height:32px}
+.v .handle{color:var(--tclaro)}
+.arr{right:96px;top:1238px;font-size:24px;line-height:32px;color:var(--tclaro)}
+.pag{right:96px;top:1248px;display:flex;gap:8px}
+.pag i{display:block;width:20px;height:12px;border-radius:6px}
+.pag i.on{width:48px}
+.v .pag i{background:rgba(191,224,217,.3)} .v .pag i.on{background:var(--tif)}
+.c .pag i{background:var(--tif)} .c .pag i.on{background:var(--verde)}
+.t .pag i{background:var(--creme)} .t .pag i.on{background:var(--verde)}
+svg.cheia{left:0;top:0;width:1080px;height:1350px}
+.chip{display:inline-block;background:var(--tif);color:var(--verde);border-radius:8px;padding:14px 26px;font-size:30px;line-height:36px;margin:0 14px 14px 0}
+/* lista com fios de laudo */
+.lista{left:96px;width:888px}
+.lista p{font-size:36px;line-height:46px;padding:26px 0;border-top:2px solid rgba(31,58,54,.28)}
+.lista p:last-child{border-bottom:2px solid rgba(31,58,54,.28)}
+.lista b{font-weight:800}
+/* método */
+.passo{left:96px;width:888px;display:grid;grid-template-columns:72px 1fr;column-gap:24px;padding:28px 0;border-top:2px solid rgba(31,58,54,.28)}
+.passo .n{font-size:24px;line-height:56px;font-weight:800;letter-spacing:.16em;color:var(--vlogo);grid-row:span 2}
+.passo .w{font-size:52px;line-height:56px;font-weight:800;letter-spacing:-0.01em}
+.passo .d{font-size:32px;line-height:42px;margin-top:6px}
+.pilula{border-radius:999px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.num{font-weight:800;letter-spacing:-0.05em;line-height:.78;white-space:nowrap}
+.num .u2{letter-spacing:-0.02em;margin-left:18px}
+</style></head><body>
+
+<!-- 1 · capa (verde): a pergunta e a ponte com o último post -->
+<section class="slide v" id="s01">
+  <p class="rot">Quem somos</p>
+  <p class="disp" style="left:96px;top:420px;width:900px">O que é a <span class="k">fairhealth</span>?</p>
+  <p class="sub tclaro" style="left:96px;top:690px;width:820px">No último post, você conheceu o Escritório do Cuidado. Agora, quem está por trás dele.</p>
+  <p class="handle">@fairhealth.br</p>
+  <p class="arr">Arraste para o lado →</p>
+</section>
+
+<!-- 2 · creme: quem somos em uma frase -->
+<section class="slide c" id="s02">
+  <p class="rot">O que é a fairhealth</p>
+  <p class="tit" style="left:96px;top:300px;width:888px">Somos uma empresa de <span class="k">saúde corporativa</span>.</p>
+  <p class="corpo" style="left:96px;top:560px;width:820px">Levamos médicos e psicólogos para dentro da empresa, para cuidar das pessoas antes que o adoecimento vire afastamento.</p>
+  <p style="left:96px;top:880px;width:888px"><span class="chip">Prevenção</span><span class="chip">Medicina do Estilo de Vida</span><span class="chip">Cuidado centrado na pessoa</span></p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 3 · tiffany: a ponte com o último post, em cartões que espiam nas bordas -->
+<section class="slide t" id="s03">
+  <p class="tit" style="left:0;top:150px;width:1080px;text-align:center;font-size:64px;line-height:72px">O Escritório do Cuidado<br>é <span class="k">onde isso acontece</span>.</p>
+  <div style="left:-560px;top:420px;width:670px;height:560px;background:var(--creme);border-radius:56px"></div>
+  <div style="left:970px;top:420px;width:670px;height:560px;background:var(--creme);border-radius:56px"></div>
+  <div style="left:190px;top:420px;width:700px;height:560px;background:var(--creme);border-radius:56px"></div>
+  <p style="left:250px;top:560px;width:580px;font-size:56px;line-height:62px;letter-spacing:-0.01em">Aqui, o cuidado começa com <span class="k">uma pergunta.</span></p>
+  <p style="left:250px;top:810px;width:580px;font-size:26px;line-height:34px;color:var(--vlogo)">Como funciona o Escritório do Cuidado</p>
+  <p class="pilula" style="left:0;top:946px;width:1080px;text-align:center"><span style="display:inline-block;background:var(--verde);color:var(--creme);font-size:24px;line-height:30px;padding:18px 36px;border-radius:999px">No último post</span></p>
+  <p class="corpo" style="left:120px;top:1080px;width:840px;text-align:center">Um espaço dentro da empresa, pertinho de onde as pessoas já estão. Sem deslocamento, sem fila.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 4 · verde: o encontro (Venn com o centro cheio) -->
+<section class="slide v" id="s04">
+  <p class="rot">Em que a gente acredita</p>
+  <p class="tit" style="left:96px;top:160px;width:888px;font-size:64px;line-height:72px">A gente trabalha no <span class="k">encontro</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <circle cx="540" cy="560" r="250" fill="#F0F0E9" fill-opacity=".1"/>
+    <circle cx="540" cy="900" r="250" fill="#F0F0E9" fill-opacity=".1"/>
+    <path d="M357 730A250 250 0 0 1 723 730A250 250 0 0 1 357 730Z" fill="#96C5BD"/>
+  </svg>
+  <p style="left:290px;top:440px;width:500px;text-align:center;font-size:36px;line-height:46px">O que a empresa<br>precisa</p>
+  <p style="left:290px;top:930px;width:500px;text-align:center;font-size:36px;line-height:46px">O que é importante<br>para cada pessoa</p>
+  <p style="left:340px;top:706px;width:400px;text-align:center;font-size:44px;line-height:48px;color:var(--verde)">fair<span class="k" style="color:var(--verde)">health</span></p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 5 · creme: o que oferecemos para quem é cuidado -->
+<section class="slide c" id="s05">
+  <p class="rot">O que oferecemos</p>
+  <p class="tit" style="left:96px;top:200px;width:888px">Para quem é <span class="k">cuidado</span></p>
+  <div class="lista" style="top:400px">
+    <p>Uma conversa que começa por <b>“O que é importante para você?”</b></p>
+    <p>Médicos e psicólogos perto, <b>dentro da empresa</b></p>
+    <p>Um <b>Plano Individualizado de Cuidado</b>, nos pilares da Medicina do Estilo de Vida</p>
+    <p><b>Sigilo:</b> o que você conta fica entre você e quem cuida</p>
+  </div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 6 · tiffany: o que oferecemos para a empresa -->
+<section class="slide t" id="s06">
+  <p class="rot" style="color:var(--verde)">O que oferecemos</p>
+  <p class="tit" style="left:96px;top:200px;width:888px">Para a <span class="k">empresa</span></p>
+  <div class="lista" style="top:400px">
+    <p>O <b>Escritório do Cuidado</b> montado dentro da empresa, com atendimento presencial ou remoto</p>
+    <p>Relatórios do grupo, <b>anonimizados</b>, para o RH decidir com evidência</p>
+    <p>Um aliado na prevenção dos <b>riscos psicossociais</b> (NR-1)</p>
+    <p>Soma ao plano de saúde e à <b>saúde e segurança do trabalho</b></p>
+  </div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 7 · creme: o método -->
+<section class="slide c" id="s07">
+  <p class="rot">Como a gente trabalha</p>
+  <p class="tit" style="left:96px;top:200px;width:888px">Cuidado <span class="k">com método</span>.</p>
+  <div class="passo" style="top:370px"><span class="n">01</span><span class="w">Medir</span><span class="d">para entender de onde cada pessoa parte</span></div>
+  <div class="passo" style="top:545px"><span class="n">02</span><span class="w">Cuidar</span><span class="d">com a Medicina do Estilo de Vida</span></div>
+  <div class="passo" style="top:720px"><span class="n">03</span><span class="w">Conscientizar</span><span class="d">hábito muda quando se entende o porquê</span></div>
+  <div class="passo" style="top:895px;border-bottom:2px solid rgba(31,58,54,.28)"><span class="n">04</span><span class="w">Comprovar</span><span class="d">o RH decide com evidência, não com intenção</span></div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div>
+</section>
+
+<!-- 8 · verde: a prova, com o número traduzido em gente -->
+<section class="slide v" id="s08">
+  <p class="rot">Da intenção à evidência</p>
+  <p class="tit" style="left:96px;top:200px;width:888px;font-size:64px;line-height:72px">Cuidado que as pessoas <span class="k">procuram de novo</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <defs><g id="pessoa"><circle cx="36" cy="22" r="20"/><path d="M4 150V84a32 32 0 0 1 64 0v66z"/></g></defs>
+    <g fill="#96C5BD"><use href="#pessoa" x="99" y="440"/><use href="#pessoa" x="189" y="440"/><use href="#pessoa" x="279" y="440"/><use href="#pessoa" x="369" y="440"/><use href="#pessoa" x="459" y="440"/><use href="#pessoa" x="549" y="440"/><use href="#pessoa" x="639" y="440"/><use href="#pessoa" x="729" y="440"/></g>
+    <g fill="rgba(191,224,217,.22)"><use href="#pessoa" x="819" y="440"/><use href="#pessoa" x="909" y="440"/></g>
+  </svg>
+  <p class="num" style="left:89px;top:690px;color:var(--tif)"><span style="font-size:240px">8</span><span class="u2" style="font-size:56px">em cada 10</span></p>
+  <p class="corpo tclaro" style="left:96px;top:930px;width:820px">pessoas voltaram para mais de um atendimento, numa indústria que atendemos.</p>
+  <p class="nota tclaro" style="left:96px;top:1100px;width:820px">Fonte: Escritório do Cuidado, 1º sem. 2026. Dados agregados, nunca individuais.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i></div>
+</section>
+
+<!-- 9 · creme: assinatura, logo e convite -->
+<section class="slide c" id="s09">
+  <img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:460px;top:300px;width:160px;height:160px">
+  <p class="tit" style="left:96px;top:560px;width:888px;text-align:center">Fazemos o certo pelos <span class="k">motivos certos</span>.</p>
+  <p class="corpo" style="left:146px;top:830px;width:788px;text-align:center">Quer levar o Escritório do Cuidado para a sua empresa? Fale com a gente pelo direct.</p>
+  <p class="nota" style="left:96px;top:1010px;width:888px;text-align:center;color:var(--vlogo)">fairhealth · ecossistema fairjob</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i></div>
+</section>
+
+</body></html>
