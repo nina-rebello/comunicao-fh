@@ -95,3 +95,20 @@ responsável médica confirma os nomes antes do primeiro post da série.
 −28% de absenteísmo (HBR, 2022), −22% de custos com saúde (SHRM, 2023), qualidade de
 vida, engajamento, clima, retenção, NR-1 (segurança psicológica). Ver o calendário de
 indicadores em `instagram/primeiros-posts-acolhimento.md`.
+
+## A oferta, segundo o one-pager (11/10)
+
+O one-pager "Saúde e Bem-Estar para sua empresa baseado na Medicina do Estilo de Vida" (enviado pela Nina em
+11/10, original fora do repositório) organiza a oferta em **quatro frentes de saúde e tecnologia**:
+
+- **Escritório do Cuidado:** atendimento médico e psicológico dentro da empresa, com plantões alternados de
+  médicos e psicólogos, anamnese e medições com instrumentos digitais, diagnóstico integral pela MEV e
+  Plano de Cuidado Individualizado (plano de ação e encaminhamento clínico).
+- **Programa MEV:** letramento e sensibilização nos seis pilares, para toda a empresa.
+- **Plataforma digital:** prontuário, histórico e metas.
+- **Wearables:** monitoramento remoto contínuo e bioimpedância.
+
+**Seis pilares no one-pager:** alimentação saudável, movimento, gerenciamento de estresse, sono de qualidade,
+manejo de vícios e relacionamentos. O documento de posicionamento (v3.2) diz que a fairhealth rende mais
+quando o Programa MEV e o Escritório do Cuidado são implantados juntos. Texto do post "O que é a fairhealth"
+em `posts/o-que-e-a-fairhealth/texto.md`.
