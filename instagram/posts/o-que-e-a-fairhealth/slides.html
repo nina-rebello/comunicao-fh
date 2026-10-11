@@ -42,6 +42,19 @@ svg.cheia{left:0;top:0;width:1080px;height:1350px}
 .passo .n{font-size:24px;line-height:56px;font-weight:800;letter-spacing:.16em;color:var(--vlogo);grid-row:span 2}
 .passo .w{font-size:52px;line-height:56px;font-weight:800;letter-spacing:-0.01em}
 .passo .d{font-size:32px;line-height:42px;margin-top:6px}
+/* cartão do slide 3: lista curta com fios */
+.cartao p{font-size:32px;line-height:42px;padding:18px 0;border-top:2px solid rgba(31,58,54,.2)}
+.cartao p:first-child{border-top:0;padding-top:0}
+.cartao b{font-weight:800}
+/* ecossistema: quatro passos, a fairhealth em destaque */
+.eco{left:96px;width:888px;height:140px;display:flex;align-items:center;gap:28px;padding:0 32px;border-top:2px solid rgba(31,58,54,.28)}
+.eco .n{font-size:24px;line-height:32px;font-weight:800;letter-spacing:.16em;color:var(--vlogo);width:48px;flex:none}
+.eco .w{font-size:52px;line-height:56px;font-weight:800;letter-spacing:-0.01em;width:420px;flex:none}
+.eco .m{font-size:32px;line-height:40px}
+.eco.on{height:164px;background:var(--tif);border-radius:24px;border-top:0;flex-wrap:wrap;align-content:center;row-gap:4px}
+.eco.on .d{flex-basis:100%;padding-left:76px;font-size:26px;line-height:32px;color:var(--vlogo)}
+.eco.on .m{font-weight:800}
+.eco.on .n{color:var(--verde)}
 .pilula{border-radius:999px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
 .num{font-weight:800;letter-spacing:-0.05em;line-height:.78;white-space:nowrap}
 .num .u2{letter-spacing:-0.02em;margin-left:18px}
@@ -66,16 +79,20 @@ svg.cheia{left:0;top:0;width:1080px;height:1350px}
   <div class="pag"><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 </section>
 
-<!-- 3 · tiffany: a ponte com o último post, em cartões que espiam nas bordas -->
+<!-- 3 · tiffany: o que é o Escritório do Cuidado, num cartão com os cartões vizinhos espiando nas bordas -->
 <section class="slide t" id="s03">
   <p class="tit" style="left:0;top:150px;width:1080px;text-align:center;font-size:64px;line-height:72px">O Escritório do Cuidado<br>é <span class="k">onde isso acontece</span>.</p>
-  <div style="left:-560px;top:420px;width:670px;height:560px;background:var(--creme);border-radius:56px"></div>
-  <div style="left:970px;top:420px;width:670px;height:560px;background:var(--creme);border-radius:56px"></div>
-  <div style="left:190px;top:420px;width:700px;height:560px;background:var(--creme);border-radius:56px"></div>
-  <p style="left:250px;top:560px;width:580px;font-size:56px;line-height:62px;letter-spacing:-0.01em">Aqui, o cuidado começa com <span class="k">uma pergunta.</span></p>
-  <p style="left:250px;top:810px;width:580px;font-size:26px;line-height:34px;color:var(--vlogo)">Como funciona o Escritório do Cuidado</p>
-  <p class="pilula" style="left:0;top:946px;width:1080px;text-align:center"><span style="display:inline-block;background:var(--verde);color:var(--creme);font-size:24px;line-height:30px;padding:18px 36px;border-radius:999px">No último post</span></p>
-  <p class="corpo" style="left:120px;top:1080px;width:840px;text-align:center">Um espaço dentro da empresa, pertinho de onde as pessoas já estão. Sem deslocamento, sem fila.</p>
+  <div style="left:-560px;top:400px;width:670px;height:600px;background:var(--creme);border-radius:56px"></div>
+  <div style="left:970px;top:400px;width:670px;height:600px;background:var(--creme);border-radius:56px"></div>
+  <div style="left:190px;top:400px;width:700px;height:600px;background:var(--creme);border-radius:56px"></div>
+  <div class="cartao" style="left:250px;top:450px;width:580px">
+    <p>Um espaço de cuidado <b>dentro da empresa</b></p>
+    <p>Médicos e psicólogos que <b>se revezam</b> no espaço</p>
+    <p>Atendimento <b>presencial ou remoto</b></p>
+    <p>Tudo começa com uma pergunta: <b>“O que é importante para você?”</b></p>
+  </div>
+  <p class="pilula" style="left:0;top:966px;width:1080px;text-align:center"><span style="display:inline-block;background:var(--verde);color:var(--creme);font-size:24px;line-height:30px;padding:18px 36px;border-radius:999px">Perto de quem trabalha</span></p>
+  <p class="corpo" style="left:120px;top:1090px;width:840px;text-align:center">Pertinho de onde as pessoas já estão. Sem deslocamento, sem fila.</p>
   <p class="handle">@fairhealth.br</p>
   <div class="pag"><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 </section>
@@ -124,14 +141,15 @@ svg.cheia{left:0;top:0;width:1080px;height:1350px}
   <div class="pag"><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div>
 </section>
 
-<!-- 7 · creme: o método -->
+<!-- 7 · creme: o lugar da fairhealth no ecossistema fairjob (os quatro passos são as quatro empresas) -->
 <section class="slide c" id="s07">
-  <p class="rot">Como a gente trabalha</p>
-  <p class="tit" style="left:96px;top:200px;width:888px">Cuidado <span class="k">com método</span>.</p>
-  <div class="passo" style="top:370px"><span class="n">01</span><span class="w">Medir</span><span class="d">para entender de onde cada pessoa parte</span></div>
-  <div class="passo" style="top:545px"><span class="n">02</span><span class="w">Cuidar</span><span class="d">com a Medicina do Estilo de Vida</span></div>
-  <div class="passo" style="top:720px"><span class="n">03</span><span class="w">Conscientizar</span><span class="d">hábito muda quando se entende o porquê</span></div>
-  <div class="passo" style="top:895px;border-bottom:2px solid rgba(31,58,54,.28)"><span class="n">04</span><span class="w">Comprovar</span><span class="d">o RH decide com evidência, não com intenção</span></div>
+  <p class="rot">Ecossistema fairjob</p>
+  <p class="tit" style="left:96px;top:190px;width:888px">A fairhealth é o <span class="k">cuidar</span>.</p>
+  <p class="corpo" style="left:96px;top:300px;width:820px">Quatro empresas, quatro passos. Juntas, levam a empresa da intenção à evidência.</p>
+  <div class="eco" style="top:460px"><span class="n">01</span><span class="w">Medir</span><span class="m">fairdata</span></div>
+  <div class="eco on" style="top:620px"><span class="n">02</span><span class="w">Cuidar</span><span class="m">fairhealth</span><span class="d">o Escritório do Cuidado</span></div>
+  <div class="eco" style="top:800px"><span class="n">03</span><span class="w">Conscientizar</span><span class="m">fairedu</span></div>
+  <div class="eco" style="top:960px;border-bottom:2px solid rgba(31,58,54,.28)"><span class="n">04</span><span class="w">Comprovar</span><span class="m">fairtrust</span></div>
   <p class="handle">@fairhealth.br</p>
   <div class="pag"><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div>
 </section>

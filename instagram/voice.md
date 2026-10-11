@@ -47,7 +47,8 @@ português do Brasil.
   É uma voz de especialista que explica sem jargão, sem alarmismo e sem tom de
   coach.
 - **Palavras que usamos:** cuidado · Escritório do Cuidado · causa raiz ·
-  "medir, cuidar, conscientizar, comprovar" · evidência / "da intenção à
+  "medir, cuidar, conscientizar, comprovar" (os quatro passos das quatro empresas da
+  fairjob, não um método só da fairhealth; ver as decisões de 11/10) · evidência / "da intenção à
   evidência" · cuidado centrado na pessoa · menos barreira, mais adesão ·
   sinistralidade · risco psicossocial · NR-01 · Medicina do Estilo de Vida (MEV)
   · colaborador · prevenção
@@ -224,3 +225,12 @@ Estas regras valem por cima de qualquer trecho anterior deste arquivo.
 - **Medicina do Estilo de Vida: 6 pilares** (ACLM): alimentação, atividade física,
   sono, manejo do estresse, relacionamentos e evitar substâncias de risco. Sem
   espiritualidade. **[PENDENTE]** confirmar.
+
+## Decisões de 11/10: o ecossistema
+
+- **"Medir, cuidar, conscientizar, comprovar" são os quatro passos das quatro empresas da fairjob**
+  (fairdata, fairhealth, fairedu e fairtrust), não um método só da fairhealth. A fairhealth é o
+  **cuidar**. Nunca apresentar os quatro verbos como o jeito de trabalhar da fairhealth.
+- **[CONFIRMAR]** O verbo de cada empresa: cuidar = fairhealth (essência). Ligados pelo nome, ainda sem
+  confirmação: medir = fairdata, conscientizar = fairedu, comprovar = fairtrust. A `essencia.md` traz outra
+  lista ("medir, cuidar, provar, propagar"); vale a da Nina até a confirmação.

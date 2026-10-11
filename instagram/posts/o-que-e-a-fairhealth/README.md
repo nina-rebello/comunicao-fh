@@ -10,16 +10,19 @@ institucional. Público: RH e colaboradores.
 - **Visual:** v1 com o tiffany no detalhe (fundos verde, creme e tiffany alternados) e três elementos gráficos
   da aba nova do livro da marca: cartões espiando nas bordas (ponte com o post anterior), Venn com o encontro
   cheio e pessoas em pictograma.
+- **Correção de 11/10:** o slide 3 deixou de só citar o post anterior e passou a explicar o Escritório do
+  Cuidado. O slide 7 deixou de tratar "medir, cuidar, conscientizar, comprovar" como método da fairhealth:
+  são os quatro passos das quatro empresas da fairjob.
 
 | Slide | Fundo | Conteúdo |
 | --- | --- | --- |
 | 1 | verde | Capa: "O que é a fairhealth?" + ponte com o último post |
 | 2 | creme | Somos uma empresa de saúde corporativa (frase de quem somos) |
-| 3 | tiffany | O Escritório do Cuidado é onde isso acontece (cartão com a capa do post anterior) |
+| 3 | tiffany | O Escritório do Cuidado é onde isso acontece: espaço dentro da empresa, médicos e psicólogos que se revezam, presencial ou remoto, a pergunta (cartão central) |
 | 4 | verde | A gente trabalha no encontro (Venn: o que a empresa precisa × o que é importante para cada pessoa) |
 | 5 | creme | O que oferecemos para quem é cuidado |
 | 6 | tiffany | O que oferecemos para a empresa |
-| 7 | creme | Cuidado com método: medir, cuidar, conscientizar, comprovar |
+| 7 | creme | A fairhealth é o cuidar: os quatro passos do ecossistema fairjob (medir, cuidar, conscientizar, comprovar), um por empresa, com a fairhealth em destaque |
 | 8 | verde | Prova: 8 em cada 10 pessoas voltaram para mais de um atendimento |
 | 9 | creme | Logo, slogan e convite para falar pelo direct |
 
@@ -30,7 +33,7 @@ O Escritório do Cuidado você já conhece. Agora, o que é a fairhealth?
 
 No último post, mostramos como o cuidado começa: com uma conversa e uma pergunta, "O que é importante para você?". A fairhealth é quem está por trás desse espaço.
 
-Somos uma empresa de saúde corporativa, do ecossistema fairjob. Levamos médicos e psicólogos para dentro da empresa, para cuidar das pessoas antes que o adoecimento vire afastamento.
+Somos uma empresa de saúde corporativa e, no ecossistema fairjob, somos o cuidar. Levamos médicos e psicólogos para dentro da empresa, para cuidar das pessoas antes que o adoecimento vire afastamento.
 
 Para quem é cuidado, isso significa atendimento perto, sigilo e um plano que cabe na rotina real, montado nos pilares da Medicina do Estilo de Vida. Para a empresa, significa um espaço de cuidado montado ali dentro e relatórios do grupo, anonimizados, para o RH decidir com evidência.
 
@@ -59,3 +62,5 @@ reconhece chamadas em inglês, e a legenda tem uma só ("Fale com a gente pelo d
 - **NR-1:** "um aliado na prevenção dos riscos psicossociais", sem prometer conformidade.
 - **Prazo do programa:** o post não cita os 12 meses (prazo de acompanhamento pede aval).
 - **Pilares:** o post não diz quantos são, até a confirmação dos 6 pilares.
+- **[CONFIRMAR] Verbo de cada empresa no slide 7:** cuidar = fairhealth está na essência. Os outros foram
+  ligados pelo nome: medir = fairdata, conscientizar = fairedu, comprovar = fairtrust.
