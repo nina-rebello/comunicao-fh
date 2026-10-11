@@ -1,5 +1,15 @@
 # Carrossel: O que é a fairhealth
 
+> **Versão atual: v2 (11/10).** Texto em `texto.md`; arte em `slides-v2.html` → `png-v2/v01.png` …
+> `v10.png`, nesta ordem (prévia: `previa-v2.jpg`). Para regerar:
+> `node instagram/ferramentas/render.mjs instagram/posts/o-que-e-a-fairhealth/slides-v2.html instagram/posts/o-que-e-a-fairhealth/png-v2`
+> A legenda da v2 está em `texto.md`. O conteúdo abaixo é da v1 (9 slides), guardada.
+>
+> **Elementos da v2:** trilha das três perguntas no topo de cada slide, empresa desenhada com o cuidado lá
+> dentro (2), linha do tempo "a fairhealth entra aqui / o plano de saúde entra aqui" (3), os seis pilares em
+> cartões com ícone (4), plantões alternados (5), quatro passos ligados por uma linha (6), pessoas em
+> pictograma (7), quatro frentes em cartões com ícone (8) e o que a empresa recebe, com ícones (9).
+
 Pedido do sócio (11/10): o post seguinte ao do Escritório do Cuidado apresenta a fairhealth, o que fazemos e
 o que oferecemos, ligado ao post anterior ("Como funciona o Escritório do Cuidado"). Linha editorial:
 institucional. Público: RH e colaboradores.

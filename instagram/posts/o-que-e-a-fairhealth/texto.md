@@ -1,5 +1,7 @@
 # O que é a fairhealth: texto (v2, 11/10)
 
+**Arte:** `slides-v2.html` → `png-v2/v01.png` … `v10.png` (prévia em `previa-v2.jpg`).
+
 Texto antes da arte. Fontes: one-pager "Saúde e Bem-Estar para sua empresa baseado na Medicina do Estilo de
 Vida" e o documento de posicionamento da fairhealth (v3.2), ambos enviados pela Nina em 11/10 (os originais
 não entram no repositório). Regras de `voice.md`: sem nomes, sem promessa de resultado, números com fonte.
@@ -33,8 +35,8 @@ recebe um plano de cuidado feito para a rotina dela. Depois, a gente acompanha e
 **Passo a passo:**
 
 1. **Ouvimos.** O atendimento começa com uma pergunta: "O que é importante para você?".
-2. **Avaliamos.** Uma conversa sobre hábitos, medições como a bioimpedância e uma smartband por 48 horas,
-   para conhecer o sono e o dia a dia de verdade.
+2. **Avaliamos.** Uma conversa sobre hábitos e medições com instrumentos digitais (one-pager: "Anamnese e
+   Medições").
 3. **Planejamos.** Um Plano Individualizado de Cuidado, com ações nos seis pilares e encaminhamento quando
    é preciso.
 4. **Acompanhamos.** Retornos, ajustes no plano e médicos e psicólogos que se revezam no espaço.
@@ -50,10 +52,13 @@ Estilo de Vida, uma plataforma digital e wearables.
 
 | Frente | O que é, em palavras simples |
 | --- | --- |
-| **Escritório do Cuidado** | Um espaço dentro da empresa, com atendimento médico e psicológico em plantões que se revezam. |
-| **Programa de Medicina do Estilo de Vida** | Conteúdos e oficinas sobre os seis pilares, para a empresa inteira, não só para quem é atendido. |
-| **Plataforma digital** | O histórico, o plano e as metas de cada pessoa, com sigilo. |
-| **Wearables** | Smartband e bioimpedância, para acompanhar sono, movimento e composição do corpo. |
+| **Escritório do Cuidado** | Atendimento médico e psicológico presencial, dentro da empresa, com plantões alternados. |
+| **Programa de Medicina do Estilo de Vida** | Letramento e sensibilização nos seis pilares. |
+| **Plataforma digital** | Prontuário, histórico e metas. |
+| **Wearables** | Monitoramento remoto contínuo e bioimpedância. |
+
+As quatro linhas usam só as palavras do one-pager (revisão de 11/10, depois da pergunta da Nina sobre a
+origem de cada frase).
 
 **Como as frentes se somam:** o Programa dá a base e as ferramentas. O Escritório garante o acompanhamento,
 pessoa a pessoa. É quando os dois andam juntos que o cuidado vira hábito.
@@ -68,9 +73,9 @@ prevenção de riscos psicossociais (NR-1). E um cuidado concreto, que vai além
 | 1 | Capa | O que é a *fairhealth*? | O que somos, o que fazemos e o que oferecemos, em poucas palavras. |
 | 2 | O que é | A fairhealth cuida da saúde das pessoas *dentro da empresa*. | Somos uma empresa de medicina preventiva. No ecossistema fairjob, somos o cuidar. |
 | 3 | O que é (mais fundo) | Preventiva quer dizer cuidar *antes*. | Antes do diagnóstico, antes do atestado, antes do afastamento. O plano de saúde entra quando a doença já apareceu. A gente entra antes. |
-| 4 | O que é (mais fundo) | A base é a *Medicina do Estilo de Vida*. | Uma área da medicina, com evidência científica, que usa a mudança de hábitos para prevenir e tratar doenças crônicas. Seis pilares: alimentação, movimento, sono, estresse, relacionamentos e vícios. |
+| 4 | O que é (mais fundo) | A base é a *Medicina do Estilo de Vida*. | Uma área da medicina, com evidência científica, que usa a mudança de hábitos para prevenir e tratar doenças crônicas. Seis pilares, com os nomes do one-pager: alimentação saudável, movimento, gerenciamento de estresse, sono de qualidade, manejo de vícios e relacionamentos. |
 | 5 | O que fazemos | Levamos médicos e psicólogos *para perto*. | Eles atendem dentro da empresa, em plantões que se revezam. Sem deslocamento, sem fila. |
-| 6 | O que fazemos (passo a passo) | Cada pessoa recebe um *plano só dela*. | Ouvimos ("O que é importante para você?") · Avaliamos (medições e smartband por 48 horas) · Planejamos (Plano Individualizado de Cuidado) · Acompanhamos (retornos e ajustes). |
+| 6 | O que fazemos (passo a passo) | Cada pessoa recebe um *plano só dela*. | Ouvimos ("O que é importante para você?") · Avaliamos (conversa e medições com instrumentos digitais) · Planejamos (Plano Individualizado de Cuidado, com encaminhamento quando é preciso) · Acompanhamos (retornos e ajustes). |
 | 7 | O que fazemos (por quê) | Quando o cuidado está perto, *ele é usado*. | Numa indústria que atendemos, 8 em cada 10 pessoas voltaram para mais de um atendimento. Fonte: Escritório do Cuidado, 1º sem. 2026. |
 | 8 | O que oferecemos | Quatro frentes, *um cuidado só*. | Escritório do Cuidado · Programa de Medicina do Estilo de Vida · Plataforma digital · Wearables (uma linha de explicação para cada). |
 | 9 | O que oferecemos (empresa) | E para a *empresa*? | Relatórios do grupo, sem identificar ninguém, para o RH decidir com evidência. Apoio na prevenção de riscos psicossociais (NR-1). Um cuidado concreto, que vai além dos benefícios tradicionais. |
