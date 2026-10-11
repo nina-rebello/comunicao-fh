@@ -1,0 +1,72 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Exploração: número em destaque (referência "12% Statistiques")</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
+@font-face{font-family:Raleway;font-weight:500;src:url(../../marca/fontes/raleway-latin-500-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--tif:#96C5BD;--verde:#1F3A36;--creme:#F0F0E9;--tclaro:#BFE0D9;--vlogo:#2F6B64}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#888;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;font-variant-numeric:lining-nums}
+.slide>*{position:absolute}
+.v{background:var(--verde);color:var(--creme)}
+.c{background:var(--creme);color:var(--verde)}
+.t{background:var(--tif);color:var(--verde)}
+/* etiqueta cheia no canto, como na referência */
+.tag{top:96px;right:96px;border-radius:999px;padding:16px 34px;font-size:26px;line-height:32px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.v .tag,.c .tag{background:var(--tif);color:var(--verde)}
+.t .tag{background:var(--creme);color:var(--verde)}
+/* o número é a peça: enorme, colado, com a unidade menor apoiada na base */
+.num{left:84px;font-weight:800;letter-spacing:-0.05em;line-height:.78;white-space:nowrap}
+.num .n{font-size:540px}
+.num .u{font-size:230px;letter-spacing:-0.02em;margin-left:10px}
+.num .u2{font-size:96px;letter-spacing:-0.02em;margin-left:30px}
+.v .num{color:var(--tif)}
+.corpo{left:96px;width:780px;font-size:48px;line-height:60px}
+.corpo .s{color:var(--tclaro)}
+.c .corpo .s,.t .corpo .s{color:var(--vlogo)}
+.fonte{left:96px;width:780px;font-size:24px;line-height:32px;opacity:.85}
+.v .fonte{color:var(--tclaro)}
+.c .fonte{color:var(--vlogo)}
+.handle{left:96px;top:1238px;font-size:24px;line-height:32px}
+.v .handle{color:var(--tclaro)}
+/* paginação do carrossel: cápsulas, a ativa mais longa */
+.pag{right:96px;top:1248px;display:flex;gap:10px}
+.pag i{display:block;width:24px;height:12px;border-radius:6px}
+.pag i.on{width:56px}
+.v .pag i{background:rgba(191,224,217,.3)} .v .pag i.on{background:var(--tif)}
+.c .pag i{background:var(--tif)} .c .pag i.on{background:var(--verde)}
+.t .pag i{background:var(--creme)} .t .pag i.on{background:var(--verde)}
+</style></head><body>
+
+<!-- D1 · prova (M1-09): 8 em cada 10, no verde, número tiffany -->
+<section class="slide v" id="num-1-voltaram">
+  <p class="tag">Evidência</p>
+  <p class="num" style="top:330px"><span class="n">8</span><span class="u2">em cada 10</span></p>
+  <p class="corpo" style="top:820px">voltaram para mais de um atendimento. <span class="s">Ninguém volta a um lugar onde não se sentiu cuidado.</span></p>
+  <p class="fonte" style="top:1090px">Fonte: Escritório do Cuidado numa indústria, 1º sem. 2026</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i class="on"></i><i></i></div>
+</section>
+
+<!-- D2 · ciência (M1-16): 58%, no creme, número verde -->
+<section class="slide c" id="num-2-ciencia">
+  <p class="tag">Ciência no cuidado</p>
+  <p class="num" style="top:330px"><span class="n">58</span><span class="u">%</span></p>
+  <p class="corpo" style="top:820px">menos casos novos de diabetes tipo 2 em quem mudou a rotina. <span class="s">Cuidado que começa antes.</span></p>
+  <p class="fonte" style="top:1090px">Diabetes Prevention Program · N Engl J Med, 2002 · adultos com risco aumentado</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i class="on"></i><i></i><i></i></div>
+</section>
+
+<!-- D3 · prova (M1-09, slide seguinte): 98% de adesão, no tiffany, número verde -->
+<section class="slide t" id="num-3-adesao">
+  <p class="tag">Evidência</p>
+  <p class="num" style="top:330px"><span class="n">98</span><span class="u">%</span></p>
+  <p class="corpo" style="top:820px">de adesão ao plano de cuidado. <span class="s">Quando o plano cabe na rotina, a pessoa fica.</span></p>
+  <p class="fonte" style="top:1090px">Fonte: Escritório do Cuidado numa indústria, 1º sem. 2026</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i class="on"></i></div>
+</section>
+
+</body></html>
