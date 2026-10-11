@@ -195,7 +195,12 @@ e na aba "Elementos gráficos" de `marca/identidade-visual-v6.html`.
 
 - **Números:** número em destaque (unidade menor na base), painéis de relatório com % sobrescrito, pessoas
   em pictograma (dez bonecos para "8 em cada 10") e grade de 100 com quadrados arredondados e rótulo vertical.
-- **Diagramas:** silhuetas em sequência de tom, Venn com legenda em fio, Venn com o encontro cheio em tiffany
+- **Relatório em cartões** (`el-15`): simulacro do post de referência com dois cartões empilhados, um com as
+  silhuetas entre dois números e outro, verde, com a grade de 100 pontos e rótulos na vertical. Substitui os
+  painéis de relatório (`el-04`, guardado) no livro da marca.
+- **Diagramas:** silhuetas em sequência de tom (boneco copiado da referência: cabeça redonda, ombros num bloco
+  de cantos arredondados, braços e pernas separados do tronco por frestas; quatro bonecos do mais claro, atrás,
+  ao mais escuro, na frente), Venn com legenda em fio, Venn com o encontro cheio em tiffany
   e ondas de respiração.
 - **Interface:** faixas de texto empilhadas sobre a janela de agenda e notificação de celular.
 - **Traço e forma:** título em escala mista com linha de respiração, traço único que vira coração e o cérebro.

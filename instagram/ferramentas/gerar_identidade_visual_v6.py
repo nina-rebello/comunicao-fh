@@ -673,12 +673,12 @@ html.append(f"""<section class="faixa f-noite" id="luz"><div class="wrap">
 GRAF = [
     ('Números', [
         ('num-1-voltaram', 'Número em destaque', 'Vem do "12% Statistiques": número grande, unidade menor na base.', 'Um dado por post, com a frase de cuidado logo abaixo.'),
-        ('el-04-relatorio', 'Painéis de relatório', 'Vem dos cartões de pesquisa, com o % sobrescrito.', 'Resultados do semestre, para LinkedIn e RH.'),
+        ('el-15-cartoes-relatorio', 'Relatório em cartões', 'Simulacro dos cartões de pesquisa: silhuetas entre dois números, grade de 100 com rótulos na vertical.', 'Resultados do semestre, para RH e LinkedIn.'),
         ('el-01-pessoas', 'Pessoas em pictograma', 'Vem dos 100 bonecos do "60%".', '"8 em cada 10" vira gente: dez bonecos, oito em tiffany.'),
         ('el-02-grade', 'Grade de 100', 'Vem da grade de pontos do "67%", com quadrados arredondados no lugar das bolinhas.', 'Percentuais altos, com o rótulo na vertical ao lado.'),
     ]),
     ('Diagramas', [
-        ('el-03-silhuetas', 'Silhuetas em sequência', 'Vem dos bonecos sobrepostos em tons.', 'Processo e acompanhamento: a mesma pessoa, do claro ao verde.'),
+        ('el-03-silhuetas', 'Silhuetas em sequência', 'Boneco copiado da referência: cabeça redonda, ombros num bloco, braços e pernas separados por frestas.', 'Processo e acompanhamento: a mesma pessoa, do claro ao verde.'),
         ('el-05-venn-fio', 'Venn com legenda em fio', 'Vem do "Strategy + Creativity", sem a estrela.', 'Onde duas ideias se encontram.'),
         ('el-06-venn-cheio', 'Venn com encontro cheio', 'Vem do "Better when roasted".', 'Empresa e pessoa, com o Escritório do Cuidado no meio.'),
         ('el-13-respiracao', 'Ondas de respiração', 'Vem dos círculos concêntricos, sem mascote.', 'Reels de respiração: o círculo cresce e diminui.'),
