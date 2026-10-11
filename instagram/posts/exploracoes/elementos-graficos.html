@@ -1,0 +1,295 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Exploração: elementos gráficos (inspiração de 11/10)</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
+@font-face{font-family:Raleway;font-weight:500;src:url(../../marca/fontes/raleway-latin-500-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--tif:#96C5BD;--verde:#1F3A36;--creme:#F0F0E9;--tclaro:#BFE0D9;--tesc:#5FA89A;--vlogo:#2F6B64}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#888;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;font-variant-numeric:lining-nums}
+.slide>*{position:absolute}
+.v{background:var(--verde);color:var(--creme)}
+.c{background:var(--creme);color:var(--verde)}
+.t{background:var(--tif);color:var(--verde)}
+.k{font-weight:800;font-style:italic}
+.v .k{color:var(--tif)}
+.tit{font-size:72px;line-height:80px;letter-spacing:-0.01em}
+.corpo{font-size:38px;line-height:50px}
+.nota{font-size:24px;line-height:32px;opacity:.85}
+.rot{font-size:22px;line-height:28px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.v .rot{color:var(--tif)}
+.tclaro{color:var(--tclaro)}
+.vlogo{color:var(--vlogo)}
+.tag{top:96px;right:96px;border-radius:999px;padding:16px 34px;font-size:26px;line-height:32px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.v .tag,.c .tag{background:var(--tif);color:var(--verde)}
+.t .tag{background:var(--creme);color:var(--verde)}
+.handle{left:96px;top:1238px;font-size:24px;line-height:32px}
+.v .handle{color:var(--tclaro)}
+.pag{right:96px;top:1248px;display:flex;gap:10px}
+.pag i{display:block;width:24px;height:12px;border-radius:6px}
+.pag i.on{width:56px}
+.v .pag i{background:rgba(191,224,217,.3)} .v .pag i.on{background:var(--tif)}
+.c .pag i{background:var(--tif)} .c .pag i.on{background:var(--verde)}
+.t .pag i{background:var(--creme)} .t .pag i.on{background:var(--verde)}
+svg.cheia{left:0;top:0;width:1080px;height:1350px}
+/* número em destaque: unidade na base ou sobrescrita */
+.num{font-weight:800;letter-spacing:-0.05em;line-height:.78;white-space:nowrap}
+.num .u2{letter-spacing:-0.02em;margin-left:18px}
+.sup{font-weight:800;letter-spacing:-0.04em;line-height:.8;white-space:nowrap}
+.sup sup{font-size:.42em;vertical-align:.95em;margin-left:6px;letter-spacing:0}
+/* faixas empilhadas */
+.faixas span{display:block;width:fit-content;background:var(--verde);color:var(--creme);font-weight:800;font-size:58px;line-height:76px;letter-spacing:.01em;text-transform:uppercase;padding:2px 22px 0;margin-bottom:8px}
+.faixas span b{color:var(--tif);font-weight:800}
+/* cartões */
+.card{background:#FBFBF7;border-radius:40px;box-shadow:0 30px 60px rgba(31,58,54,.18)}
+.painel{border-radius:36px;box-shadow:0 24px 48px rgba(0,0,0,.22);overflow:hidden}
+.painel>*{position:absolute}
+.vert{writing-mode:vertical-rl;transform:rotate(180deg);font-size:20px;line-height:24px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.pilula{border-radius:999px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+</style></head><body>
+
+<!-- G1 · pictograma de pessoas (ref. 60% com bonecos) -->
+<section class="slide v" id="el-01-pessoas">
+  <p class="tag">Evidência</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <defs><g id="pessoa"><circle cx="36" cy="22" r="20"/><path d="M4 150V84a32 32 0 0 1 64 0v66z"/></g></defs>
+    <g fill="#96C5BD"><use href="#pessoa" x="99" y="290"/><use href="#pessoa" x="189" y="290"/><use href="#pessoa" x="279" y="290"/><use href="#pessoa" x="369" y="290"/><use href="#pessoa" x="459" y="290"/><use href="#pessoa" x="549" y="290"/><use href="#pessoa" x="639" y="290"/><use href="#pessoa" x="729" y="290"/></g>
+    <g fill="rgba(191,224,217,.22)"><use href="#pessoa" x="819" y="290"/><use href="#pessoa" x="909" y="290"/></g>
+  </svg>
+  <p class="num" style="left:89px;top:530px;color:var(--tif)"><span style="font-size:300px">8</span><span class="u2" style="font-size:64px">em cada 10</span></p>
+  <p class="corpo" style="left:96px;top:800px;width:800px">voltaram para mais de um atendimento. <span class="tclaro">Ninguém volta a um lugar onde não se sentiu cuidado.</span></p>
+  <p class="nota tclaro" style="left:96px;top:1040px;width:800px">Fonte: Escritório do Cuidado numa indústria, 1º sem. 2026</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i class="on"></i><i></i><i></i></div>
+</section>
+
+<!-- G2 · grade de 100 com rótulo vertical (ref. infográfico de pontos) -->
+<section class="slide c" id="el-02-grade">
+  <p class="rot vlogo" style="left:96px;top:110px">Adesão ao plano</p>
+  <p class="tag">Evidência</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true" id="grade100"></svg>
+  <p class="vert vlogo" style="left:756px;top:250px;height:628px;text-align:center">98 em cada 100 seguiram o plano</p>
+  <p class="sup" style="left:90px;top:930px;font-size:220px">98<sup>%</sup></p>
+  <p class="corpo" style="left:520px;top:950px;width:464px;font-size:34px;line-height:44px">de adesão ao plano de cuidado, em seis meses.</p>
+  <p class="nota vlogo" style="left:96px;top:1150px;width:800px">Fonte: Escritório do Cuidado numa indústria, 1º sem. 2026</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i class="on"></i><i></i></div>
+</section>
+
+<!-- G3 · silhuetas em sequência de tom (ref. bonecos sobrepostos) -->
+<section class="slide t" id="el-03-silhuetas">
+  <p class="tag">Como funciona</p>
+  <p class="tit" style="left:96px;top:200px;width:620px">Conhecer <span class="k">antes</span> de propor.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <defs><g id="sil"><circle cx="100" cy="56" r="52"/><rect x="34" y="120" width="132" height="230" rx="44"/><rect x="0" y="128" width="40" height="222" rx="20"/><rect x="160" y="128" width="40" height="222" rx="20"/><rect x="40" y="300" width="56" height="240" rx="28"/><rect x="104" y="300" width="56" height="240" rx="28"/></g></defs>
+    <use href="#sil" x="356" y="440" fill="#E6F1EE"/><use href="#sil" x="416" y="440" fill="#BFE0D9"/><use href="#sil" x="476" y="440" fill="#5FA89A"/><use href="#sil" x="536" y="440" fill="#1F3A36"/>
+  </svg>
+  <p class="sup" style="left:92px;top:640px;font-size:120px">48<sup>h</sup></p>
+  <p style="left:96px;top:760px;width:240px;font-size:26px;line-height:34px">de smartband para conhecer seu sono e seu dia a dia.</p>
+  <p class="sup" style="left:782px;top:640px;font-size:120px">6</p>
+  <p style="left:786px;top:760px;width:220px;font-size:26px;line-height:34px">pilares olhados juntos, a partir da sua rotina.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i class="on"></i><i></i><i></i></div>
+</section>
+
+<!-- G4 · painéis de relatório com % sobrescrito (ref. cartões de pesquisa) -->
+<section class="slide v" id="el-04-relatorio">
+  <p class="rot" style="left:96px;top:96px">Escritório do Cuidado · 1º sem. 2026</p>
+  <p class="tit" style="left:96px;top:150px;width:888px;font-size:56px;line-height:64px">Seis meses numa <span class="k">indústria</span>.</p>
+  <div class="painel" style="left:96px;top:290px;width:888px;height:400px;background:var(--creme);color:var(--verde)">
+    <p class="rot vlogo" style="left:56px;top:52px">Adesão ao plano</p>
+    <p class="sup" style="left:50px;top:130px;font-size:220px">98<sup>%</sup></p>
+    <p style="left:470px;top:150px;width:360px;font-size:32px;line-height:42px">das pessoas seguiram o plano de cuidado combinado na primeira conversa.</p>
+  </div>
+  <div class="painel" style="left:96px;top:720px;width:888px;height:430px;background:var(--tif);color:var(--verde)">
+    <p class="rot" style="left:56px;top:52px">Voltaram para mais de um atendimento</p>
+    <svg style="left:56px;top:120px;width:560px;height:118px" viewBox="0 0 900 190" aria-hidden="true">
+      <g fill="#1F3A36"><use href="#pessoa" x="0" y="20"/><use href="#pessoa" x="90" y="20"/><use href="#pessoa" x="180" y="20"/><use href="#pessoa" x="270" y="20"/><use href="#pessoa" x="360" y="20"/><use href="#pessoa" x="450" y="20"/><use href="#pessoa" x="540" y="20"/><use href="#pessoa" x="630" y="20"/></g>
+      <g fill="#F0F0E9"><use href="#pessoa" x="720" y="20"/><use href="#pessoa" x="810" y="20"/></g>
+    </svg>
+    <p class="num" style="left:52px;top:290px"><span style="font-size:120px">8</span><span class="u2" style="font-size:40px;margin-left:12px">em cada 10</span></p>
+  </div>
+  <p class="nota tclaro" style="left:96px;top:1175px">Dados agregados, nunca individuais.</p>
+  <p class="handle">@fairhealth.br</p>
+</section>
+
+<!-- G5 · Venn vertical com legenda em fio (ref. Strategy + Creativity) -->
+<section class="slide c" id="el-05-venn-fio">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <circle cx="650" cy="440" r="300" fill="#96C5BD" fill-opacity=".55"/>
+    <circle cx="650" cy="880" r="300" fill="#96C5BD" fill-opacity=".55"/>
+    <path d="M446 660A300 300 0 0 1 854 660A300 300 0 0 1 446 660Z" fill="#5FA89A" fill-opacity=".55"/>
+    <path d="M96 660H436" stroke="#2F6B64" stroke-width="2"/>
+  </svg>
+  <p style="left:350px;top:395px;width:600px;text-align:center;font-size:64px;line-height:72px;font-weight:500;letter-spacing:.04em">CIÊNCIA</p>
+  <p style="left:350px;top:875px;width:600px;text-align:center;font-size:64px;line-height:72px;font-weight:500;letter-spacing:.04em">ESCUTA</p>
+  <p class="k" style="left:350px;top:628px;width:600px;text-align:center;font-size:56px;line-height:64px">cuidado</p>
+  <p class="rot vlogo" style="left:96px;top:678px;font-size:18px;line-height:24px">Onde a<br>fairhealth<br>trabalha</p>
+  <p class="handle">@fairhealth.br</p>
+</section>
+
+<!-- G6 · Venn com interseção cheia (ref. Better when roasted) -->
+<section class="slide v" id="el-06-venn-cheio">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <circle cx="540" cy="470" r="330" fill="#F0F0E9" fill-opacity=".1"/>
+    <circle cx="540" cy="900" r="330" fill="#F0F0E9" fill-opacity=".1"/>
+    <path d="M290 685A330 330 0 0 1 790 685A330 330 0 0 1 290 685Z" fill="#96C5BD"/>
+  </svg>
+  <p style="left:240px;top:300px;width:600px;text-align:center;font-size:40px;line-height:50px">O que a empresa<br>precisa</p>
+  <p style="left:240px;top:960px;width:600px;text-align:center;font-size:40px;line-height:50px">O que é importante<br>para você</p>
+  <p style="left:290px;top:628px;width:500px;text-align:center;font-size:48px;line-height:56px;color:var(--verde)">Escritório do<br><span class="k" style="color:var(--verde)">Cuidado</span></p>
+  <p class="handle">@fairhealth.br</p>
+</section>
+
+<!-- G7 · faixas empilhadas sobre a janela de agenda (ref. calendário + texto em tarjas) -->
+<section class="slide c" id="el-07-faixas-agenda">
+  <div class="card" style="left:330px;top:150px;width:900px;height:1000px"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <g fill="#D3DBD7"><circle cx="390" cy="212" r="11"/><circle cx="424" cy="212" r="11"/><circle cx="458" cy="212" r="11"/></g>
+    <g stroke="#E1E6E2" stroke-width="2"><path d="M330 430H1080M330 560H1080M330 690H1080M330 820H1080M330 950H1080M520 430V1150M710 430V1150M900 430V1150"/></g>
+  </svg>
+  <p style="left:380px;top:260px;font-size:60px;line-height:68px;font-weight:800;letter-spacing:-0.01em">outubro de 2026</p>
+  <p class="vlogo" style="left:330px;top:380px;width:760px;display:flex;font-size:28px;line-height:34px"><span style="width:190px;text-align:center">dom.</span><span style="width:190px;text-align:center">seg.</span><span style="width:190px;text-align:center">ter.</span><span style="width:190px;text-align:center">qua.</span></p>
+  <p class="vlogo" style="left:330px;top:445px;width:760px;display:flex;font-size:30px;line-height:36px;opacity:.6"><span style="width:180px;text-align:right">28</span><span style="width:190px;text-align:right">29</span><span style="width:190px;text-align:right">30</span><span style="width:190px;text-align:right">1</span></p>
+  <p class="pilula" style="left:722px;top:500px;background:var(--tif);font-size:18px;line-height:22px;padding:8px 14px;letter-spacing:.02em;text-transform:none">Escritório do Cuidado</p>
+  <p class="vlogo" style="left:330px;top:965px;width:760px;display:flex;font-size:30px;line-height:36px"><span style="width:180px;text-align:right">25</span><span style="width:190px;text-align:right">26</span><span style="width:190px;text-align:right">27</span><span style="width:190px;text-align:right">28</span></p>
+  <p class="pilula" style="left:532px;top:1020px;background:var(--tif);font-size:18px;line-height:22px;padding:8px 14px;letter-spacing:.02em;text-transform:none">Conversa · 14h</p>
+  <p class="faixas" style="left:96px;top:600px"><span>Um pouco do que o</span><span>Escritório do Cuidado</span><span>fez em setembro <b>»</b></span></p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i class="on"></i><i></i><i></i></div>
+</section>
+
+<!-- G8 · notificação no celular (criado a partir da janela de app) -->
+<section class="slide v" id="el-08-lembrete">
+  <p class="tit" style="left:96px;top:200px;width:820px">O lembrete que ninguém <span class="k">manda</span>.</p>
+  <div class="card" style="left:128px;top:800px;width:824px;height:60px;background:rgba(240,240,233,.35);border-radius:0 0 36px 36px;box-shadow:none"></div>
+  <div class="card" style="left:96px;top:560px;width:888px;height:250px;background:var(--creme);border-radius:36px;box-shadow:0 24px 48px rgba(0,0,0,.28)"></div>
+  <img src="../../marca/logo-circulo.png" alt="" style="left:136px;top:600px;width:76px;height:76px">
+  <p style="left:236px;top:606px;font-size:26px;line-height:32px;font-weight:800;color:var(--verde)">Escritório do Cuidado</p>
+  <p class="vlogo" style="right:136px;top:606px;font-size:24px;line-height:32px">agora</p>
+  <p style="left:236px;top:650px;width:700px;font-size:34px;line-height:44px;color:var(--verde)">Sua conversa é hoje, às 14h. O que é importante para você?</p>
+  <p class="corpo tclaro" style="left:96px;top:940px;width:820px">Cuidar também é ter hora marcada, no meio da semana de trabalho.</p>
+  <p class="handle">@fairhealth.br</p>
+</section>
+
+<!-- G9 · título em escala mista e linha de respiração (ref. The power of your breath) -->
+<section class="slide c" id="el-09-pausa">
+  <p style="left:96px;top:110px;font-size:66px;line-height:72px;font-weight:800;letter-spacing:.06em">O PODER<br>DA SUA</p>
+  <p style="left:84px;top:270px;font-size:250px;line-height:200px;font-weight:800;letter-spacing:-0.03em">PAUSA</p>
+  <p style="left:96px;top:520px;width:420px;font-size:32px;line-height:42px">Dois minutos entre uma reunião e outra já mudam o resto do dia.</p>
+  <p class="rot vlogo" style="left:96px;top:690px;font-size:20px;line-height:28px">Escritório do Cuidado<br>dentro da sua empresa</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <path d="M-20 1100H180C300 1100 300 860 420 860H600C750 860 760 1100 920 1100H1100" fill="none" stroke="#96C5BD" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <p class="vlogo" style="left:110px;top:965px;font-size:24px;line-height:30px">inspire · 4 s</p>
+  <p class="vlogo" style="left:460px;top:810px;font-size:24px;line-height:30px">segure</p>
+  <p class="vlogo" style="left:800px;top:960px;font-size:24px;line-height:30px">solte · 6 s</p>
+  <p class="handle">@fairhealth.br</p>
+</section>
+
+<!-- G10 · traço único que vira coração (ref. desenho em linha contínua) -->
+<section class="slide v" id="el-10-traco">
+  <p class="tit" style="left:96px;top:160px;width:820px">Cuidado não é um atendimento. É um <span class="k">caminho</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <path d="M-20 1080H540C470 1030 300 940 320 800C335 700 470 680 540 780C610 680 745 700 760 800C780 940 610 1030 540 1080H1100" fill="none" stroke="#96C5BD" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <p class="handle">@fairhealth.br</p>
+</section>
+
+<!-- G11 · forma de quatro pétalas, ícones entre fios e rodapé de ficha (ref. embalagem de suplemento) -->
+<section class="slide c" id="el-11-petalas">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <defs>
+      <linearGradient id="gp" gradientUnits="userSpaceOnUse" x1="520" y1="0" x2="1218" y2="0"><stop offset="0" stop-color="#D6EAE5"/><stop offset=".5" stop-color="#96C5BD"/><stop offset="1" stop-color="#4E9488"/></linearGradient>
+    </defs>
+    <g fill="url(#gp)"><path d="M690 92A170 170 0 0 1 860 262L860 496A26 26 0 0 1 834 522L690 522A170 170 0 0 1 520 352L520 262A170 170 0 0 1 690 92Z"/><path d="M1048 92A170 170 0 0 0 878 262L878 496A26 26 0 0 0 904 522L1048 522A170 170 0 0 0 1218 352L1218 262A170 170 0 0 0 1048 92Z"/><path d="M690 970A170 170 0 0 0 860 800L860 566A26 26 0 0 0 834 540L690 540A170 170 0 0 0 520 710L520 800A170 170 0 0 0 690 970Z"/><path d="M1048 970A170 170 0 0 1 878 800L878 566A26 26 0 0 1 904 540L1048 540A170 170 0 0 1 1218 710L1218 800A170 170 0 0 1 1048 970Z"/></g>
+    <path d="M96 930H984M96 1110H984" stroke="#1F3A36" stroke-width="3"/>
+    <g fill="none" stroke="#1F3A36" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(134 950) scale(1.5)"><path d="M30 6a18 18 0 1 0 12 28A15 15 0 0 1 30 6z"/></g>
+      <g transform="translate(282 950) scale(1.5)"><path d="M24 15c-6-6-16-2-14 10 2 10 8 14 14 12 6 2 12-2 14-12 2-12-8-16-14-10z"/><path d="M24 15c0-4 2-7 6-8"/></g>
+      <g transform="translate(430 950) scale(1.5)"><path d="M4 26h9l4-10 7 20 5-14 3 4h12"/></g>
+      <g transform="translate(578 950) scale(1.5)"><path d="M6 18c6-6 12 6 18 0s12 6 18 0"/><path d="M6 30c6-6 12 6 18 0s12 6 18 0"/></g>
+      <g transform="translate(726 950) scale(1.5)"><circle cx="17" cy="16" r="5"/><circle cx="31" cy="16" r="5"/><path d="M8 38c0-7 4-11 9-11s9 4 9 11"/><path d="M22 38c0-7 4-11 9-11s9 4 9 11"/></g>
+      <g transform="translate(874 950) scale(1.5)"><circle cx="24" cy="24" r="16"/><path d="M13 13l22 22"/></g>
+    </g>
+  </svg>
+  <p style="left:96px;top:330px;width:700px;font-size:96px;line-height:100px;letter-spacing:-0.02em">Mente, corpo, rotina e <span class="k">relações</span>.</p>
+  <p style="left:96px;top:760px;width:560px;font-size:32px;line-height:42px">A Medicina do Estilo de Vida olha para tudo isso junto.</p>
+  <div style="left:96px;top:1030px;width:888px;display:flex;font-size:19px;line-height:24px;font-weight:800;text-align:center">
+    <span style="width:148px">Sono</span><span style="width:148px">Alimentação</span><span style="width:148px">Atividade<br>física</span><span style="width:148px">Estresse</span><span style="width:148px">Relações</span><span style="width:148px">Substâncias</span>
+  </div>
+  <div style="left:96px;top:1136px;width:888px;display:flex;justify-content:space-between;font-size:22px;line-height:28px">
+    <span style="font-weight:800">6 PILARES</span><span style="font-weight:800;text-align:center">MEDICINA DO<br>ESTILO DE VIDA</span><span style="text-align:right">Dentro da<br>sua empresa</span>
+  </div>
+  <p class="handle">@fairhealth.br</p>
+</section>
+
+<!-- G12 · fio contínuo atravessando o carrossel (ref. fita que dá um laço) -->
+<section class="slide v" id="el-12-fio-1">
+  <p class="rot" style="left:96px;top:96px">Como funciona · 1/3</p>
+  <p class="tit" style="left:96px;top:250px;width:888px;font-size:88px;line-height:96px">A gente <span class="k">te conhece</span>.</p>
+  <p class="corpo tclaro" style="left:96px;top:480px;width:760px">Uma conversa sobre sua rotina, seus hábitos e sua saúde.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><use href="#fita"/></svg>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i class="on"></i><i></i><i></i></div>
+</section>
+<section class="slide v" id="el-12-fio-2">
+  <p class="rot" style="left:96px;top:96px">Como funciona · 2/3</p>
+  <p class="tit" style="left:96px;top:250px;width:888px;font-size:88px;line-height:96px">E pergunta: o que é <span class="k">importante</span> para você?</p>
+  <svg class="cheia" viewBox="1080 0 1080 1350" aria-hidden="true"><use href="#fita"/></svg>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i class="on"></i><i></i></div>
+</section>
+<section class="slide v" id="el-12-fio-3">
+  <p class="rot" style="left:96px;top:96px">Como funciona · 3/3</p>
+  <p class="tit" style="left:96px;top:250px;width:888px;font-size:88px;line-height:96px">O plano é <span class="k">seu</span>.</p>
+  <p class="corpo tclaro" style="left:96px;top:380px;width:760px">Montado a partir da sua resposta, nos seis pilares.</p>
+  <svg class="cheia" viewBox="2160 0 1080 1350" aria-hidden="true"><use href="#fita"/></svg>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i class="on"></i></div>
+</section>
+
+<!-- G13 · ondas de respiração (ref. círculos concêntricos) -->
+<section class="slide v" id="el-13-respiracao">
+  <p class="rot" style="left:96px;top:96px">Pausa de 1 minuto</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <circle cx="540" cy="640" r="400" fill="#BFE0D9" fill-opacity=".08"/>
+    <circle cx="540" cy="640" r="300" fill="#BFE0D9" fill-opacity=".16"/>
+    <circle cx="540" cy="640" r="200" fill="#96C5BD"/>
+  </svg>
+  <p style="left:340px;top:590px;width:400px;text-align:center;font-size:64px;line-height:64px;color:var(--verde)">inspire</p>
+  <p style="left:340px;top:668px;width:400px;text-align:center;font-size:36px;line-height:40px;font-weight:800;color:var(--verde)">4 s</p>
+  <p style="left:96px;top:1100px;width:888px;text-align:center;font-size:44px;line-height:54px">Inspire em 4, solte em 6.</p>
+  <p class="tclaro" style="left:96px;top:1160px;width:888px;text-align:center;font-size:30px;line-height:40px">Repita cinco vezes.</p>
+  <p class="handle">@fairhealth.br</p>
+</section>
+
+<!-- G14 · cartões espiando nas bordas e pílula na borda (ref. Wellness Week) -->
+<section class="slide t" id="el-14-cartoes">
+  <p class="rot" style="left:0;top:110px;width:1080px;text-align:center">Escritório do Cuidado</p>
+  <p style="left:0;top:160px;width:1080px;text-align:center;font-size:104px;line-height:108px;letter-spacing:-0.02em">Semana do<br><span class="k">Cuidado</span></p>
+  <div style="left:-520px;top:450px;width:630px;height:590px;background:var(--creme);border-radius:56px"></div>
+  <div style="left:970px;top:450px;width:630px;height:590px;background:var(--creme);border-radius:56px"></div>
+  <div style="left:190px;top:450px;width:700px;height:590px;background:var(--creme);border-radius:56px;overflow:hidden">
+    <img src="../../marca/recortes/mulher-sentada.png" alt="" style="position:absolute;left:120px;bottom:0;width:460px">
+  </div>
+  <p class="pilula" style="left:0;top:1004px;width:1080px;text-align:center"><span style="display:inline-block;background:var(--verde);color:var(--creme);font-size:28px;line-height:34px;padding:20px 40px;border-radius:999px">Terça, 14 de outubro</span></p>
+  <p style="left:0;top:1120px;width:1080px;text-align:center;font-size:72px;line-height:80px;font-style:italic">Saúde mental</p>
+  <p class="handle">@fairhealth.br</p>
+</section>
+
+<!-- fita contínua de 3 slides (3240 px de largura), usada pelos três slides do G12 -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <path id="fita" d="M-40 1060C300 1060 600 900 900 880C1200 860 1450 900 1620 980C1800 1060 1900 900 1820 800C1740 700 1560 760 1580 880C1600 1010 1800 1120 2050 1100C2350 1080 2600 960 2900 1000C3050 1020 3150 1080 3300 1100" fill="none" stroke="#96C5BD" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+</defs></svg>
+
+<script>
+// grade de 100: 98 quadrados tiffany e 2 só com contorno verde
+(function(){var s=document.getElementById('grade100'),h='';
+for(var i=0;i<100;i++){var c=i%10,r=Math.floor(i/10),x=96+c*64,y=250+r*64;
+h+= i<98 ? '<rect x="'+x+'" y="'+y+'" width="52" height="52" rx="12" fill="#96C5BD"/>'
+         : '<rect x="'+(x+1.5)+'" y="'+(y+1.5)+'" width="49" height="49" rx="11" fill="none" stroke="#1F3A36" stroke-width="3"/>';}
+s.innerHTML=h;})();
+</script>
+</body></html>

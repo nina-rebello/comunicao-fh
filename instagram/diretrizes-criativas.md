@@ -186,3 +186,27 @@ seção "Luz tiffany" de `marca/identidade-visual-v5.html`.
   "Reel · 25 s" não entra na capa (o Instagram já marca o reel).
 - **Foto do sono:** usar `marca/fotos-banco/sono-limpa.jpg`. A original tem a estampa "DECORATION" no
   lençol, que aparecia no canto do L4.
+
+## Elementos gráficos (11/10)
+
+Vindos das referências de inspiração enviadas em 11/10 e redesenhados na marca (só Raleway; tiffany, verde e
+creme). Exemplos em `posts/exploracoes/elementos-graficos.html` (posts prontos em `posts/exploracoes/png/el-*.png`)
+e na aba "Elementos gráficos" de `marca/identidade-visual-v6.html`.
+
+- **Números:** número em destaque (unidade menor na base), painéis de relatório com % sobrescrito, pessoas
+  em pictograma (dez bonecos para "8 em cada 10") e grade de 100 com quadrados arredondados e rótulo vertical.
+- **Diagramas:** silhuetas em sequência de tom, Venn com legenda em fio, Venn com o encontro cheio em tiffany
+  e ondas de respiração.
+- **Interface:** faixas de texto empilhadas sobre a janela de agenda e notificação de celular.
+- **Traço e forma:** título em escala mista com linha de respiração, traço único que vira coração e as quatro
+  pétalas com ícones entre fios e rodapé de ficha.
+- **Movimento no carrossel:** fio contínuo que atravessa os slides e dá um laço no do meio, e cartões
+  espiando nas bordas com pílula de data sobre a borda.
+- **Regras:** um elemento gráfico principal por post. Círculo só quando carrega informação (Venn, cabeça do
+  pictograma, respiração), nunca como enfeite; isso atualiza a regra "sem círculos decorativos". Degradê só
+  nas pétalas, do tiffany-claro ao tiffany-escuro. Traço com ponta arredondada e espessura fixa (12 px na
+  linha, 48 px na fita, 2,4 px nos ícones). Pessoas em pictograma simples ou foto recortada. Faixas com até
+  três linhas, em caixa alta, verde com texto creme.
+- **Ficou de fora das referências:** fonte de máquina de escrever, serifa com floreio, letra desenhada à mão,
+  amarelo, laranja, roxo e lima, estrela de brilho, mascote com rosto, ilustração de pessoas e o semáforo
+  colorido da janela.
