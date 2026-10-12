@@ -1,5 +1,10 @@
 # Carrossel: O que é a fairhealth
 
+> **v10 (12/10):** na rosca, as legendas ficaram só com a linha, sem as bolinhas na ponta.
+> - **Repositório:** `slides-v10.html` → `png-v10/`.
+> - **No Canva:** as sete linhas foram refeitas como forma vetorial (as importadas como imagem não apareciam).
+>   A página 15 é a cópia de antes e pode ser apagada.
+
 > **Fotos dos pilares (12/10, v9):** fotos novas de sono (homem dormindo) e de estresse (mão no trigo). A foto
 > de relacionamentos foi recortada nas pessoas.
 > - **Repositório:** `slides-v9.html` → `png-v9/`.
