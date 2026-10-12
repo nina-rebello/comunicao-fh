@@ -264,6 +264,24 @@ ROWS = [
   criativo='Modelo M6 (dado com fonte) suave nos slides 4 e 5, M2 nos demais. Números em verde-escuro, sem destaque alarmista.'),
 ]
 
+# Posts já decididos para o Mês 2 (entram no fim da aba Calendário; semana 5 = semana 1 do Mês 2)
+ROWS_M2 = [
+ dict(sem=5, linha=J, arg='Stop Loss', cena=PRO, tema='Ciência: prevenção como investimento', serie='Ciência no cuidado',
+  titulo='Prevenção também é investimento', persona=f'{RH}; {CFO}',
+  nec='Prevenção dá retorno para a empresa ou é só mais um custo?',
+  obj='Mostrar, com estudos externos e a fonte visível, que prevenção também é investimento', formato=FU,
+  porque='A arte já está pronta: é o slide de números que saiu do carrossel "O que é a fairhealth" para ele caber em 10 fotos. Um post só dele dá espaço para explicar cada estudo com calma.',
+  canal=IGLI, collab=FJ,
+  msg='O que os estudos apontam: −28% de absenteísmo (Harvard Business Review, 2022) e −22% de custos com saúde (SHRM, 2023).',
+  fonte='Harvard Business Review (2022); SHRM (2023). Números oficiais desde 25/09 (instagram/voice.md).',
+  valid='Confirmar o que cada estudo mediu (tipo de programa e população) antes de publicar. São estudos externos, nunca resultado da Fair Health. ' + NUM_SUAVE,
+  status='Em revisão',
+  texto='Prevenção também é investimento.\n\nCuidar antes faz bem para as pessoas. E os estudos mostram que também faz diferença para a empresa:\n\n−28% de absenteísmo (Harvard Business Review, 2022)\n−22% de custos com saúde (SHRM, 2023)\n\nSão números de estudos externos, não uma promessa de resultado.\n\nÉ esse o trabalho da fairhealth: medicina preventiva, dentro da empresa, com um plano de cuidado para cada pessoa.\n\nQuer conversar sobre isso na sua empresa? Fale com a gente pelo direct.\n\n#fairhealth #saudecorporativa #medicinapreventiva #absenteismo #gestaodepessoas',
+  roteiro='Foto única 1080x1350, já pronta. Se quisermos explicar melhor cada estudo, vira um carrossel curto: capa, um número por slide com a fonte, fechamento.',
+  criativo='Canva: design "O que é a fairhealth · carrossel v7", página guardada depois do carrossel (luz tiffany, números em tiffany, sem brilho). Repositório: instagram/posts/o-que-e-a-fairhealth/png-v10/d10.png.',
+  coment='Decisão da Nina (12/10): o slide de números saiu do carrossel "O que é a fairhealth" (limite de 10 fotos do Instagram) e vira um post separado.'),
+]
+
 # checagens: 16 no mês, 4 por semana, sem linha repetida em sequência, vídeo intercalado
 assert len(ROWS) == 16
 for k in range(1, len(ROWS)):
@@ -377,7 +395,20 @@ for k, r in enumerate(ROWS):
     for j in range(1, len(COLS) + 1):
         c = ws.cell(row=row, column=j)
         c.font, c.alignment, c.border = NORMAL, WRAP, BORDA
-last = HR + len(ROWS)
+for k, r in enumerate(ROWS_M2):
+    row = HR + 1 + len(ROWS) + k
+    ws.cell(row=row, column=1, value=f'M2-{k + 1:02d}')
+    ws.cell(row=row, column=2, value='Mês 2')
+    ws.cell(row=row, column=3, value=r['sem'])
+    d = ws.cell(row=row, column=4, value=f'=$D$2+(C{row}-1)*7+0')
+    d.number_format = 'DD/MM/YYYY'
+    for j, (_, _, key) in enumerate(COLS, 1):
+        if key:
+            ws.cell(row=row, column=j, value=r.get(key, '') or None)
+    for j in range(1, len(COLS) + 1):
+        c = ws.cell(row=row, column=j)
+        c.font, c.alignment, c.border = NORMAL, WRAP, BORDA
+last = HR + len(ROWS) + len(ROWS_M2)
 ultima_col = get_column_letter(len(COLS))
 ws.freeze_panes = f'{COLUNA["Persona"]}5'
 ws.auto_filter.ref = f'A{HR}:{ultima_col}{last + 60}'
@@ -617,7 +648,7 @@ tabela(wfo, 1, 'Fontes internas, o artigo e o que não usar (nomes de clientes s
     ('Hospital onde o modelo começou, 2025 (uso interno: Hospital Dia Santo Amaro)', 'Reclamações mensais de 34 para cerca de 20 (cerca de 40% a menos); conformidade média de 98,2%; apresentado em congresso internacional.',
      'História de origem e prova do modelo, sem o nome do hospital.', 'Liberado (instagram/voice.md).', 'Banco de ideias'),
     ('Harvard Business Review (2022) e SHRM (2023)', '−28% de absenteísmo (HBR 2022); −22% de custos com saúde (SHRM 2023).',
-     'Argumento de retorno, sempre com a fonte. Fica para o mês de Stop Loss.', 'Liberado (instagram/voice.md).', 'Banco de ideias'),
+     'Argumento de retorno, sempre com a fonte. Post próprio em 16/11 (saiu do carrossel "O que é a fairhealth").', 'Liberado (instagram/voice.md). Falta confirmar o que cada estudo mediu.', 'M2-01'),
     ('ACLM e CBMEV', 'Definição de Medicina do Estilo de Vida e seus 6 pilares: alimentação, atividade física, sono, manejo do estresse, relacionamentos e evitar substâncias de risco.', 'Base do explicador de MEV.', 'Responsável médica confere. Espiritualidade fora (a confirmar).', 'M1-05'),
     ('Não usar', '"23% mais caro", "R$ 2.400 por colaborador", "maior índice de burnout" (sem fonte no posicionamento); −27%, "R$ 2,70 por R$ 1" e "70% dos custos do plano"; "validado no SUS" até confirmar.',
      '—', 'Bloqueado até ter fonte.', '—'),
@@ -650,7 +681,7 @@ tabela(wb_, 1, 'Banco de ideias: o que ficou para depois e os próximos meses',
      '6 pilares, sem espiritualidade (a confirmar). Sono já entra no Mês 1.', 'Um pilar por mês'),
     ('Histórias com personagens fictícias (um dia na rotina de quem é cuidado)', 'Decisão de 09/10', 'Ideia', 'Sempre sinalizadas como ilustrativas.', 'Todo mês, 1 peça'),
     ('Case do hospital onde o modelo começou (sem o nome)', 'voice.md (liberado)', 'Ideia', 'Prova da origem do modelo.', 'Mês de Stop Loss ou de prova'),
-    ('Indicadores para o RH (HBR 2022, SHRM 2023)', 'voice.md (liberado)', 'Ideia', 'Argumento de retorno, um indicador por vez.', 'Mês de Stop Loss'),
+    ('Indicadores para o RH (HBR 2022, SHRM 2023)', 'voice.md (liberado)', 'Pauta proposta', 'Virou o post M2-01 "Prevenção também é investimento" (arte pronta, saiu do carrossel "O que é a fairhealth" em 12/10).', 'Mês 2, semana 1 (M2-01)'),
 ])
 
 # ---------- Linhas e personas ----------
@@ -690,6 +721,7 @@ pend = [
     ('Fonte de "validado no SUS" e datas da história de origem.', 'Time Fair Health', 'M1-11', 'Aberta'),
     ('Indicadores que entram no relatório do RH (fairdata).', 'Time Fair Health + fairdata', 'M1-07', 'Aberta'),
     ('Collab no Instagram e LinkedIn pela FairJob: quem publica, quem aceita o convite.', 'Comunicação + FairJob', 'Todas as pautas', 'Aberta'),
+    ('O que mediram os estudos de −28% de absenteísmo (Harvard Business Review, 2022) e −22% de custos com saúde (SHRM, 2023): tipo de programa e população.', 'Comunicação + responsável médica', 'M2-01', 'Aberta'),
     ('Destino do link e da chamada CUIDADO (www.fairhealth.com.br) e quem responde comentários e DMs.', 'Comunicação', 'M1-06, M1-15', 'Aberta'),
     ('Texto, prazos e obrigações da NR-1 com fonte oficial; aprovação da posição [SUGESTÃO] 1 do voice.md.', 'Responsável médica + sócios', 'Banco de ideias (checklist NR-1)', 'Aberta'),
     ('Fontes dos números do posicionamento (23%, R$ 2.400, burnout).', 'Sócios', 'Fontes', 'Aberta'),
