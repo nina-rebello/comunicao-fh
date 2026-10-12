@@ -1,5 +1,10 @@
 # Carrossel: O que é a fairhealth
 
+> **Fotos dos pilares (12/10, v9):** fotos novas de sono (homem dormindo) e de estresse (mão no trigo). A foto
+> de relacionamentos foi recortada nas pessoas.
+> - **Repositório:** `slides-v9.html` → `png-v9/`.
+> - **No Canva:** a página 5 está atualizada. A página 14 é a cópia com as fotos da v8 e pode ser apagada.
+
 > **Fotos dos pilares (12/10, v8):** a Nina mandou novas fotos para cinco pilares: figos, corrida, parque,
 > pássaros e mãos. Sono e estresse ficaram como estavam.
 > - **Repositório:** `slides-v8.html` → `png-v8/`.
