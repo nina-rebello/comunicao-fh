@@ -138,8 +138,8 @@ fontes = ''.join('@font-face{font-family:Raleway;font-weight:%s;font-style:%s;sr
                  for p in ('400', '800') for e in ('normal', 'italic'))
 open(SAIDA, 'w').write('''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O que é a fairhealth (carrossel v7, para o Canva)</title><style>
 %s*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Raleway,sans-serif;background:#888;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
-.slide{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:Raleway,sans-serif;font-variant-numeric:lining-nums}
+body{font-family:Raleway,sans-serif;background:#ccc}
+.slide{width:1080px;min-width:1080px;height:1350px;flex:none;position:relative;overflow:hidden;font-family:Raleway,sans-serif;font-variant-numeric:lining-nums}
 .slide>*{position:absolute}
 </style></head><body>
 %s
