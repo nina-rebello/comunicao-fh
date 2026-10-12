@@ -42,4 +42,6 @@ A origem e a licença dessas fotos ainda precisam ser confirmadas antes de publi
 | relacionamentos-parque.jpg | Relacionamentos |
 | vicios-passaros.jpg | Manejo de vícios |
 | espiritualidade-maos.jpg | Espiritualidade e propósito |
-
+| sono-homem.jpg (e `-recorte`, no rosto) | Sono de qualidade (v9) |
+| estresse-trigo.jpg (e `-recorte`, na mão) | Gerenciamento de estresse (v9) |
+| relacionamentos-parque-recorte.jpg | Relacionamentos, recortado nas pessoas (v9) |
