@@ -1,9 +1,18 @@
 # Carrossel: O que é a fairhealth
 
-> **Versão atual: v2 (11/10).** Texto em `texto.md`; arte em `slides-v2.html` → `png-v2/v01.png` …
+> **Versão atual: v3 (12/10).** Texto em `texto.md` (o da v2 ficou em `texto-v2.md`); arte em `slides-v3.html`
+> → `png-v3/w01.png` … `w11.png`, nesta ordem (prévia: `previa-v3.jpg`). Para regerar:
+> `node instagram/ferramentas/render.mjs instagram/posts/o-que-e-a-fairhealth/slides-v3.html instagram/posts/o-que-e-a-fairhealth/png-v3`
+>
+> **Por que a v3:** a Nina preferiu o estilo da v1, mais organizado e menos poluído, e pediu só informação dos
+> dois documentos de 11/10 (one-pager e posicionamento v3.2), sem o "8 em cada 10". A v3 usa o CSS da v1:
+> fundos verde, creme e tiffany alternados, listas com fios, passos numerados, pilares em duas colunas e
+> números em destaque com a fonte. A origem de cada slide está no roteiro de `texto.md`.
+
+> **v2 (11/10), guardada.** Texto em `texto-v2.md`; arte em `slides-v2.html` → `png-v2/v01.png` …
 > `v10.png`, nesta ordem (prévia: `previa-v2.jpg`). Para regerar:
 > `node instagram/ferramentas/render.mjs instagram/posts/o-que-e-a-fairhealth/slides-v2.html instagram/posts/o-que-e-a-fairhealth/png-v2`
-> A legenda da v2 está em `texto.md`. O conteúdo abaixo é da v1 (9 slides), guardada.
+> A legenda da v2 está em `texto-v2.md`. O conteúdo abaixo é da v1 (9 slides), guardada.
 >
 > **Elementos da v2:** trilha das três perguntas no topo de cada slide, empresa desenhada com o cuidado lá
 > dentro (2), linha do tempo "a fairhealth entra aqui / o plano de saúde entra aqui" (3), os seis pilares em

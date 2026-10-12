@@ -1,0 +1,193 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel v3: O que é a fairhealth</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
+@font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--tif:#96C5BD;--verde:#1F3A36;--creme:#F0F0E9;--tclaro:#BFE0D9;--tesc:#5FA89A;--vlogo:#2F6B64}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#888;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;font-variant-numeric:lining-nums}
+.slide>*{position:absolute}
+.v{background:var(--verde);color:var(--creme)}
+.c{background:var(--creme);color:var(--verde)}
+.t{background:var(--tif);color:var(--verde)}
+.k{font-weight:800;font-style:italic}
+.v .k{color:var(--tif)}
+.rot{left:96px;top:96px;font-size:22px;line-height:28px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.v .rot{color:var(--tif)} .c .rot{color:var(--vlogo)}
+.disp{font-size:112px;line-height:112px;letter-spacing:-0.015em}
+.tit{font-size:72px;line-height:80px;letter-spacing:-0.01em}
+.sub{font-size:40px;line-height:52px}
+.corpo{font-size:36px;line-height:48px}
+.nota{font-size:24px;line-height:32px;opacity:.85}
+.tclaro{color:var(--tclaro)}
+.handle{left:96px;top:1238px;font-size:24px;line-height:32px}
+.v .handle{color:var(--tclaro)}
+.arr{right:96px;top:1238px;font-size:24px;line-height:32px;color:var(--tclaro)}
+.pag{right:96px;top:1248px;display:flex;gap:8px}
+.pag i{display:block;width:20px;height:12px;border-radius:6px}
+.pag i.on{width:48px}
+.v .pag i{background:rgba(191,224,217,.3)} .v .pag i.on{background:var(--tif)}
+.c .pag i{background:var(--tif)} .c .pag i.on{background:var(--verde)}
+.t .pag i{background:var(--creme)} .t .pag i.on{background:var(--verde)}
+svg.cheia{left:0;top:0;width:1080px;height:1350px}
+.chip{display:inline-block;background:var(--tif);color:var(--verde);border-radius:8px;padding:14px 26px;font-size:30px;line-height:36px;margin:0 14px 14px 0}
+/* lista com fios de laudo */
+.lista{left:96px;width:888px}
+.lista p{font-size:36px;line-height:46px;padding:26px 0;border-top:2px solid rgba(31,58,54,.28)}
+.lista p:last-child{border-bottom:2px solid rgba(31,58,54,.28)}
+.lista b{font-weight:800}
+/* método */
+.passos{left:96px;width:888px}
+.passos .passo{position:static;left:auto}
+.passos .passo:last-child{border-bottom:2px solid rgba(31,58,54,.28)}
+.passo{left:96px;width:888px;display:grid;grid-template-columns:72px 1fr;column-gap:24px;padding:28px 0;border-top:2px solid rgba(31,58,54,.28)}
+.passo .n{font-size:24px;line-height:56px;font-weight:800;letter-spacing:.16em;color:var(--vlogo);grid-row:span 2}
+.passo .w{font-size:52px;line-height:56px;font-weight:800;letter-spacing:-0.01em}
+.passo .d{font-size:32px;line-height:42px;margin-top:6px}
+.pilula{border-radius:999px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.num{font-weight:800;letter-spacing:-0.05em;line-height:.78;white-space:nowrap}
+.num .u2{letter-spacing:-0.02em;margin-left:18px}
+
+.cols{left:96px;width:888px;display:grid;grid-template-columns:1fr 1fr;column-gap:48px}
+.cols p{font-size:34px;line-height:44px;padding:24px 0;border-top:2px solid rgba(31,58,54,.28)}
+.cols p:nth-last-child(-n+2){border-bottom:2px solid rgba(31,58,54,.28)}
+.dado{left:96px;width:888px;display:flex;align-items:center;gap:40px;padding:36px 0;border-top:2px solid rgba(191,224,217,.3)}
+.dado .n{font-size:150px;line-height:130px;font-weight:800;letter-spacing:-0.04em;color:var(--tif);width:400px;flex:none}
+.dado .l{font-size:40px;line-height:50px}
+.dado .f{display:block;font-size:22px;line-height:30px;color:var(--tclaro);opacity:.85;margin-top:8px}
+.v .lista p{border-color:rgba(191,224,217,.3)}
+</style></head><body>
+
+<!-- 1 · capa (verde) -->
+<section class="slide v" id="w01">
+  <p class="rot">Quem somos</p>
+  <p class="disp" style="left:96px;top:420px;width:900px">O que é a <span class="k">fairhealth</span>?</p>
+  <p class="sub tclaro" style="left:96px;top:690px;width:820px">O que somos, o que fazemos e o que oferecemos.</p>
+  <p class="handle">@fairhealth.br</p>
+  <p class="arr">Arraste para o lado →</p>
+</section>
+
+<!-- 2 · creme: o que é (posicionamento 3.1 e 3.7; one-pager, proposta de valor) -->
+<section class="slide c" id="w02">
+  <p class="rot">O que é</p>
+  <p class="tit" style="left:96px;top:300px;width:888px">Medicina preventiva <span class="k">dentro da empresa</span>.</p>
+  <p class="corpo" style="left:96px;top:560px;width:840px">A fairhealth é a solução de cuidado do ecossistema fairjob: atendimento individualizado, com tecnologia e acompanhamento contínuo, para melhorar a qualidade de vida dos colaboradores.</p>
+  <p style="left:96px;top:940px;width:888px"><span class="chip">Prevenção</span><span class="chip">Medicina do Estilo de Vida</span><span class="chip">Cuidado centrado na pessoa</span></p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 3 · tiffany: cuidar antes (posicionamento: o que nos diferencia, diferenciais e tom de voz) -->
+<section class="slide t" id="w03">
+  <p class="rot" style="color:var(--verde)">O que é</p>
+  <p class="tit" style="left:96px;top:220px;width:888px">Cuidar <span class="k">antes</span>.</p>
+  <div class="lista" style="top:380px">
+    <p><b>O plano de saúde tradicional</b> trata a doença depois que ela aparece.</p>
+    <p><b>A fairhealth</b> atua antes, na prevenção, com um programa dentro da empresa.</p>
+    <p><b>Não é um benefício.</b> É uma infraestrutura de cuidado contínuo, não um programa pontual.</p>
+  </div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 4 · creme: a base (one-pager, Programa MEV e os seis pilares) -->
+<section class="slide c" id="w04">
+  <p class="rot">O que é</p>
+  <p class="tit" style="left:96px;top:220px;width:888px">A base é a <span class="k">Medicina do Estilo de Vida</span>.</p>
+  <p class="corpo" style="left:96px;top:420px;width:860px">Uma abordagem baseada em evidências para prevenir e tratar doenças crônicas por meio de mudanças no estilo de vida.</p>
+  <div class="cols" style="top:650px">
+    <p>Alimentação saudável</p><p>Movimento</p>
+    <p>Gerenciamento de estresse</p><p>Sono de qualidade</p>
+    <p>Manejo de vícios</p><p>Relacionamentos</p>
+  </div>
+  <p class="nota" style="left:96px;top:1010px;width:888px;color:var(--vlogo)">Os seis pilares da Medicina do Estilo de Vida.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 5 · verde: o que fazemos (one-pager: Escritório do Cuidado e plantões alternados; posicionamento 3.3) -->
+<section class="slide v" id="w05">
+  <p class="rot">O que fazemos</p>
+  <p class="tit" style="left:96px;top:300px;width:888px">Médicos e psicólogos <span class="k">dentro da empresa</span>.</p>
+  <p class="corpo tclaro" style="left:96px;top:560px;width:840px">Atendimento presencial, em plantões alternados. Diferente das soluções só digitais, o cuidado acontece perto de quem trabalha, e isso aumenta o engajamento.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 6 · creme: o plano (one-pager: anamnese e medições, plano de cuidado individualizado; bordão do posicionamento 3.7) -->
+<section class="slide c" id="w06">
+  <p class="rot">O que fazemos</p>
+  <p class="tit" style="left:96px;top:220px;width:888px">Cada pessoa recebe um <span class="k">plano de cuidado</span>.</p>
+  <div class="passos" style="top:440px">
+    <div class="passo" style="padding:30px 0"><span class="n">01</span><span class="w">Escuta</span><span class="d">“O que é importante para você?”</span></div>
+    <div class="passo" style="padding:30px 0"><span class="n">02</span><span class="w">Anamnese e medições</span><span class="d">Coleta de dados com instrumentos digitais.</span></div>
+    <div class="passo" style="padding:30px 0"><span class="n">03</span><span class="w">Plano individualizado</span><span class="d">Plano de ação personalizado e encaminhamento clínico.</span></div>
+    <div class="passo" style="padding:30px 0"><span class="n">04</span><span class="w">Acompanhamento</span><span class="d">Contínuo, com médicos e psicólogos.</span></div>
+  </div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 7 · tiffany: as quatro frentes (one-pager, saúde e tecnologia; posicionamento 3.0 e 3.4) -->
+<section class="slide t" id="w07">
+  <p class="rot" style="color:var(--verde)">O que oferecemos</p>
+  <p class="tit" style="left:96px;top:220px;width:888px">Quatro frentes,<br><span class="k">um cuidado só</span>.</p>
+  <div class="lista" style="top:440px">
+    <p><b>Escritório do Cuidado:</b> atendimento médico e psicológico presencial.</p>
+    <p><b>Programa de Medicina do Estilo de Vida:</b> letramento e sensibilização.</p>
+    <p><b>Plataforma digital:</b> prontuário, histórico e metas.</p>
+    <p><b>Wearables:</b> monitoramento remoto contínuo e bioimpedância.</p>
+  </div>
+  <p style="left:96px;top:1110px;width:888px;font-size:26px;line-height:34px">O Programa e o Escritório rendem mais juntos: um dá a base, o outro garante o acompanhamento.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 8 · creme: para a empresa (one-pager: NR-1 e resultados; posicionamento 3.1 e subpromessas) -->
+<section class="slide c" id="w08">
+  <p class="rot">O que oferecemos</p>
+  <p class="tit" style="left:96px;top:220px;width:888px">E para a <span class="k">empresa</span>?</p>
+  <div class="lista" style="top:400px">
+    <p><b>Prevenção de riscos psicossociais</b>, com programa e plataforma de indicadores (NR-1).</p>
+    <p><b>Qualidade de vida, engajamento</b> e clima organizacional.</p>
+    <p><b>Retenção de talentos</b> e uma marca empregadora mais forte.</p>
+  </div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 9 · verde: por que prevenir (one-pager: −28% e −22%, com as fontes) -->
+<section class="slide v" id="w09">
+  <p class="rot">Por que prevenir</p>
+  <p class="tit" style="left:96px;top:220px;width:888px">Prevenção também é <span class="k">investimento</span>.</p>
+  <p class="corpo tclaro" style="left:96px;top:420px;width:888px">O que os estudos apontam:</p>
+  <div class="dado" style="top:520px"><span class="n">−28%</span><span class="l">de absenteísmo<span class="f">Harvard Business Review, 2022</span></span></div>
+  <div class="dado" style="top:760px;border-bottom:2px solid rgba(191,224,217,.3)"><span class="n">−22%</span><span class="l">de custos com saúde<span class="f">SHRM, 2023</span></span></div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div>
+</section>
+
+<!-- 10 · tiffany: como começar (one-pager, "Vem com a gente!") -->
+<section class="slide t" id="w10">
+  <p class="rot" style="color:var(--verde)">Vem com a gente</p>
+  <p class="tit" style="left:96px;top:220px;width:888px">Como <span class="k">começar</span>.</p>
+  <div class="passos" style="top:420px">
+    <div class="passo" style="padding:34px 0"><span class="n" style="color:var(--verde)">01</span><span class="w">Diagnóstico gratuito</span><span class="d">Uma reunião para mapear as necessidades da sua empresa.</span></div>
+    <div class="passo" style="padding:34px 0"><span class="n" style="color:var(--verde)">02</span><span class="w">Proposta personalizada</span><span class="d">Um programa sob medida para o seu time.</span></div>
+    <div class="passo" style="padding:34px 0"><span class="n" style="color:var(--verde)">03</span><span class="w">Implementação</span><span class="d">Onboarding e primeiros atendimentos.</span></div>
+  </div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i></div>
+</section>
+
+<!-- 11 · creme: assinatura, logo e convite -->
+<section class="slide c" id="w11">
+  <img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:460px;top:300px;width:160px;height:160px">
+  <p class="tit" style="left:96px;top:560px;width:888px;text-align:center">Fazemos o certo pelos <span class="k">motivos certos</span>.</p>
+  <p class="corpo" style="left:146px;top:830px;width:788px;text-align:center">Quer levar esse cuidado para a sua empresa? Fale com a gente pelo direct.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i></div>
+</section>
+
+</body></html>

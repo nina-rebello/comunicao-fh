@@ -1,105 +1,119 @@
-# O que é a fairhealth: texto (v2, 11/10)
+# O que é a fairhealth: texto (v3, 12/10)
 
-**Arte:** `slides-v2.html` → `png-v2/v01.png` … `v10.png` (prévia em `previa-v2.jpg`).
+**Arte:** `slides-v3.html` → `png-v3/w01.png` … `w11.png` (prévia em `previa-v3.jpg`). O texto da v2 está
+guardado em `texto-v2.md`.
 
-Texto antes da arte. Fontes: one-pager "Saúde e Bem-Estar para sua empresa baseado na Medicina do Estilo de
-Vida" e o documento de posicionamento da fairhealth (v3.2), ambos enviados pela Nina em 11/10 (os originais
-não entram no repositório). Regras de `voice.md`: sem nomes, sem promessa de resultado, números com fonte.
+**O que mudou da v2 para a v3 (pedido da Nina, 12/10):**
+
+- Volta o estilo da v1, mais organizado e menos poluído.
+- Sai o "8 em cada 10".
+- Todo o texto vem só dos dois documentos enviados em 11/10:
+  - o one-pager "Saúde e Bem-Estar para sua empresa baseado na Medicina do Estilo de Vida";
+  - o documento de posicionamento da fairhealth (v3.2).
+
+Os originais não entram no repositório. Regras de `voice.md`: sem nomes, sem promessa de resultado, números
+com fonte.
 
 ## A mensagem central
 
-A fairhealth leva o cuidado com a saúde para dentro da empresa, para cuidar das pessoas antes que o
-adoecimento vire afastamento.
+A fairhealth é medicina preventiva dentro da empresa: cuida das pessoas antes, com um plano para cada uma e
+acompanhamento contínuo.
 
 ## 1. O que é a fairhealth
 
-**Em uma frase:** a fairhealth é uma empresa de medicina preventiva que cuida da saúde das pessoas dentro da
-empresa onde elas trabalham.
+**Em uma frase:** a solução de cuidado do ecossistema fairjob. Medicina preventiva que atua dentro da
+empresa, com atendimento individualizado, tecnologia e acompanhamento contínuo, para melhorar a qualidade de
+vida dos colaboradores.
 
 **Para ir mais fundo:**
 
-- **Preventiva quer dizer cuidar antes.** Antes do diagnóstico, antes do atestado, antes do afastamento.
-  O plano de saúde entra quando a doença já apareceu. A gente entra antes.
-- **A base é a Medicina do Estilo de Vida.** Uma área da medicina, com evidência científica, que usa a
-  mudança de hábitos para prevenir e tratar doenças crônicas. Ela olha para seis pilares: alimentação,
-  movimento, sono, estresse, relacionamentos e vícios.
-- **Somos a parte de saúde do ecossistema fairjob.** No grupo, a fairhealth é o cuidar.
-- **De onde veio (opcional):** o modelo nasceu num hospital, como Escritório do Paciente, para colocar o
-  paciente no centro do cuidado. Depois veio para as empresas, como Escritório do Cuidado.
+- **Cuidar antes.** O plano de saúde tradicional trata a doença depois que ela aparece. A fairhealth atua
+  antes, na prevenção, com um programa dentro da empresa. Não é um benefício: é uma infraestrutura de cuidado
+  contínuo, não um programa pontual.
+- **A base é a Medicina do Estilo de Vida.** Uma abordagem baseada em evidências para prevenir e tratar
+  doenças crônicas por meio de mudanças no estilo de vida. Seis pilares: alimentação saudável, movimento,
+  gerenciamento de estresse, sono de qualidade, manejo de vícios e relacionamentos.
 
 ## 2. O que fazemos
 
-**Em uma frase:** levamos médicos e psicólogos para dentro da empresa. Cada pessoa é ouvida, avaliada e
-recebe um plano de cuidado feito para a rotina dela. Depois, a gente acompanha e ajusta.
+**Em uma frase:** levamos médicos e psicólogos para dentro da empresa, em plantões alternados, e cada pessoa
+recebe um plano de cuidado.
 
-**Passo a passo:**
+**Passo a passo (one-pager):**
 
-1. **Ouvimos.** O atendimento começa com uma pergunta: "O que é importante para você?".
-2. **Avaliamos.** Uma conversa sobre hábitos e medições com instrumentos digitais (one-pager: "Anamnese e
-   Medições").
-3. **Planejamos.** Um Plano Individualizado de Cuidado, com ações nos seis pilares e encaminhamento quando
-   é preciso.
-4. **Acompanhamos.** Retornos, ajustes no plano e médicos e psicólogos que se revezam no espaço.
+1. **Escuta:** "O que é importante para você?"
+2. **Anamnese e medições:** coleta de dados com instrumentos digitais.
+3. **Plano individualizado:** plano de ação personalizado e encaminhamento clínico.
+4. **Acompanhamento:** contínuo, com médicos e psicólogos.
 
-**Por que dentro da empresa:** porque a maior barreira do cuidado é tempo e acesso. Quando o cuidado está a
-poucos passos, as pessoas usam. Numa indústria que atendemos, 8 em cada 10 pessoas voltaram para mais de um
-atendimento.
+**Por que presencial:** diferente das soluções só digitais, o cuidado acontece perto de quem trabalha, e isso
+aumenta o engajamento (posicionamento, diferenciais).
 
 ## 3. O que oferecemos
 
-**Em uma frase:** quatro frentes que funcionam juntas: o Escritório do Cuidado, o Programa de Medicina do
-Estilo de Vida, uma plataforma digital e wearables.
+**Em uma frase:** quatro frentes que funcionam juntas.
 
-| Frente | O que é, em palavras simples |
+| Frente | O que é (palavras do one-pager) |
 | --- | --- |
-| **Escritório do Cuidado** | Atendimento médico e psicológico presencial, dentro da empresa, com plantões alternados. |
-| **Programa de Medicina do Estilo de Vida** | Letramento e sensibilização nos seis pilares. |
+| **Escritório do Cuidado** | Atendimento médico e psicológico presencial. |
+| **Programa de Medicina do Estilo de Vida** | Letramento e sensibilização. |
 | **Plataforma digital** | Prontuário, histórico e metas. |
 | **Wearables** | Monitoramento remoto contínuo e bioimpedância. |
 
-As quatro linhas usam só as palavras do one-pager (revisão de 11/10, depois da pergunta da Nina sobre a
-origem de cada frase).
+**Como as frentes se somam:** o Programa e o Escritório rendem mais juntos. Um dá a base, o outro garante o
+acompanhamento (posicionamento, por que acreditar).
 
-**Como as frentes se somam:** o Programa dá a base e as ferramentas. O Escritório garante o acompanhamento,
-pessoa a pessoa. É quando os dois andam juntos que o cuidado vira hábito.
+**Para a empresa:**
 
-**Para a empresa:** relatórios do grupo, sem identificar ninguém, para o RH decidir com evidência. Apoio na
-prevenção de riscos psicossociais (NR-1). E um cuidado concreto, que vai além dos benefícios tradicionais.
+- prevenção de riscos psicossociais, com programa e plataforma de indicadores (NR-1);
+- qualidade de vida, engajamento e clima organizacional;
+- retenção de talentos e marca empregadora mais forte.
 
-## Roteiro do carrossel (10 slides)
+**Por que prevenir:** dois números de estudos externos, sempre com a fonte. São os números oficiais desde
+25/09 (ver `voice.md`):
 
-| # | Pergunta | Título (palavra-chave em destaque) | Apoio |
-| --- | --- | --- | --- |
-| 1 | Capa | O que é a *fairhealth*? | O que somos, o que fazemos e o que oferecemos, em poucas palavras. |
-| 2 | O que é | A fairhealth cuida da saúde das pessoas *dentro da empresa*. | Somos uma empresa de medicina preventiva. No ecossistema fairjob, somos o cuidar. |
-| 3 | O que é (mais fundo) | Preventiva quer dizer cuidar *antes*. | Antes do diagnóstico, antes do atestado, antes do afastamento. O plano de saúde entra quando a doença já apareceu. A gente entra antes. |
-| 4 | O que é (mais fundo) | A base é a *Medicina do Estilo de Vida*. | Uma área da medicina, com evidência científica, que usa a mudança de hábitos para prevenir e tratar doenças crônicas. Seis pilares, com os nomes do one-pager: alimentação saudável, movimento, gerenciamento de estresse, sono de qualidade, manejo de vícios e relacionamentos. |
-| 5 | O que fazemos | Levamos médicos e psicólogos *para perto*. | Eles atendem dentro da empresa, em plantões que se revezam. Sem deslocamento, sem fila. |
-| 6 | O que fazemos (passo a passo) | Cada pessoa recebe um *plano só dela*. | Ouvimos ("O que é importante para você?") · Avaliamos (conversa e medições com instrumentos digitais) · Planejamos (Plano Individualizado de Cuidado, com encaminhamento quando é preciso) · Acompanhamos (retornos e ajustes). |
-| 7 | O que fazemos (por quê) | Quando o cuidado está perto, *ele é usado*. | Numa indústria que atendemos, 8 em cada 10 pessoas voltaram para mais de um atendimento. Fonte: Escritório do Cuidado, 1º sem. 2026. |
-| 8 | O que oferecemos | Quatro frentes, *um cuidado só*. | Escritório do Cuidado · Programa de Medicina do Estilo de Vida · Plataforma digital · Wearables (uma linha de explicação para cada). |
-| 9 | O que oferecemos (empresa) | E para a *empresa*? | Relatórios do grupo, sem identificar ninguém, para o RH decidir com evidência. Apoio na prevenção de riscos psicossociais (NR-1). Um cuidado concreto, que vai além dos benefícios tradicionais. |
-| 10 | Fechamento | Fazemos o certo pelos *motivos certos*. | Quer o Escritório do Cuidado na sua empresa? Fale com a gente pelo direct. (logo) |
+- −28% de absenteísmo (Harvard Business Review, 2022);
+- −22% de custos com saúde (SHRM, 2023).
 
-A ponte com o post anterior entra no slide 8: o Escritório do Cuidado, que apareceu no último post, é uma das
-quatro frentes.
+**Como começar:**
+
+1. Diagnóstico gratuito.
+2. Proposta personalizada.
+3. Implementação.
+
+## Roteiro do carrossel (11 slides)
+
+| # | Fundo | Rótulo | Título (palavra-chave em destaque) | Apoio | De onde vem |
+| --- | --- | --- | --- | --- | --- |
+| 1 | verde | Quem somos | O que é a *fairhealth*? | O que somos, o que fazemos e o que oferecemos. | Pauta do post |
+| 2 | creme | O que é | Medicina preventiva *dentro da empresa*. | A fairhealth é a solução de cuidado do ecossistema fairjob: atendimento individualizado, com tecnologia e acompanhamento contínuo, para melhorar a qualidade de vida dos colaboradores. Etiquetas: Prevenção · Medicina do Estilo de Vida · Cuidado centrado na pessoa. | Posicionamento 3.1 e 3.7; proposta de valor do one-pager |
+| 3 | tiffany | O que é | Cuidar *antes*. | O plano de saúde tradicional trata a doença depois que ela aparece · A fairhealth atua antes, na prevenção, com um programa dentro da empresa · Não é um benefício. É uma infraestrutura de cuidado contínuo, não um programa pontual. | Posicionamento: "O que nos diferencia", diferenciais e tom de voz |
+| 4 | creme | O que é | A base é a *Medicina do Estilo de Vida*. | Uma abordagem baseada em evidências para prevenir e tratar doenças crônicas por meio de mudanças no estilo de vida. Os seis pilares, em duas colunas. | One-pager (Programa MEV e pilares) |
+| 5 | verde | O que fazemos | Médicos e psicólogos *dentro da empresa*. | Atendimento presencial, em plantões alternados. Diferente das soluções só digitais, o cuidado acontece perto de quem trabalha, e isso aumenta o engajamento. | One-pager (Escritório do Cuidado); posicionamento 3.3 |
+| 6 | creme | O que fazemos | Cada pessoa recebe um *plano de cuidado*. | 01 Escuta · 02 Anamnese e medições · 03 Plano individualizado · 04 Acompanhamento. | One-pager; o bordão vem do posicionamento 3.7 |
+| 7 | tiffany | O que oferecemos | Quatro frentes, *um cuidado só*. | As quatro frentes, uma linha cada. Nota: "O Programa e o Escritório rendem mais juntos: um dá a base, o outro garante o acompanhamento." | One-pager; posicionamento 3.0 e 3.4 |
+| 8 | creme | O que oferecemos | E para a *empresa*? | Prevenção de riscos psicossociais (NR-1) · Qualidade de vida, engajamento e clima · Retenção de talentos e marca empregadora. | One-pager (resultados); posicionamento, subpromessas |
+| 9 | verde | Por que prevenir | Prevenção também é *investimento*. | O que os estudos apontam: −28% de absenteísmo (Harvard Business Review, 2022) · −22% de custos com saúde (SHRM, 2023). | One-pager (números); posicionamento 3.1 ("investimento, não custo") |
+| 10 | tiffany | Vem com a gente | Como *começar*. | 01 Diagnóstico gratuito · 02 Proposta personalizada · 03 Implementação. | One-pager ("Vem com a gente!") |
+| 11 | creme | (logo) | Fazemos o certo pelos *motivos certos*. | Quer levar esse cuidado para a sua empresa? Fale com a gente pelo direct. | Slogan do one-pager |
+
+A ponte com o post anterior entra no slide 7: o Escritório do Cuidado, que apareceu no último post, é uma das
+quatro frentes. A legenda também faz a ponte.
 
 ## Legenda
 
 ```
-O que é a fairhealth? A resposta curta: saúde corporativa que cuida antes, dentro da empresa.
+O que é a fairhealth? Medicina preventiva, dentro da empresa.
 
-Agora, com um pouco mais de calma.
+O que somos: a solução de cuidado do ecossistema fairjob. Atendimento individualizado, com tecnologia e acompanhamento contínuo, para melhorar a qualidade de vida dos colaboradores. A base é a Medicina do Estilo de Vida.
 
-O que somos: uma empresa de medicina preventiva que cuida da saúde das pessoas dentro da empresa onde elas trabalham. No ecossistema fairjob, somos o cuidar.
-
-O que fazemos: levamos médicos e psicólogos para perto. Cada pessoa é ouvida, avaliada e recebe um plano de cuidado feito para a rotina dela, com base na Medicina do Estilo de Vida. Depois, a gente acompanha e ajusta.
+O que fazemos: levamos médicos e psicólogos para dentro da empresa, em plantões alternados. Cada pessoa passa por uma escuta, anamnese e medições, e recebe um plano de cuidado individualizado, com acompanhamento contínuo.
 
 O que oferecemos: quatro frentes que funcionam juntas. O Escritório do Cuidado, que você conheceu no último post, o Programa de Medicina do Estilo de Vida, uma plataforma digital e wearables.
 
-Cuidar antes que o adoecimento vire afastamento. É para isso que a gente existe.
+Cuidar antes. É para isso que a gente existe.
 
-Quer o Escritório do Cuidado na sua empresa? Fale com a gente pelo direct.
+Quer levar esse cuidado para a sua empresa? Fale com a gente pelo direct.
 
 Fazemos o certo pelos motivos certos.
 
@@ -108,18 +122,22 @@ Fazemos o certo pelos motivos certos.
 
 ## O que ficou de fora de propósito
 
-- **"Reduz a sinistralidade", "evita que as doenças comecem", "ROI":** são promessas de resultado. No
-  Instagram, falamos em cuidar antes. Esses argumentos ficam para conversas com RH e financeiro, com dados.
-- **"Aderente à NR-1":** não prometemos conformidade. Usamos "apoio na prevenção de riscos psicossociais".
-- **−28% de absenteísmo e −22% de custos com saúde:** são de estudos externos (Harvard Business Review,
-  2022; SHRM, 2023). Ficam para um post de ciência, com a fonte, para não parecerem resultado da fairhealth.
-- **"Diagnóstico gratuito":** é condição comercial. Só entra com o ok do comercial.
-- **"A única abordagem com evidência de reversão de doença crônica":** superlativo. Trocado pela definição
-  da Medicina do Estilo de Vida.
-- **Assistentes sociais e prazo de 12 meses:** não aparecem no one-pager; seguem fora até a confirmação.
+- **"8 em cada 10" (resultado de um cliente):** saiu a pedido da Nina. Não está nos dois documentos.
+- **"Reduz a sinistralidade", "evita que as doenças comecem", "ROI":** estão no posicionamento, mas são
+  promessas de resultado. No Instagram, falamos em cuidar antes. Esses argumentos ficam para conversas com RH
+  e financeiro, com dados.
+- **"Aderente à NR-1":** não prometemos conformidade. Usamos "prevenção de riscos psicossociais (NR-1)".
+- **"A única abordagem com evidência de reversão de doença crônica":** é superlativo. Foi trocado pela
+  definição da Medicina do Estilo de Vida.
+- **História do hospital e "modelo validado no SUS":** a origem ainda está para confirmar (ver
+  `essencia.md`).
+- **Valores, canais de venda e nomes de concorrentes:** são informações comerciais e não entram em post.
 
-## Para confirmar
+## Para confirmar antes de publicar
 
-- **Nome do sexto pilar:** o one-pager diz "manejo de vícios". O texto usa "vícios", que é mais simples.
-- **Nome do programa:** "Programa MEV" ou "Programa de Medicina do Estilo de Vida" (o texto usa o nome por
-  extenso, mais claro para quem não conhece a sigla).
+- **−28% e −22%:** são os números oficiais e estão no one-pager. Vale confirmar o que cada estudo mediu (que
+  tipo de programa), para a frase "o que os estudos apontam" ficar exata.
+- **"Diagnóstico gratuito":** está no one-pager, mas é condição comercial. Confirmar com o comercial que
+  segue valendo.
+- **Nome do programa:** "Programa MEV" ou "Programa de Medicina do Estilo de Vida". O texto usa o nome por
+  extenso, mais claro para quem não conhece a sigla.
