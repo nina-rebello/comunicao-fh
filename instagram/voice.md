@@ -225,6 +225,9 @@ Estas regras valem por cima de qualquer trecho anterior deste arquivo.
 - **Medicina do Estilo de Vida: 6 pilares** (ACLM): alimentação, atividade física,
   sono, manejo do estresse, relacionamentos e evitar substâncias de risco. Sem
   espiritualidade. **[PENDENTE]** confirmar.
+  **Atualização (12/10, decisão da Nina):** são **7 pilares**. Os seis do one-pager, com os nomes dele
+  (alimentação saudável, movimento, gerenciamento de estresse, sono de qualidade, manejo de vícios e
+  relacionamentos), mais **espiritualidade e propósito**.
 
 ## Decisões de 11/10: o ecossistema
 

@@ -1,8 +1,11 @@
-# O que é a fairhealth: texto (v3 e v4, 12/10)
+# O que é a fairhealth: texto (v3, v4 e v5, 12/10)
 
-**Arte atual (v4):** `slides-v4.html` → `png-v4/x01.png` … `x12.png` (prévia em `previa-v4.jpg`). O roteiro
-da v4 está no fim deste arquivo. A v3 (`slides-v3.html`, `png-v3/`, `previa-v3.jpg`) fica guardada. O texto
-da v2 está em `texto-v2.md`.
+**Arte atual (v5):** `slides-v5.html` → `png-v5/y01.png` … `y12.png` (prévia em `previa-v5.jpg`). O que
+mudou na v5 está no fim deste arquivo. A v4 (`slides-v4.html`, `png-v4/`) e a v3 (`slides-v3.html`,
+`png-v3/`) ficam guardadas. O texto da v2 está em `texto-v2.md`.
+
+**Pilares: são 7 (decisão da Nina, 12/10).** São os seis do one-pager mais espiritualidade e propósito.
+Onde este arquivo fala em seis, vale o que foi decidido em 12/10.
 
 **O que mudou da v2 para a v3 (pedido da Nina, 12/10):**
 
@@ -189,3 +192,45 @@ do livro da marca, para tirar o aspecto duro e chapado da v3. O texto é o mesmo
 
 **Seis ou sete pilares:** a v4 usa os seis do one-pager. Se valer a lista de sete da cartilha, entra "Propósito
 e espiritualidade" como sétima fatia. Para isso, o gerador só precisa de mais um item e de uma foto.
+
+## O que mudou na v5 (12/10)
+
+Pedido da Nina. Ela preferiu o desenho da v2 nos slides 3 e 9, disse que os pilares são 7 e pediu para
+tirar o brilho dos números.
+
+- **Trilha das três perguntas** (da v2): fica no topo dos slides 2 a 9 ("O que é", "O que fazemos", "O que
+  oferecemos") e substitui os rótulos. Os slides 10 e 11 mantêm a etiqueta e o rótulo próprios, porque vêm
+  depois das três perguntas.
+- **Slide 3:** volta a versão da v2, com o título "Preventiva quer dizer cuidar *antes*.". A linha do tempo
+  tem cinco momentos: rotina, primeiros sinais, diagnóstico, atestado e afastamento. Duas etiquetas marcam
+  "a fairhealth entra aqui" e "o plano de saúde entra aqui". O apoio diz: "Antes do diagnóstico, antes do
+  atestado, antes do afastamento. O plano de saúde entra quando a doença já apareceu. A gente entra antes."
+  - **De onde vem:** o tom de voz do posicionamento ("um programa que atue antes do diagnóstico", "antes que
+    ela vire afastamento") e "O que nos diferencia" ("só tratam a doença depois que ela se manifesta").
+  - **Fora dos documentos:** "atestado", "rotina" e "primeiros sinais" não aparecem neles. São a
+    explicação, em palavras simples, do mesmo argumento.
+- **Slide 5:** a rosca passa a ter **7 fatias**. O título é "Sete pilares, com *a pessoa no centro*.". A
+  ordem é:
+
+  | Nº | Pilar | Foto |
+  | --- | --- | --- |
+  | 01 | Alimentação saudável | `comida.jpg` |
+  | 02 | Movimento | `escada.jpg` |
+  | 03 | Gerenciamento de estresse | `respira.jpg` |
+  | 04 | Sono de qualidade | `sono-limpa.jpg` |
+  | 05 | Relacionamentos | `amigos.jpg` |
+  | 06 | Manejo de vícios | `agua.jpg` |
+  | 07 | Espiritualidade e propósito | `proposito.jpg` (nova, Unsplash: pessoa sentada num píer, de frente para um lago) |
+
+- **Slide 9:** volta o desenho da v2, com ícone em quadrado tiffany e linhas com fio. O texto segue os
+  documentos de 11/10:
+
+  | Ícone | Texto |
+  | --- | --- |
+  | Escudo | **Prevenção de riscos psicossociais** (NR-1), com programa e plataforma de indicadores. |
+  | Pessoas | **Qualidade de vida, engajamento** e clima organizacional. |
+  | Coração | **Um cuidado concreto**, que vai além dos benefícios tradicionais e fortalece a marca empregadora. |
+
+  A v2 dizia "Relatórios do grupo, sem identificar ninguém". Essa frase não está nos documentos de 11/10 e
+  ficou de fora.
+- **Slide 10:** os números ficaram sem o brilho. A luz do fundo foi para o canto de cima, longe deles.

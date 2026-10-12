@@ -22,6 +22,7 @@ Fotos ilustrativas da Licença Unsplash (uso comercial gratuito, sem atribuiçã
 | sono.jpg | https://images.unsplash.com/photo-1520206183501-b80df61043c2 |
 | sono-limpa.jpg | cópia de sono.jpg com a estampa "DECORATION" do lençol retocada (usar esta nas peças) |
 | agua.jpg | https://images.unsplash.com/photo-1548839140-29a749e1cf4d (12/10, pilar "manejo de vícios") |
+| proposito.jpg | https://images.unsplash.com/photo-1508672019048-805c876b67e2 (12/10, pilar "espiritualidade e propósito") |
 | comida.jpg | https://images.unsplash.com/photo-1490645935967-10de6ba17061 |
 | tenis.jpg | https://images.unsplash.com/photo-1483721310020-03333e577078 |
 | escada.jpg | https://images.unsplash.com/photo-1476480862126-209bfaa8edc8 |

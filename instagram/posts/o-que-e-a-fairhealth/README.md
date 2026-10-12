@@ -1,6 +1,20 @@
 # Carrossel: O que é a fairhealth
 
-> **Versão atual: v4 (12/10).** Arte em `slides-v4.html` → `png-v4/x01.png` … `x12.png`, nesta ordem (prévia:
+> **Versão atual: v5 (12/10).** Arte em `slides-v5.html` → `png-v5/y01.png` … `y12.png`, nesta ordem (prévia:
+> `previa-v5.jpg`), gerada por `gerar_slides_v5.py`. Para regerar:
+> `python3 instagram/posts/o-que-e-a-fairhealth/gerar_slides_v5.py instagram/posts/o-que-e-a-fairhealth/slides-v5.html`
+> e depois
+> `node instagram/ferramentas/render.mjs instagram/posts/o-que-e-a-fairhealth/slides-v5.html instagram/posts/o-que-e-a-fairhealth/png-v5`
+>
+> **Por que a v5:**
+> - os slides 3 e 9 voltam ao desenho da v2, que a Nina preferiu;
+> - a trilha das três perguntas fica no topo dos slides 2 a 9;
+> - a rosca passa a ter 7 pilares (com espiritualidade e propósito);
+> - os números perderam o brilho.
+>
+> Detalhes no fim de `texto.md`.
+
+> **v4 (12/10), guardada.** Arte em `slides-v4.html` → `png-v4/x01.png` … `x12.png`, nesta ordem (prévia:
 > `previa-v4.jpg`). O texto e o roteiro estão em `texto.md`. Para regerar:
 > `node instagram/ferramentas/render.mjs instagram/posts/o-que-e-a-fairhealth/slides-v4.html instagram/posts/o-que-e-a-fairhealth/png-v4`
 >

@@ -93,6 +93,11 @@ responsável médica confirma os nomes antes do primeiro post da série.
 **Atualização (09/10 e 11/10):** valem **6 pilares**, sem espiritualidade (decisão de 09/10 em
 `voice.md`), confirmados pelo one-pager de 11/10. Ver "A oferta, segundo o one-pager", abaixo.
 
+**Decisão da Nina (12/10), vale a partir de agora:** a MEV tem **7 pilares**. São os seis do one-pager, com
+os nomes dele (alimentação saudável, movimento, gerenciamento de estresse, sono de qualidade, manejo de
+vícios e relacionamentos), mais **espiritualidade e propósito**. Substitui as decisões de 09/10 e 11/10
+acima.
+
 ## O que fica para depois (argumento de retorno)
 
 −28% de absenteísmo (HBR, 2022), −22% de custos com saúde (SHRM, 2023), qualidade de
