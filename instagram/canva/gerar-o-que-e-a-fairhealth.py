@@ -57,9 +57,10 @@ def linha_do_tempo():
     out = [div(110, 698.5, 860, 3, 'background:rgba(191,224,217,.5)'),
            svg(934, 682, 42, 36, '<path d="M940 686l30 14-30 14" fill="none" stroke="#BFE0D9" stroke-opacity=".5" stroke-width="3" stroke-linejoin="round"/>')]
     out += [bola(x, 700, 14, 'background:' + TIF) for x in (160, 340)]
-    out += [bola(x, 700, 13.5, 'background:%s;border:3px solid rgba(191,224,217,.6);box-sizing:border-box' % VERDE) for x in (520, 700, 880)]
+    # formas com contorno vão como vetor: no Canva, div com borda perde o arredondado
+    out += [svg(x - 16, 684, 32, 32, '<circle cx="%d" cy="700" r="12" fill="#1F3A36" stroke="#BFE0D9" stroke-opacity=".6" stroke-width="3"/>' % x) for x in (520, 700, 880)]
     out.append(div(110, 560, 290, 70, 'border-radius:35px;background:' + TIF))
-    out.append(div(469, 559, 462, 72, 'border-radius:36px;border:2px solid rgba(191,224,217,.55);box-sizing:border-box'))
+    out.append(svg(468, 558, 464, 74, '<rect x="470" y="560" width="460" height="70" rx="35" fill="none" stroke="#BFE0D9" stroke-opacity=".55" stroke-width="2"/>'))
     return out
 
 def rosca():
@@ -115,6 +116,11 @@ def texto(it):
     return '<p style="%s">%s</p>' % (';'.join(est), html)
 
 def caixa(it):
+    if it.get('border'):  # contorno arredondado (etiquetas da luz) vai como vetor
+        bw, _, cor = it['border'].split(' ', 2)
+        bw = float(bw[:-2]); rad = min(float(it['radius'][:-2]), it['h'] / 2)
+        return svg(it['x'], it['y'], it['w'], it['h'], '<rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" rx="%.1f" fill="none" stroke="%s" stroke-width="%.1f"/>' % (
+            it['x'] + bw / 2, it['y'] + bw / 2, it['w'] - bw, it['h'] - bw, rad - bw / 2, cor, bw))
     est = ['border-radius:%s' % it['radius']]
     if it.get('bg'): est.append('background:%s' % it['bg'])
     if it.get('border'): est.append('border:%s;box-sizing:border-box' % it['border'])
