@@ -128,6 +128,10 @@ mudam com frequência. Os números abaixo são o ponto de partida.
   com `stroke-opacity` (rgba some).
 - **SVG com só um contorno** pode virar imagem invisível. Nesse caso, depois de importar, troque pela forma
   vetorial (`insert_shape` com `stroke_color`).
+- **Linhas e fios vindos de SVG** podem chegar cortados, fora do lugar ou invisíveis. É o caso do fio
+  contínuo e das legendas da rosca. Depois de importar, refaça cada linha como forma vetorial do próprio Canva
+  (`insert_shape` com `stroke_color`). Linha reta vertical some quando desenhada como contorno: use um
+  retângulo fino preenchido.
 - **Posições:** `ferramentas/dump-posicoes.mjs` tira as posições do HTML do post, e o gerador da pasta
   `canva/` monta a versão para importar.
 ## Direção v2 (09/10): mais gente, mais vida
