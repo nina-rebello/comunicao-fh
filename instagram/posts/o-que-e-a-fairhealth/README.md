@@ -1,5 +1,23 @@
 # Carrossel: O que é a fairhealth
 
+> **Versão para publicar: 10 fotos (12/10, só no Canva).** O Instagram aceita até 10 fotos por carrossel, e a
+> v10 tinha 12. Decisão da Nina:
+> - **Slide 10 (números, "Prevenção também é investimento"):** saiu do carrossel. Vira um post de foto única,
+>   o M2-01, no calendário em 16/11 (`marketing/Calendario_Editorial_FairHealth.xlsx`).
+> - **Slides 11 e 12:** viraram um slide só. Ele junta os três passos de "Como começar", o convite ("Quer levar
+>   esse cuidado para a sua empresa? Fale com a gente pelo direct.") e a assinatura (logo + "Fazemos o certo
+>   pelos motivos certos."). A fonte é `instagram/canva/o-que-e-a-fairhealth-fechamento.html`.
+> - **Paginação:** 10 bolinhas em todos os slides, da página 2 à 10.
+> - **Ordem final:** capa · Venn · cuidar antes · MEV · rosca dos 7 pilares · médicos dentro da empresa ·
+>   plano de cuidado · quatro frentes · e para a empresa · como começar + convite + assinatura.
+> - **Legenda:** continua a "Legenda final" do `texto.md`. Ela não cita os números.
+> - **Cópias de segurança no Canva:**
+>   - DAHX17FZzNQ, "Prevenção também é investimento · post M2-01" (https://www.canva.com/d/E6Gp2hFDhnNw1ME).
+>     Ainda tem as 12 bolinhas e a etiqueta do carrossel, que saem quando o post for montado.
+>   - DAHX1wPOwnY, cópia dos slides 11 e 12 antes de juntar (https://www.canva.com/d/R05aeLLi_3AYids).
+>   - DAHX11d8hu8, a importação do slide final, usada como fonte.
+> - **Repositório:** os PNGs da v10 (`png-v10/`) seguem com 12 slides. O carrossel de 10 está só no Canva.
+
 > **v10 (12/10):** na rosca, as legendas ficaram só com a linha, sem as bolinhas na ponta.
 > - **Repositório:** `slides-v10.html` → `png-v10/`.
 > - **No Canva:** as sete linhas foram refeitas como forma vetorial (as importadas como imagem não apareciam).
@@ -17,7 +35,7 @@
 >   antigas e pode ser apagada.
 > - **Antes de publicar:** confirmar a origem e a licença das fotos novas.
 
-> **No Canva (12/10):** https://www.canva.com/d/puyL8wniGObsaCu (design DAHXwcr37Ok, 12 páginas de 1080 × 1350).
+> **No Canva (12/10):** https://www.canva.com/d/puyL8wniGObsaCu (design DAHXwcr37Ok; eram 12 páginas de 1080 × 1350, hoje são 10).
 > Foi importado de `instagram/canva/o-que-e-a-fairhealth.html`, gerado por
 > `canva/gerar-o-que-e-a-fairhealth.py`.
 > - **Elementos soltos e editáveis:** textos, linhas, cartões, círculos do Venn, bolinhas e etiquetas.
