@@ -30,3 +30,16 @@ Fotos ilustrativas da Licença Unsplash (uso comercial gratuito, sem atribuiçã
 | amigos.jpg | https://images.unsplash.com/photo-1529333166437-7750a6dd5a70 |
 | respira.jpg | https://images.unsplash.com/photo-1506126613408-eca07ce68773 |
 | evitar-pose.jpg | https://images.unsplash.com/photo-1622253692010-333f2da6031d |
+
+## Fotos enviadas pela Nina (12/10), para os pilares do carrossel "O que é a fairhealth" (v8)
+
+A origem e a licença dessas fotos ainda precisam ser confirmadas antes de publicar.
+
+| Arquivo | Pilar |
+| --- | --- |
+| alimentacao-figos.jpg | Alimentação saudável |
+| movimento-corrida.jpg | Movimento |
+| relacionamentos-parque.jpg | Relacionamentos |
+| vicios-passaros.jpg | Manejo de vícios |
+| espiritualidade-maos.jpg | Espiritualidade e propósito |
+
