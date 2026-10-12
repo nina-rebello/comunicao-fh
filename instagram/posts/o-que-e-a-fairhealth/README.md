@@ -1,6 +1,20 @@
 # Carrossel: O que é a fairhealth
 
-> **Versão atual: v3 (12/10).** Texto em `texto.md` (o da v2 ficou em `texto-v2.md`); arte em `slides-v3.html`
+> **Versão atual: v4 (12/10).** Arte em `slides-v4.html` → `png-v4/x01.png` … `x12.png`, nesta ordem (prévia:
+> `previa-v4.jpg`). O texto e o roteiro estão em `texto.md`. Para regerar:
+> `node instagram/ferramentas/render.mjs instagram/posts/o-que-e-a-fairhealth/slides-v4.html instagram/posts/o-que-e-a-fairhealth/png-v4`
+>
+> **Por que a v4:** a v3 ficou organizada, mas dura e chapada. A v4 mantém o texto e a ordem, e cada slide
+> ganha um elemento do livro da marca:
+> - luz nos slides 1, 4 e 10;
+> - Venn com legenda em fio no 2;
+> - linha do tempo no 3;
+> - rosca de fotos dos seis pilares no 5 (pedido da Nina, referência "My intention");
+> - fio contínuo com laço do 6 para o 7;
+> - cartões no 8;
+> - traço que vira coração no 12.
+
+> **v3 (12/10), guardada.** Texto em `texto.md` (o da v2 ficou em `texto-v2.md`); arte em `slides-v3.html`
 > → `png-v3/w01.png` … `w11.png`, nesta ordem (prévia: `previa-v3.jpg`). Para regerar:
 > `node instagram/ferramentas/render.mjs instagram/posts/o-que-e-a-fairhealth/slides-v3.html instagram/posts/o-que-e-a-fairhealth/png-v3`
 >

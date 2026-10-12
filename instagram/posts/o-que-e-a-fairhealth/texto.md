@@ -1,7 +1,8 @@
-# O que é a fairhealth: texto (v3, 12/10)
+# O que é a fairhealth: texto (v3 e v4, 12/10)
 
-**Arte:** `slides-v3.html` → `png-v3/w01.png` … `w11.png` (prévia em `previa-v3.jpg`). O texto da v2 está
-guardado em `texto-v2.md`.
+**Arte atual (v4):** `slides-v4.html` → `png-v4/x01.png` … `x12.png` (prévia em `previa-v4.jpg`). O roteiro
+da v4 está no fim deste arquivo. A v3 (`slides-v3.html`, `png-v3/`, `previa-v3.jpg`) fica guardada. O texto
+da v2 está em `texto-v2.md`.
 
 **O que mudou da v2 para a v3 (pedido da Nina, 12/10):**
 
@@ -141,3 +142,50 @@ Fazemos o certo pelos motivos certos.
   segue valendo.
 - **Nome do programa:** "Programa MEV" ou "Programa de Medicina do Estilo de Vida". O texto usa o nome por
   extenso, mais claro para quem não conhece a sigla.
+
+## Roteiro da v4 (12 slides, 12/10)
+
+Pedido da Nina: os pilares de um jeito mais vivo (rosca de fotos, como a referência enviada) e mais elementos
+do livro da marca, para tirar o aspecto duro e chapado da v3. O texto é o mesmo da v3, com estes ajustes:
+
+- **Slide 2:** o apoio ficou mais curto, e as três etiquetas viraram um Venn. No encontro dos três círculos
+  fica a fairhealth, com a legenda em fio "Onde a fairhealth atua".
+- **Slide 3:** a lista virou uma linha do tempo:
+  - "fairhealth: atua antes, na prevenção";
+  - "a doença aparece";
+  - "plano de saúde: trata depois".
+- **Slide 4:** ganhou a nota "Referências: American College of Lifestyle Medicine e Colégio Brasileiro de
+  Medicina do Estilo de Vida", que vem do posicionamento, "por que acreditar".
+- **Slide 5 (novo):** os pilares saíram do slide 4 e ganharam um slide próprio, com o título "Seis pilares,
+  com *a pessoa no centro*". "Cuidado centrado na pessoa" vem do one-pager.
+- **Slide 8:** o cartão do Escritório do Cuidado leva a etiqueta "do último post". É a ponte com o post
+  anterior.
+
+| # | Fundo | Elemento | Título |
+| --- | --- | --- | --- |
+| 1 | luz | feixes de luz, etiqueta com contorno | O que é a *fairhealth*? |
+| 2 | creme | Venn de três círculos com legenda em fio | Medicina preventiva *dentro da empresa*. |
+| 3 | tiffany | linha do tempo (antes e depois da doença) | Cuidar *antes*. |
+| 4 | luz | brilho, etiqueta com contorno | A base é a *Medicina do Estilo de Vida*. |
+| 5 | creme | rosca de fotos com legenda em fio | Seis pilares, com *a pessoa no centro*. |
+| 6 | verde | fio com laço, que continua no slide 7 | Médicos e psicólogos *dentro da empresa*. |
+| 7 | creme | os quatro passos como bolinhas no mesmo fio | Cada pessoa recebe um *plano de cuidado*. |
+| 8 | tiffany | quatro cartões, o primeiro em verde | Quatro frentes, *um cuidado só*. |
+| 9 | creme | lista com fios | E para a *empresa*? |
+| 10 | luz | números em tiffany com brilho e a fonte | Prevenção também é *investimento*. |
+| 11 | tiffany | três passos ligados por um fio creme | Como *começar*. |
+| 12 | creme | logo e o traço que vira coração | Fazemos o certo pelos *motivos certos*. |
+
+**Fotos da rosca** (`marca/fotos-banco/`, Licença Unsplash, ilustrativas):
+
+| Pilar | Foto |
+| --- | --- |
+| Alimentação saudável | `comida.jpg` |
+| Movimento | `escada.jpg` |
+| Gerenciamento de estresse | `respira.jpg` |
+| Sono de qualidade | `sono-limpa.jpg` |
+| Manejo de vícios | `agua.jpg` (nova, 12/10) |
+| Relacionamentos | `amigos.jpg` |
+
+**Seis ou sete pilares:** a v4 usa os seis do one-pager. Se valer a lista de sete da cartilha, entra "Propósito
+e espiritualidade" como sétima fatia. Para isso, o gerador só precisa de mais um item e de uma foto.

@@ -212,6 +212,13 @@ e na aba "Elementos gráficos" de `marca/identidade-visual-v6.html`.
   (pedidos da Nina, 11/10); as duas ficam guardadas em `posts/exploracoes/png/`, fora do livro da marca.
 - **Movimento no carrossel:** fio contínuo que atravessa os slides e dá um laço no do meio, e cartões
   espiando nas bordas com pílula de data sobre a borda.
+- **Rosca de fotos (12/10, em teste):** é um pedido da Nina, a partir da referência "My intention".
+  - **Forma:** anel dividido em fatias, uma por pilar. Cada fatia tem uma foto ilustrativa de
+    `marca/fotos-banco/`, levemente dessaturada. As fatias são separadas por vãos da cor do fundo.
+  - **Rótulos:** número e nome ficam fora do anel, presos à fatia por uma legenda em fio.
+  - **Centro:** fica vazio, com uma frase curta.
+  - **Onde está:** slide 5 do carrossel "O que é a fairhealth" v4 (`posts/o-que-e-a-fairhealth/`).
+  - **Regra:** só para listas de 4 a 7 itens que tenham foto que os represente.
 - **Regras:** um elemento gráfico principal por post. Círculo só quando carrega informação (Venn, cabeça do
   pictograma, respiração), nunca como enfeite; isso atualiza a regra "sem círculos decorativos". Degradê só
   no cérebro, tiffany-claro nas bordas e tiffany-escuro no centro. Traço com ponta arredondada e espessura fixa (12 px na
