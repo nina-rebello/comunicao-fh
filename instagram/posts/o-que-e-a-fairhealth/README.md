@@ -1,6 +1,10 @@
 # Carrossel: O que é a fairhealth
 
-> **Versão atual: v6 (12/10).** Arte em `slides-v6.html` → `png-v6/z01.png` … `z12.png`, nesta ordem (prévia:
+> **Versão atual: v7 (12/10).** Arte em `slides-v7.html` → `png-v7/a01.png` … `a12.png` (prévia:
+> `previa-v7.jpg`), gerada por `gerar_slides_v7.py`. É igual à v6, com "Diagnóstico" sem "gratuito" no
+> slide 11.
+
+> **v6 (12/10), guardada.** Arte em `slides-v6.html` → `png-v6/z01.png` … `z12.png`, nesta ordem (prévia:
 > `previa-v6.jpg`), gerada por `gerar_slides_v6.py`. É igual à v5, com três itens a menos, pedidos pela Nina
 > para a peça ficar menos poluída:
 > - o slide 9 ficou sem os ícones (só as linhas com fio);

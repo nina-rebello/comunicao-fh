@@ -1,6 +1,10 @@
 # O que é a fairhealth: texto (v3, v4 e v5, 12/10)
 
-**Arte atual (v6):** `slides-v6.html` → `png-v6/z01.png` … `z12.png` (prévia em `previa-v6.jpg`). É a v5
+**Arte atual (v7):** `slides-v7.html` → `png-v7/a01.png` … `a12.png` (prévia em `previa-v7.jpg`). É a v6
+com "Diagnóstico" no lugar de "Diagnóstico gratuito" no slide 11 (pedido da Nina, 12/10). O post não fala
+mais em gratuidade. Os trechos abaixo que citam "Diagnóstico gratuito" valem só como histórico.
+
+**v6:** `slides-v6.html` → `png-v6/z01.png` … `z12.png` (prévia em `previa-v6.jpg`). É a v5
 sem os ícones do slide 9, sem o coração do slide 12 e sem a etiqueta "do último post" do slide 8. A ponte com
 o post anterior fica só na legenda.
 
