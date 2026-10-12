@@ -1,5 +1,12 @@
 # Carrossel: O que é a fairhealth
 
+> **No Canva (12/10):** https://www.canva.com/d/puyL8wniGObsaCu (design DAHXwcr37Ok, 12 páginas de 1080 × 1350).
+> Foi importado de `instagram/canva/o-que-e-a-fairhealth.html`, gerado por
+> `canva/gerar-o-que-e-a-fairhealth.py`.
+> - **Elementos soltos e editáveis:** textos, linhas, cartões, círculos do Venn, bolinhas e etiquetas.
+> - **Imagens:** a luz dos slides 1, 4 e 10 e as sete fatias de foto da rosca (`canva/o-que-e-a-fairhealth/`).
+> - **Rascunhos da importação:** DAHXwfWG2PY, DAHXwX9LhWA e DAHXwZMIWQ0. Podem ser apagados.
+
 > **Versão atual: v7 (12/10).** Arte em `slides-v7.html` → `png-v7/a01.png` … `a12.png` (prévia:
 > `previa-v7.jpg`), gerada por `gerar_slides_v7.py`. É igual à v6, com "Diagnóstico" sem "gratuito" no
 > slide 11.

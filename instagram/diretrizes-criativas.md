@@ -119,6 +119,17 @@ mudam com frequência. Os números abaixo são o ponto de partida.
   Raleway), e a ferramenta não troca a fonte. Para manter a Raleway, reaproveitar
   textos que já existem na página (duplicar a página e reescrever os textos).
 
+
+**Importar HTML no Canva (aprendido em 12/10, carrossel "O que é a fairhealth"):**
+- **Página:** o `body` não pode ser flex com padding. Senão, o Canva encolhe a página, por exemplo para
+  985 px. Cada `section` precisa de `width:1080px; min-width:1080px; flex:none` e de
+  `data-document-role="page"`.
+- **Div com borda** perde o arredondado. Contorno arredondado vai como SVG, e cor de SVG vai em hexadecimal
+  com `stroke-opacity` (rgba some).
+- **SVG com só um contorno** pode virar imagem invisível. Nesse caso, depois de importar, troque pela forma
+  vetorial (`insert_shape` com `stroke_color`).
+- **Posições:** `ferramentas/dump-posicoes.mjs` tira as posições do HTML do post, e o gerador da pasta
+  `canva/` monta a versão para importar.
 ## Direção v2 (09/10): mais gente, mais vida
 
 Pedido do time: o tiffany continua sendo a cor da marca, mas tudo tiffany cansa e some no feed. A peça
