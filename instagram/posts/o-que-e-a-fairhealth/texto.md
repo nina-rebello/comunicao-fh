@@ -1,6 +1,10 @@
 # O que é a fairhealth: texto (v3, v4 e v5, 12/10)
 
-**Arte atual (v5):** `slides-v5.html` → `png-v5/y01.png` … `y12.png` (prévia em `previa-v5.jpg`). O que
+**Arte atual (v6):** `slides-v6.html` → `png-v6/z01.png` … `z12.png` (prévia em `previa-v6.jpg`). É a v5
+sem os ícones do slide 9, sem o coração do slide 12 e sem a etiqueta "do último post" do slide 8. A ponte com
+o post anterior fica só na legenda.
+
+**v5:** `slides-v5.html` → `png-v5/y01.png` … `y12.png` (prévia em `previa-v5.jpg`). O que
 mudou na v5 está no fim deste arquivo. A v4 (`slides-v4.html`, `png-v4/`) e a v3 (`slides-v3.html`,
 `png-v3/`) ficam guardadas. O texto da v2 está em `texto-v2.md`.
 

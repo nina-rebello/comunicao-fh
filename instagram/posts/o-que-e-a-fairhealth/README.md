@@ -1,6 +1,13 @@
 # Carrossel: O que é a fairhealth
 
-> **Versão atual: v5 (12/10).** Arte em `slides-v5.html` → `png-v5/y01.png` … `y12.png`, nesta ordem (prévia:
+> **Versão atual: v6 (12/10).** Arte em `slides-v6.html` → `png-v6/z01.png` … `z12.png`, nesta ordem (prévia:
+> `previa-v6.jpg`), gerada por `gerar_slides_v6.py`. É igual à v5, com três itens a menos, pedidos pela Nina
+> para a peça ficar menos poluída:
+> - o slide 9 ficou sem os ícones (só as linhas com fio);
+> - o slide 12 ficou sem o traço que vira coração (logo e texto centrados na altura);
+> - o slide 8 ficou sem a etiqueta "do último post".
+
+> **v5 (12/10), guardada.** Arte em `slides-v5.html` → `png-v5/y01.png` … `y12.png`, nesta ordem (prévia:
 > `previa-v5.jpg`), gerada por `gerar_slides_v5.py`. Para regerar:
 > `python3 instagram/posts/o-que-e-a-fairhealth/gerar_slides_v5.py instagram/posts/o-que-e-a-fairhealth/slides-v5.html`
 > e depois
