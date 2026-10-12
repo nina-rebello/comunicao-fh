@@ -242,3 +242,24 @@ tirar o brilho dos números.
   A v2 dizia "Relatórios do grupo, sem identificar ninguém". Essa frase não está nos documentos de 11/10 e
   ficou de fora.
 - **Slide 10:** os números ficaram sem o brilho. A luz do fundo foi para o canto de cima, longe deles.
+
+## Legenda final (12/10, para a v10 no Canva)
+
+```
+O que é a fairhealth? Medicina preventiva, dentro da empresa.
+
+O que somos: a solução de cuidado do ecossistema fairjob. Atendimento individualizado, com tecnologia e acompanhamento contínuo, para melhorar a qualidade de vida dos colaboradores. A base é a Medicina do Estilo de Vida, com sete pilares e a pessoa no centro.
+
+O que fazemos: levamos médicos e psicólogos para dentro da empresa, em plantões alternados. Cada pessoa passa por uma escuta, anamnese e medições, e recebe um plano de cuidado individualizado, com acompanhamento contínuo.
+
+O que oferecemos: quatro frentes que funcionam juntas. O Escritório do Cuidado, que você conheceu no último post, o Programa de Medicina do Estilo de Vida, uma plataforma digital e wearables.
+
+Cuidar antes. É para isso que a gente existe.
+
+Quer levar esse cuidado para a sua empresa? Fale com a gente pelo direct.
+
+Fazemos o certo pelos motivos certos.
+
+#fairhealth #saudecorporativa #medicinadoestilodevida #escritoriodocuidado #gestaodepessoas
+```
+
