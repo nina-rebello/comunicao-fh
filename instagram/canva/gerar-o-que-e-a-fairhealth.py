@@ -119,8 +119,11 @@ def caixa(it):
     if it.get('border'):  # contorno arredondado (etiquetas da luz) vai como vetor
         bw, _, cor = it['border'].split(' ', 2)
         bw = float(bw[:-2]); rad = min(float(it['radius'][:-2]), it['h'] / 2)
-        return svg(it['x'], it['y'], it['w'], it['h'], '<rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" rx="%.1f" fill="none" stroke="%s" stroke-width="%.1f"/>' % (
-            it['x'] + bw / 2, it['y'] + bw / 2, it['w'] - bw, it['h'] - bw, rad - bw / 2, cor, bw))
+        # no vetor, o Canva ignora cor rgba: vai em hexadecimal com stroke-opacity
+        v = [float(t) for t in cor[cor.index('(') + 1:cor.index(')')].split(',')]
+        hexa, op = '#%02X%02X%02X' % tuple(int(t) for t in v[:3]), (v[3] if len(v) > 3 else 1)
+        return svg(it['x'], it['y'], it['w'], it['h'], '<rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" rx="%.1f" fill="none" stroke="%s" stroke-opacity="%.2f" stroke-width="%.1f"/>' % (
+            it['x'] + bw / 2, it['y'] + bw / 2, it['w'] - bw, it['h'] - bw, rad - bw / 2, hexa, op, bw))
     est = ['border-radius:%s' % it['radius']]
     if it.get('bg'): est.append('background:%s' % it['bg'])
     if it.get('border'): est.append('border:%s;box-sizing:border-box' % it['border'])
