@@ -1,5 +1,12 @@
 # Carrossel: O que é a fairhealth
 
+> **Fotos dos pilares (12/10, v8):** a Nina mandou novas fotos para cinco pilares: figos, corrida, parque,
+> pássaros e mãos. Sono e estresse ficaram como estavam.
+> - **Repositório:** `slides-v8.html` → `png-v8/`.
+> - **No Canva:** a página 5 já está com as fotos novas. A página 13 é a cópia da página 5 com as fotos
+>   antigas e pode ser apagada.
+> - **Antes de publicar:** confirmar a origem e a licença das fotos novas.
+
 > **No Canva (12/10):** https://www.canva.com/d/puyL8wniGObsaCu (design DAHXwcr37Ok, 12 páginas de 1080 × 1350).
 > Foi importado de `instagram/canva/o-que-e-a-fairhealth.html`, gerado por
 > `canva/gerar-o-que-e-a-fairhealth.py`.
