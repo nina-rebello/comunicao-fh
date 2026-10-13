@@ -326,3 +326,61 @@ Estas decisões mudam a seção 6:
 - **6 pilares** da MEV, sem espiritualidade (a confirmar).
 
 As regras ficaram registradas em `voice.md`, seção "Decisões de 09/10".
+
+## 8. Mês 1 como a história da marca (13/10)
+
+**Pedido da Nina (13/10):** o começo do perfil conta a história da marca. Os posts precisam se ligar uns
+aos outros, sem assunto solto. Por isso o Mês 1 foi reorganizado em quatro capítulos. Esta seção substitui
+a ordem das seções 6 e 7. A planilha de 12/10 está em
+`marketing/arquivo/Calendario_Editorial_FairHealth_mensal_v3_2026-10-12.xlsx`.
+
+**A história em uma frase:** uma pergunta nasceu num hospital, mudou para dentro da empresa para cuidar
+antes, virou quatro frentes de cuidado, mudou o que a empresa enxerga e termina num convite para cada
+pessoa.
+
+| Capítulo | Datas | Posts |
+| --- | --- | --- |
+| 1 · Por que existimos | 19 a 23/10 | M1-01 A pergunta (vídeo) → M1-02 Essa pergunta nasceu num hospital (carrossel, origem) → M1-03 Antes do afastamento, teve um sinal (vídeo, o "antes") → M1-04 O que é a fairhealth? (carrossel pronto, 10 fotos) |
+| 2 · Por dentro do cuidado | 26 a 30/10 | As quatro frentes do M1-04, uma a uma: M1-05 Escritório do Cuidado (carrossel) → M1-06 Medicina do Estilo de Vida, 7 pilares (vídeo) → M1-07 O plano é seu, com a Clara e a plataforma (carrossel) → M1-08 Wearables (carrossel) |
+| 3 · O que muda para a empresa | 03 a 06/11 | M1-09 O que o RH vê (vídeo) → M1-10 Não é benefício, é infraestrutura de cuidado (carrossel) → M1-11 As pessoas voltam (vídeo, 8 em cada 10) → M1-12 Fazemos o certo pelos motivos certos (carrossel, peça nova) |
+| 4 · O convite | 09 a 13/11 | M1-13 Sono, com a Clara (vídeo, para quem é cuidado) → M1-14 Uma pergunta que todo líder pode fazer (carrossel, para quem lidera) → M1-15 Estilo de vida também é tratamento sério (carrossel, Dia Mundial do Diabetes) → M1-16 Uma pergunta, um hospital, um escritório. E agora, a sua empresa (vídeo, recapitulação e convite para quem decide) |
+| Gancho para o Mês 2 | 16/11 | M2-01 Prevenção também é investimento, e depois o capítulo da NR-1 |
+
+**Como os posts se ligam:**
+- cada post retoma o anterior (primeira frase da legenda ou primeiro slide) e puxa o próximo (no fim). A
+  planilha tem a coluna "Fio da história (vem de → leva para)";
+- a pergunta "O que é importante para você?" aparece em todos;
+- a semana 2 abre as quatro frentes que o "O que é a fairhealth" apresenta;
+- a Clara (personagem fictícia, sempre sinalizada) aparece no plano e volta no post do sono;
+- o último post recapitula o mês em quatro frases;
+- **[SUGESTÃO]** etiqueta de capítulo na capa ("Capítulo 1 · Por que existimos").
+
+**O que saiu do Mês 1:** as duas peças do artigo sobre riscos psicossociais (eram M1-04 e M1-12). Agora são
+M2-02 e M2-03 e abrem o capítulo da NR-1 no Mês 2.
+
+**O que entrou:**
+- o carrossel "O que é a fairhealth" (M1-04, pronto);
+- o carrossel de crenças "Fazemos o certo pelos motivos certos" (M1-12, a aprovar).
+
+**IDs de 12/10 → 13/10:**
+
+| 12/10 | 13/10 |
+| --- | --- |
+| M1-01 | M1-01 |
+| M1-02 | M1-05 |
+| M1-03 | M1-03 |
+| M1-04 | M2-02 |
+| M1-05 | M1-06 |
+| M1-06 | M1-10 |
+| M1-07 | M1-09 |
+| M1-08 | M1-07 |
+| M1-09 | M1-11 |
+| M1-10 | M1-08 |
+| M1-11 | M1-02 |
+| M1-12 | M2-03 |
+| M1-13 | M1-13 |
+| M1-14 | M1-14 |
+| M1-15 | M1-16 |
+| M1-16 | M1-15 |
+
+Os comentários de arquivos mais antigos (por exemplo, em `posts/exploracoes/`) usam os IDs de 12/10.

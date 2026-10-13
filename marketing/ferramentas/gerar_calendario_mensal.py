@@ -57,7 +57,8 @@ RAND = ('Hafner M. et al. Why sleep matters: the economic costs of insufficient 
 # deslocamento (dias a partir da segunda) das 4 publicações de cada semana; evita feriados nacionais
 OFF = {1: (0, 1, 3, 4), 2: (0, 1, 3, 4), 3: (1, 2, 3, 4), 4: (0, 1, 3, 4)}   # semana 3: 02/11 Finados
 
-ROWS = [
+# Ordem de 12/10 (guardada): as pautas por tema. Em 13/10 o mês foi reorganizado como a história da marca (ROWS, abaixo).
+ROWS_V12 = [
  # ---------------- SEMANA 1 · ABERTURA E DOR: "Isso é comigo?" ----------------
  dict(sem=1, linha=I, arg=AP, cena=ABE, tema='Apresentação da Fair Health', serie='',
   titulo='Antes de qualquer exame, uma conversa', persona=f'{COL}; {RH}',
@@ -264,9 +265,126 @@ ROWS = [
   criativo='Modelo M6 (dado com fonte) suave nos slides 4 e 5, M2 nos demais. Números em verde-escuro, sem destaque alarmista.'),
 ]
 
-# Posts já decididos para o Mês 2 (entram no fim da aba Calendário; semana 5 = semana 1 do Mês 2)
+# ---------------- MÊS 1 COMO A HISTÓRIA DA MARCA (reorganização de 13/10) ----------------
+# Pedido da Nina (13/10): o começo do perfil conta a história da marca, e cada post se liga ao anterior e ao
+# seguinte. Nada de assunto solto. O mês virou quatro capítulos:
+#   1. Por que existimos (a pergunta, de onde ela veio, o "antes" e quem somos)
+#   2. Por dentro do cuidado (as quatro frentes do post "O que é a fairhealth", uma a uma)
+#   3. O que muda para a empresa (o que o RH vê, a tese, a adesão e em que a gente acredita)
+#   4. O convite (para quem é cuidado, para quem lidera, a ciência e para quem decide)
+# As pautas vêm da ordem de 12/10 (ROWS_V12), com a ponte de cada post e os ajustes de texto.
+# As duas peças do artigo sobre NR-1 foram para o Mês 2, que é o mês da NR-1.
+def de(n, **kw):
+    d = dict(ROWS_V12[n - 1])
+    d.update(kw)
+    d['antes'] = f'M1-{n:02d}'
+    return d
+
+CAP = {1: 'Capítulo 1 · Por que existimos', 2: 'Capítulo 2 · Por dentro do cuidado',
+       3: 'Capítulo 3 · O que muda para a empresa', 4: 'Capítulo 4 · O convite'}
+HT_FH = '#fairhealth #saudecorporativa #medicinadoestilodevida #escritoriodocuidado #gestaodepessoas'
+FRENTES = 'Por dentro das quatro frentes'
+
+ROWS = [
+ # ---------------- CAPÍTULO 1 · POR QUE EXISTIMOS (semana 1) ----------------
+ de(1, sem=1,
+  ponte='Abre a história com a pergunta que guia tudo. Leva para: de onde essa pergunta veio (M1-02).',
+  texto='Antes de qualquer exame, uma conversa.\n\nEsse é o Escritório do Cuidado: um espaço dentro da empresa, com médicos, psicólogos e assistentes sociais, perto de quem trabalha.\n\nAqui, todo cuidado começa com a mesma pergunta: o que é importante para você? A partir da resposta, montamos juntos um plano que cabe na sua rotina e seguimos acompanhando.\n\nEssa pergunta tem história. Ela não nasceu numa empresa: nasceu num hospital. No próximo post, a gente conta.\n\n' + HT),
+ de(11, sem=1, cena=ABE, formato=C,
+  titulo='Essa pergunta nasceu num hospital',
+  porque='Linha do tempo em carrossel: a história de origem se lê no ritmo de quem arrasta, um marco por slide, sem precisar mostrar pessoas. Logo depois da pergunta, responde "de onde vem isso?".',
+  ponte='Vem de: a pergunta (M1-01). Leva para: por que levar esse cuidado para dentro da empresa, e por que antes (M1-03).',
+  texto='Essa pergunta tem história.\n\nEm 2009, num hospital, nasceu o Escritório do Paciente: um jeito de colocar o paciente, de verdade, no centro do cuidado. Antes de propor qualquer coisa, a equipe perguntava: o que é importante para você?\n\nFuncionou num lugar de recursos escassos e mostrou que podia ser repetido em outros lugares.\n\nAnos depois, a mesma ideia mudou de endereço. Saiu do hospital e foi para dentro da empresa, onde as pessoas passam boa parte do dia. Virou o Escritório do Cuidado.\n\nPor que dentro da empresa? E por que antes? No próximo post.\n\n' + HT,
+  roteiro='Carrossel de 7 slides, linha do tempo (modelo M2), sem fotos de pessoas.\n1 Capa: "Essa pergunta nasceu num hospital."\n2 2009: o Escritório do Paciente. O paciente no centro do cuidado.\n3 O que o hospital ensinou: ouvir antes de propor.\n4 Funcionou com poucos recursos e podia ser repetido.\n5 2024 e 2025: o modelo sai do hospital e entra na empresa. Nasce o Escritório do Cuidado.\n6 Mesma pergunta: "O que é importante para você?"\n7 "Por que dentro da empresa? E por que antes?" (ponte para o próximo post) + logo.',
+  criativo='Modelo M2 (linha do tempo) com o fio contínuo ligando os marcos. Etiqueta de capítulo na capa [SUGESTÃO].'),
+ de(3, sem=1,
+  ponte='Vem de: a origem e a pergunta "por que antes?" (M1-02). Leva para: quem é a fairhealth (M1-04).',
+  texto='Antes do afastamento, teve um atestado.\nAntes do atestado, teve uma semana pesada.\nAntes da semana pesada, teve uma noite sem dormir.\n\nE antes de tudo isso, ninguém perguntou: o que é importante para você?\n\nEm 2024, o Brasil registrou mais de 470 mil licenças do trabalho por saúde mental, o maior número em dez anos (Ministério da Previdência Social). Cada uma delas teve um antes.\n\nÉ por isso que o cuidado saiu do hospital e foi para dentro da empresa: para chegar nesse antes, perto de quem trabalha.\n\nNo próximo post, a gente se apresenta: o que somos, o que fazemos e o que oferecemos.\n\n' + HT),
+ dict(sem=1, linha=I, arg=AP, cena=ABE, tema='Apresentação da fairhealth (o que é, o que faz, o que oferece)', serie='',
+  titulo='O que é a fairhealth?', persona=f'{RH}; {COL}',
+  nec='Quem é a fairhealth, o que ela faz e o que oferece?',
+  obj='Apresentar a marca inteira num post só e fechar o capítulo 1', formato=C,
+  porque='Carrossel de 10 slides guiado por três perguntas (o que é, o que fazemos, o que oferecemos): é o post de referência da marca. [SUGESTÃO] Fixar no perfil.',
+  canal=IGLI, collab=FJ,
+  msg='A fairhealth é medicina preventiva dentro da empresa: médicos e psicólogos, um plano de cuidado para cada pessoa e quatro frentes que funcionam juntas.',
+  fonte='One-pager "Saúde e Bem-Estar para sua empresa baseado na Medicina do Estilo de Vida" e posicionamento v3.2 (11/10). Originais fora do repositório.',
+  valid='Origem e licença das fotos dos pilares. Slide 9: NR-1 sem promessa de conformidade.',
+  status='Em revisão',
+  ponte='Vem de: por que cuidar antes (M1-03). Leva para: a semana que abre cada uma das quatro frentes, começando pelo Escritório do Cuidado (M1-05).',
+  texto='O que é a fairhealth? Medicina preventiva, dentro da empresa.\n\nNesta semana, você conheceu a pergunta que guia o nosso cuidado, de onde ela veio e por que cuidar antes. Agora, a gente se apresenta.\n\nO que somos: a solução de cuidado do ecossistema fairjob. Atendimento individualizado, com tecnologia e acompanhamento contínuo, para melhorar a qualidade de vida dos colaboradores. A base é a Medicina do Estilo de Vida, com sete pilares e a pessoa no centro.\n\nO que fazemos: levamos médicos e psicólogos para dentro da empresa, em plantões alternados. Cada pessoa passa por uma escuta, anamnese e medições, e recebe um plano de cuidado individualizado, com acompanhamento contínuo.\n\nO que oferecemos: quatro frentes que funcionam juntas. O Escritório do Cuidado, o Programa de Medicina do Estilo de Vida, uma plataforma digital e wearables.\n\nNa semana que vem, a gente abre cada uma delas, começando pela porta do Escritório do Cuidado.\n\nQuer levar esse cuidado para a sua empresa? Fale com a gente pelo direct.\n\nFazemos o certo pelos motivos certos.\n\n' + HT_FH,
+  roteiro='10 slides (arte final de 12/10): 1 capa · 2 medicina preventiva dentro da empresa (Venn) · 3 cuidar antes (linha do tempo) · 4 a base é a Medicina do Estilo de Vida · 5 sete pilares, a pessoa no centro · 6 médicos e psicólogos dentro da empresa · 7 cada pessoa recebe um plano de cuidado · 8 quatro frentes, um cuidado só · 9 e para a empresa? · 10 como começar, convite e assinatura.',
+  criativo='Canva: design DAHXwcr37Ok (https://www.canva.com/d/puyL8wniGObsaCu), 10 páginas, pronto. Repositório: instagram/posts/o-que-e-a-fairhealth/ (README e texto.md).',
+  coment='Entrou no calendário em 13/10, na reorganização do mês como história. A legenda foi ajustada para a nova ordem: o Escritório do Cuidado agora vem depois, na semana 2.',
+  antes='novo'),
+
+ # ---------------- CAPÍTULO 2 · POR DENTRO DO CUIDADO (semana 2) ----------------
+ de(2, sem=2, cena=VIR, serie=f'{FRENTES} (1/4): Escritório do Cuidado',
+  ponte='Vem de: as quatro frentes apresentadas em "O que é a fairhealth" (M1-04). Abre a primeira: o Escritório do Cuidado. Leva para: a base do cuidado, a Medicina do Estilo de Vida (M1-06).',
+  texto='Aqui, o cuidado começa com uma pergunta: o que é importante para você?\n\nNa semana passada, a gente se apresentou. Agora, abre a porta da primeira frente: o Escritório do Cuidado.\n\nAntes de exame, antes de número, a gente quer saber da sua rotina, do seu trabalho, do que anda pesando e do que você gostaria de mudar.\n\nO Escritório do Cuidado fica dentro da empresa, perto de onde você já está. Lá, médicos e psicólogos se revezam para montar com você um cuidado que caiba na sua vida, com base na Medicina do Estilo de Vida.\n\nE o que você conta fica entre você e quem cuida.\n\nArrasta para o lado para ver como funciona. No próximo post: a base de tudo isso, a Medicina do Estilo de Vida.\n\n' + HT),
+ de(5, sem=2, serie=f'{FRENTES} (2/4): Programa de Medicina do Estilo de Vida',
+  tema='Medicina do Estilo de Vida (Programa MEV)',
+  msg='Sete pilares, uma pessoa inteira: alimentação saudável, movimento, gerenciamento de estresse, sono de qualidade, manejo de vícios, relacionamentos e espiritualidade e propósito. O plano olha para todos, a partir da rotina real.',
+  valid='7 pilares (decisão da Nina, 12/10), com os mesmos nomes do carrossel "O que é a fairhealth". Responsável médica valida a definição de MEV.',
+  ponte='Vem de: o Escritório do Cuidado, onde o plano é montado "com base na Medicina do Estilo de Vida" (M1-05). Retoma a rosca dos sete pilares do M1-04. Leva para: como os pilares viram o plano de uma pessoa (M1-07).',
+  roteiro='Reel de 45 a 60 s, motion com ícones, voz em off.\n0–3 s: "Medicina do Estilo de Vida é dieta e academia? Não só."\n3–10 s: definição curta, com fonte na tela.\n10–42 s: os 7 pilares, um ícone e uma frase por pilar: alimentação saudável · movimento · gerenciamento de estresse · sono de qualidade · manejo de vícios · relacionamentos · espiritualidade e propósito.\n42–50 s: "Os pilares conversam entre si: o cuidado olha para a pessoa inteira."\n50–60 s: "No plano de cada pessoa, os pilares viram ações. No próximo post, como nasce esse plano." + logo.',
+  criativo='Modelo M9 com ícones lineares em verde-escuro sobre Tiffany. A ordem e os nomes dos pilares seguem a rosca do M1-04.'),
+ de(8, sem=2, serie=f'{FRENTES} (3/4): o plano e a plataforma digital',
+  ponte='Vem de: os sete pilares (M1-06). Mostra como eles viram o plano de uma pessoa, a Clara (personagem fictícia), e onde esse plano fica (plataforma digital). Leva para: o que acontece depois da consulta (M1-08). A Clara volta no M1-13 (sono).',
+  roteiro='8 slides, com a Clara (personagem fictícia, 41 anos, supervisora de turno).\n1 Capa: "O plano é seu."\n2 No último post, os sete pilares. Aqui, como eles viram um plano para uma pessoa.\n3 A Clara chegou dizendo: "Quero voltar a ter energia para brincar com meu filho." Isso é o que importa para ela.\n4 Card do plano da Clara: 3 ações pequenas (dormir 30 min mais cedo, caminhada de 10 min no almoço, conversa quinzenal com a psicóloga).\n5 Cabe na rotina real: no turno dela, não numa rotina ideal.\n6 O plano, o histórico e as metas ficam na plataforma digital.\n7 Muda quando a vida muda, e alguém acompanha, sem julgamento.\n8 "E depois da consulta? O cuidado continua." (ponte) Rodapé: "História ilustrativa. Personagem fictícia."'),
+ de(10, sem=2, cena=VIR, serie=f'{FRENTES} (4/4): wearables',
+  ponte='Vem de: o plano da Clara e a pergunta "e depois da consulta?" (M1-07). Fecha as quatro frentes. Leva para: se os dados ficam no atendimento, o que o RH vê (M1-09).'),
+
+ # ---------------- CAPÍTULO 3 · O QUE MUDA PARA A EMPRESA (semana 3) ----------------
+ de(7, sem=3, cena=PRO,
+  ponte='Vem de: "os dados ficam no atendimento; o RH vê só o grupo" (M1-08). Muda o ponto de vista: da pessoa para a empresa. Leva para: por que isso não é mais um benefício (M1-10).',
+  roteiro='Reel de 25 a 30 s, gravação de tela.\n0–3 s: "Os dados de cada pessoa ficam no atendimento. Então, o que o RH vê?"\n3–15 s: rolagem pelo painel (adesão, retorno, temas mais procurados), dados ilustrativos.\n15–22 s: "O que o RH não vê: o que cada pessoa contou."\n22–30 s: "Indicadores do grupo para cuidar antes." + logo.'),
+ de(6, sem=3, cena=PRO,
+  ponte='Vem de: o RH acompanha por indicadores do grupo (M1-09). Junta tudo o que veio antes numa frase. Leva para: e as pessoas usam? (M1-11).',
+  roteiro='6 slides.\n1 Capa: "Não é benefício. É infraestrutura de cuidado."\n2 Benefício: a pessoa usa se lembrar. Infraestrutura: está lá todo dia, dentro da empresa.\n3 Benefício: espera o problema aparecer. Infraestrutura: começa antes.\n4 Benefício: é um cartão. Infraestrutura: é gente acompanhando, com um plano para cada pessoa.\n5 Benefício: termina na adesão. Infraestrutura: o RH acompanha o cuidado por indicadores do grupo.\n6 "Infraestrutura só faz sentido se as pessoas usam. No próximo post, o que vimos numa indústria que atendemos." (ponte)'),
+ de(9, sem=3,
+  ponte='Vem de: "infraestrutura só faz sentido se as pessoas usam" (M1-10). Prova com o número liberado. Leva para: por que as pessoas voltam, em que a gente acredita (M1-12).'),
+ dict(sem=3, linha=I, arg=AP, cena=PRO, tema='Em que a gente acredita (manifesto do slogan)', serie='',
+  titulo='Fazemos o certo pelos motivos certos', persona=f'{RH}; {COL}; {CL}',
+  nec='Por que confiar nessa marca? O que move a fairhealth?',
+  obj='Dizer em que a marca acredita e fechar o capítulo 3 com o slogan', formato=C,
+  porque='Carrossel de crenças, uma por slide: depois da prova, explica o porquê. É a peça que transforma o slogan em compromisso.',
+  canal=IGLI, collab=FJ,
+  msg='A pessoa no centro, não o protocolo. Proximidade gera adesão. Tecnologia a serviço das pessoas. Cuidar antes. E o retorno para a empresa é consequência, não ponto de partida.',
+  fonte='Essência da fairhealth (instagram/essencia.md: "Em que a gente acredita", a partir do site e da apresentação institucional).',
+  valid='Sócios aprovam as crenças como manifesto da marca. Sem números. Não citar operadoras nem marcas de terceiros.',
+  status='Pauta proposta',
+  ponte='Vem de: "quando o cuidado está perto, as pessoas voltam" (M1-11). Leva para: o capítulo 4, um convite para cada pessoa: quem é cuidado, quem lidera e quem decide (M1-13).',
+  texto='Fazemos o certo pelos motivos certos.\n\nO que a gente acredita, em cinco frases:\n\nA pessoa no centro, não o protocolo.\nProximidade gera adesão: por isso o cuidado fica dentro da empresa.\nTecnologia serve às pessoas, não o contrário.\nCuidar antes, e não só depois que a doença aparece.\nO retorno para a empresa é consequência, não ponto de partida.\n\nÉ por isso que, numa indústria que atendemos, as pessoas voltaram. Não porque foram chamadas, mas porque se sentiram cuidadas.\n\nNa semana que vem, um convite para cada um: para quem é cuidado, para quem lidera e para quem decide.\n\n' + HT_FH,
+  roteiro='7 slides.\n1 Capa: "Fazemos o certo pelos motivos certos."\n2 A pessoa no centro, não o protocolo.\n3 Proximidade gera adesão: a maior barreira ao cuidado é tempo e acesso.\n4 Tecnologia serve às pessoas, não o contrário. Cuidado presencial e relação genuína.\n5 Cuidar antes.\n6 O retorno para a empresa é consequência, não ponto de partida.\n7 "O que é importante para você?" + logo.',
+  criativo='Modelo M2 (uma frase por slide), tipografia Raleway, fio contínuo atravessando os slides. Sem foto.',
+  coment='Peça nova (13/10) para fechar o capítulo 3. Substitui, no Mês 1, as duas peças do artigo sobre NR-1, que foram para o Mês 2.',
+  antes='novo'),
+
+ # ---------------- CAPÍTULO 4 · O CONVITE (semana 4) ----------------
+ de(13, sem=4, serie='Pilares da MEV (1/7: sono)',
+  ponte='Vem de: as crenças e o anúncio do capítulo 4 (M1-12). Primeiro convite: para quem é cuidado. Retoma a Clara (M1-07): a primeira ação do plano dela era dormir 30 minutos mais cedo. Leva para: o convite para quem lidera (M1-14). Abre a série dos pilares, que segue no Mês 2.',
+  roteiro='Reel de 24 a 29 s.\n0–3 s: "Acorda cansado mesmo dormindo?"\n3–6 s: "Lembra da Clara? A primeira ação do plano dela era dormir 30 minutos mais cedo." (história ilustrativa)\n6–9 s: em texto calmo: "Para adultos, o sono saudável fica entre 7 e 9 horas." (fonte discreta: RAND Europe, 2016)\n9–21 s: 3 hábitos, um por cena (tela antes de dormir, horário regular, cafeína à tarde).\n21–29 s: "Se o cansaço não passa, conversa com a gente no Escritório do Cuidado." + logo.\nLegenda (opcional, para o RH no LinkedIn): um estudo da RAND Europe estimou que a falta de sono custa mais de 1 milhão de dias de trabalho por ano só nos Estados Unidos.'),
+ de(14, sem=4,
+  ponte='Vem de: o convite para quem é cuidado (M1-13). Segundo convite: para quem lidera, com a mesma pergunta da marca. Leva para: a ciência por trás do cuidado (M1-15).',
+  roteiro='6 slides.\n1 Capa: "Uma pergunta que todo líder pode fazer."\n2 Ontem, o convite foi para quem é cuidado. Hoje, para quem lidera. Em 2022, a OMS publicou suas primeiras diretrizes sobre saúde mental no trabalho. Uma das recomendações: preparar as lideranças.\n3 Para quê? Para prevenir ambientes de estresse e acolher quem está em sofrimento.\n4 Não é virar terapeuta. É perguntar, ouvir e saber para onde encaminhar.\n5 Um bom começo: "O que é importante para você?", a mesma pergunta com que esta história começou.\n6 Líder, quando foi a última vez que você fez essa pergunta? Conta nos comentários. Fonte: OMS, 2022.\nStories no mesmo dia com caixa de perguntas.'),
+ de(16, sem=4,
+  ponte='Vem de: o convite para quem lidera (M1-14). Mostra, com um estudo clássico, por que o cuidado começa pela rotina, o fio do mês inteiro. Leva para: como esse cuidado chega à sua empresa (M1-16).',
+  roteiro='7 slides.\n1 Capa: "Estilo de vida também é tratamento sério."\n2 Neste sábado, 14/11, é o Dia Mundial do Diabetes. Vale lembrar de um estudo que mudou a forma de cuidar.\n3 Mais de 3 mil adultos com risco aumentado de diabetes tipo 2 foram acompanhados por quase 3 anos.\n4 Quem mudou a rotina (alimentação e 150 minutos de atividade física por semana) teve 58% menos casos novos do que o grupo placebo.\n5 Em texto menor: mais do que o grupo que recebeu medicamento (31%).\n6 Não é promessa: é a ciência dizendo que a rotina importa. Por isso o nosso cuidado começa nela, com um plano feito para cada pessoa.\n7 "Amanhã: como esse cuidado chega à sua empresa." Fonte completa: Diabetes Prevention Program, N Engl J Med, 2002.'),
+ de(15, sem=4,
+  titulo='Uma pergunta, um hospital, um escritório. E agora, a sua empresa',
+  obj='Fechar o capítulo do mês: relembrar a história em poucos segundos e deixar claro o primeiro passo para o RH',
+  porque='Reel de fechamento: recapitula o mês em quatro frases (quem acompanhou reconhece cada post) e termina no caminho comercial. É o terceiro convite: para quem decide.',
+  msg='Uma pergunta, um hospital, um escritório dentro da empresa, um plano para cada pessoa. Para levar esse cuidado à sua empresa: diagnóstico, proposta personalizada e implementação. Fale com a gente pelo direct.',
+  valid='"Diagnóstico" sem "gratuito" (decisão de 12/10). Não citar prazos de cada etapa sem confirmação. Confirmar quem responde o direct.',
+  ponte='Vem de: a ciência por trás do cuidado (M1-15). Fecha o mês recontando a história (M1-01, M1-02, M1-05 e M1-07) e faz o convite para quem decide. Leva para: o próximo capítulo, "Prevenção também é investimento" (M2-01, 16/11).',
+  roteiro='Reel de 25 a 30 s, motion.\n0–8 s: recapitulação, uma frase por corte: "Uma pergunta." · "Um hospital." · "Um escritório dentro da empresa." · "Um plano para cada pessoa."\n8–11 s: "E agora, a sua empresa."\n11–15 s: PASSO 1 · Diagnóstico\n15–19 s: PASSO 2 · Proposta personalizada\n19–23 s: PASSO 3 · Implementação e primeiros atendimentos\n23–30 s: "Fale com a gente pelo direct." + "Fazemos o certo pelos motivos certos." + logo.',
+  criativo='Modelo M2 (passos) animado e M1 no fim. Os três passos repetem o último slide do M1-04, de propósito.'),
+]
+
+# Posts já decididos para o Mês 2 (entram no fim da aba Calendário; semana 5 = semana 1 do Mês 2).
+# off = dia da semana (0 = segunda).
 ROWS_M2 = [
- dict(sem=5, linha=J, arg='Stop Loss', cena=PRO, tema='Ciência: prevenção como investimento', serie='Ciência no cuidado',
+ dict(sem=5, off=0, linha=J, arg='Stop Loss', cena=PRO, tema='Ciência: prevenção como investimento', serie='Ciência no cuidado',
   titulo='Prevenção também é investimento', persona=f'{RH}; {CFO}',
   nec='Prevenção dá retorno para a empresa ou é só mais um custo?',
   obj='Mostrar, com estudos externos e a fonte visível, que prevenção também é investimento', formato=FU,
@@ -276,24 +394,39 @@ ROWS_M2 = [
   fonte='Harvard Business Review (2022); SHRM (2023). Números oficiais desde 25/09 (instagram/voice.md).',
   valid='Confirmar o que cada estudo mediu (tipo de programa e população) antes de publicar. São estudos externos, nunca resultado da Fair Health. ' + NUM_SUAVE,
   status='Em revisão',
+  ponte='Vem de: o fechamento do Mês 1 (M1-16) e a crença "o retorno é consequência, não ponto de partida" (M1-12). Leva para: o capítulo da NR-1 (M2-02).',
   texto='Prevenção também é investimento.\n\nCuidar antes faz bem para as pessoas. E os estudos mostram que também faz diferença para a empresa:\n\n−28% de absenteísmo (Harvard Business Review, 2022)\n−22% de custos com saúde (SHRM, 2023)\n\nSão números de estudos externos, não uma promessa de resultado.\n\nÉ esse o trabalho da fairhealth: medicina preventiva, dentro da empresa, com um plano de cuidado para cada pessoa.\n\nQuer conversar sobre isso na sua empresa? Fale com a gente pelo direct.\n\n#fairhealth #saudecorporativa #medicinapreventiva #absenteismo #gestaodepessoas',
   roteiro='Foto única 1080x1350, já pronta. Se quisermos explicar melhor cada estudo, vira um carrossel curto: capa, um número por slide com a fonte, fechamento.',
-  criativo='Canva: design "O que é a fairhealth · carrossel v7", página guardada depois do carrossel (luz tiffany, números em tiffany, sem brilho). Repositório: instagram/posts/o-que-e-a-fairhealth/png-v10/d10.png.',
-  coment='Decisão da Nina (12/10): o slide de números saiu do carrossel "O que é a fairhealth" (limite de 10 fotos do Instagram) e vira um post separado.'),
+  criativo='Canva: design DAHX17FZzNQ, "Prevenção também é investimento · post M2-01" (https://www.canva.com/d/E6Gp2hFDhnNw1ME). Tirar as bolinhas de paginação e a etiqueta do carrossel. Repositório: instagram/posts/o-que-e-a-fairhealth/png-v10/d10.png.',
+  coment='Decisão da Nina (12/10): o slide de números saiu do carrossel "O que é a fairhealth" (limite de 10 fotos do Instagram) e vira um post separado.',
+  antes='M2-01'),
+ de(4, sem=5, off=1,
+  ponte='Abre o capítulo da NR-1 no Mês 2. Vem de: prevenção também é investimento (M2-01). A ligação com a marca fica no último slide: a parte da empresa começa antes. Leva para: a pergunta maior (M2-03).',
+  coment='Saiu do Mês 1 em 13/10: o Mês 1 conta a história da marca, e o Mês 2 é o mês da NR-1. Data e posição a revisar quando o Mês 2 for montado.'),
+ de(12, sem=5, off=3,
+  ponte='Vem de: o artigo sobre riscos psicossociais (M2-02). Liga a pergunta do artigo à pergunta da marca ("o que é importante para você?").',
+  coment='Saiu do Mês 1 em 13/10, junto com o M2-02. Data e posição a revisar quando o Mês 2 for montado.'),
 ]
 
-# checagens: 16 no mês, 4 por semana, sem linha repetida em sequência, vídeo intercalado
+# Mapa dos IDs de 12/10 para os de 13/10 (para as abas auxiliares e para quem procurar o ID antigo)
+NOVO_ID = {r['antes']: f'M1-{k + 1:02d}' for k, r in enumerate(ROWS) if r['antes'].startswith('M1-')}
+NOVO_ID.update({r['antes']: f'M2-{k + 1:02d}' for k, r in enumerate(ROWS_M2) if r['antes'].startswith('M1-')})
+import re as _re
+def novos_ids(txt):
+    # "novo:M1-xx" marca um ID que já é da ordem de 13/10 e não deve ser trocado
+    return _re.sub(r'(?<!novo:)M1-\d\d', lambda m: NOVO_ID.get(m.group(0), m.group(0)), txt).replace('novo:', '')
+
+# checagens: 16 no mês, 4 por semana, toda peça com a ponte, nenhuma pauta de 12/10 perdida
 assert len(ROWS) == 16
-for k in range(1, len(ROWS)):
-    assert ROWS[k]['linha'] != ROWS[k - 1]['linha'], (k, ROWS[k]['titulo'])
 for k, r in enumerate(ROWS):
-    assert (r['formato'] == V) == (k % 2 == 0), (k, r['titulo'], r['formato'])
     assert r['sem'] == k // 4 + 1, (k, r['titulo'])
+    assert r.get('ponte'), r['titulo']
+assert sorted(NOVO_ID) == [f'M1-{n:02d}' for n in range(1, 17)], sorted(NOVO_ID)
 
 COLS = [
     ('ID', 8, None), ('Mês', 8, None), ('Semana', 8, None), ('Data sugerida', 12, None),
     ('Linha editorial', 16, 'linha'), ('Argumento', 16, 'arg'), ('Cena', 11, 'cena'), ('Tema', 20, 'tema'),
-    ('Série (parte)', 22, 'serie'), ('Título provisório', 36, 'titulo'), ('Persona', 20, 'persona'),
+    ('Série (parte)', 22, 'serie'), ('Título provisório', 36, 'titulo'), ('Fio da história (vem de → leva para)', 44, 'ponte'), ('Persona', 20, 'persona'),
     ('Necessidade ou pergunta da persona', 34, 'nec'), ('Objetivo', 28, 'obj'), ('Formato', 11, 'formato'),
     ('Por que este formato', 40, 'porque'), ('Canal', 18, 'canal'), ('Collab / perfis', 24, 'collab'),
     ('Mensagem principal', 44, 'msg'), ('Fonte', 34, 'fonte'), ('Validação necessária', 40, 'valid'),
@@ -312,11 +445,12 @@ ws0 = wb.active
 ws0.title = 'Como usar'
 linhas = [
     ('Calendário editorial · Fair Health · Instagram e LinkedIn', TITULO),
-    ('Versão de 09/10/2026: planejamento MENSAL (um mês por vez). A versão anterior, de 90 dias, está em marketing/arquivo/.', NORMAL),
+    ('Versão de 13/10/2026: o Mês 1 foi reorganizado como a história da marca, em quatro capítulos, e cada post se liga ao anterior e ao seguinte (coluna "Fio da história"). As versões anteriores (90 dias, 09/10 e 12/10) estão em marketing/arquivo/.', NORMAL),
     ('', NORMAL),
     ('O mês conta uma história', CAB),
     ('Fio de todos os meses: "Cuidar antes". O plano de saúde trata depois; a Fair Health cuida antes, dentro da empresa, começando por uma pergunta.', NORMAL),
-    ('Cada mês trabalha um argumento do grupo (aba Visão do mês) e cada semana é uma cena: Abertura/Dor ("isso é comigo?"), Virada ("como a Fair Health resolve?"), Prova ("por que acreditar?") e Convite ("como começo?").', NORMAL),
+    ('Cada mês trabalha um argumento do grupo (aba Visão do mês) e cada semana é um capítulo. No Mês 1: Por que existimos, Por dentro do cuidado, O que muda para a empresa e O convite.', NORMAL),
+    ('Regra de 13/10: nenhum post entra solto. Cada um retoma o anterior (na primeira frase da legenda ou no primeiro slide) e puxa o próximo (no fim). A pergunta "O que é importante para você?" aparece em todos.', NORMAL),
     ('Base: instagram/posicionamento-e-plano-mensal.md (análise da arquitetura de marcas e do posicionamento v3.2).', NORMAL),
     ('', NORMAL),
     ('Restrições em vigor (09/10)', CAB),
@@ -324,7 +458,7 @@ linhas = [
     ('2. Não filmamos clientes: nada gravado dentro das empresas-clientes nem com pessoas atendidas. Os vídeos do mês são de tipografia, motion, gravação de tela ou imagem de banco (aba Formatos).', NORMAL),
     ('3. Nunca citamos nomes reais de pessoas ou empresas nos posts. Quando a história precisa de alguém, usamos personagem fictícia, sinalizada como "história ilustrativa". O artigo da RH Pra Você (25/09/2026) é citado só pelo título e pelo veículo.', NORMAL),
     ('4. Números são bem-vindos, mas o foco é o cuidado: a frase de cuidado vem primeiro e o número entra como contexto, em tom calmo, com a fonte visível (regras na aba Ciência).', NORMAL),
-    ('5. Artigos científicos e fontes oficiais viram posts que conectam a evidência ao nosso trabalho (aba Ciência). Medicina do Estilo de Vida: 6 pilares, sem espiritualidade (a confirmar).', NORMAL),
+    ('5. Artigos científicos e fontes oficiais viram posts que conectam a evidência ao nosso trabalho (aba Ciência). Medicina do Estilo de Vida: 7 pilares, com espiritualidade e propósito (decisão da Nina, 12/10).', NORMAL),
     ('', NORMAL),
     ('Como trabalhamos nesta planilha', CAB),
     ('1. Revisão mensal (conjunta): antes de o mês começar, revisamos temas, títulos, personas e datas. Pauta aprovada muda de "Pauta proposta" para "Pauta aprovada". Ao fim do mês, montamos o próximo a partir do Banco de ideias.', NORMAL),
@@ -333,7 +467,7 @@ linhas = [
     ('4. Datas: a data de início (célula amarela na aba Calendário) recalcula todas as datas sugeridas. Para mudar uma data só, digite a nova data por cima.', NORMAL),
     ('', NORMAL),
     ('Cadência proposta (a validar)', CAB),
-    ('4 publicações por semana no feed, alternando vídeo e estático/carrossel (2 vídeos por semana). As três linhas editoriais entram em rodízio: duas peças seguidas nunca são da mesma linha.', NORMAL),
+    ('4 publicações por semana no feed. A ordem segue a história (decisão de 13/10): vídeo e carrossel se alternam quando a história deixa, e o equilíbrio de formatos e linhas é conferido no mês inteiro (aba Visão do mês), não peça a peça.', NORMAL),
     ('Os dias da semana NÃO estão definidos: as datas são uma distribuição sugerida (evitando feriados nacionais). Stories ficam fora da contagem e servem de apoio: link do artigo, caixa de perguntas, repost.', NORMAL),
     ('', NORMAL),
     ('Marcações', CAB),
@@ -346,7 +480,7 @@ linhas = [
     ('', NORMAL),
     ('Abas', CAB),
     ('Visão do mês: argumento, a história semana a semana e o equilíbrio do mês (contagens automáticas).', NORMAL),
-    ('Calendário: as 16 pautas do mês, uma por linha, com Argumento, Cena, Persona e "Por que este formato".', NORMAL),
+    ('Calendário: as 16 pautas do mês, uma por linha, com Argumento, Cena, Fio da história, Persona e "Por que este formato". A coluna Comentários traz o ID antigo de cada pauta.', NORMAL),
     ('Formatos: os formatos usados no mês, por que funcionam e o que cada um precisa para ser produzido sem time em cena e sem gravar nas empresas.', NORMAL),
     ('Ciência: estudos e fontes oficiais com referência, o que encontraram, como apresentar o número com suavidade e a ligação com o nosso trabalho.', NORMAL),
     ('Fontes: o artigo da RH Pra Você, os números internos liberados e o que não usar.', NORMAL),
@@ -381,6 +515,17 @@ for j, (nome, larg, _) in enumerate(COLS, 1):
     ws.column_dimensions[get_column_letter(j)].width = larg
 ws.row_dimensions[HR].height = 30
 
+def escreve(row, r, novo):
+    for j, (_, _, key) in enumerate(COLS, 1):
+        if key:
+            v_ = r.get(key, '') or None
+            if key == 'coment' and r.get('antes') not in (None, 'novo', novo):
+                v_ = (f'Antes: {r["antes"]} (ordem de 12/10). ' + (v_ or '')).strip()
+            ws.cell(row=row, column=j, value=v_)
+    for j in range(1, len(COLS) + 1):
+        c = ws.cell(row=row, column=j)
+        c.font, c.alignment, c.border = NORMAL, WRAP, BORDA
+
 for k, r in enumerate(ROWS):
     row = HR + 1 + k
     pos = k % 4
@@ -389,25 +534,15 @@ for k, r in enumerate(ROWS):
     ws.cell(row=row, column=3, value=r['sem'])
     d = ws.cell(row=row, column=4, value=f'=$D$2+(C{row}-1)*7+{OFF[r["sem"]][pos]}')
     d.number_format = 'DD/MM/YYYY'
-    for j, (_, _, key) in enumerate(COLS, 1):
-        if key:
-            ws.cell(row=row, column=j, value=r.get(key, '') or None)
-    for j in range(1, len(COLS) + 1):
-        c = ws.cell(row=row, column=j)
-        c.font, c.alignment, c.border = NORMAL, WRAP, BORDA
+    escreve(row, r, f'M1-{k + 1:02d}')
 for k, r in enumerate(ROWS_M2):
     row = HR + 1 + len(ROWS) + k
     ws.cell(row=row, column=1, value=f'M2-{k + 1:02d}')
     ws.cell(row=row, column=2, value='Mês 2')
     ws.cell(row=row, column=3, value=r['sem'])
-    d = ws.cell(row=row, column=4, value=f'=$D$2+(C{row}-1)*7+0')
+    d = ws.cell(row=row, column=4, value=f'=$D$2+(C{row}-1)*7+{r.get("off", 0)}')
     d.number_format = 'DD/MM/YYYY'
-    for j, (_, _, key) in enumerate(COLS, 1):
-        if key:
-            ws.cell(row=row, column=j, value=r.get(key, '') or None)
-    for j in range(1, len(COLS) + 1):
-        c = ws.cell(row=row, column=j)
-        c.font, c.alignment, c.border = NORMAL, WRAP, BORDA
+    escreve(row, r, f'M2-{k + 1:02d}')
 last = HR + len(ROWS) + len(ROWS_M2)
 ultima_col = get_column_letter(len(COLS))
 ws.freeze_panes = f'{COLUNA["Persona"]}5'
@@ -471,13 +606,15 @@ rng = lambda c: f"{R}!${c}$5:${c}$400"
 info = [
     ('Mês', 'Mês 1'),
     ('Período', f'=TEXT({R}!$D$2,"DD/MM")&" a "&TEXT({R}!$D$2+27,"DD/MM")'),
-    ('Capítulo', '"Tudo começa com uma pergunta": quem somos, por que cuidar antes e como o cuidado funciona.'),
-    ('Argumento principal', f'{LBE}, com a apresentação da marca. A NR-1 entra como contexto (artigo da RH Pra Você) e a ciência sustenta o mês (OMS, Diabetes Prevention Program, RAND).'),
+    ('Capítulo', '"Tudo começa com uma pergunta": a história da marca, contada em quatro capítulos.'),
+    ('A história em uma frase', 'Uma pergunta nasceu num hospital, mudou para dentro da empresa para cuidar antes, virou quatro frentes de cuidado, mudou o que a empresa enxerga e termina num convite para cada pessoa.'),
+    ('Argumento principal', f'Apresentação da marca, com {LBE}. A ciência sustenta o mês (OMS, Diabetes Prevention Program, RAND). A NR-1 fica para o Mês 2, que é o mês dela.'),
+    ('Como os posts se ligam', '1. Cada post retoma o anterior e puxa o próximo (coluna "Fio da história"). 2. A pergunta "O que é importante para você?" aparece em todos. 3. A semana 2 abre, uma a uma, as quatro frentes apresentadas no "O que é a fairhealth" (M1-04). 4. A Clara, personagem fictícia, costura o plano (M1-07) e o sono (M1-13). 5. O último post do mês recapitula a história em quatro frases (M1-16). 6. [SUGESTÃO] Etiqueta de capítulo na capa.'),
     ('Mensagem do mês', 'Todo afastamento tem um antes. A Fair Health cuida nesse antes: dentro da empresa, com gente de verdade, começando por uma pergunta.'),
     ('Frase-tese', 'Não é benefício. É infraestrutura de cuidado.'),
     ('Restrições', 'Sem apresentar o time (questão administrativa), sem filmar clientes e sem nomes reais (personagens fictícias quando preciso). Vídeos de tipografia, motion, gravação de tela ou imagem de banco.'),
     ('Números', 'Sim, com suavidade: cuidado primeiro, número como contexto, fonte visível. Um número principal por peça.'),
-    ('Datas do calendário', '02/11 feriado (Finados): a semana 3 começa na terça. 14/11 (sábado) Dia Mundial do Diabetes: post de ciência na véspera (M1-16) e stories no dia. Novembro Azul: só se houver conexão real.'),
+    ('Datas do calendário', '02/11 feriado (Finados): a semana 3 começa na terça. 14/11 (sábado) Dia Mundial do Diabetes: post de ciência na quinta, 12/11 (M1-15), e stories no dia. Novembro Azul: só se houver conexão real.'),
 ]
 for i, (k_, v_) in enumerate(info, 4):
     a = wv.cell(row=i, column=1, value=k_)
@@ -487,12 +624,12 @@ for i, (k_, v_) in enumerate(info, 4):
     wv.merge_cells(start_row=i, start_column=2, end_row=i, end_column=8)
 r0 = 4 + len(info) + 1
 wv.cell(row=r0, column=1, value='A história semana a semana').font = Font(name=F, bold=True, size=12, color=TEXTO)
-cab = ['Semana', 'Cena', 'Pergunta que responde', 'Peças (IDs)', 'Total', 'Vídeos', 'Institucional', 'Produto', 'Projetos']
+cab = ['Semana', 'Capítulo', 'Pergunta que responde', 'Peças (IDs)', 'Total', 'Vídeos', 'Institucional', 'Produto', 'Projetos']
 SEMANAS = [
-    (1, 'Abertura e Dor', '"Isso é comigo?" A marca se apresenta e o RH se reconhece no problema.', 'M1-01 a M1-04'),
-    (2, 'Virada', '"Como a Fair Health resolve?" Método, tese e o que o RH recebe.', 'M1-05 a M1-08'),
-    (3, 'Prova', '"Por que acreditar?" Adesão, acompanhamento, origem e autoridade.', 'M1-09 a M1-12'),
-    (4, 'Convite', '"Como começo?" Para o colaborador, o líder e o RH, com a ciência por trás do cuidado.', 'M1-13 a M1-16'),
+    (1, CAP[1], '"Quem são vocês e por que existem?" A pergunta, de onde ela veio, por que cuidar antes e quem somos.', 'M1-01 a M1-04'),
+    (2, CAP[2], '"Como o cuidado funciona?" As quatro frentes, uma a uma, seguindo uma pessoa.', 'M1-05 a M1-08'),
+    (3, CAP[3], '"E para a empresa?" O que o RH vê, a tese, a adesão e em que a gente acredita.', 'M1-09 a M1-12'),
+    (4, CAP[4], '"Como começo?" Um convite para quem é cuidado, para quem lidera e para quem decide, com a ciência por trás.', 'M1-13 a M1-16'),
 ]
 for j, t in enumerate(cab, 1):
     c = wv.cell(row=r0 + 1, column=j, value=t)
@@ -532,7 +669,8 @@ for j, w in enumerate([22, 16, 44, 16, 9, 9, 13, 10, 10], 1):
     wv.column_dimensions[get_column_letter(j)].width = w
 
 # ---------- tabelas auxiliares ----------
-def tabela(ws_, r0, titulo, cab_, dados):
+def tabela(ws_, r0, titulo, cab_, dados, remap=True):
+    # remap: troca os IDs de 12/10 pelos de 13/10 (o Banco de ideias cita IDs do calendário de 90 dias e fica como está)
     ws_.cell(row=r0, column=1, value=titulo).font = Font(name=F, bold=True, size=12, color=TEXTO)
     for j, t in enumerate(cab_, 1):
         c = ws_.cell(row=r0 + 1, column=j, value=t)
@@ -540,7 +678,7 @@ def tabela(ws_, r0, titulo, cab_, dados):
         c.alignment = Alignment(wrap_text=True, vertical='center')
     for i, linha in enumerate(dados, r0 + 2):
         for j, v in enumerate(linha, 1):
-            c = ws_.cell(row=i, column=j, value=v)
+            c = ws_.cell(row=i, column=j, value=novos_ids(v) if remap and isinstance(v, str) else v)
             c.font, c.alignment, c.border = NORMAL, WRAP, BORDA
     return r0 + 2 + len(dados) + 1
 
@@ -649,7 +787,7 @@ tabela(wfo, 1, 'Fontes internas, o artigo e o que não usar (nomes de clientes s
      'História de origem e prova do modelo, sem o nome do hospital.', 'Liberado (instagram/voice.md).', 'Banco de ideias'),
     ('Harvard Business Review (2022) e SHRM (2023)', '−28% de absenteísmo (HBR 2022); −22% de custos com saúde (SHRM 2023).',
      'Argumento de retorno, sempre com a fonte. Post próprio em 16/11 (saiu do carrossel "O que é a fairhealth").', 'Liberado (instagram/voice.md). Falta confirmar o que cada estudo mediu.', 'M2-01'),
-    ('ACLM e CBMEV', 'Definição de Medicina do Estilo de Vida e seus 6 pilares: alimentação, atividade física, sono, manejo do estresse, relacionamentos e evitar substâncias de risco.', 'Base do explicador de MEV.', 'Responsável médica confere. Espiritualidade fora (a confirmar).', 'M1-05'),
+    ('ACLM e CBMEV', 'Definição de Medicina do Estilo de Vida e seus pilares. O conteúdo usa 7: os seis do one-pager (alimentação saudável, movimento, gerenciamento de estresse, sono de qualidade, manejo de vícios e relacionamentos) mais espiritualidade e propósito.', 'Base do explicador de MEV.', 'Responsável médica confere a definição. 7 pilares por decisão da Nina (12/10).', 'M1-05'),
     ('Não usar', '"23% mais caro", "R$ 2.400 por colaborador", "maior índice de burnout" (sem fonte no posicionamento); −27%, "R$ 2,70 por R$ 1" e "70% dos custos do plano"; "validado no SUS" até confirmar.',
      '—', 'Bloqueado até ter fonte.', '—'),
 ])
@@ -669,6 +807,8 @@ tabela(wb_, 1, 'Banco de ideias: o que ficou para depois e os próximos meses',
     ('Workshops nos pilares (fotos reais)', 'Calendário de 90 dias (M1-06, M2-13)', 'Aguardando material',
      'Fotos de encontros expõem clientes. Possível versão só com materiais e slides do workshop.', 'Mês de Ambiente positivo'),
     ('Registro do mês', 'Calendário de 90 dias', 'Aguardando pauta', 'Depende da agenda de eventos e entregas.', 'Quando houver evento próprio'),
+    ('Artigo da RH Pra Você sobre riscos psicossociais (carrossel e card de citação)', 'Mês 1 (ordem de 12/10: M1-04 e M1-12)', 'Pauta proposta',
+     'Saiu do Mês 1 em 13/10, porque o Mês 1 conta a história da marca. Abre o capítulo da NR-1.', 'Mês 2, semana 1 (M2-02 e M2-03)'),
     ('Checklist "Antes de preencher a planilha: 5 perguntas sobre riscos psicossociais"', 'Mês 1 (versão de 09/10)', 'Ideia',
      'Saiu do Mês 1 para dar lugar ao post de ciência do Dia Mundial do Diabetes. Abre bem o mês da NR-1.', 'Mês 2, semana 1'),
     ('Série NR-1 (contexto, diagnóstico, cuidado individualizado, acompanhamento, versão para colaboradores)', 'Plano mensal (Mês 2)', 'Ideia',
@@ -677,12 +817,14 @@ tabela(wb_, 1, 'Banco de ideias: o que ficou para depois e os próximos meses',
      'Estudos na aba Ciência: atividade física e saúde mental (Singh, 2023), relações sociais (Holt-Lunstad, 2010), estressores do trabalho (Goh, 2016), OMS (12 bilhões de dias).', 'Todo mês'),
     ('"O que nos diferencia": plano de saúde, plataformas de bem-estar e QVT (3 posts)', 'Posicionamento v3.2', 'Ideia', 'Falar da categoria, sem citar marcas.', 'Mês 2 ou 3'),
     ('"Quem cuida também precisa de cuidado" (edição especial para a saúde)', 'Posicionamento v3.2 (arenas)', 'Ideia', 'Liga a origem hospitalar ao cuidado de quem cuida.', 'Mês 3'),
-    ('Pilares da MEV, um por vez (alimentação, atividade física, manejo do estresse, relacionamentos, evitar substâncias de risco)', 'Calendário de 90 dias', 'Ideia',
-     '6 pilares, sem espiritualidade (a confirmar). Sono já entra no Mês 1.', 'Um pilar por mês'),
+    ('Pilares da MEV, um por vez (alimentação saudável, movimento, gerenciamento de estresse, manejo de vícios, relacionamentos, espiritualidade e propósito)', 'Calendário de 90 dias', 'Ideia',
+     '7 pilares (decisão da Nina, 12/10). Sono abre a série no Mês 1 (M1-13), retomando a Clara do M1-07.', 'Um pilar por mês'),
+    ('Etiqueta de capítulo na capa ("Capítulo 1 · Por que existimos" e assim por diante)', 'Reorganização de 13/10', 'Ideia',
+     '[SUGESTÃO] Ajuda quem chega pelo perfil a ler os posts como uma sequência. Fica pequena, no lugar da etiqueta de tema.', 'Mês 1, se aprovada'),
     ('Histórias com personagens fictícias (um dia na rotina de quem é cuidado)', 'Decisão de 09/10', 'Ideia', 'Sempre sinalizadas como ilustrativas.', 'Todo mês, 1 peça'),
     ('Case do hospital onde o modelo começou (sem o nome)', 'voice.md (liberado)', 'Ideia', 'Prova da origem do modelo.', 'Mês de Stop Loss ou de prova'),
     ('Indicadores para o RH (HBR 2022, SHRM 2023)', 'voice.md (liberado)', 'Pauta proposta', 'Virou o post M2-01 "Prevenção também é investimento" (arte pronta, saiu do carrossel "O que é a fairhealth" em 12/10).', 'Mês 2, semana 1 (M2-01)'),
-])
+], remap=False)
 
 # ---------- Linhas e personas ----------
 wp = wb.create_sheet('Linhas e personas', 7)
@@ -714,7 +856,7 @@ pend = [
     ('Onde gravar o vídeo de abertura sem time e sem empresa-cliente (local próprio ou neutro) ou montar com fotos e tipografia.', 'Comunicação', 'M1-01', 'Aberta'),
     ('Assistentes sociais fazem parte do atendimento? (o posicionamento cita médico e psicológico)', 'Time Fair Health', 'M1-01', 'Aberta'),
     ('Nome da responsável médica que valida o conteúdo clínico e lê os estudos da aba Ciência.', 'Time Fair Health', 'Todas as pautas com "responsável médica"; M1-13, M1-14, M1-16', 'Aberta'),
-    ('Pilares da MEV: 6 (ACLM), sem espiritualidade. Decisão de 09/10, ainda sem certeza.', 'Responsável médica + sócios', 'M1-05 e série Pilares', 'Aberta'),
+    ('Pilares da MEV: 6 (ACLM), sem espiritualidade. Decisão de 09/10, ainda sem certeza.', 'Responsável médica + sócios', 'M1-05 e série Pilares', 'Resolvida em 12/10: 7 pilares, com espiritualidade e propósito (decisão da Nina).'),
     ('Conferir no painel oficial do Ministério da Previdência o número de licenças por transtornos mentais em 2024 (veículos divulgam 440 mil e 472 mil).', 'Comunicação', 'M1-03', 'Aberta'),
     ('Nome único do plano: Plano Individualizado de Cuidado ou Plano de Cuidado Personalizado (PPC).', 'Sócios', 'M1-08', 'Aberta'),
     ('Etapas e prazos clínicos: bioimpedância, smartband por 48 h, retorno.', 'Responsável médica', 'M1-02, M1-08, M1-10', 'Aberta'),
@@ -723,6 +865,9 @@ pend = [
     ('Collab no Instagram e LinkedIn pela FairJob: quem publica, quem aceita o convite.', 'Comunicação + FairJob', 'Todas as pautas', 'Aberta'),
     ('O que mediram os estudos de −28% de absenteísmo (Harvard Business Review, 2022) e −22% de custos com saúde (SHRM, 2023): tipo de programa e população.', 'Comunicação + responsável médica', 'M2-01', 'Aberta'),
     ('Destino do link e da chamada CUIDADO (www.fairhealth.com.br) e quem responde comentários e DMs.', 'Comunicação', 'M1-06, M1-15', 'Aberta'),
+    ('Origem e licença das fotos dos pilares (enviadas em 12/10).', 'Comunicação', 'novo:M1-04', 'Aberta'),
+    ('Aprovar as cinco crenças do manifesto "Fazemos o certo pelos motivos certos".', 'Sócios', 'novo:M1-12', 'Aberta'),
+    ('Etiqueta de capítulo na capa dos posts do Mês 1 [SUGESTÃO].', 'Nina', 'Mês 1', 'Aberta'),
     ('Texto, prazos e obrigações da NR-1 com fonte oficial; aprovação da posição [SUGESTÃO] 1 do voice.md.', 'Responsável médica + sócios', 'Banco de ideias (checklist NR-1)', 'Aberta'),
     ('Fontes dos números do posicionamento (23%, R$ 2.400, burnout).', 'Sócios', 'Fontes', 'Aberta'),
     ('Crédito do autor do artigo da RH Pra Você.', 'Comunicação', 'M1-04, M1-12', 'Resolvida em 09/10: citar só o artigo e o veículo, sem nome.'),

@@ -263,3 +263,29 @@ Fazemos o certo pelos motivos certos.
 #fairhealth #saudecorporativa #medicinadoestilodevida #escritoriodocuidado #gestaodepessoas
 ```
 
+
+## Legenda para a nova ordem do mês (13/10)
+
+Na reorganização de 13/10, este carrossel virou o M1-04 (sexta, 23/10). Ele fecha o capítulo 1 e vem
+**antes** do carrossel do Escritório do Cuidado. A legenda acima dizia "que você conheceu no último post".
+Esta versão retoma a semana e puxa a próxima. A legenda de 12/10 fica guardada acima.
+
+```
+O que é a fairhealth? Medicina preventiva, dentro da empresa.
+
+Nesta semana, você conheceu a pergunta que guia o nosso cuidado, de onde ela veio e por que cuidar antes. Agora, a gente se apresenta.
+
+O que somos: a solução de cuidado do ecossistema fairjob. Atendimento individualizado, com tecnologia e acompanhamento contínuo, para melhorar a qualidade de vida dos colaboradores. A base é a Medicina do Estilo de Vida, com sete pilares e a pessoa no centro.
+
+O que fazemos: levamos médicos e psicólogos para dentro da empresa, em plantões alternados. Cada pessoa passa por uma escuta, anamnese e medições, e recebe um plano de cuidado individualizado, com acompanhamento contínuo.
+
+O que oferecemos: quatro frentes que funcionam juntas. O Escritório do Cuidado, o Programa de Medicina do Estilo de Vida, uma plataforma digital e wearables.
+
+Na semana que vem, a gente abre cada uma delas, começando pela porta do Escritório do Cuidado.
+
+Quer levar esse cuidado para a sua empresa? Fale com a gente pelo direct.
+
+Fazemos o certo pelos motivos certos.
+
+#fairhealth #saudecorporativa #medicinadoestilodevida #escritoriodocuidado #gestaodepessoas
+```
