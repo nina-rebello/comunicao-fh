@@ -1,5 +1,12 @@
 # Post 02: nossa história começou em um hospital
 
+> **v2 (13/10), versão atual:** o Tiffany vira a cor principal (pedido da Nina: "ela sempre será destaque").
+> - **Fundos:** Tiffany nos slides 2, 4 e 6, verde nos 3 e 5, capa de luz tiffany.
+> - **Fio:** passou a ser creme, para aparecer em todos os fundos.
+> - **Arte:** `slides-v2.html` → `png-v2/` (prévia em `previa-v2.jpg`), gerada por `gerar_slides_v2.py`.
+> - **Texto e legenda:** iguais aos da v1.
+> - **v1:** guardada (`slides.html`, `png/`, `previa.jpg`).
+
 Post 02 do calendário de 12 posts (bloco 01, Reconhecimento). O roteiro é a proposta da Nina de 13/10,
 com os ajustes listados abaixo. Calendário de referência: `marketing/calendario-12-posts.md`.
 

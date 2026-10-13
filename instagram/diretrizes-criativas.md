@@ -245,3 +245,20 @@ e na aba "Elementos gráficos" de `marca/identidade-visual-v6.html`.
 - **Ficou de fora das referências:** fonte de máquina de escrever, serifa com floreio, letra desenhada à mão,
   amarelo, laranja, roxo e lima, estrela de brilho, mascote com rosto, ilustração de pessoas e o semáforo
   colorido da janela.
+
+## Tiffany é a cor principal (decisão da Nina, 13/10)
+
+"Ela sempre será destaque." Vale a partir de agora e substitui a regra "Tiffany no detalhe (09/10)" no que for
+diferente.
+
+- **Em todo carrossel, o Tiffany aparece como fundo** em parte dos slides, não só em detalhes (fio, número,
+  palavra-chave). Referência: post 02, `posts/nossa-historia/slides-v2.html`:
+  - fundos Tiffany nos slides 2, 4 e 6;
+  - verde nos slides 3 e 5;
+  - capa com luz tiffany.
+- **Sobre o Tiffany:**
+  - texto em verde-escuro `#1F3A36`;
+  - palavra-chave em negrito itálico verde-escuro;
+  - paginação creme, com a bolinha ativa em verde.
+- **Fio contínuo:** em creme quando atravessa fundos Tiffany e verdes, para aparecer em todos.
+- **Na v1 do post 02** (`slides.html`), o Tiffany ficou só nos detalhes. Foi o motivo desta decisão.
