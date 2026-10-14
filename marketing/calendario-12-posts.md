@@ -54,7 +54,9 @@ posts entrar na planilha.
 4. **Post 11:** os números liberados são "8 em cada 10 voltaram para mais de um atendimento" e a adesão de
    98%, numa indústria atendida e sem o nome dela.
 
-## Distribuição do próximo mês (14/10)
+## Distribuição do próximo mês (14/10, primeira versão: 2 por semana)
+
+> Substituída pela versão de 3 posts por semana, logo abaixo. Fica guardada como histórico.
 
 Decisões da Nina (14/10):
 - o próximo post depois do 02 é um **reel do Dr. Ronald** com o resumo dos dois últimos posts (o que é a
@@ -94,3 +96,52 @@ dois reels seguidos.
 - **Post 10:** conferir as datas da linha do tempo. "Validado no SUS" fica de fora até ter fonte.
 - **Post 11:** só números liberados, sem o nome da indústria.
 - **Post 12:** "Diagnóstico" sem "gratuito".
+
+## Distribuição do próximo mês, versão de 3 posts por semana (14/10)
+
+Pedido da Nina (14/10): 3 posts por semana, em 4 semanas, ou seja, 12 posts entre 19/10 e 13/11.
+
+**Ordem do começo.** O reel do Dr. Ronald resume os dois posts já publicados (01 "O que é a fairhealth?" e 07
+"Conheça o Escritório do Cuidado") e abre a semana. No fim, ele puxa a origem: "e tudo isso começou num
+hospital, em 2009". O post 02 vem logo depois.
+
+**Duas peças a mais.** Os 9 posts do calendário de 12 (o 03 segue segurado) mais o reel dão 10. Para fechar 12,
+entram duas peças que já têm texto ou arte e cabem nos blocos:
+- **"Prevenção também é investimento"** (foto única, arte pronta no Canva, design DAHX17FZzNQ):
+  - entra no bloco de relevância, como o número que faz a empresa olhar para o problema;
+  - fontes: HBR 2022 e SHRM 2023.
+- **"Estilo de vida também é tratamento sério"** (carrossel, roteiro pronto na planilha):
+  - entra no bloco de confiança: o estudo clássico do Diabetes Prevention Program dá a evidência da
+    Medicina do Estilo de Vida;
+  - vai ao ar na semana do Dia Mundial do Diabetes (14/11).
+
+**Ritmo:** 1 reel e 2 posts estáticos por semana. Segunda, quarta e sexta. Na semana de Finados (02/11):
+terça, quarta e sexta.
+
+| Semana | Data | Post | Bloco | Formato |
+| --- | --- | --- | --- | --- |
+| 1 | seg 19/10 | Reel do Dr. Ronald: resumo dos posts 01 e 07, ponte para a origem | Reconhecimento | Reel falado, 30 a 45 s |
+| 1 | qua 21/10 | 02 · Antes de chegar às empresas, nossa história começou em um hospital | Reconhecimento | Carrossel (pronto, v2) |
+| 1 | sex 23/10 | 04 · Cuidar da saúde não deveria começar quando algo vai mal | Relevância | Carrossel "de trás para frente" |
+| 2 | seg 26/10 | 05 · O que acontece quando o cuidado não faz parte da rotina? | Relevância | Reel tipográfico |
+| 2 | qua 28/10 | Prevenção também é investimento | Relevância | Foto única (pronta) |
+| 2 | sex 30/10 | 06 · Como transformar a prevenção em parte da rotina de uma empresa? | Relevância | Carrossel passo a passo |
+| 3 | ter 03/11 | 08 · Como funciona o cuidado na prática? (a jornada da Clara) | Compreensão | Carrossel |
+| 3 | qua 04/11 | 09 · Quatro frentes, um cuidado conectado | Compreensão | Reel em motion |
+| 3 | sex 06/11 | 10 · Uma história de cuidado que começou em 2009 (linha do tempo) | Confiança | Carrossel |
+| 4 | seg 09/11 | 11 · Cuidado na prática: experiências e resultados reais | Confiança | Reel do Dr. Ronald, números na tela |
+| 4 | qua 11/11 | Estilo de vida também é tratamento sério (Dia Mundial do Diabetes no sábado) | Confiança | Carrossel |
+| 4 | sex 13/11 | 12 · Como levar a fairhealth para sua empresa? | Confiança | Carrossel de fechamento |
+
+**Formatos no mês:** 4 reels (2 com o Dr. Ronald), 7 carrosséis e 1 foto única. As duas falas do Dr. Ronald
+podem ser gravadas no mesmo dia.
+
+**O que já está pronto:**
+- o post 02 (arte v2);
+- "Prevenção também é investimento" (arte no Canva; falta tirar a paginação do carrossel);
+- o roteiro do "Estilo de vida também é tratamento sério" (na planilha).
+
+**Para validar, além da lista da versão anterior:**
+- **"Prevenção também é investimento":** o que os estudos da HBR e da SHRM mediram.
+- **Diabetes Prevention Program:** a leitura do estudo passa pela responsável médica. Ele vale para adultos
+  com risco aumentado e não é promessa individual.
