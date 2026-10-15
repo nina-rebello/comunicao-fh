@@ -1,5 +1,23 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v7 (15/10): foto no slide 2 e textura de bolinhas no slide 3.** `gerar_slides_v7.py` → `png-v7/`, prévia
+> `previa-v7.jpg`. A v6 fica guardada.
+> - **Slide 2:** a Nina escolheu a opção A (foto em círculo com anel fino em Tiffany, `conversa2.jpg`).
+> - **Slide 3 (NR-1, `k03`):** textura de bolinhas estilo tecnológico, em meio-tom verde (45% de opacidade),
+>   saindo do canto de cima à direita e sumindo antes do texto. Combina com o assunto do slide (registros e
+>   rastreabilidade) e fica num canto vazio, sem disputar com os cartões nem com a paginação. A forma sozinha
+>   está em `textura-bolinhas.svg`, para reaproveitar.
+> - **No Canva (design DAHYHdC4cus):** a Nina já tinha mexido no design. Agora são 7 páginas: capa nova na 1,
+>   a capa antiga na 2, cuidado real na 3 e NR-1 na 4. Ela também tinha voltado o título e os passos do cuidado
+>   real para "Cuidado de verdade, dentro da empresa." / "Médicos e psicólogos presentes" / "Um plano de cuidado
+>   personalizado" / "Acompanhamento contínuo".
+>   - Os textos dela ficaram como estavam.
+>   - Como o passo 2 vai quase até a borda, o círculo com a foto foi para o lado do título (200 px, anel de
+>     224 px), e não para o lado da linha do tempo. A foto está dentro da forma: dá para trocar arrastando outra
+>     imagem.
+>   - A textura entrou na página 4 como uma forma só (cor e opacidade editáveis), atrás do texto.
+>   - Cópia de segurança antes dessas mudanças: DAHYHiXKoOA (https://www.canva.com/d/J3IbI1pM-PFcX8j).
+
 > **v6 (15/10): simulação de foto no slide 2, para a Nina escolher.** `gerar_slides_v6.py` → `png-v6/k02a.png`
 > e `k02b.png`, lado a lado em `previa-v6-foto.jpg`. A v5 (sem foto) fica guardada.
 > - **A (`k02a`):** foto num círculo de 260 px à direita da linha do tempo, com um anel fino em Tiffany, que
