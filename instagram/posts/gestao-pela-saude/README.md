@@ -1,5 +1,15 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v4 (15/10), versão para publicar.** Arte em `slides-v4.html` → `png-v4/`, gerada por
+> `gerar_slides_v4.py`. Prévia em `previa-v4.jpg`.
+> - **Slides 1 a 4:** iguais aos da v3.
+> - **Slide 5 (`j05b`):** opção B, escolhida pela Nina. Fundo claro (creme), com a bolinha e a metade do fio de
+>   cada marca na cor dela; a fairhealth em Tiffany.
+> - **Slide 6 (`j06`):** logo da fairhealth sem borda, grande e centrado, sobre fundo claro.
+> - **Variante `j06t`:** fundo Tiffany. O círculo do logo se mistura com o fundo e deixa um contorno fraco, por
+>   isso a versão principal é a clara.
+> - **Ordem para postar:** j01, j02, j03, j04, j05b, j06.
+
 > **v3 (15/10), versão atual.** Arte em `slides-v3.html` → `png-v3/`, gerada por `gerar_slides_v3.py`. A v1 e a
 > v2 ficam guardadas.
 > - **Capa:** triângulo fino, como na referência (linhas finas, pontas em círculo vazado, rótulos em caixa alta
