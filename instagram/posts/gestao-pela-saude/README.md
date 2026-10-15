@@ -1,5 +1,23 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v9 (15/10): slide NR-1 mostra como a gente ajuda.** Pedido da Nina: além de citar a norma, mostrar como a
+> fairhealth ajuda a atender às exigências. `gerar_slides_v9.py` → `png-v9/k03b.png`; a v8 fica guardada.
+> - **Título:** "NR-1: o que a norma pede e *como ajudamos*."
+> - **Três cartões:** à esquerda o que a norma pede, à direita como a fairhealth ajuda, com um fio Tiffany entre
+>   os dois:
+>   - **Identificar os riscos:** diagnóstico com a fairdata e escuta individual de cada pessoa.
+>   - **Agir para prevenir:** um plano de cuidado para cada pessoa, com médicos e psicólogos dentro da empresa.
+>   - **Acompanhar e registrar:** acompanhamento contínuo e indicadores do grupo, sem identificar ninguém,
+>     integráveis ao PGR.
+> - **Base:** `estrategia.md` (contexto → diagnóstico → cuidado individualizado → acompanhamento), o
+>   posicionamento (diagnóstico e indicadores com a fairdata) e o site (dados integráveis ao PGR). Não promete
+>   conformidade.
+> - **Textura:** a Nina tirou a textura no Canva, então ela não voltou.
+> - **No Canva:** a página 4 do design DAHYHdC4cus foi editada no lugar. Cópia de segurança de antes:
+>   DAHYHkFqAmw (https://www.canva.com/d/_FOn511Ge6a9QOS).
+> - **Conferir antes de publicar:** se "escuta individual" e "integráveis ao PGR" descrevem bem o que entregamos
+>   hoje.
+
 > **v8 (15/10): slide 2 refeito em torno do acolhimento.** Pedido da Nina: "o cuidado real é a abordagem
 > acolhimento (alguém para ouvir) com a pergunta". A pergunta é a assinatura da marca, "O que é importante para
 > você?" (ver `posicionamento-e-plano-mensal.md`). `gerar_slides_v8.py` → `png-v8/k02c.png`; a v7 fica guardada.
