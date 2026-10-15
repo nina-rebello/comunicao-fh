@@ -1,5 +1,34 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v2 (15/10), versão atual.** Arte em `slides-v2.html` → `png-v2/h01.png` … `h06.png` (prévia em
+> `previa-v2.jpg`), gerada por `gerar_slides_v2.py`. A v1 fica guardada.
+> - **Capa em triângulo:** a fairhealth na ponta de cima, a medicina do trabalho e o plano de saúde na base.
+>   Dentro do triângulo: "a rotina e os primeiros sinais".
+> - **Ecossistema com a identidade de cada marca:** os quatro logos em círculo
+>   (`instagram/marca/ecossistema/`), ligados por um fio, com a fairhealth maior e com anel. Fundo creme,
+>   para todos os logos aparecerem.
+> - **Slide 6, final:** salve, compartilhe, link da bio e direct, com o logo e "Fazemos o certo pelos motivos
+>   certos" (como o último slide do primeiro post).
+> - **Menos texto:** de 280 para 250 palavras, com 6 slides em vez de 5. O que mais caiu: NR-1, de 66 para 48
+>   palavras; argumentos, de 101 para 58; ecossistema, de 42 para 26.
+> - **NR-1 e argumentos:** o texto ficou curto, e os ajustes listados abaixo continuam valendo.
+>
+> **Legenda da v2:**
+>
+> ```
+> Entre a medicina do trabalho e o plano de saúde, existe um espaço que ninguém cuida: a rotina de quem trabalha e os primeiros sinais.
+>
+> É nele que a fairhealth atua. Médicos e psicólogos dentro da empresa, um plano de cuidado para cada pessoa e acompanhamento contínuo. Um cuidado real, que também apoia a empresa na gestão dos riscos psicossociais da NR-1, com registros e rastreabilidade.
+>
+> E a fairhealth não está sozinha: somos o cuidar do ecossistema fairjob, ao lado da fairdata (medir), da fairedu (conscientizar) e da fairtrust (comprovar).
+>
+> Gestão de pessoas que começa pela saúde.
+>
+> Salve este post e mande para quem cuida das pessoas na sua empresa.
+>
+> #fairhealth #saudecorporativa #nr1 #gestaodepessoas #fairjob
+> ```
+
 Este post fecha a semana e continua os dois posts já publicados ("O que é a fairhealth?" e "Conheça o
 Escritório do Cuidado"). O roteiro é da Nina (15/10).
 - **NR-1 e os três argumentos:** seguem o texto do site da fairhealth.
