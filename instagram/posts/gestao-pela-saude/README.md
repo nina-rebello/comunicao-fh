@@ -1,5 +1,35 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v8 (15/10): slide 2 refeito em torno do acolhimento.** Pedido da Nina: "o cuidado real é a abordagem
+> acolhimento (alguém para ouvir) com a pergunta". A pergunta é a assinatura da marca, "O que é importante para
+> você?" (ver `posicionamento-e-plano-mensal.md`). `gerar_slides_v8.py` → `png-v8/k02c.png`; a v7 fica guardada.
+> - **Título:** "Tudo começa com alguém para ouvir."
+> - **Destaque:** "E com uma pergunta:" e, em Tiffany, em negrito itálico grande: "“O que é importante para você?”"
+> - **Fechamento:** "É dessa conversa, sem pressa, que nasce um plano de cuidado só seu. Sem cobrança, sem
+>   julgamento. **A gente torce pelo seu resultado tanto quanto você.**"
+> - **O que saiu:** a linha do tempo (médicos e psicólogos, plano personalizado, acompanhamento). A foto em
+>   círculo ao lado do título continua.
+> - **No Canva:** a página 3 do design DAHYHdC4cus foi editada no lugar, reaproveitando os textos que já estavam
+>   lá, para manter a Raleway. Cópia de segurança de antes: DAHYHiUNL18 (https://www.canva.com/d/_gltqdh1oFrnOD7).
+>
+> **Legenda da v8** (muda só o segundo parágrafo):
+>
+> ```
+> Entre a medicina do trabalho e o plano de saúde, existe um espaço que ninguém cuida: a rotina de quem trabalha e os primeiros sinais.
+>
+> É nele que a fairhealth atua. O cuidado real começa com alguém para ouvir e com uma pergunta: o que é importante para você? É dessa conversa, sem pressa, que nasce um plano de cuidado só seu. Sem cobrança, sem julgamento: a gente torce pelo seu resultado tanto quanto você.
+>
+> Esse cuidado também apoia a empresa na gestão dos riscos psicossociais da NR-1, com registros e rastreabilidade.
+>
+> E a fairhealth não está sozinha: somos o cuidar do ecossistema fairjob, ao lado da fairdata (medir), da fairedu (conscientizar) e da fairtrust (comprovar).
+>
+> Gestão de pessoas que começa pela saúde.
+>
+> Salve este post e mande para quem cuida das pessoas na sua empresa.
+>
+> #fairhealth #saudecorporativa #nr1 #gestaodepessoas #fairjob
+> ```
+
 > **v7 (15/10): foto no slide 2 e textura de bolinhas no slide 3.** `gerar_slides_v7.py` → `png-v7/`, prévia
 > `previa-v7.jpg`. A v6 fica guardada.
 > - **Slide 2:** a Nina escolheu a opção A (foto em círculo com anel fino em Tiffany, `conversa2.jpg`).
