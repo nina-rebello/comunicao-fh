@@ -1,5 +1,38 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v5 (15/10): slide 2 com outro contexto para o cuidado real.** Pedido da Nina: o plano de cuidado (o nosso
+> produto) nasce de uma longa conversa, para entender hábitos, rotina e expectativas. E é um espaço seguro em
+> todas as etapas: ninguém cobra, a gente torce pelo resultado da pessoa tanto quanto ela, e a relação não nasce
+> do medo nem da frustração. Arte em `slides-v5.html` → `png-v5/k02.png`, gerada por `gerar_slides_v5.py`. Prévia
+> em `previa-v5.jpg`. O j02 da v4 fica guardado; os outros slides não mudaram.
+> - **Título:** "Todo plano de cuidado começa com uma *longa conversa*."
+> - **Linha do tempo:** "Entender seus hábitos", "Conhecer sua rotina" e "Ouvir suas expectativas".
+> - **Fechamento:** "Um espaço seguro, do começo ao fim. Sem medo, sem cobrança, sem frustração. **A gente torce
+>   pelo seu resultado tanto quanto você.**"
+> - **"Expectativas":** no fechamento, troquei por "cobrança". Como "Ouvir suas expectativas" já está na linha do
+>   tempo, dizer que a relação não é feita de expectativas soaria contraditório.
+> - **No Canva:** o slide 2 do design DAHYHdC4cus foi editado no lugar, mantendo os ajustes que a Nina tinha
+>   feito (tamanho das bolinhas, contorno da linha). Antes, uma cópia de segurança do design inteiro foi guardada:
+>   DAHYHbB6IfQ (https://www.canva.com/d/Cr_7Qi8G09eA3dZ).
+>
+> **Legenda da v5:**
+>
+> ```
+> Entre a medicina do trabalho e o plano de saúde, existe um espaço que ninguém cuida: a rotina de quem trabalha e os primeiros sinais.
+>
+> É nele que a fairhealth atua. Todo plano de cuidado começa com uma longa conversa, para entender seus hábitos, sua rotina e o que você espera. Um espaço seguro do começo ao fim: ninguém cobra, a conversa nunca é um obstáculo e a gente torce pelo seu resultado tanto quanto você.
+>
+> Esse cuidado real também apoia a empresa na gestão dos riscos psicossociais da NR-1, com registros e rastreabilidade.
+>
+> E a fairhealth não está sozinha: somos o cuidar do ecossistema fairjob, ao lado da fairdata (medir), da fairedu (conscientizar) e da fairtrust (comprovar).
+>
+> Gestão de pessoas que começa pela saúde.
+>
+> Salve este post e mande para quem cuida das pessoas na sua empresa.
+>
+> #fairhealth #saudecorporativa #nr1 #gestaodepessoas #fairjob
+> ```
+
 > **No Canva (15/10):** https://www.canva.com/d/4Lz7jf8CL8l2-p0 (design DAHYHdC4cus, "Gestão de pessoas que
 > começa pela saúde · carrossel", 6 páginas de 1080 × 1350). Ordem: j01, j02, j03, j04, j05b e **j06t** (final em
 > Tiffany, escolha da Nina). Tudo editável: textos em Raleway, cartões, linhas, bolinhas e paginação são

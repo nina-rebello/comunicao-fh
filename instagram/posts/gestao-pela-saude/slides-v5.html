@@ -1,0 +1,131 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Gestão de pessoas que começa pela saúde (v5)</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
+@font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--tif:#96C5BD;--verde:#1F3A36;--creme:#F0F0E9;--tclaro:#BFE0D9;--vlogo:#2F6B64}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#888;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;font-variant-numeric:lining-nums}
+.slide>*{position:absolute}
+.t{background:var(--tif);color:var(--verde)}
+.v{background:var(--verde);color:var(--creme)}
+.c{background:var(--creme);color:var(--verde)}
+.k{font-weight:800;font-style:italic}
+.v .k{color:var(--tif)}
+.rot{left:96px;top:96px;font-size:22px;line-height:28px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.v .rot{color:var(--tif)} .c .rot{color:var(--vlogo)}
+.tit{font-size:70px;line-height:80px;letter-spacing:-0.01em}
+.corpo{font-size:36px;line-height:48px}
+.nota{font-size:28px;line-height:38px}
+.handle{left:96px;top:1238px;font-size:24px;line-height:32px}
+.v .handle{color:var(--tclaro)}
+.arr{right:96px;top:1238px;font-size:24px;line-height:32px}
+.pag{right:96px;top:1248px;display:flex;gap:8px}
+.pag i{display:block;width:20px;height:12px;border-radius:6px}
+.pag i.on{width:48px}
+.t .pag i{background:var(--creme)} .t .pag i.on{background:var(--verde)}
+.v .pag i{background:rgba(191,224,217,.3)} .v .pag i.on{background:var(--tif)}
+.c .pag i{background:var(--tif)} .c .pag i.on{background:var(--verde)}
+svg.cheia{left:0;top:0;width:1080px;height:1350px}
+.vert{font-size:21px;line-height:28px;letter-spacing:.18em;text-transform:uppercase;text-align:center}
+.cartao{left:96px;width:888px;background:#fff;border-radius:28px;padding:34px 40px}
+.cartao b{display:block;font-size:32px;line-height:40px;font-weight:800;color:var(--vlogo);margin-bottom:8px}
+.cartao span{display:block;font-size:30px;line-height:40px;color:var(--verde)}
+.arg{left:96px;width:888px;border-top:3px solid var(--tif);padding-top:26px}
+.arg b{display:block;font-size:34px;line-height:42px;font-weight:800;color:var(--creme);margin-bottom:8px}
+.arg span{display:block;font-size:30px;line-height:40px;color:var(--tclaro)}
+.passo{left:210px;width:774px}
+.passo p{font-size:40px;line-height:48px;font-weight:800}
+.eco{width:220px;text-align:center}
+.eco b{display:block;font-size:28px;line-height:34px;font-weight:800}
+.eco span{display:block;font-size:24px;line-height:30px;margin-top:4px}
+.c .eco span{color:var(--vlogo)}
+</style></head><body>
+<!-- 1 · capa: triângulo fino com foto dentro; fairhealth no topo -->
+<section class="slide t" id="j01">
+  <p class="rot">O espaço que falta</p>
+  <p class="tit" style="left:96px;top:170px;width:900px">Entre a medicina do trabalho e o plano de saúde, existe um espaço que <span class="k">ninguém cuida</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <defs><clipPath id="tri"><path d="M540 600 L200 1010 L880 1010 Z"/></clipPath>
+      <filter id="suave"><feColorMatrix type="saturate" values=".75"/></filter></defs>
+    <image href="../../marca/fotos-banco/cafe-notebook.jpg" x="200" y="600" width="680" height="410" preserveAspectRatio="xMidYMid slice" clip-path="url(#tri)" filter="url(#suave)"/>
+    <path d="M540 600 L200 1010 L880 1010 Z" fill="none" stroke="#1F3A36" stroke-width="2.5" stroke-linejoin="round"/>
+    <g fill="#96C5BD" stroke="#1F3A36" stroke-width="2.5"><circle cx="540" cy="600" r="13"/><circle cx="200" cy="1010" r="13"/><circle cx="880" cy="1010" r="13"/></g>
+  </svg>
+  <p class="vert" style="left:340px;top:542px;width:400px;font-weight:800">fairhealth</p>
+  <p class="vert" style="left:50px;top:1040px;width:300px">Medicina<br>do trabalho</p>
+  <p class="vert" style="left:730px;top:1040px;width:300px">Plano<br>de saúde</p>
+  <p class="corpo" style="left:96px;top:1145px;width:888px">É nele que a <b style="font-weight:800">fairhealth</b> trabalha.</p>
+  <p class="handle">@fairhealth.br</p>
+  <p class="arr">Arraste para o lado →</p>
+</section>
+
+<!-- 2 · cuidado real: o plano nasce de uma longa conversa, num espaço seguro -->
+<section class="slide v" id="k02">
+  <p class="rot">Um cuidado real</p>
+  <p class="tit" style="left:96px;top:180px;width:888px">Todo plano de cuidado começa com uma <span class="k">longa conversa</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <path d="M136 534V814" stroke="#96C5BD" stroke-width="10" stroke-linecap="round"/>
+    <g fill="#96C5BD"><circle cx="136" cy="534" r="26"/><circle cx="136" cy="674" r="26"/><circle cx="136" cy="814" r="26"/></g>
+  </svg>
+  <div class="passo" style="top:510px"><p>Entender seus hábitos</p></div>
+  <div class="passo" style="top:650px"><p>Conhecer sua rotina</p></div>
+  <div class="passo" style="top:790px"><p>Ouvir suas expectativas</p></div>
+  <p class="corpo" style="left:96px;top:940px;width:888px;color:var(--tif)">Um espaço seguro, do começo ao fim. Sem medo, sem cobrança, sem frustração. <b style="font-weight:800;color:var(--creme)">A gente torce pelo seu resultado tanto quanto você.</b></p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i class="on"></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 3 · NR-1: segurança psicossocial no trabalho (site, encurtado) -->
+<section class="slide t" id="j03">
+  <p class="rot">Conformidade regulatória</p>
+  <p class="tit" style="left:96px;top:170px;width:888px">NR-1: <span class="k">segurança psicossocial</span> no trabalho.</p>
+  <div class="cartao" style="top:430px"><b>Obrigação legal</b><span>A gestão de riscos psicossociais agora vale para empresas de todos os portes.</span></div>
+  <div class="cartao" style="top:665px"><b>Riscos psicossociais</b><span>Estresse, burnout e ansiedade precisam ser identificados, monitorados e mitigados.</span></div>
+  <div class="cartao" style="top:900px"><b>Como a fairhealth ajuda</b><span>Escritório do Cuidado e Programa MEV, com registros e rastreabilidade.</span></div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- 4 · o argumento certo para cada decisor (site, encurtado) -->
+<section class="slide v" id="j04">
+  <p class="rot">O argumento certo para cada decisor</p>
+  <p class="tit" style="left:96px;top:170px;width:888px">Mesmo programa. Três argumentos, <span class="k">um para cada mesa</span>.</p>
+  <div class="arg" style="top:470px"><b>Para o RH</b><span>Um programa preventivo real, com impacto na marca empregadora.</span></div>
+  <div class="arg" style="top:690px"><b>Para o médico do trabalho</b><span>Evidência clínica de Medicina do Estilo de Vida e dados integráveis ao PGR.</span></div>
+  <div class="arg" style="top:910px"><b>Para o financeiro</b><span>Indicadores de saúde e de custo para apresentar ao board.</span></div>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div>
+</section>
+
+<!-- 5 · ecossistema, opção B (escolhida), fundo claro: o modelo da v1 com a cor de cada marca na bolinha e no fio -->
+<section class="slide c" id="j05b">
+  <p class="rot">Ecossistema fairjob</p>
+  <p class="tit" style="left:96px;top:170px;width:888px;font-size:60px;line-height:70px">A fairhealth é o <span class="k">cuidar</span> do ecossistema fairjob.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M186 560H304" stroke="#767171" stroke-width="8" stroke-linecap="round"/><path d="M304 560H540" stroke="#96C5BD" stroke-width="8" stroke-linecap="butt"/><path d="M540 560H776" stroke="#6E35A2" stroke-width="8" stroke-linecap="butt"/><path d="M776 560H894" stroke="#145C9D" stroke-width="8" stroke-linecap="round"/><circle cx="186" cy="560" r="16" fill="#767171"/><circle cx="422" cy="560" r="26" fill="#96C5BD"/><circle cx="658" cy="560" r="16" fill="#6E35A2"/><circle cx="894" cy="560" r="16" fill="#145C9D"/></svg>
+  <div class="eco" style="left:76px;top:610px"><b>fairdata</b><span>medir</span></div><div class="eco" style="left:312px;top:610px"><b>fairhealth</b><span>cuidar</span></div><div class="eco" style="left:548px;top:610px"><b>fairedu</b><span>conscientizar</span></div><div class="eco" style="left:784px;top:610px"><b>fairtrust</b><span>comprovar</span></div>
+  <p class="tit" style="left:96px;top:930px;width:888px">Gestão de pessoas que começa pela <span class="k">saúde</span>.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i class="on"></i><i></i></div>
+</section>
+
+<!-- 6 · final: logo grande sem borda, fundo claro -->
+<section class="slide c" id="j06">
+  <img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:390px;top:250px;width:300px;height:300px">
+  <p class="tit" style="left:96px;top:640px;width:888px;text-align:center">Gostou?<br><span class="k">Leve esse cuidado adiante.</span></p>
+  <p class="nota" style="left:146px;top:860px;width:788px;text-align:center;color:var(--vlogo)">Salve, compartilhe e conheça mais no link da bio.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i class="on"></i></div>
+</section>
+
+<!-- 6 · final: logo grande sem borda, fundo Tiffany -->
+<section class="slide t" id="j06t">
+  <img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:390px;top:250px;width:300px;height:300px">
+  <p class="tit" style="left:96px;top:640px;width:888px;text-align:center">Gostou?<br><span class="k">Leve esse cuidado adiante.</span></p>
+  <p class="nota" style="left:146px;top:860px;width:788px;text-align:center;color:var(--vlogo)">Salve, compartilhe e conheça mais no link da bio.</p>
+  <p class="handle">@fairhealth.br</p>
+  <div class="pag"><i></i><i></i><i></i><i></i><i></i><i class="on"></i></div>
+</section>
+
+</body></html>
