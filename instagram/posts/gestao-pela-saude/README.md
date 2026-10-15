@@ -1,5 +1,20 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v3 (15/10), versão atual.** Arte em `slides-v3.html` → `png-v3/`, gerada por `gerar_slides_v3.py`. A v1 e a
+> v2 ficam guardadas.
+> - **Capa:** triângulo fino, como na referência (linhas finas, pontas em círculo vazado, rótulos em caixa alta
+>   espaçada). Uma foto dentro humaniza: `fotos-banco/cafe-notebook.jpg` (Unsplash), uma pessoa trabalhando,
+>   na rotina. Testamos outras seis fotos; a da consulta parecia "medicina do trabalho".
+> - **Ecossistema em duas opções, para a Nina escolher:**
+>   - `j05a` (fundo creme): só os logos, sem repetir o nome embaixo, com o verbo em caixa alta.
+>   - `j05b` (fundo Tiffany, o modelo da v1): bolinhas e metades do fio na cor de cada marca. A fairhealth vai
+>     no verde-escuro da marca, porque o Tiffany sumiria no fundo.
+>   - Cores medidas nos logos: fairdata #767171, fairedu #6E35A2, fairtrust #145C9D.
+> - **Final:** logo da fairhealth grande, centrado e mais para cima, com "Gostou? Leve esse cuidado adiante." e
+>   uma linha: "Salve, compartilhe e conheça mais no link da bio."
+> - **Prévias:** `previa-v3-opcaoA.jpg`, `previa-v3-opcaoB.jpg` e `previa-v3-ecossistema.jpg` (as duas lado a
+>   lado). Na versão final, entra só o slide 5 escolhido.
+
 > **v2 (15/10), versão atual.** Arte em `slides-v2.html` → `png-v2/h01.png` … `h06.png` (prévia em
 > `previa-v2.jpg`), gerada por `gerar_slides_v2.py`. A v1 fica guardada.
 > - **Capa em triângulo:** a fairhealth na ponta de cima, a medicina do trabalho e o plano de saúde na base.
