@@ -1,5 +1,18 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **No Canva (15/10):** https://www.canva.com/d/4Lz7jf8CL8l2-p0 (design DAHYHdC4cus, "Gestão de pessoas que
+> começa pela saúde · carrossel", 6 páginas de 1080 × 1350). Ordem: j01, j02, j03, j04, j05b e **j06t** (final em
+> Tiffany, escolha da Nina). Tudo editável: textos em Raleway, cartões, linhas, bolinhas e paginação são
+> elementos soltos, e os logos entram como imagem.
+> - **Capa:** o triângulo é uma forma com a foto dentro (`cafe-notebook`). Para trocar a foto, arraste outra
+>   imagem para dentro do triângulo. O contorno fino e as bolinhas das pontas são formas separadas, por cima.
+> - **Diferença da arte:** no HTML, a foto tinha saturação 75%. No Canva ela está com a cor original; se quiser
+>   igual, use Editar foto › Ajustar › Saturação.
+> - **Como foi montado:** `instagram/canva/gerar-gestao-pela-saude.py` gera `instagram/canva/gestao-pela-saude.html`,
+>   importado no Canva. O triângulo foi feito depois, no próprio design: formas criadas pela API não aceitam
+>   foto, então uma bolinha importada virou o triângulo (troca de forma, tamanho 680 × 410 em x 200, y 600) e
+>   recebeu a foto. A bolinha da ponta de cima foi desenhada de novo.
+
 > **v4 (15/10), versão para publicar.** Arte em `slides-v4.html` → `png-v4/`, gerada por
 > `gerar_slides_v4.py`. Prévia em `previa-v4.jpg`.
 > - **Slides 1 a 4:** iguais aos da v3.

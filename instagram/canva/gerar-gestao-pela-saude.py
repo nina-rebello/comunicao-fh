@@ -5,6 +5,10 @@
 # Não vão no HTML, porque no Canva ficam melhores como formas nativas, criadas depois da importação:
 #   - o triângulo com a foto (forma de triângulo preenchida com a foto, trocável);
 #   - o contorno do triângulo.
+# Atenção: formas criadas pela API do Canva não aceitam foto dentro. Para o triângulo com foto, use uma forma que
+# veio na importação (uma das bolinhas da j01): troque a forma pelo triângulo "M340 0 L680 410 L0 410 Z", ajuste
+# para 680 × 410 em x 200, y 600, preencha com a foto e desenhe de novo a bolinha usada. Feito assim em 15/10
+# (design DAHYHdC4cus).
 #
 # Uso:
 #   node ../ferramentas/dump-posicoes.mjs ../posts/gestao-pela-saude/slides-v4.html dump.json
