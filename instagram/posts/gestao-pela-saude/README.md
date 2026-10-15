@@ -1,5 +1,14 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v6 (15/10): simulação de foto no slide 2, para a Nina escolher.** `gerar_slides_v6.py` → `png-v6/k02a.png`
+> e `k02b.png`, lado a lado em `previa-v6-foto.jpg`. A v5 (sem foto) fica guardada.
+> - **A (`k02a`):** foto num círculo de 260 px à direita da linha do tempo, com um anel fino em Tiffany, que
+>   conversa com as bolinhas. A foto `conversa2.jpg` mostra as duas pessoas.
+> - **B (`k02b`):** meia-lua maior, saindo da borda direita. Na faixa estreita só cabe uma pessoa, então o recorte
+>   fica em quem escuta e anota, na mesma `conversa2.jpg`.
+> - As duas fotos são do Unsplash, só ilustrativas, com a mesma saturação da capa (75%). Nada de jaleco ou
+>   consultório, para não parecer medicina do trabalho.
+
 > **v5 (15/10): slide 2 com outro contexto para o cuidado real.** Pedido da Nina: o plano de cuidado (o nosso
 > produto) nasce de uma longa conversa, para entender hábitos, rotina e expectativas. E é um espaço seguro em
 > todas as etapas: ninguém cobra, a gente torce pelo resultado da pessoa tanto quanto ela, e a relação não nasce
