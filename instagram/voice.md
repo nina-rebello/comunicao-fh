@@ -239,6 +239,13 @@ Estas regras valem por cima de qualquer trecho anterior deste arquivo.
   posicionamento (v3.2) reforça essa leitura: a fairdata faz o diagnóstico, a fairhealth cuida, a fairtrust
   valida (acreditação) e a fairedu propaga. A `essencia.md` traz outra
   lista ("medir, cuidar, provar, propagar"); vale a da Nina até a confirmação.
+- **Confirmado no site fairjob.com.br (15/10):**
+  - **Os papéis:** a fairdata é "o 'medir' do ecossistema fairjob", a fairhealth "o 'cuidar'", a fairedu "o
+    'conscientizar'" e a fairtrust "o 'comprovar'".
+  - **A frase do ecossistema:** "O único ecossistema brasileiro que mede, cuida, conscientiza e comprova o
+    bem-estar organizacional com evidência científica."
+  - **O que muda:** a pendência acima está resolvida. O título da página ainda usa "medir. cuidar. provar.
+    propagar."; nos posts, vale a lista de quatro verbos do texto do site.
 
 ## Posicionamento e tom (documento de posicionamento v3.2, 11/10)
 
