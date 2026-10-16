@@ -1,5 +1,20 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **Legenda curta (16/10), a escolhida.** A Nina achou a legenda final grande demais e muito parecida com os slides;
+> esta traz os temas de um jeito mais natural:
+>
+> ```
+> Tem uma parte da saúde de quem trabalha que fica no meio do caminho: ainda não é caso para o médico do trabalho, nem chegou ao plano de saúde. É a rotina, o cansaço que vai se acumulando, os primeiros sinais.
+>
+> A gente escolheu cuidar justamente daí. Com tempo para ouvir, um plano feito para cada pessoa e atenção à saúde emocional, que agora também é pauta da NR-1.
+>
+> E fazemos isso junto com o ecossistema fairjob, porque uma boa gestão de pessoas começa pela saúde.
+>
+> Mande para quem cuida das pessoas na sua empresa.
+>
+> #fairhealth #saudecorporativa #nr1 #gestaodepessoas #fairjob
+> ```
+
 > **Legenda final (16/10)**, escrita a partir dos textos do carrossel como estão no Canva (DAHYHdC4cus, 6 páginas):
 >
 > ```
