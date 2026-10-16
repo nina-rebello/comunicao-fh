@@ -1,5 +1,24 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **Legenda para publicar (16/10), com o slide do plano individualizado.** Mantém a base da versão final e inclui o
+> tema do slide novo: plano individualizado, Escritório do Cuidado, saúde integral e qualidade de vida.
+>
+> ```
+> Entre a medicina do trabalho e o plano de saúde, existe um espaço que merece mais atenção: o cuidado contínuo, preventivo e humanizado.
+>
+> É nesse espaço que a fairhealth atua, porque cuidar da saúde de quem faz uma empresa acontecer não deveria começar só quando algo dá errado.
+>
+> Tudo começa com escuta. A partir dela, cada pessoa ganha um plano de cuidado individualizado, com o Escritório do Cuidado dentro da empresa e a Medicina do Estilo de Vida como base, rumo à saúde integral e à qualidade de vida.
+>
+> Um trabalho que constrói ambientes mais saudáveis, seguros e sustentáveis, totalmente alinhado às novas exigências da Norma Regulamentadora NR-01.
+>
+> Acreditamos que uma boa gestão de pessoas começa pelo cuidado com elas.
+>
+> Conheça mais sobre a fairhealth no link da bio.
+>
+> #fairhealth #saudecorporativa #medicinapreventiva #saudenotrabalho #nr1
+> ```
+
 > **v13 (16/10): slide novo do plano individualizado.** Pedido da Nina, a partir de uma referência dela, sem mudar os
 > outros slides. `gerar_slides_v13.py` → `png-v13/p01.png`.
 > - **Título:** "No caminho rumo à *qualidade de vida*, existe um plano especial e individualizado pra você."
