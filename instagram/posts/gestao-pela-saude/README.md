@@ -1,5 +1,17 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v13 (16/10): slide novo do plano individualizado.** Pedido da Nina, a partir de uma referência dela, sem mudar os
+> outros slides. `gerar_slides_v13.py` → `png-v13/p01.png`.
+> - **Título:** "No caminho rumo à *qualidade de vida*, existe um plano especial e individualizado pra você."
+> - **Triângulo com foto** (`sorriso2.jpg`, Unsplash: a pessoa no centro do cuidado) e pontas em círculo creme com
+>   ícone: Escritório do Cuidado, Saúde integral e Qualidade de vida.
+> - **Embaixo:** logo e "Você no centro do cuidado". Rótulo do topo: "Plano de cuidado".
+> - A foto `consulta.jpg` foi testada e descartada: o crachá do jaleco aparece no recorte ("Urologic Oncology").
+> - **No Canva:** montado à parte (`instagram/canva/gestao-pela-saude-p01.html`, DAHYNct7ADk) e adicionado como
+>   página 3 do DAHYHdC4cus, depois do cuidado real. O carrossel passou a ter 7 páginas. Cópia de segurança de antes:
+>   DAHYNa4MRNk (https://www.canva.com/d/owzdppIpAUgrmVw).
+> - **Atenção:** a paginação dos outros slides tem 6 bolinhas e não foi mudada.
+
 > **Legenda para publicar (16/10), versão final.** É a versão da Nina, com o terceiro parágrafo reorganizado: o
 > propósito fica junto do que fazemos, e a NR-01 fecha o parágrafo.
 >
