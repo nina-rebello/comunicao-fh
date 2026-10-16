@@ -1,5 +1,16 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v11 (16/10): slide 3 mostra como trabalhamos, sem tom de aula.** A Nina não gostou do título nem do primeiro
+> cartão da v10: a ideia não é ensinar o que são riscos psicossociais, e sim mostrar como a fairhealth trabalha para
+> resolvê-los. `gerar_slides_v11.py` → `png-v11/k03d.png`; a v10 fica guardada.
+> - **Título:** "Como cuidamos dos *riscos psicossociais*."
+> - **Ouvir e mapear:** escuta individual e, com a fairdata, o diagnóstico dos riscos do grupo.
+> - **Cuidar:** médicos e psicólogos dentro da empresa e um plano de cuidado para cada pessoa.
+> - **Acompanhar** (cartão verde-escuro): indicadores do grupo, sem identificar ninguém, integráveis ao PGR que a
+>   NR-1 exige.
+> - **No Canva:** a página 3 do design DAHYHdC4cus foi editada no lugar. Cópia de segurança de antes:
+>   DAHYNEHCZdg (https://www.canva.com/d/K3spGEAfMwT9UWf).
+
 > **v10 (16/10): slide 3 com foco em riscos psicossociais.** Pedido da Nina: o título foca em "riscos
 > psicossociais" e a NR-1 aparece no texto, contextualizando. `gerar_slides_v10.py` → `png-v10/k03c.png`; a v9
 > fica guardada. A Nina tinha voltado no Canva para os três cartões, com o terceiro em verde-escuro; esse
