@@ -1,5 +1,22 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **Legenda para publicar (16/10), versão da Nina.** A NR-1 entra com a mesma frase do subtítulo do slide 3
+> ("totalmente alinhados com as novas exigências"), e saiu a linha do ecossistema.
+>
+> ```
+> Entre a medicina do trabalho e o plano de saúde, existe um espaço que merece mais atenção: o cuidado contínuo, preventivo e humanizado.
+>
+> É nesse espaço que a fairhealth atua, porque cuidar da saúde de quem faz uma empresa acontecer não deveria começar só quando algo dá errado.
+>
+> Unimos escuta, Medicina do Estilo de Vida e acompanhamento para transformar a forma como as empresas cuidam das pessoas. Dessa forma, estamos totalmente alinhados com as novas exigências da Norma Regulamentadora NR-01. Tudo para construir ambientes mais saudáveis, seguros e sustentáveis.
+>
+> Acreditamos que uma boa gestão de pessoas começa pelo cuidado com elas.
+>
+> Conheça mais sobre a fairhealth no link da bio.
+>
+> #fairhealth #saudecorporativa #medicinapreventiva #saudenotrabalho #nr1
+> ```
+
 > **Legenda final (16/10, ajuste da Nina), a escolhida.** O parágrafo do "espaço" passou a abrir a legenda. A NR-1
 > não aparece mais como algo a superar ("vai além de cumprir"): a gente também resolve a parte burocrática, com os
 > registros e a rastreabilidade que a norma pede.
