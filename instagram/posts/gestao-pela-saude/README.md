@@ -1,5 +1,27 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **Legenda final (16/10)**, escrita a partir dos textos do carrossel como estão no Canva (DAHYHdC4cus, 6 páginas):
+>
+> ```
+> Entre a medicina do trabalho e o plano de saúde, existe um espaço que ninguém cuida: a rotina de quem trabalha e os primeiros sinais.
+>
+> É nele que a fairhealth atua. O cuidado real começa com alguém para ouvir e com uma pergunta: o que é importante para você? Um espaço seguro, do começo ao fim. Sem medo, sem cobrança, sem frustração: a gente torce pelo seu resultado tanto quanto você.
+>
+> Esse cuidado também apoia a empresa na segurança psicossocial que a NR-1 atualizada passou a exigir. Com o Escritório do Cuidado e o Programa MEV, os riscos psicossociais são identificados, acompanhados e registrados, com rastreabilidade.
+>
+> Mesmo programa, três argumentos: para o RH, um programa preventivo real; para a medicina do trabalho, evidência clínica e dados integráveis ao PGR; para o financeiro, indicadores de saúde e de custo para apresentar ao board.
+>
+> E a fairhealth não está sozinha: somos o cuidar do ecossistema fairjob, ao lado da fairdata (medir), da fairedu (conscientizar) e da fairtrust (comprovar).
+>
+> Gestão de pessoas que começa pela saúde.
+>
+> Salve, mande para quem cuida das pessoas na sua empresa e conheça mais no link da bio.
+>
+> #fairhealth #saudecorporativa #nr1 #gestaodepessoas #fairjob
+> ```
+>
+> Versão curta: tirar o parágrafo dos três argumentos (já estão no slide 4).
+
 > **v12 (16/10): slide 3 no modelo do site.** A Nina mandou o modelo da página da fairhealth no site e o texto:
 > título "Segurança psicossocial no trabalho" e subtítulo "A fairhealth assegura programa e práticas totalmente
 > alinhados com as novas exigências da Norma Regulamentadora NR-01". Os cartões seguem o site: quadrado com ícone
