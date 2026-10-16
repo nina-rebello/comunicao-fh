@@ -1,5 +1,23 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v12 (16/10): slide 3 no modelo do site.** A Nina mandou o modelo da página da fairhealth no site e o texto:
+> título "Segurança psicossocial no trabalho" e subtítulo "A fairhealth assegura programa e práticas totalmente
+> alinhados com as novas exigências da Norma Regulamentadora NR-01". Os cartões seguem o site: quadrado com ícone
+> (balança, cérebro, escudo; Lucide, licença ISC), título e texto. `gerar_slides_v12.py` → `png-v12/k03e.png`; a
+> v11 fica guardada.
+> - **Obrigação legal:** A NR-1 atualizada (2025) inclui a gestão de riscos psicossociais como requisito
+>   obrigatório para empresas de todos os portes.
+> - **Riscos psicossociais:** Estresse, burnout, ansiedade e conflitos interpessoais devem ser identificados,
+>   monitorados e mitigados.
+> - **Solução para NR-1 e ambiente na empresa:** O Escritório do Cuidado e o Programa MEV oferecem estrutura
+>   completa para cumprir as exigências da NR-1, com registros e rastreabilidade.
+> - **Atenção:** o subtítulo e o terceiro cartão prometem conformidade ("assegura", "totalmente alinhados",
+>   "cumprir as exigências"), o que vai contra a regra do `voice.md`. É texto do site e foi decisão da Nina; vale
+>   confirmar com o jurídico ou o comercial antes de publicar.
+> - **No Canva:** o slide foi montado à parte (`instagram/canva/gestao-pela-saude-k03e.html`, importado como
+>   DAHYNI8xQQw), os ícones foram desenhados como formas e a página entrou como página 3 do DAHYHdC4cus, no lugar
+>   da anterior. Cópia de segurança do carrossel de antes: DAHYNEC7Jcs (https://www.canva.com/d/STz0uCL-szKMrog).
+
 > **v11 (16/10): slide 3 mostra como trabalhamos, sem tom de aula.** A Nina não gostou do título nem do primeiro
 > cartão da v10: a ideia não é ensinar o que são riscos psicossociais, e sim mostrar como a fairhealth trabalha para
 > resolvê-los. `gerar_slides_v11.py` → `png-v11/k03d.png`; a v10 fica guardada.
