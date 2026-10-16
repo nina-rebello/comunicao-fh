@@ -1,5 +1,28 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **Legenda no tom da Nina (16/10), a escolhida.** Partiu do rascunho dela, com pequenos ajustes: "cumprir
+> exigências" virou "cumprir a NR-1", para o tema do slide 3 aparecer; entrou uma linha opcional sobre o ecossistema
+> fairjob; os negritos saíram, porque o Instagram não formata legenda; e as hashtags ficaram sem acento, como nas
+> outras legendas.
+>
+> ```
+> Cuidar da saúde de quem faz uma empresa acontecer não deveria começar só quando algo dá errado.
+>
+> Entre a medicina do trabalho e o plano de saúde, existe um espaço que merece mais atenção: o cuidado contínuo, preventivo e humanizado.
+>
+> É nesse espaço que a fairhealth atua.
+>
+> Unimos escuta, Medicina do Estilo de Vida e acompanhamento para transformar a forma como as empresas cuidam das pessoas. Porque promover saúde vai muito além de cumprir a NR-1: é construir ambientes mais saudáveis, seguros e sustentáveis.
+>
+> E fazemos isso dentro do ecossistema fairjob, ao lado de quem mede, conscientiza e comprova.
+>
+> Acreditamos que uma boa gestão de pessoas começa pelo cuidado com elas.
+>
+> Conheça mais sobre a fairhealth no link da bio.
+>
+> #fairhealth #saudecorporativa #medicinapreventiva #saudenotrabalho #nr1
+> ```
+
 > **Legenda curta (16/10), a escolhida.** A Nina achou a legenda final grande demais e muito parecida com os slides;
 > esta traz os temas de um jeito mais natural:
 >
