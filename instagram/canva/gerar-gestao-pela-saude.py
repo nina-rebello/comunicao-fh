@@ -14,12 +14,14 @@
 #   node ../ferramentas/dump-posicoes.mjs ../posts/gestao-pela-saude/slides-v4.html dump.json
 #   python3 gerar-gestao-pela-saude.py dump.json BASE gestao-pela-saude.html
 #   BASE: raiz de instagram/ (URL raw do GitHub para importar, ou caminho local para conferir)
+#   Quinto argumento opcional: lista de slides separada por vírgula (ex.: k03e), para gerar só essas páginas.
+#   Os ícones em SVG (k03e) não entram no HTML: no Canva viram formas com traço, criadas depois da importação.
 import json, sys
 
 DUMP, BASE, SAIDA = sys.argv[1:4]
 G = BASE if BASE.endswith('/') else BASE + '/'
 TIF, VERDE, CREME = '#96C5BD', '#1F3A36', '#F0F0E9'
-ORDEM = ['j01', 'j02', 'j03', 'j04', 'j05b', 'j06t']
+ORDEM = sys.argv[4].split(',') if len(sys.argv) > 4 else ['j01', 'j02', 'j03', 'j04', 'j05b', 'j06t']
 COR = {'fairdata': '#767171', 'fairhealth': '#96C5BD', 'fairedu': '#6E35A2', 'fairtrust': '#145C9D'}
 
 
