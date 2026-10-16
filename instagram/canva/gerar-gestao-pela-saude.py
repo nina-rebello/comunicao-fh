@@ -63,6 +63,9 @@ def extra(sid):
         # pontas do triângulo: círculo vazado (verde por fora, Tiffany por dentro)
         for cx, cy in ((540, 600), (200, 1010), (880, 1010)):
             out += [bola(cx, cy, 14.25, VERDE), bola(cx, cy, 11.75, TIF)]
+    elif sid == 'p01':
+        # marcador do triângulo: no Canva vira o triângulo com a foto (troca de forma + foto); contorno e ícones depois
+        out.append(div(250, 630, 580, 340, 'border-radius:2px;background:' + VERDE))
     elif sid == 'j02':
         out.append(div(131, 560, 10, 340, 'border-radius:5px;background:' + TIF))
         out += [bola(136, y, 26, TIF) for y in (560, 730, 900)]
