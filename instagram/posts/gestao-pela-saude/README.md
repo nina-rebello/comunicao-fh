@@ -1,5 +1,27 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **Legenda para publicar (16/10), a partir da base da Nina.** Mantém a base que ela mandou e muda só o necessário
+> para o título novo do slide ("...um plano individualizado para os colaboradores da sua empresa"): "cada pessoa"
+> virou "cada colaborador", "dentro da empresa" virou "dentro da sua empresa", e o fechamento convida a empresa.
+> Se a primeira frase ainda parecer tema do post de prevenção (28/10), trocar por "Qualidade de vida não tem
+> receita pronta."
+>
+> ```
+> Cuidar da saúde de quem faz uma empresa acontecer não deveria começar só quando algo dá errado.
+>
+> Na fairhealth, cada colaborador tem um plano de cuidado especial e individualizado. Ele nasce da escuta, de uma conversa que começa com uma pergunta: o que é importante para você?
+>
+> Com o Escritório do Cuidado dentro da sua empresa e a Medicina do Estilo de Vida como base, esse plano acompanha cada um no caminho rumo à saúde integral e à qualidade de vida.
+>
+> Um trabalho que constrói ambientes mais saudáveis, seguros e sustentáveis, totalmente alinhado às novas exigências da Norma Regulamentadora NR-01.
+>
+> Acreditamos que uma boa gestão de pessoas começa pelo cuidado com elas.
+>
+> Quer levar esse cuidado para a sua empresa? Conheça mais sobre a fairhealth no link da bio.
+>
+> #fairhealth #saudecorporativa #medicinapreventiva #saudenotrabalho #nr1
+> ```
+
 > **Legenda para publicar (16/10), alinhada ao título novo.** A Nina mudou o título do slide para "No caminho rumo à
 > qualidade de vida, existe um plano individualizado para os colaboradores da sua empresa." A legenda passa a falar
 > com a empresa (os colaboradores dela), e o convite final é para levar o cuidado para a empresa.
