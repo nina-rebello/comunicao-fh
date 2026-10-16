@@ -1,5 +1,19 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **v10 (16/10): slide 3 com foco em riscos psicossociais.** Pedido da Nina: o título foca em "riscos
+> psicossociais" e a NR-1 aparece no texto, contextualizando. `gerar_slides_v10.py` → `png-v10/k03c.png`; a v9
+> fica guardada. A Nina tinha voltado no Canva para os três cartões, com o terceiro em verde-escuro; esse
+> formato foi mantido.
+> - **Título:** "O que são *riscos psicossociais*?"
+> - **Na prática:** pressão, excesso de demanda e conflitos que podem levar a estresse, burnout e ansiedade.
+> - **O que diz a NR-1:** a norma atualizada inclui esses riscos no PGR, a gestão de riscos da empresa, para todos
+>   os portes.
+> - **Como a fairhealth ajuda** (cartão verde-escuro): Escritório do Cuidado e Programa MEV: escuta, plano de
+>   cuidado e indicadores integráveis ao PGR.
+> - **Fonte para a legenda:** NR-1 atualizada pela Portaria MTE nº 1.419/2024. Conferir o número antes de citar.
+> - **No Canva:** a página 3 do design DAHYHdC4cus (que agora tem 6 páginas) foi editada no lugar. Cópia de
+>   segurança de antes: DAHYNIEYQSQ (https://www.canva.com/d/5qiSFzMhxm6UDAc).
+
 > **v9 (15/10): slide NR-1 mostra como a gente ajuda.** Pedido da Nina: além de citar a norma, mostrar como a
 > fairhealth ajuda a atender às exigências. `gerar_slides_v9.py` → `png-v9/k03b.png`; a v8 fica guardada.
 > - **Título:** "NR-1: o que a norma pede e *como ajudamos*."
