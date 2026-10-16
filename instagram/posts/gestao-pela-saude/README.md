@@ -1,5 +1,25 @@
 # Post rápido: gestão de pessoas que começa pela saúde
 
+> **Legenda para publicar (16/10), sem "medicina do trabalho x plano de saúde".** A Nina mudou a ideia central:
+> agora é o plano individualizado rumo à qualidade de vida (Escritório do Cuidado, saúde integral, qualidade de vida,
+> "você no centro do cuidado").
+>
+> ```
+> Cuidar da saúde de quem faz uma empresa acontecer não deveria começar só quando algo dá errado.
+>
+> Na fairhealth, cada pessoa tem um plano de cuidado especial e individualizado. Ele nasce da escuta, de uma conversa que começa com uma pergunta: o que é importante para você?
+>
+> Com o Escritório do Cuidado dentro da empresa e a Medicina do Estilo de Vida como base, esse plano acompanha cada um no caminho rumo à saúde integral e à qualidade de vida.
+>
+> Um trabalho que constrói ambientes mais saudáveis, seguros e sustentáveis, totalmente alinhado às novas exigências da Norma Regulamentadora NR-01.
+>
+> Acreditamos que uma boa gestão de pessoas começa pelo cuidado com elas.
+>
+> Conheça mais sobre a fairhealth no link da bio.
+>
+> #fairhealth #saudecorporativa #medicinapreventiva #saudenotrabalho #nr1
+> ```
+
 > **Legenda para publicar (16/10), com o slide do plano individualizado.** Mantém a base da versão final e inclui o
 > tema do slide novo: plano individualizado, Escritório do Cuidado, saúde integral e qualidade de vida.
 >
