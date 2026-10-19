@@ -1,6 +1,98 @@
 # Post de sex 23/10: Cuidar da saúde não deveria começar quando algo vai mal
 
-> **v2 (19/10), atual, para alinhar antes da arte.** Volta ao roteiro original do cronograma (P03,
+> **v3 (19/10), atual.** Novo briefing da Nina:
+> - cuidar antes, não depois, e não só da saúde;
+> - acolhimento e prevenção com o mesmo peso, mostrando a diferença entre os dois;
+> - as pessoas precisam de alguém para ouvir;
+> - **público: CEOs**, com linguagem de quem lidera a empresa.
+>
+> Isso resolve a nota "alguém para ouvir CEO": o CEO é o público, não uma fala. A v2 e a v1 ficam mais embaixo.
+
+- **Formato:** carrossel 1080 × 1350, 7 slides.
+- **Público:** CEOs e quem decide na empresa (no plano de marketing, "C-Level / Conselho": cuidado com o capital
+  humano). Linguagem direta, frases curtas, "sua empresa" e "seu time", sem jargão de saúde, sem números.
+- **Ideia central:** cuidar antes depende de duas coisas diferentes e igualmente importantes. Acolher é ouvir como a
+  pessoa está hoje. Prevenir é agir antes que algo vá mal. Um sem o outro não se sustenta.
+- **Gancho para o CEO:** quem lidera não consegue ouvir todo mundo, mas pode garantir que cada pessoa tenha com quem
+  falar.
+
+## Roteiro v3
+
+| Slide | Título | Apoio |
+| --- | --- | --- |
+| 1 · capa | Cuidar das pessoas não deveria começar *quando algo vai mal*. | Etiqueta: Para quem lidera |
+| 2 · o depois | Muitas vezes, o cuidado só chega *depois*. | Depois da semana pesada, da noite sem dormir, do atestado. Quando a pessoa já não está bem. |
+| 3 · acolher | *Acolher* é ouvir como a pessoa está hoje. | Um espaço seguro e confidencial, sem julgamento e sem cobrança, que começa com uma pergunta: o que é importante para você? |
+| 4 · prevenir | *Prevenir* é agir antes que algo vá mal. | Um plano de cuidado individualizado, com base na Medicina do Estilo de Vida, que olha para a rotina inteira: sono, alimentação, movimento, estresse, relações e propósito. |
+| 5 · os dois | Os dois têm *o mesmo peso*. | Sem acolhimento, a prevenção vira um programa que ninguém usa. Sem prevenção, a escuta não vira mudança. |
+| 6 · alguém para ouvir | As pessoas precisam de *alguém para ouvir*. | Quem lidera não consegue ouvir todo mundo. Mas pode garantir que cada pessoa tenha com quem falar: perto, dentro da empresa, com sigilo. |
+| 7 · final | Cuidar antes. *É para isso que a fairhealth existe.* | Fazemos o certo pelos motivos certos. / Conheça o Escritório do Cuidado no link da bio. |
+
+**Visual (ideia):**
+- os slides 3 e 4 com o mesmo layout e cores trocadas (Tiffany e verde), para a diferença ficar visível;
+- o slide 5 junta os dois lado a lado, com o mesmo tamanho.
+
+**Capa:** o cronograma diz "Cuidar da saúde…". Troquei para "das pessoas" porque o post não fala só de saúde.
+Se o título do calendário já foi para o grupo, dá para manter "da saúde".
+
+### De onde vem cada slide
+
+- **1:** título do cronograma (P03), com "das pessoas" pelo briefing. Público C-Level: plano de marketing (3.5).
+- **2:** a cadeia do roteiro original (semana pesada, noite sem dormir, atestado) e o eixo "antes" do posicionamento.
+- **3:**
+  - "Sem pressa e sem julgamento" (vídeo de acolhimento, `primeiros-posts-acolhimento.md`);
+  - o espaço seguro em que ninguém está cobrando (fala da Nina sobre o plano de cuidado);
+  - "acolhimento, confidencialidade" (plano de marketing);
+  - a pergunta do site, "O que é importante para você hoje?".
+- **4:** Plano Individualizado de Cuidado e os 7 pilares da MEV (decisão da Nina de 12/10, essência). O eixo
+  "antes do diagnóstico" (posicionamento).
+- **5:**
+  - "Programa de bem-estar que ninguém usa é custo, não cuidado" (voice.md);
+  - "Proximidade gera adesão, adesão gera resultado" (essência);
+  - plano de marketing (3.4): o pleno potencial vem com o Programa MEV e o Escritório do Cuidado juntos, um com a base
+    científica e a mudança de hábitos, o outro com o suporte, a personalização e a adesão.
+- **6:**
+  - Liderança Bem-Estar: "O que é importante pra você?" como modelo de liderança mais empático (plano de marketing,
+    3.7);
+  - "sem depender de que o colaborador tome a iniciativa sozinho" (tom de voz, plano de marketing);
+  - sigilo (estratégia, produto).
+- **7:** fechamento do roteiro original e "Fazemos o certo pelos motivos certos" (valor da marca, plano de
+  marketing; roteiro do reel do Dr. Ronald).
+
+## Legenda v3
+
+```
+Cuidar antes, não depois.
+
+Muitas vezes, o cuidado só chega quando algo já deu errado. Cuidar antes pede duas coisas, com o mesmo peso: acolher, para entender como cada pessoa está, e prevenir, para agir antes que o problema apareça.
+
+Nenhum líder consegue estar em todas as conversas. Por isso, o cuidado precisa estar perto. No Escritório do Cuidado, dentro da sua empresa, cada pessoa tem com quem falar, com sigilo, e um plano de cuidado feito para ela.
+
+Fazemos o certo pelos motivos certos.
+
+Conheça a fairhealth no link da bio.
+
+#fairhealth #saudecorporativa #medicinapreventiva #lideranca #gestaodepessoas
+```
+
+## Stories (v3)
+
+Caixa de perguntas, ajustada para quem lidera: "Na sua empresa, quem as pessoas procuram quando não estão bem?"
+(adaptada da pergunta do cronograma).
+
+## Validar antes de publicar (v3)
+
+- Sem promessa de evitar doença ou afastamento (CFM): "agir antes que algo vá mal" fala de intenção, não de resultado.
+- Sem números e sem ROI: os números do plano de marketing (sinistralidade, custo por colaborador) não têm fonte
+  pública.
+- Sem comparação com o plano de saúde (a Nina tirou no post de gestão).
+- A legenda do post de gestão abre com "não deveria começar só quando algo dá errado", parecida com a capa deste.
+
+---
+
+## v2 (19/10), mantida
+
+> **v2 (19/10), substituída pela v3.** Volta ao roteiro original do cronograma (P03,
 > `marketing/ferramentas/conteudo_posts_19-10_a_13-11.py`), que a Nina prefere, e só acrescenta o acolhimento e as
 > notas dela: cuidar antes, não depois; não é cuidar só da saúde; acolhimento x preventivo; alguém para ouvir (CEO).
 > Cada acréscimo vem do material base (fontes abaixo). A v1 fica mais embaixo.
@@ -13,7 +105,7 @@
 - **Fio da história:** vem do 21/10 (antes de qualquer exame, uma conversa). Leva para o reel de 26/10 (o que
   acontece quando o cuidado não faz parte da rotina).
 
-## Argumentos (todos do material base)
+### Argumentos v2 (todos do material base)
 
 1. **Cuidar antes, não depois.** O eixo "antes" do posicionamento: atuar antes do diagnóstico, antes do afastamento.
    O plano de marketing: "Cuidar antes que o adoecimento vire afastamento."
@@ -27,7 +119,7 @@
 5. **Não é cuidar só da saúde.** A Medicina do Estilo de Vida olha para a pessoa inteira, e "os pilares não funcionam
    isoladamente" (essência, apresentação).
 
-## Roteiro v2
+### Roteiro v2
 
 O que mudou em relação ao original está em **negrito** na coluna "Mudança".
 
@@ -44,7 +136,7 @@ O que mudou em relação ao original está em **negrito** na coluna "Mudança".
 
 **Opção para o slide 6, se a nota do CEO não for essa:** apoio só "Faltou alguém para ouvir."
 
-### De onde vem cada acréscimo
+#### De onde vem cada acréscimo
 
 - **Slide 6, "Faltou alguém para ouvir":** o Escritório do Cuidado como espaço para "acolher, ouvir e perguntar"
   (`primeiros-posts-acolhimento.md`) e o "A gente tá aqui pra te ouvir" do vídeo de acolhimento.
@@ -55,7 +147,7 @@ O que mudou em relação ao original está em **negrito** na coluna "Mudança".
 - **Slide 8, "não é cuidar só da saúde":** nota da Nina; os pilares da MEV na decisão de 12/10 (sono, alimentação,
   estresse, relacionamentos, espiritualidade e propósito, entre outros) e "os pilares não funcionam isoladamente".
 
-## Legenda v2
+### Legenda v2
 
 Mais curta e sem repetir a cadeia dos slides (pedido da Nina na legenda do post de gestão).
 
@@ -77,11 +169,11 @@ Fontes da legenda: a primeira frase é a do cronograma; "Antes do afastamento, t
 Escritório do Cuidado como espaço de acolhimento e de medicina preventiva dentro da empresa (essência); "sem depender
 de que o colaborador tome a iniciativa sozinho" (posicionamento, dor do RH); o fechamento é o slide 8 original.
 
-## Stories
+### Stories (v2)
 
 Caixa de perguntas do cronograma: "Qual é o primeiro sinal de que alguém do seu time não está bem?"
 
-## Validar antes de publicar
+### Validar antes de publicar (v2)
 
 - Sem promessa de evitar doença ou afastamento (CFM): o texto fala de cuidar antes, não de resultado.
 - Sem números: o dado oficial de afastamentos fica para o reel de 26/10, que tem fonte.
