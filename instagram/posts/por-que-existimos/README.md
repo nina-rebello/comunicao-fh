@@ -1,5 +1,35 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Arte v7 (19/10), o caminho largo (referência Eleken)
+
+A partir das novas referências da Nina. A principal é o carrossel "Customer Journey Map", da Eleken.
+
+**Arquivos:**
+- gerador: `gerar_slides_v7.py`;
+- saída: `slides-v7.html` e `png-v7/` (v01 a v08);
+- prévia: `previa-v7.jpg`.
+
+**Como ficou:**
+- **O caminho:** uma faixa larga em creme, sempre da mesma espessura, com curvas lisas e abertas. Serpenteia de um
+  slide para o outro, sem tremido e sem canto quadrado.
+  - Na capa, nasce numa bolinha verde e sobe pela direita.
+  - No slide 3, sobe pela direita.
+  - No slide 4, passa por cima.
+  - No slide 5, desce pela esquerda.
+  - No final, chega ao logo.
+- **Bolinhas verdes:** marcam cada etapa no caminho.
+- **Títulos:** curtos e fortes, como na referência:
+  - "2009" e "hoje" em número grande;
+  - "No hospital", "O acolhimento", "O que levamos", "Perto" e "O propósito".
+  Embaixo de cada um vem o texto aprovado (conteúdo v6), grande.
+- **Slide 6:** os três itens ficam num cartão claro com marcadores, como os cartões da referência.
+- **Detalhes:**
+  - em cima, o nome fairhealth (capa) e a página numa pílula (1/8 a 8/8);
+  - embaixo, fairhealth e uma barra de progresso;
+  - fundo Tiffany com textura leve.
+
+As versões anteriores ficam guardadas.
+
 ## Direção para a próxima arte (19/10), antes de refazer
 
 A Nina explicou: "reta eu não quis dizer quadrada, só não queria aquele aspecto de rabisco torto". Ela mandou mais
