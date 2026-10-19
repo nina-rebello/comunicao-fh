@@ -16,6 +16,20 @@ Dê esse presente para seu time!
 Faça o certo pelos motivos certos. Chame a fairhealth!
 ```
 
+## Capa (19/10)
+
+Referência: capa de reel da fairedu (foto cheia, @ pequeno, título grande com uma palavra numa pílula de cor).
+Tamanho 1080 × 1920. Todo o texto fica dentro do recorte 3:4 do grid (y de 240 a 1680).
+
+- **Título:** "Como a [fairhealth] chegou até aqui?", da abertura da legenda v6. "fairhealth" vai na pílula.
+- **Linha de apoio:** "a nossa história, contada pelo Dr. Ronald" (legenda v6: "contado pelo Dr. Ronald").
+- **Opção A:** frame do vídeo, foto cheia, degradê verde (#1F3A36) embaixo, título creme, pílula Tiffany.
+- **Opção B:** foto de jaleco no alto, que se dissolve no fundo Tiffany, título verde, pílula creme.
+- Raleway 800 no título e no @, Raleway 400 na linha de apoio.
+
+As fotos do Dr. Ronald não entram no repositório (a autorização de imagem está pendente). As capas foram
+montadas fora daqui e entregues direto.
+
 ## Legenda v6 (a que vale)
 
 Ajuste pedido pela Nina: "o Escritório do Cuidado é um produto da fairhealth; no seu texto parece que são etapas
