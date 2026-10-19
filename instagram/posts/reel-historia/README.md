@@ -16,7 +16,27 @@ Dê esse presente para seu time!
 Faça o certo pelos motivos certos. Chame a fairhealth!
 ```
 
-## Legenda v5 (a que vale)
+## Legenda v6 (a que vale)
+
+Ajuste pedido pela Nina: "o Escritório do Cuidado é um produto da fairhealth; no seu texto parece que são etapas
+diferentes". Agora o atendimento, os planos de cuidado e a tecnologia aparecem como o que o Escritório do Cuidado
+leva para dentro da empresa. O Escritório do Paciente continua como a origem, no hospital.
+
+```
+Como a fairhealth chegou até aqui, contado pelo Dr. Ronald.
+
+Há quase 20 anos, percebemos que os pacientes estavam cada vez mais distantes do centro do cuidado. Para mudar essa realidade, desenvolvemos, dentro do hospital, o Escritório do Paciente, inspirado nos princípios do Triple Aim.
+
+Com o tempo, levamos esse conceito para as empresas e criamos o Escritório do Cuidado, da fairhealth: um espaço dentro da empresa com atendimento médico e psicológico e planos de cuidado individualizados, baseados na Medicina do Estilo de Vida, com tecnologia, humanização e cuidado verdadeiro.
+
+Nosso propósito é promover qualidade de vida, engajamento e um ambiente de trabalho mais saudável, com resultados demonstrados por indicadores.
+
+Dê esse presente para o seu time. Faça o certo pelos motivos certos: chame a fairhealth pelo link da bio.
+
+#fairhealth #escritoriodocuidado #saudecorporativa #medicinapreventiva #cuidadocentradonapessoa
+```
+
+## Legenda v5 (guardada)
 
 Igual à v4, com um ajuste pedido pela Nina: deixar claro que o Escritório do Paciente é no hospital e o Escritório
 do Cuidado é na empresa.
