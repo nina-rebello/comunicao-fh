@@ -16,7 +16,25 @@ Dê esse presente para seu time!
 Faça o certo pelos motivos certos. Chame a fairhealth!
 ```
 
-## Legenda v2 (a que vale)
+## Legenda v3 (a que vale)
+
+A Nina não gostou da v2 ("mande uma ideia melhor"). A ideia nova: a pergunta da marca vira o fio da legenda. Ela é o
+começo de todo cuidado no Escritório do Cuidado, e o vídeo conta de onde ela veio. O fechamento usa a frase do reel
+para o RH e as lideranças: "Dê esse presente para o seu time".
+
+```
+Uma pergunta muda tudo: o que é importante para você?
+
+É com ela que começa o cuidado no Escritório do Cuidado, da fairhealth. Um espaço de acolhimento e de medicina preventiva dentro da empresa, perto da rotina de quem trabalha, onde cada pessoa tem atendimento médico e psicológico e um plano de cuidado feito para ela.
+
+No vídeo, o Dr. Ronald conta de onde veio essa ideia e por que ela chegou às empresas.
+
+Dê esse presente para o seu time. Conheça a fairhealth pelo link da bio.
+
+#fairhealth #escritoriodocuidado #saudecorporativa #medicinapreventiva #cuidadocentradonapessoa
+```
+
+## Legenda v2 (guardada)
 
 Pedido da Nina sobre a v1: "foque mais na fairhealth, no Escritório do Cuidado". A história (2009, o hospital) fica
 para o vídeo; a legenda fala do que a fairhealth faz hoje.
