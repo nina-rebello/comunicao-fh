@@ -1,5 +1,29 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Versão H final (19/10), a escolhida
+
+A Nina não gostou da versão final A + D + H ("eu odiei"). Ela escolheu o teste H (referência Polina): "faça nessa
+versão mesmo, mas faça alguns em Tiffany ao invés de tudo creme e já adicione no Canva".
+
+**Arquivos:**
+- gerador: `gerar_slides_h.py`, duplicado da faixa H de `gerar_testes_design_2.py`;
+- HTML: `slides-h.html`;
+- PNG: `png-h/` (k1 a k8);
+- faixa: `faixa-h.jpg`.
+
+**Como ficou:**
+- **Fundos:** Tiffany nos slides 1, 3, 5 e 7, creme nos 2, 4, 6 e 8.
+- **Nos slides Tiffany:** a linha, os números e as anotações ficam em verde-escuro; o cabeçalho e o rodapé, em
+  creme.
+- **O resto:** igual ao teste H.
+
+**Para o Canva:**
+- `slides-h-fundo.html` → `png-h-fundo/`: o fundo de cada slide, sem os textos e sem o logo. Leva o papel, a linha,
+  as bolinhas, as bolinhas da lista, o círculo do logo e a seta.
+- `../../canva/por-que-existimos-h-dump.json`: a posição de cada texto.
+- `../../canva/gerar-por-que-existimos.py`: monta o HTML de importação. No Canva, o fundo entra como imagem e os
+  textos e o logo entram editáveis.
+
 ## Versão final (19/10): o melhor de A, D e H, com as ilustrações da Nina
 
 Pedido da Nina: "eu gostei do A, D e H. Criei uns elementos também. Use de todos os seus dons de design e crie uma
