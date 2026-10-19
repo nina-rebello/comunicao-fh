@@ -1,0 +1,334 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Testes de design (21/10)</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
+@font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--tif:#96C5BD;--verde:#1F3A36;--creme:#F0F0E9;--tclaro:#BFE0D9;--vlogo:#2F6B64;--noite:#14241F}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#888;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;font-variant-numeric:lining-nums}
+.slide>*{position:absolute}
+svg.cheia{left:0;top:0;width:1080px;height:1350px}
+.k{font-weight:800;font-style:italic}
+
+/* B · editorial */
+.Bc{background:var(--creme);color:var(--verde)} .Bt{background:var(--tif);color:var(--verde)} .Bd{background:var(--verde);color:var(--creme)}
+.Bd .k{color:var(--tif)}
+.Bh{left:96px;right:96px;top:84px;display:flex;justify-content:space-between;font-size:20px;line-height:26px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.Bh span:last-child{letter-spacing:0;text-transform:none;font-size:24px}
+.Bregua{left:96px;right:96px;top:128px;height:2px;background:currentColor;opacity:.35}
+.Bcol{left:96px;width:888px}
+.Bcol h2{font-size:54px;line-height:62px;font-weight:800;letter-spacing:-0.01em}
+.Bcol h2 .k{font-weight:800}
+.Bcol p{font-size:30px;line-height:44px;margin-top:26px}
+.Bd .Bcol p{color:var(--tclaro)}
+.Bcita{margin-top:40px;padding:26px 32px;border-left:8px solid var(--verde);background:rgba(150,197,189,.35);font-size:30px;line-height:42px}
+.Bnums{display:flex;border:2px solid var(--verde);margin-top:40px}
+.Bnums div{flex:1;padding:26px 32px}
+.Bnums div+div{border-left:2px solid var(--verde)}
+.Bnums b{display:block;font-size:64px;line-height:70px;font-weight:800}
+.Bnums span{display:block;font-size:18px;line-height:24px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin-top:6px}
+.Blista{margin-top:34px}
+.Blista div{display:flex;gap:28px;padding:22px 0;border-top:2px solid rgba(31,58,54,.25);font-size:32px;line-height:42px}
+.Blista b{font-weight:800;color:var(--vlogo);min-width:52px}
+.Bfoto{overflow:hidden;border:4px solid var(--verde);padding:14px;background:var(--creme)}
+.Bfoto img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.8)}
+.Brod{font-size:20px;line-height:28px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;border-bottom:2px solid currentColor;padding-bottom:6px}
+
+/* C · linha do tempo com hastes */
+.Cs{background:radial-gradient(ellipse at 50% 45%,#22413C,#14241F 75%);color:var(--creme)}
+.Cs .k{color:var(--tif)}
+.Ctop{left:0;width:1080px;top:76px;text-align:center;font-size:22px;line-height:28px;color:var(--tclaro)}
+.Ctit{left:90px;width:900px;text-align:center;font-size:54px;line-height:64px;letter-spacing:-0.01em}
+.Crot{width:320px;text-align:center;font-size:22px;line-height:30px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.Cap{left:130px;width:820px;text-align:center;font-size:28px;line-height:40px;color:var(--tclaro)}
+.Crod{left:96px;top:1212px;font-size:22px;line-height:28px}
+.Crod span{display:block;color:rgba(191,224,217,.6)}
+.Cpil{right:96px;top:1210px;border:1.5px solid rgba(240,240,233,.5);border-radius:28px;padding:10px 24px;font-size:22px;line-height:28px}
+
+/* D · frase forte e linha reta */
+.Ds{background:#121D1B;color:var(--creme)}
+.Ds .k,.Dk{font-weight:800;font-style:normal}
+.Dpo{inset:0;background-image:radial-gradient(rgba(240,240,233,.35) 1px,transparent 1.5px);background-size:137px 151px;opacity:.5}
+.Dtit{left:176px;width:760px;font-size:62px;line-height:66px;letter-spacing:-0.035em}
+.Dap{left:176px;width:740px;font-size:28px;line-height:40px;color:rgba(240,240,233,.72)}
+.Drod{left:96px;top:1236px;font-size:20px;line-height:26px;color:rgba(240,240,233,.5)}
+.Dpg{right:96px;top:1236px;font-size:20px;line-height:26px;color:rgba(240,240,233,.5)}
+
+/* E · palavra gigante e curva */
+.Es{background:var(--creme);color:var(--verde)}
+.Es .k{color:var(--vlogo)}
+.Ecol{left:96px;top:110px;width:888px}
+.Ecol .pq{font-size:44px;line-height:50px;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.Ecol .gig{font-size:220px;line-height:.92;font-weight:800;letter-spacing:-0.01em;text-transform:uppercase;white-space:nowrap;margin-top:6px}
+.Ecol .par{font-size:34px;line-height:46px;width:700px;margin-top:30px}
+.Ecol .tag{font-size:22px;line-height:30px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--vlogo);margin-top:28px}
+.Ecol ul{list-style:none;margin-top:30px;width:760px}
+.Ecol li{font-size:32px;line-height:44px;padding-left:34px;position:relative}
+.Ecol li+li{margin-top:16px}
+.Ecol li::before{content:'';position:absolute;left:0;top:16px;width:14px;height:14px;border-radius:50%;background:var(--tif)}
+.Erot{font-size:26px;line-height:32px;color:var(--vlogo);text-align:center;width:300px}
+.Erod{left:96px;top:1236px;font-size:24px;line-height:32px}
+</style></head><body>
+<section class="slide Bt" id="b1">
+  <p style="left:0;width:1080px;top:96px;text-align:center;font-size:22px;line-height:28px;font-weight:800;letter-spacing:.2em">NOSSA HISTÓRIA</p>
+  <div class="Bfoto" style="left:250px;top:180px;width:580px;height:560px"><img src="../../marca/fotos-banco/conversa2.jpg" alt=""></div>
+  <p style="left:110px;width:860px;top:800px;text-align:center;font-size:56px;line-height:64px;font-weight:800;letter-spacing:-0.01em">Antes de chegar às empresas, nossa história começou <span class="k">em um hospital</span>.</p>
+  <p style="left:0;width:1080px;top:1040px;text-align:center;font-size:24px;line-height:32px">2009 → hoje · por que a fairhealth existe?</p>
+  <p style="left:0;width:1080px;top:1230px;text-align:center;font-size:22px;line-height:28px;font-weight:800">Arraste para ler →</p>
+</section>
+<section class="slide Bc" id="b2">
+  <div class="Bh"><span>01 · O porquê</span><span>2009</span></div>
+  <p style="left:84px;top:180px;font-size:230px;line-height:220px;font-weight:800;letter-spacing:-0.04em;color:var(--tif)">2009</p>
+  <div class="Bcol" style="top:470px"><h2>Há quase 20 anos, percebemos que os pacientes estavam <span class="k">cada vez mais distantes do centro do cuidado</span>.</h2><div class="Bcita"><b style="font-weight:800">fairhealth</b> · Era preciso mudar essa realidade.</div></div>
+</section>
+<section class="slide Bd" id="b3">
+  <div class="Bh"><span>02 · No hospital</span><span>Desde 2009</span></div>
+  <div style="left:96px;top:160px;width:888px;height:430px;overflow:hidden"><img src="../../marca/fotos-banco/maos.jpg" alt="" style="width:100%;height:100%;object-fit:cover;filter:saturate(.8)"></div>
+  <div class="Bcol" style="top:640px"><h2>Assim, dentro de um hospital, desenvolvemos o <span class="k">Escritório do Paciente</span> para mudar essa realidade.</h2><p>Com o tempo, levamos esse conceito para as empresas.</p></div>
+  <p class="Brod" style="right:96px;top:1180px">No hospital, onde tudo começou</p>
+</section>
+<section class="slide Bc" id="b4">
+  <div class="Bh"><span>03 · Hoje</span><span>fairhealth</span></div>
+  <div class="Bregua"></div>
+  <div class="Bcol" style="top:240px"><h2 style="font-size:64px;line-height:72px">Assim, desenvolvemos o <span class="k">Escritório do Cuidado</span>.</h2><p>Um espaço de acolhimento e de medicina preventiva dentro da empresa, que fortalece o cuidado centrado na pessoa.</p>
+  <div class="Bnums" style="margin-top:110px"><div><b>2009</b><span>No hospital</span></div><div><b>Hoje</b><span>Nas empresas</span></div></div></div>
+</section>
+<section class="slide Bt" id="b5">
+  <div class="Bh"><span>04 · O acolhimento</span><span>fairhealth</span></div>
+  <div class="Bcol" style="top:250px"><h2 style="font-size:46px;line-height:54px">Tudo começa com uma pergunta:</h2>
+  <p style="font-size:84px;line-height:92px;font-weight:800;font-style:italic;letter-spacing:-0.01em;margin-top:30px">“O que é importante para você?”</p>
+  <p style="margin-top:50px">Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado.</p></div>
+</section>
+<section class="slide Bc" id="b6">
+  <div class="Bh"><span>05 · O que levamos</span><span>fairhealth</span></div>
+  <div class="Bregua"></div>
+  <div class="Bcol" style="top:240px"><h2 style="font-size:64px;line-height:72px">Levamos ao <span class="k">coração da sua empresa</span>:</h2>
+  <div class="Blista"><div><b>01</b><span>Atendimento médico e psicológico</span></div><div><b>02</b><span>Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida</span></div><div><b>03</b><span>Tecnologia, humanização e cuidado verdadeiro</span></div></div></div>
+</section>
+<section class="slide Bt" id="b7">
+  <div class="Bh"><span>06 · Perto</span><span>fairhealth</span></div>
+  <div class="Bcol" style="top:200px"><h2 style="font-size:60px;line-height:68px">Porque, quando o cuidado está perto, <span class="k">ele acontece</span>.</h2><p>A maior barreira ao cuidado é tempo e acesso. Por isso, o Escritório do Cuidado fica dentro da empresa, perto da rotina de quem trabalha.</p></div>
+  <div class="Bfoto" style="left:96px;top:700px;width:888px;height:440px"><img src="../../marca/fotos-banco/cafe-notebook.jpg" alt=""></div>
+</section>
+<section class="slide Bd" id="b8">
+  <p style="left:0;width:1080px;top:110px;text-align:center;font-size:20px;line-height:26px;font-weight:800;letter-spacing:.16em">07 · O PROPÓSITO</p>
+  <p style="left:130px;width:820px;top:240px;text-align:center;font-size:72px;line-height:80px;font-weight:800;letter-spacing:-0.01em">Faça o certo pelos motivos certos.</p>
+  <div style="left:500px;top:520px;width:80px;height:3px;background:var(--tif)"></div>
+  <p style="left:150px;width:780px;top:570px;text-align:center;font-size:30px;line-height:44px;color:var(--tclaro)">Nosso propósito é promover <span class="k">qualidade de vida, engajamento e um ambiente de trabalho mais saudável</span>. Com resultados demonstrados por indicadores.</p>
+  <img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:470px;top:870px;width:140px;height:140px">
+  <p style="left:0;width:1080px;top:1050px;text-align:center;font-size:24px;line-height:32px">Conheça a fairhealth no link da bio.</p>
+</section>
+<section class="slide Cs" id="c1">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><defs><linearGradient id="cl" x1="0" x2="1"><stop offset="0" stop-color="#96C5BD" stop-opacity=".55"/><stop offset=".5" stop-color="#96C5BD"/><stop offset="1" stop-color="#96C5BD" stop-opacity=".55"/></linearGradient><filter id="brilho"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M0 840H1080" stroke="#96C5BD" stroke-opacity=".5" stroke-width="6" filter="url(#brilho)"/><path d="M0 840H1080" stroke="url(#cl)" stroke-width="2.5"/></svg>
+  <p class="Ctop">@fairhealth.br</p>
+  <p class="Ctit" style="top:190px">Antes de chegar às empresas, nossa história começou <span class="k">em um hospital</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M220 640V832" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="220" cy="840" r="8" fill="#96C5BD"/></svg>
+  <p class="Crot" style="left:60px;top:600px;width:320px">2009<br>no hospital</p><svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M540 580V829" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="540" cy="840" r="11" fill="#14241F" stroke="#96C5BD" stroke-width="3.5"/></svg>
+  <p class="Crot" style="left:380px;top:540px;width:320px">Por que a fairhealth existe?</p><svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M860 640V832" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="860" cy="840" r="8" fill="#96C5BD"/></svg>
+  <p class="Crot" style="left:700px;top:600px;width:320px">Hoje<br>nas empresas</p>
+  
+  <p class="Crod">fairhealth<span>o cuidado começa pela pessoa</span></p>
+  <p class="Cpil">Arraste ›</p>
+</section>
+<section class="slide Cs" id="c2">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><defs><linearGradient id="cl" x1="0" x2="1"><stop offset="0" stop-color="#96C5BD" stop-opacity=".55"/><stop offset=".5" stop-color="#96C5BD"/><stop offset="1" stop-color="#96C5BD" stop-opacity=".55"/></linearGradient><filter id="brilho"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M0 840H1080" stroke="#96C5BD" stroke-opacity=".5" stroke-width="6" filter="url(#brilho)"/><path d="M0 840H1080" stroke="url(#cl)" stroke-width="2.5"/></svg>
+  <p class="Ctop">@fairhealth.br</p>
+  <p class="Ctit" style="top:190px">Há quase 20 anos, percebemos que os pacientes estavam <span class="k">cada vez mais distantes do centro do cuidado</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M540 640V829" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="540" cy="840" r="11" fill="#14241F" stroke="#96C5BD" stroke-width="3.5"/></svg>
+  <p class="Crot" style="left:380px;top:600px;width:320px">Há quase 20 anos</p>
+  <p class="Cap" style="top:900px">Era preciso mudar essa realidade.</p>
+  <p class="Crod">fairhealth<span>o cuidado começa pela pessoa</span></p>
+  <p class="Cpil">Arraste ›</p>
+</section>
+<section class="slide Cs" id="c3">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><defs><linearGradient id="cl" x1="0" x2="1"><stop offset="0" stop-color="#96C5BD" stop-opacity=".55"/><stop offset=".5" stop-color="#96C5BD"/><stop offset="1" stop-color="#96C5BD" stop-opacity=".55"/></linearGradient><filter id="brilho"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M0 840H1080" stroke="#96C5BD" stroke-opacity=".5" stroke-width="6" filter="url(#brilho)"/><path d="M0 840H1080" stroke="url(#cl)" stroke-width="2.5"/></svg>
+  <p class="Ctop">@fairhealth.br</p>
+  <p class="Ctit" style="top:190px">Assim, dentro de um hospital, desenvolvemos o <span class="k">Escritório do Paciente</span> para mudar essa realidade.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M540 640V829" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="540" cy="840" r="11" fill="#14241F" stroke="#96C5BD" stroke-width="3.5"/></svg>
+  <p class="Crot" style="left:380px;top:600px;width:320px">Escritório do Paciente</p>
+  <p class="Cap" style="top:900px">Com o tempo, levamos esse conceito para as empresas.</p>
+  <p class="Crod">fairhealth<span>o cuidado começa pela pessoa</span></p>
+  <p class="Cpil">Arraste ›</p>
+</section>
+<section class="slide Cs" id="c4">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><defs><linearGradient id="cl" x1="0" x2="1"><stop offset="0" stop-color="#96C5BD" stop-opacity=".55"/><stop offset=".5" stop-color="#96C5BD"/><stop offset="1" stop-color="#96C5BD" stop-opacity=".55"/></linearGradient><filter id="brilho"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M0 840H1080" stroke="#96C5BD" stroke-opacity=".5" stroke-width="6" filter="url(#brilho)"/><path d="M0 840H1080" stroke="url(#cl)" stroke-width="2.5"/></svg>
+  <p class="Ctop">@fairhealth.br</p>
+  <p class="Ctit" style="top:190px">Assim, desenvolvemos o <span class="k">Escritório do Cuidado</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M540 640V829" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="540" cy="840" r="11" fill="#14241F" stroke="#96C5BD" stroke-width="3.5"/></svg>
+  <p class="Crot" style="left:380px;top:600px;width:320px">Hoje · nas empresas</p>
+  <p class="Cap" style="top:900px">Um espaço de acolhimento e de medicina preventiva dentro da empresa, que fortalece o cuidado centrado na pessoa.</p>
+  <p class="Crod">fairhealth<span>o cuidado começa pela pessoa</span></p>
+  <p class="Cpil">Arraste ›</p>
+</section>
+<section class="slide Cs" id="c5">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><defs><linearGradient id="cl" x1="0" x2="1"><stop offset="0" stop-color="#96C5BD" stop-opacity=".55"/><stop offset=".5" stop-color="#96C5BD"/><stop offset="1" stop-color="#96C5BD" stop-opacity=".55"/></linearGradient><filter id="brilho"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M0 840H1080" stroke="#96C5BD" stroke-opacity=".5" stroke-width="6" filter="url(#brilho)"/><path d="M0 840H1080" stroke="url(#cl)" stroke-width="2.5"/></svg>
+  <p class="Ctop">@fairhealth.br</p>
+  <p class="Ctit" style="top:190px">Tudo começa com uma pergunta: <span class="k">o que é importante para você?</span></p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M540 640V829" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="540" cy="840" r="11" fill="#14241F" stroke="#96C5BD" stroke-width="3.5"/></svg>
+  <p class="Crot" style="left:380px;top:600px;width:320px">O acolhimento</p>
+  <p class="Cap" style="top:900px">Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado.</p>
+  <p class="Crod">fairhealth<span>o cuidado começa pela pessoa</span></p>
+  <p class="Cpil">Arraste ›</p>
+</section>
+<section class="slide Cs" id="c6">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><defs><linearGradient id="cl" x1="0" x2="1"><stop offset="0" stop-color="#96C5BD" stop-opacity=".55"/><stop offset=".5" stop-color="#96C5BD"/><stop offset="1" stop-color="#96C5BD" stop-opacity=".55"/></linearGradient><filter id="brilho"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M0 840H1080" stroke="#96C5BD" stroke-opacity=".5" stroke-width="6" filter="url(#brilho)"/><path d="M0 840H1080" stroke="url(#cl)" stroke-width="2.5"/></svg>
+  <p class="Ctop">@fairhealth.br</p>
+  <p class="Ctit" style="top:190px">Levamos ao <span class="k">coração da sua empresa</span>:</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M200 510V832" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="200" cy="840" r="8" fill="#96C5BD"/></svg>
+  <p class="Crot" style="left:50px;top:470px;width:300px">Atendimento médico e psicológico</p><svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M540 510V829" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="540" cy="840" r="11" fill="#14241F" stroke="#96C5BD" stroke-width="3.5"/></svg>
+  <p class="Crot" style="left:390px;top:470px;width:300px">Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida</p><svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M880 510V832" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="880" cy="840" r="8" fill="#96C5BD"/></svg>
+  <p class="Crot" style="left:730px;top:470px;width:300px">Tecnologia, humanização e cuidado verdadeiro</p>
+  
+  <p class="Crod">fairhealth<span>o cuidado começa pela pessoa</span></p>
+  <p class="Cpil">Arraste ›</p>
+</section>
+<section class="slide Cs" id="c7">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><defs><linearGradient id="cl" x1="0" x2="1"><stop offset="0" stop-color="#96C5BD" stop-opacity=".55"/><stop offset=".5" stop-color="#96C5BD"/><stop offset="1" stop-color="#96C5BD" stop-opacity=".55"/></linearGradient><filter id="brilho"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M0 840H1080" stroke="#96C5BD" stroke-opacity=".5" stroke-width="6" filter="url(#brilho)"/><path d="M0 840H1080" stroke="url(#cl)" stroke-width="2.5"/></svg>
+  <p class="Ctop">@fairhealth.br</p>
+  <p class="Ctit" style="top:190px">Porque, quando o cuidado está perto, <span class="k">ele acontece</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M540 640V829" stroke="rgba(240,240,233,.7)" stroke-width="2"/><circle cx="540" cy="840" r="11" fill="#14241F" stroke="#96C5BD" stroke-width="3.5"/></svg>
+  <p class="Crot" style="left:380px;top:600px;width:320px">Perto da rotina</p>
+  <p class="Cap" style="top:900px">A maior barreira ao cuidado é tempo e acesso. Por isso, o Escritório do Cuidado fica dentro da empresa, perto da rotina de quem trabalha.</p>
+  <p class="Crod">fairhealth<span>o cuidado começa pela pessoa</span></p>
+  <p class="Cpil">Arraste ›</p>
+</section>
+<section class="slide Cs" id="c8">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><defs><linearGradient id="cl" x1="0" x2="1"><stop offset="0" stop-color="#96C5BD" stop-opacity=".55"/><stop offset=".5" stop-color="#96C5BD"/><stop offset="1" stop-color="#96C5BD" stop-opacity=".55"/></linearGradient><filter id="brilho"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M0 840H470" stroke="#96C5BD" stroke-opacity=".5" stroke-width="6" filter="url(#brilho)"/><path d="M0 840H470" stroke="url(#cl)" stroke-width="2.5"/></svg>
+  <p class="Ctop">@fairhealth.br</p>
+  <p class="Ctit" style="top:190px">Nosso propósito é promover <span class="k">qualidade de vida, engajamento e um ambiente de trabalho mais saudável</span>.</p>
+  <p class="Cap" style="top:470px">Com resultados demonstrados por indicadores.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><circle cx="540" cy="840" r="72" fill="#F0F0E9" stroke="#96C5BD" stroke-width="3"/></svg>
+  <img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:480px;top:780px;width:120px;height:120px">
+  <p class="Cap" style="top:950px;color:var(--creme);font-weight:800;font-size:34px;line-height:44px">Faça o certo pelos motivos certos.</p>
+  <p class="Cap" style="top:1010px">Conheça a fairhealth no link da bio.</p>
+  <p class="Crod">fairhealth<span>o cuidado começa pela pessoa</span></p>
+  <p class="Cpil">Compartilhe ›</p>
+</section>
+<section class="slide Ds" id="d1">
+  <div class="Dpo"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M520 720H1080" stroke="#F0F0E9" stroke-width="4"/><circle cx="520" cy="720" r="26" fill="#96C5BD"/></svg>
+  <p class="Dtit" style="bottom:680px">Antes de chegar às empresas, nossa história começou <span class="k">em um hospital</span>.</p>
+  <p class="Drod">@fairhealth.br</p>
+  <p class="Dpg">01/08</p>
+</section>
+<section class="slide Ds" id="d2">
+  <div class="Dpo"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M0 720H1080" stroke="#F0F0E9" stroke-width="4"/><circle cx="176" cy="720" r="12" fill="#96C5BD"/></svg>
+  <p class="Dtit" style="bottom:680px">Há quase 20 anos, percebemos que os pacientes estavam <span class="k">cada vez mais distantes do centro do cuidado</span>.</p>
+  <p class="Dap" style="top:774px">Era preciso mudar essa realidade.</p>
+  <p class="Drod">@fairhealth.br</p>
+  <p class="Dpg">02/08</p>
+</section>
+<section class="slide Ds" id="d3">
+  <div class="Dpo"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M0 720H1080" stroke="#F0F0E9" stroke-width="4"/><circle cx="176" cy="720" r="12" fill="#96C5BD"/></svg>
+  <p class="Dtit" style="bottom:680px">Assim, dentro de um hospital, desenvolvemos o <span class="k">Escritório do Paciente</span> para mudar essa realidade.</p>
+  <p class="Dap" style="top:774px">Com o tempo, levamos esse conceito para as empresas.</p>
+  <p class="Drod">@fairhealth.br</p>
+  <p class="Dpg">03/08</p>
+</section>
+<section class="slide Ds" id="d4">
+  <div class="Dpo"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M0 720H1080" stroke="#F0F0E9" stroke-width="4"/><circle cx="176" cy="720" r="12" fill="#96C5BD"/></svg>
+  <p class="Dtit" style="bottom:680px">Assim, desenvolvemos o <span class="k">Escritório do Cuidado</span>.</p>
+  <p class="Dap" style="top:774px">Um espaço de acolhimento e de medicina preventiva dentro da empresa, que fortalece o cuidado centrado na pessoa.</p>
+  <p class="Drod">@fairhealth.br</p>
+  <p class="Dpg">04/08</p>
+</section>
+<section class="slide Ds" id="d5">
+  <div class="Dpo"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M0 720H1080" stroke="#F0F0E9" stroke-width="4"/><circle cx="176" cy="720" r="12" fill="#96C5BD"/></svg>
+  <p class="Dtit" style="bottom:680px">Tudo começa com uma pergunta: <span class="k">o que é importante para você?</span></p>
+  <p class="Dap" style="top:774px">Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado.</p>
+  <p class="Drod">@fairhealth.br</p>
+  <p class="Dpg">05/08</p>
+</section>
+<section class="slide Ds" id="d6">
+  <div class="Dpo"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M0 720H1080" stroke="#F0F0E9" stroke-width="4"/><circle cx="176" cy="720" r="12" fill="#96C5BD"/></svg>
+  <p class="Dtit" style="bottom:680px">Levamos ao <span class="k">coração da sua empresa</span>:</p>
+  <p class="Dap" style="top:774px"><span style="color:var(--tif);font-weight:800">01</span>&nbsp;&nbsp;Atendimento médico e psicológico<br><span style="color:var(--tif);font-weight:800">02</span>&nbsp;&nbsp;Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida<br><span style="color:var(--tif);font-weight:800">03</span>&nbsp;&nbsp;Tecnologia, humanização e cuidado verdadeiro</p>
+  <p class="Drod">@fairhealth.br</p>
+  <p class="Dpg">06/08</p>
+</section>
+<section class="slide Ds" id="d7">
+  <div class="Dpo"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M0 720H1080" stroke="#F0F0E9" stroke-width="4"/><circle cx="176" cy="720" r="12" fill="#96C5BD"/></svg>
+  <p class="Dtit" style="bottom:680px">Porque, quando o cuidado está perto, <span class="k">ele acontece</span>.</p>
+  <p class="Dap" style="top:774px">A maior barreira ao cuidado é tempo e acesso. Por isso, o Escritório do Cuidado fica dentro da empresa, perto da rotina de quem trabalha.</p>
+  <p class="Drod">@fairhealth.br</p>
+  <p class="Dpg">07/08</p>
+</section>
+<section class="slide Ds" id="d8">
+  <div class="Dpo"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M0 720H820" stroke="#F0F0E9" stroke-width="4"/><circle cx="176" cy="720" r="12" fill="#96C5BD"/></svg>
+  <p class="Dtit" style="bottom:680px">Nosso propósito é promover <span class="k">qualidade de vida, engajamento e um ambiente de trabalho mais saudável</span>.</p>
+  <p class="Dap" style="top:774px">Com resultados demonstrados por indicadores.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><circle cx="890" cy="720" r="70" fill="#F0F0E9"/></svg>
+  <img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:832px;top:662px;width:116px;height:116px">
+  <p class="Dtit" style="top:900px;font-size:40px;line-height:48px;font-weight:800">Faça o certo pelos motivos certos.</p>
+  <p class="Dap" style="top:970px">Conheça a fairhealth no link da bio.</p>
+  <p class="Drod">@fairhealth.br</p>
+  <p class="Dpg">08/08</p>
+</section>
+<section class="slide Es" id="e1">
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M0 1120 H300 C380 1120 380 990 460 990 H760 C840 990 840 1120 920 1120 H1380 C1460 1120 1460 990 1540 990 H1840 C1920 990 1920 1120 2000 1120 H2460 C2540 1120 2540 990 2620 990 H2920 C3000 990 3000 1120 3080 1120 H3540 C3620 1120 3620 990 3700 990 H4000 C4080 990 4080 1120 4160 1120 H4620 C4700 1120 4700 990 4780 990 H5080 C5160 990 5160 1120 5240 1120 H5700 C5780 1120 5780 990 5860 990 H6160 C6240 990 6240 1120 6320 1120 H6780 C6860 1120 6860 990 6940 990 H7240 C7320 990 7320 1120 7400 1120 H7860 C7940 1120 7940 990 8020 990 H8260" fill="none" stroke="#96C5BD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <p class="Erot" style="left:460px;top:938px">2009</p>
+  <div class="Ecol"><p class="pq">Antes de chegar às empresas, nossa</p><p class="gig">História</p><p class="par">começou <span class="k">em um hospital</span>.</p><p class="tag">2009 → hoje · por que a fairhealth existe?</p></div>
+  <p class="Erod">@fairhealth.br</p>
+</section>
+<section class="slide Es" id="e2">
+  <svg class="cheia" viewBox="1080 0 1080 1350" aria-hidden="true"><path d="M0 1120 H300 C380 1120 380 990 460 990 H760 C840 990 840 1120 920 1120 H1380 C1460 1120 1460 990 1540 990 H1840 C1920 990 1920 1120 2000 1120 H2460 C2540 1120 2540 990 2620 990 H2920 C3000 990 3000 1120 3080 1120 H3540 C3620 1120 3620 990 3700 990 H4000 C4080 990 4080 1120 4160 1120 H4620 C4700 1120 4700 990 4780 990 H5080 C5160 990 5160 1120 5240 1120 H5700 C5780 1120 5780 990 5860 990 H6160 C6240 990 6240 1120 6320 1120 H6780 C6860 1120 6860 990 6940 990 H7240 C7320 990 7320 1120 7400 1120 H7860 C7940 1120 7940 990 8020 990 H8260" fill="none" stroke="#96C5BD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <p class="Erot" style="left:460px;top:938px">o porquê</p>
+  <div class="Ecol"><p class="pq">Há quase</p><p class="gig">20 anos,</p><p class="par">percebemos que os pacientes estavam <span class="k">cada vez mais distantes do centro do cuidado</span>. Era preciso mudar essa realidade.</p></div>
+  <p class="Erod">@fairhealth.br</p>
+</section>
+<section class="slide Es" id="e3">
+  <svg class="cheia" viewBox="2160 0 1080 1350" aria-hidden="true"><path d="M0 1120 H300 C380 1120 380 990 460 990 H760 C840 990 840 1120 920 1120 H1380 C1460 1120 1460 990 1540 990 H1840 C1920 990 1920 1120 2000 1120 H2460 C2540 1120 2540 990 2620 990 H2920 C3000 990 3000 1120 3080 1120 H3540 C3620 1120 3620 990 3700 990 H4000 C4080 990 4080 1120 4160 1120 H4620 C4700 1120 4700 990 4780 990 H5080 C5160 990 5160 1120 5240 1120 H5700 C5780 1120 5780 990 5860 990 H6160 C6240 990 6240 1120 6320 1120 H6780 C6860 1120 6860 990 6940 990 H7240 C7320 990 7320 1120 7400 1120 H7860 C7940 1120 7940 990 8020 990 H8260" fill="none" stroke="#96C5BD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <p class="Erot" style="left:460px;top:938px">no hospital</p>
+  <div class="Ecol"><p class="pq">Assim, dentro de um</p><p class="gig">hospital,</p><p class="par">desenvolvemos o <span class="k">Escritório do Paciente</span> para mudar essa realidade. Com o tempo, levamos esse conceito para as empresas.</p><p class="tag">Escritório do Paciente</p></div>
+  <p class="Erod">@fairhealth.br</p>
+</section>
+<section class="slide Es" id="e4">
+  <svg class="cheia" viewBox="3240 0 1080 1350" aria-hidden="true"><path d="M0 1120 H300 C380 1120 380 990 460 990 H760 C840 990 840 1120 920 1120 H1380 C1460 1120 1460 990 1540 990 H1840 C1920 990 1920 1120 2000 1120 H2460 C2540 1120 2540 990 2620 990 H2920 C3000 990 3000 1120 3080 1120 H3540 C3620 1120 3620 990 3700 990 H4000 C4080 990 4080 1120 4160 1120 H4620 C4700 1120 4700 990 4780 990 H5080 C5160 990 5160 1120 5240 1120 H5700 C5780 1120 5780 990 5860 990 H6160 C6240 990 6240 1120 6320 1120 H6780 C6860 1120 6860 990 6940 990 H7240 C7320 990 7320 1120 7400 1120 H7860 C7940 1120 7940 990 8020 990 H8260" fill="none" stroke="#96C5BD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <p class="Erot" style="left:460px;top:938px">hoje</p>
+  <div class="Ecol"><p class="pq">Assim, desenvolvemos o Escritório do</p><p class="gig">Cuidado.</p><p class="par">Um espaço de acolhimento e de medicina preventiva dentro da empresa, que fortalece o cuidado centrado na pessoa.</p><p class="tag">Hoje · dentro da sua empresa</p></div>
+  <p class="Erod">@fairhealth.br</p>
+</section>
+<section class="slide Es" id="e5">
+  <svg class="cheia" viewBox="4320 0 1080 1350" aria-hidden="true"><path d="M0 1120 H300 C380 1120 380 990 460 990 H760 C840 990 840 1120 920 1120 H1380 C1460 1120 1460 990 1540 990 H1840 C1920 990 1920 1120 2000 1120 H2460 C2540 1120 2540 990 2620 990 H2920 C3000 990 3000 1120 3080 1120 H3540 C3620 1120 3620 990 3700 990 H4000 C4080 990 4080 1120 4160 1120 H4620 C4700 1120 4700 990 4780 990 H5080 C5160 990 5160 1120 5240 1120 H5700 C5780 1120 5780 990 5860 990 H6160 C6240 990 6240 1120 6320 1120 H6780 C6860 1120 6860 990 6940 990 H7240 C7320 990 7320 1120 7400 1120 H7860 C7940 1120 7940 990 8020 990 H8260" fill="none" stroke="#96C5BD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <p class="Erot" style="left:460px;top:938px">a conversa</p>
+  <div class="Ecol"><p class="pq">Tudo começa com uma</p><p class="gig">pergunta:</p><p class="par"><span class="k">o que é importante para você?</span> Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado.</p></div>
+  <p class="Erod">@fairhealth.br</p>
+</section>
+<section class="slide Es" id="e6">
+  <svg class="cheia" viewBox="5400 0 1080 1350" aria-hidden="true"><path d="M0 1120 H300 C380 1120 380 990 460 990 H760 C840 990 840 1120 920 1120 H1380 C1460 1120 1460 990 1540 990 H1840 C1920 990 1920 1120 2000 1120 H2460 C2540 1120 2540 990 2620 990 H2920 C3000 990 3000 1120 3080 1120 H3540 C3620 1120 3620 990 3700 990 H4000 C4080 990 4080 1120 4160 1120 H4620 C4700 1120 4700 990 4780 990 H5080 C5160 990 5160 1120 5240 1120 H5700 C5780 1120 5780 990 5860 990 H6160 C6240 990 6240 1120 6320 1120 H6780 C6860 1120 6860 990 6940 990 H7240 C7320 990 7320 1120 7400 1120 H7860 C7940 1120 7940 990 8020 990 H8260" fill="none" stroke="#96C5BD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <p class="Erot" style="left:460px;top:938px">o que levamos</p>
+  <div class="Ecol"><p class="pq">Levamos ao coração da sua</p><p class="gig">empresa:</p><ul><li>Atendimento médico e psicológico</li><li>Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida</li><li>Tecnologia, humanização e cuidado verdadeiro</li></ul></div>
+  <p class="Erod">@fairhealth.br</p>
+</section>
+<section class="slide Es" id="e7">
+  <svg class="cheia" viewBox="6480 0 1080 1350" aria-hidden="true"><path d="M0 1120 H300 C380 1120 380 990 460 990 H760 C840 990 840 1120 920 1120 H1380 C1460 1120 1460 990 1540 990 H1840 C1920 990 1920 1120 2000 1120 H2460 C2540 1120 2540 990 2620 990 H2920 C3000 990 3000 1120 3080 1120 H3540 C3620 1120 3620 990 3700 990 H4000 C4080 990 4080 1120 4160 1120 H4620 C4700 1120 4700 990 4780 990 H5080 C5160 990 5160 1120 5240 1120 H5700 C5780 1120 5780 990 5860 990 H6160 C6240 990 6240 1120 6320 1120 H6780 C6860 1120 6860 990 6940 990 H7240 C7320 990 7320 1120 7400 1120 H7860 C7940 1120 7940 990 8020 990 H8260" fill="none" stroke="#96C5BD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <p class="Erot" style="left:460px;top:938px">perto</p>
+  <div class="Ecol"><p class="pq">Porque, quando o cuidado está</p><p class="gig">perto,</p><p class="par"><span class="k">ele acontece</span>. A maior barreira ao cuidado é tempo e acesso. Por isso, o Escritório do Cuidado fica dentro da empresa, perto da rotina de quem trabalha.</p></div>
+  <p class="Erod">@fairhealth.br</p>
+</section>
+<section class="slide Es" id="e8">
+  <svg class="cheia" viewBox="7560 0 1080 1350" aria-hidden="true"><path d="M0 1120 H300 C380 1120 380 990 460 990 H760 C840 990 840 1120 920 1120 H1380 C1460 1120 1460 990 1540 990 H1840 C1920 990 1920 1120 2000 1120 H2460 C2540 1120 2540 990 2620 990 H2920 C3000 990 3000 1120 3080 1120 H3540 C3620 1120 3620 990 3700 990 H4000 C4080 990 4080 1120 4160 1120 H4620 C4700 1120 4700 990 4780 990 H5080 C5160 990 5160 1120 5240 1120 H5700 C5780 1120 5780 990 5860 990 H6160 C6240 990 6240 1120 6320 1120 H6780 C6860 1120 6860 990 6940 990 H7240 C7320 990 7320 1120 7400 1120 H7860 C7940 1120 7940 990 8020 990 H8260" fill="none" stroke="#96C5BD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div class="Ecol"><p class="pq">Nosso</p><p class="gig">propósito</p><p class="par">é promover <span class="k">qualidade de vida, engajamento e um ambiente de trabalho mais saudável</span>. Com resultados demonstrados por indicadores.</p><p class="tag">Faça o certo pelos motivos certos.</p></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><circle cx="776" cy="990" r="76" fill="#F0F0E9" stroke="#96C5BD" stroke-width="16"/></svg>
+  <img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:716px;top:930px;width:120px;height:120px">
+  <p class="Erot" style="left:484px;top:1110px;width:584px">conheça a fairhealth no link da bio</p>
+  <p class="Erod">@fairhealth.br</p>
+</section>
+<script>
+document.fonts.ready.then(() => {
+  for (const g of document.querySelectorAll('.gig')) {
+    let t = 220;
+    g.style.fontSize = t + 'px';
+    while (g.scrollWidth > 888 && t > 60) { t -= 4; g.style.fontSize = t + 'px'; }
+  }
+});
+</script>
+</body></html>

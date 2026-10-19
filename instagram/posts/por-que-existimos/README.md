@@ -1,5 +1,35 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Testes de design (19/10)
+
+Pedido da Nina: "vamos testar designs. Em uma imagem só, crie vários carrosséis em uma única sequência (largura
+única e grande com todos os slides juntos). Faça uma versão para cada design que vou enviar."
+
+**Arquivos:**
+- imagem única: `testes-design.jpg`, montada a partir de `testes-design.html`;
+- gerador: `gerar_testes_design.py`;
+- slides: `testes-design-slides.html` → `png-testes/`.
+
+Cada faixa é um carrossel inteiro, com o conteúdo final (v6) e os 8 slides lado a lado.
+
+**As cinco faixas:**
+- **A · caminho largo** (Eleken): é a arte v7.
+- **B · editorial com capítulos** (template "Why We Started Our Business"):
+  - capítulos no cabeçalho;
+  - foto em moldura na capa;
+  - caixa de citação;
+  - quadro "2009 | Hoje";
+  - lista numerada;
+  - final escuro.
+- **C · linha do tempo com hastes** ("Life of a video editor"): fundo verde-escuro e uma linha fina com brilho. Nos
+  marcos, bolinha e haste até o rótulo. O slide 6 tem três hastes, uma por item.
+- **D · frase forte e linha reta** ("founders"): fundo quase preto e frase grande. A linha nasce numa bolinha Tiffany
+  na capa e atravessa todos os slides até o logo.
+- **E · palavra gigante e curva** ("O poder da sua pausa"): creme, com uma palavra enorme em caixa alta. Embaixo, a
+  curva Tiffany com patamares, um por slide, até o logo.
+
+**Fotos:** as fotos da B são do banco Unsplash, só para testar.
+
 ## Arte v7 (19/10), o caminho largo (referência Eleken)
 
 A partir das novas referências da Nina. A principal é o carrossel "Customer Journey Map", da Eleken.
