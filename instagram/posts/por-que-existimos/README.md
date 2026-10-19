@@ -1,5 +1,29 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Arte v3 (19/10), desenhada sutilmente
+
+O que a Nina disse sobre a v2: "menos rabiscado e mais desenhado sutilmente". Ela gostou da linha que atravessa
+todos os slides, mas achou os bonequinhos toscos.
+
+**Arquivos:**
+- gerador: `gerar_slides_v3.py`;
+- saída: `slides-v3.html` e `png-v3/`;
+- prévia: `previa-v3.jpg`.
+
+**O que mudou:**
+- **A linha que atravessa os slides:** igual à da v2.
+- **Pessoas:** os bonequinhos saíram. Entraram pessoas ilustradas em traço fino, do Open Peeps (CC0), no verde da
+  marca e com preenchimento branco. Os arquivos estão em `../../marca/peeps/`, com a origem e a licença.
+  - Capa: alguém caminhando na linha.
+  - Slide 3: uma pessoa no centro, com as setas para a história, os hábitos, as necessidades e as prioridades.
+  - Slide 4: quem pergunta "O que é importante para você?" e quem responde com um coração.
+  - Slide 5: alguém a caminho do trabalho.
+  - Final: alguém apontando para o logo.
+- **Os outros desenhos (hospital, prédio, balões, setas, brilhos):** traço mais fino e firme, sem hachura.
+- **Marca-texto:** virou uma faixa lisa em Tiffany atrás da palavra, e em creme nos slides Tiffany.
+
+A v2 fica guardada.
+
 ## Arte v2 (19/10), rabiscada
 
 Pedido da Nina: "algo totalmente diferente" da arte v1, "mais rabiscado, com elementos mais divertidos que humanizam
