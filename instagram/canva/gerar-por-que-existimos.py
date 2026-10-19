@@ -6,12 +6,14 @@
 #   node ../ferramentas/dump-posicoes.mjs ../posts/por-que-existimos/slides-h.html por-que-existimos-h-dump.json
 #   python3 gerar-por-que-existimos.py por-que-existimos-h-dump.json BASE por-que-existimos-h.html
 #   BASE: raiz de instagram/ (URL raw do GitHub num commit, para importar, ou caminho local, para conferir)
+#   Versão H2 (com a mão na capa): ... por-que-existimos-h2-dump.json BASE por-que-existimos-h2.html png-h2-fundo
 import json
 import sys
 
 DUMP, BASE, SAIDA = sys.argv[1:4]
 G = BASE if BASE.endswith('/') else BASE + '/'
-FUNDO = G + 'posts/por-que-existimos/png-h-fundo/%s.png'
+# quarto argumento opcional: a pasta dos fundos (png-h-fundo, da H; png-h2-fundo, da H2, com a mão na capa)
+FUNDO = G + 'posts/por-que-existimos/%s/%%s.png' % (sys.argv[4] if len(sys.argv) > 4 else 'png-h-fundo')
 
 
 def texto(it):

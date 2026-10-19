@@ -1,5 +1,25 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Versão H2 (19/10): a H com a mão segurando o hospital na capa
+
+Pedido da Nina: "você pode adicionar uma imagem assim no primeiro slide, porém, ao invés de uma casa, ser um
+hospital?". A referência era uma mão segurando uma casa.
+
+**A imagem:** `../../marca/ilustracoes/capa-mao-hospital.png`, montada a partir de duas peças:
+- a foto de uma mão estendida com a palma para cima, do Pexels (foto 255527, "Close-up of Hand over White
+  Background"; uso livre, comercial, sem crédito obrigatório), recortada e com 85% de saturação;
+- o hospital desenhado pela Nina, sem a médica, com uma sombra leve sobre os dedos.
+
+A geração de imagem do Canva não funcionou, porque a cota de créditos da conta acabou.
+
+**Na capa:** a linha deixa de fazer o laço e corre embaixo, sob a mão. Ela nasce numa bolinha com a anotação
+"2009 → hoje". O resto é igual à H.
+
+**Arquivos:**
+- gerador: `gerar_slides_h2.py`;
+- saída: `slides-h2.html` e `png-h2/`;
+- fundos para o Canva: `png-h2-fundo/`.
+
 ## Versão H final (19/10), a escolhida
 
 A Nina não gostou da versão final A + D + H ("eu odiei"). Ela escolheu o teste H (referência Polina): "faça nessa
