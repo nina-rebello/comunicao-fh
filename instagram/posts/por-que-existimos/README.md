@@ -1,4 +1,52 @@
-# Post de qua 21/10: Por que a fairhealth existe? (I) · acolhimento forte
+# Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
+
+> **v2 (19/10), a versão que vale.** A Nina prefere o roteiro original do post 02 (`instagram/posts/nossa-historia/`,
+> v2). A base continua aquela, só com mais acolhimento. São 7 slides (o ideal é de 5 a 8). Nada novo foi criado do
+> zero: cada acréscimo vem do material base.
+>
+> **De onde vem cada acréscimo:**
+> - "um espaço de acolhimento e de medicina preventiva" (`essencia.md`, "Em uma frase");
+> - "Antes de qualquer exame, uma conversa" (`essencia.md`, dinâmica das consultas: a conversa e a pergunta vêm
+>   antes da bioimpedância e da smartband; é o gancho do Reel de boas-vindas em `primeiros-posts-acolhimento.md`);
+> - "acolhimento, confidencialidade" (o que o colaborador precisa ouvir) e "escuta, autonomia, decisão
+>   compartilhada, acolhimento, confidencialidade" (território "Cuidado centrado na pessoa"), no
+>   `Plano_Marketing_Fairhealth_Consolidado.docx`;
+> - "Proximidade gera adesão" (`essencia.md`, "Em que a gente acredita"), o que o RH quer ouvir.
+>
+> | Slide | Etiqueta | Título | Apoio | O que mudou |
+> | --- | --- | --- | --- | --- |
+> | 1 · capa | Nossa história | Antes de chegar às empresas, nossa história começou *em um hospital*. | 2009 → hoje | igual |
+> | 2 | O início | 2009 · Dentro de um hospital, surgiu o *Escritório do Paciente*. | Um modelo de cuidado que colocava a escuta, o acolhimento e as necessidades de cada pessoa no centro da atenção. | + "o acolhimento" |
+> | 3 | A essência | Por trás de cada atendimento, existe *uma pessoa*. | Com a sua própria história, hábitos, necessidades e prioridades. Por isso, escutar sempre foi parte essencial da nossa maneira de cuidar. | igual |
+> | 4 | O acolhimento | Antes de qualquer exame, *uma conversa*. | Um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado. | **novo** |
+> | 5 | Evolução | Com o tempo, essa forma de cuidar *evoluiu*. | E chegou a um lugar que faz parte da rotina das pessoas: o trabalho. Porque, quando o cuidado está perto, ele acontece. | + a frase da proximidade |
+> | 6 | Hoje | Hoje, essa filosofia está presente na *fairhealth*. | Levamos para dentro das empresas um espaço de acolhimento e de medicina preventiva, com cuidado individualizado e acompanhamento. O Escritório do Paciente virou o Escritório do Cuidado. | + "espaço de acolhimento" |
+> | 7 | O propósito | Os lugares mudaram. *A essência do cuidado permanece.* | Da experiência hospitalar ao ambiente corporativo, seguimos com um mesmo princípio: o cuidado começa pela pessoa. | igual |
+>
+> **Legenda (a original, com o acolhimento em dois parágrafos):**
+>
+> ```
+> A história por trás da fairhealth começou muito antes de chegarmos às empresas.
+>
+> Em 2009, dentro de um hospital, nascia o Escritório do Paciente: um modelo de cuidado que tinha a escuta, o acolhimento e as necessidades de cada pessoa como ponto de partida.
+>
+> Ao longo do tempo, essa forma de cuidar evoluiu e encontrou novos espaços. O Escritório do Paciente virou o Escritório do Cuidado.
+>
+> Hoje, na fairhealth, levamos essa filosofia para dentro das empresas: um espaço de acolhimento e de medicina preventiva, perto da rotina das pessoas. Antes de qualquer exame, uma conversa.
+>
+> Porque, para nós, cuidar não é apenas olhar para a saúde. É olhar para quem está por trás dela.
+>
+> O cuidado começa pela pessoa.
+>
+> #fairhealth #saudecorporativa #medicinapreventiva #cuidadohumanizado #escritoriodocuidado
+> ```
+>
+> **Validar:** 2009 e a passagem do Escritório do Paciente para o Escritório do Cuidado (pendente desde o post 02).
+> Sem o nome do hospital.
+
+---
+
+## v1 (19/10), guardada: rascunho com roteiro novo
 
 > **Rascunho de conteúdo (19/10), para alinhar antes da arte.** Parte do post 02 já pronto
 > (`instagram/posts/nossa-historia/`, v2), que fica guardado. Esta versão põe o **acolhimento** no centro, como
