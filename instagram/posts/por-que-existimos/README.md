@@ -20,6 +20,12 @@ A geração de imagem do Canva não funcionou, porque a cota de créditos da con
 - saída: `slides-h2.html` e `png-h2/`;
 - fundos para o Canva: `png-h2-fundo/`.
 
+**No Canva:**
+- design **DAHYfVF20nU**: https://www.canva.com/d/HTR526cr5-m7XF- (edição);
+- importado de `instagram/canva/por-que-existimos-h2.html` no commit 6874a0f;
+- a mão com o hospital entra como uma imagem solta, que dá para mover;
+- o design da H (DAHYfV6oMDY) fica guardado.
+
 ## Versão H final (19/10), a escolhida
 
 A Nina não gostou da versão final A + D + H ("eu odiei"). Ela escolheu o teste H (referência Polina): "faça nessa
