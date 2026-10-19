@@ -1,5 +1,24 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Direção para a próxima arte (19/10), antes de refazer
+
+A Nina explicou: "reta eu não quis dizer quadrada, só não queria aquele aspecto de rabisco torto". Ela mandou mais
+referências e vai mandar outras no próximo chat. A arte só será refeita depois disso. As imagens das referências não
+entram no repositório.
+
+**O que tirar de cada referência:**
+- **"Life of a video editor":** uma linha horizontal fina atravessa o slide. Nos marcos, uma bolinha e uma haste
+  vertical fina sobem até o rótulo. Serve para "2009" e "hoje".
+- **Silvio Santos (Grids):** a linha é reta, mas vira com cantos bem arredondados (raio grande) e contorna o bloco de
+  texto. Nada de canto quadrado.
+- **"The process that founders never talk about":** uma bolinha grande abre a linha, que sai pela borda do slide e
+  continua no próximo.
+- **"O poder da sua pausa" (nosso):** curva lisa e regular, com espessura constante e geometria limpa.
+- **Polina (processo de trabalho):** a linha contínua entre os slides e as anotações curtas.
+
+**Para a linha:** trechos retos ligados por curvas de raio grande, ou curvas geométricas regulares, sempre com a
+mesma espessura e sem tremido. Nos marcos, bolinha e haste.
+
 ## Arte v6 (19/10), linhas retas
 
 Pedido da Nina sobre a v5: "essas linhas, faça elas sem parecer rabisco, faça linhas retas".
