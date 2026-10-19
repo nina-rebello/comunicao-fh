@@ -1,6 +1,51 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
-## Conteúdo v5 (19/10), a versão que vale
+## Conteúdo v6 (19/10), o final da Nina
+
+A Nina reescreveu os três primeiros slides. O resto ficou igual à v5. São 8 slides.
+
+| Slide | Título | Apoio |
+| --- | --- | --- |
+| 1 · capa | Antes de chegar às empresas, nossa história começou *em um hospital*. | 2009 → hoje (cabeçalho: por que a fairhealth existe?) |
+| 2 | Há quase 20 anos, percebemos que os pacientes estavam *cada vez mais distantes do centro do cuidado*. | Era preciso mudar essa realidade. |
+| 3 | Assim, dentro de um hospital, desenvolvemos o *Escritório do Paciente* para mudar essa realidade. | Com o tempo, levamos esse conceito para as empresas. |
+| 4 | Assim, desenvolvemos o *Escritório do Cuidado*. | Um espaço de acolhimento e de medicina preventiva dentro da empresa, que fortalece o cuidado centrado na pessoa. |
+| 5 | Tudo começa com uma pergunta: *o que é importante para você?* | Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado. |
+| 6 | Levamos ao *coração da sua empresa*: | atendimento médico e psicológico · planos de cuidado individualizados, baseados na Medicina do Estilo de Vida · tecnologia, humanização e cuidado verdadeiro |
+| 7 | Porque, quando o cuidado está perto, *ele acontece*. | A maior barreira ao cuidado é tempo e acesso. Por isso, o Escritório do Cuidado fica dentro da empresa, perto da rotina de quem trabalha. |
+| 8 · final | Nosso propósito é promover *qualidade de vida, engajamento e um ambiente de trabalho mais saudável*. | Com resultados demonstrados por indicadores. Faça o certo pelos motivos certos. / Conheça a fairhealth no link da bio. |
+
+A legenda é a da v5.
+
+**Para a Nina ver:**
+- "mudar essa realidade" aparece nos slides 2 e 3, um logo depois do outro.
+- O "Assim" abre os slides 3 e 4.
+
+Ficou como ela escreveu. Para variar, uma opção seria tirar "para mudar essa realidade" do slide 3.
+
+## Arte v5 (19/10), no estilo da v4, com o conteúdo v6
+
+**Arquivos:**
+- gerador: `gerar_slides_v5.py`, duplicado da v4, que fica guardada;
+- saída: `slides-v5.html` e `png-v5/` (u01 a u08);
+- prévia: `previa-v5.jpg`.
+
+**Como ficou:**
+- **Estilo:** igual ao da v4. Fundo Tiffany com textura de papel, linha fina e verde atravessando os 8 slides e
+  textos grandes.
+- **Laços:** um na capa e outro no slide da conversa (slide 5).
+- **Números em creme:** "2009" no slide 2 e "hoje" no slide 4, que é o do Escritório do Cuidado.
+- **Slide 6:** os três itens do que levamos ficam em três bolinhas ao longo da linha.
+- **Slide 8:** o texto fica alinhado à direita e a linha termina no logo.
+- **Anotações:**
+  - "2009 → hoje";
+  - "nas empresas";
+  - "dentro da empresa";
+  - "faça o certo pelos motivos certos";
+  - "conheça a fairhealth no link da bio".
+- **Cabeçalho:** @fairhealth.br e "por que a fairhealth existe?".
+
+## Conteúdo v5 (19/10), substituído pela v6
 
 Resposta da Nina à v4: "não vamos focar na criação do Escritório do Paciente e sim no Escritório do Cuidado". O
 Escritório do Paciente aparece só como contexto, numa linha do slide 2.
