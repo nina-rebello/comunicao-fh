@@ -1,5 +1,38 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Arte v2 (19/10), rabiscada
+
+Pedido da Nina: "algo totalmente diferente" da arte v1, "mais rabiscado, com elementos mais divertidos que humanizam
+os slides". As referências dela foram:
+- um carrossel de processo de trabalho, com papel com textura, um fio fino que faz curvas e laços e anotações à mão;
+- uma linha do tempo com pessoinhas caminhando.
+
+**Arquivos:**
+- gerador: `gerar_slides_v2.py`;
+- saída: `slides-v2.html` e `png-v2/` (r01 a r07);
+- prévia: `previa-v2.jpg`.
+
+**Como ficou:**
+- **Papel com textura:** Tiffany na capa e no final, creme nos slides 2 a 6.
+- **O fio:** um fio verde desenhado à mão atravessa os sete slides. Ele nasce na capa, marca 2009 e hoje com uma
+  bolinha, faz um laço na conversa (slide 4) e termina no logo.
+- **Desenhos à mão (rough.js, licença MIT):**
+  - pessoinhas;
+  - o hospital (2009) e o prédio da empresa, que no slide 6 ganha um coração;
+  - balões de fala, com a pergunta "O que é importante para você?";
+  - setas, brilhos e marca-texto Tiffany nas palavras de destaque.
+- **Anotações:** em Raleway itálico, inclinadas. Não usei fonte manuscrita, por causa da regra de só usar Raleway.
+- **De onde vêm as anotações:**
+  - "há quase 20 anos": roteiro do reel do Dr. Ronald;
+  - "sem pressa e sem julgamento" e "a gente tá aqui pra te ouvir": vídeo de acolhimento
+    (`primeiros-posts-acolhimento.md`);
+  - "dentro da empresa": essência;
+  - "a sua história", "seus hábitos", "suas necessidades" e "suas prioridades": o texto do slide 3, que virou
+    setas em volta da pessoinha.
+- **No Canva:** os textos entram editáveis. Os desenhos e o fio entram como imagem, uma camada por slide.
+
+A arte v1 fica guardada.
+
 ## Arte v1 (19/10)
 
 - **Base:** a arte do post da origem que a Nina aprovou (`../nossa-historia/`, v2). O gerador foi duplicado de
