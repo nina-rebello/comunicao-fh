@@ -35,6 +35,12 @@ espaço de acolhimento e de medicina preventiva, onde tudo começa com uma pergu
    "Conheça nosso time"). **[PENDENTE]** Quem mais está na fundação da fairhealth (o site
    cita Renata Livramento como cofundadora num curso da fairedu).
 
+**Correção (19/10), da Nina:** o Escritório do Paciente e o Escritório do Cuidado são **projetos diferentes**.
+O Escritório do Paciente nasceu no hospital (2009), "inspirado nos princípios do Triple Aim", porque "os pacientes
+estavam cada vez mais distantes do centro do cuidado". Depois, o conceito foi levado para as empresas "e assim
+surgiu o Escritório do Cuidado, fortalecendo o cuidado centrado na pessoa" (roteiro do reel do Dr. Ronald). Não
+escrever que um "virou" o outro: o segundo é inspirado no primeiro.
+
 ## Em que a gente acredita
 
 - **A experiência do colaborador é única e intransferível**, mas pode ser cuidada todos

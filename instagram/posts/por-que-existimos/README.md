@@ -1,6 +1,48 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
-> **v2 (19/10), a versão que vale.** A Nina prefere o roteiro original do post 02 (`instagram/posts/nossa-historia/`,
+> **v3 (19/10), a versão que vale.** Igual à v2, com um ponto corrigido a pedido da Nina: **o Escritório do Paciente
+> e o Escritório do Cuidado são projetos diferentes.** O primeiro nasceu no hospital; o segundo é um projeto novo,
+> inspirado nele e pensado para as empresas. Sai o "virou". Inspiração sutil: o roteiro que o Dr. Ronald usou no
+> reel ("os pacientes estavam cada vez mais distantes do centro do cuidado"; "trouxemos esse conceito para as
+> empresas e assim surgiu o Escritório do Cuidado, fortalecendo o cuidado centrado na pessoa").
+>
+> | Slide | Etiqueta | Título | Apoio | O que mudou da v2 |
+> | --- | --- | --- | --- | --- |
+> | 1 · capa | Nossa história | Antes de chegar às empresas, nossa história começou *em um hospital*. | 2009 → hoje | igual |
+> | 2 | 2009 · No hospital | Dentro de um hospital, surgiu o *Escritório do Paciente*. | Um modelo de cuidado criado para trazer o paciente de volta ao centro, com a escuta, o acolhimento e as necessidades de cada pessoa em primeiro lugar. | o motivo do projeto (roteiro do Dr. Ronald) |
+> | 3 | A essência | Por trás de cada atendimento, existe *uma pessoa*. | Com a sua própria história, hábitos, necessidades e prioridades. Por isso, escutar sempre foi parte essencial da nossa maneira de cuidar. | igual |
+> | 4 | O acolhimento | Antes de qualquer exame, *uma conversa*. | Um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado. | igual |
+> | 5 | Evolução | Com o tempo, essa forma de cuidar *evoluiu*. | E o conceito chegou a um lugar que faz parte da rotina das pessoas: o trabalho. Porque, quando o cuidado está perto, ele acontece. | "o conceito chegou" |
+> | 6 | Hoje · Nas empresas | Assim surgiu o *Escritório do Cuidado*, da fairhealth. | Um projeto novo, inspirado no Escritório do Paciente e pensado para as empresas: um espaço de acolhimento e de medicina preventiva, com cuidado individualizado e acompanhamento. | dois projetos, sem "virou" |
+> | 7 | O propósito | Os lugares mudaram. *A essência do cuidado permanece.* | Do hospital às empresas, seguimos com um mesmo princípio: o cuidado começa pela pessoa. | "Do hospital às empresas" |
+>
+> As etiquetas "2009 · No hospital" (slide 2) e "Hoje · Nas empresas" (slide 6) marcam na arte que são dois
+> projetos, cada um no seu lugar e no seu tempo.
+>
+> **Legenda:**
+>
+> ```
+> A história por trás da fairhealth começou muito antes de chegarmos às empresas.
+>
+> Em 2009, dentro de um hospital, nascia o Escritório do Paciente, para trazer as pessoas de volta ao centro do cuidado: um modelo que tinha a escuta, o acolhimento e as necessidades de cada pessoa como ponto de partida.
+>
+> Com o tempo, levamos esse conceito para as empresas, e assim surgiu um novo projeto: o Escritório do Cuidado. Um espaço de acolhimento e de medicina preventiva, perto da rotina das pessoas, onde antes de qualquer exame vem uma conversa.
+>
+> Porque, para nós, cuidar não é apenas olhar para a saúde. É olhar para quem está por trás dela.
+>
+> O cuidado começa pela pessoa.
+>
+> #fairhealth #saudecorporativa #medicinapreventiva #cuidadohumanizado #escritoriodocuidado
+> ```
+>
+> **Fica para outro post:** o Triple Aim e os outros "Aims" vão para a linha do tempo do post 10 (10/11).
+> **Validar:** 2009 (o roteiro do Dr. Ronald diz "há quase 20 anos", o que bate). Sem o nome do hospital.
+
+---
+
+## v2 (19/10), guardada
+
+> **v2 (19/10).** A Nina prefere o roteiro original do post 02 (`instagram/posts/nossa-historia/`,
 > v2). A base continua aquela, só com mais acolhimento. São 7 slides (o ideal é de 5 a 8). Nada novo foi criado do
 > zero: cada acréscimo vem do material base.
 >
