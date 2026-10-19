@@ -1,5 +1,37 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Versão final (19/10): o melhor de A, D e H, com as ilustrações da Nina
+
+Pedido da Nina: "eu gostei do A, D e H. Criei uns elementos também. Use de todos os seus dons de design e crie uma
+versão final, dinâmica, que prenda, que siga as nossas regras de branding. Para você ficar mais livre em criar,
+crie primeiro em HTML."
+
+**Arquivos:**
+- gerador: `gerar_slides_final.py`;
+- HTML: `slides-final.html`;
+- PNG: `png-final/` (w01 a w08);
+- faixa com os 8 slides lado a lado: `faixa-final.jpg`, gerada por `faixa-final.html`.
+
+**O que vem de cada teste:**
+- **A:** o caminho largo em creme, liso, que atravessa os 8 slides com bolinhas; a pílula da página; a barra de
+  progresso; o fundo Tiffany.
+- **D:** a frase forte, com letra grande e apertada; a bolinha grande que abre o caminho na capa; dois slides escuros
+  para dar ritmo (o acolhimento e o final).
+- **H:** o papel com textura, a etiqueta com o número do capítulo (01 a 07) e as anotações curtas em itálico.
+
+**Ilustrações da Nina** (`../../marca/ilustracoes/`): ficam em pé sobre o caminho, como prédios numa rua. O hospital
+fica no slide 3 e o Escritório do Cuidado no slide 4. O traço é verde e o interior creme.
+
+**O ritmo dos slides:**
+1. Capa: frase grande e o caminho nascendo.
+2. "2009" gigante.
+3. Hospital.
+4. Escritório do Cuidado.
+5. Slide escuro com a pergunta enorme em Tiffany.
+6. Cartão com os três itens.
+7. Frase forte.
+8. Final escuro, com o caminho chegando ao logo.
+
 ## Testes de design, rodada 2 (19/10)
 
 Mais três referências, no mesmo formato da rodada 1.
