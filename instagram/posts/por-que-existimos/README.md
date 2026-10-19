@@ -1,5 +1,41 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Testes de design, rodada 2 (19/10)
+
+Mais três referências, no mesmo formato da rodada 1.
+
+**Arquivos:**
+- imagem única: `testes-design-2.jpg`, montada a partir de `testes-design-2.html`;
+- gerador: `gerar_testes_design_2.py`;
+- slides: `testes-design-2-slides.html` → `png-testes-2/`;
+- conteúdo compartilhado: `conteudo_v6.py`.
+
+**As três faixas:**
+- **F · Jornada** ("Jornada de conteúdo imobiliário"):
+  - fundo verde-escuro, com blocos Tiffany na capa;
+  - o coração da marca como objeto grande, na capa e no final;
+  - número do slide em cima e título em Tiffany;
+  - medidor em meia-lua (1/6 a 6/6, o avanço da história);
+  - listas com ícones nos slides 4 e 6;
+  - foto em cartão arredondado;
+  - final com a frase e os ícones do Instagram.
+- **G · caixa alta e papel rasgado** ("Toda empresa começa com uma história"):
+  - caixa alta enorme e uma etiqueta inclinada ("2009 → hoje");
+  - ícones grandes em traço fino no lugar das ilustrações, sem personagens;
+  - itálico centralizado e texto pequeno em caixa alta;
+  - trechos sublinhados no slide escuro;
+  - no slide 4, o render do espaço com borda de papel rasgado e um bilhete.
+- **H · Polina:**
+  - papel creme com textura;
+  - linha fina em verde, com dois laços;
+  - números de 01 a 07 nas bolinhas;
+  - texto grande e anotações curtas;
+  - cabeçalho e rodapé em Tiffany;
+  - final alinhado à direita, com a linha chegando ao logo.
+
+**Imagens:** são fotos do banco Unsplash, a smartband e o render do Escritório do Cuidado. O render ainda está marcado
+como **[PENDENTE]** em `referencias.md`. Tudo isso é só para testar.
+
 ## Testes de design (19/10)
 
 Pedido da Nina: "vamos testar designs. Em uma imagem só, crie vários carrosséis em uma única sequência (largura

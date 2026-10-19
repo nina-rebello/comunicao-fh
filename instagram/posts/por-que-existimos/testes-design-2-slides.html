@@ -1,0 +1,269 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Testes de design 2 (21/10)</title><style>
+@font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
+@font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
+@font-face{font-family:Raleway;font-weight:800;font-style:italic;src:url(../../marca/fontes/raleway-latin-800-italic.woff2)}
+:root{--tif:#96C5BD;--verde:#1F3A36;--creme:#F0F0E9;--tclaro:#BFE0D9;--vlogo:#2F6B64}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Raleway,sans-serif;background:#888;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;font-variant-numeric:lining-nums}
+.slide>*{position:absolute}
+svg.cheia{left:0;top:0;width:1080px;height:1350px}
+.k{font-weight:800;font-style:italic}
+
+/* F · jornada */
+.Fs{background:var(--verde);color:var(--creme)}
+.Fs .k{color:var(--tif)}
+.Fn{right:96px;top:70px;font-size:76px;line-height:80px;font-weight:800}
+.Fcab{left:96px;top:190px;width:430px;font-size:46px;line-height:54px;font-weight:800;color:var(--tif)}
+.Fcorpo{left:96px;width:430px;font-size:30px;line-height:42px}
+.Fcorpo p+p{margin-top:20px;color:var(--tclaro)}
+.Flista{left:96px;width:430px}
+.Flista div{display:flex;align-items:center;gap:22px;font-size:26px;line-height:34px;margin-top:20px}
+.Flista svg{flex:none;width:46px;height:46px}
+.Ffoto{left:580px;top:420px;width:404px;height:700px;border-radius:30px;overflow:hidden}
+.Ffoto img{width:100%;height:100%;object-fit:cover;filter:saturate(.85)}
+.Fmed{left:600px;top:190px;width:300px;height:170px}
+
+/* G · toda empresa começa com uma história */
+.Gc{background:var(--creme);color:var(--verde)} .Gt{background:var(--tif);color:var(--verde)} .Gd{background:var(--verde);color:var(--creme)}
+.Gd .k{color:var(--tif)}
+.Gcab{left:96px;right:96px;top:84px;display:flex;justify-content:space-between;font-size:18px;line-height:24px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.Ggig{left:80px;width:920px;font-weight:800;text-transform:uppercase;letter-spacing:-0.035em;line-height:.92}
+.Gmini{font-size:21px;line-height:30px;letter-spacing:.06em;text-transform:uppercase;text-align:justify}
+.Gu{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:8px}
+.Gd .Gu{text-decoration-color:var(--tif)}
+.Gnota{background:#FBFBF6;color:var(--verde);padding:30px 34px;font-size:26px;line-height:36px;font-style:italic;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+
+/* H · Polina */
+.Hs{background:var(--creme);color:var(--verde)}
+.Hs .k{color:var(--vlogo)}
+.Hpapel{inset:0;opacity:.55;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='360' height='360'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .55 0 0 0 0 .53 0 0 0 0 .48 0 0 0 -1.1 .85'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
+    repeating-linear-gradient(0deg,rgba(31,58,54,.04) 0 1px,transparent 1px 4px),
+    repeating-linear-gradient(90deg,rgba(31,58,54,.035) 0 1px,transparent 1px 4px)}
+.Htopo{top:96px;font-size:24px;line-height:30px;font-weight:800;color:var(--tif)}
+.Hrod{left:96px;top:1236px;font-size:24px;line-height:30px;font-weight:800;color:var(--tif)}
+.Hrod span{font-weight:400}
+.Hcab{font-size:58px;line-height:66px;font-weight:800;color:var(--vlogo);letter-spacing:-0.01em}
+.Htxt{font-size:40px;line-height:52px}
+.Htxt2{font-size:34px;line-height:46px}
+.Hnum{font-size:72px;line-height:72px;font-weight:800;color:var(--vlogo)}
+.Hnota{font-size:28px;line-height:36px;font-style:italic;color:var(--vlogo)}
+.Hlista li{list-style:none;font-size:36px;line-height:48px;padding-left:34px;position:relative}
+.Hlista li+li{margin-top:18px}
+.Hlista li::before{content:'';position:absolute;left:0;top:18px;width:14px;height:14px;border-radius:50%;background:var(--tif)}
+</style></head><body>
+<section class="slide Fs" id="f1">
+  <div style="left:0;top:0;width:170px;height:150px;background:var(--tif)"></div>
+  <div style="left:0;top:420px;width:170px;height:930px;background:var(--tif)"></div>
+  <div style="left:50px;top:190px;width:330px;height:470px;border-radius:30px;background:var(--creme)"></div>
+  <img src="../../marca/logo-coracao.png" alt="fairhealth" style="left:120px;top:250px;width:560px;height:484px;transform:rotate(-7deg)">
+  <p style="left:240px;top:830px;width:760px;font-size:64px;line-height:70px;font-weight:800;font-style:italic">Antes de chegar às empresas, nossa história começou <span style="color:var(--tif)">em um hospital</span>.</p>
+  <p style="left:240px;top:1130px;font-size:26px;line-height:34px;color:var(--tif);font-weight:800">2009 → hoje · por que a fairhealth existe?</p>
+</section>
+<section class="slide Fs" id="f2">
+  <p class="Fn">2</p>
+  <svg class="Fmed" viewBox="0 0 300 170" aria-hidden="true"><path d="M32 150A118 118 0 0 1 268 150" fill="none" stroke="#F0F0E9" stroke-width="40"/><path d="M32 150A118 118 0 0 1 47.8 91.0" fill="none" stroke="#96C5BD" stroke-width="40"/><text x="150" y="140" text-anchor="middle" font-family="Raleway" font-size="34" font-weight="800" fill="#F0F0E9">1/6</text></svg>
+  <p class="Fcab">O porquê:<br>2009</p>
+  <div class="Fcorpo" style="top:390px"><p>Há quase 20 anos, percebemos que os pacientes estavam <span class="k">cada vez mais distantes do centro do cuidado</span>.</p><p>Era preciso mudar essa realidade.</p></div>
+  <div class="Ffoto"><img src="../../marca/fotos-banco/retrato.jpg" alt=""></div>
+</section>
+<section class="slide Fs" id="f3">
+  <p class="Fn">3</p>
+  <svg class="Fmed" viewBox="0 0 300 170" aria-hidden="true"><path d="M32 150A118 118 0 0 1 268 150" fill="none" stroke="#F0F0E9" stroke-width="40"/><path d="M32 150A118 118 0 0 1 91.0 47.8" fill="none" stroke="#96C5BD" stroke-width="40"/><text x="150" y="140" text-anchor="middle" font-family="Raleway" font-size="34" font-weight="800" fill="#F0F0E9">2/6</text></svg>
+  <p class="Fcab">No hospital:<br>o Escritório do Paciente</p>
+  <div class="Fcorpo" style="top:390px"><p>Assim, dentro de um hospital, desenvolvemos o <span class="k">Escritório do Paciente</span> para mudar essa realidade.</p><p>Com o tempo, levamos esse conceito para as empresas.</p></div>
+  <div class="Ffoto"><img src="../../marca/fotos-banco/maos.jpg" alt=""></div>
+</section>
+<section class="slide Fs" id="f4">
+  <p class="Fn">4</p>
+  <svg class="Fmed" viewBox="0 0 300 170" aria-hidden="true"><path d="M32 150A118 118 0 0 1 268 150" fill="none" stroke="#F0F0E9" stroke-width="40"/><path d="M32 150A118 118 0 0 1 150.0 32.0" fill="none" stroke="#96C5BD" stroke-width="40"/><text x="150" y="140" text-anchor="middle" font-family="Raleway" font-size="34" font-weight="800" fill="#F0F0E9">3/6</text></svg>
+  <p class="Fcab">Hoje:<br>o Escritório do Cuidado</p>
+  <div class="Fcorpo" style="top:390px"><p>Assim, desenvolvemos o <span class="k">Escritório do Cuidado</span>.</p><p>Um espaço de acolhimento e de medicina preventiva dentro da empresa, que fortalece o cuidado centrado na pessoa.</p></div>
+  <div class="Flista" style="top:880px"><div><svg viewBox="0 0 24 24" fill="none" stroke="#96C5BD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg><span>Acolhimento</span></div><div><svg viewBox="0 0 24 24" fill="none" stroke="#96C5BD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg><span>Medicina preventiva</span></div><div><svg viewBox="0 0 24 24" fill="none" stroke="#96C5BD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg><span>Dentro da empresa</span></div></div>
+  <div class="Ffoto"><img src="../../marca/espaco/sala-atendimento-e-espera.jpg" alt=""></div>
+</section>
+<section class="slide Fs" id="f5">
+  <p class="Fn">5</p>
+  <svg class="Fmed" viewBox="0 0 300 170" aria-hidden="true"><path d="M32 150A118 118 0 0 1 268 150" fill="none" stroke="#F0F0E9" stroke-width="40"/><path d="M32 150A118 118 0 0 1 209.0 47.8" fill="none" stroke="#96C5BD" stroke-width="40"/><text x="150" y="140" text-anchor="middle" font-family="Raleway" font-size="34" font-weight="800" fill="#F0F0E9">4/6</text></svg>
+  <p class="Fcab">O acolhimento:<br>uma pergunta</p>
+  <div class="Fcorpo" style="top:390px"><p>Tudo começa com uma pergunta: <span class="k">o que é importante para você?</span></p><p>Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado.</p></div>
+  <div class="Ffoto"><img src="../../marca/fotos-banco/conversa2.jpg" alt=""></div>
+</section>
+<section class="slide Fs" id="f6">
+  <p class="Fn">6</p>
+  <svg class="Fmed" viewBox="0 0 300 170" aria-hidden="true"><path d="M32 150A118 118 0 0 1 268 150" fill="none" stroke="#F0F0E9" stroke-width="40"/><path d="M32 150A118 118 0 0 1 252.2 91.0" fill="none" stroke="#96C5BD" stroke-width="40"/><text x="150" y="140" text-anchor="middle" font-family="Raleway" font-size="34" font-weight="800" fill="#F0F0E9">5/6</text></svg>
+  <p class="Fcab">O que levamos:<br>ao coração da empresa</p>
+  <div class="Fcorpo" style="top:390px"><p>Levamos ao <span class="k">coração da sua empresa</span>:</p></div>
+  <div class="Flista" style="top:470px"><div><svg viewBox="0 0 24 24" fill="none" stroke="#96C5BD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><path d="M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0"/></svg><span>Atendimento médico e psicológico</span></div><div><svg viewBox="0 0 24 24" fill="none" stroke="#96C5BD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2h6a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg><span>Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida</span></div><div><svg viewBox="0 0 24 24" fill="none" stroke="#96C5BD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12a6 6 0 1 0 12 0a6 6 0 1 0-12 0"/><path d="M12 10v2l1 1"/><path d="m16.13 7.66-.81-4.05a2 2 0 0 0-2-1.61h-2.68a2 2 0 0 0-2 1.61l-.78 4.05"/><path d="m7.88 16.36.8 4a2 2 0 0 0 2 1.61h2.72a2 2 0 0 0 2-1.61l.81-4.05"/></svg><span>Tecnologia, humanização e cuidado verdadeiro</span></div></div>
+  <div class="Ffoto" style="background:var(--tif)"><img src="../../marca/objetos/smartband.png" alt=""></div>
+</section>
+<section class="slide Fs" id="f7">
+  <p class="Fn">7</p>
+  <svg class="Fmed" viewBox="0 0 300 170" aria-hidden="true"><path d="M32 150A118 118 0 0 1 268 150" fill="none" stroke="#F0F0E9" stroke-width="40"/><path d="M32 150A118 118 0 0 1 268.0 150.0" fill="none" stroke="#96C5BD" stroke-width="40"/><text x="150" y="140" text-anchor="middle" font-family="Raleway" font-size="34" font-weight="800" fill="#F0F0E9">6/6</text></svg>
+  <p class="Fcab">Perto:<br>dentro da rotina</p>
+  <div class="Fcorpo" style="top:390px"><p>Porque, quando o cuidado está perto, <span class="k">ele acontece</span>.</p><p>A maior barreira ao cuidado é tempo e acesso. Por isso, o Escritório do Cuidado fica dentro da empresa, perto da rotina de quem trabalha.</p></div>
+  <div class="Ffoto"><img src="../../marca/fotos-banco/cafe-notebook.jpg" alt=""></div>
+</section>
+<section class="slide Fs" id="f8">
+  <img src="../../marca/logo-coracao.png" alt="fairhealth" style="left:600px;top:120px;width:400px;height:346px;transform:rotate(8deg)">
+  <p style="left:96px;top:560px;width:888px;font-size:70px;line-height:78px;font-weight:800">Faça o certo pelos motivos certos.</p>
+  <p style="left:96px;top:740px;width:820px;font-size:30px;line-height:42px;color:var(--tclaro)">Nosso propósito é promover <span style="font-weight:800;color:var(--creme)">qualidade de vida, engajamento e um ambiente de trabalho mais saudável</span>. Com resultados demonstrados por indicadores.</p>
+  <p style="left:96px;top:950px;width:820px;font-size:30px;line-height:42px;color:var(--tif);font-weight:800">Conheça a fairhealth no link da bio.</p>
+  <svg aria-hidden="true" style="left:96px;top:1100px;width:56px;height:56px" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg><svg aria-hidden="true" style="left:186px;top:1100px;width:56px;height:56px" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg><svg aria-hidden="true" style="left:276px;top:1100px;width:56px;height:56px" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg><svg aria-hidden="true" style="left:366px;top:1100px;width:56px;height:56px" viewBox="0 0 24 24" fill="none" stroke="#F0F0E9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
+</section>
+<section class="slide Gc" id="g1">
+  <svg aria-hidden="true" style="left:700px;top:40px;width:300px;height:300px;opacity:.85" viewBox="0 0 24 24" fill="none" stroke="#2F6B64" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6v4"/><path d="M14 14h-4"/><path d="M14 18h-4"/><path d="M14 8h-4"/><path d="M18 12h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2"/><path d="M18 22V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v18"/></svg>
+  <p class="Ggig" style="top:150px;font-size:112px">Antes de chegar às empresas, nossa história começou em um hospital.</p>
+  <p style="left:120px;top:1080px;background:var(--verde);color:var(--creme);padding:16px 30px;font-size:30px;line-height:36px;font-weight:800;letter-spacing:.04em;transform:rotate(-5deg)">2009 → HOJE</p>
+</section>
+<section class="slide Gt" id="g2">
+  <div class="Gcab"><span>@fairhealth.br</span><span>nossa história</span></div>
+  <p style="left:150px;top:300px;width:780px;text-align:center;font-size:46px;line-height:60px;font-style:italic">Há quase 20 anos, percebemos que os pacientes estavam <span style="font-weight:800">cada vez mais distantes do centro do cuidado</span>.</p>
+  <p class="Gmini" style="left:200px;top:640px;width:680px">Era preciso mudar essa realidade.</p>
+  <svg aria-hidden="true" style="left:300px;top:780px;width:480px;height:480px;opacity:.18" viewBox="0 0 24 24" fill="none" stroke="#1F3A36" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+</section>
+<section class="slide Gd" id="g3">
+  <div class="Gcab"><span>@fairhealth.br</span><span>nossa história</span></div>
+  <svg aria-hidden="true" style="left:96px;top:160px;width:150px;height:150px" viewBox="0 0 24 24" fill="none" stroke="#96C5BD" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><path d="M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0"/></svg>
+  <p style="left:96px;top:360px;width:820px;font-size:52px;line-height:66px">Assim, dentro de um hospital, desenvolvemos o <span class="Gu k">Escritório do Paciente</span> para <span class="Gu">mudar essa realidade</span>.</p>
+  <p class="Gmini" style="left:96px;top:900px;width:780px;color:var(--tclaro)">Com o tempo, levamos esse conceito para as empresas.</p>
+</section>
+<section class="slide Gd" id="g4">
+  <img src="../../marca/espaco/sala-atendimento-e-espera.jpg" alt="" style="left:0;top:0;width:1080px;height:1350px;object-fit:cover;filter:saturate(.85)">
+  <div style="inset:0;background:linear-gradient(180deg,rgba(20,36,31,.65),rgba(20,36,31,.2) 45%,rgba(20,36,31,.7))"></div>
+  <svg aria-hidden="true" style="left:0;top:0;width:90px;height:1350px" viewBox="0 0 90 1350" preserveAspectRatio="none"><path d="M0 0H52L38 60L60 120L34 190L58 250L40 320L66 380L36 450L56 520L30 590L54 660L38 730L62 800L34 870L58 940L36 1010L60 1080L32 1150L56 1220L40 1290L52 1350H0Z" fill="#1F3A36"/></svg>
+  <p class="Ggig" style="left:120px;top:150px;font-size:200px;color:var(--creme)">Hoje,</p>
+  <p style="left:120px;top:360px;width:800px;font-size:50px;line-height:62px;font-weight:800;color:var(--creme)">desenvolvemos o <span class="Gu">Escritório do Cuidado</span>.</p>
+  <p class="Gnota" style="left:560px;top:880px;width:420px;transform:rotate(5deg)">Um espaço de acolhimento e de medicina preventiva dentro da empresa, que fortalece o cuidado centrado na pessoa.</p>
+  <div style="left:700px;top:858px;width:120px;height:36px;background:rgba(150,197,189,.85);transform:rotate(-3deg)"></div>
+</section>
+<section class="slide Gc" id="g5">
+  <div class="Gcab"><span>@fairhealth.br</span><span>nossa história</span></div>
+  <p style="left:96px;top:200px;width:888px;font-size:44px;line-height:56px">Tudo começa com uma pergunta:</p>
+  <p class="Ggig" style="top:290px;font-size:118px">O que é importante para você?</p>
+  <p class="Gmini" style="left:96px;top:880px;width:888px">Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado.</p>
+  <svg aria-hidden="true" style="left:820px;top:1040px;width:160px;height:160px" viewBox="0 0 24 24" fill="none" stroke="#2F6B64" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+</section>
+<section class="slide Gt" id="g6">
+  <div class="Gcab"><span>@fairhealth.br</span><span>nossa história</span></div>
+  <p class="Ggig" style="top:200px;font-size:84px;letter-spacing:-0.02em">Levamos ao coração da sua empresa:</p>
+  <p style="left:96px;top:560px;width:888px;font-size:36px;line-height:48px;border-top:2px solid rgba(31,58,54,.35);padding-top:22px"><b style="font-weight:800;margin-right:24px">01</b>Atendimento médico e psicológico</p><p style="left:96px;top:720px;width:888px;font-size:36px;line-height:48px;border-top:2px solid rgba(31,58,54,.35);padding-top:22px"><b style="font-weight:800;margin-right:24px">02</b>Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida</p><p style="left:96px;top:880px;width:888px;font-size:36px;line-height:48px;border-top:2px solid rgba(31,58,54,.35);padding-top:22px"><b style="font-weight:800;margin-right:24px">03</b>Tecnologia, humanização e cuidado verdadeiro</p>
+</section>
+<section class="slide Gd" id="g7">
+  <div class="Gcab"><span>@fairhealth.br</span><span>nossa história</span></div>
+  <svg aria-hidden="true" style="left:96px;top:170px;width:150px;height:150px" viewBox="0 0 24 24" fill="none" stroke="#96C5BD" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><path d="M9 10a3 3 0 1 0 6 0a3 3 0 1 0-6 0"/></svg>
+  <p style="left:96px;top:380px;width:860px;font-size:56px;line-height:70px">Porque, quando o cuidado está perto, <span class="Gu k">ele acontece</span>.</p>
+  <p class="Gmini" style="left:96px;top:740px;width:820px;color:var(--tclaro)">A maior barreira ao cuidado é tempo e acesso. Por isso, o Escritório do Cuidado fica dentro da empresa, perto da rotina de quem trabalha.</p>
+</section>
+<section class="slide Gt" id="g8">
+  <p style="left:0;width:1080px;top:84px;text-align:center;font-size:20px;line-height:26px;font-weight:800;letter-spacing:.1em">LINK NA BIO | @FAIRHEALTH.BR</p>
+  <p class="Ggig" style="top:300px;font-size:128px">Faça o certo pelos motivos certos.</p>
+  <img src="../../marca/logo-coracao.png" alt="fairhealth" style="left:730px;top:640px;width:260px;height:224px;transform:rotate(10deg)">
+  <p class="Gmini" style="left:150px;top:1030px;width:780px">Nosso propósito é promover qualidade de vida, engajamento e um ambiente de trabalho mais saudável. Com resultados demonstrados por indicadores.</p>
+</section>
+<section class="slide Hs" id="h1">
+  <div class="Hpapel"></div>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true"><path d="M230.0 640.0 C241.7 663.3 268.3 741.7 300.0 780.0 C331.7 818.3 376.7 856.7 420.0 870.0 C463.3 883.3 523.3 873.3 560.0 860.0 C596.7 846.7 631.7 815.0 640.0 790.0 C648.3 765.0 628.3 725.0 610.0 710.0 C591.7 695.0 548.3 688.3 530.0 700.0 C511.7 711.7 495.0 750.0 500.0 780.0 C505.0 810.0 523.3 846.7 560.0 880.0 C596.7 913.3 663.3 946.7 720.0 980.0 C776.7 1013.3 840.0 1056.7 900.0 1080.0 C960.0 1103.3 1023.3 1118.3 1080.0 1120.0 C1136.7 1121.7 1190.0 1110.0 1240.0 1090.0 C1290.0 1070.0 1306.7 1005.0 1380.0 1000.0 C1453.3 995.0 1593.3 1058.3 1680.0 1060.0 C1766.7 1061.7 1820.0 1036.7 1900.0 1010.0 C1980.0 983.3 2093.3 938.3 2160.0 900.0 C2226.7 861.7 2263.3 836.7 2300.0 780.0 C2336.7 723.3 2353.3 623.3 2380.0 560.0 C2406.7 496.7 2406.7 430.0 2460.0 400.0 C2513.3 370.0 2613.3 368.3 2700.0 380.0 C2786.7 391.7 2903.3 436.7 2980.0 470.0 C3056.7 503.3 3116.7 551.7 3160.0 580.0 C3203.3 608.3 3196.7 613.3 3240.0 640.0 C3283.3 666.7 3340.0 696.7 3420.0 740.0 C3500.0 783.3 3623.3 863.3 3720.0 900.0 C3816.7 936.7 3900.0 966.7 4000.0 960.0 C4100.0 953.3 4236.7 863.3 4320.0 860.0 C4403.3 856.7 4450.0 916.7 4500.0 940.0 C4550.0 963.3 4586.7 1001.7 4620.0 1000.0 C4653.3 998.3 4691.7 955.0 4700.0 930.0 C4708.3 905.0 4688.3 865.0 4670.0 850.0 C4651.7 835.0 4608.3 828.3 4590.0 840.0 C4571.7 851.7 4555.0 890.0 4560.0 920.0 C4565.0 950.0 4560.0 990.0 4620.0 1020.0 C4680.0 1050.0 4823.3 1100.0 4920.0 1100.0 C5016.7 1100.0 5120.0 1053.3 5200.0 1020.0 C5280.0 986.7 5316.7 923.3 5400.0 900.0 C5483.3 876.7 5583.3 863.3 5700.0 880.0 C5816.7 896.7 5970.0 990.0 6100.0 1000.0 C6230.0 1010.0 6350.0 931.7 6480.0 940.0 C6610.0 948.3 6746.7 1056.7 6880.0 1050.0 C7013.3 1043.3 7180.0 968.3 7280.0 900.0 C7380.0 831.7 7433.3 703.3 7480.0 640.0 C7526.7 576.7 7513.3 520.0 7560.0 520.0 C7606.7 520.0 7710.0 600.0 7760.0 640.0 C7810.0 680.0 7823.3 700.0 7860.0 760.0 C7896.7 820.0 7930.0 940.0 7980.0 1000.0 C8030.0 1060.0 8110.7 1098.3 8160.0 1120.0 C8209.3 1141.7 8256.7 1128.3 8276.0 1130.0" fill="none" stroke="#2F6B64" stroke-width="3" stroke-linecap="round"/><circle cx="1380" cy="1000" r="12" fill="#2F6B64"/><circle cx="2460" cy="400" r="12" fill="#2F6B64"/><circle cx="3720" cy="900" r="12" fill="#2F6B64"/><circle cx="4920" cy="1100" r="12" fill="#2F6B64"/><circle cx="5700" cy="880" r="12" fill="#2F6B64"/><circle cx="6880" cy="1050" r="12" fill="#2F6B64"/><circle cx="7860" cy="760" r="12" fill="#2F6B64"/><circle cx="8340" cy="1130" r="64" fill="#F0F0E9" stroke="#2F6B64" stroke-width="3"/></svg>
+  <p class="Htopo" style="left:96px">@fairhealth.br</p>
+  <p class="Htopo" style="right:96px;font-weight:400">nossa história</p>
+  <p class="Hcab" style="left:96px;top:190px;width:700px">Por que a fairhealth existe?</p>
+  <p class="Htxt" style="left:96px;top:350px;width:640px">Antes de chegar às empresas, nossa história começou <span class="k">em um hospital</span>.</p>
+  <p class="Hnota" style="left:290px;top:612px">2009 → hoje</p>
+  <p class="Hrod">fairhealth <span>| o cuidado começa pela pessoa</span></p>
+  <svg aria-hidden="true" style="left:864px;top:1236px;width:120px;height:30px" viewBox="0 0 120 30"><path d="M0 15H116M104 4L117 15L104 26" fill="none" stroke="#96C5BD" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</section>
+<section class="slide Hs" id="h2">
+  <div class="Hpapel"></div>
+  <svg class="cheia" viewBox="1080 0 1080 1350" aria-hidden="true"><path d="M230.0 640.0 C241.7 663.3 268.3 741.7 300.0 780.0 C331.7 818.3 376.7 856.7 420.0 870.0 C463.3 883.3 523.3 873.3 560.0 860.0 C596.7 846.7 631.7 815.0 640.0 790.0 C648.3 765.0 628.3 725.0 610.0 710.0 C591.7 695.0 548.3 688.3 530.0 700.0 C511.7 711.7 495.0 750.0 500.0 780.0 C505.0 810.0 523.3 846.7 560.0 880.0 C596.7 913.3 663.3 946.7 720.0 980.0 C776.7 1013.3 840.0 1056.7 900.0 1080.0 C960.0 1103.3 1023.3 1118.3 1080.0 1120.0 C1136.7 1121.7 1190.0 1110.0 1240.0 1090.0 C1290.0 1070.0 1306.7 1005.0 1380.0 1000.0 C1453.3 995.0 1593.3 1058.3 1680.0 1060.0 C1766.7 1061.7 1820.0 1036.7 1900.0 1010.0 C1980.0 983.3 2093.3 938.3 2160.0 900.0 C2226.7 861.7 2263.3 836.7 2300.0 780.0 C2336.7 723.3 2353.3 623.3 2380.0 560.0 C2406.7 496.7 2406.7 430.0 2460.0 400.0 C2513.3 370.0 2613.3 368.3 2700.0 380.0 C2786.7 391.7 2903.3 436.7 2980.0 470.0 C3056.7 503.3 3116.7 551.7 3160.0 580.0 C3203.3 608.3 3196.7 613.3 3240.0 640.0 C3283.3 666.7 3340.0 696.7 3420.0 740.0 C3500.0 783.3 3623.3 863.3 3720.0 900.0 C3816.7 936.7 3900.0 966.7 4000.0 960.0 C4100.0 953.3 4236.7 863.3 4320.0 860.0 C4403.3 856.7 4450.0 916.7 4500.0 940.0 C4550.0 963.3 4586.7 1001.7 4620.0 1000.0 C4653.3 998.3 4691.7 955.0 4700.0 930.0 C4708.3 905.0 4688.3 865.0 4670.0 850.0 C4651.7 835.0 4608.3 828.3 4590.0 840.0 C4571.7 851.7 4555.0 890.0 4560.0 920.0 C4565.0 950.0 4560.0 990.0 4620.0 1020.0 C4680.0 1050.0 4823.3 1100.0 4920.0 1100.0 C5016.7 1100.0 5120.0 1053.3 5200.0 1020.0 C5280.0 986.7 5316.7 923.3 5400.0 900.0 C5483.3 876.7 5583.3 863.3 5700.0 880.0 C5816.7 896.7 5970.0 990.0 6100.0 1000.0 C6230.0 1010.0 6350.0 931.7 6480.0 940.0 C6610.0 948.3 6746.7 1056.7 6880.0 1050.0 C7013.3 1043.3 7180.0 968.3 7280.0 900.0 C7380.0 831.7 7433.3 703.3 7480.0 640.0 C7526.7 576.7 7513.3 520.0 7560.0 520.0 C7606.7 520.0 7710.0 600.0 7760.0 640.0 C7810.0 680.0 7823.3 700.0 7860.0 760.0 C7896.7 820.0 7930.0 940.0 7980.0 1000.0 C8030.0 1060.0 8110.7 1098.3 8160.0 1120.0 C8209.3 1141.7 8256.7 1128.3 8276.0 1130.0" fill="none" stroke="#2F6B64" stroke-width="3" stroke-linecap="round"/><circle cx="1380" cy="1000" r="12" fill="#2F6B64"/><circle cx="2460" cy="400" r="12" fill="#2F6B64"/><circle cx="3720" cy="900" r="12" fill="#2F6B64"/><circle cx="4920" cy="1100" r="12" fill="#2F6B64"/><circle cx="5700" cy="880" r="12" fill="#2F6B64"/><circle cx="6880" cy="1050" r="12" fill="#2F6B64"/><circle cx="7860" cy="760" r="12" fill="#2F6B64"/><circle cx="8340" cy="1130" r="64" fill="#F0F0E9" stroke="#2F6B64" stroke-width="3"/></svg>
+  <p class="Htopo" style="left:96px">@fairhealth.br</p>
+  <p class="Htopo" style="right:96px;font-weight:400">nossa história</p>
+  <p class="Htxt" style="left:96px;top:200px;width:888px">Há quase 20 anos, percebemos que os pacientes estavam <span class="k">cada vez mais distantes do centro do cuidado</span>.</p>
+  <p class="Htxt2" style="left:96px;top:400px;width:888px">Era preciso mudar essa realidade.</p>
+  <p class="Hnum" style="left:330px;top:890px">01</p>
+  <p class="Hnota" style="left:330px;top:1030px">2009</p>
+  <p class="Hrod">fairhealth <span>| o cuidado começa pela pessoa</span></p>
+  <svg aria-hidden="true" style="left:864px;top:1236px;width:120px;height:30px" viewBox="0 0 120 30"><path d="M0 15H116M104 4L117 15L104 26" fill="none" stroke="#96C5BD" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</section>
+<section class="slide Hs" id="h3">
+  <div class="Hpapel"></div>
+  <svg class="cheia" viewBox="2160 0 1080 1350" aria-hidden="true"><path d="M230.0 640.0 C241.7 663.3 268.3 741.7 300.0 780.0 C331.7 818.3 376.7 856.7 420.0 870.0 C463.3 883.3 523.3 873.3 560.0 860.0 C596.7 846.7 631.7 815.0 640.0 790.0 C648.3 765.0 628.3 725.0 610.0 710.0 C591.7 695.0 548.3 688.3 530.0 700.0 C511.7 711.7 495.0 750.0 500.0 780.0 C505.0 810.0 523.3 846.7 560.0 880.0 C596.7 913.3 663.3 946.7 720.0 980.0 C776.7 1013.3 840.0 1056.7 900.0 1080.0 C960.0 1103.3 1023.3 1118.3 1080.0 1120.0 C1136.7 1121.7 1190.0 1110.0 1240.0 1090.0 C1290.0 1070.0 1306.7 1005.0 1380.0 1000.0 C1453.3 995.0 1593.3 1058.3 1680.0 1060.0 C1766.7 1061.7 1820.0 1036.7 1900.0 1010.0 C1980.0 983.3 2093.3 938.3 2160.0 900.0 C2226.7 861.7 2263.3 836.7 2300.0 780.0 C2336.7 723.3 2353.3 623.3 2380.0 560.0 C2406.7 496.7 2406.7 430.0 2460.0 400.0 C2513.3 370.0 2613.3 368.3 2700.0 380.0 C2786.7 391.7 2903.3 436.7 2980.0 470.0 C3056.7 503.3 3116.7 551.7 3160.0 580.0 C3203.3 608.3 3196.7 613.3 3240.0 640.0 C3283.3 666.7 3340.0 696.7 3420.0 740.0 C3500.0 783.3 3623.3 863.3 3720.0 900.0 C3816.7 936.7 3900.0 966.7 4000.0 960.0 C4100.0 953.3 4236.7 863.3 4320.0 860.0 C4403.3 856.7 4450.0 916.7 4500.0 940.0 C4550.0 963.3 4586.7 1001.7 4620.0 1000.0 C4653.3 998.3 4691.7 955.0 4700.0 930.0 C4708.3 905.0 4688.3 865.0 4670.0 850.0 C4651.7 835.0 4608.3 828.3 4590.0 840.0 C4571.7 851.7 4555.0 890.0 4560.0 920.0 C4565.0 950.0 4560.0 990.0 4620.0 1020.0 C4680.0 1050.0 4823.3 1100.0 4920.0 1100.0 C5016.7 1100.0 5120.0 1053.3 5200.0 1020.0 C5280.0 986.7 5316.7 923.3 5400.0 900.0 C5483.3 876.7 5583.3 863.3 5700.0 880.0 C5816.7 896.7 5970.0 990.0 6100.0 1000.0 C6230.0 1010.0 6350.0 931.7 6480.0 940.0 C6610.0 948.3 6746.7 1056.7 6880.0 1050.0 C7013.3 1043.3 7180.0 968.3 7280.0 900.0 C7380.0 831.7 7433.3 703.3 7480.0 640.0 C7526.7 576.7 7513.3 520.0 7560.0 520.0 C7606.7 520.0 7710.0 600.0 7760.0 640.0 C7810.0 680.0 7823.3 700.0 7860.0 760.0 C7896.7 820.0 7930.0 940.0 7980.0 1000.0 C8030.0 1060.0 8110.7 1098.3 8160.0 1120.0 C8209.3 1141.7 8256.7 1128.3 8276.0 1130.0" fill="none" stroke="#2F6B64" stroke-width="3" stroke-linecap="round"/><circle cx="1380" cy="1000" r="12" fill="#2F6B64"/><circle cx="2460" cy="400" r="12" fill="#2F6B64"/><circle cx="3720" cy="900" r="12" fill="#2F6B64"/><circle cx="4920" cy="1100" r="12" fill="#2F6B64"/><circle cx="5700" cy="880" r="12" fill="#2F6B64"/><circle cx="6880" cy="1050" r="12" fill="#2F6B64"/><circle cx="7860" cy="760" r="12" fill="#2F6B64"/><circle cx="8340" cy="1130" r="64" fill="#F0F0E9" stroke="#2F6B64" stroke-width="3"/></svg>
+  <p class="Htopo" style="left:96px">@fairhealth.br</p>
+  <p class="Htopo" style="right:96px;font-weight:400">nossa história</p>
+  <p class="Hnum" style="left:330px;top:290px">02</p>
+  <p class="Hnota" style="left:330px;top:430px">no hospital</p>
+  <p class="Htxt" style="left:400px;top:650px;width:584px">Assim, dentro de um hospital, desenvolvemos o <span class="k">Escritório do Paciente</span> para mudar essa realidade.</p>
+  <p class="Htxt2" style="left:400px;top:940px;width:584px">Com o tempo, levamos esse conceito para as empresas.</p>
+  <p class="Hrod">fairhealth <span>| o cuidado começa pela pessoa</span></p>
+  <svg aria-hidden="true" style="left:864px;top:1236px;width:120px;height:30px" viewBox="0 0 120 30"><path d="M0 15H116M104 4L117 15L104 26" fill="none" stroke="#96C5BD" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</section>
+<section class="slide Hs" id="h4">
+  <div class="Hpapel"></div>
+  <svg class="cheia" viewBox="3240 0 1080 1350" aria-hidden="true"><path d="M230.0 640.0 C241.7 663.3 268.3 741.7 300.0 780.0 C331.7 818.3 376.7 856.7 420.0 870.0 C463.3 883.3 523.3 873.3 560.0 860.0 C596.7 846.7 631.7 815.0 640.0 790.0 C648.3 765.0 628.3 725.0 610.0 710.0 C591.7 695.0 548.3 688.3 530.0 700.0 C511.7 711.7 495.0 750.0 500.0 780.0 C505.0 810.0 523.3 846.7 560.0 880.0 C596.7 913.3 663.3 946.7 720.0 980.0 C776.7 1013.3 840.0 1056.7 900.0 1080.0 C960.0 1103.3 1023.3 1118.3 1080.0 1120.0 C1136.7 1121.7 1190.0 1110.0 1240.0 1090.0 C1290.0 1070.0 1306.7 1005.0 1380.0 1000.0 C1453.3 995.0 1593.3 1058.3 1680.0 1060.0 C1766.7 1061.7 1820.0 1036.7 1900.0 1010.0 C1980.0 983.3 2093.3 938.3 2160.0 900.0 C2226.7 861.7 2263.3 836.7 2300.0 780.0 C2336.7 723.3 2353.3 623.3 2380.0 560.0 C2406.7 496.7 2406.7 430.0 2460.0 400.0 C2513.3 370.0 2613.3 368.3 2700.0 380.0 C2786.7 391.7 2903.3 436.7 2980.0 470.0 C3056.7 503.3 3116.7 551.7 3160.0 580.0 C3203.3 608.3 3196.7 613.3 3240.0 640.0 C3283.3 666.7 3340.0 696.7 3420.0 740.0 C3500.0 783.3 3623.3 863.3 3720.0 900.0 C3816.7 936.7 3900.0 966.7 4000.0 960.0 C4100.0 953.3 4236.7 863.3 4320.0 860.0 C4403.3 856.7 4450.0 916.7 4500.0 940.0 C4550.0 963.3 4586.7 1001.7 4620.0 1000.0 C4653.3 998.3 4691.7 955.0 4700.0 930.0 C4708.3 905.0 4688.3 865.0 4670.0 850.0 C4651.7 835.0 4608.3 828.3 4590.0 840.0 C4571.7 851.7 4555.0 890.0 4560.0 920.0 C4565.0 950.0 4560.0 990.0 4620.0 1020.0 C4680.0 1050.0 4823.3 1100.0 4920.0 1100.0 C5016.7 1100.0 5120.0 1053.3 5200.0 1020.0 C5280.0 986.7 5316.7 923.3 5400.0 900.0 C5483.3 876.7 5583.3 863.3 5700.0 880.0 C5816.7 896.7 5970.0 990.0 6100.0 1000.0 C6230.0 1010.0 6350.0 931.7 6480.0 940.0 C6610.0 948.3 6746.7 1056.7 6880.0 1050.0 C7013.3 1043.3 7180.0 968.3 7280.0 900.0 C7380.0 831.7 7433.3 703.3 7480.0 640.0 C7526.7 576.7 7513.3 520.0 7560.0 520.0 C7606.7 520.0 7710.0 600.0 7760.0 640.0 C7810.0 680.0 7823.3 700.0 7860.0 760.0 C7896.7 820.0 7930.0 940.0 7980.0 1000.0 C8030.0 1060.0 8110.7 1098.3 8160.0 1120.0 C8209.3 1141.7 8256.7 1128.3 8276.0 1130.0" fill="none" stroke="#2F6B64" stroke-width="3" stroke-linecap="round"/><circle cx="1380" cy="1000" r="12" fill="#2F6B64"/><circle cx="2460" cy="400" r="12" fill="#2F6B64"/><circle cx="3720" cy="900" r="12" fill="#2F6B64"/><circle cx="4920" cy="1100" r="12" fill="#2F6B64"/><circle cx="5700" cy="880" r="12" fill="#2F6B64"/><circle cx="6880" cy="1050" r="12" fill="#2F6B64"/><circle cx="7860" cy="760" r="12" fill="#2F6B64"/><circle cx="8340" cy="1130" r="64" fill="#F0F0E9" stroke="#2F6B64" stroke-width="3"/></svg>
+  <p class="Htopo" style="left:96px">@fairhealth.br</p>
+  <p class="Htopo" style="right:96px;font-weight:400">nossa história</p>
+  <p class="Htxt" style="left:96px;top:200px;width:888px;font-size:48px;line-height:60px">Assim, desenvolvemos o <span class="k">Escritório do Cuidado</span>.</p>
+  <p class="Htxt2" style="left:96px;top:350px;width:888px">Um espaço de acolhimento e de medicina preventiva dentro da empresa, que fortalece o cuidado centrado na pessoa.</p>
+  <p class="Hnum" style="left:510px;top:790px">03</p>
+  <p class="Hnota" style="left:620px;top:812px">hoje, nas empresas</p>
+  <p class="Hrod">fairhealth <span>| o cuidado começa pela pessoa</span></p>
+  <svg aria-hidden="true" style="left:864px;top:1236px;width:120px;height:30px" viewBox="0 0 120 30"><path d="M0 15H116M104 4L117 15L104 26" fill="none" stroke="#96C5BD" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</section>
+<section class="slide Hs" id="h5">
+  <div class="Hpapel"></div>
+  <svg class="cheia" viewBox="4320 0 1080 1350" aria-hidden="true"><path d="M230.0 640.0 C241.7 663.3 268.3 741.7 300.0 780.0 C331.7 818.3 376.7 856.7 420.0 870.0 C463.3 883.3 523.3 873.3 560.0 860.0 C596.7 846.7 631.7 815.0 640.0 790.0 C648.3 765.0 628.3 725.0 610.0 710.0 C591.7 695.0 548.3 688.3 530.0 700.0 C511.7 711.7 495.0 750.0 500.0 780.0 C505.0 810.0 523.3 846.7 560.0 880.0 C596.7 913.3 663.3 946.7 720.0 980.0 C776.7 1013.3 840.0 1056.7 900.0 1080.0 C960.0 1103.3 1023.3 1118.3 1080.0 1120.0 C1136.7 1121.7 1190.0 1110.0 1240.0 1090.0 C1290.0 1070.0 1306.7 1005.0 1380.0 1000.0 C1453.3 995.0 1593.3 1058.3 1680.0 1060.0 C1766.7 1061.7 1820.0 1036.7 1900.0 1010.0 C1980.0 983.3 2093.3 938.3 2160.0 900.0 C2226.7 861.7 2263.3 836.7 2300.0 780.0 C2336.7 723.3 2353.3 623.3 2380.0 560.0 C2406.7 496.7 2406.7 430.0 2460.0 400.0 C2513.3 370.0 2613.3 368.3 2700.0 380.0 C2786.7 391.7 2903.3 436.7 2980.0 470.0 C3056.7 503.3 3116.7 551.7 3160.0 580.0 C3203.3 608.3 3196.7 613.3 3240.0 640.0 C3283.3 666.7 3340.0 696.7 3420.0 740.0 C3500.0 783.3 3623.3 863.3 3720.0 900.0 C3816.7 936.7 3900.0 966.7 4000.0 960.0 C4100.0 953.3 4236.7 863.3 4320.0 860.0 C4403.3 856.7 4450.0 916.7 4500.0 940.0 C4550.0 963.3 4586.7 1001.7 4620.0 1000.0 C4653.3 998.3 4691.7 955.0 4700.0 930.0 C4708.3 905.0 4688.3 865.0 4670.0 850.0 C4651.7 835.0 4608.3 828.3 4590.0 840.0 C4571.7 851.7 4555.0 890.0 4560.0 920.0 C4565.0 950.0 4560.0 990.0 4620.0 1020.0 C4680.0 1050.0 4823.3 1100.0 4920.0 1100.0 C5016.7 1100.0 5120.0 1053.3 5200.0 1020.0 C5280.0 986.7 5316.7 923.3 5400.0 900.0 C5483.3 876.7 5583.3 863.3 5700.0 880.0 C5816.7 896.7 5970.0 990.0 6100.0 1000.0 C6230.0 1010.0 6350.0 931.7 6480.0 940.0 C6610.0 948.3 6746.7 1056.7 6880.0 1050.0 C7013.3 1043.3 7180.0 968.3 7280.0 900.0 C7380.0 831.7 7433.3 703.3 7480.0 640.0 C7526.7 576.7 7513.3 520.0 7560.0 520.0 C7606.7 520.0 7710.0 600.0 7760.0 640.0 C7810.0 680.0 7823.3 700.0 7860.0 760.0 C7896.7 820.0 7930.0 940.0 7980.0 1000.0 C8030.0 1060.0 8110.7 1098.3 8160.0 1120.0 C8209.3 1141.7 8256.7 1128.3 8276.0 1130.0" fill="none" stroke="#2F6B64" stroke-width="3" stroke-linecap="round"/><circle cx="1380" cy="1000" r="12" fill="#2F6B64"/><circle cx="2460" cy="400" r="12" fill="#2F6B64"/><circle cx="3720" cy="900" r="12" fill="#2F6B64"/><circle cx="4920" cy="1100" r="12" fill="#2F6B64"/><circle cx="5700" cy="880" r="12" fill="#2F6B64"/><circle cx="6880" cy="1050" r="12" fill="#2F6B64"/><circle cx="7860" cy="760" r="12" fill="#2F6B64"/><circle cx="8340" cy="1130" r="64" fill="#F0F0E9" stroke="#2F6B64" stroke-width="3"/></svg>
+  <p class="Htopo" style="left:96px">@fairhealth.br</p>
+  <p class="Htopo" style="right:96px;font-weight:400">nossa história</p>
+  <p class="Htxt" style="left:96px;top:200px;width:888px;font-size:44px;line-height:56px">Tudo começa com uma pergunta: <span class="k">o que é importante para você?</span></p>
+  <p class="Htxt2" style="left:96px;top:350px;width:888px">Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado.</p>
+  <p class="Hnota" style="left:450px;top:800px">sem pressa e sem julgamento</p>
+  <p class="Hnum" style="left:630px;top:990px">04</p>
+  <p class="Hrod">fairhealth <span>| o cuidado começa pela pessoa</span></p>
+  <svg aria-hidden="true" style="left:864px;top:1236px;width:120px;height:30px" viewBox="0 0 120 30"><path d="M0 15H116M104 4L117 15L104 26" fill="none" stroke="#96C5BD" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</section>
+<section class="slide Hs" id="h6">
+  <div class="Hpapel"></div>
+  <svg class="cheia" viewBox="5400 0 1080 1350" aria-hidden="true"><path d="M230.0 640.0 C241.7 663.3 268.3 741.7 300.0 780.0 C331.7 818.3 376.7 856.7 420.0 870.0 C463.3 883.3 523.3 873.3 560.0 860.0 C596.7 846.7 631.7 815.0 640.0 790.0 C648.3 765.0 628.3 725.0 610.0 710.0 C591.7 695.0 548.3 688.3 530.0 700.0 C511.7 711.7 495.0 750.0 500.0 780.0 C505.0 810.0 523.3 846.7 560.0 880.0 C596.7 913.3 663.3 946.7 720.0 980.0 C776.7 1013.3 840.0 1056.7 900.0 1080.0 C960.0 1103.3 1023.3 1118.3 1080.0 1120.0 C1136.7 1121.7 1190.0 1110.0 1240.0 1090.0 C1290.0 1070.0 1306.7 1005.0 1380.0 1000.0 C1453.3 995.0 1593.3 1058.3 1680.0 1060.0 C1766.7 1061.7 1820.0 1036.7 1900.0 1010.0 C1980.0 983.3 2093.3 938.3 2160.0 900.0 C2226.7 861.7 2263.3 836.7 2300.0 780.0 C2336.7 723.3 2353.3 623.3 2380.0 560.0 C2406.7 496.7 2406.7 430.0 2460.0 400.0 C2513.3 370.0 2613.3 368.3 2700.0 380.0 C2786.7 391.7 2903.3 436.7 2980.0 470.0 C3056.7 503.3 3116.7 551.7 3160.0 580.0 C3203.3 608.3 3196.7 613.3 3240.0 640.0 C3283.3 666.7 3340.0 696.7 3420.0 740.0 C3500.0 783.3 3623.3 863.3 3720.0 900.0 C3816.7 936.7 3900.0 966.7 4000.0 960.0 C4100.0 953.3 4236.7 863.3 4320.0 860.0 C4403.3 856.7 4450.0 916.7 4500.0 940.0 C4550.0 963.3 4586.7 1001.7 4620.0 1000.0 C4653.3 998.3 4691.7 955.0 4700.0 930.0 C4708.3 905.0 4688.3 865.0 4670.0 850.0 C4651.7 835.0 4608.3 828.3 4590.0 840.0 C4571.7 851.7 4555.0 890.0 4560.0 920.0 C4565.0 950.0 4560.0 990.0 4620.0 1020.0 C4680.0 1050.0 4823.3 1100.0 4920.0 1100.0 C5016.7 1100.0 5120.0 1053.3 5200.0 1020.0 C5280.0 986.7 5316.7 923.3 5400.0 900.0 C5483.3 876.7 5583.3 863.3 5700.0 880.0 C5816.7 896.7 5970.0 990.0 6100.0 1000.0 C6230.0 1010.0 6350.0 931.7 6480.0 940.0 C6610.0 948.3 6746.7 1056.7 6880.0 1050.0 C7013.3 1043.3 7180.0 968.3 7280.0 900.0 C7380.0 831.7 7433.3 703.3 7480.0 640.0 C7526.7 576.7 7513.3 520.0 7560.0 520.0 C7606.7 520.0 7710.0 600.0 7760.0 640.0 C7810.0 680.0 7823.3 700.0 7860.0 760.0 C7896.7 820.0 7930.0 940.0 7980.0 1000.0 C8030.0 1060.0 8110.7 1098.3 8160.0 1120.0 C8209.3 1141.7 8256.7 1128.3 8276.0 1130.0" fill="none" stroke="#2F6B64" stroke-width="3" stroke-linecap="round"/><circle cx="1380" cy="1000" r="12" fill="#2F6B64"/><circle cx="2460" cy="400" r="12" fill="#2F6B64"/><circle cx="3720" cy="900" r="12" fill="#2F6B64"/><circle cx="4920" cy="1100" r="12" fill="#2F6B64"/><circle cx="5700" cy="880" r="12" fill="#2F6B64"/><circle cx="6880" cy="1050" r="12" fill="#2F6B64"/><circle cx="7860" cy="760" r="12" fill="#2F6B64"/><circle cx="8340" cy="1130" r="64" fill="#F0F0E9" stroke="#2F6B64" stroke-width="3"/></svg>
+  <p class="Htopo" style="left:96px">@fairhealth.br</p>
+  <p class="Htopo" style="right:96px;font-weight:400">nossa história</p>
+  <p class="Htxt" style="left:96px;top:200px;width:888px;font-size:48px;line-height:60px">Levamos ao <span class="k">coração da sua empresa</span>:</p>
+  <ul class="Hlista" style="left:96px;top:330px;width:860px"><li>Atendimento médico e psicológico</li><li>Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida</li><li>Tecnologia, humanização e cuidado verdadeiro</li></ul>
+  <p class="Hnum" style="left:330px;top:770px">05</p>
+  <p class="Hrod">fairhealth <span>| o cuidado começa pela pessoa</span></p>
+  <svg aria-hidden="true" style="left:864px;top:1236px;width:120px;height:30px" viewBox="0 0 120 30"><path d="M0 15H116M104 4L117 15L104 26" fill="none" stroke="#96C5BD" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</section>
+<section class="slide Hs" id="h7">
+  <div class="Hpapel"></div>
+  <svg class="cheia" viewBox="6480 0 1080 1350" aria-hidden="true"><path d="M230.0 640.0 C241.7 663.3 268.3 741.7 300.0 780.0 C331.7 818.3 376.7 856.7 420.0 870.0 C463.3 883.3 523.3 873.3 560.0 860.0 C596.7 846.7 631.7 815.0 640.0 790.0 C648.3 765.0 628.3 725.0 610.0 710.0 C591.7 695.0 548.3 688.3 530.0 700.0 C511.7 711.7 495.0 750.0 500.0 780.0 C505.0 810.0 523.3 846.7 560.0 880.0 C596.7 913.3 663.3 946.7 720.0 980.0 C776.7 1013.3 840.0 1056.7 900.0 1080.0 C960.0 1103.3 1023.3 1118.3 1080.0 1120.0 C1136.7 1121.7 1190.0 1110.0 1240.0 1090.0 C1290.0 1070.0 1306.7 1005.0 1380.0 1000.0 C1453.3 995.0 1593.3 1058.3 1680.0 1060.0 C1766.7 1061.7 1820.0 1036.7 1900.0 1010.0 C1980.0 983.3 2093.3 938.3 2160.0 900.0 C2226.7 861.7 2263.3 836.7 2300.0 780.0 C2336.7 723.3 2353.3 623.3 2380.0 560.0 C2406.7 496.7 2406.7 430.0 2460.0 400.0 C2513.3 370.0 2613.3 368.3 2700.0 380.0 C2786.7 391.7 2903.3 436.7 2980.0 470.0 C3056.7 503.3 3116.7 551.7 3160.0 580.0 C3203.3 608.3 3196.7 613.3 3240.0 640.0 C3283.3 666.7 3340.0 696.7 3420.0 740.0 C3500.0 783.3 3623.3 863.3 3720.0 900.0 C3816.7 936.7 3900.0 966.7 4000.0 960.0 C4100.0 953.3 4236.7 863.3 4320.0 860.0 C4403.3 856.7 4450.0 916.7 4500.0 940.0 C4550.0 963.3 4586.7 1001.7 4620.0 1000.0 C4653.3 998.3 4691.7 955.0 4700.0 930.0 C4708.3 905.0 4688.3 865.0 4670.0 850.0 C4651.7 835.0 4608.3 828.3 4590.0 840.0 C4571.7 851.7 4555.0 890.0 4560.0 920.0 C4565.0 950.0 4560.0 990.0 4620.0 1020.0 C4680.0 1050.0 4823.3 1100.0 4920.0 1100.0 C5016.7 1100.0 5120.0 1053.3 5200.0 1020.0 C5280.0 986.7 5316.7 923.3 5400.0 900.0 C5483.3 876.7 5583.3 863.3 5700.0 880.0 C5816.7 896.7 5970.0 990.0 6100.0 1000.0 C6230.0 1010.0 6350.0 931.7 6480.0 940.0 C6610.0 948.3 6746.7 1056.7 6880.0 1050.0 C7013.3 1043.3 7180.0 968.3 7280.0 900.0 C7380.0 831.7 7433.3 703.3 7480.0 640.0 C7526.7 576.7 7513.3 520.0 7560.0 520.0 C7606.7 520.0 7710.0 600.0 7760.0 640.0 C7810.0 680.0 7823.3 700.0 7860.0 760.0 C7896.7 820.0 7930.0 940.0 7980.0 1000.0 C8030.0 1060.0 8110.7 1098.3 8160.0 1120.0 C8209.3 1141.7 8256.7 1128.3 8276.0 1130.0" fill="none" stroke="#2F6B64" stroke-width="3" stroke-linecap="round"/><circle cx="1380" cy="1000" r="12" fill="#2F6B64"/><circle cx="2460" cy="400" r="12" fill="#2F6B64"/><circle cx="3720" cy="900" r="12" fill="#2F6B64"/><circle cx="4920" cy="1100" r="12" fill="#2F6B64"/><circle cx="5700" cy="880" r="12" fill="#2F6B64"/><circle cx="6880" cy="1050" r="12" fill="#2F6B64"/><circle cx="7860" cy="760" r="12" fill="#2F6B64"/><circle cx="8340" cy="1130" r="64" fill="#F0F0E9" stroke="#2F6B64" stroke-width="3"/></svg>
+  <p class="Htopo" style="left:96px">@fairhealth.br</p>
+  <p class="Htopo" style="right:96px;font-weight:400">nossa história</p>
+  <p class="Htxt" style="left:96px;top:200px;width:640px;font-size:44px;line-height:56px">Porque, quando o cuidado está perto, <span class="k">ele acontece</span>.</p>
+  <p class="Htxt2" style="left:96px;top:400px;width:640px">A maior barreira ao cuidado é tempo e acesso. Por isso, o Escritório do Cuidado fica dentro da empresa, perto da rotina de quem trabalha.</p>
+  <p class="Hnum" style="left:430px;top:940px">06</p>
+  <p class="Hnota" style="left:430px;top:1080px">dentro da empresa</p>
+  <p class="Hrod">fairhealth <span>| o cuidado começa pela pessoa</span></p>
+  <svg aria-hidden="true" style="left:864px;top:1236px;width:120px;height:30px" viewBox="0 0 120 30"><path d="M0 15H116M104 4L117 15L104 26" fill="none" stroke="#96C5BD" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</section>
+<section class="slide Hs" id="h8">
+  <div class="Hpapel"></div>
+  <svg class="cheia" viewBox="7560 0 1080 1350" aria-hidden="true"><path d="M230.0 640.0 C241.7 663.3 268.3 741.7 300.0 780.0 C331.7 818.3 376.7 856.7 420.0 870.0 C463.3 883.3 523.3 873.3 560.0 860.0 C596.7 846.7 631.7 815.0 640.0 790.0 C648.3 765.0 628.3 725.0 610.0 710.0 C591.7 695.0 548.3 688.3 530.0 700.0 C511.7 711.7 495.0 750.0 500.0 780.0 C505.0 810.0 523.3 846.7 560.0 880.0 C596.7 913.3 663.3 946.7 720.0 980.0 C776.7 1013.3 840.0 1056.7 900.0 1080.0 C960.0 1103.3 1023.3 1118.3 1080.0 1120.0 C1136.7 1121.7 1190.0 1110.0 1240.0 1090.0 C1290.0 1070.0 1306.7 1005.0 1380.0 1000.0 C1453.3 995.0 1593.3 1058.3 1680.0 1060.0 C1766.7 1061.7 1820.0 1036.7 1900.0 1010.0 C1980.0 983.3 2093.3 938.3 2160.0 900.0 C2226.7 861.7 2263.3 836.7 2300.0 780.0 C2336.7 723.3 2353.3 623.3 2380.0 560.0 C2406.7 496.7 2406.7 430.0 2460.0 400.0 C2513.3 370.0 2613.3 368.3 2700.0 380.0 C2786.7 391.7 2903.3 436.7 2980.0 470.0 C3056.7 503.3 3116.7 551.7 3160.0 580.0 C3203.3 608.3 3196.7 613.3 3240.0 640.0 C3283.3 666.7 3340.0 696.7 3420.0 740.0 C3500.0 783.3 3623.3 863.3 3720.0 900.0 C3816.7 936.7 3900.0 966.7 4000.0 960.0 C4100.0 953.3 4236.7 863.3 4320.0 860.0 C4403.3 856.7 4450.0 916.7 4500.0 940.0 C4550.0 963.3 4586.7 1001.7 4620.0 1000.0 C4653.3 998.3 4691.7 955.0 4700.0 930.0 C4708.3 905.0 4688.3 865.0 4670.0 850.0 C4651.7 835.0 4608.3 828.3 4590.0 840.0 C4571.7 851.7 4555.0 890.0 4560.0 920.0 C4565.0 950.0 4560.0 990.0 4620.0 1020.0 C4680.0 1050.0 4823.3 1100.0 4920.0 1100.0 C5016.7 1100.0 5120.0 1053.3 5200.0 1020.0 C5280.0 986.7 5316.7 923.3 5400.0 900.0 C5483.3 876.7 5583.3 863.3 5700.0 880.0 C5816.7 896.7 5970.0 990.0 6100.0 1000.0 C6230.0 1010.0 6350.0 931.7 6480.0 940.0 C6610.0 948.3 6746.7 1056.7 6880.0 1050.0 C7013.3 1043.3 7180.0 968.3 7280.0 900.0 C7380.0 831.7 7433.3 703.3 7480.0 640.0 C7526.7 576.7 7513.3 520.0 7560.0 520.0 C7606.7 520.0 7710.0 600.0 7760.0 640.0 C7810.0 680.0 7823.3 700.0 7860.0 760.0 C7896.7 820.0 7930.0 940.0 7980.0 1000.0 C8030.0 1060.0 8110.7 1098.3 8160.0 1120.0 C8209.3 1141.7 8256.7 1128.3 8276.0 1130.0" fill="none" stroke="#2F6B64" stroke-width="3" stroke-linecap="round"/><circle cx="1380" cy="1000" r="12" fill="#2F6B64"/><circle cx="2460" cy="400" r="12" fill="#2F6B64"/><circle cx="3720" cy="900" r="12" fill="#2F6B64"/><circle cx="4920" cy="1100" r="12" fill="#2F6B64"/><circle cx="5700" cy="880" r="12" fill="#2F6B64"/><circle cx="6880" cy="1050" r="12" fill="#2F6B64"/><circle cx="7860" cy="760" r="12" fill="#2F6B64"/><circle cx="8340" cy="1130" r="64" fill="#F0F0E9" stroke="#2F6B64" stroke-width="3"/></svg>
+  <p class="Htopo" style="left:96px">@fairhealth.br</p>
+  <p class="Htopo" style="right:96px;font-weight:400">nossa história</p>
+  <p class="Hnota" style="left:384px;top:200px;width:600px;text-align:right">a gente tá aqui pra te ouvir</p>
+  <p class="Hcab" style="left:284px;top:250px;width:700px;text-align:right">Faça o certo pelos motivos certos.</p>
+  <p class="Htxt2" style="left:284px;top:430px;width:700px;text-align:right">Nosso propósito é promover <span class="k">qualidade de vida, engajamento e um ambiente de trabalho mais saudável</span>. Com resultados demonstrados por indicadores.</p>
+  <p class="Hnum" style="left:330px;top:650px">07</p>
+  <img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:726px;top:1076px;width:108px;height:108px">
+  <p class="Hnota" style="left:384px;top:1020px;width:600px;text-align:right">conheça a fairhealth no link da bio</p>
+  <p class="Hrod">fairhealth <span>| o cuidado começa pela pessoa</span></p>
+</section>
+<script>
+document.fonts.ready.then(() => {
+  for (const g of document.querySelectorAll('.Ggig')) {
+    let t = parseFloat(getComputedStyle(g).fontSize);
+    while (g.scrollWidth > g.clientWidth + 1 && t > 40) { t -= 2; g.style.fontSize = t + 'px'; }
+  }
+});
+</script>
+</body></html>
