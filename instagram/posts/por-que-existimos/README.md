@@ -1,5 +1,25 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Teste H3 (19/10): elementos no estilo da referência de terapia em grupo
+
+Pergunta da Nina: "queria adicionar uns elementos nesse estilo, é possível?". A referência é um carrossel com faixas
+onduladas grossas, estrelinhas, marca-texto, uma cabeça de perfil com estrelas e etiquetas em pílula.
+
+**Arquivos:**
+- gerador: `gerar_slides_h3.py`, duplicado da H2, que fica guardada;
+- saída: `slides-h3.html` e `png-h3/`;
+- faixa: `faixa-h3.jpg`.
+
+**Os elementos, nas cores da marca (sem amarelo):**
+- faixa ondulada creme saindo pela borda (capa e slide 7);
+- estrelinhas espalhadas em todos os slides;
+- marca-texto nas palavras de destaque;
+- slide 5: cabeça de perfil em verde, com uma explosão de estrelas e bolinhas;
+- slide 6: os três itens em etiquetas de pílula.
+
+**Ainda não foi para o Canva.** Antes, a Nina escolhe quais elementos ficam. No Canva, o marca-texto vira um
+retângulo atrás da palavra.
+
 ## Versão H2 (19/10): a H com a mão segurando o hospital na capa
 
 Pedido da Nina: "você pode adicionar uma imagem assim no primeiro slide, porém, ao invés de uma casa, ser um
