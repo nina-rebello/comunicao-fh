@@ -24,6 +24,11 @@ versão mesmo, mas faça alguns em Tiffany ao invés de tudo creme e já adicion
 - `../../canva/gerar-por-que-existimos.py`: monta o HTML de importação. No Canva, o fundo entra como imagem e os
   textos e o logo entram editáveis.
 
+**No Canva (19/10):**
+- design **DAHYfV6oMDY**, 8 páginas de 1080 × 1350: https://www.canva.com/d/uQ27p8V8ONnac_M (edição);
+- importado de `instagram/canva/por-que-existimos-h.html` no commit efce434;
+- fundos e fontes vêm do commit 079777a.
+
 ## Versão final (19/10): o melhor de A, D e H, com as ilustrações da Nina
 
 Pedido da Nina: "eu gostei do A, D e H. Criei uns elementos também. Use de todos os seus dons de design e crie uma
