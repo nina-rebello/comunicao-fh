@@ -1,5 +1,20 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Arte v6 (19/10), linhas retas
+
+Pedido da Nina sobre a v5: "essas linhas, faça elas sem parecer rabisco, faça linhas retas".
+
+**Arquivos:**
+- gerador: `gerar_slides_v6.py`, duplicado da v5, que fica guardada;
+- saída: `slides-v6.html` e `png-v6/`;
+- prévia: `previa-v6.jpg`.
+
+**O que mudou:**
+- **A linha:** passou a ser só de trechos retos, horizontais e verticais, com cantos levemente arredondados. Ela
+  desce e sobe em degraus entre os slides, sem laços.
+- **O resto:** o conteúdo, o fundo, as bolinhas, o "2009", o "hoje" e as anotações continuam iguais à v5. Só a
+  posição de alguns elementos mudou, para acompanhar a linha nova.
+
 ## Conteúdo v6 (19/10), o final da Nina
 
 A Nina reescreveu os três primeiros slides. O resto ficou igual à v5. São 8 slides.
