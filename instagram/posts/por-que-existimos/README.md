@@ -1,5 +1,35 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Arte v4 (19/10), recomeço: chique, elegante e Tiffany
+
+Pedido da Nina: "vamos começar do início, tire todos esses personagens, faça algo mais chique e elegante, foque mais
+no Tiffany que no creme". A inspiração é o carrossel de processo de trabalho que ela mandou.
+
+**Arquivos:**
+- gerador: `gerar_slides_v4.py`;
+- saída: `slides-v4.html` e `png-v4/` (t01 a t07);
+- prévia: `previa-v4.jpg`.
+
+**Como ficou:**
+- **Fundo:** Tiffany em todos os slides, com textura de papel.
+- **A linha:** fina, lisa e verde. Atravessa os sete slides, faz um laço na capa e outro na conversa (slide 4) e
+  termina no logo.
+- **Marcos:** bolinhas na linha. "2009" e "hoje" aparecem grandes, em creme, com uma anotação ao lado. Os outros
+  marcos levam uma etiqueta: a essência, o acolhimento e a evolução.
+- **Textos:** grandes e soltos, de um lado da linha. No final, ficam alinhados à direita, como na referência.
+- **Anotações:** curtas, em Raleway itálico, todas do material base:
+  - "de 2009 até hoje";
+  - "onde tudo começou";
+  - "o que é importante para você?";
+  - "perto da rotina das pessoas";
+  - "a gente tá aqui pra te ouvir".
+- **Cabeçalho e rodapé (em creme):**
+  - cabeçalho: @fairhealth.br e "nossa história";
+  - rodapé: "fairhealth | o cuidado começa pela pessoa", com uma seta fina.
+- **Desenhos e personagens:** nenhum.
+
+As versões v1 a v3 ficam guardadas.
+
 ## Arte v3 (19/10), desenhada sutilmente
 
 O que a Nina disse sobre a v2: "menos rabiscado e mais desenhado sutilmente". Ela gostou da linha que atravessa
