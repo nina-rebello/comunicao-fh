@@ -1,5 +1,20 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Arte v1 (19/10)
+
+- **Base:** a arte do post da origem que a Nina aprovou (`../nossa-historia/`, v2). O gerador foi duplicado de
+  `gerar_slides_v2.py`; o original fica intacto.
+  - Gerador: `gerar_slides.py`.
+  - Saída: `slides.html` e `png/` (e01 a e07).
+  - Prévia: `previa.jpg`.
+- **O que se mantém:** capa de luz, fio creme contínuo de 2009 até o logo, "2009" grande e Tiffany como cor
+  principal.
+- **O que muda:**
+  - 7 slides, com fundos luz, Tiffany, verde, Tiffany, verde, Tiffany e verde;
+  - slide 4 (acolhimento): o fio passa por uma foto em círculo (`maos.jpg`, Unsplash, 75% de saturação);
+  - slide 6: "Hoje" grande, no mesmo modelo do "2009", para marcar que são dois projetos, cada um no seu tempo;
+  - etiquetas "No hospital" (slide 2) e "Nas empresas" (slide 6).
+
 > **v3 (19/10), a versão que vale.** Igual à v2, com um ponto corrigido a pedido da Nina: **o Escritório do Paciente
 > e o Escritório do Cuidado são projetos diferentes.** O primeiro nasceu no hospital; o segundo é um projeto novo,
 > inspirado nele e pensado para as empresas. Sai o "virou". Inspiração sutil: o roteiro que o Dr. Ronald usou no
