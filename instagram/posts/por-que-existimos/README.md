@@ -1,6 +1,56 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
-## Conteúdo v4 (19/10), a versão que vale
+## Conteúdo v5 (19/10), a versão que vale
+
+Resposta da Nina à v4: "não vamos focar na criação do Escritório do Paciente e sim no Escritório do Cuidado". O
+Escritório do Paciente aparece só como contexto, numa linha do slide 2.
+
+O que continua da v4:
+- "desenvolvemos" no lugar de "surgiu";
+- a linha do reel do Dr. Ronald, sem o nome;
+- o acolhimento forte, tema do dia no calendário.
+
+| Slide | Etiqueta | Título | Apoio |
+| --- | --- | --- | --- |
+| 1 · capa | Nossa história | Por que a fairhealth *existe*? | a resposta começa com uma pergunta |
+| 2 | O porquê | Há quase 20 anos, percebemos que os pacientes estavam *cada vez mais distantes do centro do cuidado*. | Dentro de um hospital, desenvolvemos o Escritório do Paciente para mudar essa realidade. Com o tempo, levamos esse conceito para as empresas. |
+| 3 | Nas empresas | Assim, desenvolvemos o *Escritório do Cuidado*. | Um espaço de acolhimento e de medicina preventiva dentro da empresa, que fortalece o cuidado centrado na pessoa. |
+| 4 | O acolhimento | Tudo começa com uma pergunta: *o que é importante para você?* | Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado. |
+| 5 | O que levamos | Levamos ao *coração da sua empresa*: | atendimento médico e psicológico · planos de cuidado individualizados, baseados na Medicina do Estilo de Vida · tecnologia, humanização e cuidado verdadeiro |
+| 6 | Perto | Porque, quando o cuidado está perto, *ele acontece*. | A maior barreira ao cuidado é tempo e acesso. Por isso, o Escritório do Cuidado fica dentro da empresa, perto da rotina de quem trabalha. |
+| 7 · final | O propósito | Nosso propósito é promover *qualidade de vida, engajamento e um ambiente de trabalho mais saudável*. | Com resultados demonstrados por indicadores. Faça o certo pelos motivos certos. / Conheça a fairhealth no link da bio. |
+
+**De onde vem cada slide:**
+- **Slide 1:** título do calendário ("Por que a FairHealth existe?"). A anotação vem de "Tudo começa com uma
+  pergunta", tema do Mês 1 no posicionamento.
+- **Slides 2, 3, 5 e 7:** roteiro do reel do Dr. Ronald, com "desenvolvemos". O "espaço de acolhimento e de
+  medicina preventiva" do slide 3 vem da essência ("Em uma frase").
+- **Slide 4:** a pergunta-assinatura e a dinâmica das consultas, na essência (a conversa vem antes dos exames). O
+  apoio é o do conteúdo aprovado da v3.
+- **Slide 6:**
+  - "Proximidade gera adesão. A maior barreira ao cuidado é tempo e acesso; por isso o espaço fica dentro da
+    empresa" (essência);
+  - "quando o cuidado está perto, ele acontece" (v3).
+
+**Legenda v5:**
+
+```
+A fairhealth existe para colocar as pessoas de volta no centro do cuidado.
+
+Há quase 20 anos, percebemos que os pacientes estavam cada vez mais distantes desse centro. Com o tempo, levamos esse conceito para as empresas e desenvolvemos o Escritório do Cuidado: um espaço de acolhimento e de medicina preventiva dentro da empresa, onde tudo começa com uma pergunta, "O que é importante para você?".
+
+Porque, quando o cuidado está perto, ele acontece.
+
+Faça o certo pelos motivos certos. Conheça a fairhealth no link da bio.
+
+#fairhealth #saudecorporativa #medicinapreventiva #cuidadohumanizado #escritoriodocuidado
+```
+
+**Validar:**
+- "com resultados demonstrados por indicadores" é fala do reel, sem número.
+- A arte v4 (fundo Tiffany e linha fina) ainda está com o conteúdo v3. Ajustar depois que a v5 for aprovada.
+
+## Conteúdo v4 (19/10), substituído pela v5
 
 Dois feedbacks sobre a v3:
 - "Eu daria mais peso na autoria do Ronald. 'Surgiu' poderia dar impressão que aconteceu em algum lugar e imitamos."
