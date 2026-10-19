@@ -41,6 +41,10 @@ estavam cada vez mais distantes do centro do cuidado". Depois, o conceito foi le
 surgiu o Escritório do Cuidado, fortalecendo o cuidado centrado na pessoa" (roteiro do reel do Dr. Ronald). Não
 escrever que um "virou" o outro: o segundo é inspirado no primeiro.
 
+**Autoria (19/10), feedback sobre o post de 21/10:** escrever que **desenvolvemos** o Escritório do Paciente e o
+Escritório do Cuidado. Evitar "surgiu", que dá a impressão de que o modelo nasceu em outro lugar e foi copiado. Nos
+posts, não precisa citar o nome do Dr. Ronald.
+
 ## Em que a gente acredita
 
 - **A experiência do colaborador é única e intransferível**, mas pode ser cuidada todos

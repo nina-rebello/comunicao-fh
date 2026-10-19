@@ -1,5 +1,62 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Conteúdo v4 (19/10), a versão que vale
+
+Dois feedbacks sobre a v3:
+- "Eu daria mais peso na autoria do Ronald. 'Surgiu' poderia dar impressão que aconteceu em algum lugar e imitamos."
+- "Poderíamos seguir mais ou menos o roteiro do reels que gravarei hoje. Não precisa colocar nome, só escrever que
+  desenvolvemos."
+
+Então:
+- **Sai o "surgiu", entra "desenvolvemos"** nos dois projetos.
+- **A ordem segue o roteiro do reel:** percebemos o problema, desenvolvemos o Escritório do Paciente, levamos o
+  conceito para as empresas com o Escritório do Cuidado, o que levamos e o propósito.
+- **O acolhimento continua** no slide 4.
+- **O fechamento** é a frase do reel: "Faça o certo pelos motivos certos."
+
+| Slide | Etiqueta | Título | Apoio |
+| --- | --- | --- | --- |
+| 1 · capa | Nossa história | Antes de chegar às empresas, nossa história começou *em um hospital*. | de 2009 até hoje |
+| 2 | 2009 | Há quase 20 anos, percebemos que os pacientes estavam *cada vez mais distantes do centro do cuidado*. | Era preciso mudar essa realidade. |
+| 3 | No hospital | Assim, desenvolvemos o *Escritório do Paciente*. | Um modelo de cuidado inspirado nos princípios do Triple Aim, para trazer o paciente de volta ao centro, com a escuta, o acolhimento e as necessidades de cada pessoa em primeiro lugar. |
+| 4 | A essência | Por trás de cada atendimento, existe *uma pessoa*. | Por isso, antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado. |
+| 5 | Nas empresas | Com o tempo, levamos esse conceito para as empresas e desenvolvemos o *Escritório do Cuidado*. | Um projeto novo, inspirado no Escritório do Paciente, que fortalece o cuidado centrado na pessoa. |
+| 6 | Hoje | Levamos ao *coração da sua empresa*: | atendimento médico e psicológico · planos de cuidado individualizados, baseados na Medicina do Estilo de Vida · tecnologia, humanização e cuidado verdadeiro |
+| 7 | O propósito | Os lugares mudaram. *A essência do cuidado permanece.* | Nosso propósito é promover qualidade de vida, engajamento e um ambiente de trabalho mais saudável, com resultados demonstrados por indicadores. |
+| 8 · final | | Faça o certo *pelos motivos certos*. | Dê esse presente para o seu time. Chame a fairhealth: link na bio. |
+
+**De onde vem cada slide:**
+- **Roteiro do reel do Dr. Ronald (19/10), sem o nome:** slides 2, 3, 5, 6, 7 (o propósito) e 8.
+- **Conteúdo aprovado da v3:**
+  - capa;
+  - a escuta e o acolhimento (slide 3);
+  - slide 4 inteiro;
+  - "um projeto novo, inspirado no Escritório do Paciente" (slide 5);
+  - "Os lugares mudaram. A essência do cuidado permanece." (slide 7).
+
+**Legenda v4** (mais curta, na linha do reel):
+
+```
+Há quase 20 anos, percebemos que os pacientes estavam cada vez mais distantes do centro do cuidado. Era preciso mudar essa realidade.
+
+Foi assim que desenvolvemos o Escritório do Paciente, dentro de um hospital. Com o tempo, levamos esse conceito para as empresas e desenvolvemos o Escritório do Cuidado: atendimento médico e psicológico e planos de cuidado individualizados, perto da rotina de quem trabalha.
+
+Os lugares mudaram. A essência do cuidado permanece.
+
+Faça o certo pelos motivos certos. Conheça a fairhealth no link da bio.
+
+#fairhealth #saudecorporativa #medicinapreventiva #cuidadohumanizado #escritoriodocuidado
+```
+
+**Validar:**
+- **Triple Aim:** entra só como no reel ("inspirado nos princípios do Triple Aim"), sem explicação. Se quiserem
+  explicar, a definição oficial do IHI é melhorar a experiência do cuidado, melhorar a saúde da população e reduzir
+  o custo per capita. A `essencia.md` resume como "qualidade, acesso, custo": vale conferir antes de usar.
+- **2009 e "há quase 20 anos":** a arte usa o "2009" grande e o texto usa "há quase 20 anos", a fala do reel.
+  2009 dá 17 anos, o que cabe no "quase 20".
+- **"Dê esse presente para o seu time":** frase do reel; é opcional no carrossel.
+- **A arte v4** ainda está com o conteúdo v3 (7 slides). Ajustar depois que o conteúdo v4 for aprovado.
+
 ## Arte v4 (19/10), recomeço: chique, elegante e Tiffany
 
 Pedido da Nina: "vamos começar do início, tire todos esses personagens, faça algo mais chique e elegante, foque mais
