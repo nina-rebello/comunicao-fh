@@ -16,7 +16,29 @@ Dê esse presente para seu time!
 Faça o certo pelos motivos certos. Chame a fairhealth!
 ```
 
-## Legenda
+## Legenda v2 (a que vale)
+
+Pedido da Nina sobre a v1: "foque mais na fairhealth, no Escritório do Cuidado". A história (2009, o hospital) fica
+para o vídeo; a legenda fala do que a fairhealth faz hoje.
+
+```
+Se você chegou agora, o Dr. Ronald te conta o que é a fairhealth e como chegamos até aqui.
+
+A fairhealth leva para dentro das empresas o Escritório do Cuidado: um espaço de acolhimento e de medicina preventiva, perto da rotina de quem trabalha. Lá, cada pessoa tem atendimento médico e psicológico e um plano de cuidado individualizado, baseado na Medicina do Estilo de Vida.
+
+Tudo começa com uma pergunta: o que é importante para você?
+
+Faça o certo pelos motivos certos. Conheça a fairhealth pelo link da bio.
+
+#fairhealth #saudecorporativa #medicinapreventiva #escritoriodocuidado #cuidadocentradonapessoa
+```
+
+**De onde vem cada parte:**
+- "espaço de acolhimento e de medicina preventiva" e a pergunta: essência ("Em uma frase");
+- "perto da rotina de quem trabalha": essência ("Proximidade gera adesão");
+- atendimento médico e psicológico e plano de cuidado individualizado com base na MEV: roteiro do reel.
+
+## Legenda v1 (guardada)
 
 ```
 Se você chegou agora, o Dr. Ronald te conta como a fairhealth chegou até aqui.
