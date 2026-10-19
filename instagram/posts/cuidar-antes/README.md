@@ -1,6 +1,98 @@
 # Post de sex 23/10: Cuidar da saúde não deveria começar quando algo vai mal
 
-> **v3 (19/10), atual.** Novo briefing da Nina:
+> **v4 (19/10), atual.** Nova tentativa com o mesmo briefing da v3:
+> - cuidar antes, não depois, e não só da saúde;
+> - acolhimento e prevenção com o mesmo peso, mostrando a diferença entre os dois;
+> - as pessoas precisam de alguém para ouvir;
+> - público: CEOs.
+>
+> O que muda em relação à v3:
+> - o texto fala direto com o CEO, em "você";
+> - sai a linguagem de saúde (atestado, lista de pilares);
+> - acolher e prevenir aparecem lado a lado, num slide de comparação;
+> - o fechamento põe a decisão na mão de quem lidera.
+>
+> A v3, a v2 e a v1 ficam mais embaixo.
+
+- **Formato:** carrossel 1080 × 1350, 7 slides.
+- **Público:** CEOs ("C-Level / Conselho" no plano de marketing: cuidado com o capital humano).
+- **Tom:** de igual para igual, assertivo e pragmático, sem jargão de saúde e sem números.
+- **Ideia central:** cuidar das pessoas é decisão de quem lidera, e funciona quando começa antes. Esse cuidado tem
+  duas partes diferentes, com o mesmo peso:
+  - acolher, que é ouvir;
+  - prevenir, que é agir antes.
+
+## Roteiro v4
+
+| Slide | Título | Apoio |
+| --- | --- | --- |
+| 1 · capa | Cuidar das pessoas não deveria começar *quando algo vai mal*. | Etiqueta: Para quem lidera |
+| 2 · antes, não depois | Você não espera o problema aparecer para cuidar da estratégia. | *Por que esperar para cuidar das pessoas?* |
+| 3 · além da saúde | Cuidar antes não é só cuidar da saúde. | É saber como cada pessoa está: a rotina, a pressão, o que pesa e o que é importante para ela. |
+| 4 · a diferença | Acolher e prevenir *não são a mesma coisa*. | Dois cartões lado a lado. **Acolher é ouvir:** olha para como a pessoa está hoje e cria um espaço seguro para falar. **Prevenir é agir antes:** olha para o que vem pela frente e vira um plano de cuidado, com acompanhamento. |
+| 5 · o mesmo peso | E um não funciona *sem o outro*. | Prevenção sem acolhimento vira campanha que ninguém usa. Acolhimento sem prevenção vira conversa que não muda a rotina. |
+| 6 · alguém para ouvir | Seu time precisa de *alguém para ouvir*. | Você não consegue ouvir todo mundo. Mas pode decidir que todos tenham com quem falar: perto, dentro da empresa, com sigilo. |
+| 7 · final | Cuidar antes é uma decisão *de quem lidera*. | Fazemos o certo pelos motivos certos. / Conheça o Escritório do Cuidado no link da bio. |
+
+### De onde vem cada slide (v4)
+
+- **1:** título do cronograma (P03), com "das pessoas" pelo briefing; público C-Level (plano de marketing, 3.5).
+- **2:**
+  - o eixo "antes" do posicionamento;
+  - "o cuidado com a saúde é um investimento inteligente, não um custo" (plano de marketing, 3.8);
+  - "custo reativo em investimento proativo" (posicionamento).
+- **3:** "A experiência do colaborador… inclui as condições de trabalho e também segurança psicológica, saúde e valor"
+  (essência) e a pergunta "O que é importante para você?".
+- **4:**
+  - acolher: "sem pressa e sem julgamento" (vídeo de acolhimento), "acolhimento, confidencialidade" (plano), a
+    pergunta do site "O que é importante para você hoje?";
+  - prevenir: Plano Individualizado de Cuidado e acompanhamento (essência), "atuar antes do diagnóstico"
+    (posicionamento).
+- **5:**
+  - "só campanhas pontuais que não mudam o comportamento" (dor do RH, plano de marketing);
+  - "Programa de bem-estar que ninguém usa é custo, não cuidado" (voice.md);
+  - o pleno potencial com o Programa MEV e o Escritório do Cuidado juntos (plano de marketing, 3.4).
+- **6:**
+  - "sem depender de que o colaborador tome a iniciativa sozinho" (tom de voz, plano de marketing);
+  - "Proximidade gera adesão" (essência);
+  - sigilo (estratégia, produto).
+- **7:**
+  - Liderança Bem-Estar: "O que é importante pra você?" como modelo de liderança, que "influencia pelo exemplo"
+    (plano de marketing, 3.7);
+  - "Fazemos o certo pelos motivos certos" (valor da marca; reel do Dr. Ronald).
+
+## Legenda v4
+
+```
+Cuidar das pessoas também faz parte da estratégia de uma empresa. E funciona melhor quando começa antes.
+
+Esse cuidado tem duas partes, igualmente importantes. Acolher é ouvir e entender como cada pessoa está. Prevenir é agir antes que algo vá mal, com um plano de cuidado e acompanhamento de perto.
+
+Na fairhealth, as duas andam juntas: dentro da sua empresa, perto da rotina do time e com sigilo.
+
+Fazemos o certo pelos motivos certos.
+
+Conheça a fairhealth no link da bio.
+
+#fairhealth #lideranca #gestaodepessoas #saudecorporativa #medicinapreventiva
+```
+
+## Stories (v4)
+
+Enquete para quem lidera: "Na sua empresa, o cuidado com as pessoas chega antes ou depois?" (Antes / Depois).
+
+## Validar antes de publicar (v4)
+
+- Sem promessa de evitar doença ou afastamento (CFM): "agir antes que algo vá mal" fala de intenção, não de resultado.
+- Sem números e sem ROI.
+- Sem comparação com o plano de saúde.
+- Capa: o cronograma diz "Cuidar da saúde…"; aqui é "das pessoas", pelo briefing.
+
+---
+
+## v3 (19/10), mantida
+
+> **v3 (19/10), substituída pela v4.** Novo briefing da Nina:
 > - cuidar antes, não depois, e não só da saúde;
 > - acolhimento e prevenção com o mesmo peso, mostrando a diferença entre os dois;
 > - as pessoas precisam de alguém para ouvir;
@@ -16,7 +108,7 @@
 - **Gancho para o CEO:** quem lidera não consegue ouvir todo mundo, mas pode garantir que cada pessoa tenha com quem
   falar.
 
-## Roteiro v3
+### Roteiro v3
 
 | Slide | Título | Apoio |
 | --- | --- | --- |
@@ -35,7 +127,7 @@
 **Capa:** o cronograma diz "Cuidar da saúde…". Troquei para "das pessoas" porque o post não fala só de saúde.
 Se o título do calendário já foi para o grupo, dá para manter "da saúde".
 
-### De onde vem cada slide
+#### De onde vem cada slide (v3)
 
 - **1:** título do cronograma (P03), com "das pessoas" pelo briefing. Público C-Level: plano de marketing (3.5).
 - **2:** a cadeia do roteiro original (semana pesada, noite sem dormir, atestado) e o eixo "antes" do posicionamento.
@@ -59,7 +151,7 @@ Se o título do calendário já foi para o grupo, dá para manter "da saúde".
 - **7:** fechamento do roteiro original e "Fazemos o certo pelos motivos certos" (valor da marca, plano de
   marketing; roteiro do reel do Dr. Ronald).
 
-## Legenda v3
+### Legenda v3
 
 ```
 Cuidar antes, não depois.
@@ -75,12 +167,12 @@ Conheça a fairhealth no link da bio.
 #fairhealth #saudecorporativa #medicinapreventiva #lideranca #gestaodepessoas
 ```
 
-## Stories (v3)
+### Stories (v3)
 
 Caixa de perguntas, ajustada para quem lidera: "Na sua empresa, quem as pessoas procuram quando não estão bem?"
 (adaptada da pergunta do cronograma).
 
-## Validar antes de publicar (v3)
+### Validar antes de publicar (v3)
 
 - Sem promessa de evitar doença ou afastamento (CFM): "agir antes que algo vá mal" fala de intenção, não de resultado.
 - Sem números e sem ROI: os números do plano de marketing (sinistralidade, custo por colaborador) não têm fonte
