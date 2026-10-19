@@ -1,6 +1,6 @@
 # Post de sex 23/10: Cuidar da saúde não deveria começar quando algo vai mal
 
-> **v4 (19/10), atual.** Nova tentativa com o mesmo briefing da v3:
+> **v4 (19/10), aprovada pela Nina.** Nova tentativa com o mesmo briefing da v3:
 > - cuidar antes, não depois, e não só da saúde;
 > - acolhimento e prevenção com o mesmo peso, mostrando a diferença entre os dois;
 > - as pessoas precisam de alguém para ouvir;
@@ -21,6 +21,22 @@
   duas partes diferentes, com o mesmo peso:
   - acolher, que é ouvir;
   - prevenir, que é agir antes.
+
+## Arte v1 (19/10)
+
+- Gerador: `gerar_slides.py`. Saída: `slides.html` e `png/` (c01 a c07). Prévia: `previa.jpg`.
+- Design: o do post de gestão (v13), com Raleway, Tiffany, verde e creme.
+- Slides:
+  - 1 (Tiffany): o fio com o "antes" em destaque e o "depois" vazado;
+  - 2 (verde): a pergunta em negrito itálico;
+  - 3 (creme): o fio de quatro pontos, com o último ponto ("o que é importante para ela") em destaque;
+  - 4 (Tiffany): acolher e prevenir em dois cartões do mesmo tamanho, um branco e um verde;
+  - 5 (verde): os dois argumentos e dois círculos iguais que se cruzam;
+  - 6 (creme): foto de duas pessoas conversando e as etiquetas "perto", "dentro da empresa" e "com sigilo";
+  - 7 (Tiffany): logo, a frase final, o valor da marca e a chamada.
+- Foto do slide 6: `conversa1.jpg` (Unsplash), recortada em faixa e com 75% de saturação, como nas outras peças.
+  Fica em `foto-conversa.jpg`.
+- Ícones dos cartões: Lucide (licença ISC), em traço. No Canva, viram formas criadas depois da importação.
 
 ## Roteiro v4
 
