@@ -16,7 +16,33 @@ Dê esse presente para seu time!
 Faça o certo pelos motivos certos. Chame a fairhealth!
 ```
 
-## Legenda v3 (a que vale)
+## Legenda v4 (a que vale)
+
+Pedido da Nina: "faça um resumo do conteúdo na legenda". A legenda resume o reel na ordem da fala:
+1. o problema;
+2. o Escritório do Paciente;
+3. o Escritório do Cuidado;
+4. o que levamos às empresas;
+5. o propósito;
+6. a chamada.
+
+Continua com "desenvolvemos" e "criamos", pela autoria, no lugar de "nasceu" e "surgiu".
+
+```
+Como a fairhealth chegou até aqui, contado pelo Dr. Ronald.
+
+Há quase 20 anos, percebemos que os pacientes estavam cada vez mais distantes do centro do cuidado. Para mudar essa realidade, desenvolvemos o Escritório do Paciente, inspirado nos princípios do Triple Aim. Com o tempo, levamos esse conceito para as empresas e criamos o Escritório do Cuidado, que fortalece o cuidado centrado na pessoa.
+
+Hoje, levamos ao coração da sua empresa atendimento médico e psicológico e planos de cuidado individualizados, baseados na Medicina do Estilo de Vida, com tecnologia, humanização e cuidado verdadeiro.
+
+Nosso propósito é promover qualidade de vida, engajamento e um ambiente de trabalho mais saudável, com resultados demonstrados por indicadores.
+
+Dê esse presente para o seu time. Faça o certo pelos motivos certos: chame a fairhealth pelo link da bio.
+
+#fairhealth #escritoriodocuidado #saudecorporativa #medicinapreventiva #cuidadocentradonapessoa
+```
+
+## Legenda v3 (guardada)
 
 A Nina não gostou da v2 ("mande uma ideia melhor"). A ideia nova: a pergunta da marca vira o fio da legenda. Ela é o
 começo de todo cuidado no Escritório do Cuidado, e o vídeo conta de onde ela veio. O fechamento usa a frase do reel
