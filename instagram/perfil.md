@@ -103,3 +103,28 @@ Retorno da Nina sobre a v3: "a leitura tá muito travada". Frases curtas, uma id
 1. (95) Médico e psicólogo dentro da sua empresa. / Cuidamos do seu time de perto, antes que algo vá mal.
 2. (97) Levamos médico e psicólogo para dentro da sua empresa. / Para cuidar do seu time de perto. E antes.
 3. (103) O cuidado que o seu time precisa, dentro da sua empresa: / médico, psicólogo e um plano para cada pessoa.
+
+## Bio v5 (20/10): a estrutura da Nina, cortada para caber
+
+A versão da Nina (produto + pergunta + oferta) tem 195 caracteres; o limite é 150. Versões cortadas:
+
+A (150):
+```
+O Escritório do Cuidado leva médico e psicólogo para dentro da sua empresa.
+Tudo começa com: o que é importante para você?
+Diagnóstico grátis no link.
+```
+
+B (145):
+```
+Escritório do Cuidado: médico e psicólogo na sua empresa.
+Tudo começa com uma pergunta: o que é importante para você?
+Diagnóstico grátis no link.
+```
+
+C (149):
+```
+Escritório do Cuidado: médico e psicólogo dentro da sua empresa.
+Tudo começa com: o que é importante para você?
+Faça um diagnóstico gratuito no link.
+```
