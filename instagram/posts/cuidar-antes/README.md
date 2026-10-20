@@ -26,8 +26,12 @@
 
 - A Nina pediu a capa no estilo dos pôsteres de design universal ("About to crash?", "Can you read this?"): uma cor
   de fundo, o título em negrito no topo e uma ilustração grande e sem contorno embaixo.
-- A cena mostra uma planta murchando sobre a mesa, que é o "quando algo vai mal", e um regador parado ao lado, que
-  é o cuidado que podia ter vindo antes. Tudo em SVG, com as cores da marca: Tiffany, verde, verde do logo e creme.
+- A cena é uma cadeira de escritório vazia, com o blazer no encosto, ao lado da mesa com o computador ligado e a
+  caneca. A pessoa já não está ali: é o "quando algo vai mal", sem falar em atestado. Tudo em SVG, com as cores da
+  marca: Tiffany, verde, verde do logo e creme.
+- O blazer é verde, e não creme, para não parecer jaleco de médico.
+- A primeira tentativa foi uma planta murchando com um regador ao lado. A Nina não aprovou, porque a metáfora era
+  indireta demais para um CEO.
 - O texto continua o mesmo da v4. Só mudou o destaque em creme, para contrastar com a ilustração.
 - Os slides 2 a 7 continuam iguais aos da v1. A `previa.jpg` ainda mostra a capa v1.
 
