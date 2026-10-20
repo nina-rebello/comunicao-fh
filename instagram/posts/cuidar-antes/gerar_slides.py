@@ -110,6 +110,13 @@ S.insert(1, ('c01b', 't', 'capa: mulher exausta na mesa, versão simplificada', 
     <rect x="868" y="834" width="22" height="370" fill="#F0F0E9"/>
   </svg>'''))
 
+# 1c · capa alternativa (20/10): a mesma cena em foto, vista de cima (PNG mandado pela Nina). O fundo branco foi
+#   recortado pelo branco puro a partir das bordas, com o tampo da mesa mantido opaco, e os brancos da foto viraram o
+#   creme da marca (capa-foto-exausta.png).
+S.insert(2, ('c01c', 't', 'capa: mulher exausta na mesa, foto de cima', '''<p class="rot">Para quem lidera</p>
+  <p class="tit" style="left:96px;top:160px;width:888px;font-size:78px;line-height:86px;font-weight:800;letter-spacing:-0.02em">Cuidar das pessoas não deveria começar <span class="k" style="color:var(--creme)">quando algo vai mal</span>.</p>
+  <img src="capa-foto-exausta.png" alt="" style="left:150px;top:448px;width:780px">'''))
+
 # 2 · antes, não depois: a estratégia e as pessoas. v2 (20/10): a Nina pediu a foto de duas pessoas em poltronas
 #   separando as duas frases. O fundo foi removido (rembg, isnet-general-use), o tampo da mesa foi recuperado da foto
 #   original e as poltronas azuis viraram Tiffany, mantendo luz e sombra (foto-conversa-poltronas.png).

@@ -22,6 +22,14 @@
   - acolher, que é ouvir;
   - prevenir, que é agir antes.
 
+## Capa 1c (20/10): a mesma cena em foto, vista de cima
+
+- A Nina mandou uma foto da mesma cena, vista de cima e em preto e branco.
+- O removedor automático (rembg) deixava a mesa transparente. Por isso o recorte foi feito pelo branco puro a partir
+  das bordas, com o tampo da mesa mantido opaco.
+- Os brancos da foto viraram o creme da marca (`capa-foto-exausta.png`).
+- É mais uma alternativa de capa. No PDF do Canva, entra depois da 1b.
+
 ## Capa 1b (20/10): mulher exausta, versão simplificada
 
 - É a mesma cena do PNG da capa v3, redesenhada em SVG com poucas formas chapadas, sem contorno e sem sombra.
