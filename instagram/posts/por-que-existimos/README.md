@@ -1,5 +1,25 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Teste H2F (20/10): foto do espaço em tom Tiffany no fundo do slide 4
+
+Pedido da Nina: "no slide 4, duplique ele e teste colocar uma imagem de fundo, mas com um tom mais Tiffany".
+
+**As fotos:** os renders do Escritório do Cuidado (`../../marca/espaco/`, ainda **[PENDENTE]** em
+`referencias.md`: são projeto 3D, não foto do espaço funcionando). Passaram para o Tiffany com
+`../../ferramentas/tonalizar-tiffany.py` e estão em `../../marca/espaco/tiffany/`. A recepção entrou na versão mais
+larga que a Nina mandou (`recepcao-parede-pedra-larga.jpg`); a original fica guardada.
+
+**No slide 4:** o fundo passa a Tiffany. O texto fica no Tiffany liso do alto, e a foto aparece da metade para
+baixo, com um véu Tiffany para o "03" e a anotação continuarem legíveis. São três opções seguidas no lugar do slide 4:
+- `k4a`: sala de atendimento e espera;
+- `k4b`: copa com a parede verde;
+- `k4c`: recepção com a parede de pedra.
+
+**Arquivos:**
+- gerador: `gerar_slides_h2f.py`, duplicado da H2, que fica guardada;
+- saída: `slides-h2f.html`, `png-h2f/` e `previa-h2f.jpg`;
+- fundos para o Canva: `png-h2f-fundo/`.
+
 ## Teste H3 (19/10): elementos no estilo da referência de terapia em grupo
 
 Pergunta da Nina: "queria adicionar uns elementos nesse estilo, é possível?". A referência é um carrossel com faixas
