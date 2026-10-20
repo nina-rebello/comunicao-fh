@@ -11,6 +11,9 @@ o papel com grão e a linha. Os 6 slides e os textos são os mesmos da H4.
 - saída: `slides-h5.html`, `png-h5/` e `previa-h5.jpg`;
 - fundos para o Canva: `png-h5-fundo/`.
 
+**No Canva (20/10):** design **DAHYksYpO3M**, https://www.canva.com/d/xGUTpwVTDndn3e5 (edição), importado de
+`instagram/canva/por-que-existimos-h5.html` no commit debe5d5. A H4 (DAHYkqtcMVk) fica guardada.
+
 ## Versão H4 (20/10): 6 slides, com fotos, desenhos e textura
 
 Pedido da Nina, sobre o design H2 do Canva (DAHYfVF20nU): "vamos diminuir a quantidade de slides, juntando os
