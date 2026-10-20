@@ -24,7 +24,7 @@ await page.goto(pathToFileURL(path.resolve(src)).href);
 await page.evaluate(() => document.fonts.ready);
 const html = await page.evaluate((raw) => {
   const NS = 'http://www.w3.org/2000/svg';
-  for (const svg of [...document.querySelectorAll('section.slide svg')]) {
+  for (const svg of [...document.querySelectorAll('section.slide svg.cheia')]) {
     const pecas = [...svg.children].filter(el => el.tagName !== 'defs');
     if (pecas.length < 2) continue;  // ícones e formas soltas já são um gráfico só
     const sec = svg.closest('section');
