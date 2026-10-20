@@ -22,6 +22,12 @@
   - acolher, que é ouvir;
   - prevenir, que é agir antes.
 
+## Capa 1b (20/10): mulher exausta, versão simplificada
+
+- É a mesma cena do PNG da capa v3, redesenhada em SVG com poucas formas chapadas, sem contorno e sem sombra.
+- Usa as cores da marca: verde, verde do logo e creme. A pele é num tom pêssego.
+- É uma alternativa: a capa com o PNG continua. No PDF do Canva, entra logo depois da capa.
+
 ## Capa v3 (20/10): ilustração da mulher exausta
 
 - A Nina mandou um PNG para a capa: uma mulher debruçada na mesa, exausta, fazendo "ok" com a mão. Ele substitui a

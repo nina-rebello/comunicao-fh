@@ -78,6 +78,38 @@ S.append(('c01', 't', 'capa: cuidar das pessoas antes, não depois (ilustrada)',
   <img src="capa-exausta.png" alt="" style="left:170px;top:450px;width:740px">
 '''))
 
+# 1b · capa alternativa (20/10): a mesma cena do PNG da capa (mulher exausta na mesa fazendo "ok"), redesenhada em
+#   SVG com poucas formas chapadas, sem contorno e sem sombra, nas cores da marca.
+S.insert(1, ('c01b', 't', 'capa: mulher exausta na mesa, versão simplificada', '''<p class="rot">Para quem lidera</p>
+  <p class="tit" style="left:96px;top:160px;width:888px;font-size:78px;line-height:86px;font-weight:800;letter-spacing:-0.02em">Cuidar das pessoas não deveria começar <span class="k" style="color:var(--creme)">quando algo vai mal</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <rect x="752" y="680" width="30" height="250" rx="12" fill="#1F3A36"/>
+    <path d="M400 800C395 705 465 640 560 645C640 650 690 715 695 800Z" fill="#F0F0E9"/>
+    <path d="M455 735L412 655" stroke="#F0F0E9" stroke-width="56" stroke-linecap="round"/>
+    <path d="M410 660L398 592" stroke="#E9A27C" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="384" cy="562" r="15" fill="none" stroke="#E9A27C" stroke-width="12"/>
+    <path d="M396 556L412 506M405 566L432 524" stroke="#E9A27C" stroke-width="12" stroke-linecap="round"/>
+    <rect x="410" y="760" width="250" height="44" rx="22" fill="#F0F0E9"/>
+    <circle cx="505" cy="712" r="70" fill="#1F3A36"/>
+    <circle cx="462" cy="636" r="34" fill="#1F3A36"/>
+    <rect x="160" y="800" width="760" height="34" rx="4" fill="#F0F0E9"/>
+    <path d="M690 800L738 650L908 640L868 800Z" fill="#2F6B64"/>
+    <rect x="630" y="790" width="240" height="12" rx="4" fill="#2F6B64"/>
+    <circle cx="802" cy="720" r="11" fill="#F0F0E9"/>
+    <path d="M232 800L226 716H284L278 800Z" fill="#2F6B64"/>
+    <path d="M244 718L236 674M258 718L260 668" stroke="#1F3A36" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="322" cy="786" r="16" fill="none" stroke="#1F3A36" stroke-width="7"/>
+    <circle cx="364" cy="786" r="16" fill="none" stroke="#1F3A36" stroke-width="7"/>
+    <path d="M338 784H348" stroke="#1F3A36" stroke-width="6"/>
+    <rect x="630" y="922" width="170" height="26" rx="13" fill="#1F3A36"/>
+    <path d="M778 940L800 1200M652 940L640 1200" stroke="#1F3A36" stroke-width="16" stroke-linecap="round"/>
+    <path d="M470 834H720C765 845 770 915 725 925H545L560 1168H505L478 950L462 1168H408L420 905C425 860 440 834 470 834Z" fill="#1F3A36"/>
+    <path d="M408 1168H462L466 1188C444 1200 404 1200 384 1190C384 1176 394 1170 408 1168Z" fill="#1F3A36"/>
+    <path d="M505 1168H560L564 1188C542 1200 502 1200 482 1190C482 1176 492 1170 505 1168Z" fill="#1F3A36"/>
+    <rect x="190" y="834" width="22" height="370" fill="#F0F0E9"/>
+    <rect x="868" y="834" width="22" height="370" fill="#F0F0E9"/>
+  </svg>'''))
+
 # 2 · antes, não depois: a estratégia e as pessoas. v2 (20/10): a Nina pediu a foto de duas pessoas em poltronas
 #   separando as duas frases. O fundo foi removido (rembg, isnet-general-use), o tampo da mesa foi recuperado da foto
 #   original e as poltronas azuis viraram Tiffany, mantendo luz e sombra (foto-conversa-poltronas.png).
