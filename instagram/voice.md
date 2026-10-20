@@ -40,6 +40,10 @@ português do Brasil.
 
 ## Como soamos
 
+- **B2B, não B2C (20/10, da Nina):** a comunicação fala com a empresa (CEO, RH, liderança), não com o paciente ou
+  o colaborador. Evitar frases de acolhimento dirigidas a quem lê, como "a gente tá aqui pra te ouvir", que soam
+  como conversa com o paciente. O acolhimento aparece como parte do que a empresa leva para o time, não como
+  promessa direta ao leitor.
 - **Três conteúdos nossos que soam como nós:** ainda não enviados. Colar aqui 3
   transcrições de Reels ou legendas quando existirem, porque elas calibram o tom
   melhor do que esta descrição.

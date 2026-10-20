@@ -27,6 +27,15 @@ Ajustes de diagramação no Canva: no slide 3, "Com o que aprendemos no hospital
 resto da frase vai no título, em 48 px (era 58), com o texto de apoio um pouco mais abaixo; no slide 5, a frase do
 time fica em 40 px (era 44), em duas linhas, com "a empresa por dentro" em negrito itálico.
 
+**Último slide (20/10), no Canva:** a Nina pediu para tirar "Faça o certo pelos motivos certos" e "a gente tá aqui
+pra te ouvir" ("a nossa comunicação é B2B, não B2C"). O texto do propósito sobe e vira o destaque do slide, em 42 px
+(era 34), sem quebrar "indicadores" sozinho na última linha. A versão antiga do slide foi duplicada antes e ficou logo
+antes da nova, seguindo a organização que a Nina deu ao design (cada slide antigo ao lado do novo).
+
+Como ficou o design DAHYkphpE7I depois da organização da Nina (9 páginas): 1 capa; 2 slide 2 (texto antigo, sem "E
+funcionou"); 3 e 4 slide 3 antigo e novo; 5 a pergunta; 6 e 7 slide 5 antigo e novo; 8 e 9 último slide antigo e
+novo.
+
 **De onde vêm as frases novas:**
 - "E funcionou, mesmo num ambiente de recursos escassos, que tende a afastar o paciente": essência, "De onde veio".
 - "Unimos quem conhece o cuidado por dentro a quem conhece a empresa por dentro": o time da essência (o Dr. Ronald,
