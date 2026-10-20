@@ -10,6 +10,9 @@ luz atrás deles). Fica só o logo no convite final, que faz parte do texto ("co
 - saída: `slides-h6.html`, `png-h6/` e `previa-h6.jpg`;
 - fundos para o Canva: `png-h6-fundo/`.
 
+**No Canva (20/10):** design **DAHYkvWXD00**, https://www.canva.com/d/fiXBvdCgIQBHuKD (edição), importado de
+`instagram/canva/por-que-existimos-h6.html` no commit 1dc2153. A H5 (DAHYksYpO3M) fica guardada.
+
 ## Versão H5 (20/10): a H4 sem as fotos
 
 Pedido da Nina: "tire essas imagens". Saem as fotos (corredor de hospital na capa, sala de atendimento no slide 3 e
