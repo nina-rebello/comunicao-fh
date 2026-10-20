@@ -77,6 +77,24 @@
     (plano de marketing, 3.7);
   - "Fazemos o certo pelos motivos certos" (valor da marca; reel do Dr. Ronald).
 
+## Legenda v6 (20/10)
+
+A Nina sobre a primeira linha da v5: "E funciona melhor quando começa antes" "não gera desejo, porque parece que não
+necessariamente precisa-se prevenir". A frase nova trata o "antes" como regra, do mesmo jeito que se trata a
+estratégia (a ideia do slide 2: "Você não espera o problema aparecer para cuidar da estratégia").
+
+```
+Cuidar das pessoas também faz parte da estratégia de uma empresa. E, como toda estratégia, começa antes do problema.
+
+Esse cuidado tem duas partes, igualmente importantes. Acolher é ouvir e entender como cada pessoa está. Prevenir é agir antes que algo vá mal, com um plano de cuidado e acompanhamento de perto.
+
+Na fairhealth, as duas andam juntas: dentro da sua empresa, perto da rotina do time e com sigilo.
+
+Conheça a fairhealth no link da bio.
+
+#fairhealth #lideranca #gestaodepessoas #saudecorporativa #medicinapreventiva
+```
+
 ## Legenda v5 (20/10)
 
 A legenda v4 aprovada, sem "Fazemos o certo pelos motivos certos." (a Nina pediu para tirar "faça o certo pelos

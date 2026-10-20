@@ -1,5 +1,33 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Frase do time (20/10), no Canva e na legenda v7
+
+A Nina achou que "Unimos quem conhece o cuidado por dentro a quem conhece a empresa por dentro" "não está dizendo nada
+sem contexto, precisa ser mais claro". Das três opções, escolheu a 1:
+
+> Nosso time reúne quem desenvolveu esse cuidado dentro do hospital e quem tem *experiência executiva em grandes
+> empresas*.
+
+Diz quem é o time e de onde vem cada experiência, sem nome e sem cargo. Vem da informação da Nina (o fundador foi VP
+numa multinacional francesa; o time tem experiência corporativa de peso). No Canva (DAHYkphpE7I), o slide 5 antigo
+ficou na página 7 e o novo na página 8, logo depois.
+
+**Legenda v7** (a v6 com a frase nova do time):
+
+```
+Por que a fairhealth existe? A resposta começa dentro de um hospital, há quase 20 anos.
+
+Ali, percebemos que os pacientes estavam cada vez mais distantes do centro do cuidado. Para mudar essa realidade, desenvolvemos o Escritório do Paciente.
+
+Com o que aprendemos no hospital, desenvolvemos o Escritório do Cuidado: o cuidado centrado na pessoa, agora dentro da empresa. Um espaço de acolhimento e de medicina preventiva, com atendimento médico e psicológico e planos de cuidado individualizados, baseados na Medicina do Estilo de Vida.
+
+Nosso time reúne quem desenvolveu esse cuidado dentro do hospital e quem tem experiência executiva em grandes empresas. O objetivo é promover qualidade de vida, engajamento e um ambiente de trabalho mais saudável, com resultados demonstrados por indicadores.
+
+Quer levar o Escritório do Cuidado para a sua empresa? Fale com a gente pelo link da bio.
+
+#fairhealth #escritoriodocuidado #saudecorporativa #gestaodepessoas #medicinapreventiva
+```
+
 ## Legenda v6 (20/10), com o carrossel atual
 
 Para o carrossel como está no Canva (DAHYkphpE7I, com o texto v8 e a conclusão nova). Abertura diferente da do reel
