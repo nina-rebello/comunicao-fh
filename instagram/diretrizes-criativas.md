@@ -106,6 +106,9 @@ mudam com frequência. Os números abaixo são o ponto de partida.
 - **Não criar designs novos no Canva.** Toda versão nova entra como página (bloco)
   dentro do design que já está em uso, ao lado da versão anterior.
 - **Nunca apagar nada:** duplicar a página antes de modificar.
+- **Reforço (20/10), da Nina:** "pode alterar no Canva, mas sempre que fizer alterações, lembre de duplicar a
+  versão antiga daquele slide". Antes de editar um slide, duplicar a página dele no mesmo design. As cópias antigas
+  vão para o fim do design, na ordem dos slides, e o carrossel fica com as versões novas no lugar.
 - Montar as páginas direto no design existente (adicionar página, formas, texto e
   imagens enviadas como mídia), em vez de importar um HTML, que sempre cria um
   design novo.

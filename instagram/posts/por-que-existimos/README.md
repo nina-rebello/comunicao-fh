@@ -16,6 +16,17 @@ texto da H7 (Canva DAHYkphpE7I), com o slide 3 da v7 e duas frases novas.
 | 5 | Levamos ao *coração da sua empresa*: Atendimento médico e psicológico · Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida · Tecnologia, humanização e cuidado verdadeiro / Unimos quem conhece o cuidado por dentro a quem conhece a empresa por dentro. / *anotação: dentro da empresa* | Pilar 3: a frase nova, no lugar de "quando o cuidado está perto, ele acontece" (o "perto da rotina" já está no slide 3). Fala do time sem cargo nem nome. |
 | 6 | *a gente tá aqui pra te ouvir* / **Faça o certo pelos motivos certos.** / Nosso propósito é promover *qualidade de vida, engajamento e um ambiente de trabalho mais saudável*. Com resultados demonstrados por indicadores. / conheça a [logo] no link da bio! | Igual à H7. |
 
+**No Canva (20/10):** aplicado direto no design da H7, **DAHYkphpE7I** (https://www.canva.com/d/S0hrHxH7tni4wHj),
+a pedido da Nina ("pode alterar no Canva, mas sempre que fizer alterações, lembre de duplicar a versão antiga daquele
+slide"). Antes, as versões antigas dos slides 2, 3 e 5 foram duplicadas para o fim do design. O design passa a ter
+9 páginas:
+- 1 a 6: o carrossel com o texto v8;
+- 7, 8 e 9: as versões antigas (H7) dos slides 2, 3 e 5.
+
+Ajustes de diagramação no Canva: no slide 3, "Com o que aprendemos no hospital," fica na linha pequena de cima e o
+resto da frase vai no título, em 48 px (era 58), com o texto de apoio um pouco mais abaixo; no slide 5, a frase do
+time fica em 40 px (era 44), em duas linhas, com "a empresa por dentro" em negrito itálico.
+
 **De onde vêm as frases novas:**
 - "E funcionou, mesmo num ambiente de recursos escassos, que tende a afastar o paciente": essência, "De onde veio".
 - "Unimos quem conhece o cuidado por dentro a quem conhece a empresa por dentro": o time da essência (o Dr. Ronald,
