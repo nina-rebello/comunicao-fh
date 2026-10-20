@@ -1,5 +1,33 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Versão H4 (20/10): 6 slides, com fotos, desenhos e textura
+
+Pedido da Nina, sobre o design H2 do Canva (DAHYfVF20nU): "vamos diminuir a quantidade de slides, juntando os
+textos, e traga um pouco mais de vida para esses slides, texturas, imagens etc".
+
+**Textos:** os do Canva, com as edições da Nina (sem os números; "Foi aí que nasceu o Escritório do Cuidado"; o final
+"conheça a [logo] no link da bio!"). De 8 para 6 slides:
+1. capa: "Por que a fairhealth existe?" e "Antes de chegar às empresas, nossa história começou em um hospital.";
+2. os 20 anos e o Escritório do Paciente, juntos (sai "Era preciso mudar essa realidade", que repetia o "para mudar
+   essa realidade");
+3. "Com o tempo, levamos esse conceito para as empresas." com o Escritório do Cuidado;
+4. a pergunta "o que é importante para você?";
+5. "Levamos ao coração da sua empresa" com "quando o cuidado está perto, ele acontece" (sai o parágrafo da barreira
+   de tempo e acesso);
+6. o propósito e o convite.
+
+**Vida:**
+- fotos em tom Tiffany, recortadas em arco (capa e slide 3) e em círculo (slide 4), com um contorno deslocado atrás:
+  corredor de hospital (Pexels), sala de atendimento (render do Escritório do Cuidado, ainda [PENDENTE]) e mãos
+  (Unsplash), em `img-h4/`;
+- os desenhos da Nina, do hospital (slide 2) e do escritório (slide 5);
+- papel com mais grão e uma luz suave atrás de cada imagem.
+
+**Arquivos:**
+- gerador: `gerar_slides_h4.py`;
+- saída: `slides-h4.html`, `png-h4/` e `previa-h4.jpg`;
+- fundos para o Canva: `png-h4-fundo/`.
+
 ## Versão H2G (20/10): capa indo do hospital para a empresa, com fotos
 
 Pedido da Nina, com um esboço da capa no Canva: "faça esse slide com essa ideia aqui, indo de um hospital para a
