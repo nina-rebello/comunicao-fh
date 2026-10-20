@@ -32,9 +32,22 @@ pra te ouvir" ("a nossa comunicação é B2B, não B2C"). O texto do propósito 
 (era 34), sem quebrar "indicadores" sozinho na última linha. A versão antiga do slide foi duplicada antes e ficou logo
 antes da nova, seguindo a organização que a Nina deu ao design (cada slide antigo ao lado do novo).
 
+**Conclusão mais forte (20/10), no Canva:** a Nina pediu "uma conclusão mais forte" e escolheu a opção A (das três
+propostas: A, responder à pergunta da capa; B, "Cuidar das pessoas é investimento, não custo"; C, "Começou dentro de
+um hospital. Agora, pode estar dentro da sua empresa."). O novo último slide (página 10) ficou:
+- título: **É por isso que a fairhealth existe:** (58 px, em duas linhas);
+- logo abaixo: para levar à sua empresa o que aprendemos em *quase 20 anos cuidando de pessoas*. (42 px);
+- apoio: Qualidade de vida, engajamento e um ambiente de trabalho mais saudável, com resultados demonstrados por
+  indicadores. (34 px);
+- convite: Quer levar o Escritório do Cuidado para a sua empresa? [logo] no link da bio!
+
+De onde vem: "quase 20 anos" do slide 2; o apoio é o propósito que já estava no slide; o convite adapta a chamada
+institucional do `voice.md` ("Quer levar isso para sua empresa? Link na bio."). Feito a partir de uma cópia da versão
+com a caixa de título (para manter a Raleway); as duas versões anteriores do último slide ficam nas páginas 8 e 9.
+
 Como ficou o design DAHYkphpE7I depois da organização da Nina (9 páginas): 1 capa; 2 slide 2 (texto antigo, sem "E
 funcionou"); 3 e 4 slide 3 antigo e novo; 5 a pergunta; 6 e 7 slide 5 antigo e novo; 8 e 9 último slide antigo e
-novo.
+novo. Depois da conclusão nova, o design tem 10 páginas: a 10 é o último slide atual.
 
 **De onde vêm as frases novas:**
 - "E funcionou, mesmo num ambiente de recursos escassos, que tende a afastar o paciente": essência, "De onde veio".
