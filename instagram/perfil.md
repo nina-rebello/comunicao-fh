@@ -95,3 +95,11 @@ o que é, o que faz, para quem).
 3. (105) Healthtech que coloca o cuidado com as pessoas dentro das empresas que querem crescer com o time inteiro.
 
 Sem superlativo ("as melhores", "as mais"): publicidade médica (CFM) não permite.
+
+## Bio v4 (20/10): leitura mais solta
+
+Retorno da Nina sobre a v3: "a leitura tá muito travada". Frases curtas, uma ideia por linha.
+
+1. (95) Médico e psicólogo dentro da sua empresa. / Cuidamos do seu time de perto, antes que algo vá mal.
+2. (97) Levamos médico e psicólogo para dentro da sua empresa. / Para cuidar do seu time de perto. E antes.
+3. (103) O cuidado que o seu time precisa, dentro da sua empresa: / médico, psicólogo e um plano para cada pessoa.
