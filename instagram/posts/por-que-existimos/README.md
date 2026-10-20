@@ -1,5 +1,73 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Conteúdo v7 (20/10): os três pilares
+
+Pedido da Nina: deixar claros, pelos textos, três pilares:
+1. o modelo foi testado em ambiente hospitalar, de saúde (a "prova de fogo");
+2. por isso o Escritório do Cuidado é uma solução forte para a empresa;
+3. "a gente manja de empresa": o time tem experiência corporativa de peso (o fundador foi VP numa multinacional
+   francesa).
+
+**Objetivo da peça:** fazer quem decide na empresa (CEO, RH) confiar no Escritório do Cuidado como uma solução segura
+para a empresa dele.
+
+**O que a pessoa precisa concluir, em uma frase:** "Isso já foi provado no lugar mais difícil, a saúde, e quem traz
+para a minha empresa entende de empresa."
+
+**Como garantir que isso fique na cabeça:**
+- um pilar por slide, dito no título, não escondido no texto de apoio;
+- uma etiqueta curta repetindo o pilar em cada slide ("testado na saúde", "pensado para a empresa", "feito por quem
+  entende de empresa");
+- a capa promete a ideia, e o último slide repete os três pilares numa frase só;
+- o resto (a pergunta "o que é importante para você?" e o que levamos) vira um slide só, de "como funciona".
+
+**Texto (6 slides):**
+
+1. **Capa.** Por que a fairhealth existe?
+   Antes de chegar à sua empresa, nosso modelo passou pela prova mais difícil: **o hospital**.
+
+2. **Pilar 1, testado na saúde.** *(etiqueta: testado na saúde)*
+   Em 2009, dentro de um hospital, desenvolvemos o **Escritório do Paciente**, para colocar o paciente de volta no
+   centro do cuidado.
+   Funcionou num ambiente de recursos escassos, que tende a afastar o paciente. E se mostrou aplicável e
+   reproduzível.
+
+3. **Pilar 2, por isso na empresa.** *(etiqueta: pensado para a empresa)*
+   Com o que aprendemos no hospital, desenvolvemos o **Escritório do Cuidado**: o cuidado centrado na pessoa, agora
+   dentro da sua empresa.
+   Um espaço de acolhimento e de medicina preventiva, perto da rotina de quem trabalha.
+
+4. **Como funciona.**
+   Tudo começa com uma pergunta: **o que é importante para você?**
+   - Atendimento médico e psicológico
+   - Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida
+   - Tecnologia, humanização e cuidado verdadeiro
+
+5. **Pilar 3, a gente entende de empresa.** *(etiqueta: feito por quem entende de empresa)*
+   E a gente **entende de empresa**.
+   Nosso time une a experiência do hospital a uma experiência corporativa de peso: quem fundou a fairhealth já foi
+   VP de uma multinacional francesa.
+
+6. **Fechamento.**
+   **Testado na saúde. Pensado para a empresa. Feito por quem entende das duas.**
+   Nosso propósito é promover qualidade de vida, engajamento e um ambiente de trabalho mais saudável, com resultados
+   demonstrados por indicadores.
+   Faça o certo pelos motivos certos. Conheça a fairhealth no link da bio.
+
+**De onde vem cada parte:**
+- **Pilar 1:** essência, "De onde veio" ("funcionou num ambiente de recursos escassos, que tende a afastar o
+  paciente, e se mostrou aplicável e reproduzível"; "colocar o paciente verdadeiramente no centro do cuidado").
+- **Pilar 2:** o slide 4 atual, com "desenvolvemos" no lugar de "foi aí que nasceu" (feedback de autoria).
+- **Pilar 3:** informação da Nina (20/10). Não está no material base.
+- **Como funciona e fechamento:** textos atuais do Canva.
+
+**Validar:**
+- O cargo do fundador: VP de quê, em qual empresa, e se pode citar a empresa. Pela regra, o nome não aparece.
+- Se dá para usar o caso do Hospital Dia Santo Amaro como prova do pilar 1 (reclamações de 34 para cerca de 20 por
+  mês, apresentado em congresso). Precisa da fonte: qual congresso e quando.
+- A essência diz que o modelo do Escritório do Cuidado foi "validado no SUS" (ainda [CONFIRMAR]). Se confirmar,
+  reforça o pilar 1.
+
 ## Versão H7 (20/10): textura reticulada nos slides Tiffany
 
 Pedido da Nina: "agora crie uma textura reticulada ou geométrica em alguns dos slides". A H6 com um quadriculado
