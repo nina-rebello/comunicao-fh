@@ -185,6 +185,11 @@ em `instagram/referencias.md`.
 - **Regra da cor extra:** toda peça que usa a cor extra também tem o Tiffany #9FC5BD visível (fundo, forma ou detalhe), para a cor extra nunca roubar a cena da cor principal.
 - **Cor complementar:** em teste. Estudo em `instagram/estudos/cores/` (vinho, terracota, coral, pêssego). Nota anterior: amarelo e roxo ficariam fora por serem cores do fairedu. **[PENDENTE]** O carrossel de acolhimento testou o amarelo; decidir as duas coisas juntas.
 
+## Como escrevemos as legendas (20/10)
+
+Sempre com a skill ig-caption (e o verificador `caption.py`) e, antes de entregar, a skill ig-human. Detalhes em
+`../CLAUDE.md`.
+
 ## A chamada final
 
 - **Palavra-chave:** `CUIDADO`
