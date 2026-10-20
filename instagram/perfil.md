@@ -58,3 +58,28 @@ ecossistema, pintura, TEDx) descem com os posts novos; arquivar (some do perfil 
 - Só com o que dá para mudar hoje (nome, bio, fixados, link): **66/100**.
 - Com destaques e stories na maioria dos dias: **76/100**.
 - O resto depende de um post de prova que ainda não existe e de uma grade toda na marca.
+
+## Bio v2 (20/10): com as frases da marca
+
+Pedido da Nina: usar as descrições da marca já enviadas. Fontes: "Em uma frase" (essencia.md), a frase-tese para o RH
+"Não é benefício. É infraestrutura de cuidado." e a cadeia do "antes" (posicionamento-e-plano-mensal.md), a pergunta
+"O que é importante para você?" e a origem no hospital.
+
+1 (recomendada, 145):
+```
+Escritório do Cuidado: acolhimento e prevenção dentro da sua empresa.
+Não é benefício. É infraestrutura de cuidado.
+Diagnóstico gratuito no link.
+```
+
+2 (133):
+```
+Levamos o cuidado para dentro da sua empresa, antes que vire afastamento.
+Tudo começa com uma pergunta: o que é importante para você?
+```
+
+3 (130):
+```
+O cuidado centrado na pessoa, que começou num hospital, agora dentro da sua empresa.
+Não é benefício. É infraestrutura de cuidado.
+```
