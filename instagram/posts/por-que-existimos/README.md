@@ -15,6 +15,12 @@ H2F, com as três opções do slide 4.
 - saída: `slides-h2g.html`, `png-h2g/` e `previa-h2g.jpg`;
 - fundos para o Canva: `png-h2g-fundo/`.
 
+**No Canva (20/10):**
+- design **DAHYj_WQ1q0**: https://www.canva.com/d/TDR-34kHIDW6em- (edição), com 10 páginas;
+- importado de `instagram/canva/por-que-existimos-h2g.html` no commit 3a4c3f9;
+- as duas fotos da capa entram como imagens soltas, que dá para trocar;
+- a H2F (DAHYj8v-jBY) fica guardada.
+
 ## Teste H2F (20/10): foto do espaço em tom Tiffany no fundo do slide 4
 
 Pedido da Nina: "no slide 4, duplique ele e teste colocar uma imagem de fundo, mas com um tom mais Tiffany".
