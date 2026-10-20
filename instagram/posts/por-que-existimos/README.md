@@ -28,6 +28,12 @@ textos, e traga um pouco mais de vida para esses slides, texturas, imagens etc".
 - saída: `slides-h4.html`, `png-h4/` e `previa-h4.jpg`;
 - fundos para o Canva: `png-h4-fundo/`.
 
+**No Canva (20/10):**
+- design **DAHYkqtcMVk**: https://www.canva.com/d/p9fSboPP27M990t (edição), 6 páginas;
+- importado de `instagram/canva/por-que-existimos-h4.html` no commit 9dfacde;
+- fotos e desenhos entram como imagens soltas; arcos, luz, linha e papel vão no fundo;
+- a H2 (DAHYfVF20nU) fica guardada.
+
 ## Versão H2G (20/10): capa indo do hospital para a empresa, com fotos
 
 Pedido da Nina, com um esboço da capa no Canva: "faça esse slide com essa ideia aqui, indo de um hospital para a
