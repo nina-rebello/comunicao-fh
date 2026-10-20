@@ -1,5 +1,19 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Versão H7 (20/10): textura reticulada nos slides Tiffany
+
+Pedido da Nina: "agora crie uma textura reticulada ou geométrica em alguns dos slides". A H6 com um quadriculado
+fino em creme (quadrados de 54 px) nos slides Tiffany, que some suavemente:
+- capa: vem do canto de baixo à direita;
+- slides 3 e 5: fica na metade de baixo, atrás da linha.
+
+Os slides creme (2, 4 e 6) ficam lisos, para o carrossel alternar.
+
+**Arquivos:**
+- gerador: `gerar_slides_h7.py`, duplicado da H6, que fica guardada;
+- saída: `slides-h7.html`, `png-h7/` e `previa-h7.jpg`;
+- fundos para o Canva: `png-h7-fundo/` (o quadriculado vai no fundo).
+
 ## Versão H6 (20/10): sem nenhuma imagem
 
 Pedido da Nina: "tire todas as imagens, deixe sem imagem". A H5 sem os desenhos do hospital e do escritório (e sem a
