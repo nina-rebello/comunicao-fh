@@ -14,6 +14,9 @@ Os slides creme (2, 4 e 6) ficam lisos, para o carrossel alternar.
 - saída: `slides-h7.html`, `png-h7/` e `previa-h7.jpg`;
 - fundos para o Canva: `png-h7-fundo/` (o quadriculado vai no fundo).
 
+**No Canva (20/10):** design **DAHYkphpE7I**, https://www.canva.com/d/mONX6XGIDPC87wD (edição), importado de
+`instagram/canva/por-que-existimos-h7.html` no commit bed3f3d. A H6 (DAHYkvWXD00) fica guardada.
+
 ## Versão H6 (20/10): sem nenhuma imagem
 
 Pedido da Nina: "tire todas as imagens, deixe sem imagem". A H5 sem os desenhos do hospital e do escritório (e sem a
