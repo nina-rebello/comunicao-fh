@@ -45,3 +45,12 @@ A origem e a licença dessas fotos ainda precisam ser confirmadas antes de publi
 | sono-homem.jpg (e `-recorte`, no rosto) | Sono de qualidade (v9) |
 | estresse-trigo.jpg (e `-recorte`, na mão) | Gerenciamento de estresse (v9) |
 | relacionamentos-parque-recorte.jpg | Relacionamentos, recortado nas pessoas (v9) |
+
+## Pexels (`pexels/`)
+
+Licença Pexels (uso comercial gratuito, sem atribuição obrigatória). Recortadas e com 85% de saturação.
+
+| Arquivo | Origem |
+| --- | --- |
+| pexels/corredor-hospital.jpg | https://www.pexels.com/photo/photo-of-a-hospital-hallway-6234630/ (Tima Miroshnichenko) |
+| pexels/sala-reuniao-empresa.jpg | https://www.pexels.com/photo/interior-design-of-meeting-room-in-office-20390771/ (Paul Seling) |

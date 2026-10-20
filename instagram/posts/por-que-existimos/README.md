@@ -1,5 +1,20 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Versão H2G (20/10): capa indo do hospital para a empresa, com fotos
+
+Pedido da Nina, com um esboço da capa no Canva: "faça esse slide com essa ideia aqui, indo de um hospital para a
+empresa (usando imagens)".
+
+**Na capa:** no lugar da mão com o hospital, duas fotos lado a lado. À esquerda, um corredor de hospital, com a
+anotação "2009, no hospital". À direita, um pouco mais alta, uma sala de reunião, com "hoje, nas empresas". A linha
+continua correndo embaixo. As fotos são do Pexels (`../../marca/fotos-banco/pexels/`, uso livre). O resto é igual à
+H2F, com as três opções do slide 4.
+
+**Arquivos:**
+- gerador: `gerar_slides_h2g.py`, duplicado da H2F, que fica guardada;
+- saída: `slides-h2g.html`, `png-h2g/` e `previa-h2g.jpg`;
+- fundos para o Canva: `png-h2g-fundo/`.
+
 ## Teste H2F (20/10): foto do espaço em tom Tiffany no fundo do slide 4
 
 Pedido da Nina: "no slide 4, duplique ele e teste colocar uma imagem de fundo, mas com um tom mais Tiffany".
