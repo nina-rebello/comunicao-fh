@@ -20,6 +20,12 @@ baixo, com um véu Tiffany para o "03" e a anotação continuarem legíveis. Sã
 - saída: `slides-h2f.html`, `png-h2f/` e `previa-h2f.jpg`;
 - fundos para o Canva: `png-h2f-fundo/`.
 
+**No Canva (20/10):**
+- design **DAHYj8v-jBY**: https://www.canva.com/d/S7M_V9tQj7k3VRp (edição), com 10 páginas (as três opções do slide 4
+  seguidas);
+- importado de `instagram/canva/por-que-existimos-h2f.html` no commit 1698f50;
+- a H2 (DAHYfVF20nU) fica guardada.
+
 ## Teste H3 (19/10): elementos no estilo da referência de terapia em grupo
 
 Pergunta da Nina: "queria adicionar uns elementos nesse estilo, é possível?". A referência é um carrossel com faixas
