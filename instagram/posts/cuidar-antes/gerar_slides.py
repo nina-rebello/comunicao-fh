@@ -232,6 +232,10 @@ S.append(('c07', 't', 'final: cuidar antes é uma decisão de quem lidera', '''<
   <p class="nota" style="left:146px;top:930px;width:788px;text-align:center">Conheça o Escritório do Cuidado no link da bio.</p>'''))
 
 
+# as alternativas (1b, 2b, 4b...) entram logo depois do slide de mesmo número
+S.sort(key=lambda sl: (int(sl[0][1:3]), sl[0][3:]))
+
+
 def html(slides, titulo):
     out = ['<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>' + titulo + '</title><style>' + CSS + '</style></head><body>\n']
     for sid, cls, nota, corpo in slides:
