@@ -1,6 +1,28 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
-## Conteúdo v7 (20/10): os três pilares
+## Conteúdo v8 (20/10): os pilares sem dizer, só mostrando
+
+Retorno da Nina sobre a v7: "slide 3 aprovado. O resto achei muito explícito, não é isso que quero". Então os
+pilares deixam de ser ditos (sem etiquetas, sem "prova mais difícil", sem "a gente entende de empresa", sem o resumo
+dos três pilares no final) e passam a aparecer nos fatos, para a pessoa concluir sozinha. A base volta a ser o
+texto da H7 (Canva DAHYkphpE7I), com o slide 3 da v7 e duas frases novas.
+
+| Slide | Texto | Como o pilar aparece, sem ser dito |
+| --- | --- | --- |
+| 1 | **Por que a fairhealth existe?** / Antes de chegar às empresas, nossa história começou *em um hospital*. | Igual à H7. Planta a ideia de que tudo começou na saúde. |
+| 2 | Há quase 20 anos, percebemos que os pacientes estavam *cada vez mais distantes do centro do cuidado*. / Assim, dentro de um hospital, desenvolvemos o Escritório do Paciente para mudar essa realidade. E funcionou, mesmo num ambiente de recursos escassos, que tende a afastar o paciente. / *anotação: 2009, no hospital* | Pilar 1: entra só "E funcionou, mesmo num ambiente de recursos escassos…". A pessoa entende que foi testado no lugar difícil. |
+| 3 | Com o que aprendemos no hospital, desenvolvemos o *Escritório do Cuidado*: o cuidado centrado na pessoa, agora dentro da sua empresa. / Um espaço de acolhimento e de medicina preventiva, perto da rotina de quem trabalha. / *anotação: hoje, nas empresas* | Pilar 2 (aprovado na v7). A empresa vem como consequência do que deu certo no hospital. A etiqueta volta a ser a anotação. |
+| 4 | Tudo começa com uma pergunta: *o que é importante para você?* / Antes de qualquer exame, vem uma conversa: um espaço seguro e confidencial para contar a própria história e decidir junto o próprio cuidado. / *anotação: sem pressa e sem julgamento* | Igual à H7. O acolhimento. |
+| 5 | Levamos ao *coração da sua empresa*: Atendimento médico e psicológico · Planos de cuidado individualizados, baseados na Medicina do Estilo de Vida · Tecnologia, humanização e cuidado verdadeiro / Unimos quem conhece o cuidado por dentro a quem conhece a empresa por dentro. / *anotação: dentro da empresa* | Pilar 3: a frase nova, no lugar de "quando o cuidado está perto, ele acontece" (o "perto da rotina" já está no slide 3). Fala do time sem cargo nem nome. |
+| 6 | *a gente tá aqui pra te ouvir* / **Faça o certo pelos motivos certos.** / Nosso propósito é promover *qualidade de vida, engajamento e um ambiente de trabalho mais saudável*. Com resultados demonstrados por indicadores. / conheça a [logo] no link da bio! | Igual à H7. |
+
+**De onde vêm as frases novas:**
+- "E funcionou, mesmo num ambiente de recursos escassos, que tende a afastar o paciente": essência, "De onde veio".
+- "Unimos quem conhece o cuidado por dentro a quem conhece a empresa por dentro": o time da essência (o Dr. Ronald,
+  do hospital; time com experiência em saúde corporativa) e a informação da Nina sobre a experiência corporativa do
+  fundador.
+
+## Conteúdo v7 (20/10): os três pilares, explícitos demais (só o slide 3 aprovado)
 
 Pedido da Nina: deixar claros, pelos textos, três pilares:
 1. o modelo foi testado em ambiente hospitalar, de saúde (a "prova de fogo");
