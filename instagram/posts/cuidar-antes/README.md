@@ -29,7 +29,9 @@
 - O fundo é verde-escuro, com o título centralizado em cima e o caderno quadriculado em creme sangrando embaixo.
 - Acolher fica na página da esquerda e prevenir na da direita. Cada nome aparece em letra cursiva (Instrument Serif
   itálica), seguido do "é ouvir." / "é agir antes." em negrito e do texto de apoio da v4.
-- Uma fita marcadora Tiffany desce pela dobra do caderno.
+- O caderno é a foto que a Nina mandou (`caderno.png`, com o fundo branco removido). A fita preta original passa por
+  cima do texto, como na referência, numa camada à parte (`caderno-fita.png`). O slide não tem rodapé, que ficava
+  atrás da fita.
 - Fica como alternativa ao 4 de cartões (`c04b`). No PDF do Canva, entra logo depois do 4 original, para a Nina
   escolher entre os dois.
 
