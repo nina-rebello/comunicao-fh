@@ -83,3 +83,15 @@ Tudo começa com uma pergunta: o que é importante para você?
 O cuidado centrado na pessoa, que começou num hospital, agora dentro da sua empresa.
 Não é benefício. É infraestrutura de cuidado.
 ```
+
+## Bio v3 (20/10): no tom da referência da Nina
+
+Referência: "Consultoria e Agência que constrói as marcas mais sexys e ricas dessa geração e das próximas" (uma frase:
+o que é, o que faz, para quem).
+
+1. (recomendada, 147) Saúde corporativa que leva médico e psicólogo para dentro das empresas que levam as pessoas a sério.
+   / Tudo começa com: o que é importante para você?
+2. (109) Escritório do Cuidado: médico e psicólogo dentro da sua empresa, cuidando do time antes que vire afastamento.
+3. (105) Healthtech que coloca o cuidado com as pessoas dentro das empresas que querem crescer com o time inteiro.
+
+Sem superlativo ("as melhores", "as mais"): publicidade médica (CFM) não permite.
