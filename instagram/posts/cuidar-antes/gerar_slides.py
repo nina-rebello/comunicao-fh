@@ -16,6 +16,7 @@ SAIDA = sys.argv[1]
 N = 7
 
 CSS = r'''
+@font-face{font-family:Instrument;font-style:italic;src:url(../../marca/fontes/instrument-serif-latin-400-italic.woff2)}
 @font-face{font-family:Raleway;font-weight:400;src:url(../../marca/fontes/raleway-latin-400-normal.woff2)}
 @font-face{font-family:Raleway;font-weight:400;font-style:italic;src:url(../../marca/fontes/raleway-latin-400-italic.woff2)}
 @font-face{font-family:Raleway;font-weight:800;src:url(../../marca/fontes/raleway-latin-800-normal.woff2)}
@@ -148,6 +149,34 @@ S.append(('c04', 't', 'acolher x prevenir: a diferença, em dois cartões iguais
   <p class="tit" style="left:96px;top:170px;width:888px">Acolher e prevenir <span class="k">não são a mesma coisa</span>.</p>
   ''' + cart))
 
+# 4b · a diferença, versão caderno (20/10): pedido da Nina, a partir de uma referência com um caderno aberto e as duas
+#   "formas" uma em cada página. Fundo verde-escuro, título centralizado em cima e o caderno quadriculado sangrando
+#   embaixo. Acolher na página da esquerda, prevenir na da direita, com o nome em letra cursiva (Instrument Serif
+#   itálica) e uma fita marcadora Tiffany no meio. Fica como alternativa ao 4 de cartões.
+GRADE = ''.join('<path d="M0 %dH440" stroke="#96C5BD" stroke-opacity=".35" stroke-width="1.5"/>' % y for y in range(20, 800, 34)) + \
+        ''.join('<path d="M%d 0V800" stroke="#96C5BD" stroke-opacity=".35" stroke-width="1.5"/>' % x for x in range(20, 440, 34))
+PAGINAS = ''
+for i, (nome, verbo, a) in enumerate([('acolher', 'é ouvir.', 'Olha para como a pessoa está hoje e cria um espaço seguro para falar.'),
+                                     ('prevenir', 'é agir antes.', 'Olha para o que vem pela frente e vira um plano de cuidado, com acompanhamento.')]):
+    x = 90 + i * 510
+    PAGINAS += ('<p style="left:%dpx;top:730px;width:420px;font-family:Instrument;font-style:italic;font-size:120px;line-height:120px;color:#2F6B64;opacity:.55">%s</p>\n  '
+                '<p style="left:%dpx;top:880px;width:380px;font-size:52px;line-height:60px;font-weight:800;color:var(--verde)">%s</p>\n  '
+                '<p style="left:%dpx;top:960px;width:370px;font-size:38px;line-height:48px;color:var(--verde)">%s</p>\n  ' % (x, nome, x, verbo, x, a))
+S.insert(4, ('c04b', 'v', 'acolher x prevenir: versão caderno aberto', '''<p class="rot" style="left:0;width:1080px;text-align:center">A diferença</p>
+  <p class="tit" style="left:60px;top:280px;width:960px;text-align:center;font-size:80px;line-height:90px;font-weight:800">Acolher e prevenir<br><span class="k">não são a mesma coisa</span>.</p>
+  <svg class="cheia" viewBox="0 0 1080 1350" aria-hidden="true">
+    <defs>
+      <linearGradient id="dobra" x1="0" x2="1"><stop offset="0" stop-color="#1F3A36" stop-opacity="0"/><stop offset=".5" stop-color="#1F3A36" stop-opacity=".22"/><stop offset="1" stop-color="#1F3A36" stop-opacity="0"/></linearGradient>
+    </defs>
+    <path d="M40 660C40 642 54 630 72 630H536V1350H40Z" fill="#F0F0E9"/>
+    <path d="M544 630H1008C1026 630 1040 642 1040 660V1350H544Z" fill="#F0F0E9"/>
+    <g transform="translate(60 650)">''' + GRADE + '''</g>
+    <g transform="translate(560 650)">''' + GRADE + '''</g>
+    <rect x="500" y="630" width="80" height="720" fill="url(#dobra)"/>
+    <path d="M548 618C560 700 528 760 520 860C512 960 530 1040 516 1180L512 1230L500 1210L488 1232L490 1180C502 1040 486 960 494 860C502 760 532 700 530 640Z" fill="#96C5BD"/>
+  </svg>
+  ''' + PAGINAS + '<style>#c04b .handle{color:var(--verde)}#c04b .pag i{background:#BFE0D9}#c04b .pag i.on{background:var(--verde)}</style>'))
+
 # 5 · o mesmo peso: os dois argumentos e dois círculos iguais que se cruzam
 S.append(('c05', 'v', 'um não funciona sem o outro', '''<p class="rot">O mesmo peso</p>
   <p class="tit" style="left:96px;top:170px;width:888px">E um não funciona <span class="k">sem o outro</span>.</p>
@@ -182,7 +211,8 @@ S.append(('c07', 't', 'final: cuidar antes é uma decisão de quem lidera', '''<
 
 def html(slides, titulo):
     out = ['<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>' + titulo + '</title><style>' + CSS + '</style></head><body>\n']
-    for k, (sid, cls, nota, corpo) in enumerate(slides, 1):
+    for sid, cls, nota, corpo in slides:
+        k = int(sid[1:3])
         if k == 1:
             fim = '\n  <p class="handle">@fairhealth.br</p>\n  <p class="arr">Arraste para o lado →</p>'
         else:

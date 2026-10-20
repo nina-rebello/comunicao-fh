@@ -22,6 +22,17 @@
   - acolher, que é ouvir;
   - prevenir, que é agir antes.
 
+## Slide 4b (20/10): versão caderno aberto
+
+- A Nina pediu um slide 4 mais dinâmico, separando os dois assuntos. A referência foi um carrossel com um caderno
+  aberto e uma "forma" em cada página.
+- O fundo é verde-escuro, com o título centralizado em cima e o caderno quadriculado em creme sangrando embaixo.
+- Acolher fica na página da esquerda e prevenir na da direita. Cada nome aparece em letra cursiva (Instrument Serif
+  itálica), seguido do "é ouvir." / "é agir antes." em negrito e do texto de apoio da v4.
+- Uma fita marcadora Tiffany desce pela dobra do caderno.
+- Fica como alternativa ao 4 de cartões (`c04b`). No PDF do Canva, entra logo depois do 4 original, para a Nina
+  escolher entre os dois.
+
 ## Capa v2 (20/10): ilustração chapada
 
 - A Nina pediu a capa no estilo dos pôsteres de design universal ("About to crash?", "Can you read this?"): uma cor
