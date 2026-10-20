@@ -108,6 +108,19 @@ S.append(('c02', 'v', 'você não espera o problema para cuidar da estratégia',
   <img src="foto-conversa-poltronas.png" alt="" style="left:96px;top:470px;width:888px">
   <p class="k" style="left:96px;top:930px;width:888px;font-size:76px;line-height:86px;letter-spacing:-0.01em;color:var(--tif)">Por que esperar para cuidar das pessoas?</p>'''))
 
+# 2b e 2c (20/10): alternativas ao 2, pedidas pela Nina, com uma mesa de reunião vista de cima ocupando o slide e o
+#   texto dentro da mesa. 2b: a foto horizontal em preto e branco, multiplicada pelo creme (mesa-reuniao-cinza.jpg).
+#   2c: a foto vertical, que era azul, em duotone verde-Tiffany-creme (mesa-reuniao-tiffany.jpg).
+S.insert(2, ('c02b', 'c', 'mesa de reunião horizontal, texto na mesa', '''<img src="mesa-reuniao-cinza.jpg" alt="" style="left:0;top:-135px;width:1080px">
+  <p class="rot" style="left:0;top:96px;width:1080px;text-align:center">Antes, não depois</p>
+  <p style="left:110px;top:530px;width:860px;font-size:44px;line-height:52px;text-align:center">Você não espera o problema aparecer para cuidar da estratégia.</p>
+  <p class="k" style="left:110px;top:668px;width:860px;font-size:58px;line-height:66px;text-align:center;color:var(--vlogo)">Por que esperar para cuidar das pessoas?</p>'''))
+S.insert(3, ('c02c', 'c', 'mesa de reunião vertical, texto na mesa', '''<img src="mesa-reuniao-tiffany.jpg" alt="" style="left:90px;top:0;height:1350px">
+  <p class="rot" style="left:356px;top:250px;width:390px;text-align:center">Antes, não depois</p>
+  <p style="left:356px;top:330px;width:390px;font-size:44px;line-height:54px;text-align:center">Você não espera o problema aparecer para cuidar da estratégia.</p>
+  <div style="left:511px;top:680px;width:80px;height:4px;background:var(--vlogo);border-radius:2px"></div>
+  <p class="k" style="left:346px;top:730px;width:410px;font-size:56px;line-height:64px;text-align:center;color:var(--vlogo)">Por que esperar para cuidar das pessoas?</p>'''))
+
 # 3 · além da saúde: o fio de quatro pontos (o último é a pergunta da marca)
 ITENS = ['a rotina', 'a pressão', 'o que pesa', 'o que é importante para ela']
 Y0, PASSO = 620, 140

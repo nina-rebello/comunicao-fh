@@ -22,6 +22,14 @@
   - acolher, que é ouvir;
   - prevenir, que é agir antes.
 
+## Slides 2b e 2c (20/10): texto dentro da mesa de reunião
+
+- São alternativas ao 2, pedidas pela Nina. O 2 com as poltronas continua. Nos dois, uma mesa de reunião vista de
+  cima ocupa o slide, com o texto dentro dela.
+- **2b:** foto horizontal em preto e branco, multiplicada pelo creme da marca (`mesa-reuniao-cinza.jpg`).
+- **2c:** foto vertical, que era azul e virou duotone em verde, Tiffany e creme (`mesa-reuniao-tiffany.jpg`).
+- No PDF do Canva, os dois entram logo depois do 2.
+
 ## Slide 2 v2 (20/10): foto entre as duas frases
 
 - A Nina pediu uma foto de duas pessoas conversando em poltronas, com aperto de mão, para separar a primeira frase
