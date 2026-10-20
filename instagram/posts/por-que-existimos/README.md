@@ -1,5 +1,16 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Versão H5 (20/10): a H4 sem as fotos
+
+Pedido da Nina: "tire essas imagens". Saem as fotos (corredor de hospital na capa, sala de atendimento no slide 3 e
+mãos no slide 4), com os arcos de contorno e a luz atrás delas. Ficam os desenhos da Nina (hospital e escritório),
+o papel com grão e a linha. Os 6 slides e os textos são os mesmos da H4.
+
+**Arquivos:**
+- gerador: `gerar_slides_h5.py`, duplicado da H4, que fica guardada;
+- saída: `slides-h5.html`, `png-h5/` e `previa-h5.jpg`;
+- fundos para o Canva: `png-h5-fundo/`.
+
 ## Versão H4 (20/10): 6 slides, com fotos, desenhos e textura
 
 Pedido da Nina, sobre o design H2 do Canva (DAHYfVF20nU): "vamos diminuir a quantidade de slides, juntando os
