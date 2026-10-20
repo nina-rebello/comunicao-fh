@@ -1,5 +1,15 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Versão H6 (20/10): sem nenhuma imagem
+
+Pedido da Nina: "tire todas as imagens, deixe sem imagem". A H5 sem os desenhos do hospital e do escritório (e sem a
+luz atrás deles). Fica só o logo no convite final, que faz parte do texto ("conheça a [logo] no link da bio!").
+
+**Arquivos:**
+- gerador: `gerar_slides_h6.py`, duplicado da H5, que fica guardada;
+- saída: `slides-h6.html`, `png-h6/` e `previa-h6.jpg`;
+- fundos para o Canva: `png-h6-fundo/`.
+
 ## Versão H5 (20/10): a H4 sem as fotos
 
 Pedido da Nina: "tire essas imagens". Saem as fotos (corredor de hospital na capa, sala de atendimento no slide 3 e
