@@ -100,11 +100,13 @@ S.append(('c01', 't', 'capa: cuidar das pessoas antes, não depois (ilustrada)',
   </svg>
   <style>#c01 .handle,#c01 .arr{color:var(--creme)}</style>'''))
 
-# 2 · antes, não depois: a estratégia e as pessoas
+# 2 · antes, não depois: a estratégia e as pessoas. v2 (20/10): a Nina pediu a foto de duas pessoas em poltronas
+#   separando as duas frases. O fundo foi removido (rembg, isnet-general-use), o tampo da mesa foi recuperado da foto
+#   original e as poltronas azuis viraram Tiffany, mantendo luz e sombra (foto-conversa-poltronas.png).
 S.append(('c02', 'v', 'você não espera o problema para cuidar da estratégia', '''<p class="rot">Antes, não depois</p>
   <p class="tit" style="left:96px;top:170px;width:888px">Você não espera o problema aparecer para cuidar da estratégia.</p>
-  <div style="left:96px;top:640px;width:120px;height:4px;background:var(--tif);border-radius:2px"></div>
-  <p class="k" style="left:96px;top:700px;width:888px;font-size:84px;line-height:94px;letter-spacing:-0.01em;color:var(--tif)">Por que esperar para cuidar das pessoas?</p>'''))
+  <img src="foto-conversa-poltronas.png" alt="" style="left:96px;top:470px;width:888px">
+  <p class="k" style="left:96px;top:930px;width:888px;font-size:76px;line-height:86px;letter-spacing:-0.01em;color:var(--tif)">Por que esperar para cuidar das pessoas?</p>'''))
 
 # 3 · além da saúde: o fio de quatro pontos (o último é a pergunta da marca)
 ITENS = ['a rotina', 'a pressão', 'o que pesa', 'o que é importante para ela']

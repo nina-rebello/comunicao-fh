@@ -22,6 +22,16 @@
   - acolher, que é ouvir;
   - prevenir, que é agir antes.
 
+## Slide 2 v2 (20/10): foto entre as duas frases
+
+- A Nina pediu uma foto de duas pessoas conversando em poltronas, com aperto de mão, para separar a primeira frase
+  da segunda.
+- O fundo da foto foi removido com o rembg (modelo isnet-general-use). O tampo branco da mesa, que saiu junto com o
+  fundo, foi recuperado da foto original.
+- As poltronas azuis viraram Tiffany e mantêm a luz e a sombra da foto. O terno azul-marinho do homem ficou de fora
+  do recolorido, separado pelo matiz.
+- O arquivo final é `foto-conversa-poltronas.png`, e o texto do slide não mudou.
+
 ## Slide 4b (20/10): versão caderno aberto
 
 - A Nina pediu um slide 4 mais dinâmico, separando os dois assuntos. A referência foi um carrossel com um caderno
