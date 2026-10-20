@@ -22,6 +22,14 @@
   - acolher, que é ouvir;
   - prevenir, que é agir antes.
 
+## Capa v3 (20/10): ilustração da mulher exausta
+
+- A Nina mandou um PNG para a capa: uma mulher debruçada na mesa, exausta, fazendo "ok" com a mão. Ele substitui a
+  cadeira vazia em SVG, que fica no histórico do git.
+- O PNG ganhou um recorte de 2 px na borda, para tirar o contorno avermelhado do recorte original
+  (`capa-exausta.png`).
+- O texto da capa não mudou.
+
 ## Slides 2b e 2c (20/10): texto dentro da mesa de reunião
 
 - São alternativas ao 2, pedidas pela Nina. O 2 com as poltronas continua. Nos dois, uma mesa de reunião vista de
