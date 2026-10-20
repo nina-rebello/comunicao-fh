@@ -1,5 +1,29 @@
 # Post de qua 21/10: Por que a fairhealth existe? · acolhimento forte
 
+## Legenda v6 (20/10), com o carrossel atual
+
+Para o carrossel como está no Canva (DAHYkphpE7I, com o texto v8 e a conclusão nova). Abertura diferente da do reel
+de 19/10 ("Como a fairhealth chegou até aqui…") e da do post de 23/10 ("Cuidar das pessoas também faz parte…").
+Fala com a empresa (B2B), sem "faça o certo pelos motivos certos" e sem "a gente tá aqui pra te ouvir".
+
+```
+Por que a fairhealth existe? A resposta começa dentro de um hospital, há quase 20 anos.
+
+Ali, percebemos que os pacientes estavam cada vez mais distantes do centro do cuidado. Para mudar essa realidade, desenvolvemos o Escritório do Paciente.
+
+Com o que aprendemos no hospital, desenvolvemos o Escritório do Cuidado: o cuidado centrado na pessoa, agora dentro da empresa. Um espaço de acolhimento e de medicina preventiva, com atendimento médico e psicológico e planos de cuidado individualizados, baseados na Medicina do Estilo de Vida.
+
+Unimos quem conhece o cuidado por dentro a quem conhece a empresa por dentro. O objetivo é promover qualidade de vida, engajamento e um ambiente de trabalho mais saudável, com resultados demonstrados por indicadores.
+
+Quer levar o Escritório do Cuidado para a sua empresa? Fale com a gente pelo link da bio.
+
+#fairhealth #escritoriodocuidado #saudecorporativa #gestaodepessoas #medicinapreventiva
+```
+
+- **Primeira linha:** responde à capa e abre a história (87 caracteres, cabe antes do "mais").
+- **Pedido único:** o mesmo convite do último slide.
+- **De onde vem:** os textos do carrossel (slides 2, 3, 5 e final) e a lista de "Levamos ao coração da sua empresa".
+
 ## Conteúdo v8 (20/10): os pilares sem dizer, só mostrando
 
 Retorno da Nina sobre a v7: "slide 3 aprovado. O resto achei muito explícito, não é isso que quero". Então os

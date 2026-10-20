@@ -77,6 +77,25 @@
     (plano de marketing, 3.7);
   - "Fazemos o certo pelos motivos certos" (valor da marca; reel do Dr. Ronald).
 
+## Legenda v5 (20/10)
+
+A legenda v4 aprovada, sem "Fazemos o certo pelos motivos certos." (a Nina pediu para tirar "faça o certo pelos
+motivos certos" do post de 21/10, em 20/10). O resto é igual.
+
+```
+Cuidar das pessoas também faz parte da estratégia de uma empresa. E funciona melhor quando começa antes.
+
+Esse cuidado tem duas partes, igualmente importantes. Acolher é ouvir e entender como cada pessoa está. Prevenir é agir antes que algo vá mal, com um plano de cuidado e acompanhamento de perto.
+
+Na fairhealth, as duas andam juntas: dentro da sua empresa, perto da rotina do time e com sigilo.
+
+Conheça a fairhealth no link da bio.
+
+#fairhealth #lideranca #gestaodepessoas #saudecorporativa #medicinapreventiva
+```
+
+**Validar:** o slide 7 (roteiro v4) também tem "Fazemos o certo pelos motivos certos". Confirmar se sai de lá também.
+
 ## Legenda v4
 
 ```
