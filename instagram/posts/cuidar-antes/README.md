@@ -7,7 +7,7 @@
 > - 4: as duas partes;
 > - 5: por que as duas;
 > - 6: onde e com quem;
-> - 7: como funciona;
+> - 7: como funciona e por que ter na empresa (pedido da Nina, 22/10);
 > - 8: a decisão.
 >
 > Os slides 1 a 5 e o 8 são os da v4. O 6 ganhou uma frase de ligação, e o 7 é novo:
@@ -15,9 +15,11 @@
 > | Slide | Título | Apoio |
 > | --- | --- | --- |
 > | 6 · alguém para ouvir | Seu time precisa de *alguém para ouvir*. | Você não consegue ouvir todo mundo. Mas pode decidir que todos tenham com quem falar: perto, dentro da empresa, com sigilo. *É para isso que existe o Escritório do Cuidado.* |
-> | 7 · como funciona | Como o Escritório do Cuidado *funciona na prática*. | 1 · **Consulta** (acolher): médico ou psicólogo, presencial ou remoto, com anamnese pelo questionário da Medicina do Estilo de Vida e a pergunta "O que é importante para você?". 2 · **Medição** (prevenir): bioimpedância na consulta e uma smartband emprestada por alguns dias, que registra sono, atividade e frequência cardíaca na rotina real. 3 · **Plano** (prevenir): plano de cuidado individual nos 7 pilares da MEV, apresentado e explicado no retorno. 4 · **Acompanhamento** (acolher e prevenir): plantões alternados de médicos e psicólogos, workshops nos pilares e relatórios anonimizados para o RH, sem nenhum dado individual. |
+> | 7 · como funciona e por que ter | Como o Escritório do Cuidado *funciona* e por que ter um na sua empresa. | **Como funciona:** 1 · **Consulta** (acolher): médico ou psicólogo, com anamnese de Medicina do Estilo de Vida e a pergunta "O que é importante para você?". 2 · **Medição** (prevenir): bioimpedância e smartband por alguns dias, na rotina real. 3 · **Plano** (prevenir): plano de cuidado individual, explicado no retorno. 4 · **Acompanhamento** (acolher e prevenir): plantões de médicos e psicólogos e workshops ao longo do programa. **Por que na sua empresa:** é estrutura permanente, não campanha pontual; está perto da rotina, e ninguém depende de tomar a iniciativa sozinho; você acompanha o grupo em relatórios anonimizados, sem nenhum dado individual. |
 >
-> Fonte da parte técnica: `essencia.md` (dinâmica das consultas), `voice.md` e `posts/wearables/README.md`.
+> Fonte da parte técnica: `essencia.md` (dinâmica das consultas), `voice.md` e `posts/wearables/README.md`. Fonte do
+> "por que": `essencia.md` ("infraestrutura, não programa pontual", "proximidade gera adesão") e o tom de voz do
+> plano de marketing ("sem depender de que o colaborador tome a iniciativa sozinho").
 > Validar com o Dr. Ronald: o sigilo, o que a smartband mede e os nomes dos 7 pilares.
 >
 > **v5 (22/10), descartada.** A Nina não queria uma história com personagem, e sim uma linha de raciocínio que
