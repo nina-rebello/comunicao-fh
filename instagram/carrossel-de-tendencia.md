@@ -45,7 +45,7 @@ alarmismo. A tendência é a porta de entrada. Quem resolve é o cuidado.
 | **Mercado** | O que está mudando na saúde corporativa e no RH | NR-01 e riscos psicossociais; reajuste do plano de saúde coletivo e sinistralidade; orçamento de 2027 | 1 por semana |
 | **Cases** | Quem fez e deu certo (ou errado) | Chemitec, Hospital Dia Santo Amaro, depoimentos em texto; empresas conhecidas que mudaram a forma de cuidar | 1 a cada 2 semanas |
 | **Cultura** | Comportamentos que o colaborador e o RH já estão vivendo | homem que adia o médico; esgotamento do próprio RH; canetas emagrecedoras; obsessão por dormir bem com wearables; corrida e clubes de corrida; fim de ano e metas | 1 por semana |
-| **Notícias** | O que acabou de sair e o que significa | dados de afastamento por saúde mental; novas regras ou fiscalização; pesquisas sobre bets, burnout, IA no trabalho | quando houver, com fonte |
+| **Notícias** | O que acabou de sair e o que significa | dados de afastamento por saúde mental; novas regras ou fiscalização; pesquisas sobre burnout, saúde do RH, IA no trabalho | quando houver, com fonte |
 | **Produto** | Como o Escritório do Cuidado resolve isso | método, as quatro frentes, o relatório para o RH, como começar | 1 por semana, de preferência amarrado a outro eixo |
 
 **Regra da combinação:** os melhores posts juntam dois eixos. Por exemplo,
@@ -72,9 +72,8 @@ O formato deles (afirmação + "como" + virada) adaptado para o nosso tom:
 - "O homem que só vai ao médico quando dói: por que isso ainda é regra nas empresas?"
 - "As canetas emagrecedoras viraram assunto no refeitório. O que elas não resolvem sozinhas?"
 - "O RH está cuidando de todo mundo. E quem cuida do RH?"
-- "Todo mundo quer dormir melhor e mede o sono no relógio. Por que o cansaço continua?"
+- "Seu sono virou nota no relógio. Por que o cansaço continua?"
 - "A corrida virou o novo happy hour. O que isso diz sobre o que o seu time procura?"
-- "As bets chegaram ao expediente. O que o RH pode fazer sem invadir a vida de ninguém?"
 - "98% do time aceitou ser cuidado: o que a Chemitec fez diferente?"
 
 ## 6. O que não fazemos (filtro antes de pegar uma tendência)
@@ -117,9 +116,9 @@ post.
 | --- | --- | --- | --- | --- |
 | 16/11 | Reel | Cultura | Novembro Azul: por que o homem só vai ao médico quando dói? | Cuidado perto do trabalho tira a barreira. |
 | 18/11 | Carrossel | Notícias + Mercado | Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH | Guia de NR-01 pela palavra CUIDADO. Confirmar o dado mais recente do INSS (número e ano) e a situação da NR-01 com o Dr. Ronald. |
-| 19/11 | Foto única | Cases | Depoimento B1 | Identificação e alívio. |
-| 23/11 | Reel | Cultura | O RH está cuidando de todo mundo. E quem cuida do RH? | Mande para alguém do RH (envio por DM). |
-| 25/11 | Carrossel | Notícias + Cultura | As bets chegaram ao expediente: o que o RH pode fazer | Papel do serviço social no Escritório do Cuidado. Só pesquisas com fonte. Sem julgamento do colaborador. |
+| 19/11 | Foto única | Cases | Depoimento A2: "Os meus hábitos mudaram, e não foi um sacrifício." | Mostra mudança real sem falar de resultado clínico. Logo coração. |
+| 23/11 | Reel | Notícias + Cultura | O RH cuida de todo mundo. Quem cuida do RH? | Base: Panorama da Saúde Emocional do RH 2026 (Flash e RH Summit, lançado no CONARH). Chamada: mande para alguém do RH. |
+| 25/11 | Carrossel | Cultura + Produto | Sleepmaxxing: seu sono virou nota no relógio. E o cansaço continua? | Nota de sono não é cuidado; o que fazemos com os dados da smartband junto com a pessoa. |
 | 27/11 | Carrossel | Cases + Produto | Case Chemitec: como 98% do time aceitou ser cuidado | Comente CUIDADO. Black Friday: sem linguagem de promoção. |
 | 30/11 | Reel | Cultura | Dezembro chegou: a corrida das metas também adoece | Uma prática de 1 minuto e um convite para cuidar antes do fim do ano. |
 
@@ -151,3 +150,19 @@ Na reunião semanal de métricas, antes de fechar a pauta da semana seguinte:
 4. Manter 20% da agenda livre para esses temas, como já prevê o plano.
 
 Para pesquisar Reels que estão funcionando no nicho, usar o `/ig-viral`.
+
+## 10. Banco de temas em alta (pesquisa de 22/10/2026)
+
+Conferir a fonte original antes de publicar qualquer número.
+
+| Tema | O que está acontecendo | Ângulo fairhealth | Sensibilidade |
+| --- | --- | --- | --- |
+| **Saúde do RH** | Panorama da Saúde Emocional do RH 2026 (Flash e RH Summit, mais de mil RHs): 64% sobrecarregados, 6 em cada 10 com algum problema de saúde mental, 17% dos coordenadores já tiveram burnout, 20% se sentem isolados. | Quem cuida de quem cuida (23/11). | Baixa |
+| **Sono medido no relógio (sleepmaxxing)** | Tendência de otimizar o sono com nota diária, gadgets e suplementos. Médicos alertam para soluções sem comprovação. | Nota não é cuidado; smartband com acompanhamento (25/11). | Baixa |
+| **Creatina fora da academia** | Virou item de supermercado; estudo de 2026 testou creatina após noite sem dormir, com efeito parcial. | Mito ou Evidência? Suplemento não substitui sono. | Baixa (revisão técnica) |
+| **Canetas mais baratas** | Patente da semaglutida expirou em março de 2026; versões nacionais e genéricos chegaram entre junho e setembro. | O hábito ainda decide (sugestão para 11/11). | Média: sem marca, dose ou indicação; revisão do Dr. Ronald |
+| **Afastamentos por saúde mental** | 546,2 mil licenças por transtornos mentais em 2025, segundo recorde seguido (Ministério da Previdência, via g1). | NR-01 além da planilha (18/11). | Média: sem alarmismo |
+| **Fim da escala 6x1** | Senado aprovou a PEC em 14/10/2026 (44 para 40 horas, dois dias de folga). Vai à promulgação. | Descanso também é saúde: o que fazer com a folga. Só depois da eleição e só pelo ângulo de saúde. | Alta: tema político em período eleitoral |
+| **Geração Z e desconexão** | "Gen Z stare", "task masking"; só 23% dos jovens se dizem engajados (Gallup). | O que está por trás do desengajamento. | Média: sem estereótipo |
+| **Cuidar de quem cuida no hospital** | Estudos brasileiros apontam burnout alto na enfermagem, ligado a sobrecarga e falta de pessoal, e a mais erros e menos empatia no atendimento. | Ponte com o case do Hospital Dia Santo Amaro. | Baixa, mas usar estudo com fonte e amostra |
+| **Bets** | Tema forte, mas delicado. | Fica para depois. | Alta |
