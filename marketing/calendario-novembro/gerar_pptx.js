@@ -110,36 +110,17 @@ const SEMANAS = [
   pres.addSection({ title: "Objetivo do mês" });
   {
     const s = pres.addSlide({ masterName: "OBJETIVO", sectionTitle: "Objetivo do mês" });
-    const W = 13.333 / 4;
-    const cols = [
-      { n: 3, nome: "Compreensão", q: "Como a FairHealth transforma isso em cuidado real?", d: "Mostrar o cuidado na prática, pela experiência de quem é atendido.", c: "2 posts · 03 e 04/11", bg: C.text1, txt: C.background1, num: C.background1, y: 3.3 },
-      { n: 4, nome: "Confiança", q: "Por que acreditar na metodologia e na empresa?", d: "Dar provas e abrir um caminho claro para o RH.", c: "4 posts · 06 a 13/11", bg: C.accent2, txt: C.text1, num: C.text1, y: 0.75 },
-      { n: 5, nome: "Atualidade", q: "Por que isso importa agora?", d: "Ler o momento das empresas: temas em alta que levam ao Escritório do Cuidado.", c: "5 posts · 16 a 25/11", bg: C.background2, txt: C.text1, num: C.text2, y: 2.75 },
-      { n: 6, nome: "Decisão", q: "Por que começar agora?", d: "Provar adesão e convidar o RH a planejar 2027 com cuidado.", c: "2 posts · 27 e 30/11", bg: C.accent1, txt: C.text1, num: C.text1, y: 1.65 },
-    ];
-    const triCor = [C.text1, C.accent2, C.background2];
-    cols.forEach((k, i) => {
-      const x = i * W;
-      s.addShape(pres.shapes.RECTANGLE, { x, y: 0, w: W, h: 7.5, fill: { color: k.bg }, line: { color: k.bg }, objectName: `coluna-${k.n}` });
-      const px = x + 0.45, pw = W - 0.9;
-      s.addText(String(k.n), { x: px, y: k.y, w: 1.5, h: 1.25, fontSize: 88, color: k.num, fontFace: "Calibri Light", margin: 0, valign: "top", isTextBox: true, objectName: `numero-${k.n}` });
-      s.addText(k.nome, { x: px, y: k.y + 1.35, w: pw, h: 0.45, fontSize: 24, color: k.txt, margin: 0, isTextBox: true });
-      s.addText(k.q, { x: px, y: k.y + 1.85, w: pw, h: 0.85, fontSize: 15, bold: true, color: k.txt, margin: 0, valign: "top", isTextBox: true });
-      s.addText(k.d, { x: px, y: k.y + 2.75, w: pw, h: 0.62, fontSize: 13, color: k.txt, margin: 0, valign: "top", isTextBox: true });
-      s.addText(k.c, { x: px, y: k.y + 3.45, w: pw, h: 0.3, fontSize: 12, bold: true, color: k.txt, charSpacing: 1, margin: 0, isTextBox: true });
-      if (i > 0) {
-        s.addShape(pres.shapes.ISOSCELES_TRIANGLE, { x: x - 0.06, y: k.y + 0.42, w: 0.26, h: 0.18, rotate: 90, fill: { color: triCor[i - 1] }, line: { color: triCor[i - 1] }, objectName: `seta-${k.n}` });
-      }
-    });
+    s.background = { color: C.text1 };
+    s.addText("PROGRAMAÇÃO DO INSTAGRAM  ·  01/11 A 30/11", { x: 0.9, y: 0.75, w: 8, h: 0.35, fontSize: 12, bold: true, color: C.accent2, charSpacing: 3, margin: 0, isTextBox: true });
     s.addText([
-      { text: "PROGRAMAÇÃO DO INSTAGRAM", options: { breakLine: true } },
-      { text: "01/11 A 30/11" },
-    ], { x: 0.45, y: 0.45, w: 2.9, h: 0.5, fontSize: 10, bold: true, color: C.background1, charSpacing: 2, margin: 0, isTextBox: true });
+      { text: "Programação de posts", options: { breakLine: true } },
+      { text: "novembro", options: { color: C.accent1 } },
+    ], { x: 0.9, y: 2.0, w: 11, h: 2.3, fontSize: 66, color: C.background1, margin: 0, valign: "top", isTextBox: true, objectName: "titulo-mes" });
     s.addText([
-      { text: "Objetivo de novembro", options: { bold: true, breakLine: true } },
-      { text: "Sair da apresentação e entrar na conversa com o RH: mostrar o cuidado na prática, provar que funciona e ler o momento das empresas antes do orçamento de 2027." },
-    ], { x: 0.45, y: 1.3, w: W - 0.9, h: 1.9, fontSize: 14, color: C.accent2, margin: 0, valign: "top", paraSpaceAfter: 4, isTextBox: true });
-    s.addNotes("Os blocos 1 e 2 (reconhecimento e relevância) foram em outubro. Novembro fecha a apresentação inicial (blocos 3 e 4) e abre a fase de atualidade e decisão (blocos 5 e 6), na janela de orçamento do RH.");
+      { text: "Nosso objetivo este mês", options: { bold: true, color: C.background1, breakLine: true } },
+      { text: "Fechar a apresentação da FairHealth e abrir a conversa com o RH. Primeiro, mostramos o cuidado na prática e as provas de que ele funciona. Depois, usamos temas do momento (Novembro Azul, NR-01, saúde do RH, Geração Z) para mostrar que entendemos o que as empresas estão vivendo e terminamos com o convite ao diagnóstico, enquanto o RH fecha o orçamento de 2027." },
+    ], { x: 0.9, y: 4.55, w: 8.6, h: 2.0, fontSize: 16, color: C.accent2, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "objetivo" });
+    s.addImage({ path: LOGO, x: 11.83, y: 6.38, w: 0.66, h: 0.66 });
   }
 
   // ---------- 2 · calendário ----------
@@ -162,16 +143,16 @@ const SEMANAS = [
       s.addText(t, { x: x + 0.32, y: 0.95, w: 1.25, h: 0.34, fontSize: 12, color: C.text1, margin: 0, valign: "middle", isTextBox: true });
     });
 
-    const gx = 2.0, gy = 2.12, cw = (12.63 - gx) / 7, rh = 0.84;
+    const gx = 2.0, gy = 2.12, cw = (12.63 - gx) / 7, rh = 0.98;
     ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"].forEach((d, i) =>
       s.addText(d, { x: gx + i * cw, y: 1.72, w: cw, h: 0.34, fontSize: 14, color: C.text1, align: "center", margin: 0, isTextBox: true }));
     const porDia = Object.fromEntries(POSTS.map(p => [p[0], p]));
-    const inicio = new Date(2026, 9, 26);
-    for (let r = 0; r < 6; r++) {
+    const inicio = new Date(2026, 10, 2);
+    for (let r = 0; r < 5; r++) {
       const seg = new Date(inicio); seg.setDate(seg.getDate() + r * 7);
       const sex = new Date(seg); sex.setDate(sex.getDate() + 4);
       const f = d => `${String(d.getDate()).padStart(2, "0")}/${String(d.getMonth() + 1).padStart(2, "0")}`;
-      s.addText([{ text: `Semana ${r + 2}`, options: { bold: true, breakLine: true } }, { text: `${f(seg)} a ${f(sex)}`, options: { fontSize: 11 } }],
+      s.addText([{ text: `Semana ${r + 3}`, options: { bold: true, breakLine: true } }, { text: `${f(seg)} a ${f(sex)}`, options: { fontSize: 11 } }],
         { x: 0.7, y: gy + r * rh, w: 1.25, h: rh, fontSize: 14, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
       for (let c = 0; c < 7; c++) {
         const d = new Date(seg); d.setDate(d.getDate() + c);
@@ -186,7 +167,7 @@ const SEMANAS = [
           const fill = fmt === "reel" ? C.accent1 : fmt === "carrossel" ? C.text1 : C.background1;
           const tc = fmt === "carrossel" ? C.background1 : C.text1;
           s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: x + 0.07, y: y + 0.24, w: cw - 0.14, h: rh - 0.3, rectRadius: 0.08, fill: { color: fill }, line: { color: fmt === "foto" ? C.text1 : fill, width: 1 }, objectName: `post-${dia}` });
-          s.addText(curto, { x: x + 0.1, y: y + 0.26, w: cw - 0.42, h: rh - 0.34, fontSize: 10, bold: true, color: tc, align: "center", valign: "middle", margin: 0, fit: "shrink", isTextBox: true });
+          s.addText(curto, { x: x + 0.1, y: y + 0.26, w: cw - 0.42, h: rh - 0.34, fontSize: 11, bold: true, color: tc, align: "center", valign: "middle", margin: 0, fit: "shrink", isTextBox: true });
           s.addShape(pres.shapes.OVAL, { x: x + cw - 0.29, y: y + 0.28, w: 0.18, h: 0.18, fill: { color: C.background1 }, line: { color: C.text1, width: 0.75 }, objectName: `tipo-${dia}` });
           s.addText(tipo, { x: x + cw - 0.29, y: y + 0.28, w: 0.18, h: 0.18, fontSize: 8, bold: true, color: C.text1, align: "center", valign: "middle", margin: 0, isTextBox: true });
         } else if (DATAS[dia]) {
