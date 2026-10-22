@@ -38,6 +38,39 @@ O que está acontecendo  →  o que isso significa para a sua empresa  →  como
 O tom continua sendo o nosso: calmo, seguro, direto nos números, sem
 alarmismo. A tendência é a porta de entrada. Quem resolve é o cuidado.
 
+### Regra da ponte: toda tendência termina no produto
+
+Tema em alta sem o Escritório do Cuidado é só conteúdo genérico com assunto
+novo. Antes de aprovar uma pauta, ela precisa passar nas três perguntas:
+
+1. **O tema leva naturalmente a algo que fazemos?** Atendimento médico,
+   psicológico ou social, Medicina do Estilo de Vida, smartband e
+   bioimpedância, relatório anonimizado para o RH. Se a ponte for forçada, a
+   pauta cai.
+2. **Qual slide mostra o produto?** Nos carrosséis, os slides 6 e 7 mostram
+   como o Escritório resolve aquilo, e um deles fala do que o RH recebe. Nos
+   Reels, o produto aparece até a metade, não só na chamada.
+3. **A chamada leva para o Escritório?** "Comente CUIDADO", ou mandar para o
+   RH. Nunca só "salve" ou "siga".
+
+### Exemplo completo: sleepmaxxing (carrossel de 25/11)
+
+| Slide | Função | Conteúdo |
+| --- | --- | --- |
+| 1 | Capa | **Seu sono virou nota no relógio. E o cansaço continua?** Foto: pulso com a smartband na mesa de cabeceira, de manhã (sem rosto, tela sem dados reais). |
+| 2 | Promessa (funciona sozinho) | A nota mostra **como** você dormiu. Ela não diz **por quê**. É aí que o cuidado começa. |
+| 3 | A tendência | O "sleepmaxxing" viralizou: aparelhos, suplementos, rotinas de 20 passos e a busca por uma nota perfeita. Muita coisa sem comprovação, e tem gente perdendo o sono de ansiedade com a própria nota. |
+| 4 | Entrega técnica | O sono depende de horário, luz, cafeína, estresse, dor, turno e da cabeça que não desliga. Nenhum gadget resolve isso sozinho. É o pilar do sono na Medicina do Estilo de Vida. |
+| 5 | Entrega técnica | O que a pulseira vê: duração, regularidade, frequência cardíaca. O que ela não vê: o prazo, o filho pequeno, a dor no fim do dia, a escala da noite. |
+| 6 | **Produto** | No Escritório do Cuidado, a smartband não fica só no seu pulso. O dado entra na consulta: "acho que durmo mal" vira olhar junto com o profissional como foram as últimas semanas. E a causa define quem cuida: médico, psicólogo ou assistente social. |
+| 7 | **Produto para o RH** | O RH não vê o sono de ninguém. Recebe só indicadores do grupo, anonimizados. Na Chemitec, 46 smartbands acompanham a rotina de quem é cuidado. |
+| 8 | Salvamento | Antes do próximo gadget, três perguntas: 1. O que mudou na minha rotina? 2. O que me acorda ou não me deixa dormir? 3. Com quem eu posso olhar isso? |
+| 9 | Chamada | Nota não é cuidado. Acompanhamento é. **Comente CUIDADO** e mostramos como funciona o Escritório do Cuidado na sua empresa. |
+
+**Pendências desse post:** confirmar quais dados a smartband registra
+(mesma pendência do carrossel de wearables), revisão técnica do Dr. Ronald e a
+foto da capa na sessão de fotos.
+
 ## 3. Os 5 eixos narrativos, na versão fairhealth
 
 | Eixo | O que é para nós | Exemplos | Quanto do mês |
@@ -118,7 +151,7 @@ post.
 | 18/11 | Carrossel | Notícias + Mercado | Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH | Guia de NR-01 pela palavra CUIDADO. Confirmar o dado mais recente do INSS (número e ano) e a situação da NR-01 com o Dr. Ronald. |
 | 19/11 | Foto única | Cases | Depoimento A2: "Os meus hábitos mudaram, e não foi um sacrifício." | Mostra mudança real sem falar de resultado clínico. Logo coração. |
 | 23/11 | Reel | Notícias + Cultura | O RH cuida de todo mundo. Quem cuida do RH? | Base: Panorama da Saúde Emocional do RH 2026 (Flash e RH Summit, lançado no CONARH). Chamada: mande para alguém do RH. |
-| 25/11 | Carrossel | Cultura + Produto | Sleepmaxxing: seu sono virou nota no relógio. E o cansaço continua? | Nota de sono não é cuidado; o que fazemos com os dados da smartband junto com a pessoa. |
+| 25/11 | Carrossel | Cultura + Produto | Sleepmaxxing: seu sono virou nota no relógio. E o cansaço continua? | Nota não é cuidado, acompanhamento é: a smartband entra na consulta e o RH recebe só dados do grupo. Roteiro completo na seção 2. |
 | 27/11 | Carrossel | Cases + Produto | Case Chemitec: como 98% do time aceitou ser cuidado | Comente CUIDADO. Black Friday: sem linguagem de promoção. |
 | 30/11 | Reel | Cultura | Dezembro chegou: a corrida das metas também adoece | Uma prática de 1 minuto e um convite para cuidar antes do fim do ano. |
 
