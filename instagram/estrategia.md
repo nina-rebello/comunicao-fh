@@ -13,6 +13,8 @@ de que funciona → autoridade contínua**. Cada fase prepara a seguinte.
   conhece.
 - **Ritmo de lançamento:** 3 posts por semana (seg, qua, sex às 7:30 BRT),
   com Stories nos dias úteis.
+- **Carrossel: no máximo 8 slides, sempre** (regra da Nina, 22/10). A história
+  precisa caber nisso, com começo, meio e fim.
 
 ## Fases
 
