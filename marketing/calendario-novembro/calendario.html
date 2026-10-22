@@ -55,23 +55,24 @@ h1 b{font-weight:800}
 </section>
 <script>
 // Para editar: troque o texto ou o formato aqui (reel, carrossel ou foto).
-// [formato, texto, tamanho da fonte, novo?, eixo]
+// [formato, texto, tamanho da fonte, novo?, eixo, tipo]
+// tipo: institucional, produto ou evento.
 // novo: true marca as pautas sugeridas para completar o mês.
 // eixo: mercado, cases, cultura, notícias ou produto (ver instagram/carrossel-de-tendencia.md).
 const posts = {
-  '2026-11-03': ['carrossel', 'O cuidado na prática (P – PIC) Argumentos Marília', 19, false, 'produto'],
-  '2026-11-04': ['reel', 'Quatro frentes, um Cuidado (P/ RH Plataforma entrega relatorio (menos sobre Plataforma mais sobre relatorio)', 13, false, 'produto'],
-  '2026-11-06': ['carrossel', 'Uma história desde 2009 Validar com RONALD (historio do escritorio e nao FH)', 15, false, 'cases'],
-  '2026-11-09': ['reel', 'Resultados reais, com o Dr. Ronald', 20, false, 'cases'],
-  '2026-11-11': ['carrossel', 'Estilo de vida é tratamento sério', 20, false, 'cultura'],
-  '2026-11-13': ['carrossel', 'Como levar a FairHealth à empresa (comerical!!!! CTA!)', 17, false, 'produto'],
-  '2026-11-16': ['reel', 'Novembro Azul: por que o homem só vai ao médico quando dói?', 16, true, 'cultura'],
-  '2026-11-18': ['carrossel', 'Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH (guia via CUIDADO)', 14, true, 'notícias'],
-  '2026-11-19': ['foto', 'Depoimento: “Os meus hábitos mudaram, e não foi um sacrifício.”', 16, true, 'cases'],
-  '2026-11-23': ['reel', 'O RH cuida de todo mundo. Quem cuida do RH? (dados Flash 2026)', 16, true, 'notícias'],
-  '2026-11-25': ['carrossel', 'Geração Z e desconexão: o olhar vazio na reunião não é preguiça', 15, true, 'cultura'],
-  '2026-11-27': ['carrossel', 'Case Chemitec: como 98% do time aceitou ser cuidado · CTA CUIDADO', 15, true, 'cases'],
-  '2026-11-30': ['reel', 'Dezembro chegou: a corrida das metas também adoece', 16, true, 'cultura'],
+  '2026-11-03': ['carrossel', 'O cuidado na prática (P – PIC) Argumentos Marília', 19, false, 'produto', 'produto'],
+  '2026-11-04': ['reel', 'Quatro frentes, um Cuidado (P/ RH Plataforma entrega relatorio (menos sobre Plataforma mais sobre relatorio)', 13, false, 'produto', 'produto'],
+  '2026-11-06': ['carrossel', 'Uma história desde 2009 Validar com RONALD (historio do escritorio e nao FH)', 15, false, 'cases', 'institucional'],
+  '2026-11-09': ['reel', 'Resultados reais, com o Dr. Ronald', 20, false, 'cases', 'produto'],
+  '2026-11-11': ['carrossel', 'Estilo de vida é tratamento sério', 20, false, 'cultura', 'produto'],
+  '2026-11-13': ['carrossel', 'Como levar a FairHealth à empresa (comerical!!!! CTA!)', 17, false, 'produto', 'produto'],
+  '2026-11-16': ['reel', 'Novembro Azul: ele só vai ao médico quando dói. E se o cuidado estivesse no trabalho?', 15, true, 'cultura', 'evento'],
+  '2026-11-18': ['carrossel', 'Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH (guia via CUIDADO)', 14, true, 'notícias', 'produto'],
+  '2026-11-19': ['foto', 'Depoimento: “Os meus hábitos mudaram, e não foi um sacrifício.”', 16, true, 'cases', 'produto'],
+  '2026-11-23': ['reel', 'O RH cuida de todo mundo. Quem cuida do RH? (dados Flash 2026)', 16, true, 'notícias', 'produto'],
+  '2026-11-25': ['carrossel', 'Por que a Geração Z está tão desconectada do trabalho?', 17, true, 'cultura', 'produto'],
+  '2026-11-27': ['carrossel', 'Case Chemitec: como 98% do time aceitou ser cuidado · CTA CUIDADO', 15, true, 'cases', 'produto'],
+  '2026-11-30': ['reel', 'Dezembro chegou: a corrida das metas também adoece', 16, true, 'cultura', 'evento'],
 };
 const datas = {
   '2026-11-02': 'Finados',
@@ -99,7 +100,7 @@ for (let s = 0; s < 6; s++) {
     const p = !fora && posts[iso(d)];
     if (p) {
       cont[p[0]]++;
-      h += `<div class="post ${p[0]}${p[3] ? ' novo' : ''}" data-eixo="${p[4] || ''}" style="font-size:${p[2]}px">${p[1]}</div>`;
+      h += `<div class="post ${p[0]}${p[3] ? ' novo' : ''}" data-eixo="${[...new Set([p[5], p[4]].filter(Boolean))].join(' · ')}" style="font-size:${p[2]}px">${p[1]}</div>`;
     }
     if (!fora && datas[iso(d)]) h += `<span class="data">${datas[iso(d)]}</span>`;
     g.insertAdjacentHTML('beforeend', h + '</div>');
@@ -109,7 +110,7 @@ for (let s = 0; s < 6; s++) {
 const pl = (n, s, p) => `${n} ${n === 1 ? s : p}`;
 document.getElementById('rodape').innerHTML =
   `<span>${pl(cont.reel,'reel','reels')} &nbsp;·&nbsp; ${pl(cont.carrossel,'carrossel','carrosséis')} &nbsp;·&nbsp; ${pl(cont.foto,'foto única','fotos únicas')} &nbsp;·&nbsp; 1 reel e 2 posts estáticos por semana</span>` +
-  `<em>no canto de cada post: eixo narrativo · “novo” = pauta sugerida</em>`;
+  `<em>no canto: tipo · eixo narrativo · “novo” = pauta sugerida</em>`;
 </script>
 </body>
 </html>
