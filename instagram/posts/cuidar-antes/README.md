@@ -17,6 +17,11 @@
 > | 6 · alguém para ouvir | Seu time precisa de *alguém para ouvir*. | Você não consegue ouvir todo mundo. Mas pode decidir que todos tenham com quem falar: perto, dentro da empresa, com sigilo. *É para isso que existe o Escritório do Cuidado.* |
 > | 7 · como funciona e por que ter | Como o Escritório do Cuidado *funciona* e por que ter um na sua empresa. | **Como funciona:** 1 · **Consulta** (acolher): médico ou psicólogo, com anamnese de Medicina do Estilo de Vida e a pergunta "O que é importante para você?". 2 · **Medição** (prevenir): bioimpedância e smartband por alguns dias, na rotina real. 3 · **Plano** (prevenir): plano de cuidado individual, explicado no retorno. 4 · **Acompanhamento** (acolher e prevenir): plantões de médicos e psicólogos e workshops ao longo do programa. **Por que na sua empresa:** é estrutura permanente, não campanha pontual; está perto da rotina, e ninguém depende de tomar a iniciativa sozinho; você acompanha o grupo em relatórios anonimizados, sem nenhum dado individual. |
 >
+> **Smartband (22/10):** a Nina quis dizer que a smartband mostra a saúde integral, as emoções e o estresse dentro e
+> fora da empresa, e onde está o problema. Ficou assim, sem prometer o que o aparelho não mede: a etapa 2 cita sono,
+> estresse e recuperação, dentro e fora da empresa; a etapa 3 diz que consulta e dados juntos mostram onde o cuidado
+> precisa começar. As emoções aparecem na consulta, não na pulseira.
+>
 > **Arte (22/10):** slide `c07` no gerador (o final virou `c08`). No Canva, entrou como página 7 do design
 > DAHYkUJXrBw, que a Nina já tinha enxugado para a sequência 1c, 2b, 3, 4b, 5, 6 e final.
 >

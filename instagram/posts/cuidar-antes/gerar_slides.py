@@ -228,7 +228,7 @@ S.append(('c06', 'c', 'seu time precisa de alguém para ouvir', '''<p class="rot
 # 7 · como funciona e por que ter (v6, 22/10): as quatro etapas do Escritório do Cuidado (essencia.md, dinâmica das
 #   consultas), cada uma com a etiqueta acolher/prevenir do slide 4, e um bloco verde com três motivos para ter o
 #   Escritório na empresa. Só divs e textos, para o Canva importar tudo como forma e texto nativos.
-ETAPAS = [('1', 'Consulta', 'acolher', 'Médico ou psicólogo, com anamnese de Medicina do Estilo de Vida e a pergunta “O que é importante para você?”.'), ('2', 'Medição', 'prevenir', 'Bioimpedância e smartband por alguns dias, na rotina real.'), ('3', 'Plano', 'prevenir', 'Plano de cuidado individual, apresentado e explicado no retorno.'), ('4', 'Acompanhamento', 'acolher e prevenir', 'Plantões de médicos e psicólogos e workshops no programa.')]
+ETAPAS = [('1', 'Consulta', 'acolher', 'Médico ou psicólogo, com anamnese de Medicina do Estilo de Vida e a pergunta “O que é importante para você?”.'), ('2', 'Medição', 'prevenir', 'Bioimpedância e smartband por alguns dias: sono, estresse e recuperação, dentro e fora da empresa.'), ('3', 'Plano', 'prevenir', 'Consulta e dados juntos mostram onde o cuidado precisa começar. O plano individual é explicado no retorno.'), ('4', 'Acompanhamento', 'acolher e prevenir', 'Plantões de médicos e psicólogos e workshops no programa.')]
 Y0, PASSO = 410, 124
 etapas = '<div style="left:122px;top:%dpx;width:4px;height:%dpx;background:var(--tif)"></div>\n  ' % (Y0 + 28, PASSO * 3)
 for i, (n, nome, tag, txt) in enumerate(ETAPAS):
