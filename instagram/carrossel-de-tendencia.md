@@ -1,0 +1,153 @@
+# Conteúdo de tendência: o que aprendemos e como usamos
+
+Este guia junta o estudo de marketing digital (carrosséis da @brandsdecoded_)
+com o que já está decidido em `voice.md` e `estrategia.md`. A ideia é usar a
+estrutura deles, não a cara deles: o visual e o tom continuam os da fairhealth.
+
+## 1. O que aprendemos, em quatro ideias
+
+1. **Conteúdo educativo genérico não cresce.** "3 dicas para dormir melhor"
+   existe aos montes, e a IA produz isso sem parar. O que se diferencia é
+   partir de algo que **já está acontecendo** e explicar o que aquilo
+   significa para o nosso público.
+2. **O carrossel de tendência organiza um pensamento que a pessoa já está
+   tendo.** Ele ativa três gatilhos: **identificação** ("eu também tava
+   percebendo isso"), **alívio** ("então não sou só eu") e **autoridade**
+   ("essa marca enxerga antes").
+3. **Um carrossel pode ser um funil completo.** No mesmo post a pessoa se
+   identifica com o tema, entende o que ele significa para ela e enxerga a
+   marca como quem traduziu isso primeiro. O seguidor já chega sabendo o que
+   resolvemos.
+4. **O Instagram mede atenção retida, não curtida.** O que pesa: o gancho que
+   para o scroll, os envios a cada 100 visualizações, o tempo nos slides 2 a 4
+   e o envio por DM.
+
+## 2. A nossa fórmula
+
+Para a fairhealth, todo conteúdo de tendência responde a uma pergunta:
+
+> **O que isso significa para o RH e para o colaborador, e como se cuida disso
+> antes que vire afastamento?**
+
+```
+O que está acontecendo  →  o que isso significa para a sua empresa  →  como a gente enxerga e cuida  →  conversa
+(tendência, notícia,        (RH, liderança, colaborador)               (método, MEV, Escritório)        (CUIDADO, comentário, envio)
+ cultura, mercado)
+```
+
+O tom continua sendo o nosso: calmo, seguro, direto nos números, sem
+alarmismo. A tendência é a porta de entrada. Quem resolve é o cuidado.
+
+## 3. Os 5 eixos narrativos, na versão fairhealth
+
+| Eixo | O que é para nós | Exemplos | Quanto do mês |
+| --- | --- | --- | --- |
+| **Mercado** | O que está mudando na saúde corporativa e no RH | NR-01 e riscos psicossociais; reajuste do plano de saúde coletivo e sinistralidade; orçamento de 2027 | 1 por semana |
+| **Cases** | Quem fez e deu certo (ou errado) | Chemitec, Hospital Dia Santo Amaro, depoimentos em texto; empresas conhecidas que mudaram a forma de cuidar | 1 a cada 2 semanas |
+| **Cultura** | Comportamentos que o colaborador e o RH já estão vivendo | homem que adia o médico; esgotamento do próprio RH; canetas emagrecedoras; obsessão por dormir bem com wearables; corrida e clubes de corrida; fim de ano e metas | 1 por semana |
+| **Notícias** | O que acabou de sair e o que significa | dados de afastamento por saúde mental; novas regras ou fiscalização; pesquisas sobre bets, burnout, IA no trabalho | quando houver, com fonte |
+| **Produto** | Como o Escritório do Cuidado resolve isso | método, as quatro frentes, o relatório para o RH, como começar | 1 por semana, de preferência amarrado a outro eixo |
+
+**Regra da combinação:** os melhores posts juntam dois eixos. Por exemplo,
+Cultura + Produto ("canetas emagrecedoras: por que o hábito ainda decide") ou
+Notícias + Mercado ("recorde de afastamentos e o que a NR-01 cobra").
+
+## 4. Anatomia do carrossel (8 a 10 slides)
+
+| Slide | Função | Como fazemos |
+| --- | --- | --- |
+| **1** | Quebra de padrão: parar o scroll | Tema em alta + tensão em até 12 palavras. Foto real (do espaço, do time ou de mãos e objetos) ou fundo chapado com uma palavra em destaque. Nada de banco de imagem genérico. |
+| **2 e 3** | Armadilha de retenção: a promessa de valor | O slide 2 funciona sozinho (o Instagram pode reexibir o carrossel a partir dele). Diz o que a pessoa vai entender até o fim. |
+| **4 a 6** | Entrega técnica pesada | É aqui que mora a autoridade: dado com fonte, explicação do médico ou da psicóloga, o que acontece no corpo e na rotina, o que acontece no RH. |
+| **7 e 8** | Gatilhos de salvamento | Checklist, resumo em 3 a 5 pontos, "o que o RH pode fazer amanhã". É o que as pessoas salvam e mandam. |
+| **Final** | CTA de conversa | Uma chamada só: "Comente CUIDADO", "Mande para quem cuida das pessoas na sua empresa" ou uma pergunta real. Nunca "curta e siga". |
+
+Isso cabe nos dois estilos que já temos: o institucional (modelo fairedu) para
+Mercado, Notícias e Cases, e o de pilares (duotone) para Cultura.
+
+## 5. Ganchos de capa no formato de tendência
+
+O formato deles (afirmação + "como" + virada) adaptado para o nosso tom:
+
+- "O homem que só vai ao médico quando dói: por que isso ainda é regra nas empresas?"
+- "As canetas emagrecedoras viraram assunto no refeitório. O que elas não resolvem sozinhas?"
+- "O RH está cuidando de todo mundo. E quem cuida do RH?"
+- "Todo mundo quer dormir melhor e mede o sono no relógio. Por que o cansaço continua?"
+- "A corrida virou o novo happy hour. O que isso diz sobre o que o seu time procura?"
+- "As bets chegaram ao expediente. O que o RH pode fazer sem invadir a vida de ninguém?"
+- "98% do time aceitou ser cuidado: o que a Chemitec fez diferente?"
+
+## 6. O que não fazemos (filtro antes de pegar uma tendência)
+
+- **A tendência tem que ter ligação real com saúde e trabalho.** Se precisar
+  forçar a ponte, não serve.
+- **Polêmica, só no nível das nossas posições** (`voice.md`, "Nossas
+  posições"). Nada de política partidária. Temas como a escala 6x1 só entram
+  pelo ângulo de saúde e descanso, e com aprovação da diretoria.
+- **Não pegamos carona em tragédia,** caso de doença de famoso ou morte.
+- **Medicamentos (canetas, por exemplo):** nunca falar de marca, dose ou
+  indicação. O ângulo é sempre hábito e acompanhamento. Revisão do Dr. Ronald
+  obrigatória (regras do CFM).
+- **Notícia sem fonte não vira post.** Todo número tem fonte e data no slide.
+  Se faltar, o roteiro sai com `{{número + fonte}}`.
+- **Nada de alarmismo** ("epidemia", "bomba-relógio") nem de promessa.
+- **Sem marcas de terceiros** na capa, a não ser em cases autorizados.
+
+## 7. As métricas de ouro, na nossa leitura semanal
+
+| Métrica do estudo | Como medir no Instagram | Meta inicial |
+| --- | --- | --- |
+| Precisão do gancho | Reels: retenção nos 3 primeiros segundos e taxa de pular. Carrossel: alcance em não seguidores. | Melhorar mês a mês sobre a linha de base |
+| Densidade de compartilhamento | Envios ÷ visualizações × 100 | Registrar por post e repetir os ganchos com maior número |
+| Profundidade de carrossel | O Instagram não mostra tempo por slide. Usar salvamentos e envios por alcance como sinal indireto. | Slide 2 sempre funcionando sozinho |
+| Peso de DM | Envios + conversas abertas pela palavra CUIDADO | Toda conversa respondida em até 24 h |
+
+**Ressalva:** os números do estudo (1,1 segundo, "14x mais que um like") vêm
+de um perfil de marketing, não de dados oficiais da Meta. Servem de
+orientação. Não citamos esses números em posts.
+
+## 8. Aplicação em novembro
+
+O calendário (`marketing/calendario-novembro/`) agora mostra o eixo de cada
+post.
+
+**Pautas novas, já no ângulo de tendência:**
+
+| Data | Formato | Eixo | Pauta | Ponte para o cuidado |
+| --- | --- | --- | --- | --- |
+| 16/11 | Reel | Cultura | Novembro Azul: por que o homem só vai ao médico quando dói? | Cuidado perto do trabalho tira a barreira. |
+| 18/11 | Carrossel | Notícias + Mercado | Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH | Guia de NR-01 pela palavra CUIDADO. Confirmar o dado mais recente do INSS (número e ano) e a situação da NR-01 com o Dr. Ronald. |
+| 19/11 | Foto única | Cases | Depoimento B1 | Identificação e alívio. |
+| 23/11 | Reel | Cultura | O RH está cuidando de todo mundo. E quem cuida do RH? | Mande para alguém do RH (envio por DM). |
+| 25/11 | Carrossel | Notícias + Cultura | As bets chegaram ao expediente: o que o RH pode fazer | Papel do serviço social no Escritório do Cuidado. Só pesquisas com fonte. Sem julgamento do colaborador. |
+| 27/11 | Carrossel | Cases + Produto | Case Chemitec: como 98% do time aceitou ser cuidado | Comente CUIDADO. Black Friday: sem linguagem de promoção. |
+| 30/11 | Reel | Cultura | Dezembro chegou: a corrida das metas também adoece | Uma prática de 1 minuto e um convite para cuidar antes do fim do ano. |
+
+**Sugestões para os posts que já existem** (o texto do calendário não mudou):
+
+- **11/11 "Estilo de vida é tratamento sério":** dá para abrir com a
+  tendência das canetas emagrecedoras. Capa: "Todo mundo fala das canetas.
+  Pouca gente fala do que vem depois." O ângulo é hábito e acompanhamento,
+  com revisão do Dr. Ronald.
+- **09/11 "Resultados reais, com o Dr. Ronald":** começar pela pergunta que o
+  RH está fazendo agora, na hora de fechar o orçamento de 2027: "Programa de
+  saúde dá retorno?"
+- **13/11 "Como levar a FairHealth à empresa":** amarrar ao momento: "O
+  orçamento de 2027 está sendo fechado agora. Onde entra o cuidado?"
+- **06/11 "Uma história desde 2009":** funciona como case de origem. A capa
+  pode partir de uma virada de mercado ("Em 2009, quase ninguém falava de
+  saúde mental no trabalho").
+
+## 9. Rotina para achar tendências (15 minutos por semana)
+
+Na reunião semanal de métricas, antes de fechar a pauta da semana seguinte:
+
+1. Olhar o que está em alta: notícias de RH e saúde (Valor, Exame, Você RH,
+   MIT Sloan Review Brasil), Google Trends Brasil, o que os colaboradores
+   perguntaram nos Stories e o que os médicos ouviram nos atendimentos (sempre
+   anonimizado).
+2. Passar cada tema pelo filtro da seção 6.
+3. Escolher o eixo e responder em uma frase: o que isso significa para o RH?
+4. Manter 20% da agenda livre para esses temas, como já prevê o plano.
+
+Para pesquisar Reels que estão funcionando no nicho, usar o `/ig-viral`.

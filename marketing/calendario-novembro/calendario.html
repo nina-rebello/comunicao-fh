@@ -32,9 +32,11 @@ h1 b{font-weight:800}
 .post.reel{background:var(--reel);color:var(--escuro)}
 .post.carrossel{background:var(--escuro);color:#fff}
 .post.foto{background:#fff;color:var(--escuro);border:2px solid var(--escuro)}
-.post.novo{padding-top:24px}
-.post.novo::after{content:'novo';position:absolute;top:6px;right:10px;font-size:13px;font-weight:700;letter-spacing:.5px;
-  text-transform:uppercase;opacity:.7}
+.post{padding-top:24px}
+.post::before{content:attr(data-eixo);position:absolute;top:6px;left:10px;font-size:12px;font-weight:700;letter-spacing:.6px;
+  text-transform:uppercase;opacity:.75}
+.post.novo::after{content:'novo';position:absolute;top:6px;right:10px;font-size:12px;font-weight:700;letter-spacing:.6px;
+  text-transform:uppercase;opacity:.75}
 .rodape{margin-top:26px;font-size:24px;color:var(--verde);font-weight:500;display:flex;justify-content:space-between}
 .rodape em{font-style:normal;opacity:.75}
 </style>
@@ -53,21 +55,23 @@ h1 b{font-weight:800}
 </section>
 <script>
 // Para editar: troque o texto ou o formato aqui (reel, carrossel ou foto).
+// [formato, texto, tamanho da fonte, novo?, eixo]
 // novo: true marca as pautas sugeridas para completar o mês.
+// eixo: mercado, cases, cultura, notícias ou produto (ver instagram/carrossel-de-tendencia.md).
 const posts = {
-  '2026-11-03': ['carrossel', 'O cuidado na prática (P – PIC) Argumentos Marília', 20],
-  '2026-11-04': ['reel', 'Quatro frentes, um Cuidado (P/ RH Plataforma entrega relatorio (menos sobre Plataforma mais sobre relatorio)', 14],
-  '2026-11-06': ['carrossel', 'Uma história desde 2009 Validar com RONALD (historio do escritorio e nao FH)', 16],
-  '2026-11-09': ['reel', 'Resultados reais, com o Dr. Ronald', 21],
-  '2026-11-11': ['carrossel', 'Estilo de vida é tratamento sério', 21],
-  '2026-11-13': ['carrossel', 'Como levar a FairHealth à empresa (comerical!!!! CTA!)', 18],
-  '2026-11-16': ['reel', 'Novembro Azul: ele só vai ao médico quando dói', 18, true],
-  '2026-11-18': ['carrossel', 'NR-01 não é só uma planilha: o que muda para o RH (guia via CUIDADO)', 16, true],
-  '2026-11-19': ['foto', 'Depoimento: “O processo não precisa ser perfeito para estar funcionando.”', 16, true],
-  '2026-11-23': ['reel', 'Quem cuida também precisa ser cuidado (para o RH)', 19, true],
-  '2026-11-25': ['carrossel', 'Saúde mental no trabalho: sinais que o líder pode notar (CVV 188)', 16, true],
-  '2026-11-27': ['carrossel', 'Programa de saúde que ninguém usa é custo (Chemitec: 98% de adesão) · CTA CUIDADO', 15, true],
-  '2026-11-30': ['reel', 'Fim de ano sem esgotamento: 1 Minuto de Cuidado', 19, true],
+  '2026-11-03': ['carrossel', 'O cuidado na prática (P – PIC) Argumentos Marília', 19, false, 'produto'],
+  '2026-11-04': ['reel', 'Quatro frentes, um Cuidado (P/ RH Plataforma entrega relatorio (menos sobre Plataforma mais sobre relatorio)', 13, false, 'produto'],
+  '2026-11-06': ['carrossel', 'Uma história desde 2009 Validar com RONALD (historio do escritorio e nao FH)', 15, false, 'cases'],
+  '2026-11-09': ['reel', 'Resultados reais, com o Dr. Ronald', 20, false, 'cases'],
+  '2026-11-11': ['carrossel', 'Estilo de vida é tratamento sério', 20, false, 'cultura'],
+  '2026-11-13': ['carrossel', 'Como levar a FairHealth à empresa (comerical!!!! CTA!)', 17, false, 'produto'],
+  '2026-11-16': ['reel', 'Novembro Azul: por que o homem só vai ao médico quando dói?', 16, true, 'cultura'],
+  '2026-11-18': ['carrossel', 'Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH (guia via CUIDADO)', 14, true, 'notícias'],
+  '2026-11-19': ['foto', 'Depoimento: “O processo não precisa ser perfeito para estar funcionando.”', 15, true, 'cases'],
+  '2026-11-23': ['reel', 'O RH está cuidando de todo mundo. E quem cuida do RH?', 16, true, 'cultura'],
+  '2026-11-25': ['carrossel', 'As bets chegaram ao expediente: o que o RH pode fazer (com o serviço social)', 14, true, 'notícias'],
+  '2026-11-27': ['carrossel', 'Case Chemitec: como 98% do time aceitou ser cuidado · CTA CUIDADO', 15, true, 'cases'],
+  '2026-11-30': ['reel', 'Dezembro chegou: a corrida das metas também adoece', 16, true, 'cultura'],
 };
 const datas = {
   '2026-11-02': 'Finados',
@@ -95,7 +99,7 @@ for (let s = 0; s < 6; s++) {
     const p = !fora && posts[iso(d)];
     if (p) {
       cont[p[0]]++;
-      h += `<div class="post ${p[0]}${p[3] ? ' novo' : ''}" style="font-size:${p[2]}px">${p[1]}</div>`;
+      h += `<div class="post ${p[0]}${p[3] ? ' novo' : ''}" data-eixo="${p[4] || ''}" style="font-size:${p[2]}px">${p[1]}</div>`;
     }
     if (!fora && datas[iso(d)]) h += `<span class="data">${datas[iso(d)]}</span>`;
     g.insertAdjacentHTML('beforeend', h + '</div>');
@@ -105,7 +109,7 @@ for (let s = 0; s < 6; s++) {
 const pl = (n, s, p) => `${n} ${n === 1 ? s : p}`;
 document.getElementById('rodape').innerHTML =
   `<span>${pl(cont.reel,'reel','reels')} &nbsp;·&nbsp; ${pl(cont.carrossel,'carrossel','carrosséis')} &nbsp;·&nbsp; ${pl(cont.foto,'foto única','fotos únicas')} &nbsp;·&nbsp; 1 reel e 2 posts estáticos por semana</span>` +
-  `<em>“novo” = pauta sugerida para completar o mês</em>`;
+  `<em>no canto de cada post: eixo narrativo · “novo” = pauta sugerida</em>`;
 </script>
 </body>
 </html>

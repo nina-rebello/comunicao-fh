@@ -71,3 +71,10 @@ Entram no plano semanal do `/ig-plan`: o carrossel de NR-01 (além da
 planilha), a opinião sobre sinistralidade ("pare de trocar de plano"), as
 perguntas da caixa dos Stories (#16 Verbatim Question) e a OFFER a cada
 15 dias.
+
+## Conteúdo de tendência
+
+A partir de novembro, cada post leva um dos 5 eixos narrativos (mercado,
+cases, cultura, notícias e produto), e os carrosséis seguem a anatomia de
+tendência: o tema em alta, o que ele significa para o RH e como cuidamos.
+Ver `carrossel-de-tendencia.md`.
