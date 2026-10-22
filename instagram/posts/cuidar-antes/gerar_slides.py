@@ -235,10 +235,10 @@ for i, (n, nome, tag, txt) in enumerate(ETAPAS):
     y = Y0 + i * PASSO
     etapas += ('<div style="left:96px;top:%dpx;width:56px;height:56px;border-radius:28px;background:var(--tif)"></div>\n  '
                '<p style="left:96px;top:%dpx;width:56px;font-size:28px;line-height:56px;font-weight:800;text-align:center">%s</p>\n  '
-               '<p style="left:180px;top:%dpx;width:804px;font-size:32px;line-height:40px;font-weight:800">%s '
-               '<span style="font-size:18px;letter-spacing:.14em;text-transform:uppercase;color:var(--vlogo)">· %s</span></p>\n  '
+               '<p style="left:180px;top:%dpx;width:520px;font-size:32px;line-height:40px;font-weight:800">%s</p>\n  '
+               '<p style="left:684px;top:%dpx;width:300px;font-size:18px;line-height:40px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;text-align:right;color:var(--vlogo)">%s</p>\n  '
                '<p style="left:180px;top:%dpx;width:804px;font-size:25px;line-height:33px">%s</p>\n  '
-               % (y, y, n, y + 6, nome, tag, y + 48, txt))
+               % (y, y, n, y + 6, nome, y + 6, tag, y + 48, txt))
 MOTIVOS = ['Estrutura permanente, não campanha pontual.',
            'Perto da rotina: ninguém depende da própria iniciativa.',
            'Relatórios anonimizados do grupo, sem dado individual.']
