@@ -13,7 +13,7 @@
 import sys
 
 SAIDA = sys.argv[1]
-N = 7
+N = 8
 
 CSS = r'''
 @font-face{font-family:Instrument;font-style:italic;src:url(../../marca/fontes/instrument-serif-latin-400-italic.woff2)}
@@ -225,8 +225,33 @@ S.append(('c06', 'c', 'seu time precisa de alguém para ouvir', '''<p class="rot
   <p class="corpo" style="left:96px;top:890px;width:888px">Você não consegue ouvir todo mundo. Mas pode decidir que <b style="font-weight:800">todos tenham com quem falar</b>:</p>
   ''' + tags))
 
-# 7 · final: logo, a decisão de quem lidera, o valor da marca e a chamada
-S.append(('c07', 't', 'final: cuidar antes é uma decisão de quem lidera', '''<img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:410px;top:230px;width:260px;height:260px">
+# 7 · como funciona e por que ter (v6, 22/10): as quatro etapas do Escritório do Cuidado (essencia.md, dinâmica das
+#   consultas), cada uma com a etiqueta acolher/prevenir do slide 4, e um bloco verde com três motivos para ter o
+#   Escritório na empresa. Só divs e textos, para o Canva importar tudo como forma e texto nativos.
+ETAPAS = [('1', 'Consulta', 'acolher', 'Médico ou psicólogo, com anamnese de Medicina do Estilo de Vida e a pergunta “O que é importante para você?”.'), ('2', 'Medição', 'prevenir', 'Bioimpedância e smartband por alguns dias, na rotina real.'), ('3', 'Plano', 'prevenir', 'Plano de cuidado individual, apresentado e explicado no retorno.'), ('4', 'Acompanhamento', 'acolher e prevenir', 'Plantões de médicos e psicólogos e workshops no programa.')]
+Y0, PASSO = 410, 124
+etapas = '<div style="left:122px;top:%dpx;width:4px;height:%dpx;background:var(--tif)"></div>\n  ' % (Y0 + 28, PASSO * 3)
+for i, (n, nome, tag, txt) in enumerate(ETAPAS):
+    y = Y0 + i * PASSO
+    etapas += ('<div style="left:96px;top:%dpx;width:56px;height:56px;border-radius:28px;background:var(--tif)"></div>\n  '
+               '<p style="left:96px;top:%dpx;width:56px;font-size:28px;line-height:56px;font-weight:800;text-align:center">%s</p>\n  '
+               '<p style="left:180px;top:%dpx;width:804px;font-size:32px;line-height:40px;font-weight:800">%s '
+               '<span style="font-size:18px;letter-spacing:.14em;text-transform:uppercase;color:var(--vlogo)">· %s</span></p>\n  '
+               '<p style="left:180px;top:%dpx;width:804px;font-size:25px;line-height:33px">%s</p>\n  '
+               % (y, y, n, y + 6, nome, tag, y + 48, txt))
+MOTIVOS = ['Estrutura permanente, não campanha pontual.',
+           'Perto da rotina: ninguém depende da própria iniciativa.',
+           'Relatórios anonimizados do grupo, sem dado individual.']
+motivos = ''.join('<p style="left:136px;top:%dpx;width:808px;font-size:25px;line-height:33px;color:var(--creme)">— %s</p>\n  '
+                  % (1014 + i * 54, m) for i, m in enumerate(MOTIVOS))
+S.append(('c07', 'c', 'como o Escritório do Cuidado funciona e por que ter um', '''<p class="rot">Como funciona</p>
+  <p class="tit" style="left:96px;top:150px;width:888px;font-size:58px;line-height:66px">Como o Escritório do Cuidado <span class="k">funciona</span> e por que ter um na sua empresa.</p>
+  ''' + etapas + '''<div style="left:96px;top:930px;width:888px;height:268px;border-radius:28px;background:var(--verde)"></div>
+  <p style="left:136px;top:964px;width:808px;font-size:20px;line-height:28px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--tif)">Por que na sua empresa</p>
+  ''' + motivos))
+
+# 8 · final: logo, a decisão de quem lidera, o valor da marca e a chamada
+S.append(('c08', 't', 'final: cuidar antes é uma decisão de quem lidera', '''<img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:410px;top:230px;width:260px;height:260px">
   <p class="tit" style="left:96px;top:580px;width:888px;text-align:center">Cuidar antes é uma decisão <span class="k">de quem lidera</span>.</p>
   <p class="nota k" style="left:146px;top:860px;width:788px;text-align:center;color:var(--vlogo)">Fazemos o certo pelos motivos certos.</p>
   <p class="nota" style="left:146px;top:930px;width:788px;text-align:center">Conheça o Escritório do Cuidado no link da bio.</p>'''))

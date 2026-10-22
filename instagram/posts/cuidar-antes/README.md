@@ -17,6 +17,9 @@
 > | 6 · alguém para ouvir | Seu time precisa de *alguém para ouvir*. | Você não consegue ouvir todo mundo. Mas pode decidir que todos tenham com quem falar: perto, dentro da empresa, com sigilo. *É para isso que existe o Escritório do Cuidado.* |
 > | 7 · como funciona e por que ter | Como o Escritório do Cuidado *funciona* e por que ter um na sua empresa. | **Como funciona:** 1 · **Consulta** (acolher): médico ou psicólogo, com anamnese de Medicina do Estilo de Vida e a pergunta "O que é importante para você?". 2 · **Medição** (prevenir): bioimpedância e smartband por alguns dias, na rotina real. 3 · **Plano** (prevenir): plano de cuidado individual, explicado no retorno. 4 · **Acompanhamento** (acolher e prevenir): plantões de médicos e psicólogos e workshops ao longo do programa. **Por que na sua empresa:** é estrutura permanente, não campanha pontual; está perto da rotina, e ninguém depende de tomar a iniciativa sozinho; você acompanha o grupo em relatórios anonimizados, sem nenhum dado individual. |
 >
+> **Arte (22/10):** slide `c07` no gerador (o final virou `c08`). No Canva, entrou como página 7 do design
+> DAHYkUJXrBw, que a Nina já tinha enxugado para a sequência 1c, 2b, 3, 4b, 5, 6 e final.
+>
 > Fonte da parte técnica: `essencia.md` (dinâmica das consultas), `voice.md` e `posts/wearables/README.md`. Fonte do
 > "por que": `essencia.md` ("infraestrutura, não programa pontual", "proximidade gera adesão") e o tom de voz do
 > plano de marketing ("sem depender de que o colaborador tome a iniciativa sozinho").
