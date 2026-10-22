@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel Geração Z e desconexão</title>
+<link rel="stylesheet" href="../../marca/base.css">
+<style>
+/* Tom editorial (referência @brandsdecoded_): manchete sem serifa, texto em serifa, dado com fonte. Cores da fairhealth. */
+@font-face{font-family:"Instrument Serif";font-style:normal;src:url(../../marca/fontes/instrument-serif-latin-400-normal.woff2)}
+@font-face{font-family:"Instrument Serif";font-style:italic;src:url(../../marca/fontes/instrument-serif-latin-400-italic.woff2)}
+:root{--papel:#FBF8F3;--noite:#14201E;--tinta:#161A19}
+.gz{text-align:left;align-items:stretch;justify-content:flex-start;padding:0;font-variant-numeric:lining-nums}
+.gz.papel{background:var(--papel);color:var(--tinta);--acento:var(--escuro)}
+.gz.noite{background:var(--noite);color:#F3F1EC;--acento:var(--agua)}
+.gz.verde{background:var(--escuro);color:#fff;--acento:var(--menta)}
+.gz.foto{background-color:#2a3533;color:#fff;--acento:var(--menta)}
+.gz.foto::before{background:linear-gradient(rgba(10,16,15,.15) 30%,rgba(10,16,15,.9) 78%)}
+.topo{position:absolute;top:52px;left:72px;right:72px;display:flex;justify-content:space-between;font-size:22px;font-weight:500;opacity:.75}
+.m{font-weight:700;letter-spacing:-2.5px;line-height:1.04}
+.s{font-family:"Instrument Serif",serif;font-weight:400;letter-spacing:-.3px;line-height:1.18}
+.s i{font-style:italic}
+.ac{color:var(--acento)}
+.bloco{position:absolute;left:72px;right:72px}
+.fonte{position:absolute;left:72px;right:72px;bottom:52px;font-size:20px;opacity:.6;line-height:1.35}
+.regua{border-top:2px solid currentColor;opacity:.25;margin:34px 0}
+/* vaga de foto: trocar por style="background-image:url(...)" quando a foto existir */
+.vaga{background:repeating-linear-gradient(135deg,#3b4745 0 22px,#35413f 22px 44px);display:flex;align-items:flex-end;padding:22px;color:#fff;font-size:20px;font-weight:600;letter-spacing:.5px}
+.vaga>span{background:rgba(0,0,0,.45);padding:8px 12px;border-radius:6px;max-width:100%}
+.gz.foto.vaga{align-items:stretch;padding:0}
+.gz.foto.vaga>span.aviso{position:absolute;top:110px;left:72px;right:72px;background:rgba(0,0,0,.45);padding:10px 14px;border-radius:6px;font-size:20px;font-weight:600}
+.img{background-size:cover;background-position:center}
+.lista-gz{list-style:none;font-size:46px}
+.lista-gz li{padding:24px 0;border-bottom:2px solid rgba(255,255,255,.18);display:flex;gap:26px}
+.lista-gz li:last-child{border:0}
+.lista-gz li b{font-style:normal;color:var(--acento);font-weight:800;min-width:40px}
+.papel .lista-gz li{border-color:rgba(0,0,0,.14)}
+.logo-c{width:120px;border-radius:50%}
+</style></head><body>
+
+<!-- 1 · CAPA -->
+<section class="slide gz foto vaga" id="gz-01">
+  <span class="aviso">FOTO: jovem de 20 e poucos anos no trabalho (fábrica, balcão ou escritório), olhar distante, luz natural. Sem crachá ou logo. Banco de imagem com licença ou sessão de fotos.</span>
+  <div class="topo"><span>fairhealth · Cuidado em números</span><span>2026 //</span></div>
+  <div class="bloco" style="bottom:120px">
+    <h2 class="s" style="font-size:104px;line-height:1.0">O olhar vazio na reunião <i class="ac">não é preguiça.</i></h2>
+    <p class="s" style="font-size:40px;margin-top:30px;opacity:.9">O que uma pesquisa com 1.500 brasileiros diz sobre os jovens no trabalho, e o que a empresa pode fazer com isso.</p>
+  </div>
+</section>
+
+<!-- 2 · PROMESSA (funciona sozinho) -->
+<section class="slide gz papel" id="gz-02">
+  <div class="topo"><span>fairhealth · Cuidado em números</span><span>2026 //</span></div>
+  <div class="bloco" style="top:130px">
+    <h2 class="m" style="font-size:62px">Entre fevereiro e março de 2026, a pesquisadora Renata Rivetti e o Instituto Ideia perguntaram a 1.500 brasileiros o quanto estavam satisfeitos com a vida.</h2>
+  </div>
+  <div class="bloco vaga" style="top:560px;height:420px"><span>FOTO: grupo de jovens em um ambiente real (rua, refeitório, intervalo)</span></div>
+  <div class="bloco" style="top:1010px">
+    <div class="regua" style="margin-top:0"></div>
+    <p class="s" style="font-size:46px">Na faixa de 16 a 24 anos, <span class="ac">só 33% disseram estar muito satisfeitos.</span> Dos 25 anos para cima, 47,9%. <b style="font-style:normal">Nenhuma outra idade respondeu tão baixo.</b></p>
+  </div>
+</section>
+
+<!-- 3 · O DADO DO TRABALHO -->
+<section class="slide gz noite" id="gz-03">
+  <div class="topo"><span>fairhealth · Cuidado em números</span><span>2026 //</span></div>
+  <div class="bloco" style="top:130px">
+    <h2 class="m" style="font-size:70px">No trabalho, a distância entre os jovens e o resto do país <span class="ac">passa do dobro.</span></h2>
+  </div>
+  <div class="bloco" style="top:470px;right:auto;width:560px">
+    <div class="m ac" style="font-size:170px;letter-spacing:-6px;line-height:1">46,7%</div>
+    <p class="m" style="font-size:40px;font-weight:500;letter-spacing:-.5px;line-height:1.25;margin-top:18px">dos jovens de 16 a 24 anos dizem que o trabalho os deixa mais infelizes. Nas outras idades, a resposta cai para 20,5%.</p>
+  </div>
+  <div class="bloco vaga" style="top:470px;left:auto;width:340px;height:520px"><span>FOTO: jovem trabalhando, de perfil</span></div>
+  <div class="bloco" style="top:1060px">
+    <p class="s" style="font-size:40px">É a fase do estágio e do primeiro emprego. <span class="ac">É também a fase em que a relação com o trabalho se forma.</span></p>
+  </div>
+</section>
+
+<!-- 4 · COM QUEM CONTAR -->
+<section class="slide gz foto vaga" id="gz-04">
+  <span class="aviso">FOTO: jovem sozinho em transporte público ou intervalo, olhando pela janela.</span>
+  <div class="topo"><span>fairhealth · Cuidado em números</span><span>2026 //</span></div>
+  <div class="bloco" style="bottom:110px">
+    <h2 class="m" style="font-size:76px">Na hora difícil, mais de 1 em cada 5 jovens diz não ter com quem contar.</h2>
+    <p class="s" style="font-size:40px;margin-top:30px">Entre os mais velhos, 88,5% têm alguém por perto. Na mesma faixa, <span class="ac">27% vivem preocupados com frequência</span> (18% nas outras idades), e 71,1% já se sentiram tristes depois de usar as redes sociais.</p>
+  </div>
+</section>
+
+<!-- 5 · A TENDÊNCIA -->
+<section class="slide gz papel" id="gz-05">
+  <div class="topo"><span>fairhealth · Cuidado em números</span><span>2026 //</span></div>
+  <div class="bloco" style="top:190px">
+    <p class="m ac" style="font-size:28px;letter-spacing:3px;text-transform:uppercase">Enquanto isso, na internet</p>
+    <h2 class="m" style="font-size:110px;margin-top:30px">A desconexão virou meme.</h2>
+    <div class="regua"></div>
+    <p class="s" style="font-size:60px"><i>Gen Z stare</i>: o olhar vazio na reunião. <i>Task masking</i>: parecer ocupado para não ser cobrado.</p>
+    <p class="s" style="font-size:60px;margin-top:44px">É fácil rir, ou rotular uma geração inteira. Mas o meme descreve um sintoma: <span class="ac">gente desconectada do que faz, e sem com quem dividir o peso.</span></p>
+  </div>
+</section>
+
+<!-- 6 · ENTREGA TÉCNICA -->
+<section class="slide gz noite" id="gz-06">
+  <div class="topo"><span>fairhealth · Cuidado em números</span><span>2026 //</span></div>
+  <div class="bloco" style="top:150px">
+    <h2 class="m" style="font-size:72px">Desconexão tem causa. <span class="ac">E nenhuma delas é a idade.</span></h2>
+    <ul class="lista-gz" style="margin-top:56px;font-size:52px">
+      <li><b>01</b><span>Sobrecarga e falta de autonomia</span></li>
+      <li><b>02</b><span>Falta de sentido no que faz</span></li>
+      <li><b>03</b><span>Ansiedade e sono ruim</span></li>
+      <li><b>04</b><span>Aperto financeiro</span></li>
+      <li><b>05</b><span>Ninguém por perto para conversar</span></li>
+    </ul>
+    <p class="s" style="font-size:44px;margin-top:50px;opacity:.9">Vários desses são riscos psicossociais, que a NR-01 agora pede para a empresa gerenciar. Rótulo, palestra uma vez por ano e mais um app que ninguém abre não chegam a nenhum deles.</p>
+  </div>
+</section>
+
+<!-- 7 · PRODUTO -->
+<section class="slide gz foto" id="gz-07" style="background-image:url(../../marca/espaco/sala-atendimento-e-espera.jpg)">
+  <div class="topo"><span>fairhealth · Cuidado em números</span><span>2026 //</span></div>
+  <div class="bloco" style="bottom:110px">
+    <p class="m ac" style="font-size:28px;letter-spacing:3px;text-transform:uppercase">No Escritório do Cuidado</p>
+    <h2 class="s" style="font-size:84px;margin-top:22px;line-height:1.02">Todo atendimento começa com a mesma pergunta: <i class="ac">o que importa para você?</i></h2>
+    <p class="s" style="font-size:40px;margin-top:30px">Médico, psicólogo e assistente social dentro da empresa, perto de quem precisa. A conversa vira um plano de cuidado feito para cada pessoa, de qualquer idade.</p>
+  </div>
+</section>
+
+<!-- 8 · RH + SALVAMENTO -->
+<section class="slide gz papel" id="gz-08">
+  <div class="topo"><span>fairhealth · Cuidado em números</span><span>2026 //</span></div>
+  <div class="bloco" style="top:150px">
+    <h2 class="m" style="font-size:72px">O RH não fica sabendo o que cada um contou.</h2>
+    <p class="s" style="font-size:46px;margin-top:26px">Recebe indicadores do grupo, anonimizados, para agir antes que a desconexão vire pedido de demissão ou afastamento.</p>
+    <div class="regua"></div>
+    <p class="m ac" style="font-size:28px;letter-spacing:3px;text-transform:uppercase">Para o líder, a partir de amanhã</p>
+    <p class="m" style="font-size:52px;margin-top:16px;letter-spacing:-1px">Três perguntas no lugar do rótulo:</p>
+    <ul class="lista-gz" style="margin-top:20px;font-size:58px">
+      <li><b>1</b><span class="s">O que está pesando para você?</span></li>
+      <li><b>2</b><span class="s">O que faria sentido aqui?</span></li>
+      <li><b>3</b><span class="s"><i>O que importa para você?</i></span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 9 · CHAMADA -->
+<section class="slide gz verde" id="gz-09">
+  <div class="topo"><span>fairhealth · Cuidado em números</span><span>2026 //</span></div>
+  <div class="bloco" style="top:260px">
+    <h2 class="s" style="font-size:112px;line-height:1.0">Geração Z não é o problema. <i class="ac">Falta de cuidado é.</i></h2>
+    <p class="m" style="font-size:42px;font-weight:500;letter-spacing:-.5px;line-height:1.3;margin-top:50px">Comente <b style="font-style:normal;color:var(--acento)">CUIDADO</b> e mostramos como o Escritório do Cuidado funciona na sua empresa.</p>
+    <p class="s" style="font-size:36px;margin-top:26px;opacity:.85">Ou mande para um líder que precisa ler isto.</p>
+  </div>
+  <img class="logo-c" src="../../marca/logo-circulo.png" alt="" style="position:absolute;left:72px;bottom:150px">
+  <p class="fonte" style="opacity:.75">Fonte: Mapa da Felicidade Real dos Brasileiros 2026, Renata Rivetti e Instituto Ideia. 1.500 entrevistas em todas as regiões, de 20/02 a 01/03/2026, margem de erro de 2,5 pontos.</p>
+</section>
+
+</body></html>
