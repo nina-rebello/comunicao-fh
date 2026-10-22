@@ -254,7 +254,7 @@ S.append(('c07', 'c', 'como o Escritório do Cuidado funciona e por que ter um',
 S.append(('c08', 't', 'final: cuidar antes é uma decisão de quem lidera', '''<img src="../../marca/logo-circulo.png" alt="fairhealth" style="left:410px;top:230px;width:260px;height:260px">
   <p class="tit" style="left:96px;top:580px;width:888px;text-align:center">Cuidar antes é uma decisão <span class="k">de quem lidera</span>.</p>
   <p class="nota k" style="left:146px;top:860px;width:788px;text-align:center;color:var(--vlogo)">Fazemos o certo pelos motivos certos.</p>
-  <p class="nota" style="left:146px;top:930px;width:788px;text-align:center">Conheça o Escritório do Cuidado no link da bio.</p>'''))
+  <p class="nota" style="left:146px;top:930px;width:788px;text-align:center">Conheça o Escritório do Cuidado no link da bio.<br>Curta, comente e compartilhe com quem lidera com você.</p>'''))
 
 
 # as alternativas (1b, 2b, 4b...) entram logo depois do slide de mesmo número

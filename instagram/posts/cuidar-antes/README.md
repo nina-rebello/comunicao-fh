@@ -22,6 +22,10 @@
 > estresse e recuperação, dentro e fora da empresa; a etapa 3 diz que consulta e dados juntos mostram onde o cuidado
 > precisa começar. As emoções aparecem na consulta, não na pulseira.
 >
+> **Final (22/10):** o último slide ganhou "Curta, comente e compartilhe com quem lidera com você." No Canva, a
+> paginação passou a ter 8 pontos e os círculos do slide 5 viraram anéis nativos (os de antes não apareciam no
+> editor).
+>
 > **Arte (22/10):** slide `c07` no gerador (o final virou `c08`). No Canva, entrou como página 7 do design
 > DAHYkUJXrBw, que a Nina já tinha enxugado para a sequência 1c, 2b, 3, 4b, 5, 6 e final.
 >
