@@ -53,7 +53,30 @@ novo. Antes de aprovar uma pauta, ela precisa passar nas três perguntas:
 3. **A chamada leva para o Escritório?** "Comente CUIDADO", ou mandar para o
    RH. Nunca só "salve" ou "siga".
 
-### Exemplo completo: sleepmaxxing (carrossel de 25/11)
+### Exemplo completo: Geração Z e desconexão (carrossel de 25/11)
+
+Por que este tema: fala direto com quem compra (RH e liderança), toca em
+engajamento e retenção, e cai no centro da marca, porque a nossa pergunta-guia
+é "O que importa para você?". Eixos: Cultura + Produto. Pilares: saúde mental
+e propósito.
+
+| Slide | Função | Conteúdo |
+| --- | --- | --- |
+| 1 | Capa | **O olhar vazio na reunião não é preguiça.** Foto: mesa de reunião, pessoa jovem de costas ou de perfil (sem rosto identificável), ou fundo chapado. |
+| 2 | Promessa (funciona sozinho) | Antes de rotular uma geração, vale perguntar o que esse olhar está dizendo. E o que a empresa pode fazer com isso. |
+| 3 | A tendência | "Gen Z stare" e "task masking" (fingir que está ocupado) viralizaram. E só 23% dos jovens profissionais se dizem engajados (Gallup, citado pela Exame: confirmar na fonte original). |
+| 4 | Entrega técnica | Desconexão tem causa: sobrecarga, falta de sentido, ansiedade, sono ruim, aperto financeiro, pouca autonomia. Vários desses são riscos psicossociais que a NR-01 manda gerenciar. |
+| 5 | Entrega técnica | O que não resolve: rótulo, palestra motivacional, mais um app de bem-estar que ninguém abre. |
+| 6 | **Produto** | No Escritório do Cuidado, todo atendimento começa com a mesma pergunta: **o que importa para você?** Médico, psicólogo e assistente social perto do time, com escuta e um plano feito para cada pessoa, de qualquer geração. |
+| 7 | **Produto para o RH** | O RH não fica sabendo o que cada um contou. Recebe indicadores do grupo, anonimizados, para agir antes que a desconexão vire pedido de demissão ou afastamento. |
+| 8 | Salvamento | Três perguntas para o líder fazer em vez de rotular: O que está pesando? O que faria sentido aqui? O que importa para você? |
+| 9 | Chamada | Geração Z não é o problema. Falta de cuidado é. **Comente CUIDADO**, ou mande para um líder que precisa ler isto. |
+
+**Cuidados:** nada de estereótipo nem de piada com a geração; o tom é de
+quem defende o jovem, não de quem reclama dele. Confirmar o dado do Gallup e
+o que o relatório para o RH mostra (slide 7) antes de publicar.
+
+### Exemplo: sleepmaxxing (guardado para dezembro, semana de Tecnologia)
 
 | Slide | Função | Conteúdo |
 | --- | --- | --- |
@@ -151,7 +174,7 @@ post.
 | 18/11 | Carrossel | Notícias + Mercado | Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH | Guia de NR-01 pela palavra CUIDADO. Confirmar o dado mais recente do INSS (número e ano) e a situação da NR-01 com o Dr. Ronald. |
 | 19/11 | Foto única | Cases | Depoimento A2: "Os meus hábitos mudaram, e não foi um sacrifício." | Mostra mudança real sem falar de resultado clínico. Logo coração. |
 | 23/11 | Reel | Notícias + Cultura | O RH cuida de todo mundo. Quem cuida do RH? | Base: Panorama da Saúde Emocional do RH 2026 (Flash e RH Summit, lançado no CONARH). Chamada: mande para alguém do RH. |
-| 25/11 | Carrossel | Cultura + Produto | Sleepmaxxing: seu sono virou nota no relógio. E o cansaço continua? | Nota não é cuidado, acompanhamento é: a smartband entra na consulta e o RH recebe só dados do grupo. Roteiro completo na seção 2. |
+| 25/11 | Carrossel | Cultura + Produto | Geração Z e desconexão: o olhar vazio na reunião não é preguiça | "O que importa para você?" como resposta à desconexão; o RH recebe só dados do grupo. Roteiro completo na seção 2. O sleepmaxxing fica para dezembro. |
 | 27/11 | Carrossel | Cases + Produto | Case Chemitec: como 98% do time aceitou ser cuidado | Comente CUIDADO. Black Friday: sem linguagem de promoção. |
 | 30/11 | Reel | Cultura | Dezembro chegou: a corrida das metas também adoece | Uma prática de 1 minuto e um convite para cuidar antes do fim do ano. |
 
