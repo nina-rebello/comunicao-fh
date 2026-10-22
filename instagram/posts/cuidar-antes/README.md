@@ -1,46 +1,8 @@
 # Post de sex 23/10: Cuidar da saúde não deveria começar quando algo vai mal
 
-> **v5 (22/10), proposta, aguardando a Nina.** A v4 parecia uma lista de ideias soltas. A Nina pediu:
-> - uma história com começo, meio e fim;
-> - mais detalhe técnico e operacional de como o cuidado acontece;
-> - manter a base da v4 (antes e não depois, acolher x prevenir, alguém para ouvir, o mesmo peso, a decisão de quem
->   lidera);
-> - **no máximo 8 slides, sempre.**
+> **v5 (22/10), descartada.** A Nina não queria uma história com personagem, e sim uma linha de raciocínio que
+> ligue um slide ao outro. Voltamos para a v4.
 >
-> O fio é a capa: a pessoa debruçada na mesa fazendo "ok". O post começa no "tudo bem" que não é verdade e termina no
-> "tudo bem" que passa a ser.
-
-## Roteiro v5 (8 slides)
-
-| Slide | Ato | Título | Apoio |
-| --- | --- | --- | --- |
-| 1 · capa | começo | Cuidar das pessoas não deveria começar *quando algo vai mal*. | Ilustração da mulher exausta fazendo "ok". Etiqueta: Para quem lidera |
-| 2 · o "tudo bem" | começo | Pergunte a alguém do seu time como vai. A resposta quase sempre é *"tudo bem"*. | Mas antes de algo ir mal vêm os sinais: a rotina apertada, a pressão, o sono que não descansa, o que pesa. *Ninguém vê, porque ninguém pergunta.* |
-| 3 · a virada | começo | Na estratégia, você não espera o problema aparecer. | *Por que esperar para cuidar das pessoas?* Cuidar antes tem duas partes, e elas não são a mesma coisa. |
-| 4 · a diferença | meio | Acolher e prevenir *não são a mesma coisa*. | Dois cartões. **Acolher é ouvir:** olha para como a pessoa está hoje. **Prevenir é agir antes:** olha para o que vem pela frente. |
-| 5 · acolher, na prática | meio | Tudo começa com *uma conversa*. | No Escritório do Cuidado, um espaço dentro da empresa: consulta com médico ou psicólogo, presencial ou remota, com sigilo. A anamnese segue o questionário da Medicina do Estilo de Vida e começa por uma pergunta: *"O que é importante para você?"* Etiqueta: acolher |
-| 6 · prevenir, na prática | meio | Depois, *medir para entender a rotina de verdade*. | Bioimpedância na consulta. Uma smartband emprestada por alguns dias registra sono, atividade e frequência cardíaca fora do consultório. Os dados viram um plano de cuidado individual nos 7 pilares da MEV, apresentado e explicado no retorno. Etiqueta: prevenir |
-| 7 · o cuidado continua | meio | E o cuidado *não para na primeira consulta*. | Plantões alternados de médicos e psicólogos, workshops nos pilares da MEV e acompanhamento de perto, porque um não funciona sem o outro. A liderança acompanha o grupo em relatórios anonimizados: nenhum dado individual. Etiquetas: acolher + prevenir |
-| 8 · final | fim | Cuidar antes é uma decisão *de quem lidera*. | *Para que o "tudo bem" seja verdade.* Fazemos o certo pelos motivos certos. Conheça o Escritório do Cuidado no link da bio. |
-
-### De onde vem a parte técnica (v5)
-
-- Dinâmica das consultas (`essencia.md`, "Como funciona"): anamnese pelo questionário MEV, a pergunta, bioimpedância,
-  smartband por empréstimo, plano individual nos pilares, retorno, plantões alternados, workshops, relatórios
-  anonimizados para o RH.
-- Presencial ou remoto e a equipe: `voice.md` ("O que vendemos").
-- O que a smartband mede: `posts/wearables/README.md` (sono, atividade física e frequência cardíaca).
-- 7 pilares: cartilha do Escritório do Cuidado (`referencias.md`).
-
-### Validar antes de publicar (v5)
-
-- Com o Dr. Ronald: sigilo, "nenhum dado individual", o que a smartband mede e os nomes dos 7 pilares (pendente desde
-  08/10).
-- "Alguns dias" no lugar de "48 h": sem números no post.
-- Sem promessa de resultado (CFM).
-
----
-
 > **v4 (19/10), aprovada pela Nina.** Nova tentativa com o mesmo briefing da v3:
 > - cuidar antes, não depois, e não só da saúde;
 > - acolhimento e prevenção com o mesmo peso, mostrando a diferença entre os dois;
