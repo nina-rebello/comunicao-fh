@@ -22,6 +22,24 @@
 > estresse e recuperação, dentro e fora da empresa; a etapa 3 diz que consulta e dados juntos mostram onde o cuidado
 > precisa começar. As emoções aparecem na consulta, não na pulseira.
 >
+> **Legenda final (23/10)**, com tudo o que entrou no carrossel de 8 slides:
+>
+> ```
+> Você não espera o problema aparecer para cuidar da estratégia. Por que esperar para cuidar das pessoas?
+>
+> Cuidar antes tem duas partes, com o mesmo peso. Acolher é ouvir e entender como cada pessoa está hoje. Prevenir é agir antes que algo vá mal. Uma sem a outra não se sustenta: prevenção sem acolhimento vira campanha que ninguém usa, e acolhimento sem prevenção vira conversa que não muda a rotina.
+>
+> No Escritório do Cuidado, as duas acontecem dentro da sua empresa. Começa com uma consulta com médico ou psicólogo e uma pergunta: "o que é importante para você?". Depois, bioimpedância e alguns dias de smartband mostram sono, estresse e recuperação, dentro e fora do trabalho. Consulta e dados juntos indicam onde o cuidado precisa começar e viram um plano individual, com acompanhamento de perto.
+>
+> Para a liderança, é estrutura permanente, não campanha pontual. E você acompanha o grupo em relatórios anonimizados, sem nenhum dado individual.
+>
+> Cuidar antes é uma decisão de quem lidera. Fazemos o certo pelos motivos certos.
+>
+> Encaminhe para o seu diretor de RH e conheça o Escritório do Cuidado no link da bio.
+>
+> #fairhealth #lideranca #gestaodepessoas #saudecorporativa #medicinapreventiva
+> ```
+>
 > **Final (22/10):** o último slide ganhou "Curta, comente e compartilhe com quem lidera com você." No Canva, a
 > paginação passou a ter 8 pontos e os círculos do slide 5 viraram anéis nativos (os de antes não apareciam no
 > editor).
