@@ -46,8 +46,9 @@
 .cta b{font-weight:800}
 
 
-.selo{display:block;font-size:30px;font-weight:700;line-height:58px;white-space:nowrap}
-.selo img{display:inline-block;width:58px;height:58px;border-radius:50%;vertical-align:middle;margin-right:16px}
+.selo{position:relative;height:58px;font-size:30px;font-weight:700;line-height:58px;white-space:nowrap}
+.selo img{position:absolute;left:0;top:0;width:58px;height:58px;border-radius:50%}
+.selo span{position:absolute;left:74px;top:0}
 </style></head><body>
 
 <!-- 1 · CAPA: diz direto o que o post entrega. Foto colorida, quebra o padrão do feed. -->
@@ -57,7 +58,7 @@
   <div class="topo"><span>@fairhealth.br</span><span>01/06</span></div>
   <div class="abs" style="left:72px;right:72px;bottom:220px">
     <div class="selo" style="margin-bottom:34px"><img src="../../marca/logo-circulo.png" alt=""><span>fairhealth</span></div>
-    <h1 class="h" style="font-size:100px;letter-spacing:-3px;line-height:1.12">4 números que mostram que<br><span class="pilula">prevenção é</span><br><span class="pilula">investimento.</span></h1>
+    <h1 class="h" style="font-size:100px;letter-spacing:-3px;line-height:1.12">4 números que mostram que<br><span class="pilula">&nbsp;prevenção é&nbsp;</span><br><span class="pilula">&nbsp;investimento.&nbsp;</span></h1>
   </div>
 </section>
 
@@ -125,7 +126,10 @@
   <div class="topo"><span>@fairhealth.br</span><span>06/06</span></div>
   <div class="abs" style="left:72px;right:72px;top:260px">
     <h2 class="h" style="font-size:92px;letter-spacing:-3px">Quanto a sua empresa gasta com o que <span class="ac">dava para evitar?</span></h2>
-    <p class="txt" style="font-size:40px;margin-top:56px;border-left:6px solid var(--menta);padding-left:30px">Comente <b class="ac">CUIDADO</b> e enviamos na DM como funciona o diagnóstico gratuito.</p>
+    <div style="position:relative;margin-top:56px">
+      <div class="abs" style="left:0;width:6px;top:0;bottom:0;background:var(--menta)"></div>
+      <p class="txt" style="font-size:40px;margin-left:36px">Comente <b class="ac">CUIDADO</b> e enviamos na DM como funciona o diagnóstico gratuito.</p>
+    </div>
   </div>
   <p class="fecho abs" style="left:72px;right:72px;bottom:190px;font-size:46px">Na sexta: como a prevenção vira rotina dentro da empresa.</p>
   <div class="selo abs" style="left:72px;bottom:90px"><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>
