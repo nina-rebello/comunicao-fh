@@ -8,6 +8,13 @@ Canva em `prevencao.pdf`.
 **Status:** rascunho para aprovação. As fotos ainda são molduras com a
 descrição da cena.
 
+## No Canva
+
+`prevencao-canva.pdf` é a versão para o Canva, com o texto editável e as
+molduras de foto como formas cinza lisas, sem filtro e sem retícula. Ela foi
+enviada aos Uploads do Canva em 27/10. No Canva, o efeito preto e branco das
+fotos do miolo se aplica pela ferramenta de editar foto.
+
 ## Os três Cs deste post
 
 - **Capa:** "4 números que mostram que prevenção é investimento." (8
