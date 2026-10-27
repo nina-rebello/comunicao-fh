@@ -1,48 +1,40 @@
-# Carrossel 28/10: Prevenção também é investimento · 8 slides
+# Carrossel 28/10: Prevenção também é investimento · 10 slides
 
-Semana 2, bloco 2 (Relevância). Quem monta: Charles. O texto de cada slide está
-em `slides.html`, as artes em `png/` e a prévia em `previa.png`.
+Semana 2, bloco 2 (Relevância). Quem monta: Charles. Segue o guia
+`instagram/carrossel.md` (três Cs e mapa editorial de 10 slides). O texto de
+cada slide está em `slides.html`, as artes em `png/`, a prévia em `previa.png`
+e o PDF para o Canva em `prevencao.pdf`.
 
 **Status:** rascunho para aprovação. As fotos ainda são molduras com a
 descrição da cena.
 
-## O estilo novo
+## Os três Cs deste post
 
-Referência: carrosséis do @brandsdecoded_. A ideia é manter as cores e as
-fontes da marca e mudar a forma.
-
-- **A capa quebra o padrão do feed.** Hoje todas as capas são verde-petróleo,
-  com texto centralizado e ambiente interno escurecido. Esta tem foto real de
-  uma pessoa, em tons quentes, com o título grande embaixo e alinhado à
-  esquerda.
-- **O título faz o RH se reconhecer.** Uma pergunta que ele já se fez ("por que
-  o plano sobe todo ano?"), e a resposta só vem no slide 2.
-- **Quase toda tela tem foto.** Quatro layouts se alternam: foto inteira com
-  texto embaixo (1 e 3) ou em cima (6), número grande com foto recortada (2),
-  foto sangrando na lateral em fundo claro (4) e faixa de foto embaixo (5).
-- **Tipografia de revista:** título em Raleway 800, texto corrido em
-  Instrument Serif. O destaque vai em menta no fundo escuro e em verde-escuro
-  no fundo claro. Só um trecho por slide.
-- **Barra fixa no topo** (fairhealth · @fairhealth.br · 01/08). É ela que faz
-  layouts diferentes parecerem uma série.
-- **Fonte em todo slide com número.** Dá credibilidade e é exigência para
-  publicidade médica.
+- **Capa:** "Por que o plano de saúde da sua empresa sobe todo ano?" (10
+  palavras). É a dúvida do RH, e o miolo responde.
+- **CTA, no slide 4:** "Vai levar isso ao financeiro? Salve este post. Os
+  números e as fontes estão todos aqui." Vem depois da primeira explicação e diz
+  por que salvar.
+- **Convite, no slide 10:** "Comente CUIDADO e enviamos na DM como funciona o
+  diagnóstico gratuito."
 
 ## Os slides
 
-| # | Layout | Texto |
-|---|---|---|
-| 1 | Foto inteira, título embaixo | Por que o plano de saúde da sua empresa **sobe todo ano?** |
-| 2 | Número + foto recortada, fundo escuro | A maior parte dessa conta vem de doenças que dava para evitar. **70%** dos custos do plano de saúde corporativo vêm de doenças crônicas evitáveis. |
-| 3 | Foto inteira, texto embaixo | Cuidar antes deixa menos cadeira vazia. Absenteísmo **27%** menor, em média. |
-| 4 | Foto na lateral, fundo claro | Consulta trata o sintoma. Acolhimento descobre o motivo. **+40%** de participação com atendimento presencial. |
-| 5 | Número + faixa de foto, fundo verde | Prevenção não é gasto. É conta que fecha. **2,7** de retorno para cada 1 investido. Custos médicos 26% menores. |
-| 6 | Foto inteira, texto em cima | Não é campanha de outubro. O resultado no plano aparece em **12 meses**. |
-| 7 | Resumo, fundo claro | Os cinco números em lista. É o slide que as pessoas salvam. |
-| 8 | CTA, fundo verde | Precisa convencer o financeiro? Mande este post. Na sexta, como a prevenção vira rotina. |
+| # | Função no mapa | Layout | Texto |
+|---|---|---|---|
+| 1 | Capa | Foto colorida inteira, título embaixo | Por que o plano de saúde da sua empresa **sobe todo ano?** |
+| 2 | Contexto | Número grande + foto recortada, fundo escuro | 70% dos custos do plano vêm de doenças crônicas evitáveis. *O plano sobe pelo que acontece antes dele.* |
+| 3 | Contexto | Foto colada + lista numerada, fundo claro | O caminho até o atestado, em 4 passos. *Quando chega ao RH, já virou sinistro.* |
+| 4 | Exemplo + CTA | Foto inteira, texto embaixo | Absenteísmo 27% menor. Faixa com o CTA de salvar. |
+| 5 | Explicação | Número + faixa de foto, fundo verde | 2,7 de retorno para cada 1 investido, custos médicos 26% menores. *Não cuidar também custa.* |
+| 6 | Explicação | Foto na lateral, fundo claro | Consulta trata o sintoma, acolhimento descobre o motivo. +40% de participação. *Perto, as pessoas vão. E voltam.* |
+| 7 | Explicação | Texto à esquerda, foto à direita, fundo escuro | Não é campanha de outubro: resultado em 12 meses. |
+| 8 | Aplicação | Foto em cima, lista com setas, fundo claro | Como levar isso para a reunião de orçamento, em 4 passos. |
+| 9 | Fechamento | Grade de 4 caixas, fundo água | Os quatro números. *São médias de estudos, não promessa.* |
+| 10 | Convite | Fundo verde | Quanto a sua empresa gasta com o que dava para evitar? Comente CUIDADO. |
 
-Os slides 1 a 3 seguem o roteiro do cronograma: sinistralidade, absenteísmo e
-engajamento (acolhimento).
+Em itálico, a frase de fecho de cada slide (Instrument Serif, na cor de
+destaque).
 
 ### Outros títulos possíveis para a capa
 
@@ -51,19 +43,24 @@ engajamento (acolhimento).
 
 ## As fotos
 
+A capa é colorida. No miolo, as fotos ficam em preto e branco com retícula: o
+`slides.html` já aplica esse efeito sozinho em qualquer foto que entrar.
+
 | Slide | Cena | Busca no Unsplash ou Pexels |
 |---|---|---|
 | 1 | Colaborador exausto na mesa de trabalho, de perto ou visto de cima, luz quente de fim de tarde | `exhausted office worker desk` |
 | 2 | Braço com medidor de pressão | `blood pressure cuff arm` |
-| 3 | Cadeira vazia na estação de trabalho, casaco pendurado, tela apagada | `empty office chair desk` |
-| 4 | Duas pessoas conversando à mesa, só mãos e canecas (cena A4 da sessão de fotos) | `two people talking coffee hands table` |
-| 5 | Mãos sobre um relatório com gráfico genérico (cena A5) | `hands report chart desk` |
-| 6 | Mão marcando um dia no calendário de mesa (cena D7) | `hand marking calendar` |
+| 3 | Pessoa massageando o pescoço diante do computador | `neck pain computer` |
+| 4 | Cadeira vazia na estação de trabalho, casaco pendurado, tela apagada | `empty office chair desk` |
+| 5 | Mãos sobre um relatório com gráfico genérico (cena A5 da sessão de fotos) | `hands report chart desk` |
+| 6 | Duas pessoas conversando à mesa, só mãos e canecas (cena A4) | `two people talking coffee hands table` |
+| 7 | Mão marcando um dia no calendário (cena D7) | `hand marking calendar` |
+| 8 | Reunião, mãos sobre a mesa com papéis e café | `meeting table hands papers` |
 
 - **A capa é o que mais importa.** Precisa ter uma pessoa, emoção real e cor
   quente. Nada de banco de imagem sorrindo para a câmera.
-- Nas fotos com texto por cima (1, 3 e 6), o lado do texto precisa ser mais
-  escuro ou mais limpo.
+- Nas fotos com texto por cima (1 e 4), o lado do texto precisa ser mais escuro
+  ou mais limpo.
 - Use só fotos com licença livre para uso comercial, como as do Unsplash e do
   Pexels.
 - Nenhum colaborador atendido aparece, nem logo de empresa.
@@ -71,7 +68,7 @@ engajamento (acolhimento).
   `style="background-image:url(fotos/nome.jpg)"` na `div` com classe `img` e
   apague o `aviso`. Depois rode:
   `node instagram/ferramentas/render.mjs instagram/posts/prevencao/slides.html instagram/posts/prevencao/png`
-- Para importar no Canva com o texto editável, gere o PDF:
+- Para importar no Canva com o texto editável:
   `node instagram/ferramentas/pdf.mjs instagram/posts/prevencao/slides.html instagram/posts/prevencao/prevencao.pdf`
 
 ## Números e fontes
@@ -99,7 +96,11 @@ Todos tirados do site (fairjob.com.br/fairhealth):
   publicar, e corrigir no site se for o caso.
 - **O 2,7 é em dólar** no estudo original (US$ 2,71 para cada US$ 1). Por isso
   o post diz "2,7 para cada 1", sem moeda. O site usa "R$".
-- **O Dr. Ronald aprova o texto** (menção médica, CFM).
+- **[PENDENTE] Quem responde as DMs do "CUIDADO".** O guia pede um convite que
+  o perfil consiga cumprir. Alguém precisa mandar como funciona o diagnóstico
+  gratuito no mesmo dia.
+- **O Dr. Ronald aprova o texto** (menção médica, CFM). O slide 3 descreve o
+  caminho até o adoecimento de forma genérica, e vale ele conferir.
 
 ## Legenda
 
@@ -112,7 +113,7 @@ A gente separou o que os estudos de saúde corporativa mostram quando a empresa 
 
 Não é campanha de um mês. O resultado no plano costuma aparecer em cerca de 12 meses, quando a prevenção vira rotina. Na sexta, mostramos como isso funciona dentro de uma empresa.
 
-Salve e mande para quem aprova o orçamento de saúde da sua empresa.
+Quer saber por onde começar na sua empresa? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
 
 Fontes: Revista de Saúde Pública da USP; Chapman, American Journal of Health Promotion; Journal of Occupational and Environmental Medicine; Berry, Mirabito e Baun, Harvard Business Review; SHRM.
 

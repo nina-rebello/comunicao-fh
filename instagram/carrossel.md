@@ -5,9 +5,6 @@ Referência: carrosséis do @brandsdecoded_, enviados em 27/10, incluindo o post
 carrosséis da fairhealth a partir do post de 28/10. Onde este guia e a skill
 `/ig-carousel` discordarem, vale o guia.
 
-**[PENDENTE]** Falta uma imagem da referência (slides 8 a 10 do post dos três
-Cs). Completar quando chegar.
-
 ## O método dos três Cs
 
 Um carrossel precisa dar motivo para a leitura continuar. A capa cria uma
@@ -65,10 +62,23 @@ A leitura precisa avançar antes do pedido: o CTA só aparece depois que o
 carrossel já entregou alguma coisa. O slide 2 também precisa se sustentar
 sozinho, porque o Instagram pode reexibir o carrossel a partir dele.
 
+### O CTA precisa ter relação com o conteúdo
+
+"Curta este post" pede uma ação. "Siga para aprender a produzir conteúdo em
+2027" explica o motivo. O pedido ganha sentido quando continua o assunto que
+trouxe a pessoa até ali.
+
+1. Defina a ação: seguir, salvar, comentar ou conhecer a oferta.
+2. Escreva o benefício de realizar essa ação.
+3. Faça o pedido depois de entregar uma explicação.
+4. Use um convite que o perfil consiga cumprir. Se o convite é "comente e
+   receba na DM", alguém precisa responder as DMs.
+5. Mantenha o objetivo do post até o fechamento.
+
 **Para nós:**
 
-- **CTA durante a leitura:** "Salve para mostrar ao financeiro" ou "Mande para
-  quem aprova o orçamento".
+- **CTA durante a leitura:** "Vai levar isso ao financeiro? Salve este post: os
+  números e as fontes estão todos aqui." É a ação, junto com o benefício dela.
 - **Convite no final:** uma palavra para comentar e receber o diagnóstico
   gratuito na DM, como no carrossel dos wearables ("Comente CUIDADO").
 
@@ -85,10 +95,12 @@ A ideia é manter as cores e as fontes da marca e mudar a forma.
   - texto à esquerda e foto numa faixa à direita;
   - número grande com foto recortada ao lado;
   - foto saindo pela lateral, em fundo claro.
-- **Tratamento de foto.** Na referência, as fotos são em preto e branco com
-  retícula (pontilhado), às vezes com um elemento "colado" por cima, como um
-  ícone preso com fita adesiva. Para nós: duotone verde (como em
-  `estudos/pilares`) ou preto e branco com retícula.
+- **Tratamento de foto.** Na referência, as fotos do miolo são em preto e
+  branco com retícula (pontilhado). Às vezes a foto aparece como uma cópia
+  impressa colada no slide: borda clara, levemente inclinada e presa com fita
+  adesiva. O mesmo vale para um ícone colado por cima de outra foto. Para nós:
+  preto e branco com retícula no miolo (ou duotone verde, como em
+  `estudos/pilares`) e a capa colorida, que é o que quebra o padrão.
 - **Hierarquia de cada slide.** Primeiro o título forte (Raleway 800,
   entrelinha curta), com um trecho destacado. Depois o texto corrido. No pé,
   uma frase de fecho em serif itálico (Instrument Serif) na cor de destaque,
