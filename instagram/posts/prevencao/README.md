@@ -56,6 +56,27 @@ A capa é colorida. No miolo, as fotos ficam em preto e branco com retícula: o
 
 ### Fotos avaliadas em 27/10
 
+**Revisão com o feed real (print de 27/10).** O feed é claro: predomina o
+verde-água, com Reels de rosto e só um post escuro. A simulação anterior usava
+os rascunhos do repositório e estava errada. Contra o feed claro, uma capa
+escura se destaca, e a ordem muda:
+
+1. **Capa: homem com as mãos na cabeça diante do monitor.** É o maior
+   contraste com o feed, tem boa resolução e é uma cena real. O ponto fraco é a
+   pose, muito comum em banco de imagem.
+2. **A luminária de dois globos cai para plano B.** No grid, ela fica logo
+   acima da ilustração do post de 23/10, que mostra uma mulher debruçada na
+   mesa. Seriam duas cenas iguais, uma sobre a outra.
+3. **Slide 2:** com a capa nova, volta a precisar de foto (medidor de pressão).
+
+**Corte do grid no computador:** a versão web do perfil mostra a capa em
+quadrado e corta o alto e o pé da arte. O título precisa ficar entre 200 e
+1150 px de altura. No celular, o grid é 3:4 e não corta.
+
+**Destaque do título:** os Reels do feed destacam a palavra-chave dentro de uma
+pílula verde-água. Usar a mesma pílula no destaque da capa dá continuidade com
+o feed.
+
 Das 8 fotos enviadas em 27/10 (`possiveis_fotos.zip`), nenhuma foi para o
 repositório até os direitos de uso estarem confirmados.
 
