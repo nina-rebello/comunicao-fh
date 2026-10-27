@@ -10,10 +10,11 @@ Itens **[PENDENTE]** precisam de confirmação antes de publicar.
 
 ## #1 · qui 29/10 · Reconhecimento · Apresentando a FairHealth
 
-**Formato:** documento em PDF (10 páginas, 1080x1350). Arte no Canva:
-**"LinkedIn · O que é a fairhealth (29/10)"**, uma cópia do carrossel "O que é
-a fairhealth" com a origem do "Por que a fairhealth existe?" no slide 2, capa
-em tiffany e o site no lugar do @ do Instagram. Exportar como PDF e subir como
+**Formato:** documento em PDF (6 páginas, 1080x1350). Arte no Canva:
+**"LinkedIn · O que é a fairhealth (29/10) · 6 slides"**, feita a partir do
+carrossel "O que é a fairhealth" com a origem do "Por que a fairhealth
+existe?". Slides: capa tiffany, nossa história (2009), cuidar antes, quatro
+frentes, e para a empresa?, como começar. Exportar como PDF e subir como
 documento. **Título do documento:** "O que é a fairhealth".
 
 ```
