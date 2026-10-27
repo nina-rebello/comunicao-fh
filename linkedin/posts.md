@@ -22,19 +22,31 @@ fairhealth".
 ```
 O cuidado com a saúde costuma chegar à empresa tarde demais.
 
-Chega quando já virou atestado, afastamento ou uma conta alta no plano de saúde. Antes disso, quase ninguém vê: o sono que não descansa, o estresse que vai acumulando na semana, a pessoa que só precisava de alguém para ouvir.
+Quando chega, já virou atestado, afastamento ou conta alta no plano de saúde. Antes disso, ficou o sono ruim, o estresse da semana, a consulta que nunca coube na agenda.
 
-Nossa história começou longe das empresas, em um hospital. Em 2009, criamos o Escritório do Paciente para trazer a pessoa de volta ao centro do cuidado. Com o que aprendemos ali, levamos esse cuidado para onde as pessoas passam boa parte do dia: o trabalho.
+A fairhealth existe para inverter essa ordem.
 
-Assim nasceu a fairhealth e o Escritório do Cuidado. Médicos e psicólogos dentro da empresa, perto da rotina de quem trabalha, com um plano de cuidado para cada pessoa, baseado na Medicina do Estilo de Vida.
+Nossa história começou em um hospital, em 2009, com o Escritório do Paciente. Hoje levamos o mesmo cuidado para dentro das empresas, no Escritório do Cuidado.
 
-E tudo começa com uma pergunta: o que é importante para você?
+Na prática, o seu time passa a ter:
+→ médicos e psicólogos dentro da empresa
+→ um plano de cuidado para cada pessoa, com hábitos que cabem na rotina
+→ acompanhamento entre uma consulta e outra
 
-No documento, contamos quem somos, o que fazemos e o que muda para a empresa.
+E o RH acompanha a evolução do grupo com indicadores, sem nenhum dado individual.
 
-Toda quinta, esta página vai falar de saúde e bem-estar no dia a dia do trabalho. Se você cuida de pessoas numa empresa, acompanhe a fairhealth.
+Tudo começa com uma pergunta: o que é importante para você?
+
+Quer levar isso para a sua empresa? O primeiro passo é um diagnóstico gratuito. O link está no primeiro comentário.
 
 #bemestarcorporativo #saudecorporativa #gestaodepessoas
+```
+
+**Primeiro comentário (da página, logo depois de publicar):**
+
+```
+Diagnóstico gratuito: uma conversa para entender a rotina e as necessidades da sua empresa. Sem compromisso.
+https://www.fairhealth.com.br/?utm_source=linkedin&utm_medium=organico&utm_campaign=post-01
 ```
 
 **Para o time compartilhar:** "A FairHealth chegou ao LinkedIn. Faço parte
