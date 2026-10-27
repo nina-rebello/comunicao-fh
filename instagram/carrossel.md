@@ -30,16 +30,24 @@ Os três Cs são uma régua de escrita. O desempenho precisa ser medido
 Uma capa curta ainda precisa dizer alguma coisa. A promessa precisa caber numa
 frase, e o conteúdo precisa entregar o que ela promete.
 
+**Preferência da equipe (27/10): título direto.** A capa diz o assunto do post
+logo de cara. Nada de história, ou de pergunta que só depois chega ao tema. Por
+exemplo, no post de 28/10 saiu "Por que o plano de saúde da sua empresa sobe
+todo ano?" e entrou "4 números que mostram que prevenção é investimento".
+
 **Exemplo da referência (marca de beleza):** a capa pergunta "Como escolher um
 perfume para usar no calor?", o miolo explica os critérios de escolha, a
 aplicação mostra como usar esses critérios e o convite oferece o próximo passo.
 Uma dúvida real do público dá o assunto e define a explicação.
 
-**Para nós:** a dúvida é a do RH, do médico do trabalho ou do financeiro. Por
-exemplo: "Por que o plano de saúde da sua empresa sobe todo ano?"
+**Para nós:** a dúvida é a do RH, do médico do trabalho ou do financeiro, e o
+título responde a ela de frente.
 
 Fórmulas de título que funcionam nas referências:
 
+- **Quantidade + o que o post entrega.** Por exemplo: "4 números que mostram
+  que prevenção é investimento." Quando a capa usa um número, rotule os slides
+  do miolo (01 · Sinistralidade, 02 · Absenteísmo...) para cumprir a promessa.
 - **"Por que X?"**, com um grupo específico e um fato que surpreende. Por
   exemplo: "Por que os jovens de 16 a 24 anos viraram os brasileiros menos
   satisfeitos com a vida?"

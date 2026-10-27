@@ -10,8 +10,9 @@ descrição da cena.
 
 ## Os três Cs deste post
 
-- **Capa:** "Por que o plano de saúde da sua empresa sobe todo ano?" (10
-  palavras). É a dúvida do RH, e o miolo responde.
+- **Capa:** "4 números que mostram que prevenção é investimento." (8
+  palavras). Diz direto o que o post entrega, e os slides 2 a 5 são os 4
+  números, cada um com o seu rótulo (01 · Sinistralidade a 04 · Retorno).
 - **CTA, no slide 3:** "Vai levar isso ao financeiro? Salve este post. Os
   números e as fontes estão todos aqui." Vem depois da primeira prova e diz por
   que salvar.
@@ -25,7 +26,7 @@ engajamento) e o retorno, que é o "investimento" do título.
 
 | # | Função | Layout | Texto |
 |---|---|---|---|
-| 1 | Capa | Foto colorida inteira, título embaixo | Por que o plano de saúde da sua empresa **sobe todo ano?** |
+| 1 | Capa | Foto colorida inteira, título embaixo | 4 números que mostram que **prevenção é investimento.** |
 | 2 | Sinistralidade | Número grande + foto recortada, fundo escuro | 70% dos custos do plano vêm de doenças crônicas evitáveis. *O plano sobe pelo que acontece antes dele.* |
 | 3 | Absenteísmo + CTA | Foto inteira, texto embaixo | Cuidar antes deixa menos cadeira vazia: absenteísmo 27% menor. Faixa com o CTA de salvar. |
 | 4 | Engajamento | Foto na lateral, fundo claro | Consulta trata o sintoma, acolhimento descobre o motivo. +40% de participação. *Perto, as pessoas vão. E voltam.* |
@@ -37,8 +38,8 @@ destaque).
 
 ### Outros títulos possíveis para a capa
 
-- "Plano de saúde mais caro. Gente faltando. De novo." (é a frase do site)
-- "Quanto custa não cuidar da saúde do seu time?"
+- "Prevenção na empresa: menos faltas e menos custo com saúde."
+- "O que os estudos mostram quando a empresa cuida antes."
 
 ## As fotos
 
@@ -99,13 +100,13 @@ Todos tirados do site (fairjob.com.br/fairhealth):
 ## Legenda
 
 ```
-A resposta quase nunca está no plano. Está no que acontece antes dele.
+Sinistralidade, absenteísmo, engajamento e retorno: 4 números sobre o que muda quando a empresa cuida antes.
 
-70% dos custos do plano de saúde corporativo vêm de doenças crônicas evitáveis: hipertensão, diabetes tipo 2, obesidade, burnout. Elas levam anos para se instalar. E aparecem primeiro na sinistralidade, bem antes de você ver o afastamento.
+70% dos custos do plano de saúde corporativo vêm de doenças crônicas evitáveis: hipertensão, diabetes tipo 2, obesidade, burnout. Elas levam anos para se instalar e aparecem primeiro na sinistralidade, bem antes do afastamento.
 
-A gente separou o que os estudos de saúde corporativa mostram quando a empresa cuida antes. O absenteísmo cai 27%, em média. A participação sobe 40% quando o atendimento é presencial, perto de quem trabalha. E cada 1 investido volta como 2,7.
+Com programas de saúde preventiva, o absenteísmo cai 27%, em média. A participação sobe 40% quando o atendimento é presencial, perto de quem trabalha. E cada 1 investido volta como 2,7, com resultado no plano em cerca de 12 meses.
 
-Não é campanha de um mês. O resultado no plano costuma aparecer em cerca de 12 meses, quando a prevenção vira rotina. Na sexta, mostramos como isso funciona dentro de uma empresa.
+Na saúde corporativa, prevenção não é campanha de um mês. Na sexta, mostramos como ela vira rotina dentro de uma empresa.
 
 Quer saber por onde começar na sua empresa? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
 
@@ -115,4 +116,4 @@ Fontes: Revista de Saúde Pública da USP; Chapman, American Journal of Health P
 ```
 
 **Alt text da capa:** Pessoa cansada apoiada na mesa de trabalho, com o texto
-"Por que o plano de saúde da sua empresa sobe todo ano?"
+"4 números que mostram que prevenção é investimento."
