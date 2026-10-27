@@ -22,8 +22,8 @@
 .txt{font-size:36px;line-height:1.3}
 .fonte{font-size:22px;font-weight:500;opacity:.6;margin-top:22px;letter-spacing:.3px}
 .fecho{font-family:"Instrument Serif",serif;font-style:italic;font-size:52px;line-height:1.05;color:var(--ac);letter-spacing:-.5px}
-.numero{font-weight:800;letter-spacing:-6px;line-height:.9;color:var(--ac)}
-.pilula{background:var(--agua);color:var(--tinta);padding:0 18px 2px;border-radius:999px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.numero{font-weight:800;letter-spacing:-6px;line-height:1;color:var(--ac)}
+.pilula{display:inline-block;background:var(--agua);color:var(--tinta);padding:0 18px 6px;border-radius:999px;margin-top:8px}
 .rotulo{font-size:24px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--ac);margin-bottom:22px}
 
 /* Foto: enquanto não chega, fica a moldura com a descrição da cena.
@@ -46,8 +46,8 @@
 .cta b{font-weight:800}
 
 
-.selo{display:flex;align-items:center;gap:16px;font-size:30px;font-weight:700}
-.selo img{width:58px;height:58px;border-radius:50%}
+.selo{display:block;font-size:30px;font-weight:700;line-height:58px;white-space:nowrap}
+.selo img{display:inline-block;width:58px;height:58px;border-radius:50%;vertical-align:middle;margin-right:16px}
 </style></head><body>
 
 <!-- 1 · CAPA: diz direto o que o post entrega. Foto colorida, quebra o padrão do feed. -->
@@ -56,8 +56,8 @@
   <div class="grad-base"></div>
   <div class="topo"><span>@fairhealth.br</span><span>01/06</span></div>
   <div class="abs" style="left:72px;right:72px;bottom:220px">
-    <div class="selo" style="margin-bottom:34px"><img src="../../marca/logo-circulo.png" alt="">fairhealth</div>
-    <h1 class="h" style="font-size:100px;letter-spacing:-3px;line-height:1.12">4 números que mostram que <span class="pilula">prevenção é investimento.</span></h1>
+    <div class="selo" style="margin-bottom:34px"><img src="../../marca/logo-circulo.png" alt=""><span>fairhealth</span></div>
+    <h1 class="h" style="font-size:100px;letter-spacing:-3px;line-height:1.12">4 números que mostram que<br><span class="pilula">prevenção é</span><br><span class="pilula">investimento.</span></h1>
   </div>
 </section>
 
@@ -109,7 +109,7 @@
   <div class="abs" style="left:72px;right:72px;top:150px">
     <p class="rotulo">04 · Retorno</p>
     <h2 class="h" style="font-size:72px">Prevenção não é gasto. <span class="ac">É conta que fecha.</span></h2>
-    <div style="display:flex;align-items:flex-end;gap:36px;margin-top:36px">
+    <div style="display:flex;align-items:flex-end;gap:36px;margin-top:20px;margin-bottom:34px">
       <div class="numero" style="font-size:250px">2,7</div>
       <p class="txt" style="padding-bottom:18px">de retorno para cada 1 investido em saúde no trabalho.</p>
     </div>
@@ -128,7 +128,7 @@
     <p class="txt" style="font-size:40px;margin-top:56px;border-left:6px solid var(--menta);padding-left:30px">Comente <b class="ac">CUIDADO</b> e enviamos na DM como funciona o diagnóstico gratuito.</p>
   </div>
   <p class="fecho abs" style="left:72px;right:72px;bottom:190px;font-size:46px">Na sexta: como a prevenção vira rotina dentro da empresa.</p>
-  <div class="selo abs" style="left:72px;bottom:90px"><img src="../../marca/logo-circulo.png" alt="">@fairhealth.br</div>
+  <div class="selo abs" style="left:72px;bottom:90px"><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>
 </section>
 
 </body></html>
