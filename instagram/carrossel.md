@@ -106,11 +106,19 @@ trouxe a pessoa até ali.
 
 ## O visual
 
-A ideia é manter as cores e as fontes da marca e mudar a forma.
+A ideia é manter as cores e as fontes da marca e mudar a forma. O
+@brandsdecoded_ é uma conta de marketing: dele vem o método, e a estética
+precisa ser traduzida para uma marca de cuidado, não copiada.
 
-- **A capa quebra o padrão do feed.** Uma foto real com pessoa, emoção e cor
-  quente. O título fica grande no terço de baixo, alinhado à esquerda, com um
-  trecho na cor de destaque.
+- **A capa quebra o padrão do feed, com vida real** (decisão de 27/10). A
+  quebra vem da cor, da luz e do enquadramento: foto clara e colorida, com
+  pessoa, emoção e movimento. A cena precisa ser real, um momento flagrado do
+  dia a dia da empresa. Nada de cenário montado, figurino de moda ou ensaio
+  publicitário. A fairhealth vende cuidado de verdade, e uma capa com cara de
+  anúncio puxa a marca para "agência de marketing". A melhor quebra de padrão
+  é a foto própria, com o time e o Escritório do Cuidado (ver
+  `instagram/sessao-de-fotos.md`). O título fica grande no terço de baixo,
+  alinhado à esquerda, com um trecho na cor de destaque.
 - **Quase toda tela tem foto.** Os layouts se alternam:
   - foto inteira com o texto por cima;
   - foto na metade de cima e texto embaixo;

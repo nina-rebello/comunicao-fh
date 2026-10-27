@@ -59,10 +59,16 @@ A capa é colorida. No miolo, as fotos ficam em preto e branco com retícula: o
 Das 8 fotos enviadas em 27/10 (`possiveis_fotos.zip`), nenhuma foi para o
 repositório até os direitos de uso estarem confirmados.
 
+**Capa, 1ª opção: ainda a encontrar.** Pela regra do guia, a capa precisa
+quebrar o padrão com uma cena de vida real. A ideia é ter a energia da foto dos
+papéis (escritório com luz do dia, colorido, um momento de sobrecarga
+flagrado), mas sem ser encenada. Busca no Unsplash ou no Pexels:
+`overwhelmed at work candid`, `messy office desk top view`.
+
 | Foto | Decisão |
 |---|---|
-| Homem no meio de papéis voando, lente olho de peixe | **Capa (1ª opção).** É a que mais quebra o padrão do feed: clara, colorida, com movimento. Tem a melhor resolução (1199x1499). |
-| Mulher esfregando os olhos à noite, luz de luminária | **Capa (2ª opção).** Mais ligada à saúde, mas escura, e fica parecida com o resto do feed. Se for ela, a foto vai alinhada por baixo e a sombra fica mais leve. |
+| Homem no meio de papéis voando, lente olho de peixe | **Capa, plano B.** Quebra o padrão pela cor e pelo movimento, e tem a melhor resolução (1199x1499). Mas é encenada (cenário montado, figurino de moda), o que vai contra a regra de capa do guia. Só usar se passar na checagem de direitos e não aparecer uma foto real com a mesma energia. |
+| Mulher esfregando os olhos à noite, luz de luminária | **Capa, plano C.** Mais ligada à saúde, mas escura, e se confunde com o resto do feed. Se for ela, a foto vai alinhada por baixo e a sombra fica mais leve. |
 | Mulher dormindo sobre papéis, vista de cima | **Slide 3.** Funciona muito bem em preto e branco com retícula. |
 | Mulher com caixa na cabeça, estúdio branco | Guardar para um post sobre sobrecarga, com texto escuro no branco. Não combina com a capa escura deste post. |
 | Equipe ao telefone, olho de peixe | Não serve para este post. Pode servir para o 30/10. |
