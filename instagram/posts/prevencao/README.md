@@ -59,17 +59,26 @@ A capa é colorida. No miolo, as fotos ficam em preto e branco com retícula: o
 Das 8 fotos enviadas em 27/10 (`possiveis_fotos.zip`), nenhuma foi para o
 repositório até os direitos de uso estarem confirmados.
 
-**Capa, 1ª opção: ainda a encontrar.** Pela regra do guia, a capa precisa
-quebrar o padrão com uma cena de vida real. A ideia é ter a energia da foto dos
-papéis (escritório com luz do dia, colorido, um momento de sobrecarga
-flagrado), mas sem ser encenada. Busca no Unsplash ou no Pexels:
-`overwhelmed at work candid`, `messy office desk top view`.
+**Capa, 1ª opção: a mulher dormindo sobre a mesa, vista de cima, com a
+luminária de dois globos** (enviada depois do zip). É uma cena real, quente e
+com pessoa, e segue a regra do guia. No grid, se destaca pelo marrom e pela
+camiseta branca. Como ela está na metade de baixo da foto, nesta capa o
+**título vai em cima**, com a sombra descendo de cima para baixo. Com o título
+embaixo, ele cobre a pessoa. Cuidados:
+
+- A cópia tem 735x736 e é quadrada. Para o 4:5, as laterais são cortadas e a
+  foto é ampliada quase 2 vezes. Precisa do original em alta resolução.
+- Os livros e o caderno escrito à mão lembram estudo. Quem não ler o título
+  pode achar que é uma estudante.
+- A cena repete a do slide 3 (mulher dormindo sobre papéis, vista de cima). Se
+  essa foto for para a capa, o slide 3 volta a ser a cadeira vazia, que combina
+  mais com o título dele.
 
 | Foto | Decisão |
 |---|---|
 | Homem no meio de papéis voando, lente olho de peixe | **Capa, plano B.** Quebra o padrão pela cor e pelo movimento, e tem a melhor resolução (1199x1499). Mas é encenada (cenário montado, figurino de moda), o que vai contra a regra de capa do guia. Só usar se passar na checagem de direitos e não aparecer uma foto real com a mesma energia. |
 | Mulher esfregando os olhos à noite, luz de luminária | **Capa, plano C.** Mais ligada à saúde, mas escura, e se confunde com o resto do feed. Se for ela, a foto vai alinhada por baixo e a sombra fica mais leve. |
-| Mulher dormindo sobre papéis, vista de cima | **Slide 3.** Funciona muito bem em preto e branco com retícula. |
+| Mulher dormindo sobre papéis, vista de cima | **Slide 3**, só se a capa não for a da luminária de dois globos. Funciona muito bem em preto e branco com retícula. |
 | Mulher com caixa na cabeça, estúdio branco | Guardar para um post sobre sobrecarga, com texto escuro no branco. Não combina com a capa escura deste post. |
 | Equipe ao telefone, olho de peixe | Não serve para este post. Pode servir para o 30/10. |
 | Michael Scott (The Office) | **Não usar.** É o ator Steve Carell: direito de imagem e direito autoral da série. |
