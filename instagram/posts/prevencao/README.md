@@ -22,8 +22,9 @@ preto e branco das fotos do miolo se aplica pela ferramenta de editar foto.
   palavras), com a linha de apoio "Sinistralidade, faltas, engajamento e
   retorno: o que os estudos mostram." Saiu do briefing do sócio: o título
   anterior não dizia números de quê, prevenção de quê nem investimento em quê.
-  Os slides 2 a 5 são os 4 números, cada um com o seu rótulo (01 ·
-  Sinistralidade a 04 · Retorno) e um gráfico.
+  Abaixo do título, 4 mini gráficos (70%, −27%, +40% e 2,7) chamam atenção
+  para os números. Os slides 2 a 5 desenvolvem cada um, com o seu rótulo (01 ·
+  Sinistralidade a 04 · Retorno).
 - **CTA, no slide 3:** "Vai levar isso ao financeiro? Salve este post. Os
   números e as fontes estão todos aqui." Vem depois da primeira prova e diz por
   que salvar.
@@ -37,11 +38,11 @@ engajamento) e o retorno, que é o "investimento" do título.
 
 | # | Função | Layout | Texto |
 |---|---|---|---|
-| 1 | Capa | Foto colorida inteira, título em cima | O cuidado que **se paga**: 4 números da saúde preventiva. |
-| 2 | Sinistralidade | Número grande + barra dividida (70/30), fundo escuro | 70% dos custos do plano vêm de doenças crônicas evitáveis. *O plano sobe pelo que acontece antes dele.* |
-| 3 | Absenteísmo + CTA | Número grande + 2 barras (100 e 73), fundo claro | Cuidar antes deixa menos cadeira vazia: absenteísmo 27% menor. Faixa com o CTA de salvar. |
-| 4 | Engajamento | Número grande + 2 barras (100 e 140), fundo verde | Consulta trata o sintoma, acolhimento descobre o motivo. +40% de participação. *Perto, as pessoas vão. E voltam.* |
-| 5 | Retorno | Número grande + 2 barras (1 e 2,7), fundo água | Prevenção não é gasto, é conta que fecha: 2,7 para cada 1, resultado em 12 meses. *Não cuidar também custa.* |
+| 1 | Capa | Foto colorida inteira, título em cima e 4 mini gráficos | O cuidado que **se paga**: 4 números da saúde preventiva. |
+| 2 | Sinistralidade | Número grande + foto recortada, fundo escuro | 70% dos custos do plano vêm de doenças crônicas evitáveis. *O plano sobe pelo que acontece antes dele.* |
+| 3 | Absenteísmo + CTA | Foto inteira, texto embaixo | Cuidar antes deixa menos cadeira vazia: absenteísmo 27% menor. Faixa com o CTA de salvar. |
+| 4 | Engajamento | Foto na lateral, fundo claro | Consulta trata o sintoma, acolhimento descobre o motivo. +40% de participação. *Perto, as pessoas vão. E voltam.* |
+| 5 | Retorno | Número + faixa de foto, fundo água | Prevenção não é gasto, é conta que fecha: 2,7 para cada 1, resultado em 12 meses. *Não cuidar também custa.* |
 | 6 | Convite | Fundo verde | Quanto a sua empresa gasta com o que dava para evitar? Comente CUIDADO. |
 
 Em itálico, a frase de fecho de cada slide (Instrument Serif, na cor de
@@ -131,10 +132,11 @@ embaixo, ele cobre a pessoa. Cuidados:
    Pinterest serve para o slide em retícula, mas fica sem nitidez na capa
    colorida.
 
-**Atualização:** os slides 2 a 5 trocaram as fotos por gráficos. Agora só a
-capa leva foto: a da luminária de dois globos, com o título em cima. Os
-gráficos estão em escala de 100 (ou de 1, no retorno) e mostram médias de
-estudos, não dados de uma empresa.
+**Capa:** a foto da luminária de dois globos, com o título em cima e os 4
+mini gráficos logo abaixo (escala de 100, ou de 1 no retorno: médias de
+estudos, não dados de uma empresa). **Ainda faltam** as fotos dos slides 2
+(medidor de pressão ou o homem com as mãos na cabeça), 3 (cadeira vazia), 4
+(duas pessoas conversando à mesa) e 5 (mãos sobre um relatório).
 
 - **A capa é o que mais importa.** Precisa ter uma pessoa, emoção real e cor
   quente. Nada de banco de imagem sorrindo para a câmera.
