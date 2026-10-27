@@ -10,23 +10,26 @@ Itens **[PENDENTE]** precisam de confirmação antes de publicar.
 
 ## #1 · qui 29/10 · Reconhecimento · Apresentando a FairHealth
 
-**Formato:** documento em PDF. Subir `instagram/canva/carrossel-marca.pdf`
-(9 páginas). **Título do documento:** "Por que a FairHealth existe".
+**Formato:** documento em PDF (10 páginas, 1080x1350). Arte no Canva:
+**"LinkedIn · O que é a fairhealth (29/10)"**, uma cópia do carrossel "O que é
+a fairhealth" com a origem do "Por que a fairhealth existe?" no slide 2, capa
+em tiffany e o site no lugar do @ do Instagram. Exportar como PDF e subir como
+documento. **Título do documento:** "O que é a fairhealth".
 
 ```
 O cuidado com a saúde costuma chegar à empresa tarde demais.
 
-Chega quando já virou atestado, afastamento ou uma conta alta no plano de saúde. Antes disso, quase ninguém vê: o sono que não descansa, o estresse que vai acumulando na semana, a dor que ninguém teve tempo de tratar, a pessoa que só precisava de alguém para ouvir.
+Chega quando já virou atestado, afastamento ou uma conta alta no plano de saúde. Antes disso, quase ninguém vê: o sono que não descansa, o estresse que vai acumulando na semana, a pessoa que só precisava de alguém para ouvir.
 
-A FairHealth nasceu para mudar essa ordem.
+Nossa história começou longe das empresas, em um hospital. Em 2009, criamos o Escritório do Paciente para trazer a pessoa de volta ao centro do cuidado. Com o que aprendemos ali, levamos esse cuidado para onde as pessoas passam boa parte do dia: o trabalho.
 
-Levamos médicos, psicólogos e assistentes sociais para dentro da empresa, no Escritório do Cuidado. Perto de quem trabalha, no meio da rotina, sem precisar sair do expediente para ser cuidado.
+Assim nasceu a fairhealth e o Escritório do Cuidado. Médicos e psicólogos dentro da empresa, perto da rotina de quem trabalha, com um plano de cuidado para cada pessoa, baseado na Medicina do Estilo de Vida.
 
-Cada atendimento começa com uma pergunta: o que importa para você? A partir dela, construímos com cada colaborador um plano de cuidado baseado na Medicina do Estilo de Vida.
+E tudo começa com uma pergunta: o que é importante para você?
 
-E o RH acompanha o que está mudando, com indicadores do grupo, anonimizados.
+No documento, contamos quem somos, o que fazemos e o que muda para a empresa.
 
-Toda quinta, esta página vai falar de saúde e bem-estar no dia a dia do trabalho. Se você cuida de pessoas numa empresa, acompanhe a FairHealth.
+Toda quinta, esta página vai falar de saúde e bem-estar no dia a dia do trabalho. Se você cuida de pessoas numa empresa, acompanhe a fairhealth.
 
 #bemestarcorporativo #saudecorporativa #gestaodepessoas
 ```
