@@ -77,6 +77,7 @@ embaixo, ele cobre a pessoa. Cuidados:
 | Foto | Decisão |
 |---|---|
 | Homem no meio de papéis voando, lente olho de peixe | **Capa, plano B.** Quebra o padrão pela cor e pelo movimento, e tem a melhor resolução (1199x1499). Mas é encenada (cenário montado, figurino de moda), o que vai contra a regra de capa do guia. Só usar se passar na checagem de direitos e não aparecer uma foto real com a mesma energia. |
+| Homem com as mãos na cabeça diante do monitor, quarto escuro (enviada depois do zip) | **Slide 2**, recortada ao lado do 70%, em retícula. Ilustra o burnout da lista de doenças e fica legível. Na capa, não: é escura demais e some no grid, e "mãos na cabeça" é a pose de estresse mais usada em banco de imagem. Tem boa resolução (1080x1620), e o tamanho sugere que veio do Unsplash. Confirmar no Google Lens. |
 | Mulher esfregando os olhos à noite, luz de luminária | **Capa, plano C.** Mais ligada à saúde, mas escura, e se confunde com o resto do feed. Se for ela, a foto vai alinhada por baixo e a sombra fica mais leve. |
 | Mulher dormindo sobre papéis, vista de cima | **Slide 3**, só se a capa não for a da luminária de dois globos. Funciona muito bem em preto e branco com retícula. |
 | Mulher com caixa na cabeça, estúdio branco | Guardar para um post sobre sobrecarga, com texto escuro no branco. Não combina com a capa escura deste post. |
@@ -98,8 +99,9 @@ embaixo, ele cobre a pessoa. Cuidados:
    Pinterest serve para o slide em retícula, mas fica sem nitidez na capa
    colorida.
 
-**Ainda faltam** as fotos dos slides 2 (medidor de pressão), 4 (duas pessoas
-conversando à mesa) e 5 (mãos sobre um relatório).
+**Ainda faltam** as fotos dos slides 3 (cadeira vazia, se a capa for a da
+luminária de dois globos), 4 (duas pessoas conversando à mesa) e 5 (mãos sobre
+um relatório). O slide 2 já tem candidata.
 
 - **A capa é o que mais importa.** Precisa ter uma pessoa, emoção real e cor
   quente. Nada de banco de imagem sorrindo para a câmera.
