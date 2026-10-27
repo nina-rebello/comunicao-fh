@@ -10,8 +10,8 @@ Itens **[PENDENTE]** precisam de confirmação antes de publicar.
 
 ## #1 · qui 29/10 · Reconhecimento · Apresentando a FairHealth
 
-**Formato:** documento em PDF (6 páginas, 1080x1350). Arte no Canva:
-**"LinkedIn · O que é a fairhealth (29/10) · 6 slides"**, feita a partir do
+**Formato:** documento em PDF (6 páginas, quadrado 1080x1080). Arte no Canva:
+**"LinkedIn · O que é a fairhealth (29/10) · 6 slides"** (versão quadrada, https://www.canva.com/d/EDmrCKg8x_dWrPp), feita a partir do
 carrossel "O que é a fairhealth" com a origem do "Por que a fairhealth
 existe?". Texto curto em cada slide: capa tiffany · começamos em um hospital
 (2009) · cuidar antes · na prática, o seu time tem · e para a empresa? · CTA
