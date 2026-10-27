@@ -58,6 +58,20 @@ Fórmulas de título que funcionam nas referências:
 | 5 a 9 | Desenvolvem a explicação, mostram a aplicação e fecham o raciocínio |
 | 10 · Final | Convida a comentar ou a conhecer a oferta |
 
+### Versão curta: 6 slides (preferência da equipe)
+
+A equipe prefere carrosséis mais diretos (decisão de 27/10). Por padrão, use a
+versão curta e deixe o mapa de 10 slides para temas que pedem passo a passo.
+
+| Slide | Função |
+|---|---|
+| 1 · Capa | Define o problema e promete uma resposta |
+| 2 a 5 | Um argumento por slide. O primeiro já responde a capa, e o CTA entra logo depois da primeira prova (slide 3) |
+| 6 · Convite | Um próximo passo que o perfil consegue cumprir |
+
+Corte o que repete. Por exemplo, o resumo com todos os números só entra quando
+o post tem mais de quatro argumentos.
+
 A leitura precisa avançar antes do pedido: o CTA só aparece depois que o
 carrossel já entregou alguma coisa. O slide 2 também precisa se sustentar
 sozinho, porque o Instagram pode reexibir o carrossel a partir dele.
