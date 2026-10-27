@@ -10,10 +10,11 @@ descrição da cena.
 
 ## No Canva
 
-`prevencao-canva.pdf` é a versão para o Canva, com o texto editável e as
-molduras de foto como formas cinza lisas, sem filtro e sem retícula. Ela foi
-enviada aos Uploads do Canva em 27/10. No Canva, o efeito preto e branco das
-fotos do miolo se aplica pela ferramenta de editar foto.
+**Design editável:** [Prevenção é investimento (28/10) · carrossel 6 slides ·
+final](https://www.canva.com/d/wzZUKPKMh-ueMgn) (id `DAHZOJI0vrw`). Foi
+importado de `canva.html`, que é o `slides.html` com CSS, fontes e logo
+embutidos e as molduras de foto como formas cinza lisas. No Canva, o efeito
+preto e branco das fotos do miolo se aplica pela ferramenta de editar foto.
 
 ## Os três Cs deste post
 

@@ -23,3 +23,20 @@ artes e o PDF para o Canva:
 node instagram/ferramentas/render.mjs instagram/posts/<nome>/slides.html instagram/posts/<nome>/png
 node instagram/ferramentas/pdf.mjs instagram/posts/<nome>/slides.html instagram/posts/<nome>/<nome>.pdf
 ```
+
+## Levar um post para o Canva
+
+O Canva importa HTML por URL pública. O repositório é público, então:
+
+1. Gere um `canva.html` autocontido a partir do `slides.html`: CSS, fontes e
+   logo embutidos em base64 (o GitHub serve CSS e fontes como texto puro, e o
+   Canva ignora). Também é preciso marcar cada `<section class="slide">` com
+   `data-document-role="page"` e trocar as molduras de foto por formas lisas,
+   sem filtro nem retícula.
+2. Faça commit e push, e importe pelo endereço raw com o hash do commit (não
+   com o nome do branch, que fica em cache):
+   `https://raw.githubusercontent.com/nina-rebello/comunicao-fh/<commit>/instagram/posts/<nome>/canva.html`
+3. Confira as miniaturas no Canva. O que o Canva não respeita na conversão:
+   `display:flex` com `gap` (use posição absoluta), `padding` dentro de texto
+   com fundo (use `&nbsp;`), `box-decoration-break` (uma pílula por linha) e
+   `border-left` em texto (use uma `div` separada como barra).
