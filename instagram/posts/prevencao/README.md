@@ -18,7 +18,7 @@ preto e branco das fotos do miolo se aplica pela ferramenta de editar foto.
 
 ## Os três Cs deste post
 
-- **Capa:** "O cuidado que se paga: 4 números da saúde preventiva." (10
+- **Capa:** "O cuidado que dá retorno: 4 números da saúde preventiva." (10
   palavras), com a linha de apoio "Sinistralidade, faltas, engajamento e
   retorno: o que os estudos mostram." Saiu do briefing do sócio: o título
   anterior não dizia números de quê, prevenção de quê nem investimento em quê.
@@ -184,22 +184,20 @@ Todos tirados do site (fairjob.com.br/fairhealth):
 ## Legenda
 
 ```
-O cuidado que se paga, em 4 números: sinistralidade, faltas, engajamento e retorno.
+O plano de saúde fica mais caro e as faltas aumentam. Quase sempre, pelo mesmo motivo.
 
-Na fairhealth, acreditamos que cuidar antes custa menos do que tratar depois. E os estudos mostram por quê.
+70% dos custos do plano de saúde corporativo vêm de doenças crônicas evitáveis: hipertensão, diabetes tipo 2, obesidade, burnout. Elas levam anos para se instalar e aparecem primeiro na sinistralidade.
 
-70% dos custos do plano de saúde corporativo vêm de doenças crônicas evitáveis: hipertensão, diabetes tipo 2, obesidade, burnout. Elas levam anos para se instalar e aparecem primeiro na sinistralidade, bem antes do afastamento.
+Na saúde corporativa, isso tem caminho conhecido. Quando a empresa investe em saúde preventiva, a conta muda. O absenteísmo cai 27%, em média. A participação sobe 40% quando o atendimento é presencial, perto de quem trabalha. E cada 1 investido volta como 2,7, com resultado no plano em cerca de 12 meses.
 
-Com programas de saúde preventiva, o absenteísmo cai 27%, em média. A participação sobe 40% quando o atendimento é presencial, perto de quem trabalha. E cada 1 investido volta como 2,7, com resultado no plano em cerca de 12 meses.
+Na fairhealth, acreditamos que cuidar antes custa menos do que tratar depois. É esse cuidado que levamos para dentro das empresas, com o Escritório do Cuidado.
 
-Na saúde corporativa, prevenção não é campanha de um mês. Na sexta, mostramos como ela vira rotina dentro de uma empresa.
-
-Quer saber por onde começar na sua empresa? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
+Quer saber por onde começar na sua? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
 
 Fontes: Revista de Saúde Pública da USP; Chapman, American Journal of Health Promotion; Journal of Occupational and Environmental Medicine; Berry, Mirabito e Baun, Harvard Business Review; SHRM.
 
-#fairhealth #saudecorporativa #medicinapreventiva #sinistralidade #gestaodepessoas
+#fairhealth #saudecorporativa #saudepreventiva #sinistralidade #gestaodepessoas
 ```
 
 **Alt text da capa:** Pessoa cansada apoiada na mesa de trabalho, com o texto
-"O cuidado que se paga: 4 números da saúde preventiva."
+"O cuidado que dá retorno: 4 números da saúde preventiva."
