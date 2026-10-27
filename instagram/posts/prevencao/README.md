@@ -103,7 +103,7 @@ A resposta quase nunca está no plano. Está no que acontece antes dele.
 
 70% dos custos do plano de saúde corporativo vêm de doenças crônicas evitáveis: hipertensão, diabetes tipo 2, obesidade, burnout. Elas levam anos para se instalar. E aparecem primeiro na sinistralidade, bem antes de você ver o afastamento.
 
-A gente separou o que os estudos de saúde corporativa mostram quando a empresa cuida antes 📊 O absenteísmo cai 27%, em média. A participação sobe 40% quando o atendimento é presencial, perto de quem trabalha. E cada 1 investido volta como 2,7.
+A gente separou o que os estudos de saúde corporativa mostram quando a empresa cuida antes. O absenteísmo cai 27%, em média. A participação sobe 40% quando o atendimento é presencial, perto de quem trabalha. E cada 1 investido volta como 2,7.
 
 Não é campanha de um mês. O resultado no plano costuma aparecer em cerca de 12 meses, quando a prevenção vira rotina. Na sexta, mostramos como isso funciona dentro de uma empresa.
 
@@ -111,7 +111,7 @@ Quer saber por onde começar na sua empresa? Comente CUIDADO e enviamos na DM co
 
 Fontes: Revista de Saúde Pública da USP; Chapman, American Journal of Health Promotion; Journal of Occupational and Environmental Medicine; Berry, Mirabito e Baun, Harvard Business Review; SHRM.
 
-#fairhealth #saudecorporativa #medicinapreventiva
+#fairhealth #saudecorporativa #medicinapreventiva #sinistralidade #gestaodepessoas
 ```
 
 **Alt text da capa:** Pessoa cansada apoiada na mesa de trabalho, com o texto
