@@ -6,7 +6,7 @@ detalhado de 15/10). Este plano substitui as datas da planilha
 `instagram/estrategia.md`. Horários em Brasília.
 
 3 posts por semana (seg, qua, sex): 1 Reel e 2 posts estáticos. No total,
-4 Reels, 7 carrosséis e 1 foto única.
+4 Reels e 8 carrosséis (o 28/10 era foto única no PDF e virou carrossel).
 
 ## Os 4 blocos
 
@@ -27,7 +27,7 @@ SEX 23  CARROSSEL   Cuidar antes, não depois
 
 SEMANA 2 · 26 a 30/10
 SEG 26  REEL        Cuidado fora da rotina
-QUA 28  FOTO ÚNICA  Prevenção é investimento (Charles na construção)  <- formato a confirmar
+QUA 28  CARROSSEL   Prevenção também é investimento
 SEX 30  CARROSSEL   Prevenção na rotina da empresa
 
 SEMANA 3 · 03 a 06/11   (seg 02 é Finados: sem post)
@@ -71,9 +71,10 @@ parte da rotina da empresa.
 Desafios da saúde dos colaboradores: acesso e continuidade do cuidado.
 Notas do calendário: "Cuidado fora da rotina".
 
-**Qua 28/10 · Foto única · bloco 2: Prevenção também é investimento**
+**Qua 28/10 · Carrossel · bloco 2: Prevenção também é investimento**
 O que os estudos mostram sobre absenteísmo e custos com saúde quando a empresa
-cuida antes. Foto do Charles na construção, com os números do site.
+cuida antes, com os números do site. Quem monta: Charles. Rascunho em
+`instagram/posts/prevencao/`.
 
 Roteiro:
 
@@ -81,9 +82,7 @@ Roteiro:
 2. Por que saúde? Redução do absenteísmo.
 3. Por que com acolhimento, e não só consulta médica? Aumento do engajamento.
 
-Formato a confirmar: a página da semana e o rodapé do PDF dizem foto única,
-mas no calendário o card está como carrossel e o roteiro está dividido em
-slides.
+O PDF trazia este post como foto única. Virou carrossel.
 
 **Sex 30/10 · Carrossel · bloco 2: Como transformar a prevenção em parte da rotina de uma empresa?**
 Conectar o problema ao modelo de cuidado oferecido pela FairHealth. Foco no RH
