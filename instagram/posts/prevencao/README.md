@@ -54,6 +54,38 @@ A capa é colorida. No miolo, as fotos ficam em preto e branco com retícula: o
 | 4 | Duas pessoas conversando à mesa, só mãos e canecas (cena A4 da sessão de fotos) | `two people talking coffee hands table` |
 | 5 | Mãos sobre um relatório com gráfico genérico (cena A5) | `hands report chart desk` |
 
+### Fotos avaliadas em 27/10
+
+Das 8 fotos enviadas em 27/10 (`possiveis_fotos.zip`), nenhuma foi para o
+repositório até os direitos de uso estarem confirmados.
+
+| Foto | Decisão |
+|---|---|
+| Homem no meio de papéis voando, lente olho de peixe | **Capa (1ª opção).** É a que mais quebra o padrão do feed: clara, colorida, com movimento. Tem a melhor resolução (1199x1499). |
+| Mulher esfregando os olhos à noite, luz de luminária | **Capa (2ª opção).** Mais ligada à saúde, mas escura, e fica parecida com o resto do feed. Se for ela, a foto vai alinhada por baixo e a sombra fica mais leve. |
+| Mulher dormindo sobre papéis, vista de cima | **Slide 3.** Funciona muito bem em preto e branco com retícula. |
+| Mulher com caixa na cabeça, estúdio branco | Guardar para um post sobre sobrecarga, com texto escuro no branco. Não combina com a capa escura deste post. |
+| Equipe ao telefone, olho de peixe | Não serve para este post. Pode servir para o 30/10. |
+| Michael Scott (The Office) | **Não usar.** É o ator Steve Carell: direito de imagem e direito autoral da série. |
+| Tela com "I HATE WORK" | **Não usar.** A frase vai contra a mensagem, e a foto é horizontal e pequena. |
+| Homem com post-its no rosto | **Não usar.** Os post-its estão escritos em alfabeto cirílico, e a cena é carregada. |
+
+**Antes de usar qualquer uma:**
+
+1. As fotos parecem ter vindo do Pinterest (720 a 736 px de largura é o tamanho
+   padrão de lá). O Pinterest não dá direito de uso.
+2. Procure a origem de cada foto escolhida com o Google Lens (pesquisa por
+   imagem).
+3. Só use se a foto vier do Unsplash ou do Pexels, ou se for comprada num banco
+   de imagens. Se for trabalho de fotógrafo ou campanha de marca, não use sem
+   autorização.
+4. Baixe o arquivo original, com pelo menos 1080 px de largura. A cópia do
+   Pinterest serve para o slide em retícula, mas fica sem nitidez na capa
+   colorida.
+
+**Ainda faltam** as fotos dos slides 2 (medidor de pressão), 4 (duas pessoas
+conversando à mesa) e 5 (mãos sobre um relatório).
+
 - **A capa é o que mais importa.** Precisa ter uma pessoa, emoção real e cor
   quente. Nada de banco de imagem sorrindo para a câmera.
 - Nas fotos com texto por cima (1 e 3), o lado do texto precisa ser mais escuro
