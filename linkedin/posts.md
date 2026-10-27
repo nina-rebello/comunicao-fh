@@ -13,9 +13,11 @@ Itens **[PENDENTE]** precisam de confirmação antes de publicar.
 **Formato:** documento em PDF (6 páginas, 1080x1350). Arte no Canva:
 **"LinkedIn · O que é a fairhealth (29/10) · 6 slides"**, feita a partir do
 carrossel "O que é a fairhealth" com a origem do "Por que a fairhealth
-existe?". Slides: capa tiffany, nossa história (2009), cuidar antes, quatro
-frentes, e para a empresa?, como começar. Exportar como PDF e subir como
-documento. **Título do documento:** "O que é a fairhealth".
+existe?". Texto curto em cada slide: capa tiffany · começamos em um hospital
+(2009) · cuidar antes · na prática, o seu time tem · e para a empresa? · CTA
+"Vamos cuidar do seu time?" com o diagnóstico gratuito e o site. Exportar
+como PDF e subir como documento. **Título do documento:** "O que é a
+fairhealth".
 
 ```
 O cuidado com a saúde costuma chegar à empresa tarde demais.
