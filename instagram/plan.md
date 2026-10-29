@@ -87,6 +87,9 @@ O PDF trazia este post como foto única. Virou carrossel.
 **Sex 30/10 · Carrossel · bloco 2: Como transformar a prevenção em parte da rotina de uma empresa?**
 Conectar o problema ao modelo de cuidado oferecido pela FairHealth. Foco no RH
 e no médico do trabalho.
+Rascunho em `instagram/posts/rotina/`: 4 passos (perto, dia e hora,
+encaminhar e acompanhar, medir), com acolhimento e encaminhamento. A versão
+que comparava com a medicina do trabalho e o plano de saúde foi descartada.
 
 Proposta: ocupar o espaço entre a medicina do trabalho e o plano de saúde.
 
