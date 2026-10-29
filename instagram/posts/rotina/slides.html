@@ -42,6 +42,7 @@
 .cartao .n{font-size:84px;font-weight:800;letter-spacing:-3px;line-height:1;display:inline-block;
   background:linear-gradient(135deg,#7FB5AA,var(--escuro));-webkit-background-clip:text;background-clip:text;color:transparent}
 .cartao .ic{position:absolute;top:44px;left:746px;width:56px;height:56px}
+.ic svg,.ind-i svg{display:block;width:100%;height:100%}
 .cartao .t{font-size:29px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;margin-top:16px}
 .cartao .c{font-size:31px;line-height:1.36;margin-top:12px}
 .cartao .c b{color:var(--escuro)}
@@ -66,7 +67,7 @@
 .semana{position:relative;height:92px;margin-top:24px}
 .dia-l{position:absolute;top:0;width:136px;text-align:center;font-size:22px;font-weight:800;letter-spacing:2px;opacity:.55}
 .dia-c{position:absolute;top:40px;width:136px;height:50px;border-radius:999px}
-.dia-t{position:absolute;top:40px;width:136px;height:50px;line-height:48px;text-align:center;font-size:22px;font-weight:700}
+.dia-t{position:absolute;top:52px;width:136px;line-height:1.2;text-align:center;font-size:22px;font-weight:700}
 .med{background:var(--escuro)}.med-t{color:#fff}
 .psi{background:var(--agua)}.psi-t{color:var(--tinta)}
 .cta{position:absolute;left:160px;right:72px;background:var(--menta);border-radius:22px}
@@ -79,7 +80,7 @@
 
 /* Capa e convite. */
 .pilula{position:absolute;border:3px solid currentColor;border-radius:999px}
-.pil-t{position:absolute;text-align:center;font-weight:500;white-space:nowrap}
+.pil-t{position:absolute;text-align:center;font-weight:500;white-space:nowrap;line-height:1.2}
 .pil-t b{font-weight:800;font-style:normal}
 .selo{position:relative;height:58px;font-size:30px;font-weight:700;line-height:58px;white-space:nowrap}
 .selo img{position:absolute;left:0;top:0;width:58px;height:58px;border-radius:50%}
@@ -108,7 +109,7 @@ body{background:none;margin:0}
   <p class="serif abs" style="left:72px;right:72px;top:290px;text-align:center;font-size:190px;line-height:1">rotina</p>
   <h1 class="h abs" style="left:72px;right:72px;top:478px;text-align:center;font-size:70px;letter-spacing:-2.5px;line-height:1.03">de uma empresa?</h1>
   <div class="pilula" style="left:72px;bottom:96px;width:716px;height:74px;color:#fff"></div>
-  <p class="pil-t" style="left:72px;bottom:96px;width:716px;height:74px;line-height:68px;font-size:30px;color:#fff">4 passos para o cuidado <b>sair da campanha</b> →</p>
+  <p class="pil-t" style="left:72px;bottom:115px;width:716px;font-size:30px;color:#fff">4 passos para o cuidado <b>sair da campanha</b> →</p>
 </section>
 
 <!-- 2 · PASSO 01: o problema (o cuidado chega tarde porque fica longe) e o acolhimento.
@@ -120,12 +121,12 @@ body{background:none;margin:0}
   <p class="rotulo abs" style="left:160px;top:150px">Passo 01 de 04</p>
   <h2 class="h tit" style="top:196px">O cuidado chega tarde<br>quando fica</h2>
   <p class="serif tit-s" style="top:330px">longe.</p>
-  <p class="txt abs" style="left:160px;right:72px;top:424px;opacity:.75">É preciso marcar, sair do trabalho, esperar.</p>
+  <p class="txt abs" style="left:160px;right:72px;top:436px;opacity:.75">É preciso marcar, sair do trabalho, esperar.</p>
   <div class="recorte" style="top:500px;height:240px"><div class="img" id="foto-2"><div class="aviso">FOTO: porta ou sala do Escritório do Cuidado,<br>com alguém do time recebendo (B1/B2)</div></div></div>
   <div class="ponto" style="top:840px"></div><div class="liga" style="top:840px"></div>
   <div class="cartao" style="top:780px">
     <span class="n">01.</span>
-    <svg class="ic" viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M28 50s16-14 16-27a16 16 0 0 0-32 0c0 13 16 27 16 27z"/><circle cx="28" cy="23" r="6"/></svg>
+    <div class="ic"><svg viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M28 50s16-14 16-27a16 16 0 0 0-32 0c0 13 16 27 16 27z"/><circle cx="28" cy="23" r="6"/></svg></div>
     <p class="t">Levar o cuidado para perto</p>
     <p class="c">Médico, psicólogo e assistente social dentro da empresa. Tudo começa pelo <b>acolhimento</b>: alguém escuta a pessoa antes de qualquer conduta.</p>
     <div class="barra"><i class="on"></i><i></i><i></i><i></i></div>
@@ -153,7 +154,7 @@ body{background:none;margin:0}
   <div class="ponto" style="top:740px"></div><div class="liga" style="top:740px"></div>
   <div class="cartao" style="top:680px">
     <span class="n">02.</span>
-    <svg class="ic" viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="12" width="40" height="36" rx="6"/><path d="M8 24h40M19 6v10M37 6v10"/></svg>
+    <div class="ic"><svg viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="12" width="40" height="36" rx="6"/><path d="M8 24h40M19 6v10M37 6v10"/></svg></div>
     <p class="t">Dar dia e hora</p>
     <p class="c">Plantões alternados de médicos e psicólogos. O colaborador sabe quando vai encontrar alguém.</p>
     <div class="barra"><i class="on"></i><i class="on"></i><i></i><i></i></div>
@@ -173,7 +174,7 @@ body{background:none;margin:0}
   <div class="ponto" style="top:700px"></div><div class="liga" style="top:700px"></div>
   <div class="cartao" style="top:640px">
     <span class="n">03.</span>
-    <svg class="ic" viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 20h36M36 12l8 8-8 8M48 36H12M20 28l-8 8 8 8"/></svg>
+    <div class="ic"><svg viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 20h36M36 12l8 8-8 8M48 36H12M20 28l-8 8 8 8"/></svg></div>
     <p class="t">Encaminhar e acompanhar</p>
     <p class="c">Quando é preciso mais, a equipe faz o <b>encaminhamento</b> para o especialista certo e continua junto: plano individual, retorno marcado e smartband entre um encontro e outro.</p>
     <div style="position:relative;height:100px;margin-top:22px">
@@ -196,13 +197,13 @@ body{background:none;margin:0}
   <div class="ponto" style="top:730px"></div><div class="liga" style="top:730px"></div>
   <div class="cartao" style="top:670px">
     <span class="n">04.</span>
-    <svg class="ic" viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="5" stroke-linecap="round"><path d="M12 46V34M24 46V24M36 46V28M48 46V12"/></svg>
+    <div class="ic"><svg viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="5" stroke-linecap="round"><path d="M12 46V34M24 46V24M36 46V28M48 46V12"/></svg></div>
     <p class="t">Medir o que muda</p>
     <p class="c">O RH recebe indicadores do time, sempre anonimizados e agregados.</p>
     <div class="inds">
-      <div class="ind" style="left:0px"></div><svg class="ind-i" style="left:20px" viewBox="0 0 40 40" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18c0-4 3-7 7-7s7 3 7 7-3 7-7 7-7-3-7-7zM4 36c1-6 7-9 13-9" /><circle cx="29" cy="20" r="5"/><path d="M22 36c1-5 4-8 9-8s7 3 8 8"/></svg><p class="ind-t" style="left:20px">Adesão</p>
-      <div class="ind" style="left:257px"></div><svg class="ind-i" style="left:277px" viewBox="0 0 40 40" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 14A13 13 0 1 0 33 26"/><path d="M33 6v9h-9"/></svg><p class="ind-t" style="left:277px">Retornos</p>
-      <div class="ind" style="left:514px"></div><svg class="ind-i" style="left:534px" viewBox="0 0 40 40" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h8l4-10 8 18 4-8h8"/></svg><p class="ind-t" style="left:534px">Fatores<br>de risco</p>
+      <div class="ind" style="left:0px"></div><div class="ind-i" style="left:20px"><svg viewBox="0 0 40 40" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18c0-4 3-7 7-7s7 3 7 7-3 7-7 7-7-3-7-7zM4 36c1-6 7-9 13-9" /><circle cx="29" cy="20" r="5"/><path d="M22 36c1-5 4-8 9-8s7 3 8 8"/></svg></div><p class="ind-t" style="left:20px">Adesão</p>
+      <div class="ind" style="left:257px"></div><div class="ind-i" style="left:277px"><svg viewBox="0 0 40 40" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 14A13 13 0 1 0 33 26"/><path d="M33 6v9h-9"/></svg></div><p class="ind-t" style="left:277px">Retornos</p>
+      <div class="ind" style="left:514px"></div><div class="ind-i" style="left:534px"><svg viewBox="0 0 40 40" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h8l4-10 8 18 4-8h8"/></svg></div><p class="ind-t" style="left:534px">Fatores<br>de risco</p>
     </div>
     <div class="barra"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
   </div>
@@ -216,9 +217,9 @@ body{background:none;margin:0}
   <div class="ponto" style="top:870px;background:var(--menta);box-shadow:0 0 0 10px rgba(191,224,217,.3)"></div>
   <h2 class="h tit" style="top:220px;font-size:88px;letter-spacing:-3px">Na sua empresa, a<br>prevenção já faz<br>parte da</h2>
   <p class="serif tit-s" style="top:492px;font-size:106px">rotina?</p>
-  <div class="pilula" style="left:160px;top:634px;width:440px;height:86px;color:var(--menta)"></div>
-  <p class="pil-t" style="left:160px;top:634px;width:440px;height:86px;line-height:80px;font-size:40px;color:var(--menta)">Comente <b>CUIDADO</b></p>
-  <p class="txt abs" style="left:160px;right:72px;top:750px;font-size:38px">e enviamos na DM como funciona o diagnóstico gratuito.</p>
+  <div class="pilula" style="left:160px;top:656px;width:440px;height:86px;color:var(--menta)"></div>
+  <p class="pil-t" style="left:160px;top:675px;width:440px;font-size:40px;color:var(--menta)">Comente <b>CUIDADO</b></p>
+  <p class="txt abs" style="left:160px;right:72px;top:770px;font-size:38px">e enviamos na DM como funciona o diagnóstico gratuito.</p>
   <p class="fecho abs" style="left:160px;right:72px;bottom:190px;font-size:46px">Na terça: como funciona o cuidado na prática.</p>
   <div class="selo abs" style="left:160px;bottom:90px"><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>
 </section>

@@ -12,6 +12,14 @@ está em `slides.html`, as artes em `png/` e a prévia em `previa.png`.
 **Status:** rascunho para aprovação. As fotos ainda são molduras com a
 descrição da cena.
 
+## No Canva
+
+**Design editável:** [Prevenção na rotina (30/10) · carrossel 6 slides ·
+final](CANVA_LINK). Foi importado de `canva.html`, gerado com
+`node instagram/ferramentas/canva.mjs instagram/posts/rotina/slides.html instagram/posts/rotina/canva.html`.
+Na versão do Canva, as molduras de foto são retas e lisas e o número do cartão
+é em cor sólida (o Canva não converte rotação nem texto em degradê).
+
 ## Os três Cs deste post
 
 - **Capa:** "Como transformar a prevenção em parte da rotina de uma empresa?" (11

@@ -28,7 +28,10 @@ node instagram/ferramentas/pdf.mjs instagram/posts/<nome>/slides.html instagram/
 
 O Canva importa HTML por URL pública. O repositório é público, então:
 
-1. Gere um `canva.html` autocontido a partir do `slides.html`: CSS, fontes e
+1. Gere um `canva.html` autocontido a partir do `slides.html` com
+   `node instagram/ferramentas/canva.mjs <slides.html> <canva.html>`. Ele embute
+   CSS, fontes e logo e liga o bloco `<style media="canva">` do post, se houver.
+   Por trás, o que o Canva precisa: CSS, fontes e
    logo embutidos em base64 (o GitHub serve CSS e fontes como texto puro, e o
    Canva ignora). Também é preciso marcar cada `<section class="slide">` com
    `data-document-role="page"` e trocar as molduras de foto por formas lisas,
@@ -40,3 +43,9 @@ O Canva importa HTML por URL pública. O repositório é público, então:
    `display:flex` com `gap` (use posição absoluta), `padding` dentro de texto
    com fundo (use `&nbsp;`), `box-decoration-break` (uma pílula por linha) e
    `border-left` em texto (use uma `div` separada como barra).
+   Também (post de 30/10): duas fontes na mesma caixa de texto (o trecho em
+   serif vira outra caixa), `inline-block` lado a lado (use posição absoluta),
+   SVG com posição absoluta (ponha o SVG dentro de um `div` posicionado),
+   `line-height` para centrar texto numa forma (calcule o `top`), texto em
+   degradê e elementos girados. Quebre as linhas dos títulos com `<br>` e deixe
+   folga na largura: no Canva o texto sai um pouco mais largo.
