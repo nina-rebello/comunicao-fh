@@ -15,7 +15,7 @@ descrição da cena.
 ## No Canva
 
 **Design editável:** [Prevenção na rotina (30/10) · carrossel 6 slides ·
-final](CANVA_LINK). Foi importado de `canva.html`, gerado com
+final](https://www.canva.com/d/TChp2LNpPUSKzPC) (id `DAHZbxCNgZw`). Foi importado de `canva.html`, gerado com
 `node instagram/ferramentas/canva.mjs instagram/posts/rotina/slides.html instagram/posts/rotina/canva.html`.
 Na versão do Canva, as molduras de foto são retas e lisas e o número do cartão
 é em cor sólida (o Canva não converte rotação nem texto em degradê).
