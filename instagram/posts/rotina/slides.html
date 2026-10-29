@@ -43,8 +43,8 @@
 .cartao .t{font-size:29px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;margin-top:16px}
 .cartao .c{font-size:31px;line-height:1.36;margin-top:12px}
 .cartao .c b{color:var(--escuro)}
-.barra{display:flex;gap:10px;margin-top:26px}
-.barra i{width:64px;height:9px;border-radius:5px;background:#E1ECE9}
+.barra{height:9px;margin-top:26px;font-size:0}
+.barra i{display:inline-block;width:64px;height:9px;margin-right:10px;border-radius:5px;background:#E1ECE9}
 .barra i.on{background:linear-gradient(90deg,var(--agua),var(--escuro))}
 
 /* Foto do miolo: recorte colorido com borda branca, levemente inclinado.
@@ -61,28 +61,40 @@
   width:max-content;max-width:84%;line-height:1.35;z-index:1}
 
 /* Semana de plantões (slide 3). */
-.semana{display:flex;justify-content:space-between;margin-top:26px}
-.dia{width:136px;text-align:center}
+.semana{margin-top:26px;font-size:0;white-space:nowrap}
+.dia{display:inline-block;width:136px;margin-right:22px;text-align:center;vertical-align:top}
+.dia:last-child{margin-right:0}
 .dia p{font-size:22px;font-weight:800;letter-spacing:2px;opacity:.55}
-.dia span{display:block;margin-top:14px;border-radius:999px;padding:12px 0 14px;font-size:22px;font-weight:700}
+.dia span{display:block;margin-top:14px;border-radius:999px;height:50px;line-height:48px;font-size:22px;font-weight:700}
 .dia .med{background:var(--escuro);color:#fff}
 .dia .psi{background:var(--agua);color:var(--tinta)}
-.cta{position:absolute;left:160px;right:72px;background:var(--menta);color:var(--tinta);border-radius:22px;
-  padding:26px 34px;font-size:31px;line-height:1.3;font-weight:500}
+.cta{position:absolute;left:160px;right:72px;background:var(--menta);border-radius:22px}
+.cta p{position:absolute;left:34px;right:34px;top:26px;color:var(--tinta);font-size:31px;line-height:1.3;font-weight:500}
 .cta b{font-weight:800}
 
 /* Indicadores (slide 5). */
-.inds{display:flex;gap:16px;margin-top:24px}
-.ind{flex:1;border:2px solid #E1ECE9;border-radius:18px;padding:18px 18px 20px;font-size:23px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+.inds{margin-top:24px;font-size:0;white-space:nowrap}
+.ind{display:inline-block;width:241px;margin-right:16px;vertical-align:top;white-space:normal;height:148px;border:2px solid #E1ECE9;border-radius:18px;padding:18px 18px 20px;font-size:23px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
 .ind svg{display:block;width:40px;height:40px;margin-bottom:12px}
 
 /* Capa e convite. */
-.pilula{display:inline-block;border:3px solid currentColor;border-radius:999px;padding:14px 34px 16px;font-size:30px;font-weight:500}
-.pilula b{font-weight:800;font-style:normal}
+.pilula{position:absolute;border:3px solid currentColor;border-radius:999px}
+.pil-t{position:absolute;text-align:center;font-weight:500;white-space:nowrap}
+.pil-t b{font-weight:800;font-style:normal}
 .selo{position:relative;height:58px;font-size:30px;font-weight:700;line-height:58px;white-space:nowrap}
 .selo img{position:absolute;left:0;top:0;width:58px;height:58px;border-radius:50%}
 .selo span{position:absolute;left:74px;top:0}
 .selo.abs{position:absolute;width:400px}
+</style>
+<style media="canva">
+/* Ajustes para importar no Canva (instagram/ferramentas/canva.mjs liga este bloco):
+   molduras de foto lisas e retas, número em cor sólida, sem sombra. */
+body{background:none;margin:0}
+.slide{margin:0}
+.img{background-image:none;background-color:#5f6b68}
+.recorte{transform:none!important;box-shadow:none}
+.cartao{box-shadow:none;border:2px solid #E1ECE9}
+.cartao .n{background:none;color:var(--escuro)}
 </style></head><body>
 
 <!-- 1 · CAPA: a pergunta do RH, dita de frente. Foto colorida de uma conversa de cuidado,
@@ -92,12 +104,11 @@
   <div class="abs" style="inset:0;background:linear-gradient(rgba(12,17,16,.86) 0%,rgba(12,17,16,.62) 38%,rgba(12,17,16,0) 58%)"></div>
   <div class="abs" style="left:0;right:0;bottom:0;height:260px;background:linear-gradient(rgba(12,17,16,0),rgba(12,17,16,.6))"></div>
   <div class="topo"><span>@fairhealth.br</span><span>01/06</span></div>
-  <div class="abs" style="left:72px;right:72px;top:150px;text-align:center">
-    <h1 class="h" style="font-size:70px;letter-spacing:-2.5px;line-height:1.03">Como transformar a prevenção em parte da<br><span class="serif" style="font-size:190px;display:inline-block;margin:-6px 0 -2px">rotina</span><br>de uma empresa?</h1>
-  </div>
-  <div class="abs" style="left:72px;right:72px;bottom:96px;display:flex;align-items:center;justify-content:space-between">
-    <span class="pilula" style="color:#fff">4 passos para o cuidado <b>sair da campanha</b> →</span>
-  </div>
+  <h1 class="h abs" style="left:72px;right:72px;top:150px;text-align:center;font-size:70px;letter-spacing:-2.5px;line-height:1.03">Como transformar a<br>prevenção em parte da</h1>
+  <p class="serif abs" style="left:72px;right:72px;top:290px;text-align:center;font-size:190px;line-height:1">rotina</p>
+  <h1 class="h abs" style="left:72px;right:72px;top:478px;text-align:center;font-size:70px;letter-spacing:-2.5px;line-height:1.03">de uma empresa?</h1>
+  <div class="pilula" style="left:72px;bottom:96px;width:716px;height:74px;color:#fff"></div>
+  <p class="pil-t" style="left:72px;bottom:96px;width:716px;height:74px;line-height:68px;font-size:30px;color:#fff">4 passos para o cuidado <b>sair da campanha</b> →</p>
 </section>
 
 <!-- 2 · PASSO 01: o problema (o cuidado chega tarde porque fica longe) e o acolhimento. -->
@@ -147,7 +158,8 @@
     <p class="c">Plantões alternados de médicos e psicólogos. O colaborador sabe quando vai encontrar alguém.</p>
     <div class="barra"><i class="on"></i><i class="on"></i><i></i><i></i></div>
   </div>
-  <div class="cta" style="top:1090px">Conhece quem cuida da saúde do time na sua empresa? <b>Envie este post para essa pessoa.</b></div>
+  <div class="cta" style="top:1090px;height:134px"></div>
+  <p class="cta-t abs" style="left:194px;right:106px;top:1116px;font-size:31px;line-height:1.3;font-weight:500;color:var(--tinta)">Conhece quem cuida da saúde do time na sua empresa? <b>Envie este post para essa pessoa.</b></p>
 </section>
 
 <!-- 4 · PASSO 03: encaminhamento e acompanhamento, com a prova da Chemitec. -->
@@ -165,9 +177,9 @@
     <svg class="ic" viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 20h36M36 12l8 8-8 8M48 36H12M20 28l-8 8 8 8"/></svg>
     <p class="t">Encaminhar e acompanhar</p>
     <p class="c">Quando é preciso mais, a equipe faz o <b>encaminhamento</b> para o especialista certo e continua junto: plano individual, retorno marcado e smartband entre um encontro e outro.</p>
-    <div style="display:flex;align-items:center;gap:26px;margin-top:22px">
-      <span class="n" style="font-size:96px">81,3%</span>
-      <div><p class="c" style="margin:0;font-size:27px;line-height:1.3">voltaram para 2 ou mais atendimentos</p><p class="fonte" style="margin-top:4px">Fonte: Chemitec, 1º semestre de 2026</p></div>
+    <div style="position:relative;height:100px;margin-top:22px">
+      <span class="n abs" style="left:0;top:0;font-size:96px">81,3%</span>
+      <div class="abs" style="left:300px;right:0;top:18px"><p class="c" style="margin:0;font-size:27px;line-height:1.3">voltaram para 2 ou mais atendimentos</p><p class="fonte" style="margin-top:4px">Fonte: Chemitec, 1º semestre de 2026</p></div>
     </div>
     <div class="barra"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
   </div>
@@ -204,11 +216,10 @@
   <div class="topo"><span>@fairhealth.br</span><span>06/06</span></div>
   <div class="trilho" style="bottom:auto;height:740px;background:linear-gradient(var(--escuro),var(--menta))"></div>
   <div class="ponto" style="top:870px;background:var(--menta);box-shadow:0 0 0 10px rgba(191,224,217,.3)"></div>
-  <div class="abs" style="left:160px;right:72px;top:220px">
-    <h2 class="h" style="font-size:88px;letter-spacing:-3px">Na sua empresa, a prevenção já faz parte da <span class="serif">rotina?</span></h2>
-    <p style="margin-top:60px"><span class="pilula" style="color:var(--menta);font-size:40px">Comente <b>CUIDADO</b></span></p>
-    <p class="txt" style="font-size:38px;margin-top:26px">e enviamos na DM como funciona o diagnóstico gratuito.</p>
-  </div>
+  <h2 class="h abs" style="left:160px;right:72px;top:220px;font-size:88px;letter-spacing:-3px">Na sua empresa, a prevenção já faz parte da <span class="serif">rotina?</span></h2>
+  <div class="pilula" style="left:160px;top:590px;width:440px;height:86px;color:var(--menta)"></div>
+  <p class="pil-t" style="left:160px;top:590px;width:440px;height:86px;line-height:80px;font-size:40px;color:var(--menta)">Comente <b>CUIDADO</b></p>
+  <p class="txt abs" style="left:160px;right:72px;top:706px;font-size:38px">e enviamos na DM como funciona o diagnóstico gratuito.</p>
   <p class="fecho abs" style="left:160px;right:72px;bottom:190px;font-size:46px">Na terça: como funciona o cuidado na prática.</p>
   <div class="selo abs" style="left:160px;bottom:90px"><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>
 </section>
