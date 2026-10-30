@@ -20,6 +20,13 @@ final](https://www.canva.com/d/TChp2LNpPUSKzPC) (id `DAHZbxCNgZw`). Foi importad
 Na versão do Canva, as molduras de foto são retas e lisas e o número do cartão
 é em cor sólida (o Canva não converte rotação nem texto em degradê).
 
+**Versão limpa (30/10):** `slides-limpo.html`, com artes em `png-limpo/`, prévia
+em `previa-limpo.png` e importação em `canva-limpo.html`. Mesmo texto, com o
+miolo sem cartões, ícones, barra de progresso nem grade: o número do passo vai
+na bolinha da trilha, o nome do passo no rótulo, e cada slide fica com título,
+foto, um parágrafo e no máximo uma prova. No slide 4, o texto ficou mais curto
+(sem a smartband).
+
 ## Os três Cs deste post
 
 - **Capa:** "Como transformar a prevenção em parte da rotina de uma empresa?" (11
