@@ -36,7 +36,7 @@ Na versão do Canva, as molduras de foto são retas e lisas e o número do cart�
 | # | Rótulo | Título | Texto | Fecho |
 |---|---|---|---|---|
 | 1 | Capa | Como transformar a prevenção em parte da *rotina* de uma empresa? | Pílula: 4 passos para o cuidado sair da campanha → | |
-| 2 | 01 · Levar o cuidado para perto | O cuidado chega tarde quando fica *longe*. | É preciso marcar, sair do trabalho, esperar. Médico, psicólogo e assistente social dentro da empresa. Tudo começa pelo **acolhimento**: alguém escuta a pessoa antes de qualquer conduta. | Quando o cuidado está perto, ele cabe no dia. |
+| 2 | 01 · Levar o cuidado para dentro | Ninguém sai do trabalho para cuidar do que *ainda não dói*. | O Escritório do Cuidado fica dentro da empresa, no horário de trabalho. E começa pelo **acolhimento**: uma conversa sem pressa sobre sono, estresse e rotina, que encontra o que ainda não virou sintoma. 98% de adesão ao Escritório do Cuidado (Chemitec, 1º semestre de 2026). | Prevenção não pode custar uma manhã. |
 | 3 | 02 · Dar dia e hora | Cuidado com *dia e hora* marcados. | Plantões alternados de médicos e psicólogos. O colaborador sabe quando vai encontrar alguém. + CTA | Rotina é o que se repete. |
 | 4 | 03 · Encaminhar e acompanhar | O cuidado não termina no *primeiro encontro*. | Quando é preciso mais, a equipe faz o **encaminhamento** para o especialista certo e continua junto: plano individual, retorno marcado e smartband entre um encontro e outro. 81,3% voltaram para 2 ou mais atendimentos (Chemitec, 1º semestre de 2026). | Quem encaminha continua junto. |
 | 5 | 04 · Medir o que muda | O RH vê *o que muda*. | O RH recebe indicadores do time, sempre anonimizados e agregados: adesão, retornos, fatores de risco. | Da intenção à evidência. |
@@ -88,8 +88,10 @@ na `div` com classe `img` e apague o `aviso`. Depois rode:
   é encaminhada e como o acompanhamento continua depois.
 - **A smartband** mede de fato sono e atividade? A legenda não cita; o slide 4
   fala só em "smartband entre um encontro e outro".
-- **O 81,3% da Chemitec** está liberado no `voice.md`. Se ficar guardado para o
-  Reel de 09/11, o slide 4 e a legenda saem sem ele.
+- **Os números da Chemitec** (98% de adesão no slide 2, 81,3% de retorno no
+  slide 4) estão liberados no `voice.md`. Confirmar a base do 98% (adesão de
+  quem: dos colaboradores elegíveis? dos convidados?). Se os números ficarem
+  guardados para o Reel de 09/11, os slides 2 e 4 e a legenda saem sem eles.
 - **Quem responde as DMs do "CUIDADO"** no mesmo dia.
 - **O Dr. Ronald aprova o texto** (menção médica, CFM).
 - **Canva:** o número em degradê e o recorte inclinado podem não converter. No
@@ -104,7 +106,7 @@ Toda empresa conhece o ciclo: a palestra do mês temático, o check-up anual, a 
 
 Para a prevenção fazer parte do dia a dia, o cuidado precisa estar perto, ter dia e hora, acompanhar cada pessoa ao longo do tempo e mostrar ao RH o que está mudando.
 
-É assim que funciona o modelo de cuidado da fairhealth. Começa pelo acolhimento: médicos, psicólogos e assistentes sociais dentro da empresa, em plantões, escutando cada pessoa antes de qualquer conduta. Segue pelo encaminhamento: quando é preciso mais, a equipe leva a pessoa até o cuidado certo e continua acompanhando, com plano individual e indicadores anonimizados para o RH. Na Chemitec, 81,3% dos colaboradores atendidos voltaram para dois ou mais atendimentos no primeiro semestre de 2026.
+É assim que funciona o modelo de cuidado da fairhealth. Começa pelo acolhimento: médicos, psicólogos e assistentes sociais dentro da empresa, em plantões, escutando cada pessoa antes de qualquer conduta. Segue pelo encaminhamento: quando é preciso mais, a equipe leva a pessoa até o cuidado certo e continua acompanhando, com plano individual e indicadores anonimizados para o RH. Na Chemitec, no primeiro semestre de 2026, a adesão foi de 98%, e 81,3% dos colaboradores atendidos voltaram para dois ou mais atendimentos.
 
 Na fairhealth, acreditamos que cuidar antes é rotina, não evento.
 
