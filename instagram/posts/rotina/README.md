@@ -112,13 +112,13 @@ na `div` com classe `img` e apague o `aviso`. Depois rode:
 ```
 Campanha de saúde tem data para acabar. Prevenção que funciona, não.
 
-Toda empresa conhece o ciclo: a palestra do mês temático, o check-up anual, a semana da saúde. Na segunda-feira seguinte, a rotina volta a ser a mesma, e o cuidado fica para quando algo der errado. Aí ele chega tarde, longe do trabalho e sem continuidade.
+Toda empresa conhece o ciclo: a palestra do mês temático, o check-up anual, a semana da saúde. Na segunda-feira seguinte, tudo volta ao que era, e o cuidado fica para quando algo der errado. Aí ele chega tarde.
 
-Para a prevenção fazer parte do dia a dia, o cuidado precisa estar perto, ter dia e hora, acompanhar cada pessoa ao longo do tempo e mostrar ao RH o que está mudando.
+Na saúde corporativa, a prevenção só entra na rotina quando o cuidado está perto, tem dia e hora marcados, acompanha cada pessoa ao longo do tempo e mostra ao RH o que está mudando.
 
-É assim que funciona o modelo de cuidado da fairhealth. Começa pelo acolhimento: médicos, psicólogos e assistentes sociais dentro da empresa, em plantões, escutando cada pessoa antes de qualquer conduta. Segue pelo encaminhamento: quando é preciso mais, a equipe leva a pessoa até o cuidado certo e continua acompanhando, com plano individual e indicadores anonimizados para o RH.
+É esse o modelo de cuidado da fairhealth. Começa pelo acolhimento: médicos, psicólogos e assistentes sociais dentro da empresa, em plantões alternados, com atendimento presencial ou remoto, escutando cada pessoa antes de qualquer conduta. Segue pelo encaminhamento: quando é preciso mais, a equipe leva a pessoa até o cuidado certo e continua junto, com plano individual e retorno marcado.
 
-Na fairhealth, acreditamos que cuidar antes é rotina, não evento.
+Para o RH, o resultado aparece em indicadores do time, sempre anonimizados e agregados: adesão, retornos e fatores de risco.
 
 Na sua empresa, a prevenção já faz parte da rotina? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
 
