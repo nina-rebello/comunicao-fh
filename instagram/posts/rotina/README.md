@@ -44,8 +44,8 @@ foto, um parágrafo e no máximo uma prova. No slide 4, o texto ficou mais curto
 |---|---|---|---|---|
 | 1 | Capa | Como transformar a prevenção em parte da *rotina* de uma empresa? | Pílula: 4 passos para o cuidado sair da campanha → | |
 | 2 | 01 · Levar o cuidado para perto | O cuidado chega tarde quando fica *longe*. | É preciso marcar, sair do trabalho, esperar. Médico, psicólogo e assistente social dentro da empresa. Tudo começa pelo **acolhimento**: alguém escuta a pessoa antes de qualquer conduta. | Quando o cuidado está perto, ele cabe no dia. |
-| 3 | 02 · Dar dia e hora | Campanha tem fim. *Plantão tem dia marcado.* | Na Chemitec, em 6 meses: 161 atendimentos, 48 colaboradores atendidos, 98% de adesão. No Escritório do Cuidado, médicos e psicólogos fazem **plantões alternados** dentro da empresa. O colaborador sabe quando vai encontrar alguém. + CTA | Menos barreira, mais adesão. |
-| 4 | 03 · Encaminhar e acompanhar | O cuidado não termina no *primeiro encontro*. | Quando é preciso mais, a equipe faz o **encaminhamento** para o especialista certo e continua junto: plano individual, retorno marcado e smartband entre um encontro e outro. 81,3% voltaram para 2 ou mais atendimentos (Chemitec, 1º semestre de 2026). | Quem encaminha continua junto. |
+| 3 | 02 · Dar dia e hora | Cuidado com *dia e hora marcados*. | Cartão de cima: *Sem tirar ninguém da rotina:* → Dentro da empresa · → No horário de trabalho · → Presencial ou remoto. Cartão 02: Plantões alternados de médicos e psicólogos. O colaborador sabe quando vai encontrar alguém. + CTA | |
+| 4 | 03 · Encaminhar e acompanhar | O cuidado não termina no *primeiro encontro*. | Quando é preciso mais, a equipe faz o **encaminhamento** para o especialista certo e continua junto: plano individual, retorno marcado e smartband entre um encontro e outro. 93,8% voltaram para 2 ou mais atendimentos (Fonte: Cliente, 1º semestre de 2026). | Quem encaminha continua junto. |
 | 5 | 04 · Medir o que muda | O RH vê *o que muda*. | O RH recebe indicadores do time, sempre anonimizados e agregados: adesão, retornos, fatores de risco. | Da intenção à evidência. |
 | 6 | Convite | Na sua empresa, a prevenção já faz parte da *rotina*? | Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito. | Na terça: como funciona o cuidado na prática. |
 
@@ -67,9 +67,9 @@ de cuidado com título grande e pílula por cima (anima psicólogos).
 - **Fotos do miolo:** coloridas, como recorte com borda branca e leve
   inclinação. Muda o preto e branco com retícula do guia, que deixava a série
   pesada para um post sobre cuidado.
-- **Slide 3:** sem foto. O visual é a grade de caixas com os números da
-  Chemitec (161 atendimentos, 48 colaboradores, 98% de adesão), recurso de
-  leitura do guia de carrossel.
+- **Slide 3:** sem foto. O cartão de cima lista, com setas, como o cuidado
+  entra na rotina (dentro da empresa, no horário de trabalho, presencial ou
+  remoto). Sem dias da semana: não oferecemos plantão diário.
 - **Slide 6:** fundo verde-escuro, a trilha termina no ponto menta do convite.
 
 As referências servem de estilo e de cena. As fotos delas não entram no post:
@@ -91,20 +91,17 @@ na `div` com classe `img` e apague o `aviso`. Depois rode:
 
 ## Confirmar antes de publicar
 
-- **Slide 3, de onde vem cada coisa:** "campanha tem fim" retoma a abertura
-  da legenda e a pílula da capa; os plantões alternados vêm do Executive
-  Summary; "menos barreira, mais adesão" está nas palavras do `voice.md`; os
-  números da Chemitec estão liberados no `voice.md`.
-- **[PENDENTE] Base do 98% de adesão** (dos colaboradores elegíveis? dos
-  convidados?) e **frequência dos plantões**, para o "dia marcado" valer em
+- **Sem dados de clientes (decisão de 30/10):** nada de nome de cliente nem dos
+  números da Chemitec no post. O slide 4 usa o número que a Nina pôs no Canva
+  (93,8%, "Fonte: Cliente, 1º semestre de 2026"); a legenda não cita número.
+- **Slide 3:** "No horário de trabalho" é dedução (o atendimento acontece na
+  empresa), não está escrito nos materiais. Confirmar.
+- **[PENDENTE] Frequência dos plantões**, para o "dia e hora marcados" valer em
   qualquer empresa.
 - **[PENDENTE] Como funciona o encaminhamento** na prática: para quem a pessoa
   é encaminhada e como o acompanhamento continua depois.
 - **A smartband** mede de fato sono e atividade? A legenda não cita; o slide 4
   fala só em "smartband entre um encontro e outro".
-- **Os números da Chemitec** (slides 3 e 4) estão liberados no `voice.md`. Se
-  ficarem guardados para o Reel de 09/11, os slides 3 e 4 e a legenda saem sem
-  eles.
 - **Quem responde as DMs do "CUIDADO"** no mesmo dia.
 - **O Dr. Ronald aprova o texto** (menção médica, CFM).
 - **Canva:** o número em degradê e o recorte inclinado podem não converter. No
@@ -119,7 +116,7 @@ Toda empresa conhece o ciclo: a palestra do mês temático, o check-up anual, a 
 
 Para a prevenção fazer parte do dia a dia, o cuidado precisa estar perto, ter dia e hora, acompanhar cada pessoa ao longo do tempo e mostrar ao RH o que está mudando.
 
-É assim que funciona o modelo de cuidado da fairhealth. Começa pelo acolhimento: médicos, psicólogos e assistentes sociais dentro da empresa, em plantões, escutando cada pessoa antes de qualquer conduta. Segue pelo encaminhamento: quando é preciso mais, a equipe leva a pessoa até o cuidado certo e continua acompanhando, com plano individual e indicadores anonimizados para o RH. Na Chemitec, 81,3% dos colaboradores atendidos voltaram para dois ou mais atendimentos no primeiro semestre de 2026.
+É assim que funciona o modelo de cuidado da fairhealth. Começa pelo acolhimento: médicos, psicólogos e assistentes sociais dentro da empresa, em plantões, escutando cada pessoa antes de qualquer conduta. Segue pelo encaminhamento: quando é preciso mais, a equipe leva a pessoa até o cuidado certo e continua acompanhando, com plano individual e indicadores anonimizados para o RH.
 
 Na fairhealth, acreditamos que cuidar antes é rotina, não evento.
 

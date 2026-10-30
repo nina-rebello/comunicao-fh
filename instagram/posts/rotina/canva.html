@@ -114,6 +114,8 @@ b,em{font-weight:800;font-style:italic}
 .med{background:var(--escuro)}.med-t{color:#fff}
 .psi{background:var(--agua)}.psi-t{color:var(--tinta)}
 .cta{position:absolute;left:160px;right:72px;background:var(--menta);border-radius:22px}
+/* Lista com setas (slide 3). */
+.lista-s{font-size:32px;font-weight:700;line-height:1.38;color:var(--escuro)}
 /* Caixas de número (slide 3): número grande, rótulo em caixa alta. */
 .nums{position:relative;height:132px;margin-top:14px}
 .num-c{position:absolute;top:0;width:241px;height:132px;border:2px solid #E1ECE9;border-radius:18px}
@@ -182,36 +184,34 @@ body{background:none;margin:0}
   <p class="fecho abs" style="left:160px;right:72px;bottom:62px">Quando o cuidado está perto, ele cabe no dia.</p>
 </section>
 
-<!-- 3 · PASSO 02 + CTA: campanha tem fim, plantão tem dia marcado. A prova de que vira rotina
-     são os números liberados da Chemitec (voice.md). -->
+<!-- 3 · PASSO 02 + CTA: plantões com dia e hora. O cartão de cima diz como o cuidado entra na
+     rotina sem citar dias da semana (não oferecemos plantão diário) nem dados de clientes. -->
 <section data-document-role="page" class="slide ed grade" id="r-03">
   <div class="topo"><span>@fairhealth.br</span><span>03/06</span></div>
   <div class="trilho"></div>
   <p class="rotulo abs" style="left:160px;top:150px">Passo 02 de 04</p>
-  <h2 class="h tit" style="top:196px">Campanha tem fim.</h2>
-  <p class="serif tit-s" style="top:262px">Plantão tem dia marcado.</p>
-  <div class="cartao" style="top:380px;padding:34px 40px 34px">
-    <p class="rotulo" style="font-size:22px;margin:0">Na Chemitec, em 6 meses</p>
-    <div class="nums">
-      <div class="num-c" style="left:0px"></div><p class="num-n" style="left:20px">161</p><p class="num-t" style="left:20px">atendimentos</p>
-      <div class="num-c" style="left:257px"></div><p class="num-n" style="left:277px">48</p><p class="num-t" style="left:277px">colaboradores<br>atendidos</p>
-      <div class="num-c" style="left:514px"></div><p class="num-n" style="left:534px">98%</p><p class="num-t" style="left:534px">de adesão</p>
-    </div>
+  <h2 class="h tit" style="top:196px">Cuidado com</h2>
+  <p class="serif tit-s" style="top:262px">dia e hora marcados.</p>
+  <div class="cartao" style="top:380px;padding:34px 40px 38px">
+    <p class="fecho" style="font-size:44px">Sem tirar ninguém da rotina:</p>
+    <p class="lista-s" style="margin-top:18px">→&nbsp;&nbsp;Dentro da empresa</p>
+    <p class="lista-s">→&nbsp;&nbsp;No horário de trabalho</p>
+    <p class="lista-s">→&nbsp;&nbsp;Presencial ou remoto</p>
   </div>
-  <div class="ponto" style="top:705px"></div><div class="liga" style="top:705px"></div>
-  <div class="cartao" style="top:645px">
+  <div class="ponto" style="top:740px"></div><div class="liga" style="top:740px"></div>
+  <div class="cartao" style="top:680px">
     <span class="n">02.</span>
     <div class="ic"><svg viewBox="0 0 56 56" fill="none" stroke="#2F6B64" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="12" width="40" height="36" rx="6"/><path d="M8 24h40M19 6v10M37 6v10"/></svg></div>
     <p class="t">Dar dia e hora</p>
-    <p class="c">No Escritório do Cuidado, médicos e psicólogos fazem <b>plantões alternados</b> dentro da empresa. O colaborador sabe quando vai encontrar alguém.</p>
-    <p class="fecho" style="font-size:42px;margin-top:14px">Menos barreira, mais adesão.</p>
+    <p class="c">Plantões alternados de médicos e psicólogos. O colaborador sabe quando vai encontrar alguém.</p>
     <div class="barra"><i class="on"></i><i class="on"></i><i></i><i></i></div>
   </div>
-  <div class="cta" style="top:1124px;height:134px"></div>
-  <p class="abs" style="left:194px;right:106px;top:1150px;font-size:31px;line-height:1.3;font-weight:500;color:var(--tinta)">Conhece quem cuida da saúde do time na sua empresa? <b>Envie este post para essa pessoa.</b></p>
+  <div class="cta" style="top:1090px;height:134px"></div>
+  <p class="abs" style="left:194px;right:106px;top:1116px;font-size:31px;line-height:1.3;font-weight:500;color:var(--tinta)">Conhece quem cuida da saúde do time na sua empresa? <b>Envie este post para essa pessoa.</b></p>
 </section>
 
-<!-- 4 · PASSO 03: encaminhamento e acompanhamento, com a prova da Chemitec. -->
+<!-- 4 · PASSO 03: encaminhamento e acompanhamento. O número é o que está no Canva (93,8%),
+     sem nome de cliente. -->
 <section data-document-role="page" class="slide ed grade" id="r-04">
   <div class="topo"><span>@fairhealth.br</span><span>04/06</span></div>
   <div class="trilho"></div>
@@ -226,8 +226,8 @@ body{background:none;margin:0}
     <p class="t">Encaminhar e acompanhar</p>
     <p class="c">Quando é preciso mais, a equipe faz o <b>encaminhamento</b> para o especialista certo e continua junto: plano individual, retorno marcado e smartband entre um encontro e outro.</p>
     <div style="position:relative;height:100px;margin-top:22px">
-      <span class="n abs" style="left:0;top:0;font-size:96px">81,3%</span>
-      <div class="abs" style="left:300px;right:0;top:18px"><p class="c" style="margin:0;font-size:27px;line-height:1.3">voltaram para 2 ou mais atendimentos</p><p class="fonte" style="margin-top:4px">Fonte: Chemitec, 1º semestre de 2026</p></div>
+      <span class="n abs" style="left:0;top:0;font-size:96px">93,8%</span>
+      <div class="abs" style="left:300px;right:0;top:18px"><p class="c" style="margin:0;font-size:27px;line-height:1.3">voltaram para 2 ou mais atendimentos</p><p class="fonte" style="margin-top:4px">Fonte: Cliente, 1º semestre de 2026</p></div>
     </div>
     <div class="barra"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
   </div>
