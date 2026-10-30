@@ -37,7 +37,7 @@ Na versão do Canva, as molduras de foto são retas e lisas e o número do cart�
 |---|---|---|---|---|
 | 1 | Capa | Como transformar a prevenção em parte da *rotina* de uma empresa? | Pílula: 4 passos para o cuidado sair da campanha → | |
 | 2 | 01 · Levar o cuidado para perto | O cuidado chega tarde quando fica *longe*. | É preciso marcar, sair do trabalho, esperar. Médico, psicólogo e assistente social dentro da empresa. Tudo começa pelo **acolhimento**: alguém escuta a pessoa antes de qualquer conduta. | Quando o cuidado está perto, ele cabe no dia. |
-| 3 | 02 · Dar dia e hora | Hábito não muda *numa semana da saúde*. | 66 dias é o tempo médio para um novo hábito ficar automático (Lally et al., 2010). Barra: 5 dias de campanha contra 66 dias para virar hábito. Por isso, no Escritório do Cuidado, médicos e psicólogos se revezam em **plantões fixos**: cuidar entra na agenda da semana. + CTA | |
+| 3 | 02 · Dar dia e hora | Campanha tem fim. *Plantão tem dia marcado.* | Na Chemitec, em 6 meses: 161 atendimentos, 48 colaboradores atendidos, 98% de adesão. No Escritório do Cuidado, médicos e psicólogos fazem **plantões alternados** dentro da empresa. O colaborador sabe quando vai encontrar alguém. + CTA | Menos barreira, mais adesão. |
 | 4 | 03 · Encaminhar e acompanhar | O cuidado não termina no *primeiro encontro*. | Quando é preciso mais, a equipe faz o **encaminhamento** para o especialista certo e continua junto: plano individual, retorno marcado e smartband entre um encontro e outro. 81,3% voltaram para 2 ou mais atendimentos (Chemitec, 1º semestre de 2026). | Quem encaminha continua junto. |
 | 5 | 04 · Medir o que muda | O RH vê *o que muda*. | O RH recebe indicadores do time, sempre anonimizados e agregados: adesão, retornos, fatores de risco. | Da intenção à evidência. |
 | 6 | Convite | Na sua empresa, a prevenção já faz parte da *rotina*? | Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito. | Na terça: como funciona o cuidado na prática. |
@@ -60,8 +60,9 @@ de cuidado com título grande e pílula por cima (anima psicólogos).
 - **Fotos do miolo:** coloridas, como recorte com borda branca e leve
   inclinação. Muda o preto e branco com retícula do guia, que deixava a série
   pesada para um post sobre cuidado.
-- **Slide 3:** sem foto. O visual é o número (66 dias) e uma barra com os 5
-  dias de uma semana da saúde contra os 66 dias que um hábito leva.
+- **Slide 3:** sem foto. O visual é a grade de caixas com os números da
+  Chemitec (161 atendimentos, 48 colaboradores, 98% de adesão), recurso de
+  leitura do guia de carrossel.
 - **Slide 6:** fundo verde-escuro, a trilha termina no ponto menta do convite.
 
 As referências servem de estilo e de cena. As fotos delas não entram no post:
@@ -83,19 +84,20 @@ na `div` com classe `img` e apague o `aviso`. Depois rode:
 
 ## Confirmar antes de publicar
 
-- **[PENDENTE] Agenda real dos plantões.** O slide 3 diz que os plantões são
-  fixos e entram "na agenda da semana". Confirmar que há plantão toda semana.
-- **O estudo dos 66 dias:** Lally, van Jaarsveld, Potts e Wardle, "How are
-  habits formed: Modelling habit formation in the real world", European
-  Journal of Social Psychology, 40(6), 2010. Mediana de 66 dias, com variação
-  de 18 a 254 dias entre as pessoas. É dado de comportamento, não clínico, mas
-  passa pelo Dr. Ronald junto com o resto do texto.
+- **Slide 3, de onde vem cada coisa:** "campanha tem fim" retoma a abertura
+  da legenda e a pílula da capa; os plantões alternados vêm do Executive
+  Summary; "menos barreira, mais adesão" está nas palavras do `voice.md`; os
+  números da Chemitec estão liberados no `voice.md`.
+- **[PENDENTE] Base do 98% de adesão** (dos colaboradores elegíveis? dos
+  convidados?) e **frequência dos plantões**, para o "dia marcado" valer em
+  qualquer empresa.
 - **[PENDENTE] Como funciona o encaminhamento** na prática: para quem a pessoa
   é encaminhada e como o acompanhamento continua depois.
 - **A smartband** mede de fato sono e atividade? A legenda não cita; o slide 4
   fala só em "smartband entre um encontro e outro".
-- **O 81,3% da Chemitec** está liberado no `voice.md`. Se ficar guardado para o
-  Reel de 09/11, o slide 4 e a legenda saem sem ele.
+- **Os números da Chemitec** (slides 3 e 4) estão liberados no `voice.md`. Se
+  ficarem guardados para o Reel de 09/11, os slides 3 e 4 e a legenda saem sem
+  eles.
 - **Quem responde as DMs do "CUIDADO"** no mesmo dia.
 - **O Dr. Ronald aprova o texto** (menção médica, CFM).
 - **Canva:** o número em degradê e o recorte inclinado podem não converter. No
@@ -108,15 +110,13 @@ Campanha de saúde tem data para acabar. Prevenção que funciona, não.
 
 Toda empresa conhece o ciclo: a palestra do mês temático, o check-up anual, a semana da saúde. Na segunda-feira seguinte, a rotina volta a ser a mesma, e o cuidado fica para quando algo der errado. Aí ele chega tarde, longe do trabalho e sem continuidade.
 
-Um novo hábito leva, em média, 66 dias para ficar automático. Uma semana da saúde dura cinco. Para a prevenção fazer parte do dia a dia, o cuidado precisa estar perto, ter dia e hora, acompanhar cada pessoa ao longo do tempo e mostrar ao RH o que está mudando.
+Para a prevenção fazer parte do dia a dia, o cuidado precisa estar perto, ter dia e hora, acompanhar cada pessoa ao longo do tempo e mostrar ao RH o que está mudando.
 
 É assim que funciona o modelo de cuidado da fairhealth. Começa pelo acolhimento: médicos, psicólogos e assistentes sociais dentro da empresa, em plantões, escutando cada pessoa antes de qualquer conduta. Segue pelo encaminhamento: quando é preciso mais, a equipe leva a pessoa até o cuidado certo e continua acompanhando, com plano individual e indicadores anonimizados para o RH. Na Chemitec, 81,3% dos colaboradores atendidos voltaram para dois ou mais atendimentos no primeiro semestre de 2026.
 
 Na fairhealth, acreditamos que cuidar antes é rotina, não evento.
 
 Na sua empresa, a prevenção já faz parte da rotina? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
-
-Fonte dos 66 dias: Lally et al., European Journal of Social Psychology, 2010.
 
 #fairhealth #saudecorporativa #saudepreventiva #gestaodepessoas #rhestrategico
 ```
