@@ -226,6 +226,13 @@ criativo. Os Meses 2 e 3 estão no nível de tema e título.
 - **Lacunas:** os "Registros do mês" dependem da agenda de eventos e entregas, que
   ainda não está documentada.
 
+## 10. Conteúdo de tendência
+
+A partir de novembro, cada post leva um dos 5 eixos narrativos (mercado,
+cases, cultura, notícias e produto), e os carrosséis seguem a anatomia de
+tendência: o tema em alta, o que ele significa para o RH e como cuidamos.
+Ver `carrossel-de-tendencia.md`.
+
 ---
 
 ## O que continua valendo da versão anterior
