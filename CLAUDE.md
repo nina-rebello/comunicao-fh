@@ -12,8 +12,9 @@ um post, leia:
 - `instagram/estrategia.md`: a estratégia de fundo. As fases ainda não foram
   alinhadas ao cronograma atual.
 
-A planilha `marketing/Cronograma_Conteudo_FairHealth_90dias.xlsx` está
-desatualizada. Não use as datas dela.
+A planilha `marketing/Cronograma_Conteudo_FairHealth_90dias.xlsx` tem
+novembro atualizado (02/11) com a programação do PDF de novembro. As linhas de
+outubro e de dezembro em diante estão desatualizadas: não use as datas delas.
 
 Cada post fica em `instagram/posts/<nome>/`, com `slides.html`, `png/`,
 `previa.png` e um `README.md` com a legenda e as pendências. Para gerar as

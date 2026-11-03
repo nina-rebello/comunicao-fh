@@ -1,66 +1,97 @@
-# Carrossel: Como funciona o cuidado na prática? · 9 slides
+# Carrossel 03/11: Como funciona o cuidado na prática? · 6 slides
 
-**Terça, 03/11, 7:30.** Semana 1 de novembro (bloco 3, Produto).
+**Terça, 03/11.** Semana 1 de novembro, bloco 3 (Produto). É a continuação
+do post de 30/10, que fecha com "Na terça: como funciona o cuidado na
+prática". Mostra a jornada de quem é cuidado no Escritório do Cuidado, em
+quatro etapas: escuta, atendimento, plano individualizado e acompanhamento.
 
-**Status:** texto aprovado. Design pronto para aprovação.
+Segue o guia `instagram/carrossel.md`, na versão curta (6 slides). O texto
+aprovado em 02/11 tinha 9 slides e foi condensado para o guia: o slide 2
+antigo e o resumo saíram, o sigilo entrou no slide do acompanhamento, e o
+pedido de envio passou para o slide 3.
 
-- **Artes** (1080x1350) em `png/`: `c-01.png` … `c-09.png`, 9 imagens, nesta
-  ordem. Prévia em `previa.png`.
-- **Para o Canva:** `instagram/canva/carrossel-cuidado-na-pratica.pdf`, com o
-  texto editável.
+**Status:** design para aprovação (03/11).
+
+- **Artes** (1080x1350): `png/c-01.png` … `c-06.png`, 6 imagens, nesta ordem.
+  Prévia em `previa.png`.
+- **Canva:** `canva.html` (autocontido, com fotos, fontes e logo embutidas).
+  Para importar, siga o passo a passo do `CLAUDE.md`: commit, push e o
+  endereço raw com o hash do commit. Também há o `cuidado-na-pratica.pdf`.
 - **Para regerar depois de editar o `slides.html`:**
-  `node instagram/ferramentas/render.mjs instagram/posts/cuidado-na-pratica/slides.html instagram/posts/cuidado-na-pratica/png`
+  ```
+  python3 instagram/posts/cuidado-na-pratica/recortes.py
+  node instagram/ferramentas/render.mjs instagram/posts/cuidado-na-pratica/slides.html instagram/posts/cuidado-na-pratica/png
+  node instagram/ferramentas/canva.mjs instagram/posts/cuidado-na-pratica/slides.html instagram/posts/cuidado-na-pratica/canva.html
+  ```
 
-A ideia é mostrar a jornada de quem é cuidado no Escritório do Cuidado, em
-quatro etapas: escuta, atendimento, plano individualizado e acompanhamento. O
-carrossel "Cuidado tem método" explica o método (medir, cuidar, conscientizar,
-comprovar). Este mostra o que a pessoa vive, na ordem em que acontece.
+## Os três Cs deste post
 
-## Slides
+- **Capa:** "Como funciona o cuidado na prática?" (6 palavras, título do PDF
+  e o gancho do post de 30/10). Na pílula: "4 etapas, da primeira conversa ao
+  retorno →".
+- **CTA, no slide 3:** "Conhece quem cuida das pessoas na sua empresa? Mande
+  este post: as 4 etapas estão aqui."
+- **Convite, no slide 6:** "Na sua empresa, alguém escuta o colaborador antes
+  do atestado? Comente CUIDADO e enviamos na DM como funciona o diagnóstico
+  gratuito."
 
-Cada slide tem um título e, quando precisa, um texto curto embaixo.
+## Os slides
 
-1. **CAPA**
-   **Como funciona o cuidado na prática?**
-   Da primeira conversa ao acompanhamento.
+Em itálico, o trecho em Instrument Serif, na cor de destaque.
 
-2. **O que acontece quando um colaborador entra no Escritório do Cuidado?**
-   São quatro etapas. E a primeira é uma pergunta.
+| # | Fundo e layout | Rótulo | Título | Texto | Fecho |
+|---|---|---|---|---|---|
+| 1 | Foto colorida inteira, título no terço de baixo | Capa | Como funciona o cuidado *na prática?* | Pílula: 4 etapas, da **primeira conversa ao retorno** → | |
+| 2 | Claro, foto na metade de cima | 01 · Escuta | Antes de qualquer orientação, *a gente escuta.* | Tudo começa com uma pergunta: **o que importa para você?** Rotina, turno, família e objetivos mostram de onde cada pessoa parte. | Ninguém sai de lá com uma lista de regras. |
+| 3 | Escuro, foto numa faixa à direita | 02 · Atendimento | Cuidado *perto de quem precisa.* | Médico, psicólogo e assistente social dentro da empresa, **sem perder meio dia de trabalho.** Na avaliação, entram hábitos, sono, estresse e bioimpedância. + CTA | |
+| 4 | Água (slide de virada), número grande e foto ao lado | 03 · Plano individualizado | Um plano feito *com a pessoa,* não para ela. | Metas do tamanho da rotina real, como **dormir meia hora mais cedo** ou almoçar longe da mesa. A base é a Medicina do Estilo de Vida. | Meta boa é a que cabe na semana. |
+| 5 | Claro, foto saindo pela lateral | 04 · Acompanhamento | O retorno faz *parte do plano.* | A cada retorno, as metas são revistas. Entre uma consulta e outra, a smartband acompanha a rotina. **Sigilo:** o que é conversado fica no atendimento. O RH recebe só **indicadores do grupo**, anonimizados. | O plano muda quando a vida muda. |
+| 6 | Verde-escuro, sem foto | Convite | Na sua empresa, alguém escuta o colaborador *antes do atestado?* | Comente **CUIDADO** e enviamos na DM como funciona o diagnóstico gratuito. | Na quarta: quatro frentes, um cuidado conectado. |
 
-3. **01 · Escuta**
-   **Antes de qualquer orientação, a gente escuta.**
-   O que importa para você? Rotina, turno, família e objetivos mostram de onde
-   cada pessoa parte.
+## O design
 
-4. **02 · Atendimento**
-   **Cuidado perto de quem precisa.**
-   Médico, psicólogo e assistente social dentro da empresa, sem perder meio dia
-   de trabalho. Na avaliação, entram hábitos, sono, estresse e bioimpedância.
+- **Série:** barra fixa no topo (@FAIRHEALTH.BR e 01/06), título em Raleway 800
+  com um trecho em Instrument Serif itálico, fecho em serif na cor de
+  destaque e a bolinha com o número da etapa, como no post de 30/10.
+- **Uma foto por etapa, com layouts alternados** (guia, "O visual"): foto
+  inteira na capa, metade de cima no 2, faixa à direita no 3, foto ao lado do
+  número grande no 4 e foto saindo pela lateral no 5. O convite fica sem foto.
+- **Fundos alternados:** foto, off, tinta, água, off e verde-escuro.
+- **Fotos coloridas também no miolo**, como decidido no post de 30/10.
+- **Para o Canva:** tudo em posição fixa, as fotos em `<img>` já recortadas no
+  tamanho da moldura (`recortes.py`, em 2x) e as quebras de linha dos títulos
+  com `<br>`.
 
-5. **03 · Plano individualizado**
-   **Um plano feito com a pessoa, não para ela.**
-   Metas do tamanho da rotina real, como dormir meia hora mais cedo. A base é a
-   Medicina do Estilo de Vida.
+## As fotos
 
-6. **04 · Acompanhamento**
-   **O retorno faz parte do plano.**
-   A cada retorno, as metas são revistas. Entre uma consulta e outra, a
-   smartband acompanha a rotina. O plano muda quando a vida muda.
+Todas são do banco de imagens da marca (licença Unsplash, uso comercial
+gratuito, `instagram/marca/fotos-banco/` no branch `claude/eager-bell-tblhnh`).
+São ilustrativas: nunca apresentar como time, cliente ou colaborador atendido.
+Os originais estão em `fotos/`, e os recortes, em `fotos/c-0X.jpg`.
 
-7. **O que é conversado fica no atendimento.**
-   O RH recebe só indicadores do grupo, anonimizados, como adesão e retorno.
-   Nenhum dado individual.
+| Slide | Arquivo | Cena | Origem |
+|---|---|---|---|
+| 1 | conversa3.jpg | Duas mulheres conversando no escritório | https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e |
+| 2 | maos.jpg | Mãos dadas, acolhimento | https://images.unsplash.com/photo-1584515933487-779824d29309 |
+| 3 | industria2.jpg | Profissional de capacete no trabalho | https://images.unsplash.com/photo-1621905251189-08b45d6a269e |
+| 4 | sono-limpa.jpg | Mulher dormindo (versão com a estampa do lençol retocada) | https://images.unsplash.com/photo-1520206183501-b80df61043c2 |
+| 5 | escada.jpg | Pés subindo uma escada | https://images.unsplash.com/photo-1476480862126-209bfaa8edc8 |
 
-8. **RESUMO** (o slide que as pessoas salvam e enviam)
-   **O cuidado na prática**
-   1. Escuta: o que importa para você.
-   2. Atendimento: perto de quem precisa.
-   3. Plano: metas que cabem na rotina.
-   4. Acompanhamento: o plano muda com a vida.
+Quando a sessão de fotos acontecer (`instagram/sessao-de-fotos.md`), vale
+trocar a capa por uma foto própria do Escritório do Cuidado, como pede o guia.
 
-9. **CHAMADA**
-   **Mande para quem cuida das pessoas na sua empresa.**
-   « Fazemos o certo pelos motivos certos »
+## Antes de publicar
+
+- **Convite com CUIDADO:** os posts de 28/10 e 30/10 já usam "Comente
+  CUIDADO". Até a resposta automática ficar pronta (prazo 13/11), alguém
+  precisa responder as DMs no mesmo dia.
+- **[PENDENTE] Smartband (slide 5):** confirmar se todos os atendidos usam a
+  pulseira. Se não for regra: "Entre uma consulta e outra, quem usa a
+  smartband tem a rotina acompanhada."
+- **Dr. Ronald:** revisar o texto, porque o post fala de atendimento médico
+  (CFM).
+- **Sem dados de clientes** (decisão de 30/10): o post não cita nome nem
+  número de cliente.
 
 ## Legenda
 
@@ -77,52 +108,17 @@ E tem retorno. A cada consulta, as metas são revistas, porque o plano muda quan
 
 O que é conversado fica no atendimento. Para a gestão da saúde corporativa, o RH recebe só indicadores do grupo, anonimizados.
 
-É esse cuidado, da primeira conversa ao retorno, que a FAIR HEALTH leva para dentro das empresas.
+É esse cuidado, da primeira conversa ao retorno, que a fairhealth leva para dentro das empresas.
 
-Mande para quem cuida das pessoas na sua empresa.
+Na sua empresa, alguém escuta o colaborador antes do atestado? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
 
 #fairhealth #saudecorporativa #medicinadoestilodevida #cuidadocentradonapessoa #gestaodepessoas
 ```
 
-**Alt text da capa:** Card verde-escuro com uma linha de quatro etapas
-(escuta, atendimento, plano e acompanhamento) e o texto "Como funciona o
-cuidado na prática? Da primeira conversa ao acompanhamento."
+Em relação ao texto aprovado, mudaram só o fim (o convite do slide 6 no lugar
+do pedido de envio, que agora está no slide 3) e o nome da marca, em
+minúsculas como no post de 30/10.
 
-## Por que a chamada é "mande para alguém"
-
-- O PDF deixou a chamada "a definir".
-- **Não usamos "Comente CUIDADO" aqui** porque a resposta automática da
-  palavra e a página do diagnóstico só ficam prontas até 13/11. O primeiro
-  "Comente CUIDADO" do mês é o post de 13/11.
-- O carrossel explica como o cuidado funciona, e o slide 8 resume tudo. Por
-  isso ele funciona bem para ser enviado ao RH, e um envio é o sinal mais forte
-  que o post pode receber.
-
-## Antes de aprovar
-
-- **[PENDENTE] Smartband:** confirmar se todos os atendidos usam a pulseira (é
-  a mesma dúvida do carrossel de wearables; na Chemitec são 46 smartbands para
-  48 atendidos). Se não for regra, o slide 6 vira "Entre uma consulta e outra,
-  quem usa a smartband tem a rotina acompanhada."
-- **Dr. Ronald:** revisar o texto, porque o post fala de atendimento médico
-  (CFM).
-- **Nome da marca:** usei FAIR HEALTH, como na planilha e no carrossel da
-  marca. O PDF de novembro escreve "FairHealth". Vale escolher uma forma e
-  usar sempre a mesma.
-- **Opcional, um número no slide 6:** "Na Chemitec, 81,3% voltaram para 2 ou
-  mais atendimentos." O dado está liberado, mas deixei de fora para não
-  antecipar o case de 27/11.
-
-## Design
-
-- **Mesma linguagem do carrossel da marca:** Raleway, verde-escuro, verde-água
-  e off-white, palavras-chave em negrito itálico e caixa de destaque. A capa
-  usa a mesma composição (kicker no topo, título grande à esquerda, seta no
-  canto).
-- **Trilha das quatro etapas:** aparece na capa como mapa da jornada e volta
-  no topo dos slides 3 a 6, acendendo a etapa da vez. Assim fica claro onde a
-  pessoa está e quanto falta.
-- **Sem foto:** nenhum colaborador atendido aparece, e as imagens do espaço
-  ainda precisam da confirmação se são render ou foto.
-- @fairhealth.br e a numeração (2/9, 3/9...) em todos os slides. Logo em
-  círculo no último slide (post de produto).
+**Alt text da capa:** Duas mulheres conversando num escritório, com o texto
+"Como funciona o cuidado na prática? 4 etapas, da primeira conversa ao
+retorno."
