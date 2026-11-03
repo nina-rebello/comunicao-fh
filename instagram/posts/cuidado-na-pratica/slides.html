@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel: Como funciona o cuidado na prática?</title>
+<link rel="stylesheet" href="../../marca/base.css">
+<style>
+.escuro{--bg:#2F6B64}.agua{--bg:#96C3BA}.off{--bg:#F6F8F7}
+
+/* capa: mesma composição da capa da marca e do time */
+.capa{justify-content:flex-end;align-items:flex-start;text-align:left;padding:140px 110px 200px}
+.capa .kicker{position:absolute;top:120px;left:110px;font-size:28px;font-weight:700;letter-spacing:8px;color:var(--menta)}
+.capa .kicker::after{content:"";display:block;width:90px;height:4px;background:var(--menta);margin-top:28px}
+.capa h1{font-size:128px;line-height:1;font-weight:400;letter-spacing:-3px}
+.capa h1 b{color:var(--menta)}
+.capa .sub{margin-top:44px;font-size:40px;opacity:.9}
+.flecha{position:absolute;right:110px;bottom:48px;width:110px;height:110px;border-radius:50%;border:4px solid var(--menta);
+  display:flex;align-items:center;justify-content:center}
+.flecha svg{width:56px;height:56px}
+.capa .handle{left:110px;right:auto;bottom:80px}
+
+/* trilha das 4 etapas: aparece na capa e acende a etapa da vez nos slides 3 a 6 */
+.trilha{position:absolute;top:150px;left:90px;right:90px;display:flex}
+.trilha::before{content:"";position:absolute;top:14px;left:12.5%;right:12.5%;height:3px;
+  background:color-mix(in srgb,currentColor 30%,transparent)}
+.etapa{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:18px;
+  font-size:27px;font-weight:500;opacity:.55}
+.etapa i{display:block;width:31px;height:31px;border-radius:50%;border:3px solid currentColor;background:var(--bg)}
+.etapa.ok i{background:currentColor}
+.etapa.on{opacity:1;font-weight:800;font-style:italic;color:var(--acento)}
+.etapa.on i{background:var(--acento);border-color:var(--acento);box-shadow:0 0 0 10px color-mix(in srgb,var(--acento) 25%,transparent)}
+.capa .trilha{top:330px;left:70px;right:70px}
+.capa .trilha::before{top:22px;height:4px;background:color-mix(in srgb,var(--menta) 45%,transparent)}
+.capa .etapa{font-size:30px;opacity:.9;gap:22px}
+.capa .etapa i{width:47px;height:47px;border:4px solid var(--menta)}
+.capa .etapa:first-child i{background:var(--menta)}
+
+/* slides das etapas */
+.passo{padding:300px 120px 170px}
+.passo .num{font-size:120px;margin-bottom:26px}
+.passo h1{font-size:84px;line-height:1.1}
+.passo .sub{font-size:42px;margin-top:40px}
+.passo .caixa{font-size:40px;margin-top:48px;padding:36px 44px}
+.passo .caixa .pergunta{display:block;font-size:52px;margin-bottom:14px}
+
+.cadeado{width:120px;height:120px;margin-bottom:44px}
+.lista li strong{font-weight:800}
+.chamada h1{font-size:84px}
+.chamada .handle{bottom:64px}
+</style></head><body>
+
+<!-- 1 · CAPA -->
+<section class="slide escuro capa" id="c-01">
+  <div class="kicker">ESCRITÓRIO DO CUIDADO</div>
+  <div class="trilha">
+    <div class="etapa"><i></i>Escuta</div><div class="etapa"><i></i>Atendimento</div>
+    <div class="etapa"><i></i>Plano</div><div class="etapa"><i></i>Acompanhamento</div>
+  </div>
+  <h1>Como funciona o cuidado <b>na prática?</b></h1>
+  <p class="sub">Da primeira conversa ao acompanhamento.</p>
+  <div class="flecha"><svg viewBox="0 0 24 24" fill="none" stroke="#BFE0D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 2 · segunda capa -->
+<section class="slide agua" id="c-02"><div class="pag">2/9</div>
+  <h1 class="m">O que acontece quando um colaborador entra no <b>Escritório do Cuidado?</b></h1>
+  <div class="caixa">São quatro etapas. <b>E a primeira é uma pergunta.</b></div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 3 · 01 Escuta -->
+<section class="slide off passo" id="c-03"><div class="pag">3/9</div>
+  <div class="trilha">
+    <div class="etapa on"><i></i>Escuta</div><div class="etapa"><i></i>Atendimento</div>
+    <div class="etapa"><i></i>Plano</div><div class="etapa"><i></i>Acompanhamento</div>
+  </div>
+  <div class="num">01</div>
+  <h1>Antes de qualquer orientação, <b>a gente escuta.</b></h1>
+  <div class="caixa"><b class="pergunta">O que importa para você?</b>Rotina, turno, família e objetivos mostram de onde cada pessoa parte.</div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 4 · 02 Atendimento -->
+<section class="slide escuro passo" id="c-04"><div class="pag">4/9</div>
+  <div class="trilha">
+    <div class="etapa ok"><i></i>Escuta</div><div class="etapa on"><i></i>Atendimento</div>
+    <div class="etapa"><i></i>Plano</div><div class="etapa"><i></i>Acompanhamento</div>
+  </div>
+  <div class="num">02</div>
+  <h1>Cuidado <b>perto de quem precisa.</b></h1>
+  <p class="sub">Médico, psicólogo e assistente social dentro da empresa, <b>sem perder meio dia de trabalho.</b></p>
+  <div class="caixa">Na avaliação, entram <b>hábitos</b>, <b>sono</b>, <b>estresse</b> e <b>bioimpedância</b>.</div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 5 · 03 Plano individualizado -->
+<section class="slide agua passo" id="c-05"><div class="pag">5/9</div>
+  <div class="trilha">
+    <div class="etapa ok"><i></i>Escuta</div><div class="etapa ok"><i></i>Atendimento</div>
+    <div class="etapa on"><i></i>Plano</div><div class="etapa"><i></i>Acompanhamento</div>
+  </div>
+  <div class="num">03</div>
+  <h1>Um plano feito <b>com a pessoa</b>, não para ela.</h1>
+  <p class="sub">Metas do tamanho da rotina real, como <b>dormir meia hora mais cedo.</b></p>
+  <div class="caixa">A base é a <b>Medicina do Estilo de Vida</b>.</div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 6 · 04 Acompanhamento -->
+<section class="slide escuro passo" id="c-06"><div class="pag">6/9</div>
+  <div class="trilha">
+    <div class="etapa ok"><i></i>Escuta</div><div class="etapa ok"><i></i>Atendimento</div>
+    <div class="etapa ok"><i></i>Plano</div><div class="etapa on"><i></i>Acompanhamento</div>
+  </div>
+  <div class="num">04</div>
+  <h1>O retorno <b>faz parte do plano.</b></h1>
+  <p class="sub">A cada retorno, as metas são revistas. Entre uma consulta e outra, a smartband acompanha a rotina.</p>
+  <div class="caixa">O plano muda <b>quando a vida muda.</b></div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 7 · privacidade -->
+<section class="slide off" id="c-07"><div class="pag">7/9</div>
+  <svg class="cadeado" viewBox="0 0 24 24" fill="none" stroke="#2F6B64" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2.5"/></svg>
+  <h1>O que é conversado <b class="u">fica no atendimento.</b></h1>
+  <div class="caixa">O RH recebe só <b>indicadores do grupo</b>, anonimizados, como adesão e retorno. <b>Nenhum dado individual.</b></div>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 8 · resumo -->
+<section class="slide agua" id="c-08"><div class="pag">8/9</div>
+  <h1 class="m">O cuidado <b>na prática</b></h1>
+  <ul class="lista">
+    <li><span>1</span><strong>Escuta:</strong> o que importa para você.</li>
+    <li><span>2</span><strong>Atendimento:</strong> perto de quem precisa.</li>
+    <li><span>3</span><strong>Plano:</strong> metas que cabem na rotina.</li>
+    <li><span>4</span><strong>Acompanhamento:</strong> o plano muda com a vida.</li>
+  </ul>
+  <div class="handle">@fairhealth.br</div>
+</section>
+
+<!-- 9 · chamada -->
+<section class="slide escuro chamada" id="c-09"><div class="pag">9/9</div>
+  <img class="logo" src="../../marca/logo-circulo.png" alt="">
+  <h1><b class="cor">Mande</b> para quem cuida das pessoas na sua empresa.</h1>
+  <p class="slogan">« Fazemos o certo pelos motivos certos »</p>
+  <div class="handle">@fairhealth.br</div>
+</section>
+</body></html>

@@ -2,8 +2,14 @@
 
 **Terça, 03/11, 7:30.** Semana 1 de novembro (bloco 3, Produto).
 
-**Status:** conteúdo em aprovação. O design e o criativo começam depois que o
-texto for aprovado.
+**Status:** texto aprovado. Design pronto para aprovação.
+
+- **Artes** (1080x1350) em `png/`: `c-01.png` … `c-09.png`, 9 imagens, nesta
+  ordem. Prévia em `previa.png`.
+- **Para o Canva:** `instagram/canva/carrossel-cuidado-na-pratica.pdf`, com o
+  texto editável.
+- **Para regerar depois de editar o `slides.html`:**
+  `node instagram/ferramentas/render.mjs instagram/posts/cuidado-na-pratica/slides.html instagram/posts/cuidado-na-pratica/png`
 
 A ideia é mostrar a jornada de quem é cuidado no Escritório do Cuidado, em
 quatro etapas: escuta, atendimento, plano individualizado e acompanhamento. O
@@ -78,8 +84,9 @@ Mande para quem cuida das pessoas na sua empresa.
 #fairhealth #saudecorporativa #medicinadoestilodevida #cuidadocentradonapessoa #gestaodepessoas
 ```
 
-**Alt text da capa (ajustar depois do design):** Card com o texto "Como
-funciona o cuidado na prática? Da primeira conversa ao acompanhamento."
+**Alt text da capa:** Card verde-escuro com uma linha de quatro etapas
+(escuta, atendimento, plano e acompanhamento) e o texto "Como funciona o
+cuidado na prática? Da primeira conversa ao acompanhamento."
 
 ## Por que a chamada é "mande para alguém"
 
@@ -106,9 +113,16 @@ funciona o cuidado na prática? Da primeira conversa ao acompanhamento."
   mais atendimentos." O dado está liberado, mas deixei de fora para não
   antecipar o case de 27/11.
 
-## Para o design (depois da aprovação)
+## Design
 
-- 1080x1350, @fairhealth.br e a numeração (2/9, 3/9...) em todos os slides.
-- Logo em círculo no último slide (post de produto).
-- Nenhum colaborador atendido aparece. Se usar foto, só do time ou do espaço
-  (as imagens do espaço ainda precisam da confirmação se são render ou foto).
+- **Mesma linguagem do carrossel da marca:** Raleway, verde-escuro, verde-água
+  e off-white, palavras-chave em negrito itálico e caixa de destaque. A capa
+  usa a mesma composição (kicker no topo, título grande à esquerda, seta no
+  canto).
+- **Trilha das quatro etapas:** aparece na capa como mapa da jornada e volta
+  no topo dos slides 3 a 6, acendendo a etapa da vez. Assim fica claro onde a
+  pessoa está e quanto falta.
+- **Sem foto:** nenhum colaborador atendido aparece, e as imagens do espaço
+  ainda precisam da confirmação se são render ou foto.
+- @fairhealth.br e a numeração (2/9, 3/9...) em todos os slides. Logo em
+  círculo no último slide (post de produto).
