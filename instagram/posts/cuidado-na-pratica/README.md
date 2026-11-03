@@ -7,7 +7,7 @@ fecha com "Na terça: como funciona o cuidado na prática".
 
 Segue o guia `instagram/carrossel.md` (versão curta e método Vinci).
 
-**Status:** texto e design para aprovação (v7.1, 03/11). É a v4.1 com o feedback
+**Status:** texto e design para aprovação (v8, 03/11: capa com a imagem do celular e Tiffany oficial `#9FC5BD` no post todo). É a v4.1 com o feedback
 da médica distribuído nos mesmos 6 slides e com os ajustes da Nina de 03/11:
 balão "o que eu faço?" de volta, dados do slide 2 mais visuais, capa clara no
 verde-água (tiffany) e molduras com a descrição da foto ideal no lugar das
@@ -154,7 +154,14 @@ colaborador atendido aparece com o rosto.
 | 4 · Por perto | 368x520, vertical | Colaborador no posto de trabalho (fábrica, linha de produção ou escritório), em plano médio, sem logo de empresa. Se for alguém atendido, de costas ou de perfil, sem rosto identificável. Alternativa: a porta do Escritório do Cuidado aberta, dentro da empresa. |
 | 5 · Plano e retorno | 448x360, horizontal | Rotina possível: um prato simples e colorido, ou uma agenda com metas escritas à mão ao lado de uma caneca. Tons claros. Nada de dieta da moda, balança ou fita métrica. |
 
-A capa e os slides 2 e 6 não têm foto.
+**Capa (v8, simulação de 03/11):** usa a imagem enviada pela Nina, a mão
+segurando o celular com a conversa (`fotos/capa-celular.jpg`, parece gerada por
+IA). Ela foi cortada no alto e fundida no Tiffany oficial `#9FC5BD`
+(`fotos/c-01.jpg`). Por cima, no HTML, ficaram o "Hoje" no lugar de "Today" e
+o balão da IA digitando. Antes de publicar, conferir se a mão e os dedos não
+têm defeito.
+
+Os slides 2 e 6 não têm foto.
 
 ## Resultado visível: como saber se deu certo
 
