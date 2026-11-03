@@ -7,9 +7,11 @@ fecha com "Na terça: como funciona o cuidado na prática".
 
 Segue o guia `instagram/carrossel.md` (versão curta e método Vinci).
 
-**Status:** texto e design para aprovação (v6, 03/11). É a v4.1 com o feedback
-da médica distribuído nos mesmos 6 slides (pedido da Nina: ajustar o que já
-existe, sem slide a mais).
+**Status:** texto e design para aprovação (v7, 03/11). É a v4.1 com o feedback
+da médica distribuído nos mesmos 6 slides e com os ajustes da Nina de 03/11:
+balão "o que eu faço?" de volta, dados do slide 2 mais visuais, capa clara no
+verde-água (tiffany) e molduras com a descrição da foto ideal no lugar das
+fotos de banco.
 
 - **Artes** (1080x1350): `png/c-01.png` … `c-06.png`, 6 imagens, nesta ordem.
   Prévia em `previa.png`.
@@ -18,7 +20,6 @@ existe, sem slide a mais).
   raw com o hash do commit). Também há o `cuidado-na-pratica.pdf`.
 - **Para regerar depois de editar o `slides.html`:**
   ```
-  python3 instagram/posts/cuidado-na-pratica/recortes.py
   node instagram/ferramentas/render.mjs instagram/posts/cuidado-na-pratica/slides.html instagram/posts/cuidado-na-pratica/png
   node instagram/ferramentas/canva.mjs instagram/posts/cuidado-na-pratica/slides.html instagram/posts/cuidado-na-pratica/canva.html
   ```
@@ -34,15 +35,15 @@ Como entrou, sem mudar o número de slides:
 - **Capa:** o título passou de "7 em cada 10 brasileiros consideram desabafar
   com uma IA" para "**7 em cada 10 brasileiros já perguntaram a uma IA sobre a
   própria saúde**" (Olá Doutor: 71% usaram IA para tirar dúvidas sobre
-  sintomas ou doenças). O segundo balão passou a ser "posso tomar alguma
-  coisa pra dormir?": a conversa começa como desabafo e já vira consulta.
+  sintomas ou doenças). Os balões continuam "não tô dormindo direito, tô
+  brigando em casa..." e "o que eu faço?" (a Nina preferiu manter este, 03/11).
 - **Slide 4 (por perto):** "A dúvida chega a um profissional antes de virar
   remédio", e uma caixa explica a iatrogenia e o que ela custa ("No trabalho,
   ele vira atestado e falta").
 - **Slide 5 (plano):** "sem remédio a mais nem exame à toa", com a prova de
   absenteísmo (−28%, Harvard Business Review, 2022, o número oficial do
   `voice.md`). O depoimento A1 saiu do slide para dar lugar a essa prova.
-- **Slide 6:** o ponto de virada responde à nova pergunta da capa.
+- **Slide 6:** o ponto de virada responde à pergunta da capa.
 
 **Sobre "nós diminuímos a iatrogenia nas empresas":** não temos um número
 próprio para isso, e o post não promete resultado. Ele mostra o mecanismo (a
@@ -83,8 +84,8 @@ slide 5.
   sobre o cuidado no trabalho →".
 - **CTA, no slide 3:** "Conhece quem cuida das pessoas na sua empresa? Mande
   este post para essa pessoa."
-- **Convite, no slide 6:** "Quando alguém do seu time perguntar isso [posso
-  tomar alguma coisa pra dormir?], que a resposta venha de gente." Depois:
+- **Convite, no slide 6:** "Quando alguém do seu time perguntar isso [o que
+  eu faço?], que a resposta venha de gente." Depois:
   "Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito."
 
 ## Os slides
@@ -93,12 +94,12 @@ Em itálico, o trecho em Instrument Serif, na cor de destaque.
 
 | # | Fundo e layout | Rótulo | Título | Texto | Fecho |
 |---|---|---|---|---|---|
-| 1 | Tinta, conversa com balões (sem foto) | Capa | *7 em cada 10* brasileiros já perguntaram a uma IA sobre a própria saúde. | Balões: "não tô dormindo direito, tô brigando em casa e não consigo focar no trabalho" · "posso tomar alguma coisa pra dormir?" · assistente de IA digitando. Fonte: Olá Doutor, pesquisa com 500 pessoas (2026). Pílula: O que isso diz sobre **o cuidado no trabalho** → | |
-| 2 | Off com dados, painel verde-escuro embaixo | Por que uma IA? | Ela está lá quando *ninguém mais está.* | 31,2% porque está disponível a qualquer hora · 26,2% pelo custo · 14% por vergonha de falar com outra pessoa (motivos de quem usa IA para questões emocionais, Doctoralia). Painel: Mas, numa crise forte de ansiedade, só **4%** recorreriam primeiro a uma IA. | Na hora que pesa, a gente quer gente. |
-| 3 | Off, foto na metade de cima | 01 · Escuta | Todo mundo quer ser *ouvido de verdade.* | No Escritório do Cuidado, a primeira consulta começa por uma pergunta: **o que importa para você?** Turno, casa, sono e a conta do mês entram na conversa. Sem julgamento, e com sigilo. + CTA | |
-| 4 | Tinta, foto numa faixa à direita, caixa menta embaixo | 02 · Por perto | Ninguém quer perder *meio dia por uma consulta.* | Médico, psicólogo e assistente social ficam dentro da empresa, **a poucos passos de quem trabalha**, presencial ou remoto. *A dúvida chega a um profissional antes de virar remédio.* Caixa: Remédio sem indicação e exame sem necessidade fazem mal. Na medicina, esse dano tem nome: **iatrogenia**. No trabalho, ele vira atestado e falta. | |
-| 5 | Água, número grande e foto ao lado | 03 · Plano e retorno | Uma resposta *não é um plano.* | No Escritório do Cuidado, o plano é combinado com a pessoa, tem base na Medicina do Estilo de Vida e é revisto a cada retorno. **Cada um recebe o cuidado de que precisa: sem remédio a mais nem exame à toa.** Prova: −28% de absenteísmo com programas de saúde preventiva (Harvard Business Review, 2022). | |
-| 6 | Verde-escuro, o balão da capa no alto | Ponto de virada e convite | Balão: "posso tomar alguma coisa pra dormir?". Quando alguém do seu time perguntar isso, *que a resposta venha de gente.* | Escuta, cuidado por perto e um plano com retorno: é isso que o **Escritório do Cuidado** leva para dentro da empresa. Comente **CUIDADO** e enviamos na DM como funciona o diagnóstico gratuito. | Na quarta: quatro frentes, um cuidado conectado. |
+| 1 | Verde-água (tiffany), conversa com balões em verde-escuro (sem foto) | Capa | *7 em cada 10* brasileiros já perguntaram a uma IA sobre a própria saúde. | Balões: "não tô dormindo direito, tô brigando em casa e não consigo focar no trabalho" · "o que eu faço?" · assistente de IA digitando. Fonte: Olá Doutor, pesquisa com 500 pessoas (2026). Pílula: O que isso diz sobre **o cuidado no trabalho** → | |
+| 2 | Off com três cartões, painel verde-escuro embaixo | Por que uma IA? | Ela está lá quando *ninguém mais está.* | Cartões, cada um com o número, um rótulo curto e uma barra do tamanho do percentual: 31,2% Está lá a qualquer hora · 26,2% Custa menos · 14% Não dá vergonha (motivos de quem usa IA para questões emocionais, Doctoralia). Painel: Mas, numa crise forte de ansiedade, só **4%** recorreriam primeiro a uma IA, com uma grade de 100 pontos e 4 acesos. | Na hora que pesa, a gente quer gente. |
+| 3 | Verde-água, foto na metade de cima | 01 · Escuta | Todo mundo quer ser *ouvido de verdade.* | No Escritório do Cuidado, a primeira consulta começa por uma pergunta: **o que importa para você?** Turno, casa, sono e a conta do mês entram na conversa. Sem julgamento, e com sigilo. + CTA | |
+| 4 | Verde-escuro, foto numa faixa à direita, caixa menta embaixo | 02 · Por perto | Ninguém quer perder *meio dia por uma consulta.* | Médico, psicólogo e assistente social ficam dentro da empresa, **a poucos passos de quem trabalha**, presencial ou remoto. *A dúvida chega a um profissional antes de virar remédio.* Caixa: Remédio sem indicação e exame sem necessidade fazem mal. Na medicina, esse dano tem nome: **iatrogenia**. No trabalho, ele vira atestado e falta. | |
+| 5 | Off, número grande e foto ao lado | 03 · Plano e retorno | Uma resposta *não é um plano.* | No Escritório do Cuidado, o plano é combinado com a pessoa, tem base na Medicina do Estilo de Vida e é revisto a cada retorno. **Cada um recebe o cuidado de que precisa: sem remédio a mais nem exame à toa.** Prova: −28% de absenteísmo com programas de saúde preventiva (Harvard Business Review, 2022). | |
+| 6 | Verde-água como a capa, o balão da capa no alto | Ponto de virada e convite | Balão: "o que eu faço?". Quando alguém do seu time perguntar isso, *que a resposta venha de gente.* | Escuta, cuidado por perto e um plano com retorno: é isso que o **Escritório do Cuidado** leva para dentro da empresa. Comente **CUIDADO** e enviamos na DM como funciona o diagnóstico gratuito. | Na quarta: quatro frentes, um cuidado conectado. |
 
 ## Os dados
 
@@ -124,19 +125,33 @@ Doctoralia, ou achar os releases).
 
 Mais dados das mesmas pesquisas estão em `instagram/referencias.md`.
 
-## As fotos
+## O visual
 
-Do banco de imagens da marca (licença Unsplash, uso comercial gratuito,
-`instagram/marca/fotos-banco/` no branch `claude/eager-bell-tblhnh`). São
-ilustrativas: nunca apresentar como time, cliente ou colaborador atendido.
-Os originais estão em `fotos/`, e os recortes, em `fotos/c-0X.jpg`. A capa e
-os slides 2 e 6 não têm foto.
+- **Capa clara, no tiffany** (pedido de 03/11): fundo verde-água com uma luz
+  branca no alto, balões enviados em verde-escuro e o "digitando" em branco.
+  O slide 6 usa o mesmo fundo, para o fim espelhar a capa.
+- **Sem o quase-preto:** os fundos alternam verde-água, off e verde-escuro
+  (água, off, água, verde-escuro, off, água).
+- **Slide 2 mais fácil de ler:** os motivos viraram três cartões, com o número
+  grande, um rótulo de três palavras e uma barra proporcional ao percentual. O
+  4% ganhou uma grade de 100 pontos, com 4 acesos.
+- **Logo no slide 6:** como o círculo da logo tem a mesma cor do verde-água,
+  ela ganhou um anel branco.
 
-| Slide | Arquivo | Cena | Origem |
-|---|---|---|---|
-| 3 | maos.jpg | Mãos dadas, acolhimento | https://images.unsplash.com/photo-1584515933487-779824d29309 |
-| 4 | industria2.jpg | Profissional de capacete no trabalho | https://images.unsplash.com/photo-1621905251189-08b45d6a269e |
-| 5 | comida.jpg | Prato colorido sobre a mesa | https://images.unsplash.com/photo-1490645935967-10de6ba17061 |
+## As imagens: a Nina escolhe e coloca
+
+Cada slide tem uma moldura tracejada com a descrição da imagem ideal. No
+Canva, é só apagar a moldura e o texto e pôr a foto no mesmo lugar e tamanho.
+De preferência fotos próprias (`instagram/sessao-de-fotos.md`). Nenhum
+colaborador atendido aparece com o rosto.
+
+| Slide | Moldura (px) | Imagem ideal |
+|---|---|---|
+| 3 · Escuta | 1080x480, horizontal, encostada no topo | Conversa de escuta no Escritório do Cuidado: alguém do time de frente, atento, ouvindo; a outra pessoa de costas ou só as mãos. Luz natural, tons claros. Deixar o alto da foto mais limpo, porque o @ e o 03/06 ficam por cima. |
+| 4 · Por perto | 368x520, vertical | Colaborador no posto de trabalho (fábrica, linha de produção ou escritório), em plano médio, sem logo de empresa. Se for alguém atendido, de costas ou de perfil, sem rosto identificável. Alternativa: a porta do Escritório do Cuidado aberta, dentro da empresa. |
+| 5 · Plano e retorno | 448x360, horizontal | Rotina possível: um prato simples e colorido, ou uma agenda com metas escritas à mão ao lado de uma caneca. Tons claros. Nada de dieta da moda, balança ou fita métrica. |
+
+A capa e os slides 2 e 6 não têm foto.
 
 ## Resultado visível: como saber se deu certo
 
@@ -179,19 +194,20 @@ O cuidado fica perto. Médico, psicólogo e assistente social a poucos passos de
 
 E a resposta vira um plano, combinado com a pessoa, com base na Medicina do Estilo de Vida e revisto a cada retorno. Cada um recebe o cuidado de que precisa. Para a saúde corporativa, isso aparece na conta: programas de saúde preventiva reduzem o absenteísmo em 28% (Harvard Business Review, 2022).
 
-Quando alguém do seu time perguntar "posso tomar alguma coisa pra dormir?", que a resposta venha de gente. Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
+Quando alguém do seu time perguntar "o que eu faço?", que a resposta venha de gente. Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
 
 #fairhealth #saudecorporativa #saudemental #absenteismo #gestaodepessoas
 ```
 
 **Alt text da capa:** Conversa de madrugada num aplicativo de mensagens: a
 pessoa escreve "não tô dormindo direito, tô brigando em casa e não consigo
-focar no trabalho" e "posso tomar alguma coisa pra dormir?", e um assistente
-de IA está digitando. Embaixo, o texto "7 em cada 10 brasileiros já
+focar no trabalho" e "o que eu faço?", e um assistente de IA está digitando. Embaixo, o texto "7 em cada 10 brasileiros já
 perguntaram a uma IA sobre a própria saúde".
 
 ## Versões anteriores
 
+- v6 (commit `999eccf`): mesmos 6 slides, capa escura, balão "posso tomar
+  alguma coisa pra dormir?" e fotos de banco.
 - v5 (commit `d816e02`): o mesmo conteúdo em 7 slides, com um slide só para
   "A IA também virou consultório". Descartada: o pedido era ajustar os slides
   que já existiam.
