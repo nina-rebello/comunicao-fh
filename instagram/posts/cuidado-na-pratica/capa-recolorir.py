@@ -26,8 +26,11 @@ sc=1080/1024; im=im.resize((1080,round(1536*sc)),Image.LANCZOS)
 foto=im.crop((0,160,1080,1510))
 # degradê para o creme atrás do título
 creme=Image.new('RGB',(1080,1350),(0xf0,0xf0,0xe9))
-m=Image.new('L',(1080,1350),0)
-for y in range(1350):
-    m.paste(0 if y<600 else int(252*min(1,(y-600)/200)**1.1),(0,y,1080,y+1))
+# transição curva e suave: começa mais alto à esquerda (onde fica o título) e mais baixo à
+# direita, com curva de suavização e desfoque, para não parecer uma linha reta
+xs=np.arange(1080)[None,:]; ys=np.arange(1350)[:,None]
+inicio=500+190*(xs/1080)**1.6+18*np.sin(xs/1080*np.pi*1.3)
+t=np.clip((ys-inicio)/380,0,1); t=t*t*(3-2*t)
+m=Image.fromarray((250*t).astype(np.uint8)).filter(ImageFilter.GaussianBlur(28))
 Image.composite(creme,foto,m).save(P+'c-01.jpg',quality=90)
 print('ok')
