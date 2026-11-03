@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel 03/11: 7 em cada 10 brasileiros já perguntaram a uma IA sobre a própria saúde (v7)</title>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel 03/11: 7 em cada 10 brasileiros já perguntaram a uma IA sobre a própria saúde (v7.1)</title>
 <link rel="stylesheet" href="../../marca/base.css">
 <style>
 /* Carrossel de 03/11 (v7), continuação do 30/10. Pauta do PDF: como funciona o cuidado na prática.
@@ -52,12 +52,15 @@
 .aviso{position:absolute;text-align:center;font-size:23px;font-weight:700;line-height:1.35;color:var(--escuro)}
 .verde .aviso{color:#fff}
 
-/* Conversa: balão enviado em verde-escuro, texto em caixa própria por cima (para o Canva). */
-.balao{position:absolute;background:var(--escuro);border-radius:38px 38px 10px 38px}
-.balao-t{position:absolute;font-size:34px;line-height:1.3;font-weight:500;color:#fff}
-.digita{position:absolute;background:rgba(255,255,255,.75);border-radius:38px 38px 38px 10px}
-.ponto{position:absolute;width:16px;height:16px;border-radius:50%;background:var(--escuro)}
-.hora{position:absolute;font-size:22px;font-weight:600;letter-spacing:1px;opacity:.6}
+/* Conversa (v7.1, mais elegante): uma "tela" off-white sobre o tiffany liso, balões enviados em
+   tiffany com texto escuro, texto em caixa própria por cima (para o Canva). */
+.tela{position:absolute;background:var(--off);border-radius:44px}
+.balao{position:absolute;background:var(--agua);border-radius:36px 36px 10px 36px}
+.balao-t{position:absolute;font-size:33px;line-height:1.3;font-weight:500;color:var(--tinta)}
+.digita{position:absolute;background:#E3ECE9;border-radius:36px 36px 36px 10px}
+.ponto{position:absolute;width:15px;height:15px;border-radius:50%;background:var(--escuro)}
+.hora{position:absolute;font-size:22px;font-weight:600;letter-spacing:1px;opacity:.5}
+.pil-solida{position:absolute;background:var(--escuro);border-radius:999px}
 
 /* Dados do slide 2: cartões com número, rótulo curto e barra proporcional ao percentual. */
 .card{position:absolute;background:#fff;border-radius:24px;border:2px solid rgba(47,107,100,.14)}
@@ -73,26 +76,27 @@ body{background:none;margin:0}
 .slide{margin:0}
 </style></head><body>
 
-<!-- 1 · CAPA (curiosidade + tema do momento), clara e no tiffany: uma conversa de madrugada com uma
-     IA, que ainda está "digitando". A resposta não vem: ela chega no slide 6. -->
+<!-- 1 · CAPA (curiosidade + tema do momento), clara e no tiffany: a conversa de madrugada com uma IA
+     aparece numa "tela" off-white sobre o verde-água liso. A IA ainda está "digitando": a resposta
+     só chega no slide 6. -->
 <section class="slide ed agua" id="c-01">
-  <div class="abs" style="inset:0;background:radial-gradient(110% 65% at 50% 14%,rgba(255,255,255,.5),rgba(255,255,255,0) 62%)"></div>
   <div class="topo"><span>@fairhealth.br</span><span>01/06</span></div>
-  <p class="hora" style="left:0;right:0;top:168px;text-align:center">hoje, 02:14</p>
-  <div class="balao" style="right:72px;top:226px;width:720px;height:152px"></div>
-  <p class="balao-t" style="right:108px;top:254px;width:648px">não tô dormindo direito, tô brigando em casa e não consigo focar no trabalho</p>
-  <div class="balao" style="right:72px;top:396px;width:330px;height:84px"></div>
-  <p class="balao-t" style="right:108px;top:417px;width:270px;text-align:right;white-space:nowrap">o que eu faço?</p>
-  <div class="digita" style="left:72px;top:520px;width:156px;height:80px"></div>
-  <div class="ponto" style="left:112px;top:552px;opacity:.9"></div>
-  <div class="ponto" style="left:142px;top:552px;opacity:.6"></div>
-  <div class="ponto" style="left:172px;top:552px;opacity:.35"></div>
-  <p class="hora" style="left:72px;top:616px">assistente de IA digitando</p>
-  <p class="serif abs" style="left:66px;top:696px;font-size:150px;letter-spacing:-3px">7 em cada 10</p>
-  <h1 class="h abs" style="left:72px;top:854px;font-size:70px;letter-spacing:-3px;line-height:1.02">brasileiros já perguntaram<br>a uma IA sobre a<br>própria saúde.</h1>
-  <p class="fonte abs" style="left:72px;top:1094px">Fonte: Olá Doutor, pesquisa com 500 pessoas (2026)</p>
-  <div class="pilula" style="left:72px;bottom:84px;width:780px;height:74px;color:var(--escuro)"></div>
-  <p class="pil-t" style="left:72px;bottom:103px;width:780px;font-size:30px;color:var(--escuro)">O que isso diz sobre <b>o cuidado no trabalho</b> →</p>
+  <div class="tela" style="left:72px;top:130px;width:936px;height:560px"></div>
+  <p class="hora" style="left:0;right:0;top:166px;text-align:center">hoje, 02:14</p>
+  <div class="balao" style="right:112px;top:222px;width:720px;height:146px"></div>
+  <p class="balao-t" style="right:146px;top:248px;width:656px">não tô dormindo direito, tô brigando em casa e não consigo focar no trabalho</p>
+  <div class="balao" style="right:112px;top:386px;width:300px;height:80px"></div>
+  <p class="balao-t" style="right:146px;top:406px;width:236px;text-align:right;white-space:nowrap">o que eu faço?</p>
+  <div class="digita" style="left:112px;top:502px;width:150px;height:76px"></div>
+  <div class="ponto" style="left:152px;top:533px;opacity:.85"></div>
+  <div class="ponto" style="left:180px;top:533px;opacity:.55"></div>
+  <div class="ponto" style="left:208px;top:533px;opacity:.3"></div>
+  <p class="hora" style="left:112px;top:596px">assistente de IA digitando</p>
+  <p class="serif abs" style="left:66px;top:728px;font-size:150px;letter-spacing:-3px">7 em cada 10</p>
+  <h1 class="h abs" style="left:72px;top:886px;font-size:70px;letter-spacing:-3px;line-height:1.02">brasileiros já perguntaram<br>a uma IA sobre a<br>própria saúde.</h1>
+  <p class="fonte abs" style="left:72px;top:1120px">Fonte: Olá Doutor, pesquisa com 500 pessoas (2026)</p>
+  <div class="pil-solida" style="left:72px;bottom:72px;width:760px;height:76px"></div>
+  <p class="pil-t" style="left:72px;bottom:92px;width:760px;font-size:30px;color:#fff">O que isso diz sobre <b>o cuidado no trabalho</b> →</p>
 </section>
 
 <!-- 2 · CONFLITO E INVERSÃO (se sustenta sozinho): os três motivos em cartões, cada um com uma barra
@@ -190,15 +194,15 @@ body{background:none;margin:0}
 <!-- 6 · PONTO DE VIRADA + CONVITE, no tiffany como a capa: volta ao balão "o que eu faço?" e fecha a
      curiosidade que a capa abriu. A resposta vem de gente. -->
 <section class="slide ed agua" id="c-06">
-  <div class="abs" style="inset:0;background:radial-gradient(110% 65% at 50% 14%,rgba(255,255,255,.5),rgba(255,255,255,0) 62%)"></div>
   <div class="topo"><span>@fairhealth.br</span><span>06/06</span></div>
-  <div class="balao" style="right:72px;top:170px;width:330px;height:84px"></div>
-  <p class="balao-t" style="right:108px;top:191px;width:270px;text-align:right;white-space:nowrap">o que eu faço?</p>
+  <div class="tela" style="right:72px;top:140px;width:396px;height:132px;border-radius:36px"></div>
+  <div class="balao" style="right:104px;top:166px;width:300px;height:80px"></div>
+  <p class="balao-t" style="right:138px;top:186px;width:236px;text-align:right;white-space:nowrap">o que eu faço?</p>
   <h2 class="h tit" style="left:72px;top:300px;font-size:76px;letter-spacing:-3px">Quando alguém do seu<br>time perguntar isso,</h2>
   <p class="serif tit-s" style="left:68px;top:470px;font-size:98px;line-height:.95">que a resposta<br>venha de gente.</p>
   <p class="txt abs" style="left:72px;right:72px;top:694px">Escuta, cuidado por perto e um plano com retorno: é isso que o <b>Escritório do Cuidado</b> leva para dentro da empresa.</p>
-  <div class="pilula" style="left:72px;top:830px;width:440px;height:86px;color:var(--escuro)"></div>
-  <p class="pil-t" style="left:72px;top:849px;width:440px;font-size:40px;color:var(--escuro)">Comente <b>CUIDADO</b></p>
+  <div class="pil-solida" style="left:72px;top:830px;width:440px;height:86px"></div>
+  <p class="pil-t" style="left:72px;top:849px;width:440px;font-size:40px;color:#fff">Comente <b>CUIDADO</b></p>
   <p class="txt abs" style="left:72px;right:40px;top:940px;font-size:34px">e enviamos na DM como funciona o diagnóstico gratuito.</p>
   <p class="fecho abs" style="left:72px;right:72px;bottom:180px;font-size:42px">Na quarta: quatro frentes, um cuidado conectado.</p>
   <div class="selo abs" style="left:77px;bottom:90px"><div class="anel"></div><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>

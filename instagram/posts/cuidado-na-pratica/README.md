@@ -7,7 +7,7 @@ fecha com "Na terça: como funciona o cuidado na prática".
 
 Segue o guia `instagram/carrossel.md` (versão curta e método Vinci).
 
-**Status:** texto e design para aprovação (v7, 03/11). É a v4.1 com o feedback
+**Status:** texto e design para aprovação (v7.1, 03/11). É a v4.1 com o feedback
 da médica distribuído nos mesmos 6 slides e com os ajustes da Nina de 03/11:
 balão "o que eu faço?" de volta, dados do slide 2 mais visuais, capa clara no
 verde-água (tiffany) e molduras com a descrição da foto ideal no lugar das
@@ -94,7 +94,7 @@ Em itálico, o trecho em Instrument Serif, na cor de destaque.
 
 | # | Fundo e layout | Rótulo | Título | Texto | Fecho |
 |---|---|---|---|---|---|
-| 1 | Verde-água (tiffany), conversa com balões em verde-escuro (sem foto) | Capa | *7 em cada 10* brasileiros já perguntaram a uma IA sobre a própria saúde. | Balões: "não tô dormindo direito, tô brigando em casa e não consigo focar no trabalho" · "o que eu faço?" · assistente de IA digitando. Fonte: Olá Doutor, pesquisa com 500 pessoas (2026). Pílula: O que isso diz sobre **o cuidado no trabalho** → | |
+| 1 | Verde-água (tiffany) liso, conversa numa tela off-white com balões em tiffany (sem foto) | Capa | *7 em cada 10* brasileiros já perguntaram a uma IA sobre a própria saúde. | Balões: "não tô dormindo direito, tô brigando em casa e não consigo focar no trabalho" · "o que eu faço?" · assistente de IA digitando. Fonte: Olá Doutor, pesquisa com 500 pessoas (2026). Pílula: O que isso diz sobre **o cuidado no trabalho** → | |
 | 2 | Off com três cartões, painel verde-escuro embaixo | Por que uma IA? | Ela está lá quando *ninguém mais está.* | Cartões, cada um com o número, um rótulo curto e uma barra do tamanho do percentual: 31,2% Está lá a qualquer hora · 26,2% Custa menos · 14% Não dá vergonha (motivos de quem usa IA para questões emocionais, Doctoralia). Painel: Mas, numa crise forte de ansiedade, só **4%** recorreriam primeiro a uma IA, com uma grade de 100 pontos e 4 acesos. | Na hora que pesa, a gente quer gente. |
 | 3 | Verde-água, foto na metade de cima | 01 · Escuta | Todo mundo quer ser *ouvido de verdade.* | No Escritório do Cuidado, a primeira consulta começa por uma pergunta: **o que importa para você?** Turno, casa, sono e a conta do mês entram na conversa. Sem julgamento, e com sigilo. + CTA | |
 | 4 | Verde-escuro, foto numa faixa à direita, caixa menta embaixo | 02 · Por perto | Ninguém quer perder *meio dia por uma consulta.* | Médico, psicólogo e assistente social ficam dentro da empresa, **a poucos passos de quem trabalha**, presencial ou remoto. *A dúvida chega a um profissional antes de virar remédio.* Caixa: Remédio sem indicação e exame sem necessidade fazem mal. Na medicina, esse dano tem nome: **iatrogenia**. No trabalho, ele vira atestado e falta. | |
@@ -127,9 +127,12 @@ Mais dados das mesmas pesquisas estão em `instagram/referencias.md`.
 
 ## O visual
 
-- **Capa clara, no tiffany** (pedido de 03/11): fundo verde-água com uma luz
-  branca no alto, balões enviados em verde-escuro e o "digitando" em branco.
-  O slide 6 usa o mesmo fundo, para o fim espelhar a capa.
+- **Capa clara e elegante, no tiffany** (pedidos de 03/11): fundo verde-água
+  liso, sem degradê. A conversa fica numa "tela" off-white de cantos
+  arredondados, com os balões enviados em tiffany e texto escuro. A pílula é
+  sólida, em verde-escuro com texto branco. O slide 6 usa o mesmo fundo, com o
+  balão "o que eu faço?" numa telinha igual e a pílula "Comente CUIDADO"
+  sólida, para o fim espelhar a capa.
 - **Sem o quase-preto:** os fundos alternam verde-água, off e verde-escuro
   (água, off, água, verde-escuro, off, água).
 - **Slide 2 mais fácil de ler:** os motivos viraram três cartões, com o número
@@ -206,6 +209,8 @@ perguntaram a uma IA sobre a própria saúde".
 
 ## Versões anteriores
 
+- v7 (commit `1bc3c11`): capa no verde-água com degradê branco, balões em
+  verde-escuro e pílula só com contorno.
 - v6 (commit `999eccf`): mesmos 6 slides, capa escura, balão "posso tomar
   alguma coisa pra dormir?" e fotos de banco.
 - v5 (commit `d816e02`): o mesmo conteúdo em 7 slides, com um slide só para
