@@ -158,8 +158,9 @@ colaborador atendido aparece com o rosto.
 segurando o celular com a conversa (`fotos/capa-celular.jpg`, parece gerada por
 IA). O fundo azulado da foto foi recolorido para o Tiffany `#9FC5BD`, sem
 mexer na mão e no celular (`capa-recolorir.py`). Ela vai até o pé do slide e
-se funde num degradê para o creme `#F0F0E9` atrás do título, que está em
-Tiffany. O creme e o título em Tiffany seguem o pedido da Nina de 03/11
+se funde num degradê para o creme `#F0F0E9` atrás do título. O título em
+Tiffany ficou apagado sobre o creme (retorno de 03/11): o "7 em cada 10" está
+em verde-escuro `#2F6B64` e o resto em verde-escuro de texto `#1F3A36`. O creme e o título em Tiffany seguem o pedido da Nina de 03/11
 (o creme ainda está "em teste" nas diretrizes). A barra "Pergunte algo para a IA" foi
 apagada da tela para não brigar com o texto (`fotos/c-01.jpg`). Por cima, no HTML, ficaram o "Hoje" no lugar de "Today" e
 o balão da IA digitando. Antes de publicar, conferir se a mão e os dedos não
