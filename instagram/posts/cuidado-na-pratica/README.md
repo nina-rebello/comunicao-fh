@@ -15,6 +15,7 @@ fotos de banco.
 
 - **Artes** (1080x1350): `png/c-01.png` … `c-06.png`, 6 imagens, nesta ordem.
   Prévia em `previa.png`.
+- **No Canva (03/11):** [Carrossel 03/11 · design editável](https://www.canva.com/d/XkcJTCeDvdNu29t) (id `DAHZ4kd6OGk`), importado do `canva.html` do commit `fded862`. As molduras das fotos chegam sem o tracejado, como retângulos claros com a descrição dentro.
 - **Canva:** `canva.html` (autocontido, com fotos, fontes e logo embutidas).
   Para importar, siga o passo a passo do `CLAUDE.md` (commit, push e endereço
   raw com o hash do commit). Também há o `cuidado-na-pratica.pdf`.
