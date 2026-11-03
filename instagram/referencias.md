@@ -58,3 +58,30 @@ com "onde pedir ajuda" (CVV 188).
 Parecem **renders / projeto 3D**, não fotos. **[PENDENTE]** Confirmar. Se forem
 render, dá para usar como "o projeto do Escritório do Cuidado", mas não como
 foto real de um espaço em funcionamento.
+
+## Pesquisas sobre IA e saúde (levantadas em 03/11/2026)
+
+Usadas no carrossel de 03/11 (`instagram/posts/cuidado-na-pratica`). Vêm de
+reportagens: conferir no relatório original antes de reaproveitar.
+
+- **Doctoralia (2026), 3.903 usuários:** 70% já usaram ou consideram usar IA
+  para questões emocionais; motivos: 31,2% disponibilidade 24 horas, 26,2%
+  custo, 14% vergonha de conversar com outra pessoa; numa crise forte de
+  ansiedade, só 4% recorreriam primeiro à IA; 63% não confiariam num
+  diagnóstico de ansiedade ou depressão feito só por IA; 47% dos que levaram
+  a orientação da IA a um profissional ouviram que ela estava errada ou era
+  arriscada. Fontes: Viva (19/09/2026) e Consumidor Moderno (05/10/2026).
+- **Doctoralia (2026), mais de 1.700 psicólogos e psiquiatras:** 37% dos
+  psiquiatras tiveram pacientes pedindo ajuste de medicação com base em
+  sugestão de IA; 47,1% recebem pacientes com hipótese diagnóstica sugerida
+  por IA. Fonte: Consumidor Moderno (05/10/2026).
+- **Olá Doutor (2026), 500 pessoas, margem de 3,3 pontos:** 71% usaram IA no
+  último ano para tirar dúvidas sobre sintomas ou doenças; 49% pesquisaram
+  remédios; 30,4% acharam um sintoma mais grave do que era; 22,4%
+  minimizaram sinais que depois se mostraram sérios. Fonte: Medicina S/A
+  (23/03/2026).
+- **Iatrogenia e absenteísmo (feedback da médica, 03/11):** usar IA para
+  conferir sintomas aumenta a iatrogenia (dano causado por intervenção de
+  saúde, como remédio sem indicação e exame sem necessidade), que o cuidado
+  perto e acompanhado diminui nas empresas, e com ela o absenteísmo. Ainda
+  não temos número próprio para isso.

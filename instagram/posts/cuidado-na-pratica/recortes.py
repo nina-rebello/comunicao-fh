@@ -12,9 +12,9 @@ PASTA = Path(__file__).parent / 'fotos'
 # saída: (original, largura, altura da moldura em px, foco x, foco y)
 # O foco é o ponto da foto (0 a 1) que fica o mais perto possível do centro do recorte.
 MOLDURAS = {
-    'c-03': ('maos.jpg', 1080, 480, 0.50, 0.55),
-    'c-04': ('industria2.jpg', 368, 760, 0.24, 0.40),
-    'c-05': ('comida.jpg', 448, 400, 0.70, 0.45),
+    'c-04': ('maos.jpg', 1080, 480, 0.50, 0.55),
+    'c-05': ('industria2.jpg', 368, 760, 0.24, 0.40),
+    'c-06': ('comida.jpg', 448, 360, 0.70, 0.45),
 }
 
 for nome, (orig, w, h, fx, fy) in MOLDURAS.items():
