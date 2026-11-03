@@ -7,7 +7,7 @@ fecha com "Na terça: como funciona o cuidado na prática".
 
 Segue o guia `instagram/carrossel.md` (versão curta e método Vinci).
 
-**Status:** texto e design para aprovação (v4, 03/11).
+**Status:** texto e design para aprovação (v4.1, 03/11: ponto de virada no slide 6).
 
 - **Artes** (1080x1350): `png/c-01.png` … `c-06.png`, 6 imagens, nesta ordem.
   Prévia em `previa.png`.
@@ -45,6 +45,11 @@ método Vinci:
   (slide 5). Essas são as etapas da pauta do PDF.
 - **Visual atraente:** a capa é uma cena montada com balões, e não uma foto de
   banco. Cada slide muda de fundo e de layout.
+- **Funil (atenção, retenção, ponto de virada):** a capa é o trailer, os
+  slides 2 a 5 levam do dado à prática, e o slide 6 é o ponto de virada. Ele
+  volta ao balão da capa ("o que eu faço?"), fecha a curiosidade que ela
+  abriu ("que a resposta venha de gente"), amarra os slides 3 a 5 numa frase,
+  e o convite entra como continuação.
 
 ## Os três Cs deste post
 
@@ -53,8 +58,9 @@ método Vinci:
   cuidado no trabalho →".
 - **CTA, no slide 3:** "Conhece quem cuida das pessoas na sua empresa? Mande
   este post para essa pessoa."
-- **Convite, no slide 6:** "Seu time tem com quem conversar antes da crise?
-  Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito."
+- **Convite, no slide 6:** "Quando alguém do seu time perguntar isso [o que eu
+  faço?], que a resposta venha de gente." Depois: "Comente CUIDADO e enviamos
+  na DM como funciona o diagnóstico gratuito."
 
 ## Os slides
 
@@ -67,7 +73,7 @@ Em itálico, o trecho em Instrument Serif, na cor de destaque.
 | 3 | Off, foto na metade de cima | 01 · Escuta | Todo mundo quer ser *ouvido de verdade.* | No Escritório do Cuidado, a primeira consulta começa por uma pergunta: **o que importa para você?** Turno, casa, sono e a conta do mês entram na conversa. Sem julgamento, e com sigilo. + CTA | |
 | 4 | Tinta, foto numa faixa à direita | 02 · Por perto | Ninguém quer perder *meio dia por uma consulta.* | Médico, psicólogo e assistente social ficam dentro da empresa, **a poucos passos de quem trabalha**, presencial ou remoto. Na avaliação, entram hábitos, sono, estresse e bioimpedância. | Sem trânsito e sem sala de espera. |
 | 5 | Água, número grande e foto ao lado | 03 · Plano e retorno | Uma resposta *não é um plano.* | No Escritório do Cuidado, o plano é combinado com a pessoa, tem base na Medicina do Estilo de Vida e cabe na rotina real. **A cada retorno, as metas são revistas.** | *"Não é aquela dieta impossível de fazer. É algo pra vida."* Colaboradora atendida pelo Escritório do Cuidado |
-| 6 | Verde-escuro, sem foto | Convite | Seu time tem com quem conversar *antes da crise?* | Comente **CUIDADO** e enviamos na DM como funciona o diagnóstico gratuito. | Na quarta: quatro frentes, um cuidado conectado. |
+| 6 | Verde-escuro, o balão da capa no alto | Ponto de virada e convite | Balão: "o que eu faço?". Quando alguém do seu time perguntar isso, *que a resposta venha de gente.* | Escuta, cuidado por perto e um plano com retorno: é isso que o **Escritório do Cuidado** leva para dentro da empresa. Comente **CUIDADO** e enviamos na DM como funciona o diagnóstico gratuito. | Na quarta: quatro frentes, um cuidado conectado. |
 
 ## Os dados
 
@@ -144,7 +150,7 @@ O cuidado fica perto. Médico, psicólogo e assistente social a poucos passos de
 
 E a resposta vira um plano. Ele é combinado com a pessoa, tem base na Medicina do Estilo de Vida e é revisto a cada retorno. Como disse uma colaboradora atendida: "Não é aquela dieta impossível de fazer. É algo pra vida."
 
-Seu time tem com quem conversar antes da crise? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
+Quando alguém do seu time perguntar "o que eu faço?", que a resposta venha de gente. Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
 
 #fairhealth #saudecorporativa #saudemental #medicinadoestilodevida #gestaodepessoas
 ```
@@ -156,6 +162,8 @@ o texto "7 em cada 10 brasileiros consideram desabafar com uma IA".
 
 ## Versões anteriores
 
+- v4 (commit `cf0fac9`): o mesmo post, com o convite "Seu time tem com quem
+  conversar antes da crise?" no slide 6.
 - v3 (commit `5f7c72f`): "O cuidado que todo mundo queria ter no trabalho",
   com foto de banco na capa.
 - v2 (commit `8559242`): "Como funciona o cuidado na prática?", em 6 slides
