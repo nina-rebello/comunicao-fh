@@ -156,8 +156,11 @@ colaborador atendido aparece com o rosto.
 
 **Capa (v8, simulação de 03/11):** usa a imagem enviada pela Nina, a mão
 segurando o celular com a conversa (`fotos/capa-celular.jpg`, parece gerada por
-IA). Ela vai até o pé do slide, sem bloco Tiffany: só um véu claro, no tom do
-fundo da própria foto, atrás do título. A barra "Pergunte algo para a IA" foi
+IA). O fundo azulado da foto foi recolorido para o Tiffany `#9FC5BD`, sem
+mexer na mão e no celular (`capa-recolorir.py`). Ela vai até o pé do slide e
+se funde num degradê para o creme `#F0F0E9` atrás do título, que está em
+Tiffany. O creme e o título em Tiffany seguem o pedido da Nina de 03/11
+(o creme ainda está "em teste" nas diretrizes). A barra "Pergunte algo para a IA" foi
 apagada da tela para não brigar com o texto (`fotos/c-01.jpg`). Por cima, no HTML, ficaram o "Hoje" no lugar de "Today" e
 o balão da IA digitando. Antes de publicar, conferir se a mão e os dedos não
 têm defeito.
