@@ -1,5 +1,60 @@
 # Post de sex 23/10: Cuidar da saúde não deveria começar quando algo vai mal
 
+> **v6 (22/10), proposta.** É a v4 com um slide novo, "como funciona", detalhando a parte técnica e operacional do
+> cuidado (8 slides, que é o máximo). Cada slide responde à pergunta que o anterior deixa:
+> - 2: por que cuidar antes;
+> - 3: o que é cuidar;
+> - 4: as duas partes;
+> - 5: por que as duas;
+> - 6: onde e com quem;
+> - 7: como funciona e por que ter na empresa (pedido da Nina, 22/10);
+> - 8: a decisão.
+>
+> Os slides 1 a 5 e o 8 são os da v4. O 6 ganhou uma frase de ligação, e o 7 é novo:
+>
+> | Slide | Título | Apoio |
+> | --- | --- | --- |
+> | 6 · alguém para ouvir | Seu time precisa de *alguém para ouvir*. | Você não consegue ouvir todo mundo. Mas pode decidir que todos tenham com quem falar: perto, dentro da empresa, com sigilo. *É para isso que existe o Escritório do Cuidado.* |
+> | 7 · como funciona e por que ter | Como o Escritório do Cuidado *funciona* e por que ter um na sua empresa. | **Como funciona:** 1 · **Consulta** (acolher): médico ou psicólogo, com anamnese de Medicina do Estilo de Vida e a pergunta "O que é importante para você?". 2 · **Medição** (prevenir): bioimpedância e smartband por alguns dias, na rotina real. 3 · **Plano** (prevenir): plano de cuidado individual, explicado no retorno. 4 · **Acompanhamento** (acolher e prevenir): plantões de médicos e psicólogos e workshops ao longo do programa. **Por que na sua empresa:** é estrutura permanente, não campanha pontual; está perto da rotina, e ninguém depende de tomar a iniciativa sozinho; você acompanha o grupo em relatórios anonimizados, sem nenhum dado individual. |
+>
+> **Smartband (22/10):** a Nina quis dizer que a smartband mostra a saúde integral, as emoções e o estresse dentro e
+> fora da empresa, e onde está o problema. Ficou assim, sem prometer o que o aparelho não mede: a etapa 2 cita sono,
+> estresse e recuperação, dentro e fora da empresa; a etapa 3 diz que consulta e dados juntos mostram onde o cuidado
+> precisa começar. As emoções aparecem na consulta, não na pulseira.
+>
+> **Legenda final (23/10)**, com tudo o que entrou no carrossel de 8 slides:
+>
+> ```
+> Você não espera o problema aparecer para cuidar da estratégia. Por que esperar para cuidar das pessoas?
+>
+> Cuidar antes tem duas partes, com o mesmo peso. Acolher é ouvir e entender como cada pessoa está hoje. Prevenir é agir antes que algo vá mal. Uma sem a outra não se sustenta: prevenção sem acolhimento vira campanha que ninguém usa, e acolhimento sem prevenção vira conversa que não muda a rotina.
+>
+> No Escritório do Cuidado, as duas acontecem dentro da sua empresa. Começa com uma consulta com médico ou psicólogo e uma pergunta: "o que é importante para você?". Depois, bioimpedância e alguns dias de smartband mostram sono, estresse e recuperação, dentro e fora do trabalho. Consulta e dados juntos indicam onde o cuidado precisa começar e viram um plano individual, com acompanhamento de perto.
+>
+> Para a liderança, é estrutura permanente, não campanha pontual. E você acompanha o grupo em relatórios anonimizados, sem nenhum dado individual.
+>
+> Cuidar antes é uma decisão de quem lidera. Fazemos o certo pelos motivos certos.
+>
+> Encaminhe para o seu diretor de RH e conheça o Escritório do Cuidado no link da bio.
+>
+> #fairhealth #lideranca #gestaodepessoas #saudecorporativa #medicinapreventiva
+> ```
+>
+> **Final (22/10):** o último slide ganhou "Curta, comente e compartilhe com quem lidera com você." No Canva, a
+> paginação passou a ter 8 pontos e os círculos do slide 5 viraram anéis nativos (os de antes não apareciam no
+> editor).
+>
+> **Arte (22/10):** slide `c07` no gerador (o final virou `c08`). No Canva, entrou como página 7 do design
+> DAHYkUJXrBw, que a Nina já tinha enxugado para a sequência 1c, 2b, 3, 4b, 5, 6 e final.
+>
+> Fonte da parte técnica: `essencia.md` (dinâmica das consultas), `voice.md` e `posts/wearables/README.md`. Fonte do
+> "por que": `essencia.md` ("infraestrutura, não programa pontual", "proximidade gera adesão") e o tom de voz do
+> plano de marketing ("sem depender de que o colaborador tome a iniciativa sozinho").
+> Validar com o Dr. Ronald: o sigilo, o que a smartband mede e os nomes dos 7 pilares.
+>
+> **v5 (22/10), descartada.** A Nina não queria uma história com personagem, e sim uma linha de raciocínio que
+> ligue um slide ao outro. Voltamos para a v4.
+>
 > **v4 (19/10), aprovada pela Nina.** Nova tentativa com o mesmo briefing da v3:
 > - cuidar antes, não depois, e não só da saúde;
 > - acolhimento e prevenção com o mesmo peso, mostrando a diferença entre os dois;
@@ -21,6 +76,72 @@
   duas partes diferentes, com o mesmo peso:
   - acolher, que é ouvir;
   - prevenir, que é agir antes.
+
+## Capa 1c (20/10): a mesma cena em foto, vista de cima
+
+- A Nina mandou uma foto da mesma cena, vista de cima e em preto e branco.
+- O removedor automático (rembg) deixava a mesa transparente. Por isso o recorte foi feito pelo branco puro a partir
+  das bordas, com o tampo da mesa mantido opaco.
+- Os brancos da foto viraram o creme da marca (`capa-foto-exausta.png`).
+- É mais uma alternativa de capa. No PDF do Canva, entra depois da 1b.
+
+## Capa 1b (20/10): mulher exausta, versão simplificada
+
+- É a mesma cena do PNG da capa v3, redesenhada em SVG com poucas formas chapadas, sem contorno e sem sombra.
+- Usa as cores da marca: verde, verde do logo e creme. A pele é num tom pêssego.
+- É uma alternativa: a capa com o PNG continua. No PDF do Canva, entra logo depois da capa.
+
+## Capa v3 (20/10): ilustração da mulher exausta
+
+- A Nina mandou um PNG para a capa: uma mulher debruçada na mesa, exausta, fazendo "ok" com a mão. Ele substitui a
+  cadeira vazia em SVG, que fica no histórico do git.
+- O PNG ganhou um recorte de 2 px na borda, para tirar o contorno avermelhado do recorte original
+  (`capa-exausta.png`).
+- O texto da capa não mudou.
+
+## Slides 2b e 2c (20/10): texto dentro da mesa de reunião
+
+- São alternativas ao 2, pedidas pela Nina. O 2 com as poltronas continua. Nos dois, uma mesa de reunião vista de
+  cima ocupa o slide, com o texto dentro dela.
+- **2b:** foto horizontal em preto e branco, multiplicada pelo creme da marca (`mesa-reuniao-cinza.jpg`).
+- **2c:** foto vertical, que era azul e virou duotone em verde, Tiffany e creme (`mesa-reuniao-tiffany.jpg`).
+- No PDF do Canva, os dois entram logo depois do 2.
+
+## Slide 2 v2 (20/10): foto entre as duas frases
+
+- A Nina pediu uma foto de duas pessoas conversando em poltronas, com aperto de mão, para separar a primeira frase
+  da segunda.
+- O fundo da foto foi removido com o rembg (modelo isnet-general-use). O tampo branco da mesa, que saiu junto com o
+  fundo, foi recuperado da foto original.
+- As poltronas azuis viraram Tiffany e mantêm a luz e a sombra da foto. O terno azul-marinho do homem ficou de fora
+  do recolorido, separado pelo matiz.
+- O arquivo final é `foto-conversa-poltronas.png`, e o texto do slide não mudou.
+
+## Slide 4b (20/10): versão caderno aberto
+
+- A Nina pediu um slide 4 mais dinâmico, separando os dois assuntos. A referência foi um carrossel com um caderno
+  aberto e uma "forma" em cada página.
+- O fundo é verde-escuro, com o título centralizado em cima e o caderno quadriculado em creme sangrando embaixo.
+- Acolher fica na página da esquerda e prevenir na da direita. Cada nome aparece em letra cursiva (Instrument Serif
+  itálica), seguido do "é ouvir." / "é agir antes." em negrito e do texto de apoio da v4.
+- O caderno é a foto que a Nina mandou (`caderno.png`, com o fundo branco removido). A fita preta original passa por
+  cima do texto, como na referência, numa camada à parte (`caderno-fita.png`). O slide não tem rodapé, que ficava
+  atrás da fita.
+- Fica como alternativa ao 4 de cartões (`c04b`). No PDF do Canva, entra logo depois do 4 original, para a Nina
+  escolher entre os dois.
+
+## Capa v2 (20/10): ilustração chapada
+
+- A Nina pediu a capa no estilo dos pôsteres de design universal ("About to crash?", "Can you read this?"): uma cor
+  de fundo, o título em negrito no topo e uma ilustração grande e sem contorno embaixo.
+- A cena é uma cadeira de escritório vazia, com o blazer no encosto, ao lado da mesa com o computador ligado e a
+  caneca. A pessoa já não está ali: é o "quando algo vai mal", sem falar em atestado. Tudo em SVG, com as cores da
+  marca: Tiffany, verde, verde do logo e creme.
+- O blazer é verde, e não creme, para não parecer jaleco de médico.
+- A primeira tentativa foi uma planta murchando com um regador ao lado. A Nina não aprovou, porque a metáfora era
+  indireta demais para um CEO.
+- O texto continua o mesmo da v4. Só mudou o destaque em creme, para contrastar com a ilustração.
+- Os slides 2 a 7 continuam iguais aos da v1. A `previa.jpg` ainda mostra a capa v1.
 
 ## Arte v1 (19/10)
 

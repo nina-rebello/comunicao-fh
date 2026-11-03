@@ -161,6 +161,8 @@ atividade física e evitar substâncias a partir do Mês 4.
 - **Os dias da semana não estão definidos.** As datas da planilha são só uma
   distribuição sugerida, que evita feriados nacionais. O dia certo sai da revisão
   mensal e, depois, dos dados de alcance.
+- **Carrossel: no máximo 8 slides, sempre** (regra da Nina, 22/10). A história
+  precisa caber nisso, com começo, meio e fim.
 - **Stories** ficam fora da contagem. Servem de apoio: repost, caixa de perguntas,
   bastidores e enquetes que alimentam pautas futuras.
 - Se a produção não comportar 2 vídeos por semana, a alternativa é 3 publicações por
