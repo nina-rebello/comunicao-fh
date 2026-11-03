@@ -156,8 +156,9 @@ colaborador atendido aparece com o rosto.
 
 **Capa (v8, simulação de 03/11):** usa a imagem enviada pela Nina, a mão
 segurando o celular com a conversa (`fotos/capa-celular.jpg`, parece gerada por
-IA). Ela foi cortada no alto e fundida no Tiffany oficial `#9FC5BD`
-(`fotos/c-01.jpg`). Por cima, no HTML, ficaram o "Hoje" no lugar de "Today" e
+IA). Ela vai até o pé do slide, sem bloco Tiffany: só um véu claro, no tom do
+fundo da própria foto, atrás do título. A barra "Pergunte algo para a IA" foi
+apagada da tela para não brigar com o texto (`fotos/c-01.jpg`). Por cima, no HTML, ficaram o "Hoje" no lugar de "Today" e
 o balão da IA digitando. Antes de publicar, conferir se a mão e os dedos não
 têm defeito.
 
