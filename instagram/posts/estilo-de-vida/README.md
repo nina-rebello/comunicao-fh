@@ -157,3 +157,16 @@ não funcionam isoladamente" é frase da apresentação institucional (`essencia
 - 4: recorte do artigo do NEJM colado com fita (`fotos/nejm.png`, gerado do print enviado pela Nina) e a
   comparação 1 conversa por ano × 16 encontros em 6 meses.
 - 5: os 7 pilares com os 2 do estudo em coral e a chave "os 2 do estudo".
+
+## Teste de cores dos dados (04/11)
+
+Pedido da Nina: testar coral, rosa, amarelo e uma opção mais esverdeada. Arquivos `teste-cor-*.html`,
+imagens em `cores/<cor>/` e a prancha `cores/comparacao.png`. Em todas, as duas pessoas claras do slide 2
+passaram a Tiffany (regra das diretrizes: cor extra sempre com o Tiffany na peça).
+
+| Cor | Preenchimento | Texto | Texto sobre a cor |
+|---|---|---|---|
+| Coral | `#F26B4F` | `#EC5A3C` | branco |
+| Rosa | `#EE4D9B` | `#E0368A` | branco |
+| Amarelo | `#F2C94C` | `#D9A514` | verde-escuro |
+| Turquesa | `#1FB5A8` | `#159C90` | branco |
