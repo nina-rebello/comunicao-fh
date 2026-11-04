@@ -281,7 +281,7 @@ Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
  dict(id='N08', data=D(18), semana=3, bloco='5 · Atualidade', eixo='Notícias + Mercado', fmt=CARR,
   titulo='Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH',
   sub='O dado mais recente de afastamentos e o que a NR-01 pede: medir e cuidar dos riscos psicossociais',
-  status='Texto aprovado (04/11) · v4 em 6 slides para aprovação', resp='Nina · Dr. Ronald (NR-01 e saúde mental)',
+  status='Texto aprovado (04/11) · v5 em 6 slides e legenda (ig-caption) para aprovação', resp='Nina · Dr. Ronald (NR-01 e saúde mental)',
   espec='Carrossel 4:5 (1080 × 1350), 6 slides, estilo institucional.',
   gancho='546,2 mil afastamentos do trabalho por saúde mental no Brasil em 2025, concedidos pelo INSS. E agora, RH?',
   objetivo='Usar o dado mais recente de afastamentos para explicar o que a NR-01 pede sobre riscos psicossociais: medir e cuidar, com a fairdata no diagnóstico e o Escritório do Cuidado no cuidado.',
@@ -290,20 +290,22 @@ Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
   fio='Vem de: 16/11, Novembro Azul. Leva para: 19/11, a voz de quem é cuidado.',
   visual='Padrão dos carrosséis de 03/11 e 11/11: papel e creme com brilho Tiffany, marca-texto com textura, gráfico desenhado com anotação à mão, print do texto oficial da NR-01, balão "E agora, RH?" na capa e no fim. Uma foto de banco (conversa) no slide 5. CVV 188 no slide final.',
   material='PDF oficial da NR-01 (MTE), guia do MTE sobre fatores de riscos psicossociais, uma foto de banco.',
-  cta='Curta, comente e compartilhe com quem cuida das pessoas na sua empresa (alternativa: fale com a gente pelo link da bio)',
+  cta='Fale com a gente pelo link da bio e leve o Escritório do Cuidado para a sua empresa (escolha da Nina, 04/11)',
   stories='Caixa de perguntas: "Qual a sua maior dúvida sobre a NR-01?" (respostas viram conteúdo).',
   fonte='Ministério da Previdência Social (nota oficial na Agência Gov, jan/2026): 546.254 benefícios por incapacidade temporária concedidos pelo INSS por transtornos mentais e comportamentais em 2025, 15,66% acima de 2024 (472.328); também no g1. Segundo recorde seguido. NR-01: texto atualizado no gov.br (MTE), itens 1.5.3.1.4 e 1.5.3.2, redação da Portaria MTE nº 1.419/2024, em vigor desde 26/05/2026 (Portaria MTE nº 765/2025). Lista de fatores: Guia de informações sobre os fatores de riscos psicossociais relacionados ao trabalho (MTE, 2025), listagem exemplificativa de 13 fatores.',
-  validar='Conferir com o Dr. Ronald a situação da NR-01 (vigência e o que é exigido). Menção à fairdata no slide 5. Legenda: passar pela ig-caption e pela ig-human. Sem alarmismo ("epidemia", "bomba-relógio"). Nunca prometer conformidade com a NR-01.',
+  validar='Conferir com o Dr. Ronald a situação da NR-01 (vigência e o que é exigido). Menção à fairdata no slide 5. Legenda feita com a ig-caption e revisada com a ig-human (04/11). Sem alarmismo ("epidemia", "bomba-relógio"). Nunca prometer conformidade com a NR-01.',
   arquivos='instagram/posts/nr01-afastamentos/ (png/n-01 a n-06, canva.html, nr01-afastamentos.pdf; alternativa do slide 3 em png-alternativas/ e canva-alternativas.html)',
-  legenda='''Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH.
+  legenda='''546,2 mil afastamentos do trabalho por saúde mental em 2025. É o segundo recorde seguido. E agora, RH?
 
-Em 2025, foram 546,2 mil licenças por transtornos mentais no Brasil, o segundo recorde seguido, segundo o Ministério da Previdência Social.
+Os dados são do Ministério da Previdência Social: o INSS concedeu 546,2 mil licenças por transtornos mentais e comportamentais em 2025, 15,7% a mais que em 2024.
 
 Desde maio de 2026, a NR-01 pede que a empresa identifique e gerencie os riscos psicossociais junto com os outros riscos ocupacionais. O guia do Ministério do Trabalho e Emprego dá exemplos: sobrecarga, falta de apoio, assédio, baixa clareza de papel e baixo controle sobre o trabalho.
 
-A norma pede medir e cuidar: identificar, avaliar e classificar os riscos, e também implementar medidas de prevenção e acompanhar o controle dos riscos. Com a fairdata, o diagnóstico dos riscos do grupo. Com o Escritório do Cuidado, escuta, acompanhamento e encaminhamento, e o RH recebe indicadores do grupo, anonimizados.
+A norma trata a saúde mental no trabalho em duas frentes. Medir: identificar, avaliar e classificar os riscos. Cuidar: implementar medidas de prevenção e acompanhar o controle dos riscos.
 
-Curta, comente e compartilhe com quem cuida das pessoas na sua empresa.
+Com a fairdata, a empresa tem o diagnóstico dos riscos do grupo. Com o Escritório do Cuidado, médico, psicólogo e assistente social ficam dentro da empresa, com escuta, acompanhamento e encaminhamento, e o RH recebe indicadores do grupo, anonimizados.
+
+Quer levar o Escritório do Cuidado para a sua empresa? Fale com a gente pelo link da bio.
 
 Se você precisa de ajuda agora, o CVV atende pelo 188, 24 horas.
 
@@ -314,7 +316,7 @@ Se você precisa de ajuda agora, o CVV atende pelo 188, 24 horas.
    ('Slide 3 · a norma', 'A norma\nNR-01\nDesde maio de 2026, a NR-01 pede que a empresa identifique e gerencie os riscos psicossociais, junto com os outros riscos ocupacionais.\nPrint do texto oficial: vigência (26/05/2026) e itens 1.5.3.1.4 e 1.5.3.2.', '', 'Verde-escuro, print do PDF do MTE colado com fita, marca-texto no trecho dos riscos psicossociais.', 'Alternativa: o recorte digitado (png-alternativas/).'),
    ('Slide 4 · o que é risco psicossocial', 'Exemplos da lista do Ministério do Trabalho e Emprego: os 13 fatores do guia, na ordem e com as palavras do guia.\nFonte: Guia de informações sobre os fatores de riscos psicossociais relacionados ao trabalho (MTE, 2025). A lista é exemplificativa.', '', 'Tiffany, folha com lista numerada.', ''),
    ('Slide 5 · medir e cuidar', 'Medir e cuidar: a norma pede os dois.\nMedir: b) identificar os perigos, c) avaliar os riscos, d) classificar os riscos. Com a fairdata: o diagnóstico dos riscos do grupo.\nCuidar: e) implementar medidas de prevenção, f) acompanhar o controle dos riscos. Com o Escritório do Cuidado: escuta, acompanhamento e encaminhamento.\nFonte: NR-01, item 1.5.3.2.', '', 'Foto de conversa no alto, dois cartões (claro e verde-escuro).', 'Ponte para o produto, sem desvalorizar o mapeamento (fairdata).'),
-   ('Slide 6 · chamada', 'Balão: E agora, RH?\nCurta, comente e compartilhe com quem cuida das pessoas na sua empresa.\nPrecisa de ajuda agora? CVV 188.', '', 'Creme com brilho, ícones de curtir, comentar e compartilhar, logo.', 'Retoma a capa. Sem "Comente CUIDADO" (pedido da Nina, 04/11). Alternativa: Fale com a gente pelo link da bio e leve o Escritório do Cuidado para a sua empresa. Todo post de saúde mental termina com onde pedir ajuda.'),
+   ('Slide 6 · chamada', 'Balão: E agora, RH?\nFale com a gente pelo link da bio\ne leve o Escritório do Cuidado para a sua empresa.\nPrecisa de ajuda agora? CVV 188.', '', 'Creme com brilho, marca-texto em "pelo link da bio.", logo.', 'Retoma a capa. Escolha da Nina (04/11); "curta, comente e compartilhe" ficou como alternativa. Todo post de saúde mental termina com onde pedir ajuda.'),
   ]),
 
  dict(id='N09', data=D(19), semana=3, bloco='5 · Atualidade', eixo='Cases', fmt=FOTO,

@@ -4,13 +4,14 @@
 `marketing/ferramentas/conteudo_posts_novembro.py`. Vem depois do Reel do Novembro Azul (16/11) e antes
 do depoimento de 19/11.
 
-**Status:** v4 para aprovação (04/11): a v3 com o convite trocado (sem "Comente CUIDADO").
+**Status:** v5 para aprovação (04/11): convite de contato pelo link da bio (escolha da Nina) e legenda pronta
+(`legenda.txt`, feita com a ig-caption e revisada com a ig-human).
 
 - **Artes** (1080x1350): `png/n-01.png` … `n-06.png`, nesta ordem. Prévia em `previa.png`.
 - **Alternativas** (`alternativas.html`, imagens em `png-alternativas/`, Canva em `canva-alternativas.html`):
   - slide 3 com o recorte digitado da v2, com o texto já corrigido pelo oficial (`n-03-recorte.png`);
-  - slide 6 com o convite de contato: "Fale com a gente pelo link da bio e leve o Escritório do Cuidado para a sua
-    empresa." (`n-06-contato.png`).
+  - slide 6 com "Curta, comente e compartilhe com quem cuida das pessoas na sua empresa.", com os ícones das três
+    ações (`n-06-curtir.png`, a principal da v4).
 - **Canva:** `canva.html` (autocontido, cerca de 20 MB, como o de 11/11). Para importar, siga o `CLAUDE.md`
   (commit, push e endereço raw com o hash do commit). Também há o `nr01-afastamentos.pdf`.
 - **Para regerar depois de editar:**
@@ -27,6 +28,11 @@ do depoimento de 19/11.
   recorte digitado, em PNG transparente), a foto do slide 5 e os marca-textos dos dois HTML (mede cada linha
   `data-mk` e acerta a imagem `data-tx`). Usa `instagram/ferramentas/textura.py` e `medir-marcas.mjs`, do carrossel
   de 11/11. O CSS fica em `estilo.css`, comum a `slides.html` e `alternativas.html`.
+
+## v5 (04/11): contato pelo link da bio e legenda
+
+A Nina escolheu o convite de contato para o slide 6: "Fale com a gente pelo link da bio e leve o Escritório do
+Cuidado para a sua empresa." A versão de curtir, comentar e compartilhar foi para as alternativas.
 
 ## v4 (04/11): o convite
 
@@ -63,7 +69,7 @@ Pedidos da Nina sobre a v2:
 | 3 | Verde-escuro | "NR-01" gigante e o print do texto oficial colado com fita | Desde maio de 2026, a NR-01 pede que a empresa **identifique e gerencie os riscos psicossociais**, junto com os outros riscos ocupacionais. |
 | 4 | Tiffany | Folha com a lista numerada | O que é *risco psicossocial* · Exemplos da lista do Ministério do Trabalho e Emprego: os 13 fatores do guia. Fonte: guia do MTE (2025), lista exemplificativa |
 | 5 | Foto + papel | Dois cartões, claro (Medir) e verde (Cuidar), com as alíneas da norma | Medir e cuidar: *a norma pede os dois.* Medir: b) identificar os perigos, c) avaliar os riscos, d) classificar os riscos. Com a **fairdata**: o diagnóstico dos riscos do grupo. Cuidar: e) implementar medidas de prevenção, f) acompanhar o controle dos riscos. Com o **Escritório do Cuidado**: escuta, acompanhamento e encaminhamento. Fonte: NR-01, item 1.5.3.2 |
-| 6 | Creme com brilho Tiffany | O balão da capa de volta e os ícones de curtir, comentar e compartilhar | Curta, comente ==e compartilhe== com quem cuida das pessoas na sua empresa. Precisa de ajuda agora? **CVV 188.** |
+| 6 | Creme com brilho Tiffany | O balão da capa de volta | Fale com a gente ==pelo link da bio.== e leve o Escritório do Cuidado para a sua empresa. Precisa de ajuda agora? **CVV 188.** |
 
 `==trecho==` = marca-texto Tiffany. Em itálico, o trecho em Instrument Serif.
 
@@ -111,12 +117,29 @@ resumidas ("identificar os perigos e possíveis lesões ou agravos à saúde" vi
   item "Más relacionamentos" do guia entrou como "Maus relacionamentos".
   https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/guia-nr-01-revisado.pdf
 
+## Legenda
+
+Em `legenda.txt` (1.222 caracteres), feita com a skill ig-caption, trabalho B (carrossel: a primeira linha é o
+gancho, e o "E agora, RH?" fecha a linha antes do corte).
+
+- **Verificador (`caption.py`):** 102 caracteres visíveis antes do "mais", 5 hashtags (a primeira #fairhealth),
+  termos de busca "NR-01", "riscos psicossociais" e "saúde mental no trabalho" no texto, sem link, sem emoji. O
+  único aviso é "sem chamada", falso: o verificador não reconhece "link da bio" em português (`CLAUDE.md`).
+- **ig-human:** nenhum artefato para limpar (sem travessão, aspas curvas ou caracteres invisíveis), 0 termos de
+  "slop". Os dois avisos não se aplicam: a parede de hashtags é a regra da marca (5 hashtags) e o VOICE só conta
+  contrações e pronomes em inglês.
+- **Números:** o mesmo do carrossel (nota oficial da Previdência; 15,7% = 15,66% da nota). A lista de exemplos
+  vem do guia do MTE. Sem promessa clínica, sem preço e sem prometer conformidade com a NR-01.
+
+**Texto alternativo da capa:** "Fundo creme com brilho verde-água. Número grande: 546,2 mil afastamentos do
+trabalho por saúde mental no Brasil em 2025, concedidos pelo INSS. Fonte: Ministério da Previdência Social.
+Balão de mensagem: E agora, RH?"
+
 ## Pendências
 
-- [ ] Aprovação da v4 pela Nina: texto novo do slide 5 (com a fairdata), slide 3 com print ou com recorte
-      digitado, slide 6 com curtir/comentar/compartilhar ou com contato, numeração no topo.
+- [ ] Aprovação da v5 pela Nina: texto novo do slide 5 (com a fairdata), slide 3 com print ou com recorte
+      digitado, legenda, numeração no topo.
+- [ ] Conferir para onde vai o link da bio no dia (`voice.md`: www.fairhealth.com.br, a confirmar).
 - [ ] Dr. Ronald: revisar o texto de saúde mental (CFM) e a leitura da NR-01.
-- [ ] Legenda: o rascunho do N08 foi ajustado à v4 (lista do MTE, medir e cuidar, convite novo). Ainda precisa
-      passar pela skill ig-caption (com o `caption.py`) e pela ig-human.
-- [ ] Métrica que decide se o post deu certo (método Vinci): compartilhamentos, comentários e salvamentos (ou, na
-      versão de contato, cliques no link da bio), comparados com o carrossel de 28/10 (também de dados para o RH).
+- [ ] Métrica que decide se o post deu certo (método Vinci): cliques no link da bio e contatos de empresas, com
+      salvamentos e compartilhamentos como apoio, comparados com o carrossel de 28/10 (também de dados para o RH).
