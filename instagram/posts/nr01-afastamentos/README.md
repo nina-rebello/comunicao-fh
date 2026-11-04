@@ -1,110 +1,114 @@
-# Carrossel 18/11: Recorde de afastamentos por saúde mental e a NR-01 · 8 slides
+# Carrossel 18/11: Recorde de afastamentos por saúde mental e a NR-01 · 6 slides
 
 **Quarta, 18/11.** Semana 3 de novembro, bloco 5 (Atualidade), eixo Notícias + Mercado. É o N08 de
 `marketing/ferramentas/conteudo_posts_novembro.py`. Vem depois do Reel do Novembro Azul (16/11) e antes
 do depoimento de 19/11.
 
-**Status:** texto aprovado pela Nina em 04/11 (com a capa mais específica: afastamentos do trabalho, no
-Brasil, concedidos pelo INSS). Design v2 para aprovação (04/11).
+**Status:** v3 para aprovação (04/11), com os pedidos da Nina sobre a v2.
 
-- **Artes** (1080x1350): `png/n-01.png` … `n-08.png`, 8 imagens, nesta ordem. Prévia em `previa.png`.
-- **Canva:** `canva.html` (autocontido, com fundos, texturas, fotos, fontes e logo embutidos; cerca de 24 MB,
-  como o do carrossel de 11/11). Para importar, siga o passo a passo do `CLAUDE.md` (commit, push e endereço
-  raw com o hash do commit). Também há o `nr01-afastamentos.pdf`.
-- **Para regerar depois de editar o `slides.html`:**
+- **Artes** (1080x1350): `png/n-01.png` … `n-06.png`, nesta ordem. Prévia em `previa.png`.
+- **Alternativa do slide 3:** `png-alternativas/n-03-recorte.png` (o recorte digitado da v2, com o texto já
+  corrigido pelo oficial). Fonte em `alternativas.html`, Canva em `canva-alternativas.html`.
+- **Canva:** `canva.html` (autocontido, cerca de 20 MB, como o de 11/11). Para importar, siga o `CLAUDE.md`
+  (commit, push e endereço raw com o hash do commit). Também há o `nr01-afastamentos.pdf`.
+- **Para regerar depois de editar:**
   ```
   python3 instagram/posts/nr01-afastamentos/gerar.py
   node instagram/ferramentas/render.mjs instagram/posts/nr01-afastamentos/slides.html instagram/posts/nr01-afastamentos/png
+  node instagram/ferramentas/render.mjs instagram/posts/nr01-afastamentos/alternativas.html instagram/posts/nr01-afastamentos/png-alternativas
   node instagram/ferramentas/pdf.mjs instagram/posts/nr01-afastamentos/slides.html instagram/posts/nr01-afastamentos/nr01-afastamentos.pdf
   node instagram/ferramentas/canva.mjs instagram/posts/nr01-afastamentos/slides.html instagram/posts/nr01-afastamentos/canva.html
+  node instagram/ferramentas/canva.mjs instagram/posts/nr01-afastamentos/alternativas.html instagram/posts/nr01-afastamentos/canva-alternativas.html
   ```
-  O `gerar.py` refaz os fundos com granulado, as barras e a fita com textura, o recorte da NR-01 e a capa do
-  guia (`recorte.html`, em PNG transparente) e os marca-textos: mede cada linha `data-mk` e acerta a posição da
-  imagem `data-tx` correspondente. Usa `instagram/ferramentas/textura.py` e `medir-marcas.mjs`, trazidos do
-  carrossel de 11/11.
+  O `gerar.py` refaz os fundos com granulado, as barras e a fita com textura, os recortes do PDF oficial da NR-01
+  (`fotos/nr-01-atualizada-2025.pdf`, precisa do `pdftoppm`), as composições de `recorte.html` (print colado,
+  recorte digitado e capa do guia, em PNG transparente), a foto do slide 5 e os marca-textos (mede cada linha
+  `data-mk` e acerta a imagem `data-tx`). Usa `instagram/ferramentas/textura.py` e `medir-marcas.mjs`, do carrossel
+  de 11/11. O CSS fica em `estilo.css`, comum a `slides.html` e `alternativas.html`.
 
-## v2 (04/11): no padrão dos últimos carrosséis
+## v3 (04/11): o que mudou e por quê
 
-A v1 ficou abaixo do padrão dos carrosséis de 28/10, 03/11 e 11/11 (retorno da Nina: "mais modernos,
-complexos, bonitos, com menos cara de IA"). A v2 usa o que esses posts têm de melhor:
+Pedidos da Nina sobre a v2:
 
-- **Método Vinci (`carrossel.md`, branch `claude/adoring-dirac-fmh66g`):** a capa não usa foto de banco; o
-  visual muda a cada slide; o último slide retoma a capa. O balão "E agora, RH?" abre na capa e volta no
-  convite, e a resposta é o próximo passo (Comente CUIDADO).
-- **Do 11/11:** papel texturizado, creme com brilho Tiffany, marca-texto Tiffany com textura atrás das
-  linhas-chave, gráfico desenhado com barras de textura, anotação à mão (seta, círculo, sublinhado) e recorte
-  colado com fita.
-- **Do 03/11:** interface como cena (a planilha, como a conversa com a IA), cartões claros sobre o Tiffany,
-  bolinhas numeradas e o fim que espelha a capa.
-- **Sem o quase-preto**, como pedido em 03/11.
+1. **Conflito com a fairdata.** A fairdata faz o diagnóstico de riscos psicossociais para o PGR, então "a
+   planilha sozinha não resolve" e "mapear o risco é só o começo" desvalorizavam um produto do próprio
+   ecossistema. **Saída:** a própria NR-01 (item 1.5.3.2) pede os dois lados, e cada um tem quem faça:
+   **medir** (identificar, avaliar e classificar os riscos) com a fairdata, e **cuidar** (implementar medidas de
+   prevenção e acompanhar o controle dos riscos) com o Escritório do Cuidado. São os verbos do ecossistema
+   (`voice.md`, decisões de 11/10: a fairdata é o "medir", a fairhealth o "cuidar"). Saíram o slide 2 da v2
+   (promessa com a planilha) e o "Mapear o risco é o começo".
+2. **Slide da norma com o texto real.** Print do PDF oficial do MTE: o quadro de vigência (pág. 4) e os itens
+   1.5.3.1.4 e 1.5.3.2 (pág. 5), colados com fita, com o trecho dos riscos psicossociais no marca-texto. A versão
+   da v2 (recorte digitado) fica como alternativa.
+3. **Lista de riscos do guia do MTE**, com a fonte. A lista anterior vinha do roteiro, sem fonte, e dois itens
+   ("metas sem clareza" e "jornada sem pausa") não estão no guia.
+4. **Saiu o slide das três perguntas para o RH**, e o carrossel ficou com 6 slides.
 
 ## Os slides
 
 | # | Fundo | Recurso visual | Texto |
 |---|---|---|---|
-| 1 | Creme com brilho Tiffany | Número gigante, marca-texto, fonte sublinhada à mão, balão "E agora, RH?" | Saúde mental no trabalho · **546,2 mil** afastamentos do trabalho ==por saúde mental== no Brasil em 2025, concedidos pelo INSS. Fonte: Ministério da Previdência Social. *E agora, RH?* |
-| 2 | Tiffany | Planilha "Inventário de riscos · PGR" com os cinco riscos "Mapeado" e a coluna circulada à mão | O que a NR-01 pede *e por que a planilha sozinha não resolve.* |
-| 3 | Papel | Gráfico: barras com textura (2024 em cinza, 2025 em Tiffany), seta e "+15,7%" circulado à mão | 546,2 mil licenças por transtornos mentais em 2025, ==o segundo recorde seguido.== Fonte completa no pé |
-| 4 | Verde-escuro | "NR-01" gigante em menta e o recorte do item 1.5.3.1.4 colado com fita, com o trecho dos riscos psicossociais no marca-texto | Desde maio de 2026, a NR-01 pede que a empresa **identifique e gerencie os riscos psicossociais**, junto com os outros riscos ocupacionais. |
-| 5 | Tiffany | Cinco cartões claros com ícone fino num círculo Tiffany | O que é *risco psicossocial*: sobrecarga, metas sem clareza, falta de apoio, conflitos e assédio, jornada sem pausa |
-| 6 | Foto + papel | Foto de conversa no alto e a linha com três passos numerados | Mapear o risco *é o começo.* Reduzir o risco pede ==gente perto:== 01 Escuta · 02 Acompanhamento · 03 Encaminhamento |
-| 7 | Papel | Folha de pauta colada com fita, caixas desenhadas à mão | Três perguntas para ==a próxima reunião de RH== (as três perguntas) |
-| 8 | Creme com brilho Tiffany | O balão da capa de volta e a capa do guia de NR-01 | Comente ==CUIDADO== e receba o guia de NR-01. Precisa de ajuda agora? **CVV 188.** |
+| 1 | Creme com brilho Tiffany | Número gigante, marca-texto, fonte sublinhada à mão, balão | Saúde mental no trabalho · **546,2 mil** afastamentos do trabalho ==por saúde mental== no Brasil em 2025, concedidos pelo INSS. Fonte: Ministério da Previdência Social. Balão: E agora, RH? |
+| 2 | Papel | Barras com textura (2024 cinza, 2025 Tiffany), seta e "+15,7%" à mão | O dado · 546,2 mil licenças por transtornos mentais em 2025, ==o segundo recorde seguido.== Fonte completa no pé |
+| 3 | Verde-escuro | "NR-01" gigante e o print do texto oficial colado com fita | Desde maio de 2026, a NR-01 pede que a empresa **identifique e gerencie os riscos psicossociais**, junto com os outros riscos ocupacionais. |
+| 4 | Tiffany | Folha com a lista numerada | O que é *risco psicossocial* · Exemplos da lista do Ministério do Trabalho e Emprego: os 13 fatores do guia. Fonte: guia do MTE (2025), lista exemplificativa |
+| 5 | Foto + papel | Dois cartões, claro (Medir) e verde (Cuidar), com as alíneas da norma | Medir e cuidar: *a norma pede os dois.* Medir: b) identificar os perigos, c) avaliar os riscos, d) classificar os riscos. Com a **fairdata**: o diagnóstico dos riscos do grupo. Cuidar: e) implementar medidas de prevenção, f) acompanhar o controle dos riscos. Com o **Escritório do Cuidado**: escuta, acompanhamento e encaminhamento. Fonte: NR-01, item 1.5.3.2 |
+| 6 | Creme com brilho Tiffany | O balão da capa de volta e a capa do guia | Comente ==CUIDADO== e receba o guia de NR-01. Precisa de ajuda agora? **CVV 188.** |
 
 `==trecho==` = marca-texto Tiffany. Em itálico, o trecho em Instrument Serif.
 
-**O que entrou além do texto aprovado (para a Nina confirmar):**
-
-- slide 1: o rótulo "Saúde mental no trabalho" e "Arraste para o lado →";
-- slide 2: a planilha (títulos "Inventário de riscos · PGR", "Risco psicossocial", "Status" e "Mapeado"), com
-  os cinco riscos do slide 5;
-- slide 3: o rótulo "O dado", o valor de 2024 (472,3 mil) e o aumento (+15,7%), os dois da mesma nota oficial;
-- slide 4: o rótulo "A norma" e o recorte com o texto do item 1.5.3.1.4 da NR-01;
-- slide 8: o balão "E agora, RH?" (o mesmo da capa) e a capa do guia ("Guia NR-01", logo e fairhealth).
+**Texto novo, para a Nina aprovar:** slide 5 inteiro ("Medir e cuidar: a norma pede os dois." e os dois
+cartões), a frase "Exemplos da lista do Ministério do Trabalho e Emprego:" no slide 4 e os rótulos curtos
+("Saúde mental no trabalho", "O dado", "A norma"). Os itens dos cartões do slide 5 são as alíneas da norma,
+resumidas ("identificar os perigos e possíveis lesões ou agravos à saúde" virou "identificar os perigos").
 
 ## O design
 
-- Mesma barra no topo dos outros carrosséis (@FAIRHEALTH.BR e 01/08). A numeração pode sair se a Nina
-  preferir (o `CLAUDE.md` registra que ela tirou os números do carrossel de 21/10).
-- Fundos que mudam a cada slide, nenhum vizinho igual: creme com brilho, Tiffany, papel, verde-escuro,
-  Tiffany, foto e papel, papel, creme com brilho. O Tiffany `#9FC5BD` aparece como fundo nos slides 2 e 5.
-- Fundos, marca-textos, barras, fita, recorte e capa do guia são imagens, para o Canva aceitar (granulado,
-  textura e elementos girados não passam na conversão). Os textos continuam editáveis, cada um na sua caixa.
-- Fonte em letra pequena em todo slide com dado (1, 3 e 4).
-- Todo post de saúde mental termina com onde pedir ajuda: CVV 188 no slide 8.
+- Barra no topo dos outros carrosséis (@FAIRHEALTH.BR e 01/06). A numeração pode sair se a Nina preferir (o
+  `CLAUDE.md` registra que ela tirou os números do carrossel de 21/10).
+- Fundos que mudam a cada slide, nenhum vizinho igual: creme com brilho, papel, verde-escuro, Tiffany, foto e
+  papel, creme com brilho. O Tiffany `#9FC5BD` é fundo no slide 4 e cor dos destaques em todos.
+- O balão "E agora, RH?" abre na capa e volta no último slide (ponto de virada do método Vinci).
+- Fundos, marca-textos, barras, prints, fita e capa do guia são imagens, para o Canva aceitar. Os textos
+  continuam editáveis, cada um na sua caixa.
+- Fonte em letra pequena em todo slide com dado ou norma (1 a 5). CVV 188 no último slide.
+- "NR-01" nunca vai em Instrument Serif: os algarismos dela deixam o "01" com cara de "0l".
 
 ## As imagens
 
-- **Slide 6:** `fotos/conversa1.jpg`, do banco da marca (`instagram/marca/fotos-banco/`, licença Unsplash),
-  ilustrativa: nunca apresentar como time, cliente ou colaborador atendido. Recorte em `fotos/n-06.jpg`. Se a
-  Nina tiver uma foto própria de conversa no Escritório do Cuidado, ela entra no mesmo lugar (1080x600).
-- **Fundos de creme com brilho e de papel:** os mesmos do carrossel de 11/11 (`fundo-capa.jpg` = `fundo-2`,
-  `fundo-fim.jpg` = `fundo-3`, `fundo-papel.jpg`). Os fundos Tiffany e verde-escuro com granulado são gerados
-  pelo `gerar.py`.
+- **Slide 3:** recortes do PDF oficial (`fotos/nr-01-atualizada-2025.pdf`, baixado do gov.br em 04/11). O
+  marca-texto Tiffany é aplicado sobre o texto como caneta (multiplicação), sem mudar o documento. O amarelo em
+  "Entra em vigor em 26 de maio de 2026" é do próprio PDF.
+- **Slide 5:** `fotos/conversa1.jpg`, do banco da marca (licença Unsplash), ilustrativa: nunca apresentar como
+  time, cliente ou colaborador atendido. Se houver foto própria de conversa no Escritório do Cuidado, ela entra
+  no mesmo lugar (1080x420).
+- **Fundos:** creme com brilho e papel do carrossel de 11/11 (`fundo-capa.jpg` = `fundo-2`, `fundo-fim.jpg` =
+  `fundo-3`, `fundo-papel.jpg`); Tiffany e verde-escuro com granulado gerados pelo `gerar.py`.
 
 ## Fontes
 
 - **Afastamentos:** Ministério da Previdência Social, nota oficial na Agência Gov (jan/2026): 546.254
-  benefícios por incapacidade temporária concedidos pelo INSS por transtornos mentais e
-  comportamentais em 2025, 15,66% acima de 2024 (472.328).
-  https://agenciagov.ebc.com.br/noticias/202601/previdencia-social-concede-546-254-beneficios-por-incapacidade-temporaria-por-transtornos-mentais-e-comportamentais
-- O número conta benefícios concedidos, não pessoas. Por isso a capa diz "afastamentos" e não
+  benefícios por incapacidade temporária concedidos pelo INSS por transtornos mentais e comportamentais em 2025,
+  15,66% acima de 2024 (472.328). O número conta benefícios, não pessoas: a capa diz "afastamentos", não
   "trabalhadores".
-- **NR-01:** item 1.5.3.1.4, na redação da Portaria MTE nº 1.419/2024 (riscos psicossociais no gerenciamento
-  de riscos ocupacionais, GRO/PGR). A vigência foi adiada para 26/05/2026 pela Portaria MTE nº 765/2025. O
-  texto do recorte foi conferido em reproduções do item (ABMES, Migalhas, Grupo GEN); falta conferir
-  palavra por palavra no Diário Oficial antes de publicar.
+  https://agenciagov.ebc.com.br/noticias/202601/previdencia-social-concede-546-254-beneficios-por-incapacidade-temporaria-por-transtornos-mentais-e-comportamentais
+- **NR-01:** texto atualizado publicado pelo MTE no gov.br, itens 1.5.3.1.4 e 1.5.3.2, na redação da Portaria MTE
+  nº 1.419/2024; em vigor desde 26/05/2026 (Portaria MTE nº 765/2025). Conferido palavra por palavra no PDF
+  oficial e na Portaria nº 1.419/2024 (PDF do gov.br) em 04/11.
+  https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-01-atualizada-2025-i.pdf
+- **Fatores de risco psicossociais:** Guia de informações sobre os fatores de riscos psicossociais relacionados
+  ao trabalho (MTE, 2025), "listagem exemplificativa" com 13 fatores (pág. 7 a 8). Copiados na ordem do guia; o
+  item "Más relacionamentos" do guia entrou como "Maus relacionamentos".
+  https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/guia-nr-01-revisado.pdf
 
 ## Pendências
 
-- [ ] Aprovação do design pela Nina, incluindo o que entrou além do texto aprovado (lista acima) e a
-      numeração no topo.
-- [ ] Dr. Ronald: confirmar a vigência da NR-01 e o que ela exige (slide 4) e revisar o texto de saúde mental
-      (CFM).
-- [ ] Conferir o texto do item 1.5.3.1.4 no Diário Oficial (recorte do slide 4).
-- [ ] Guia de NR-01 pronto e validado até 13/11 (é a entrega do CUIDADO no slide 8, e a capa do slide 8 pode
-      ser trocada pela capa real), e alguém para responder as DMs.
-- [ ] Legenda: o rascunho está no N08 de `marketing/ferramentas/conteudo_posts_novembro.py`. Ainda
-      precisa passar pela skill ig-caption (com o `caption.py`) e pela ig-human.
-- [ ] Métrica que decide se o post deu certo (método Vinci): comentários CUIDADO e salvamentos, comparados
-      com o carrossel de 28/10 (também de dados para o RH).
+- [ ] Aprovação da v3 pela Nina: texto novo do slide 5 (com a fairdata), slide 3 com print ou com recorte
+      digitado, numeração no topo.
+- [ ] Dr. Ronald: revisar o texto de saúde mental (CFM) e a leitura da NR-01.
+- [ ] Guia de NR-01 pronto e validado até 13/11 (é a entrega do CUIDADO; a capa do slide 6 pode ser trocada pela
+      capa real), e alguém para responder as DMs.
+- [ ] Legenda: o rascunho do N08 foi ajustado à v3 (lista do MTE, medir e cuidar). Ainda precisa passar pela
+      skill ig-caption (com o `caption.py`) e pela ig-human.
+- [ ] Métrica que decide se o post deu certo (método Vinci): comentários CUIDADO e salvamentos, comparados com o
+      carrossel de 28/10 (também de dados para o RH).

@@ -1,86 +1,14 @@
 <!doctype html>
-<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel 18/11: Recorde de afastamentos por saúde mental e a NR-01 (v2)</title>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel 18/11: Recorde de afastamentos por saúde mental e a NR-01 (v3)</title>
 <link rel="stylesheet" href="../../marca/base.css">
-<style>
-/* Carrossel de 18/11 (N08 de marketing/ferramentas/conteudo_posts_novembro.py), texto aprovado em 04/11.
-   v2 (04/11), no padrão dos carrosséis de 03/11 (v8) e 11/11 (v7), a pedido da Nina ("não abaixe o padrão"):
-   - fundos que mudam a cada slide: creme com brilho Tiffany, Tiffany, papel, verde-escuro, Tiffany, foto + papel,
-     papel e creme com brilho (todos como imagem com granulado, para o Canva aceitar); sem o quase-preto;
-   - marca-texto Tiffany com textura atrás das linhas-chave (fotos/tx-mk-*.png, gerados por gerar.py);
-   - recursos desenhados: balão "E agora, RH?" que abre na capa e volta no fim (ponto de virada do método Vinci),
-     a planilha de riscos (slide 2), o gráfico com barras de textura e anotação à mão (3), o recorte da NR-01 colado
-     com fita (4), cartões com ícones (5), a linha de três passos (6) e a folha de pauta com caixas à mão (7).
-   Tudo em posição fixa, para o Canva. */
-:root{--agua:#9FC5BD;--texto:#1F3A36}
-@font-face{font-family:"Instrument Serif";font-style:normal;src:url(../../marca/fontes/instrument-serif-latin-400-normal.woff2)}
-@font-face{font-family:"Instrument Serif";font-style:italic;src:url(../../marca/fontes/instrument-serif-latin-400-italic.woff2)}
-.ed{padding:0;text-align:left;align-items:stretch;justify-content:flex-start;background:#EDECE5;color:var(--tinta)}
-.ed.verde{color:#fff}
-.abs{position:absolute;margin:0}
-.fundo{position:absolute;left:0;top:0;width:1080px;height:1350px}
-.topo{position:absolute;top:56px;left:72px;right:72px;display:flex;justify-content:space-between;
-  font-size:22px;font-weight:600;letter-spacing:2px;text-transform:uppercase;opacity:.7;z-index:3}
-.topo.claro{color:#fff;opacity:.92}
-.rotulo{position:absolute;margin:0;font-size:24px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--escuro)}
-.verde .rotulo{color:var(--menta)}
-.tit{position:absolute;margin:0;font-weight:800;letter-spacing:-2.5px;line-height:1.02;color:var(--texto);white-space:nowrap}
-.verde .tit{color:#fff}
-.serif{position:absolute;margin:0;font-family:"Instrument Serif",serif;font-style:italic;font-weight:400;letter-spacing:-1px;
-  line-height:1;color:var(--escuro);white-space:nowrap}
-.mk{position:absolute;margin:0;font-weight:800;letter-spacing:-2px;line-height:1.08;white-space:nowrap;color:var(--tinta);z-index:2}
-.tx{position:absolute;z-index:1}
-.txt{position:absolute;margin:0;font-size:32px;line-height:1.38;font-weight:500}
-.txt b{font-weight:800;font-style:normal;color:var(--escuro)}
-.verde .txt b{color:var(--menta)}
-.fonte{position:absolute;margin:0;font-size:19px;font-weight:500;line-height:1.35;opacity:.62}
-.fonte-n{position:absolute;margin:0;font-size:21px;font-weight:700;letter-spacing:.3px;color:var(--escuro)}
-.mao{position:absolute}
-.mao svg{display:block}
-.arraste{position:absolute;margin:0;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--escuro)}
-.selo{position:absolute;width:400px;height:58px;font-size:30px;font-weight:700;line-height:58px;white-space:nowrap}
-.selo .anel{position:absolute;left:-5px;top:-5px;width:68px;height:68px;border-radius:50%;background:#fff}
-.selo img{position:absolute;left:0;top:0;width:58px;height:58px;border-radius:50%}
-.selo span{position:absolute;left:74px;top:0}
-
-/* Balão da pergunta (capa e convite). */
-.balao{position:absolute;background:var(--escuro);border-radius:48px 48px 12px 48px}
-.balao-t{position:absolute;margin:0;font-size:54px;font-weight:700;letter-spacing:-1.5px;line-height:1;color:#fff;white-space:nowrap;text-align:center}
-.lido{position:absolute;margin:0;font-size:20px;font-weight:600;letter-spacing:.5px;color:var(--texto);opacity:.55;text-align:right}
-
-/* Planilha (slide 2). */
-.janela{position:absolute;background:#fff;border-radius:28px;box-shadow:0 30px 60px -30px rgba(20,27,27,.45)}
-.barra-j{position:absolute;background:#EEF2F1;border-radius:28px 28px 0 0}
-.bolinha{position:absolute;width:14px;height:14px;border-radius:50%;background:#C9D3D0}
-.j-tit{position:absolute;margin:0;font-size:20px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--texto);opacity:.6}
-.j-cab{position:absolute;background:rgba(159,197,189,.28)}
-.j-col{position:absolute;margin:0;font-size:19px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:var(--escuro)}
-.j-lin{position:absolute;margin:0;font-size:33px;font-weight:600;letter-spacing:-.5px;color:var(--tinta);white-space:nowrap}
-.j-ok{position:absolute;margin:0;font-size:28px;font-weight:700;color:var(--escuro);white-space:nowrap}
-.j-fio{position:absolute;height:2px;background:#E5ECEA}
-
-/* Gráfico (slide 3). */
-.b-val{position:absolute;margin:0;font-size:54px;font-weight:800;letter-spacing:-2px;line-height:1;color:var(--tinta);white-space:nowrap}
-.b-uni{position:absolute;margin:0;font-size:17px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:var(--tinta);opacity:.72}
-.b-ano{position:absolute;margin:0;font-size:32px;font-weight:800;text-align:center;color:var(--tinta)}
-
-/* Cartões (slide 5). */
-.cartao{position:absolute;background:#F6F8F7;border-radius:26px}
-.ico{position:absolute;width:76px;height:76px;border-radius:50%;background:var(--agua)}
-.ico-svg{position:absolute;width:44px;height:44px}
-.ico-svg svg{display:block;width:44px;height:44px}
-.c-t{position:absolute;margin:0;font-size:40px;font-weight:700;letter-spacing:-.8px;line-height:1;color:var(--tinta);white-space:nowrap}
-
-/* Passos (slide 6). */
-.no{position:absolute;width:64px;height:64px;border-radius:50%;background:var(--escuro)}
-.no-t{position:absolute;margin:0;width:64px;text-align:center;font-size:24px;font-weight:800;line-height:1.2;color:#fff}
-.passo{position:absolute;margin:0;font-size:31px;font-weight:800;letter-spacing:-.5px;color:var(--texto);white-space:nowrap}
-.linha{position:absolute;height:3px;background:var(--escuro);opacity:.35}
-
-/* Folha de pauta (slide 7). */
-.folha{position:absolute;background:#FFFEFB;border-radius:6px;box-shadow:0 26px 50px -26px rgba(20,27,27,.5),0 2px 6px rgba(20,27,27,.08)}
-.pauta{position:absolute;height:2px;background:rgba(159,197,189,.55)}
-.perg{position:absolute;margin:0;font-size:44px;font-weight:700;letter-spacing:-1px;line-height:1.18;color:var(--tinta)}
-</style>
+<link rel="stylesheet" href="estilo.css">
+<!-- v3 (04/11), pedidos da Nina:
+     - 6 slides ("quanto menos slide melhor"): saíram a promessa da planilha e as três perguntas para o RH;
+     - sem "a planilha sozinha não resolve", que entrava em conflito com a fairdata (diagnóstico de riscos para o
+       PGR): o slide 5 mostra que a própria NR-01 (item 1.5.3.2) pede medir e cuidar, a fairdata no medir e o
+       Escritório do Cuidado no cuidar;
+     - slide 3 com print do texto oficial (PDF do MTE); a versão com o recorte digitado está em alternativas.html;
+     - slide 4 com a lista de fatores do guia do MTE, com a fonte. -->
 <style media="canva">
 body{background:none;margin:0}
 .slide{margin:0}
@@ -90,7 +18,7 @@ body{background:none;margin:0}
      sublinhado à mão) e o balão "E agora, RH?", a pergunta que o último slide responde. Sem foto de banco. -->
 <section class="slide ed" id="n-01">
   <img src="fotos/fundo-capa.jpg" class="fundo" alt="">
-  <div class="topo"><span>@fairhealth.br</span><span>01/08</span></div>
+  <div class="topo"><span>@fairhealth.br</span><span>01/06</span></div>
   <p class="rotulo" style="left:72px;top:206px">Saúde mental no trabalho</p>
   <p class="tit" style="left:58px;top:262px;font-size:270px;letter-spacing:-14px;line-height:1;color:var(--escuro)">546,2</p>
   <p class="tit" style="left:712px;top:416px;font-size:104px;letter-spacing:-4px;line-height:1;color:var(--escuro)">mil</p>
@@ -100,62 +28,21 @@ body{background:none;margin:0}
   <p class="txt" style="left:72px;top:748px;font-size:38px">no Brasil em 2025, concedidos pelo INSS.</p>
   <p class="fonte-n" style="left:72px;top:826px">Fonte: Ministério da Previdência Social</p>
   <div class="mao" style="left:70px;top:856px"><svg width="440" height="12" viewBox="0 0 440 12"><path d="M2 6 C 110 2, 240 10, 438 5" fill="none" stroke="#141B1B" stroke-width="2" stroke-linecap="round"/></svg></div>
-
   <div class="balao" style="right:72px;top:982px;width:470px;height:132px"></div>
   <p class="balao-t" style="right:72px;top:1021px;width:470px">E agora, RH?</p>
   <p class="arraste" style="left:72px;top:1222px">Arraste para o lado →</p>
 </section>
 
-<!-- 2 · PROMESSA (se sustenta sozinho): no Tiffany, a planilha de riscos com tudo "mapeado". O título diz o que o
-     post entrega; a planilha mostra o que costuma parar ali. -->
+<!-- 2 · O DADO (se sustenta sozinho): papel, gráfico desenhado. Barras com textura na mesma escala e base zero
+     (472.328 e 546.254), o ano em destaque em Tiffany e a anotação à mão com o aumento (15,66% na nota oficial). -->
 <section class="slide ed" id="n-02">
-  <img src="fotos/fundo-tiffany.jpg" class="fundo" alt="">
-  <div class="topo"><span>@fairhealth.br</span><span>02/08</span></div>
-  <p class="tit" style="left:72px;top:150px;font-size:76px;letter-spacing:-3px">O que a NR-01 pede</p>
-  <p class="serif" style="left:68px;top:240px;font-size:98px">e por que a planilha</p>
-  <p class="serif" style="left:68px;top:340px;font-size:98px">sozinha não resolve.</p>
-
-  <div class="janela" style="left:72px;top:520px;width:936px;height:690px"></div>
-  <div class="barra-j" style="left:72px;top:520px;width:936px;height:76px"></div>
-  <div class="bolinha" style="left:104px;top:551px"></div><div class="bolinha" style="left:128px;top:551px"></div><div class="bolinha" style="left:152px;top:551px"></div>
-  <p class="j-tit" style="left:196px;top:545px">Inventário de riscos · PGR</p>
-  <div class="j-cab" style="left:72px;top:596px;width:936px;height:64px"></div>
-  <p class="j-col" style="left:112px;top:618px">Risco psicossocial</p>
-  <p class="j-col" style="left:720px;top:618px">Status</p>
-  <p class="j-lin" style="left:112px;top:688px">Sobrecarga</p>
-  <p class="j-lin" style="left:112px;top:794px">Metas sem clareza</p>
-  <p class="j-lin" style="left:112px;top:900px">Falta de apoio</p>
-  <p class="j-lin" style="left:112px;top:1006px">Conflitos e assédio</p>
-  <p class="j-lin" style="left:112px;top:1112px">Jornada sem pausa</p>
-  <div class="j-fio" style="left:112px;width:856px;top:766px"></div>
-  <div class="j-fio" style="left:112px;width:856px;top:872px"></div>
-  <div class="j-fio" style="left:112px;width:856px;top:978px"></div>
-  <div class="j-fio" style="left:112px;width:856px;top:1084px"></div>
-  <!-- status: ícone de check + "Mapeado" -->
-  <div class="mao" style="left:720px;top:691px"><svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="18" fill="#2F6B64"/><path d="M10 18.5l5.5 5.5L26.5 12.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-  <p class="j-ok" style="left:770px;top:690px">Mapeado</p>
-  <div class="mao" style="left:720px;top:797px"><svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="18" fill="#2F6B64"/><path d="M10 18.5l5.5 5.5L26.5 12.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-  <p class="j-ok" style="left:770px;top:796px">Mapeado</p>
-  <div class="mao" style="left:720px;top:903px"><svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="18" fill="#2F6B64"/><path d="M10 18.5l5.5 5.5L26.5 12.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-  <p class="j-ok" style="left:770px;top:902px">Mapeado</p>
-  <div class="mao" style="left:720px;top:1009px"><svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="18" fill="#2F6B64"/><path d="M10 18.5l5.5 5.5L26.5 12.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-  <p class="j-ok" style="left:770px;top:1008px">Mapeado</p>
-  <div class="mao" style="left:720px;top:1115px"><svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="18" fill="#2F6B64"/><path d="M10 18.5l5.5 5.5L26.5 12.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-  <p class="j-ok" style="left:770px;top:1114px">Mapeado</p>
-  <!-- anotação à mão: a coluna inteira circulada -->
-  <div class="mao" style="left:686px;top:664px"><svg width="300" height="520" viewBox="0 0 300 520"><path d="M62 26 C 150 4, 268 12, 284 70 C 300 160, 296 380, 276 460 C 258 516, 120 520, 44 496 C 4 482, 10 380, 12 260 C 14 150, 6 60, 92 22" fill="none" stroke="#141B1B" stroke-width="2.6" stroke-linecap="round"/></svg></div>
-</section>
-
-<!-- 3 · O DADO: papel, gráfico desenhado. Barras com textura na mesma escala e base zero (472.328 e 546.254), o ano
-     em destaque em Tiffany, e a anotação à mão com o aumento (15,66% na nota oficial). -->
-<section class="slide ed" id="n-03">
   <img src="fotos/fundo-papel.jpg" class="fundo" alt="">
-  <div class="topo"><span>@fairhealth.br</span><span>03/08</span></div>
+  <div class="topo"><span>@fairhealth.br</span><span>02/06</span></div>
   <p class="rotulo" style="left:72px;top:140px">O dado</p>
   <p class="tit" style="left:70px;top:188px;font-size:64px;color:var(--tinta)">546,2 mil licenças por</p>
   <p class="tit" style="left:70px;top:258px;font-size:64px;color:var(--tinta)">transtornos mentais em 2025,</p>
-  <img src="fotos/tx-mk-n03-a.png" class="tx" data-tx="n03-a" alt="" style="left:60px;top:332px;width:833px;height:71px">
-  <p class="mk" data-mk="n03-a" style="left:64px;top:332px;font-size:64px;letter-spacing:-2.5px"><span>&nbsp;o segundo recorde seguido.&nbsp;</span></p>
+  <img src="fotos/tx-mk-n02-a.png" class="tx" data-tx="n02-a" alt="" style="left:60px;top:332px;width:833px;height:71px">
+  <p class="mk" data-mk="n02-a" style="left:64px;top:332px;font-size:64px;letter-spacing:-2.5px"><span>&nbsp;o segundo recorde seguido.&nbsp;</span></p>
 
   <img src="fotos/tx-barra-cinza.png" class="abs" alt="" style="left:112px;top:626px;width:300px;height:484px">
   <p class="b-val" style="left:138px;top:650px">472,3 mil</p>
@@ -167,110 +54,102 @@ body{background:none;margin:0}
   <p class="b-ano" style="left:112px;top:1130px;width:300px;opacity:.6">2024</p>
   <p class="b-ano" style="left:492px;top:1130px;width:300px">2025</p>
   <div class="mao" style="left:582px;top:1170px"><svg width="120" height="12" viewBox="0 0 120 12"><path d="M2 7 C 30 3, 70 10, 118 5" fill="none" stroke="#141B1B" stroke-width="2.2" stroke-linecap="round"/></svg></div>
-  <!-- anotação: seta curva do 2024 para o 2025 e o aumento circulado -->
   <div class="mao" style="left:250px;top:440px"><svg width="300" height="180" viewBox="0 0 300 180"><path d="M12 172 C 30 60, 150 26, 290 40" fill="none" stroke="#141B1B" stroke-width="2.6" stroke-linecap="round"/><path d="M272 24 L292 40 L270 54" fill="none" stroke="#141B1B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
   <div class="mao" style="left:806px;top:500px"><svg width="230" height="104" viewBox="0 0 230 104"><path d="M40 60 C 22 22, 120 4, 186 12 C 236 20, 232 80, 156 90 C 86 98, 16 92, 12 58 C 10 38, 30 24, 58 20" fill="none" stroke="#141B1B" stroke-width="2.6" stroke-linecap="round"/></svg></div>
   <p class="abs" style="left:818px;top:526px;width:200px;text-align:center;font-family:'Instrument Serif',serif;font-style:italic;font-size:48px;line-height:1;color:var(--tinta)">+15,7%</p>
   <p class="fonte" style="left:72px;right:72px;top:1222px;font-size:18px">Fonte: Ministério da Previdência Social (nota oficial, jan/2026). Benefícios por incapacidade temporária concedidos pelo INSS por transtornos mentais e comportamentais: 472.328 em 2024 e 546.254 em 2025.</p>
 </section>
 
-<!-- 4 · A NORMA: verde-escuro, "NR-01" grande em menta, a frase aprovada e o recorte do item 1.5.3.1.4 colado com
-     fita, com o trecho dos riscos psicossociais no marca-texto (PNG: o Canva não aceita elemento girado). -->
-<section class="slide ed verde" id="n-04">
+<!-- 3 · A NORMA: verde-escuro, "NR-01" grande em menta, a frase aprovada e o print do texto oficial (PDF do MTE):
+     o quadro de vigência (pág. 4) e o item 1.5.3.1.4 (pág. 5), com o trecho dos riscos psicossociais no
+     marca-texto. Alternativa com o recorte digitado: alternativas.html. -->
+<section class="slide ed verde" id="n-03">
   <img src="fotos/fundo-verde.jpg" class="fundo" alt="">
-  <div class="topo"><span>@fairhealth.br</span><span>04/08</span></div>
+  <div class="topo"><span>@fairhealth.br</span><span>03/06</span></div>
   <p class="rotulo" style="left:72px;top:150px">A norma</p>
   <p class="tit" style="left:60px;top:196px;font-size:200px;letter-spacing:-10px;line-height:1;color:var(--menta)">NR-01</p>
   <p class="txt" style="left:72px;width:936px;top:428px;font-size:40px;line-height:1.32;color:#fff">Desde maio de 2026, a <span style="white-space:nowrap">NR-01</span> pede que a empresa <b>identifique e gerencie os riscos psicossociais</b>, junto com os outros riscos ocupacionais.</p>
-  <img src="fotos/recorte-nr01.png" class="abs" alt="Recorte do item 1.5.3.1.4 da NR-01" style="left:90px;top:676px;width:900px;height:450px">
-  <p class="fonte" style="left:72px;right:72px;top:1196px;color:#fff;opacity:.7">Fonte: NR-01, Ministério do Trabalho e Emprego. Item 1.5.3.1.4 na redação da Portaria MTE nº 1.419/2024; vigência adiada para maio de 2026 pela Portaria MTE nº 765/2025.</p>
+  <img src="fotos/print-nr01.png" class="abs" alt="Trechos do texto oficial da NR-01: vigência em 26 de maio de 2026 e item 1.5.3.1.4" style="left:90px;top:648px;width:900px;height:540px">
+  <p class="fonte" style="left:72px;right:72px;top:1212px;font-size:18px;color:#fff;opacity:.7">Fonte: NR-01 (texto atualizado publicado pelo Ministério do Trabalho e Emprego), item 1.5.3.1.4, na redação da Portaria MTE nº 1.419/2024. Em vigor desde 26/05/2026 (Portaria MTE nº 765/2025).</p>
 </section>
 
-<!-- 5 · O QUE É RISCO PSICOSSOCIAL: Tiffany, cinco cartões claros com ícone fino num círculo Tiffany. -->
-<section class="slide ed" id="n-05">
+<!-- 4 · O QUE É RISCO PSICOSSOCIAL: Tiffany e uma folha com a lista de exemplos do guia do MTE (13 fatores, na
+     ordem e com as palavras do guia), com a fonte. -->
+<section class="slide ed" id="n-04">
   <img src="fotos/fundo-tiffany.jpg" class="fundo" alt="">
-  <div class="topo"><span>@fairhealth.br</span><span>05/08</span></div>
-  <p class="tit" style="left:72px;top:150px;font-size:76px;letter-spacing:-3px">O que é</p>
-  <p class="serif" style="left:68px;top:238px;font-size:112px">risco psicossocial</p>
-
-  <div class="cartao" style="left:72px;top:432px;width:936px;height:120px"></div>
-  <div class="ico" style="left:102px;top:454px"></div>
-  <div class="ico-svg" style="left:118px;top:470px"><svg viewBox="0 0 48 48" fill="none" stroke="#2F6B64" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="32" width="34" height="9" rx="2"/><rect x="10" y="20" width="28" height="9" rx="2"/><rect x="13" y="8" width="22" height="9" rx="2"/></svg></div>
-  <p class="c-t" style="left:210px;top:472px">Sobrecarga</p>
-
-  <div class="cartao" style="left:72px;top:572px;width:936px;height:120px"></div>
-  <div class="ico" style="left:102px;top:594px"></div>
-  <div class="ico-svg" style="left:118px;top:610px"><svg viewBox="0 0 48 48" fill="none" stroke="#2F6B64" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="18" stroke-dasharray="4 5"/><circle cx="24" cy="24" r="10"/><circle cx="24" cy="24" r="2" fill="#2F6B64"/></svg></div>
-  <p class="c-t" style="left:210px;top:612px">Metas sem clareza</p>
-
-  <div class="cartao" style="left:72px;top:712px;width:936px;height:120px"></div>
-  <div class="ico" style="left:102px;top:734px"></div>
-  <div class="ico-svg" style="left:118px;top:750px"><svg viewBox="0 0 48 48" fill="none" stroke="#2F6B64" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="15" r="7"/><path d="M10 41c0-8 6-13 14-13s14 5 14 13"/></svg></div>
-  <p class="c-t" style="left:210px;top:752px">Falta de apoio</p>
-
-  <div class="cartao" style="left:72px;top:852px;width:936px;height:120px"></div>
-  <div class="ico" style="left:102px;top:874px"></div>
-  <div class="ico-svg" style="left:118px;top:890px"><svg viewBox="0 0 48 48" fill="none" stroke="#2F6B64" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h22a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H14l-6 5v-5H6a3 3 0 0 1-3-3V11a3 3 0 0 1 3-3z"/><path d="M35 20h7a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3h-2v5l-6-5H21a3 3 0 0 1-3-3v-5"/></svg></div>
-  <p class="c-t" style="left:210px;top:892px">Conflitos e assédio</p>
-
-  <div class="cartao" style="left:72px;top:992px;width:936px;height:120px"></div>
-  <div class="ico" style="left:102px;top:1014px"></div>
-  <div class="ico-svg" style="left:118px;top:1030px"><svg viewBox="0 0 48 48" fill="none" stroke="#2F6B64" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="18"/><path d="M24 13v11l7 5"/></svg></div>
-  <p class="c-t" style="left:210px;top:1032px">Jornada sem pausa</p>
+  <div class="topo"><span>@fairhealth.br</span><span>04/06</span></div>
+  <p class="tit" style="left:72px;top:140px;font-size:76px;letter-spacing:-3px">O que é</p>
+  <p class="serif" style="left:68px;top:226px;font-size:112px">risco psicossocial</p>
+  <p class="txt" style="left:72px;top:372px;font-size:30px;font-weight:600;color:var(--texto)">Exemplos da lista do Ministério do Trabalho e Emprego:</p>
+  <div class="folha" style="left:72px;top:432px;width:936px;height:706px"></div>
+  <p class="li-n" style="left:112px;top:468px">01</p><p class="li-t" style="left:170px;top:462px">Assédio de qualquer natureza no trabalho</p>
+  <div class="li-fio" style="left:112px;width:856px;top:510px"></div>
+  <p class="li-n" style="left:112px;top:520px">02</p><p class="li-t" style="left:170px;top:514px">Má gestão de mudanças organizacionais</p>
+  <div class="li-fio" style="left:112px;width:856px;top:562px"></div>
+  <p class="li-n" style="left:112px;top:572px">03</p><p class="li-t" style="left:170px;top:566px">Baixa clareza de papel/função</p>
+  <div class="li-fio" style="left:112px;width:856px;top:614px"></div>
+  <p class="li-n" style="left:112px;top:624px">04</p><p class="li-t" style="left:170px;top:618px">Baixas recompensas e reconhecimento</p>
+  <div class="li-fio" style="left:112px;width:856px;top:666px"></div>
+  <p class="li-n" style="left:112px;top:676px">05</p><p class="li-t" style="left:170px;top:670px">Falta de suporte/apoio no trabalho</p>
+  <div class="li-fio" style="left:112px;width:856px;top:718px"></div>
+  <p class="li-n" style="left:112px;top:728px">06</p><p class="li-t" style="left:170px;top:722px">Baixo controle no trabalho/falta de autonomia</p>
+  <div class="li-fio" style="left:112px;width:856px;top:770px"></div>
+  <p class="li-n" style="left:112px;top:780px">07</p><p class="li-t" style="left:170px;top:774px">Baixa justiça organizacional</p>
+  <div class="li-fio" style="left:112px;width:856px;top:822px"></div>
+  <p class="li-n" style="left:112px;top:832px">08</p><p class="li-t" style="left:170px;top:826px">Eventos violentos ou traumáticos</p>
+  <div class="li-fio" style="left:112px;width:856px;top:874px"></div>
+  <p class="li-n" style="left:112px;top:884px">09</p><p class="li-t" style="left:170px;top:878px">Baixa demanda no trabalho (subcarga)</p>
+  <div class="li-fio" style="left:112px;width:856px;top:926px"></div>
+  <p class="li-n" style="left:112px;top:936px">10</p><p class="li-t" style="left:170px;top:930px">Excesso de demandas no trabalho (sobrecarga)</p>
+  <div class="li-fio" style="left:112px;width:856px;top:978px"></div>
+  <p class="li-n" style="left:112px;top:988px">11</p><p class="li-t" style="left:170px;top:982px">Maus relacionamentos no local de trabalho</p>
+  <div class="li-fio" style="left:112px;width:856px;top:1030px"></div>
+  <p class="li-n" style="left:112px;top:1040px">12</p><p class="li-t" style="left:170px;top:1034px">Trabalho em condições de difícil comunicação</p>
+  <div class="li-fio" style="left:112px;width:856px;top:1082px"></div>
+  <p class="li-n" style="left:112px;top:1092px">13</p><p class="li-t" style="left:170px;top:1086px">Trabalho remoto e isolado</p>
+  <p class="fonte" style="left:72px;right:72px;top:1172px;font-size:18px;opacity:.75">Fonte: Guia de informações sobre os fatores de riscos psicossociais relacionados ao trabalho, Ministério do Trabalho e Emprego (2025). A lista do guia é exemplificativa.</p>
 </section>
 
-<!-- 6 · ALÉM DA PLANILHA: foto de conversa no alto (gente perto) e, embaixo, a linha com os três passos. -->
-<section class="slide ed" id="n-06">
+<!-- 5 · MEDIR E CUIDAR: o que o item 1.5.3.2 da NR-01 pede, em dois lados. Medir (alíneas b a d), com a fairdata;
+     cuidar (alíneas e e f), com o Escritório do Cuidado. Foto de conversa no alto. -->
+<section class="slide ed" id="n-05">
   <img src="fotos/fundo-papel.jpg" class="fundo" alt="">
-  <img src="fotos/n-06.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:600px">
+  <img src="fotos/n-05.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:420px">
   <div class="abs" style="left:0;top:0;width:1080px;height:170px;background:linear-gradient(rgba(12,17,16,.45),rgba(12,17,16,0))"></div>
-  <div class="topo claro"><span>@fairhealth.br</span><span>06/08</span></div>
-  <p class="tit" style="left:72px;top:664px;font-size:72px;letter-spacing:-3px">Mapear o risco</p>
-  <p class="serif" style="left:68px;top:744px;font-size:96px">é o começo.</p>
-  <p class="txt" style="left:72px;top:880px;font-size:38px;line-height:1.08;font-weight:600;color:var(--texto)">Reduzir o risco pede</p>
-  <img src="fotos/tx-mk-n06-a.png" class="tx" data-tx="n06-a" alt="" style="left:442px;top:881px;width:247px;height:41px">
-  <p class="mk" data-mk="n06-a" style="left:446px;top:880px;font-size:38px;letter-spacing:-.5px"><span>&nbsp;gente perto:&nbsp;</span></p>
-  <div class="linha" style="left:104px;top:1031px;width:664px"></div>
-  <div class="no" style="left:72px;top:1000px"></div><p class="no-t" style="left:72px;top:1019px">01</p>
-  <div class="no" style="left:404px;top:1000px"></div><p class="no-t" style="left:404px;top:1019px">02</p>
-  <div class="no" style="left:736px;top:1000px"></div><p class="no-t" style="left:736px;top:1019px">03</p>
-  <p class="passo" style="left:72px;top:1090px">Escuta</p>
-  <p class="passo" style="left:404px;top:1090px">Acompanhamento</p>
-  <p class="passo" style="left:736px;top:1090px">Encaminhamento</p>
+  <div class="topo claro"><span>@fairhealth.br</span><span>05/06</span></div>
+  <p class="tit" style="left:72px;top:470px;font-size:70px;letter-spacing:-3px">Medir e cuidar:</p>
+  <p class="serif" style="left:68px;top:546px;font-size:92px">a norma pede os dois.</p>
+
+  <div class="card-m" style="left:72px;top:690px;width:440px;height:470px"></div>
+  <p class="k-rot" style="left:108px;top:726px">Medir</p>
+  <p class="k-item" style="left:108px;top:782px;width:368px"><b>b)</b> Identificar os perigos</p>
+  <p class="k-item" style="left:108px;top:832px;width:368px"><b>c)</b> Avaliar os riscos</p>
+  <p class="k-item" style="left:108px;top:882px;width:368px"><b>d)</b> Classificar os riscos</p>
+  <div class="k-fio" style="left:108px;width:368px;top:960px"></div>
+  <p class="k-rodape" style="left:108px;top:984px;width:368px">Com a <b>fairdata</b>: o diagnóstico dos riscos do grupo.</p>
+
+  <div class="card-c" style="left:568px;top:690px;width:440px;height:470px"></div>
+  <p class="k-rot claro" style="left:604px;top:726px">Cuidar</p>
+  <p class="k-item claro" style="left:604px;top:782px;width:368px"><b>e)</b> Implementar medidas de prevenção</p>
+  <p class="k-item claro" style="left:604px;top:870px;width:368px"><b>f)</b> Acompanhar o controle dos riscos</p>
+  <div class="k-fio claro" style="left:604px;width:368px;top:960px"></div>
+  <p class="k-rodape claro" style="left:604px;top:984px;width:368px">Com o <b>Escritório do Cuidado</b>: escuta, acompanhamento e encaminhamento.</p>
+
+  <div class="seta-c" style="left:510px;top:895px"></div><p class="seta-t" style="left:510px;top:910px">→</p>
+  <p class="fonte" style="left:72px;right:72px;top:1196px">Fonte: NR-01, item 1.5.3.2, alíneas b a f (Ministério do Trabalho e Emprego).</p>
 </section>
 
-<!-- 7 · PARA SALVAR: papel e a folha de pauta colada com fita, com as três perguntas e caixas desenhadas à mão. -->
-<section class="slide ed" id="n-07">
-  <img src="fotos/fundo-papel.jpg" class="fundo" alt="">
-  <div class="topo"><span>@fairhealth.br</span><span>07/08</span></div>
-  <p class="tit" style="left:70px;top:150px;font-size:66px;color:var(--tinta)">Três perguntas para</p>
-  <img src="fotos/tx-mk-n07-a.png" class="tx" data-tx="n07-a" alt="" style="left:60px;top:224px;width:759px;height:73px">
-  <p class="mk" data-mk="n07-a" style="left:64px;top:224px;font-size:66px;letter-spacing:-2.5px"><span>&nbsp;a próxima reunião de RH&nbsp;</span></p>
-
-  <div class="folha" style="left:72px;top:390px;width:936px;height:740px"></div>
-  <img src="fotos/fita.png" class="abs" alt="" style="left:420px;top:358px;width:240px;height:66px">
-  <div class="pauta" style="left:120px;width:840px;top:640px"></div>
-  <div class="pauta" style="left:120px;width:840px;top:900px"></div>
-
-  <div class="mao" style="left:120px;top:478px"><svg width="58" height="58" viewBox="0 0 58 58"><path d="M7 9 C 22 5, 40 6, 51 8 C 53 22, 52 38, 50 51 C 36 53, 20 52, 8 50 C 6 36, 5 22, 8 6" fill="none" stroke="#141B1B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-  <p class="perg" style="left:212px;top:470px;width:740px">Onde a sobrecarga aparece primeiro?</p>
-  <div class="mao" style="left:120px;top:738px"><svg width="58" height="58" viewBox="0 0 58 58"><path d="M8 7 C 20 6, 38 5, 50 9 C 52 24, 51 40, 49 50 C 34 52, 22 51, 7 51 C 5 38, 6 22, 9 8" fill="none" stroke="#141B1B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-  <p class="perg" style="left:212px;top:730px;width:740px">A quem o colaborador recorre quando não está bem?</p>
-  <div class="mao" style="left:120px;top:998px"><svg width="58" height="58" viewBox="0 0 58 58"><path d="M6 8 C 21 6, 39 7, 51 7 C 52 21, 53 37, 50 50 C 37 52, 21 50, 8 51 C 6 37, 7 21, 7 7" fill="none" stroke="#141B1B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-  <p class="perg" style="left:212px;top:990px;width:740px">Que indicador mostra se melhorou?</p>
-</section>
-
-<!-- 8 · PONTO DE VIRADA + CONVITE: volta o balão da capa, e a resposta é o próximo passo. Fecha com onde pedir
+<!-- 6 · PONTO DE VIRADA + CONVITE: volta o balão da capa, e a resposta é o próximo passo. Fecha com onde pedir
      ajuda (CVV 188), como todo post de saúde mental. -->
-<section class="slide ed" id="n-08">
+<section class="slide ed" id="n-06">
   <img src="fotos/fundo-fim.jpg" class="fundo" alt="">
-  <div class="topo"><span>@fairhealth.br</span><span>08/08</span></div>
+  <div class="topo"><span>@fairhealth.br</span><span>06/06</span></div>
   <div class="balao" style="right:72px;top:170px;width:470px;height:132px"></div>
   <p class="balao-t" style="right:72px;top:209px;width:470px">E agora, RH?</p>
   <img src="fotos/guia-nr01.png" class="abs" alt="Capa do guia de NR-01" style="left:700px;top:330px;width:340px;height:420px">
   <p class="tit" style="left:62px;top:400px;font-size:132px;letter-spacing:-6px;color:var(--escuro)">Comente</p>
-  <img src="fotos/tx-mk-n08-a.png" class="tx" data-tx="n08-a" alt="" style="left:48px;top:536px;width:619px;height:151px">
-  <p class="mk" data-mk="n08-a" style="left:52px;top:540px;font-size:132px;letter-spacing:-6px"><span>&nbsp;CUIDADO&nbsp;</span></p>
+  <img src="fotos/tx-mk-n06-a.png" class="tx" data-tx="n06-a" alt="" style="left:48px;top:536px;width:619px;height:151px">
+  <p class="mk" data-mk="n06-a" style="left:52px;top:540px;font-size:132px;letter-spacing:-6px"><span>&nbsp;CUIDADO&nbsp;</span></p>
   <p class="tit" style="left:72px;top:722px;font-size:60px;letter-spacing:-2px;font-weight:700">e receba o guia de NR-01.</p>
   <div class="abs" style="left:72px;top:1000px;width:936px;height:2px;background:rgba(20,27,27,.16)"></div>
   <p class="txt" style="left:72px;top:1030px;font-size:36px;color:var(--texto)">Precisa de ajuda agora? <b>CVV 188.</b></p>
