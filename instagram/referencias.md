@@ -85,3 +85,15 @@ reportagens: conferir no relatório original antes de reaproveitar.
   saúde, como remédio sem indicação e exame sem necessidade), que o cuidado
   perto e acompanhado diminui nas empresas, e com ela o absenteísmo. Ainda
   não temos número próprio para isso.
+
+## Diabetes e estilo de vida (levantadas em 04/11/2026)
+
+Usadas no carrossel de 11/11 (`instagram/posts/estilo-de-vida`).
+
+- **IDF Diabetes Atlas 2025:** cerca de 16,6 milhões de adultos de 20 a 79 anos com diabetes no Brasil, 6º país
+  do mundo (visto em reportagem; conferir no diabetesatlas.org).
+- **Vigitel 2023:** 10,2% dos adultos das capitais relatam diagnóstico de diabetes (visto em reportagem).
+- **Diabetes Prevention Program (NEJM, 2002):** 3.234 adultos com pré-diabetes, cerca de 3 anos; estilo de vida
+  reduziu o risco de diabetes em 58% e a metformina em 31%, contra placebo.
+- **DPP Outcomes Study (Lancet Diabetes & Endocrinology, 2015):** em 15 anos, 27% de redução com estilo de vida e
+  18% com metformina.
