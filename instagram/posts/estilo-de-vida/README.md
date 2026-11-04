@@ -189,3 +189,10 @@ amarelo `#F7D640`. Arquivo `teste-cor-grafico.html`, prancha `cores/grafico/comp
 **Teste 3 (04/11), sem cor secundária:** só Tiffany (estilo de vida em Tiffany, placebo e remédio em cinzas) e
 Tiffany + verde-escuro (estilo de vida em `#2F6B64`). Arquivo `teste-so-tiffany.html`, prancha
 `cores/grafico/comparacao-tiffany.png`.
+
+## Decisão (04/11): só Tiffany, sem cor secundária
+
+A Nina escolheu a versão "só Tiffany". Os dados em destaque ficam em Tiffany com textura de marca-texto (pessoa do
+meio, "1", "não sabe que tem.", "caíram 58%", barra do estilo de vida, os 2 pilares do estudo); o que é comparação
+fica em cinzas (placebo, remédio, as outras duas pessoas); números de apoio em verde-escuro. Os arquivos de teste de
+cor foram apagados; ficam só as pranchas em `cores/grafico/` como registro.
