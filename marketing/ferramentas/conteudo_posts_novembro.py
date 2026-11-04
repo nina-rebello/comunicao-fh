@@ -283,7 +283,7 @@ Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
   sub='O dado mais recente de afastamentos e a gestão de riscos psicossociais além da planilha',
   status='Pauta proposta (calendário de novembro)', resp='Nina · Dr. Ronald (NR-01 e saúde mental)',
   espec='Carrossel 4:5 (1080 × 1350), 8 slides, estilo institucional.',
-  gancho='546,2 mil afastamentos por saúde mental em um ano. E agora, RH?',
+  gancho='546,2 mil afastamentos do trabalho por saúde mental no Brasil em 2025, concedidos pelo INSS. E agora, RH?',
   objetivo='Usar o dado mais recente de afastamentos para explicar o que a NR-01 pede sobre riscos psicossociais e por que mapear o risco é só o começo.',
   portras='Adequar-se à NR-01 não é preencher planilha de risco: é ter gente perto para reduzir o risco.',
   persona='RH; Medicina do Trabalho; SST',
@@ -292,7 +292,7 @@ Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
   material='Tipografia, uma ou duas fotos de banco. Guia de NR-01 (entrega da palavra CUIDADO).',
   cta='Comente CUIDADO e receba o guia de NR-01',
   stories='Caixa de perguntas: "Qual a sua maior dúvida sobre a NR-01?" (respostas viram conteúdo).',
-  fonte='Ministério da Previdência Social, via g1: 546,2 mil licenças por transtornos mentais em 2025, segundo recorde seguido. NR-01 (Portaria MTE): gerenciamento de riscos psicossociais no GRO/PGR, exigido desde maio de 2026.',
+  fonte='Ministério da Previdência Social (nota oficial na Agência Gov, jan/2026): 546.254 benefícios por incapacidade temporária concedidos pelo INSS por transtornos mentais e comportamentais em 2025, 15,66% acima de 2024 (472.328); também no g1. Segundo recorde seguido. NR-01 (Portaria MTE): gerenciamento de riscos psicossociais no GRO/PGR, exigido desde maio de 2026.',
   validar='Conferir no painel oficial da Previdência o número e o ano. Conferir com o Dr. Ronald a situação da NR-01 (vigência e o que é exigido). Guia de NR-01 pronto e validado até 13/11. Sem alarmismo ("epidemia", "bomba-relógio").',
   arquivos='Ainda sem pasta. Sugestão: instagram/posts/nr01-afastamentos/',
   legenda='''Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH.
@@ -309,7 +309,7 @@ Se você precisa de ajuda agora, o CVV atende pelo 188, 24 horas.
 
 #fairhealth #nr01 #saudemental #saudecorporativa #riscospsicossociais''',
   roteiro=[
-   ('Slide 1 · capa', '546,2 mil afastamentos por saúde mental em um ano.\nE agora, RH?', '', 'Número grande e calmo, fonte em texto pequeno.', 'Fonte na capa.'),
+   ('Slide 1 · capa', '546,2 mil afastamentos do trabalho por saúde mental\nno Brasil em 2025, concedidos pelo INSS.\nE agora, RH?\nFonte: Ministério da Previdência Social.', '', 'Número grande e calmo, fonte em texto pequeno.', 'Fonte na capa. O número conta benefícios por incapacidade temporária (auxílio-doença) concedidos, não pessoas: não trocar por "546 mil trabalhadores".'),
    ('Slide 2 · promessa', 'O que a NR-01 pede e por que a planilha sozinha não resolve.', '', 'Fundo claro.', 'Funciona sozinho.'),
    ('Slide 3 · o dado', '546,2 mil licenças por transtornos mentais em 2025, o segundo recorde seguido.\nFonte: Ministério da Previdência Social.', '', 'Fundo verde, dado com fonte.', 'Conferir no painel oficial.'),
    ('Slide 4 · a norma', 'Desde maio de 2026, a NR-01 pede que a empresa identifique e gerencie os riscos psicossociais, junto com os outros riscos ocupacionais.', '', 'Fundo Tiffany.', 'Validar com o Dr. Ronald.'),
