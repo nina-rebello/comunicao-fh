@@ -196,3 +196,11 @@ A Nina escolheu a versão "só Tiffany". Os dados em destaque ficam em Tiffany c
 meio, "1", "não sabe que tem.", "caíram 58%", barra do estilo de vida, os 2 pilares do estudo); o que é comparação
 fica em cinzas (placebo, remédio, as outras duas pessoas); números de apoio em verde-escuro. Os arquivos de teste de
 cor foram apagados; ficam só as pranchas em `cores/grafico/` como registro.
+
+## Legenda (04/11)
+
+Em `legenda.txt` (1.433 caracteres). Linter: 95 caracteres antes do "mais", 3 hashtags, termos de busca "Dia Mundial do
+Diabetes", "Medicina do Estilo de Vida" e "saúde do colaborador" no texto. Os avisos de CTA e de voz vêm de checagens
+feitas para inglês. Todos os números são os do carrossel, já conferidos.
+
+Texto alternativo da capa: "Fundo creme com brilho verde-água. Título: Estilo de vida também é tratamento sério."
