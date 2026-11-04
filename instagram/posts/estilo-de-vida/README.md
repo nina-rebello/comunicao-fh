@@ -116,3 +116,12 @@ soft drop shadow, on a plain warm cream background #F0EEE8. Inside the card, a n
 identical circles, 4 rows by 4 columns, evenly spaced, all solid dark teal #2F6B64. Clean geometric look,
 no gradients, no texture on the circles. Square, 1080x1080. No text, no numbers, no letters, no logos.
 ```
+
+## Gráficos v4 (04/11): inspirações "1 in 10", Focotik e barras 37/63
+
+- Cor de quebra: coral `#F26B4F`, só nos gráficos (um destaque por slide).
+- Slide 2 em fundo escuro (`#16302D`): fileira de 12 bonequinhos com 1 em cada 3 em coral, "1 em cada 3" gigante
+  com o 1 em coral, "dos 16,6 milhões de brasileiros com diabetes não sabe que tem", fonte sublinhada.
+- Slide 3 em papel quadriculado (`fotos/fundo-grade.jpg`): título "58% menos casos" com o 58% em coral, barras
+  verticais arredondadas (placebo cinza, remédio Tiffany, estilo de vida coral), valores em cima e seta desenhada
+  à mão com "58% menos". Os gráficos são desenhados no próprio slide: os prompts de imagem ficaram opcionais.
