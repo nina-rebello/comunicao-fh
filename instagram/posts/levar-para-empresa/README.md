@@ -41,3 +41,7 @@ sobre o que o Escritório do Cuidado é e o que não é, que são as dúvidas ma
 - O que o diagnóstico envolve na prática (duração, quem participa, se é presencial ou on-line) antes de detalhar.
 - Se a empresa precisa ceder uma sala para o Escritório do Cuidado (o `voice.md` diz "espaço físico dentro da
   empresa"): o slide 2 não fala disso; se for uma dúvida frequente do RH, vale incluir.
+
+## Legenda (rascunho, 04/11)
+
+Em `legenda.txt` (944 caracteres, primeira linha com 105). Depende das respostas do comercial sobre o processo.
