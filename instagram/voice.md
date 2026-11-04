@@ -164,3 +164,9 @@ em `instagram/referencias.md`.
   mapear as necessidades da empresa (primeiro passo comercial do Executive
   Summary).
 - **Para onde vai o link:** www.fairhealth.com.br (confirmar).
+
+## Número só com contexto (04/11)
+
+Feedback da Nina na legenda de 06/11: "as reclamações caíram de 34 para cerca de 20 por mês" estava solto.
+Um número só entra quando a frase diz o que ele mede, onde, em quanto tempo e por que importa para quem lê.
+Se não temos esse contexto, o número sai e fica a ideia. Vale para legenda, slide e roteiro.

@@ -103,6 +103,6 @@ A Nina preferiu publicar em 06/11 uma **foto única** e contar a história na le
 em `slides.html` para outro uso.
 
 - Arte: `foto-unica.png` (gerada de `foto.html`, que é a capa sem a numeração). Para o Canva: `canva-foto.html`.
-- Legenda: `legenda-foto.txt` (1.204 caracteres; linter: único aviso é o CTA, que ele não reconhece em português).
+- Legenda: `legenda-foto.txt` (sem o 34 → 20, que sem contexto ficava solto: pedido da Nina em 04/11; linter: único aviso é o CTA, que ele não reconhece em português).
 - Texto alternativo: "Duas poltronas de couro caramelo, uma mesinha com planta, livros e um abajur aceso, num
   espaço de atendimento com luz quente. Por cima, o título: O colaborador no centro."
