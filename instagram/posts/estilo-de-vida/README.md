@@ -91,7 +91,7 @@ slide, como texto editável. Nas barras, conferir as proporções antes de usar 
 
 1. **Slide 2, silhuetas (1 em cada 3):** ver o prompt 1 na conversa de 04/11, repetido abaixo.
 2. **Slide 3, barras do estudo:** prompt 2.
-3. **Slide 4, 16 encontros:** prompt 3.
+3. **Slide 4:** sem gráfico (pedido da Nina, 04/11). O prompt 3 não é mais necessário.
 
 Os três prompts estão no fim deste README, em inglês (as ferramentas de imagem respondem melhor).
 
