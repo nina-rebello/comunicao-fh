@@ -43,6 +43,20 @@ node instagram/ferramentas/render.mjs instagram/posts/<nome>/slides.html instagr
 node instagram/ferramentas/pdf.mjs instagram/posts/<nome>/slides.html instagram/posts/<nome>/<nome>.pdf
 ```
 
+## Planilhas de posts: sempre o modelo simples (pedido da Nina, 04/11)
+
+Toda planilha com a programação ou o detalhamento dos posts segue o modelo de
+`marketing/Cronograma_Posts_19-10_a_13-11_simples.xlsx`: uma aba só
+("Programação"), uma linha por post e estas colunas, nesta ordem: Semana,
+Data, Dia, Bloco, Formato, Título, Subtítulo, Roteiro (cena a cena ou slide a
+slide) e Legenda. Arial 10, cabeçalho Tiffany, formato colorido (Reel, Carrossel,
+Foto única). Não crie planilhas com várias abas, fichas ou pendências.
+
+Para gerar: escreva o conteúdo num `marketing/ferramentas/conteudo_posts_<período>.py`
+(mesma estrutura de `conteudo_posts_novembro.py`) e rode
+`python3 marketing/ferramentas/gerar_cronograma_simples.py marketing/Cronograma_Posts_<período>.xlsx marketing/ferramentas/conteudo_posts_<período>.py`.
+Novembro está em `marketing/Cronograma_Posts_03-11_a_30-11.xlsx`.
+
 ## Legendas (pedido da Nina, 20/10)
 
 - Toda legenda é escrita com a skill **ig-caption** (`.claude/skills/ig-caption`), rodando o verificador

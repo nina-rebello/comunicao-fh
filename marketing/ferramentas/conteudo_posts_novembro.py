@@ -1,4 +1,4 @@
-# Detalhamento dos 13 posts de novembro de 2026 (03/11 a 30/11), usado por gerar_detalhamento_novembro.py.
+# Detalhamento dos 13 posts de novembro de 2026 (03/11 a 30/11), usado por gerar_cronograma_simples.py (modelo padrão).
 # Base: instagram/plan.md (03 a 13/11), marketing/calendario-novembro/calendario.html (o mês todo),
 # instagram/carrossel-de-tendencia.md (pautas de 16 a 30/11), marketing/ferramentas/conteudo_posts_19-10_a_13-11.py
 # (roteiros de 14/10), os README dos posts já feitos (cuidado-na-pratica, geracao-z), instagram/voice.md,
@@ -15,6 +15,7 @@ ESP_REEL = 'Reel 9:16 (1080 × 1920), 30 a 45 s, texto na tela desde o 1º quadr
 POSTS = [
  dict(id='N01', data=D(3), semana=1, bloco='3 · Compreensão', eixo='Produto', fmt=CARR,
   titulo='Como funciona o cuidado na prática?',
+  sub='A jornada entre escuta, atendimento, plano individualizado e acompanhamento',
   status='Arte para aprovação', resp='Nina (texto) · Dr. Ronald (revisão CFM)',
   espec='Carrossel 4:5 (1080 × 1350), 6 slides, com fotos.',
   gancho='O cuidado que todo mundo queria ter no trabalho. (rótulo: Por dentro do Escritório do Cuidado · pílula: Como isso funciona na prática, em 4 pontos →)',
@@ -55,6 +56,7 @@ Quer esse cuidado para o seu time? Comente CUIDADO e enviamos na DM como funcion
 
  dict(id='N02', data=D(4), semana=1, bloco='3 · Compreensão', eixo='Produto', fmt=REEL,
   titulo='Quatro frentes, um cuidado conectado',
+  sub='Medicina do Estilo de Vida, Escritório do Cuidado, wearables e o relatório para o RH',
   status='Roteiro proposto', resp='Nina · fairdata (relatório)',
   espec='Reel 9:16 (1080 × 1920), 25 a 30 s, motion (sem pessoas em cena). Capa 4:5.',
   gancho='Quatro frentes. Um cuidado só.',
@@ -90,6 +92,7 @@ Quer ver como isso funciona na sua empresa? Comente CUIDADO e enviamos na DM com
 
  dict(id='N03', data=D(6), semana=1, bloco='4 · Confiança', eixo='Cases', fmt=CARR,
   titulo='Uma história de cuidado que começou em 2009',
+  sub='A história do Escritório, do hospital em 2009 até as empresas',
   status='Roteiro proposto', resp='Nina · Dr. Ronald (validação da história)',
   espec='Carrossel 4:5 (1080 × 1350), 7 slides.',
   gancho='Antes de chegar às empresas, esse cuidado nasceu num hospital.',
@@ -127,6 +130,7 @@ Salve para mostrar a quem decide sobre saúde na sua empresa.
 
  dict(id='N04', data=D(9), semana=2, bloco='4 · Confiança', eixo='Cases', fmt=REEL,
   titulo='Cuidado na prática: experiências e resultados reais',
+  sub='Evidências e resultados documentados, contados pelo Dr. Ronald',
   status='Roteiro proposto', resp='Dr. Ronald (gravação) · Nina',
   espec=ESP_REEL,
   gancho='Programa de saúde dá retorno?',
@@ -163,6 +167,7 @@ Mande este reel para quem está fechando o orçamento de 2027 na sua empresa.
 
  dict(id='N05', data=D(11), semana=2, bloco='4 · Confiança', eixo='Cultura', fmt=CARR,
   titulo='Estilo de vida também é tratamento sério',
+  sub='O que a ciência mostra sobre mudar a rotina, na semana do Dia Mundial do Diabetes',
   status='Roteiro proposto', resp='Nina · responsável médica (leitura do estudo)',
   espec='Carrossel 4:5 (1080 × 1350), 7 slides.',
   gancho='Estilo de vida também é tratamento sério.',
@@ -200,6 +205,7 @@ Fonte: Diabetes Prevention Program Research Group, N Engl J Med, 2002.
 
  dict(id='N06', data=D(13), semana=2, bloco='4 · Confiança', eixo='Produto', fmt=CARR,
   titulo='Como levar a fairhealth para a sua empresa?',
+  sub='Encerramento da apresentação inicial com orientação para o RH',
   status='Roteiro proposto', resp='Nina · Comunicação (DMs)',
   espec='Carrossel 4:5 (1080 × 1350), 6 slides. Post comercial.',
   gancho='O orçamento de 2027 está fechando. Onde entra o cuidado?',
@@ -236,6 +242,7 @@ Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
 
  dict(id='N07', data=D(16), semana=3, bloco='5 · Atualidade', eixo='Cultura', fmt=REEL,
   titulo='Novembro Azul: ele só vai ao médico quando dói',
+  sub='O homem adia o cuidado porque cuidar dá trabalho; com o cuidado na empresa, a barreira cai o ano todo',
   status='Pauta proposta (calendário de novembro)', resp='Nina · Dr. Ronald (revisão técnica)',
   espec=ESP_REEL + ' Tipografia animada, sem pessoas em cena.',
   gancho='Ele só vai ao médico quando dói.',
@@ -273,6 +280,7 @@ Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
 
  dict(id='N08', data=D(18), semana=3, bloco='5 · Atualidade', eixo='Notícias + Mercado', fmt=CARR,
   titulo='Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH',
+  sub='O dado mais recente de afastamentos e a gestão de riscos psicossociais além da planilha',
   status='Pauta proposta (calendário de novembro)', resp='Nina · Dr. Ronald (NR-01 e saúde mental)',
   espec='Carrossel 4:5 (1080 × 1350), 8 slides, estilo institucional.',
   gancho='546,2 mil afastamentos por saúde mental em um ano. E agora, RH?',
@@ -313,6 +321,7 @@ Se você precisa de ajuda agora, o CVV atende pelo 188, 24 horas.
 
  dict(id='N09', data=D(19), semana=3, bloco='5 · Atualidade', eixo='Cases', fmt=FOTO,
   titulo='Depoimento: "Os meus hábitos mudaram, e não foi um sacrifício."',
+  sub='A voz de quem é cuidado: mudança real, sem promessa de resultado clínico',
   status='Pauta proposta (calendário de novembro)', resp='Nina · Dr. Ronald (formato dos depoimentos)',
   espec='Foto única 4:5 (1080 × 1350). Card de citação. Quinta-feira, porque sexta (20/11) é feriado.',
   gancho='"Os meus hábitos mudaram, e não foi um sacrifício."',
@@ -340,6 +349,7 @@ O plano de cuidado é combinado com cada pessoa e cabe na rotina real. Quando a 
 
  dict(id='N10', data=D(23), semana=4, bloco='5 · Atualidade', eixo='Notícias + Cultura', fmt=REEL,
   titulo='O RH cuida de todo mundo. Quem cuida do RH?',
+  sub='Dados do Panorama da Saúde Emocional do RH 2026 e o cuidado que chega também a quem cuida',
   status='Pauta proposta (calendário de novembro)', resp='Nina · Dr. Ronald (saúde mental)',
   espec=ESP_REEL + ' Tipografia animada com dados.',
   gancho='O RH cuida de todo mundo. Quem cuida do RH?',
@@ -377,6 +387,7 @@ Se você precisa de ajuda agora, o CVV atende pelo 188, 24 horas.
 
  dict(id='N11', data=D(25), semana=4, bloco='5 · Atualidade', eixo='Cultura + Produto', fmt=CARR,
   titulo='Por que a Geração Z está tão desconectada do trabalho?',
+  sub='Não é preguiça: a desconexão tem causa, e a resposta começa por "o que importa para você?"',
   status='Arte em rascunho (faltam fotos; reduzir de 9 para 8 slides)', resp='Nina · Dr. Ronald (saúde mental, NR-01)',
   espec='Carrossel 4:5 (1080 × 1350), 8 slides (o rascunho tem 9; juntar os slides 5 e 6). Tom editorial, série "Cuidado em números".',
   gancho='O olhar vazio na reunião não é preguiça.',
@@ -417,6 +428,7 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
 
  dict(id='N12', data=D(27), semana=4, bloco='6 · Decisão', eixo='Cases + Produto', fmt=CARR,
   titulo='Case Chemitec: como 98% do time aceitou ser cuidado',
+  sub='Adesão e continuidade num case real, com o convite ao diagnóstico antes do orçamento de 2027',
   status='Pauta proposta (calendário de novembro)', resp='Nina · Sócios (liberação do case)',
   espec='Carrossel 4:5 (1080 × 1350), 8 slides, estilo institucional. Sexta de Black Friday: sem linguagem de promoção.',
   gancho='98% do time aceitou ser cuidado. O que essa empresa fez diferente?',
@@ -453,6 +465,7 @@ Antes de fechar o orçamento de 2027, comente CUIDADO e enviamos na DM como func
 
  dict(id='N13', data=D(30), semana=5, bloco='6 · Decisão', eixo='Cultura', fmt=REEL,
   titulo='Dezembro chegou: a corrida das metas também adoece',
+  sub='Uma prática de 1 minuto para o fim de ano e o convite para cuidar antes de 2027',
   status='Pauta proposta (calendário de novembro)', resp='Nina · psicóloga ou Dr. Ronald (prática de 1 minuto)',
   espec=ESP_REEL + ' Tipografia animada com contagem de 1 minuto.',
   gancho='Dezembro chegou. E a corrida das metas também.',

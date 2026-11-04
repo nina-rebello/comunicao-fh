@@ -1,11 +1,15 @@
 # Versão simples (pedido da Nina, 14/10): uma aba, uma tabela, uma linha por post, só as colunas principais.
 # Conteúdo em conteudo_posts_19-10_a_13-11.py. A versão completa (8 abas) é gerada por gerar_cronograma_posts.py.
-# Uso: python3 marketing/ferramentas/gerar_cronograma_simples.py marketing/Cronograma_Posts_19-10_a_13-11_simples.xlsx
+# É o modelo padrão de toda planilha de posts (pedido da Nina, 04/11): sempre esta aba, estas colunas e este visual.
+# Uso: python3 marketing/ferramentas/gerar_cronograma_simples.py <saida.xlsx> [conteudo.py]
+#   sem conteudo.py: usa conteudo_posts_19-10_a_13-11.py
+#   novembro: python3 marketing/ferramentas/gerar_cronograma_simples.py marketing/Cronograma_Posts_03-11_a_30-11.xlsx marketing/ferramentas/conteudo_posts_novembro.py
 import math, os, runpy, sys
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 
-C = runpy.run_path(os.path.join(os.path.dirname(__file__), 'conteudo_posts_19-10_a_13-11.py'))
+FONTE = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(__file__), 'conteudo_posts_19-10_a_13-11.py')
+C = runpy.run_path(FONTE)
 DIAS = ['segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo']
 COR_FMT = {'Reel': '96C5BD', 'Carrossel': 'BFE0D9', 'Foto única': 'F0F0E9'}
 fino = Side(style='thin', color='C9D6D2')
@@ -29,9 +33,10 @@ for j, (nome, w) in enumerate(cols, 1):
     c.alignment = Alignment(wrap_text=True, vertical='center')
     ws.column_dimensions[c.column_letter].width = w
 ws.row_dimensions[1].height = 28
-ini = C['D'](19, 10)
+ini = min(p['data'] for p in C['POSTS'])
+ini = ini - __import__('datetime').timedelta(days=ini.weekday())  # segunda da primeira semana
 for i, p in enumerate(C['POSTS'], 2):
-    vals = [(p['data'] - ini).days // 7 + 1, p['data'], DIAS[p['data'].weekday()], p['bloco'], p['fmt'], p['titulo'], p['sub'], roteiro(p), p['legenda']]
+    vals = [p.get('semana', (p['data'] - ini).days // 7 + 1), p['data'], DIAS[p['data'].weekday()], p['bloco'], p['fmt'], p['titulo'], p['sub'], roteiro(p), p['legenda']]
     for j, v in enumerate(vals, 1):
         c = ws.cell(row=i, column=j, value=v)
         c.font, c.border = Font(name='Arial', size=10, color='1F3A36'), BORDA
