@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Recorte da NR-01 (slide 4)</title>
+<link rel="stylesheet" href="../../marca/base.css">
+<style>
+/* Recorte do item 1.5.3.1.4 da NR-01, "colado" no slide 4 com fita, como o recorte do NEJM no carrossel de 11/11.
+   Vira um PNG transparente (fotos/recorte-nr01.png), porque o Canva não aceita elemento girado.
+   Desenhado em 1x dentro de .zoom (2x no PNG). Gerar: python3 instagram/posts/nr01-afastamentos/gerar.py */
+@font-face{font-family:"Instrument Serif";font-style:normal;src:url(../../marca/fontes/instrument-serif-latin-400-normal.woff2)}
+body{background:none;margin:0}
+section.slide{width:1800px;height:900px;padding:0;margin:0;display:block;background:none}
+.zoom{zoom:2;position:relative;width:900px;height:450px}
+.cartao{position:absolute;left:46px;top:58px;width:808px;height:330px;background:#FCFBF7;transform:rotate(-1.6deg);
+  box-shadow:0 18px 30px -12px rgba(0,0,0,.45),0 2px 6px rgba(0,0,0,.18)}
+.fita{position:absolute;left:340px;top:30px;width:230px;height:54px;transform:rotate(1.4deg);
+  background:repeating-linear-gradient(90deg,rgba(232,224,196,.92) 0 3px,rgba(240,234,212,.92) 3px 6px);opacity:.95}
+.rot{position:absolute;left:44px;top:36px;font-size:15px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:#2F6B64}
+.fio{position:absolute;left:44px;right:44px;top:68px;height:1.5px;background:rgba(20,27,27,.18)}
+.item{position:absolute;left:44px;top:92px;font-size:17px;font-weight:800;letter-spacing:1px;color:#141B1B;opacity:.7}
+.cit{position:absolute;left:44px;right:40px;top:120px;font-family:"Instrument Serif",serif;font-size:29px;line-height:1.28;color:#141B1B}
+.cit mark{background:rgba(159,197,189,.95);color:#141B1B;padding:0 4px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.guia{position:absolute;left:44px;top:34px;width:252px;height:340px;background:#9FC5BD;border-radius:4px 10px 10px 4px;transform:rotate(4deg);
+  box-shadow:0 22px 34px -14px rgba(0,0,0,.45),0 2px 6px rgba(0,0,0,.18);overflow:hidden}
+.lombada{position:absolute;left:0;top:0;width:16px;height:100%;background:linear-gradient(90deg,rgba(20,27,27,.18),rgba(20,27,27,0))}
+.g-rot{position:absolute;left:34px;top:34px;font-size:15px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:#2F6B64}
+.g-tit{position:absolute;left:30px;top:58px;font-size:66px;font-weight:800;letter-spacing:-3px;line-height:1;color:#1F3A36}
+.g-fio{position:absolute;left:34px;right:30px;top:146px;height:2px;background:rgba(31,58,54,.35)}
+.g-logo{position:absolute;left:30px;bottom:26px;width:58px;height:58px;object-fit:contain}
+.g-marca{position:absolute;left:96px;bottom:42px;font-size:20px;font-weight:700;color:#1F3A36}
+.rodape{position:absolute;left:44px;bottom:26px;font-size:14px;font-weight:600;color:#141B1B;opacity:.55}
+</style></head><body>
+<section class="slide" id="recorte-nr01"><div class="zoom">
+  <div class="cartao">
+    <p class="rot">Norma Regulamentadora nº 1 · NR-01</p>
+    <div class="fio"></div>
+    <p class="item">1.5.3.1.4</p>
+    <p class="cit">O gerenciamento de riscos ocupacionais deve abranger os riscos que decorrem dos agentes físicos, químicos e biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, <mark>incluindo os fatores de risco psicossociais relacionados ao trabalho.</mark></p>
+    <p class="rodape">Redação dada pela Portaria MTE nº 1.419/2024</p>
+  </div>
+  <div class="fita"></div>
+</div></section>
+
+<!-- Capa do guia de NR-01 (slide 8): o que chega na DM. 320x400 em 1x. -->
+<section class="slide" id="guia-nr01" style="width:640px;height:800px"><div class="zoom" style="width:320px;height:400px">
+  <div class="guia">
+    <div class="lombada"></div>
+    <p class="g-rot">Guia</p>
+    <p class="g-tit">NR-01</p>
+    <div class="g-fio"></div>
+    <img class="g-logo" src="../../marca/logo-coracao-transparente.png" alt="">
+    <p class="g-marca">fairhealth</p>
+  </div>
+</div></section>
+</body></html>
