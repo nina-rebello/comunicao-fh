@@ -52,3 +52,17 @@ Não repete 28/10 (números de retorno da prevenção) nem 30/10 (passos para a 
 - Sem foto: o post é de dados. Se a Nina quiser, a capa pode ganhar uma foto.
 - Slide 3 mudou com a capa: em vez de "58% contra 31%", mostra o que o grupo fez (3.234 adultos, 150 min, 7%).
 - `capas.html` e `capas/` guardam o teste das duas capas.
+
+## Design v2 (04/11): "mais moderno"
+
+A Nina achou a v1 antiga (só caixas e fundos chapados, sem foto). A v2 segue os posts de 03/11 e 06/11: capa
+com foto em tela cheia, véu escuro e título grande em branco com "tratamento sério." em serif Tiffany; o gráfico
+do estudo num cartão de vidro; números gigantes (16,6 e 16); faixa de dados com linhas finas em vez de caixas;
+os 7 pilares em etiquetas; a foto real das poltronas (`fotos/e-05.jpg`, da foto de 06/11) no slide 5.
+
+**Fotos que a Nina coloca** (molduras com a descrição no `slides.html`):
+
+| Slide | Cena ideal |
+|---|---|
+| 1 (tela cheia) | Pessoa de verdade se movendo no dia a dia do trabalho: subir a escada, caminhar no intervalo. Luz natural, cores vivas, sem cara de academia ou de anúncio. |
+| 3 (1080x440) | Rotina possível no trabalho: marmita colorida sobre a mesa, ou colegas caminhando no intervalo. |
