@@ -145,3 +145,15 @@ Conferência do que é novo: "cerca de 30 minutos, 5 dias" é a conta de 150 min
 semanas; "placebo (comprimido sem efeito)": no DPP, o grupo placebo tomava comprimidos de placebo; orientação dos outros grupos: "standard lifestyle recommendations ... written information and an annual 20-to-30-minute
 individual session" (NEJM 2002, texto completo); "os pilares
 não funcionam isoladamente" é frase da apresentação institucional (`essencia.md`).
+
+## Design v5 (04/11)
+
+- Capa e convite: design da v3 (creme com brilho Tiffany e marca-texto). Capa sem "e por que o remédio também importa".
+- Slides 2 a 5 em papel texturizado (`fotos/fundo-papel.jpg`), coral `#F26B4F` como cor dos dados, anotações
+  à mão (sublinhado, seta, chave) em SVG.
+- 2: três pessoas, a do meio em coral, "1 em 3" gigante e fonte sublinhada.
+- 3: barras verticais com a pergunta do gráfico, os três grupos explicados, linha tracejada no nível do placebo,
+  seta e "58% menos", guia de leitura ("quanto menor a barra...").
+- 4: recorte do artigo do NEJM colado com fita (`fotos/nejm.png`, gerado do print enviado pela Nina) e a
+  comparação 1 conversa por ano × 16 encontros em 6 meses.
+- 5: os 7 pilares com os 2 do estudo em coral e a chave "os 2 do estudo".
