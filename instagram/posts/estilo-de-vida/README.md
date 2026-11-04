@@ -82,3 +82,37 @@ em caixa alta ("7 foundations"), silhuetas + número grande, grade de pontos, gr
 - Slide 5: os 7 pilares em lista numerada em caixa alta.
 - Slide 6: "Com o Escritório do Cuidado, ninguém muda sozinho." e o pedido no marca-texto.
 - Sem molduras de foto: o post não depende de imagem. A v2 (com foto) fica no histórico do git.
+
+## Prompts para gerar os gráficos como imagem (04/11)
+
+Pedido da Nina: gráficos no estilo das inspirações (silhuetas sobrepostas, grade de pontos em cartão, gráfico
+limpo da Gallup). Regra: a imagem não leva número nem texto (a IA erra). Números, rótulos e fonte ficam no
+slide, como texto editável. Nas barras, conferir as proporções antes de usar (11,0 : 7,8 : 4,8).
+
+1. **Slide 2, silhuetas (1 em cada 3):** ver o prompt 1 na conversa de 04/11, repetido abaixo.
+2. **Slide 3, barras do estudo:** prompt 2.
+3. **Slide 4, 16 encontros:** prompt 3.
+
+Os três prompts estão no fim deste README, em inglês (as ferramentas de imagem respondem melhor).
+
+```
+1. Flat vector infographic illustration, minimal and modern. Three identical simple front-facing human
+silhouettes (round head, rounded shoulders, straight body, no face, no details) standing in a row and
+overlapping slightly, each one a little in front of and to the right of the previous one. The two at the
+front are solid dark teal #2F6B64; the one at the back is pale mint #C3D9D4, clearly lighter. Soft, even
+light, no shadows, no gradients on the figures. Plain warm cream background #F0EEE8. Centered composition
+with generous empty space around. Square, 1080x1080. No text, no numbers, no letters, no logos.
+
+2. Flat minimal horizontal bar chart, editorial style like a Gallup report. Three thin horizontal bars with
+softly rounded ends (corner radius about 4px), stacked vertically with equal generous spacing, all starting
+from the same thin vertical baseline on the left. Exact lengths, proportional: top bar 100% of the width,
+middle bar 71% of the top bar, bottom bar 44% of the top bar. Colors: top bar light warm gray #C9CCC6,
+middle bar Tiffany #9FC5BD, bottom bar dark teal #2F6B64. Baseline in light gray. Plain warm cream background
+#F0EEE8, lots of white space on the right for labels. Wide format 1080x600. No text, no numbers, no axis
+labels, no gridlines, no logos.
+
+3. Flat vector infographic card, minimal and modern. A rounded rectangle card in Tiffany #9FC5BD with a very
+soft drop shadow, on a plain warm cream background #F0EEE8. Inside the card, a neat grid of exactly 16
+identical circles, 4 rows by 4 columns, evenly spaced, all solid dark teal #2F6B64. Clean geometric look,
+no gradients, no texture on the circles. Square, 1080x1080. No text, no numbers, no letters, no logos.
+```
