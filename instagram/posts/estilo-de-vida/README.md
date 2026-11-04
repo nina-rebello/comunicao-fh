@@ -185,3 +185,7 @@ passaram a Tiffany (regra das diretrizes: cor extra sempre com o Tiffany na peç
 
 **Teste 2 (04/11), só o gráfico de colunas, com textura:** rosa `#EE4D9B`, coral `#F26B4F`, limão `#C8E25A` e
 amarelo `#F7D640`. Arquivo `teste-cor-grafico.html`, prancha `cores/grafico/comparacao.png`.
+
+**Teste 3 (04/11), sem cor secundária:** só Tiffany (estilo de vida em Tiffany, placebo e remédio em cinzas) e
+Tiffany + verde-escuro (estilo de vida em `#2F6B64`). Arquivo `teste-so-tiffany.html`, prancha
+`cores/grafico/comparacao-tiffany.png`.
