@@ -182,3 +182,6 @@ passaram a Tiffany (regra das diretrizes: cor extra sempre com o Tiffany na peç
   ("58% menos" circulado e seta). As pessoas do slide 2 também têm textura (`fotos/tx-pessoa-*.png`).
 - Anotações à mão (chave do slide 5, círculos, setas, sublinhados) em tinta `#141B1B`, como nas referências.
 - Para refazer as texturas depois de mudar um texto: medir com `medir-marcas.mjs` e gerar de novo com `textura.py`.
+
+**Teste 2 (04/11), só o gráfico de colunas, com textura:** rosa `#EE4D9B`, coral `#F26B4F`, limão `#C8E25A` e
+amarelo `#F7D640`. Arquivo `teste-cor-grafico.html`, prancha `cores/grafico/comparacao.png`.
