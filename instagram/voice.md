@@ -170,3 +170,13 @@ em `instagram/referencias.md`.
 Feedback da Nina na legenda de 06/11: "as reclamações caíram de 34 para cerca de 20 por mês" estava solto.
 Um número só entra quando a frase diz o que ele mede, onde, em quanto tempo e por que importa para quem lê.
 Se não temos esse contexto, o número sai e fica a ideia. Vale para legenda, slide e roteiro.
+
+## Escritório do Paciente e "atendimento" (04/11)
+
+Dois cuidados pedidos pela Nina na legenda de 06/11:
+
+- **Escritório do Paciente:** não é o que a fairhealth é nem o que vende. Quando aparecer, deixar claro que é
+  uma parte da nossa história (um projeto num hospital, em 2009) e dizer por que ele importa: foi ali que
+  aprendemos a base do trabalho, o cuidado que começa por ouvir a pessoa. Nunca apresentar como serviço atual.
+- **Atendimento, não consulta:** o que acontece no Escritório do Cuidado se chama **atendimento**. "Consulta" só
+  para falar de médico fora da empresa, e mesmo assim evitar quando der.
