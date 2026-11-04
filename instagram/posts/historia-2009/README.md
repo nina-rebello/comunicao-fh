@@ -73,9 +73,18 @@ Quer essas quatro ideias funcionando na sua empresa? Comente CUIDADO e enviamos 
 
 - v1 (commit `cf70e3a`): contava a origem no hospital, que já tinha saído no post de 21/10.
 
-## Design (visual pontual, inspiração de 03/11)
+## Design
 
-Foto do espaço em tela cheia, véu escuro, título enorme em branco (Raleway 800) com uma palavra em Tiffany `#9FC5BD` e texto corrido embaixo, sem caixas. Capa (`fotos/capa-a.jpg`, poltronas, com o texto no alto) e fecho (`fotos/capa-b.jpg`, copa) usam as fotos enviadas pela Nina em 04/11. Os slides 2 a 5 usam os renders do Escritório do Cuidado (`marca/espaco`), recortados e aquecidos por `recortes.py` para conversar com as fotos; podem ser trocados por fotos reais no Canva.
-
-- Gerar: `python3 instagram/posts/historia-2009/recortes.py`, depois `render.mjs`, `canva.mjs` e `pdf.mjs` (ver CLAUDE.md).
-- Pendências: validar a linha do tempo com o Dr. Ronald; preparar a resposta automática da palavra CUIDADO.
+- **Capa:** visual da inspiração (03/11): foto das poltronas (`fotos/capa-a.jpg`, enviada pela Nina em
+  04/11) em tela cheia, título grande em branco no alto com "centro" em Tiffany.
+- **Slides 2 a 6:** padrão de `instagram/carrossel.md`, como o de 03/11. Fundos alternados (off, verde-escuro,
+  tiffany, off, verde-escuro), título Raleway 800 com a segunda linha em serif itálico, fecho em serif.
+  2: foto em cima e a troca de pergunta (a antiga riscada, a nova na pílula). 3: número grande 34 → 20 e o
+  pedido de envio. 4: foto numa faixa à direita. 5: foto ao lado e lista com setas. 6: foto da copa
+  (`fotos/capa-b.jpg`) em cima e o convite.
+- **Fotos:** slides 2, 4 e 5 usam os renders de `marca/espaco`, recortados e aquecidos por `recortes.py`.
+  Podem ser trocados por fotos reais no Canva.
+- Gerar: `python3 instagram/posts/historia-2009/recortes.py`, depois `render.mjs`, `canva.mjs` e `pdf.mjs`
+  (ver CLAUDE.md).
+- Pendências: validar a linha do tempo com o Dr. Ronald; legenda nova no tom do texto final; resposta
+  automática da palavra CUIDADO.
