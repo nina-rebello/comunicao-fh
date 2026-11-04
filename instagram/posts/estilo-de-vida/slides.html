@@ -2,162 +2,134 @@
 <html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel 11/11: Estilo de vida também é tratamento sério</title>
 <link rel="stylesheet" href="../../marca/base.css">
 <style>
-/* Carrossel de 11/11: Estilo de vida também é tratamento sério. Capa B escolhida pela Nina em 04/11 ("não
-   desconsidera o remédio, que também é importante"). Padrão de instagram/carrossel.md: fundos alternados,
-   título Raleway 800 + serif itálico, fecho em serif, fonte de todo número no slide. Dados conferidos nas
-   fontes originais (ver README). Tudo em posição fixa, para o Canva. */
+/* Carrossel de 11/11, design v3 (04/11), a partir das inspirações da Nina: fundo creme com brilho Tiffany e
+   granulado (fotos/fundo-*.jpg, imagens para o Canva aceitar), título grande e pesado, marca-texto Tiffany em
+   linhas-chave (uma faixa por linha, com &nbsp;, para o Canva), dados desenhados: silhuetas (1 em cada 3),
+   gráfico de barras com os números do estudo, 16 pontos, lista tipográfica dos 7 pilares.
+   Dados conferidos nas fontes originais (ver README). Tudo em posição fixa. */
 :root{--agua:#9FC5BD}
 @font-face{font-family:"Instrument Serif";font-style:italic;src:url(../../marca/fontes/instrument-serif-latin-400-italic.woff2)}
-.ed{padding:0;text-align:left;align-items:stretch;justify-content:flex-start}
-.ed.agua{background:var(--agua);color:var(--tinta);--ac:var(--escuro)}
-.ed.liso{background:var(--off);color:var(--tinta);--ac:var(--escuro)}
-.ed.verde{background:var(--escuro);color:#fff;--ac:var(--menta)}
-.verde .rotulo,.verde .serif{color:var(--menta)}
-.tit{position:absolute;font-size:66px;letter-spacing:-2px;white-space:nowrap}
-.tit-s{position:absolute;font-size:82px;letter-spacing:-1px}
+.ed{padding:0;text-align:left;align-items:stretch;justify-content:flex-start;background:#EDECE5;color:var(--tinta)}
+.abs{position:absolute}
+.topo{position:absolute;top:56px;left:72px;right:72px;display:flex;justify-content:space-between;font-size:22px;font-weight:600;letter-spacing:2px;text-transform:uppercase;opacity:.7;z-index:3}
+.h{font-weight:800;line-height:1.02;margin:0}
+.rotulo{font-size:24px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--escuro)}
+.tit{position:absolute;font-weight:800;letter-spacing:-2.5px;line-height:1;color:var(--escuro);white-space:nowrap;margin:0}
+.mk{position:absolute;font-weight:800;letter-spacing:-1.5px;line-height:1.08;white-space:nowrap;margin:0;color:var(--tinta)}
+.mk span{background:var(--agua)}
 .txt{position:absolute;font-size:32px;line-height:1.38;margin:0}
-.txt b{font-style:normal;font-weight:700;color:var(--escuro)}
-.verde .txt b{color:var(--menta)}
-.fecho{position:absolute;font-family:"Instrument Serif",serif;font-style:italic;font-size:46px;line-height:1.05;color:var(--ac);margin:0}
-.fio{position:absolute;height:2px;background:rgba(20,27,27,.16)}
-.verde .fio{background:rgba(255,255,255,.2)}
-.caixa-n{position:absolute;background:#fff;border-radius:24px;border:2px solid rgba(47,107,100,.14)}
-.cta{position:absolute;background:var(--menta);border-radius:22px}
+.txt b{font-weight:700;font-style:normal;color:var(--escuro)}
+.fonte{position:absolute;font-size:19px;font-weight:500;opacity:.6;line-height:1.35}
+.fio{position:absolute;height:2px;background:rgba(20,27,27,.14)}
+.fecho{position:absolute;font-family:"Instrument Serif",serif;font-style:italic;font-size:46px;line-height:1.05;color:var(--escuro);margin:0}
 .selo{position:absolute;width:400px;height:58px;font-size:30px;font-weight:700;line-height:58px;white-space:nowrap}
-.selo .anel{position:absolute;left:-5px;top:-5px;width:68px;height:68px;border-radius:50%;background:#fff}
 .selo img{position:absolute;left:0;top:0;width:58px;height:58px;border-radius:50%}
 .selo span{position:absolute;left:74px;top:0}
-.abs{position:absolute}
-.topo{position:absolute;top:56px;left:72px;right:72px;display:flex;justify-content:space-between;font-size:22px;font-weight:600;letter-spacing:2px;text-transform:uppercase;opacity:.75}
-.h{font-weight:800;line-height:1.02;margin:0}
-.serif{font-family:"Instrument Serif",serif;font-style:italic;font-weight:400;line-height:.98;color:var(--escuro);white-space:nowrap}
-.rotulo{font-size:24px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--escuro)}
-.fonte{font-weight:500;opacity:.7}
-.pil-solida{position:absolute;background:var(--escuro);border-radius:999px}
-.pil-t{position:absolute;text-align:center;font-weight:500;white-space:nowrap;line-height:1.2}
-.pil-t b{font-weight:800;font-style:normal}
-
-/* v2 (04/11, "design mais moderno"): foto em tela cheia na capa, números gigantes, menos caixas, faixas de dados
-   com linhas finas, etiquetas em pílula. Molduras de foto com a cena ideal: a Nina coloca as imagens. */
-.moldura{position:absolute;background:linear-gradient(160deg,#6E8F89,#2B4642)}
-.aviso{position:absolute;text-align:center;font-size:23px;font-weight:700;line-height:1.35;color:rgba(255,255,255,.85)}
-.veu{position:absolute;left:0;right:0}
-.vidro{position:absolute;background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.28);border-radius:26px}
-.tag{position:absolute;height:60px;border-radius:30px;border:2px solid rgba(191,224,217,.6)}
-.tag-t{position:absolute;height:60px;line-height:60px;font-size:26px;font-weight:600;white-space:nowrap;text-align:center}
-.giga{position:absolute;font-weight:800;line-height:.86;margin:0;white-space:nowrap}
 </style>
 <style media="canva">body{background:none;margin:0}.slide{margin:0}</style></head><body>
-<!-- 1 · CAPA (capa B): foto em tela cheia, título grande em branco e o gráfico do estudo num cartão de vidro. -->
-<section class="slide ed verde" id="e-01">
-  <div class="moldura" style="left:0;top:0;width:1080px;height:1350px"></div>
-  <p class="aviso" style="left:140px;width:800px;top:300px">FOTO (tela cheia): pessoa de verdade se movendo no dia a dia<br>do trabalho, como subir a escada ou caminhar no intervalo.<br>Luz natural, cores vivas, sem cara de academia ou de anúncio.</p>
-  <div class="veu" style="top:0;height:1350px;background:linear-gradient(rgba(14,20,19,.45) 0%,rgba(14,20,19,0) 22%,rgba(14,20,19,.15) 40%,rgba(14,20,19,.82) 62%,rgba(14,20,19,.92) 100%)"></div>
-  <div class="topo" style="color:#fff;opacity:.9"><span>@fairhealth.br</span><span>01/06</span></div>
-  <p class="rotulo abs" style="left:72px;top:560px;color:var(--agua)">Dia Mundial do Diabetes · 14/11</p>
-  <h1 class="h abs" style="left:72px;top:610px;font-size:104px;letter-spacing:-4px;line-height:.98;color:#fff;white-space:nowrap">Estilo de vida<br>também é</h1>
-  <p class="serif abs" style="left:66px;top:806px;font-size:132px;letter-spacing:-3px;color:var(--agua)">tratamento sério.</p>
-  <div class="vidro" style="left:72px;right:72px;top:986px;height:200px"></div>
-  <p class="abs" style="left:108px;top:1012px;font-size:24px;font-weight:600;color:#fff">Estilo de vida</p>
-  <div class="abs" style="left:300px;top:1016px;width:560px;height:22px;border-radius:11px;background:var(--agua)"></div>
-  <p class="h abs" style="left:880px;top:1004px;font-size:40px;color:#fff">−58%</p>
-  <p class="abs" style="left:108px;top:1072px;font-size:24px;font-weight:600;color:#fff">Remédio</p>
-  <div class="abs" style="left:300px;top:1076px;width:299px;height:22px;border-radius:11px;background:rgba(255,255,255,.55)"></div>
-  <p class="h abs" style="left:880px;top:1064px;font-size:40px;color:#fff;opacity:.75">−31%</p>
-  <p class="abs" style="left:108px;top:1130px;font-size:18px;font-weight:500;color:rgba(255,255,255,.7)">Risco de diabetes em pessoas com pré-diabetes, contra placebo · DPP, NEJM, 2002</p>
-  <p class="abs" style="left:72px;top:1236px;font-size:26px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#fff">O que a ciência mostrou <span style="color:var(--agua)">→</span></p>
+
+<!-- 1 · CAPA: só tipografia sobre o creme com brilho Tiffany; "tratamento sério." no marca-texto. -->
+<section class="slide ed" id="e-01">
+  <img src="fotos/fundo-1.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
+  <div class="topo"><span>@fairhealth.br</span><span>01/06</span></div>
+  <p class="rotulo abs" style="left:72px;top:230px">Dia Mundial do Diabetes · 14/11</p>
+  <h1 class="tit" style="left:68px;top:290px;font-size:128px;letter-spacing:-5px">Estilo de vida<br>também é</h1>
+  <p class="mk" style="left:62px;top:560px;font-size:128px;letter-spacing:-5px"><span>&nbsp;tratamento&nbsp;</span></p>
+  <p class="mk" style="left:62px;top:700px;font-size:128px;letter-spacing:-5px"><span>&nbsp;sério.&nbsp;</span></p>
+  <p class="txt" style="left:72px;width:820px;top:900px;font-size:36px">O que um estudo com mais de 3 mil pessoas mostrou sobre mudar a rotina, e por que o remédio também importa.</p>
+  <p class="abs" style="left:72px;top:1220px;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--escuro)">Arraste para o lado →</p>
 </section>
 
-<!-- 2 · O TAMANHO DO PROBLEMA, verde-escuro: número gigante sangrando, 1 em cada 3 sem diagnóstico e o conflito. -->
-<section class="slide ed verde" id="e-02">
+<!-- 2 · O TAMANHO DO PROBLEMA: número grande e três silhuetas, uma apagada (1 em cada 3 sem diagnóstico). -->
+<section class="slide ed" id="e-02">
+  <img src="fotos/fundo-0.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
   <div class="topo"><span>@fairhealth.br</span><span>02/06</span></div>
   <p class="rotulo abs" style="left:72px;top:150px">O tamanho do problema</p>
-  <p class="giga" style="left:52px;top:210px;font-size:330px;letter-spacing:-16px;color:var(--menta)">16,6</p>
-  <p class="h abs" style="left:72px;top:500px;font-size:66px;letter-spacing:-2px;white-space:nowrap">milhões de brasileiros</p>
-  <p class="serif abs" style="left:70px;top:572px;font-size:82px">vivem com diabetes.</p>
-  <p class="fonte abs" style="left:72px;right:72px;top:680px;font-size:20px;line-height:1.3">Adultos de 20 a 79 anos, 6º país com mais casos · IDF Diabetes Atlas, 11ª ed. (2025), estimativas de 2024</p>
-  <div class="fio" style="left:72px;right:72px;top:750px"></div>
-  <div class="abs" style="left:72px;top:790px;width:70px;height:70px;border-radius:50%;background:var(--menta)"></div>
-  <div class="abs" style="left:156px;top:790px;width:70px;height:70px;border-radius:50%;background:var(--menta)"></div>
-  <div class="abs" style="left:240px;top:790px;width:64px;height:64px;border-radius:50%;border:3px dashed var(--menta)"></div>
-  <p class="h abs" style="left:350px;top:788px;font-size:44px;color:var(--menta)">1 em cada 3</p>
-  <p class="abs" style="left:350px;top:842px;font-size:28px;font-weight:500">não sabe que tem.</p>
-  <div class="fio" style="left:72px;right:72px;top:910px"></div>
-  <p class="txt" style="left:72px;right:72px;top:940px">Mesmo assim, “cuide da alimentação e se mexa” ainda soa como a parte menos séria do tratamento.</p>
+  <p class="h abs" style="left:66px;top:200px;font-size:150px;letter-spacing:-6px;color:var(--escuro);white-space:nowrap">16,6 milhões</p>
+  <p class="h abs" style="left:72px;top:368px;font-size:46px;letter-spacing:-1.5px;white-space:nowrap">de brasileiros vivem com diabetes.</p>
+  <div class="abs" style="left:72px;top:470px;width:190px;height:380px"><svg width="190" height="380" viewBox="0 0 200 400"><circle cx="100" cy="66" r="60" fill="#2F6B64"/><path d="M20 230 a80 80 0 0 1 80 -80 a80 80 0 0 1 80 80 V400 H20 Z" fill="#2F6B64"/></svg></div><div class="abs" style="left:232px;top:470px;width:190px;height:380px"><svg width="190" height="380" viewBox="0 0 200 400"><circle cx="100" cy="66" r="60" fill="#2F6B64"/><path d="M20 230 a80 80 0 0 1 80 -80 a80 80 0 0 1 80 80 V400 H20 Z" fill="#2F6B64"/></svg></div><div class="abs" style="left:392px;top:470px;width:190px;height:380px"><svg width="190" height="380" viewBox="0 0 200 400"><circle cx="100" cy="66" r="60" fill="rgba(47,107,100,.22)"/><path d="M20 230 a80 80 0 0 1 80 -80 a80 80 0 0 1 80 80 V400 H20 Z" fill="rgba(47,107,100,.22)"/></svg></div>
+  <p class="h abs" style="left:640px;top:560px;font-size:76px;letter-spacing:-3px;color:var(--escuro);white-space:nowrap">1 em<br>cada 3</p>
+  <p class="h abs" style="left:640px;top:730px;font-size:34px;letter-spacing:-.5px">não sabe<br>que tem.</p>
+  <p class="fonte" style="left:72px;right:72px;top:880px">Adultos de 20 a 79 anos; o Brasil é o 6º país com mais casos · IDF Diabetes Atlas, 11ª edição (2025), estimativas de 2024</p>
+  <div class="fio" style="left:72px;right:72px;top:950px"></div>
+  <p class="txt" style="left:72px;right:72px;top:980px">Mesmo assim, “cuide da alimentação e se mexa” ainda soa como a parte menos séria do tratamento.</p>
   <p class="fecho" style="left:72px;right:72px;bottom:70px">Parece conselho. A ciência trata como tratamento.</p>
 </section>
 
-<!-- 3 · O ESTUDO + CTA, fundo claro: foto na metade de cima e a faixa de dados com linhas finas. -->
-<section class="slide ed liso" id="e-03">
-  <div class="moldura" style="left:0;top:0;width:1080px;height:440px"></div>
-  <p class="aviso" style="left:140px;width:800px;top:150px">FOTO: rotina possível no trabalho. Marmita colorida<br>sobre a mesa, ou colegas caminhando no intervalo.<br>Horizontal (1080x440), luz natural.</p>
-  <div class="topo" style="color:#fff;opacity:.9"><span>@fairhealth.br</span><span>03/06</span></div>
-  <p class="rotulo abs" style="left:72px;top:486px">O estudo</p>
-  <h2 class="h tit" style="left:72px;top:534px">O que fez o grupo</h2>
-  <p class="serif tit-s" style="left:70px;top:606px">do estilo de vida.</p>
-  <div class="fio" style="left:72px;right:72px;top:722px"></div>
-  <p class="h abs" style="left:72px;top:748px;font-size:66px;letter-spacing:-2.5px;color:var(--escuro)">3.234</p>
-  <p class="abs" style="left:72px;top:826px;width:260px;font-size:24px;line-height:1.25;font-weight:600">adultos com pré-diabetes</p>
-  <div class="abs" style="left:368px;top:748px;width:2px;height:120px;background:rgba(20,27,27,.16)"></div>
-  <p class="h abs" style="left:400px;top:748px;font-size:66px;letter-spacing:-2.5px;color:var(--escuro)">150 min</p>
-  <p class="abs" style="left:400px;top:826px;width:280px;font-size:24px;line-height:1.25;font-weight:600">de atividade por semana</p>
-  <div class="abs" style="left:704px;top:748px;width:2px;height:120px;background:rgba(20,27,27,.16)"></div>
-  <p class="h abs" style="left:736px;top:748px;font-size:66px;letter-spacing:-2.5px;color:var(--escuro)">7%</p>
-  <p class="abs" style="left:736px;top:826px;width:272px;font-size:24px;line-height:1.25;font-weight:600">do peso: a meta de perda</p>
-  <div class="fio" style="left:72px;right:72px;top:896px"></div>
-  <p class="txt" style="left:72px;right:72px;top:918px;font-size:29px">O risco caiu <b>58%</b> nesse grupo e <b>31%</b> no do remédio, contra placebo. <b>O remédio também ajuda</b> e, muitas vezes, é necessário.</p>
-  <p class="fonte abs" style="left:72px;right:72px;top:1040px;font-size:19px">Diabetes Prevention Program, NEJM, 2002: 27 centros nos EUA, 2,8 anos em média. Não substitui orientação médica.</p>
-  <div class="cta" style="left:72px;right:72px;top:1110px;height:120px"></div>
-  <p class="abs" style="left:110px;right:110px;top:1132px;font-size:29px;line-height:1.3;font-weight:500">Conhece alguém que acha que estilo de vida<br>é “só conselho”? <b style="font-style:normal">Mande este post.</b></p>
+<!-- 3 · O ESTUDO + CTA: gráfico de barras com os casos por 100 pessoas por ano (DPP, NEJM 2002). -->
+<section class="slide ed" id="e-03">
+  <img src="fotos/fundo-2.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
+  <div class="topo"><span>@fairhealth.br</span><span>03/06</span></div>
+  <p class="rotulo abs" style="left:72px;top:140px">O estudo</p>
+  <h2 class="tit" style="left:72px;top:190px;font-size:58px">Casos novos de diabetes</h2>
+  <p class="abs" style="left:72px;top:258px;font-size:30px;font-weight:500">a cada 100 pessoas acompanhadas por um ano</p>
+  <div class="fio" style="left:72px;right:72px;top:760px;background:rgba(20,27,27,.35)"></div>
+  <div class="abs" style="left:72px;top:400px;width:240px;height:360px;border-radius:18px 18px 0 0;background:rgba(20,27,27,.16)"></div>
+  <p class="h abs" style="left:72px;top:326px;width:240px;text-align:center;font-size:58px;letter-spacing:-2px;color:var(--tinta)">11,0</p>
+  <p class="abs" style="left:72px;top:778px;width:240px;text-align:center;font-size:26px;font-weight:700">Placebo</p>
+  <p class="abs" style="left:72px;top:816px;width:240px;text-align:center;font-size:22px;font-weight:600;opacity:.65"></p>
+  <div class="abs" style="left:420px;top:505px;width:240px;height:255px;border-radius:18px 18px 0 0;background:var(--agua)"></div>
+  <p class="h abs" style="left:420px;top:431px;width:240px;text-align:center;font-size:58px;letter-spacing:-2px;color:var(--tinta)">7,8</p>
+  <p class="abs" style="left:420px;top:778px;width:240px;text-align:center;font-size:26px;font-weight:700">Remédio</p>
+  <p class="abs" style="left:420px;top:816px;width:240px;text-align:center;font-size:22px;font-weight:600;opacity:.65">31% menos</p>
+  <div class="abs" style="left:768px;top:603px;width:240px;height:157px;border-radius:18px 18px 0 0;background:var(--escuro)"></div>
+  <p class="h abs" style="left:768px;top:529px;width:240px;text-align:center;font-size:58px;letter-spacing:-2px;color:var(--escuro)">4,8</p>
+  <p class="abs" style="left:768px;top:778px;width:240px;text-align:center;font-size:26px;font-weight:700">Estilo de vida</p>
+  <p class="abs" style="left:768px;top:816px;width:240px;text-align:center;font-size:22px;font-weight:600;opacity:.65">58% menos</p>
+
+  <p class="txt" style="left:72px;right:72px;top:870px;font-size:28px">3.234 adultos com pré-diabetes. O grupo do estilo de vida tinha metas de 150 minutos de atividade por semana e de perder 7% do peso. <b>O remédio também ajuda</b> e, muitas vezes, é necessário.</p>
+  <p class="fonte" style="left:72px;right:72px;top:1030px">Diabetes Prevention Program, New England Journal of Medicine, 2002: 27 centros nos EUA, 2,8 anos de acompanhamento em média. Não substitui orientação médica.</p>
+  <p class="mk" style="left:66px;top:1130px;font-size:30px;font-weight:600;letter-spacing:0"><span>&nbsp;Conhece alguém que acha que estilo de vida&nbsp;</span></p>
+  <p class="mk" style="left:66px;top:1180px;font-size:30px;letter-spacing:0"><span>&nbsp;é “só conselho”? Mande este post.&nbsp;</span></p>
 </section>
 
-<!-- 4 · A VIRADA, no tiffany: 16 gigante, um ponto por encontro, e o −27% em 15 anos. -->
-<section class="slide ed agua" id="e-04">
+<!-- 4 · A VIRADA: o marca-texto no acompanhamento, 16 pontos (um por encontro) e o −27% em 15 anos. -->
+<section class="slide ed" id="e-04">
+  <img src="fotos/fundo-3.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
   <div class="topo"><span>@fairhealth.br</span><span>04/06</span></div>
   <p class="rotulo abs" style="left:72px;top:150px">O que fez a diferença</p>
-  <h2 class="h tit" style="left:72px;top:200px">Não foi o conselho.</h2>
-  <p class="serif tit-s" style="left:70px;top:272px">Foi o acompanhamento.</p>
-  <p class="giga" style="left:640px;top:380px;font-size:300px;letter-spacing:-16px;color:var(--escuro)">16</p>
+  <h2 class="tit" style="left:70px;top:200px;font-size:70px">Não foi o conselho.</h2>
+  <p class="mk" style="left:64px;top:286px;font-size:70px;letter-spacing:-2.5px"><span>&nbsp;Foi o acompanhamento.&nbsp;</span></p>
+  <p class="h abs" style="left:640px;top:380px;font-size:300px;letter-spacing:-14px;line-height:.86;color:var(--escuro)">16</p>
   <div class="abs" style="left:72px;top:560px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:138px;top:560px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:204px;top:560px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:270px;top:560px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:336px;top:560px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:402px;top:560px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:468px;top:560px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:534px;top:560px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:72px;top:626px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:138px;top:626px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:204px;top:626px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:270px;top:626px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:336px;top:626px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:402px;top:626px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:468px;top:626px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div><div class="abs" style="left:534px;top:626px;width:46px;height:46px;border-radius:50%;background:var(--escuro)"></div>
   <p class="abs" style="left:72px;top:440px;width:520px;font-size:30px;line-height:1.3;font-weight:700">encontros individuais nas primeiras 24 semanas</p>
-  <p class="abs" style="left:72px;top:712px;width:900px;font-size:27px;line-height:1.35;font-weight:500">Um profissional acompanhando cada pessoa. Depois, encontros mensais. <span style="opacity:.7">(1 ponto = 1 encontro)</span></p>
+  <p class="abs" style="left:72px;top:712px;width:900px;font-size:27px;line-height:1.35;font-weight:500">Um profissional acompanhando cada pessoa. Depois, encontros mensais. <span style="opacity:.6">(1 ponto = 1 encontro)</span></p>
   <div class="fio" style="left:72px;right:72px;top:800px"></div>
   <p class="h abs" style="left:62px;top:830px;font-size:140px;letter-spacing:-6px;color:var(--escuro)">−27%</p>
   <p class="abs" style="left:470px;top:846px;width:538px;font-size:28px;line-height:1.3;font-weight:500">no risco, em média, em 15 anos de acompanhamento, mesmo com o programa oferecido depois a todos os grupos.</p>
-  <p class="fonte abs" style="left:72px;right:72px;top:1010px;font-size:20px">DPP (NEJM, 2002) e DPP Outcomes Study (Lancet Diabetes &amp; Endocrinology, 2015).</p>
+  <p class="fonte" style="left:72px;right:72px;top:1010px">DPP (New England Journal of Medicine, 2002) e DPP Outcomes Study (Lancet Diabetes &amp; Endocrinology, 2015).</p>
   <p class="fecho" style="left:72px;right:72px;bottom:70px">Mudar sozinho é difícil. Com alguém junto, fica possível.</p>
 </section>
 
-<!-- 5 · NO ESCRITÓRIO DO CUIDADO, verde-escuro: foto real das poltronas numa faixa à direita e os 7 pilares em etiquetas. -->
-<section class="slide ed verde" id="e-05">
-  <img src="fotos/e-05.jpg" class="abs" alt="" style="left:680px;top:0;width:400px;height:760px;object-fit:cover">
-  <div class="topo"><span>@fairhealth.br</span><span style="color:#fff">05/06</span></div>
+<!-- 5 · OS 7 PILARES: lista tipográfica em caixa alta, sobre o creme liso. -->
+<section class="slide ed" id="e-05">
+  <img src="fotos/fundo-0.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
+  <div class="topo"><span>@fairhealth.br</span><span>05/06</span></div>
   <p class="rotulo abs" style="left:72px;top:150px">No Escritório do Cuidado</p>
-  <h2 class="h tit" style="left:72px;top:200px;font-size:60px">Medicina do<br>Estilo de Vida é</h2>
-  <p class="serif abs" style="left:70px;top:336px;font-size:80px;line-height:.98">método,<br>meta e<br>retorno.</p>
-  <p class="txt" style="left:72px;width:570px;top:590px;font-size:28px">Atendimento dentro da empresa e um plano individual, revisto a cada retorno, nos <b>7 pilares</b>:</p>
-  <div class="tag" style="left:72px;top:820px;width:320px"></div><p class="tag-t" style="left:72px;top:820px;width:320px">Alimentação saudável</p>
-  <div class="tag" style="left:406px;top:820px;width:200px"></div><p class="tag-t" style="left:406px;top:820px;width:200px">Movimento</p>
-  <div class="tag" style="left:72px;top:896px;width:270px"></div><p class="tag-t" style="left:72px;top:896px;width:270px">Sono de qualidade</p>
-  <div class="tag" style="left:72px;top:972px;width:380px"></div><p class="tag-t" style="left:72px;top:972px;width:380px">Gerenciamento de estresse</p>
-  <div class="tag" style="left:72px;top:1048px;width:250px"></div><p class="tag-t" style="left:72px;top:1048px;width:250px">Manejo de vícios</p>
-  <div class="tag" style="left:336px;top:1048px;width:250px"></div><p class="tag-t" style="left:336px;top:1048px;width:250px">Relacionamentos</p>
-  <div class="tag" style="left:72px;top:1124px;width:390px"></div><p class="tag-t" style="left:72px;top:1124px;width:390px">Espiritualidade e propósito</p>
+  <h2 class="h abs" style="left:72px;top:206px;font-size:52px;letter-spacing:-1px;text-transform:uppercase;white-space:nowrap;color:var(--escuro)">Os 7 pilares da Medicina<br>do Estilo de Vida:</h2>
+  <p class="h abs" style="left:72px;top:420px;font-size:44px;letter-spacing:-.5px;text-transform:uppercase;white-space:nowrap">1. Alimentação saudável</p>
+  <p class="h abs" style="left:72px;top:492px;font-size:44px;letter-spacing:-.5px;text-transform:uppercase;white-space:nowrap">2. Movimento</p>
+  <p class="h abs" style="left:72px;top:564px;font-size:44px;letter-spacing:-.5px;text-transform:uppercase;white-space:nowrap">3. Sono de qualidade</p>
+  <p class="h abs" style="left:72px;top:636px;font-size:44px;letter-spacing:-.5px;text-transform:uppercase;white-space:nowrap">4. Gerenciamento de estresse</p>
+  <p class="h abs" style="left:72px;top:708px;font-size:44px;letter-spacing:-.5px;text-transform:uppercase;white-space:nowrap">5. Manejo de vícios</p>
+  <p class="h abs" style="left:72px;top:780px;font-size:44px;letter-spacing:-.5px;text-transform:uppercase;white-space:nowrap">6. Relacionamentos</p>
+  <p class="h abs" style="left:72px;top:852px;font-size:44px;letter-spacing:-.5px;text-transform:uppercase;white-space:nowrap">7. Espiritualidade e propósito</p>
+  <div class="fio" style="left:72px;right:72px;top:960px"></div>
+  <p class="txt" style="left:72px;right:72px;top:990px">O plano é individual, combinado com a pessoa e revisto a cada retorno, com atendimento <b>dentro da empresa</b>.</p>
   <p class="fecho" style="left:72px;right:72px;bottom:70px">Tratamento sério também cabe na rotina.</p>
 </section>
 
-<!-- 6 · CONVITE, fundo claro: pergunta grande em serif. -->
-<section class="slide ed liso" id="e-06">
+<!-- 6 · CONVITE: título grande no brilho Tiffany e o pedido no marca-texto. -->
+<section class="slide ed" id="e-06">
+  <img src="fotos/fundo-1.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
   <div class="topo"><span>@fairhealth.br</span><span>06/06</span></div>
-  <p class="rotulo abs" style="left:72px;top:150px">E na sua empresa?</p>
-  <h2 class="h tit" style="left:72px;top:200px">Cuidar da saúde<br>das pessoas é</h2>
-  <p class="serif abs" style="left:66px;top:350px;font-size:104px;letter-spacing:-2.5px;line-height:.98">conselho ou<br>acompanhamento?</p>
-  <p class="txt" style="left:72px;right:72px;top:600px">No Escritório do Cuidado, a Medicina do Estilo de Vida chega com atendimento dentro da empresa e retornos para rever o plano.</p>
-  <div class="pil-solida" style="left:72px;top:790px;width:440px;height:86px"></div>
-  <p class="pil-t" style="left:72px;top:809px;width:440px;font-size:40px;color:#fff">Comente <b>CUIDADO</b></p>
-  <p class="txt" style="left:72px;right:72px;top:896px;font-size:28px">e enviamos na DM como funciona o diagnóstico gratuito.</p>
-  <p class="fecho" style="left:72px;right:72px;bottom:150px;font-size:40px">Na sexta: como levar a fairhealth para a sua empresa.</p>
-  <div class="selo" style="left:77px;bottom:66px"><div class="anel"></div><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>
+  <h2 class="tit" style="left:68px;top:220px;font-size:96px;letter-spacing:-4px">Com o Escritório<br>do Cuidado,<br>ninguém muda<br>sozinho.</h2>
+  <p class="txt" style="left:72px;width:820px;top:660px;font-size:34px">Medicina do Estilo de Vida com atendimento dentro da empresa e retornos para rever o plano.</p>
+  <p class="txt" style="left:72px;top:830px;font-size:34px">Quer levar para a sua empresa?</p>
+  <p class="mk" style="left:66px;top:890px;font-size:34px;letter-spacing:0"><span>&nbsp;Comente CUIDADO e enviamos na DM&nbsp;</span></p>
+  <p class="mk" style="left:66px;top:948px;font-size:34px;letter-spacing:0"><span>&nbsp;como funciona o diagnóstico gratuito.&nbsp;</span></p>
+  <p class="fecho" style="left:72px;right:72px;top:1100px;font-size:40px">Na sexta: como levar a fairhealth para a sua empresa.</p>
+  <div class="selo" style="left:72px;top:1220px"><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>
 </section>
 
 </body></html>

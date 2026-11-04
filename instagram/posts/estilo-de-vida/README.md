@@ -32,6 +32,7 @@ Não repete 28/10 (números de retorno da prevenção) nem 30/10 (passos para a 
 | 1 em cada 3 não sabe | Mesmo PDF, resumo por país | Diabetes não diagnosticado no Brasil: 31,9% |
 | 3.234 adultos, 27 centros, 2,8 anos, glicose elevada | NEJM 2002;346:393-403, texto completo no PMC (PMC1370926) | "3234 nondiabetic persons with elevated fasting and post-load plasma glucose", "27 centers", "average follow-up was 2.8 years" |
 | 58% e 31% contra placebo; estilo de vida melhor que metformina | Mesmo artigo | Redução de 58% e 31% contra placebo; estilo de vida significativamente mais eficaz que metformina |
+| 11,0, 7,8 e 4,8 casos por 100 pessoas por ano (gráfico do slide 3) | Mesmo artigo | "The incidence of diabetes was 11.0, 7.8, and 4.8 cases per 100 person-years" (placebo, metformina, estilo de vida) |
 | 150 minutos e 7% do peso | Mesmo artigo | Metas: perda de pelo menos 7% do peso e 150 minutos de atividade moderada por semana |
 | 16 encontros em 24 semanas, depois mensais | Mesmo artigo | Currículo de 16 lições, individual, com case managers, nas primeiras 24 semanas; depois sessões individuais geralmente mensais |
 | 27% em 15 anos, programa oferecido a todos | Lancet Diabetes Endocrinol 2015;3(11):866-75, texto completo no PMC (PMC4623946) | Redução de 27% (estilo de vida) e 18% (metformina) em 15 anos; todos receberam a oferta do programa em grupo depois do DPP |
@@ -66,3 +67,18 @@ os 7 pilares em etiquetas; a foto real das poltronas (`fotos/e-05.jpg`, da foto 
 |---|---|
 | 1 (tela cheia) | Pessoa de verdade se movendo no dia a dia do trabalho: subir a escada, caminhar no intervalo. Luz natural, cores vivas, sem cara de academia ou de anúncio. |
 | 3 (1080x440) | Rotina possível no trabalho: marmita colorida sobre a mesa, ou colegas caminhando no intervalo. |
+
+## Design v3 (04/11): a partir das inspirações da Nina
+
+Inspirações: gráfico de silhuetas, fundo creme com degradê Tiffany e marca-texto (Interhealth), lista tipográfica
+em caixa alta ("7 foundations"), silhuetas + número grande, grade de pontos, gráfico limpo com fonte (Gallup).
+
+- Fundo creme com brilho Tiffany e granulado, gerado como imagem (`fotos/fundo-*.jpg`) para o Canva aceitar.
+- Capa só tipográfica: "Estilo de vida também é" + "tratamento sério." no marca-texto Tiffany.
+- Slide 2: 16,6 milhões e três silhuetas, uma apagada (1 em cada 3 sem diagnóstico).
+- Slide 3: gráfico de barras com a incidência do DPP por 100 pessoas por ano: placebo 11,0, metformina 7,8,
+  estilo de vida 4,8 (NEJM 2002, conferido no texto completo), com 31% e 58% menos.
+- Slide 4: "Foi o acompanhamento." no marca-texto, 16 pontos e o −27%.
+- Slide 5: os 7 pilares em lista numerada em caixa alta.
+- Slide 6: "Com o Escritório do Cuidado, ninguém muda sozinho." e o pedido no marca-texto.
+- Sem molduras de foto: o post não depende de imagem. A v2 (com foto) fica no histórico do git.
