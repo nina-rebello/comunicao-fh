@@ -170,3 +170,15 @@ passaram a Tiffany (regra das diretrizes: cor extra sempre com o Tiffany na peç
 | Rosa | `#EE4D9B` | `#E0368A` | branco |
 | Amarelo | `#F2C94C` | `#D9A514` | verde-escuro |
 | Turquesa | `#1FB5A8` | `#159C90` | branco |
+
+## Design v6 (04/11): rosa em marca-texto no papel
+
+- Cor dos dados: **rosa `#EE4D9B`** (texto `#E0368A`), escolhida pela Nina no teste de cores.
+- Textura de marca-texto/tinta impressa: PNGs gerados por `instagram/ferramentas/textura.py` (granulado, listras,
+  falhas e bordas irregulares). Os marca-textos ficam atrás do texto como imagem (`fotos/tx-mk-*.png`), medidos
+  por `instagram/ferramentas/medir-marcas.mjs`. Rosa em "caíram 58%" e "não sabe que tem."; Tiffany nos demais.
+- Gráfico do slide 3 refeito, mais sóbrio: barras retas com textura (`fotos/tx-barra-*.png`), valores dentro das
+  barras, linha fina no nível do placebo, nomes dos grupos com traço à mão e anotação à mão em tinta
+  ("58% menos" circulado e seta). As pessoas do slide 2 também têm textura (`fotos/tx-pessoa-*.png`).
+- Anotações à mão (chave do slide 5, círculos, setas, sublinhados) em tinta `#141B1B`, como nas referências.
+- Para refazer as texturas depois de mudar um texto: medir com `medir-marcas.mjs` e gerar de novo com `textura.py`.
