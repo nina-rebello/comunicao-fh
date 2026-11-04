@@ -75,7 +75,7 @@ Quer essas quatro ideias funcionando na sua empresa? Comente CUIDADO e enviamos 
 
 ## Design (visual pontual, inspiração de 03/11)
 
-Foto do espaço em tela cheia, véu escuro, título enorme em branco (Raleway 800) com uma palavra em Tiffany `#9FC5BD` e texto corrido embaixo, sem caixas. As fotos são os renders do Escritório do Cuidado (`marca/espaco`), recortados por `recortes.py`: confirmar se podemos usar render ou trocar por fotos reais (a Nina pode trocar qualquer imagem no Canva).
+Foto do espaço em tela cheia, véu escuro, título enorme em branco (Raleway 800) com uma palavra em Tiffany `#9FC5BD` e texto corrido embaixo, sem caixas. Capa (`fotos/capa-a.jpg`, poltronas, com o texto no alto) e fecho (`fotos/capa-b.jpg`, copa) usam as fotos enviadas pela Nina em 04/11. Os slides 2 a 5 usam os renders do Escritório do Cuidado (`marca/espaco`), recortados e aquecidos por `recortes.py` para conversar com as fotos; podem ser trocados por fotos reais no Canva.
 
 - Gerar: `python3 instagram/posts/historia-2009/recortes.py`, depois `render.mjs`, `canva.mjs` e `pdf.mjs` (ver CLAUDE.md).
 - Pendências: validar a linha do tempo com o Dr. Ronald; preparar a resposta automática da palavra CUIDADO.
