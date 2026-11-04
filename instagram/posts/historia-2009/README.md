@@ -72,3 +72,10 @@ Quer essas quatro ideias funcionando na sua empresa? Comente CUIDADO e enviamos 
 ## Versão anterior
 
 - v1 (commit `cf70e3a`): contava a origem no hospital, que já tinha saído no post de 21/10.
+
+## Design (visual pontual, inspiração de 03/11)
+
+Foto do espaço em tela cheia, véu escuro, título enorme em branco (Raleway 800) com uma palavra em Tiffany `#9FC5BD` e texto corrido embaixo, sem caixas. As fotos são os renders do Escritório do Cuidado (`marca/espaco`), recortados por `recortes.py`: confirmar se podemos usar render ou trocar por fotos reais (a Nina pode trocar qualquer imagem no Canva).
+
+- Gerar: `python3 instagram/posts/historia-2009/recortes.py`, depois `render.mjs`, `canva.mjs` e `pdf.mjs` (ver CLAUDE.md).
+- Pendências: validar a linha do tempo com o Dr. Ronald; preparar a resposta automática da palavra CUIDADO.
