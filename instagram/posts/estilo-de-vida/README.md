@@ -17,7 +17,7 @@ Não repete 28/10 (números de retorno da prevenção) nem 30/10 (passos para a 
 
 | # | Rótulo | Título | Texto | Fecho |
 |---|---|---|---|---|
-| 1 | Dia Mundial do Diabetes · 14/11 | Num estudo com mais de 3 mil pessoas, *mudar a rotina funcionou melhor que o remédio.* | Pílula: o que a ciência mostrou → | |
+| 1 | Dia Mundial do Diabetes · 14/11 | Estilo de vida também é *tratamento sério.* | Gráfico do estudo: programa de estilo de vida −58%, remédio (metformina) −31%, contra placebo (DPP, NEJM, 2002). Pílula: O que a ciência mostrou → | |
 | 2 | O tamanho do problema | 16,6 milhões de brasileiros *vivem com diabetes.* | São adultos de 20 a 79 anos, o que coloca o Brasil em 6º lugar no mundo. E cerca de 1 em cada 3 não sabe que tem. Mesmo assim, o conselho mais comum, "cuide da alimentação e se mexa", costuma soar como a parte menos séria do tratamento. Fonte: IDF Diabetes Atlas, 11ª edição (2025), estimativas de 2024. | Parece conselho. A ciência trata como tratamento. |
 | 3 | O estudo | *58%* contra 31%. | Em 27 centros nos EUA, 3.234 adultos com glicose acima do normal (pré-diabetes) foram acompanhados, em média, por 2,8 anos. No grupo do programa de estilo de vida, com metas de 150 minutos de atividade por semana e perda de 7% do peso, o risco de desenvolver diabetes caiu 58%. No grupo do remédio (metformina), caiu 31%. As duas comparações são com placebo. Fonte: Diabetes Prevention Program, New England Journal of Medicine, 2002. Estudo com pessoas com pré-diabetes; não substitui orientação médica. + CTA: Conhece alguém que acha que estilo de vida é "só conselho"? Mande este post. | |
 | 4 | O que fez a diferença | Não foi o conselho. *Foi o acompanhamento.* | O grupo do estilo de vida não recebeu só uma orientação: teve 16 encontros individuais nas primeiras 24 semanas, com um profissional acompanhando cada pessoa, e depois encontros mensais. Em 15 anos de acompanhamento, a redução média ainda foi de 27%, mesmo depois de o programa ser oferecido a todos os grupos. Fonte: DPP Outcomes Study, Lancet Diabetes & Endocrinology, 2015. | Mudar sozinho é difícil. Com alguém junto, fica possível. |
@@ -41,3 +41,14 @@ Não repete 28/10 (números de retorno da prevenção) nem 30/10 (passos para a 
 
 - Revisão técnica da equipe médica (CFM): comparação com remédio, frase "não substitui orientação médica".
 - Nomes dos 7 pilares (decisão da Nina de 12/10, em `essencia.md`).
+
+## Design (04/11)
+
+- **Capa B** escolhida pela Nina: "não desconsidera o remédio, que também é importante". Por isso o slide 3 diz que
+  o remédio também ajuda e muitas vezes é necessário, e o gráfico da capa mostra os dois resultados.
+- Fundos: tiffany, verde-escuro, claro, tiffany, verde-escuro, claro. Recursos: gráfico de barras (1), número
+  grande e três círculos para "1 em cada 3" (2), grade de caixas (3), 16 pontos, um por encontro, e o −27% (4),
+  lista numerada dos 7 pilares (5).
+- Sem foto: o post é de dados. Se a Nina quiser, a capa pode ganhar uma foto.
+- Slide 3 mudou com a capa: em vez de "58% contra 31%", mostra o que o grupo fez (3.234 adultos, 150 min, 7%).
+- `capas.html` e `capas/` guardam o teste das duas capas.
