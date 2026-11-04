@@ -4,11 +4,13 @@
 `marketing/ferramentas/conteudo_posts_novembro.py`. Vem depois do Reel do Novembro Azul (16/11) e antes
 do depoimento de 19/11.
 
-**Status:** v3 para aprovação (04/11), com os pedidos da Nina sobre a v2.
+**Status:** v4 para aprovação (04/11): a v3 com o convite trocado (sem "Comente CUIDADO").
 
 - **Artes** (1080x1350): `png/n-01.png` … `n-06.png`, nesta ordem. Prévia em `previa.png`.
-- **Alternativa do slide 3:** `png-alternativas/n-03-recorte.png` (o recorte digitado da v2, com o texto já
-  corrigido pelo oficial). Fonte em `alternativas.html`, Canva em `canva-alternativas.html`.
+- **Alternativas** (`alternativas.html`, imagens em `png-alternativas/`, Canva em `canva-alternativas.html`):
+  - slide 3 com o recorte digitado da v2, com o texto já corrigido pelo oficial (`n-03-recorte.png`);
+  - slide 6 com o convite de contato: "Fale com a gente pelo link da bio e leve o Escritório do Cuidado para a sua
+    empresa." (`n-06-contato.png`).
 - **Canva:** `canva.html` (autocontido, cerca de 20 MB, como o de 11/11). Para importar, siga o `CLAUDE.md`
   (commit, push e endereço raw com o hash do commit). Também há o `nr01-afastamentos.pdf`.
 - **Para regerar depois de editar:**
@@ -21,10 +23,18 @@ do depoimento de 19/11.
   node instagram/ferramentas/canva.mjs instagram/posts/nr01-afastamentos/alternativas.html instagram/posts/nr01-afastamentos/canva-alternativas.html
   ```
   O `gerar.py` refaz os fundos com granulado, as barras e a fita com textura, os recortes do PDF oficial da NR-01
-  (`fotos/nr-01-atualizada-2025.pdf`, precisa do `pdftoppm`), as composições de `recorte.html` (print colado,
-  recorte digitado e capa do guia, em PNG transparente), a foto do slide 5 e os marca-textos (mede cada linha
+  (`fotos/nr-01-atualizada-2025.pdf`, precisa do `pdftoppm`), as composições de `recorte.html` (print colado e
+  recorte digitado, em PNG transparente), a foto do slide 5 e os marca-textos dos dois HTML (mede cada linha
   `data-mk` e acerta a imagem `data-tx`). Usa `instagram/ferramentas/textura.py` e `medir-marcas.mjs`, do carrossel
   de 11/11. O CSS fica em `estilo.css`, comum a `slides.html` e `alternativas.html`.
+
+## v4 (04/11): o convite
+
+A Nina pediu um convite sem "Comente CUIDADO": curtir, comentar e compartilhar, ou entrar em contato. O slide 6
+mantém o balão "E agora, RH?" da capa e responde com "Curta, comente e compartilhe com quem cuida das pessoas na
+sua empresa.", com os ícones das três ações. A versão de contato ("Fale com a gente pelo link da bio e leve o
+Escritório do Cuidado para a sua empresa.", no modelo de chamadas anteriores) fica nas alternativas. A capa do
+guia de NR-01 saiu: ela era a entrega da palavra CUIDADO.
 
 ## v3 (04/11): o que mudou e por quê
 
@@ -53,7 +63,7 @@ Pedidos da Nina sobre a v2:
 | 3 | Verde-escuro | "NR-01" gigante e o print do texto oficial colado com fita | Desde maio de 2026, a NR-01 pede que a empresa **identifique e gerencie os riscos psicossociais**, junto com os outros riscos ocupacionais. |
 | 4 | Tiffany | Folha com a lista numerada | O que é *risco psicossocial* · Exemplos da lista do Ministério do Trabalho e Emprego: os 13 fatores do guia. Fonte: guia do MTE (2025), lista exemplificativa |
 | 5 | Foto + papel | Dois cartões, claro (Medir) e verde (Cuidar), com as alíneas da norma | Medir e cuidar: *a norma pede os dois.* Medir: b) identificar os perigos, c) avaliar os riscos, d) classificar os riscos. Com a **fairdata**: o diagnóstico dos riscos do grupo. Cuidar: e) implementar medidas de prevenção, f) acompanhar o controle dos riscos. Com o **Escritório do Cuidado**: escuta, acompanhamento e encaminhamento. Fonte: NR-01, item 1.5.3.2 |
-| 6 | Creme com brilho Tiffany | O balão da capa de volta e a capa do guia | Comente ==CUIDADO== e receba o guia de NR-01. Precisa de ajuda agora? **CVV 188.** |
+| 6 | Creme com brilho Tiffany | O balão da capa de volta e os ícones de curtir, comentar e compartilhar | Curta, comente ==e compartilhe== com quem cuida das pessoas na sua empresa. Precisa de ajuda agora? **CVV 188.** |
 
 `==trecho==` = marca-texto Tiffany. Em itálico, o trecho em Instrument Serif.
 
@@ -69,7 +79,7 @@ resumidas ("identificar os perigos e possíveis lesões ou agravos à saúde" vi
 - Fundos que mudam a cada slide, nenhum vizinho igual: creme com brilho, papel, verde-escuro, Tiffany, foto e
   papel, creme com brilho. O Tiffany `#9FC5BD` é fundo no slide 4 e cor dos destaques em todos.
 - O balão "E agora, RH?" abre na capa e volta no último slide (ponto de virada do método Vinci).
-- Fundos, marca-textos, barras, prints, fita e capa do guia são imagens, para o Canva aceitar. Os textos
+- Fundos, marca-textos, barras, prints e fita são imagens, para o Canva aceitar. Os textos
   continuam editáveis, cada um na sua caixa.
 - Fonte em letra pequena em todo slide com dado ou norma (1 a 5). CVV 188 no último slide.
 - "NR-01" nunca vai em Instrument Serif: os algarismos dela deixam o "01" com cara de "0l".
@@ -103,12 +113,10 @@ resumidas ("identificar os perigos e possíveis lesões ou agravos à saúde" vi
 
 ## Pendências
 
-- [ ] Aprovação da v3 pela Nina: texto novo do slide 5 (com a fairdata), slide 3 com print ou com recorte
-      digitado, numeração no topo.
+- [ ] Aprovação da v4 pela Nina: texto novo do slide 5 (com a fairdata), slide 3 com print ou com recorte
+      digitado, slide 6 com curtir/comentar/compartilhar ou com contato, numeração no topo.
 - [ ] Dr. Ronald: revisar o texto de saúde mental (CFM) e a leitura da NR-01.
-- [ ] Guia de NR-01 pronto e validado até 13/11 (é a entrega do CUIDADO; a capa do slide 6 pode ser trocada pela
-      capa real), e alguém para responder as DMs.
-- [ ] Legenda: o rascunho do N08 foi ajustado à v3 (lista do MTE, medir e cuidar). Ainda precisa passar pela
-      skill ig-caption (com o `caption.py`) e pela ig-human.
-- [ ] Métrica que decide se o post deu certo (método Vinci): comentários CUIDADO e salvamentos, comparados com o
-      carrossel de 28/10 (também de dados para o RH).
+- [ ] Legenda: o rascunho do N08 foi ajustado à v4 (lista do MTE, medir e cuidar, convite novo). Ainda precisa
+      passar pela skill ig-caption (com o `caption.py`) e pela ig-human.
+- [ ] Métrica que decide se o post deu certo (método Vinci): compartilhamentos, comentários e salvamentos (ou, na
+      versão de contato, cliques no link da bio), comparados com o carrossel de 28/10 (também de dados para o RH).

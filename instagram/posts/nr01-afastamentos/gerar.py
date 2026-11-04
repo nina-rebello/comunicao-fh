@@ -4,7 +4,7 @@
 - barras do gráfico (slide 3) e fita adesiva (slide 7), com textura de tinta impressa;
 - recorte da NR-01 (slide 4), a partir de recorte.html;
 - marca-textos: mede cada linha [data-mk] do slides.html, gera a textura no tamanho certo e acerta a posição
-  da imagem correspondente (<img data-tx="...">).
+  da imagem correspondente (<img data-tx="...">), em slides.html e alternativas.html.
 - recorte da foto do slide 6 (2x, no tamanho da moldura).
 
 Uso: python3 instagram/posts/nr01-afastamentos/gerar.py
@@ -64,18 +64,18 @@ def fita(nome):
     tela.save(FOTOS / nome)
 
 
-def medir():
-    saida = subprocess.run(['node', str(RAIZ / 'instagram/ferramentas/medir-marcas.mjs'), str(AQUI / 'slides.html')],
+def medir(nome):
+    saida = subprocess.run(['node', str(RAIZ / 'instagram/ferramentas/medir-marcas.mjs'), str(AQUI / nome)],
                            check=True, capture_output=True, text=True).stdout
     return json.loads(saida)
 
 
-def marcas():
-    html_p = AQUI / 'slides.html'
+def marcas(nome, seed=11):
+    html_p = AQUI / nome
     html = html_p.read_text(encoding='utf-8')
-    for i, m in enumerate(medir()):
+    for i, m in enumerate(medir(nome)):
         x, y, w, h = m['x'] - 4, m['y'] + 3, m['w'] + 8, m['h'] - 4
-        textura.marca(w, h, TIFFANY, seed=11 + i).save(FOTOS / f"tx-mk-{m['id']}.png")
+        textura.marca(w, h, TIFFANY, seed=seed + i).save(FOTOS / f"tx-mk-{m['id']}.png")
         estilo = f'left:{x:.0f}px;top:{y:.0f}px;width:{w:.0f}px;height:{h:.0f}px'
         html = re.sub(rf'(<img [^>]*data-tx="{m["id"]}"[^>]*style=")[^"]*(")', rf'\g<1>{estilo}\g<2>', html)
         print('marca-texto', m['id'], estilo)
@@ -130,6 +130,6 @@ if __name__ == '__main__':
     subprocess.run(['node', str(RAIZ / 'instagram/ferramentas/render-transparente.mjs'), str(AQUI / 'recorte.html'),
                     str(FOTOS)], check=True)
     (FOTOS / 'recorte-nr01-afastamentos.png').unlink(missing_ok=True)
-    marcas()
-    # a alternativa do slide 3 (recorte digitado) usa as mesmas imagens; não tem marca-texto medido
+    marcas('slides.html')
+    marcas('alternativas.html', seed=41)
     print('ok')

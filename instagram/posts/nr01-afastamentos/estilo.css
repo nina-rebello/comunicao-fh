@@ -97,3 +97,8 @@
 .k-fio.claro{background:rgba(255,255,255,.22)}
 .seta-c{position:absolute;width:60px;height:60px;border-radius:50%;background:var(--agua)}
 .seta-t{position:absolute;margin:0;width:60px;text-align:center;font-size:30px;font-weight:800;line-height:1;color:var(--tinta)}
+
+/* Convite (slide 6): ícones de curtir, comentar e compartilhar. */
+.acao{position:absolute;width:96px;height:96px;border-radius:50%;background:var(--agua)}
+.acao-svg{position:absolute;width:52px;height:52px}
+.acao-svg svg{display:block;width:52px;height:52px}
