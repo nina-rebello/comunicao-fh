@@ -90,10 +90,14 @@ reportagens: conferir no relatório original antes de reaproveitar.
 
 Usadas no carrossel de 11/11 (`instagram/posts/estilo-de-vida`).
 
-- **IDF Diabetes Atlas 2025:** cerca de 16,6 milhões de adultos de 20 a 79 anos com diabetes no Brasil, 6º país
-  do mundo (visto em reportagem; conferir no diabetesatlas.org).
-- **Vigitel 2023:** 10,2% dos adultos das capitais relatam diagnóstico de diabetes (visto em reportagem).
+- **IDF Diabetes Atlas, 11ª edição (2025), estimativas de 2024 (conferido no PDF oficial):** 16.621.400 adultos
+  de 20 a 79 anos com diabetes no Brasil, 6º país do mundo; prevalência de 10,6%; 31,9% sem diagnóstico.
+- **Vigitel 2023:** 10,2% dos adultos das capitais relatam diagnóstico de diabetes (visto só em reportagem: não usar
+  sem conferir no relatório do Ministério da Saúde).
 - **Diabetes Prevention Program (NEJM, 2002):** 3.234 adultos com pré-diabetes, cerca de 3 anos; estilo de vida
   reduziu o risco de diabetes em 58% e a metformina em 31%, contra placebo.
 - **DPP Outcomes Study (Lancet Diabetes & Endocrinology, 2015):** em 15 anos, 27% de redução com estilo de vida e
   18% com metformina.
+  Todos receberam a oferta do programa em grupo depois do DPP (conferido no texto completo).
+- **Regra (04/11, Nina):** nenhum número entra sem conferência na fonte original. Reportagem serve para achar o
+  dado, não para confirmá-lo.
