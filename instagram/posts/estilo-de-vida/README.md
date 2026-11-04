@@ -125,3 +125,22 @@ no gradients, no texture on the circles. Square, 1080x1080. No text, no numbers,
 - Slide 3 em papel quadriculado (`fotos/fundo-grade.jpg`): título "58% menos casos" com o 58% em coral, barras
   verticais arredondadas (placebo cinza, remédio Tiffany, estilo de vida coral), valores em cima e seta desenhada
   à mão com "58% menos". Os gráficos são desenhados no próprio slide: os prompts de imagem ficaram opcionais.
+
+## Texto v3 (04/11, pedidos da Nina)
+
+Pedidos: não citar o remédio para defendê-lo (só não falar nada contra ele) e focar em nós e no estilo de vida;
+trocar "se mexa" por "faça atividade física"; gráfico completo e fácil de entender; slide 4 com uma mensagem só;
+pilares com contexto (por que aparecem neste post).
+
+| # | Título | Texto |
+|---|---|---|
+| 1 | Estilo de vida também é *tratamento sério.* | O que um estudo com mais de 3 mil pessoas mostrou sobre mudar a rotina. |
+| 2 | **1 em cada 3** | dos 16,6 milhões de brasileiros com diabetes não sabe que tem. Mesmo assim, "cuide da alimentação e faça atividade física" ainda soa como a parte menos séria do tratamento. Fecho: Parece conselho. A ciência trata como tratamento. |
+| 3 | Com o programa de estilo de vida, os casos novos de diabetes *caíram 58%.* | Gráfico: "De cada 100 pessoas com pré-diabetes, quantas desenvolveram diabetes por ano?" Placebo (comprimido sem efeito) 11,0 · Remédio (metformina) 7,8 · Programa de estilo de vida 4,8. Leitura: quanto menor a barra, menos gente desenvolveu diabetes. Texto: o programa não tinha nada de radical: 150 minutos de atividade física por semana (cerca de 30 minutos, 5 dias) e a meta de perder 7% do peso. CTA. |
+| 4 | Todo mundo sabe o que fazer. *O difícil é fazer sozinho.* | O que o estudo fez de diferente foi acompanhar: 16 encontros individuais nos primeiros 6 meses e, depois, encontros mensais. E o efeito durou: ao longo de 15 anos, o grupo teve, em média, 27% menos casos. Fecho: Informação todo mundo tem. Acompanhamento, quase ninguém. |
+| 5 | O estudo mexeu em 2 hábitos. *A Medicina do Estilo de Vida olha para 7.* | Alimentação e atividade física são dois dos 7 pilares. Os outros também pesam, e um interfere no outro: os pilares não funcionam isoladamente. Lista dos 7. No Escritório do Cuidado, o plano é individual: parte do que importa para cada pessoa e é revisto a cada retorno. |
+| 6 | Com o Escritório do Cuidado, *ninguém muda sozinho.* | Comente CUIDADO. Na sexta: como levar a fairhealth para a sua empresa. |
+
+Conferência do que é novo: "cerca de 30 minutos, 5 dias" é a conta de 150 minutos por semana; "6 meses" = 24
+semanas; "placebo (comprimido sem efeito)": no DPP, o grupo placebo tomava comprimidos de placebo; "os pilares
+não funcionam isoladamente" é frase da apresentação institucional (`essencia.md`).
