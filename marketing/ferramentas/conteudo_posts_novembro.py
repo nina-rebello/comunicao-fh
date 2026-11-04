@@ -320,22 +320,22 @@ Se você precisa de ajuda agora, o CVV atende pelo 188, 24 horas.
   ]),
 
  dict(id='N09', data=D(19), semana=3, bloco='5 · Atualidade', eixo='Cases', fmt=FOTO,
-  titulo='Depoimento: "Os meus hábitos mudaram, e não foi um sacrifício."',
+  titulo='Depoimentos: três vozes do Escritório do Cuidado em balões de conversa',
   sub='A voz de quem é cuidado: mudança real, sem promessa de resultado clínico',
-  status='Pauta proposta (calendário de novembro)', resp='Nina · Dr. Ronald (formato dos depoimentos)',
-  espec='Foto única 4:5 (1080 × 1350). Card de citação. Quinta-feira, porque sexta (20/11) é feriado.',
+  status='Arte v1 para aprovação (04/11)', resp='Nina · Dr. Ronald (formato dos depoimentos)',
+  espec='Foto única 4:5 (1080 × 1350). Depoimentos em balões de conversa (referência enviada pela Nina em 04/11). Quinta-feira, porque sexta (20/11) é feriado.',
   gancho='"Os meus hábitos mudaram, e não foi um sacrifício."',
   objetivo='Dar prova pela voz de quem é cuidado: mudança real de hábito, sem resultado clínico.',
   portras='O cuidado que funciona é o que cabe na vida. Quem diz isso não somos nós.',
   persona='Colaboradores; RH',
   fio='Vem de: 18/11, NR-01. Leva para: 23/11, quem cuida do RH.',
-  visual='Card de citação: aspas grandes em Instrument Serif, frase em verde-escuro sobre fundo creme, logo coração. Sem foto de pessoa.',
-  material='Só tipografia e o logo coração.',
+  visual='Fundo Tiffany com grade fina e brilho creme; título Depoimentos; três balões brancos (colaboradoras, avatar em pictograma) e um verde-escuro (equipe, logo); fecho em serif com o A5; rodapé branco com @fairhealth.br e o slogan. Sem foto de pessoa.',
+  material='Tipografia, pictogramas e o logo.',
   cta='Nenhuma (post de prova)',
   stories='Repost com a pergunta "O que tornaria o cuidado mais fácil na sua rotina?".',
-  fonte='Depoimento A2 (instagram/depoimentos.md), trecho aprovado, transcrição limpa.',
-  validar='Formato dos depoimentos com o Dr. Ronald (o mesmo pendente do 03/11). Sem nome, rosto, empresa ou condição de saúde. Assinatura padrão.',
-  arquivos='Ainda sem pasta. Sugestão: instagram/posts/depoimento-a2/',
+  fonte='instagram/depoimentos.md: A2 + A1 (vídeo), B2 + B1 (e-mail para a Dra. Marília), C1 + C2 (relato da equipe por WhatsApp, 04/11) e A5 no fecho.',
+  validar='Formato dos depoimentos com o Dr. Ronald (o mesmo pendente do 03/11). Autorização por escrito da colaboradora do e-mail e ok da Dra. Marília para o relato. Sem nome, rosto, empresa ou condição de saúde. Legenda: refazer com a ig-caption.',
+  arquivos='instagram/posts/depoimentos/ (png/d-01.png, canva.html)',
   legenda='''"Os meus hábitos mudaram, e não foi um sacrifício."
 
 Quem disse foi uma colaboradora atendida pelo Escritório do Cuidado, num retorno de consulta.
@@ -344,7 +344,7 @@ O plano de cuidado é combinado com cada pessoa e cabe na rotina real. Quando a 
 
 #fairhealth #escritoriodocuidado #medicinadoestilodevida #saudecorporativa #cuidadocentradonapessoa''',
   roteiro=[
-   ('Imagem única', '"Os meus hábitos mudaram, e não foi um sacrifício."\nColaboradora atendida pelo Escritório do Cuidado', '', 'Fundo creme, aspas grandes em Tiffany, frase em verde-escuro, logo coração embaixo.', 'Depoimento A2.'),
+   ('Imagem única', 'Escritório do Cuidado · Depoimentos\nBalão 1: Os meus hábitos mudaram, e não foi um sacrifício. [...] Não é aquela dieta impossível de fazer. É algo pra vida. (Colaboradora atendida pelo Escritório do Cuidado)\nBalão 2: Agradeço por me ajudar a olhar para as minhas conquistas com mais gentileza e reconhecer que o processo não precisa ser perfeito para estar funcionando. (Colaboradora atendida pelo Escritório do Cuidado)\nBalão 3: Ficamos bem felizes ao ouvir de uma paciente o quanto o que estamos fazendo mudou a cultura da empresa. [...] Todos estão se alimentando mais saudável, se movimentando mais e fazendo melhores escolhas. (Equipe do Escritório do Cuidado)\nFecho: "O que é bom a gente tem que compartilhar."\nRodapé: @fairhealth.br · Fazemos o certo pelos motivos certos.', '', 'Tiffany com grade, balões de conversa, avatar em pictograma.', 'Trechos de instagram/depoimentos.md (A, B e C).'),
   ]),
 
  dict(id='N10', data=D(23), semana=4, bloco='5 · Atualidade', eixo='Notícias + Cultura', fmt=REEL,

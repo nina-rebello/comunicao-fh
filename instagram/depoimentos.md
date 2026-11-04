@@ -34,3 +34,20 @@ O A3 no original fala em "perder peso". No post, usar só "É mudança de cultur
 | B3 | "Manter o foco naquilo que está ao meu alcance neste momento." | autonomia, constância |
 
 Não usar a parte sobre o joelho.
+
+## Depoimento C: relato da equipe (WhatsApp da Dra. Marília, retornos de 30 e 60 dias, recebido em 04/11)
+
+O relato é da médica, contando o que ouviu de uma paciente. Assinatura: **"Equipe do Escritório do Cuidado"**
+(sem o nome da médica, para não cair nas exigências de publicidade médica com CRM).
+
+| # | Trecho | Serve para |
+| --- | --- | --- |
+| C1 | "Ficamos bem felizes ao ouvir de uma paciente o quanto o que estamos fazendo [lá] mudou a cultura da empresa." | cultura, prova pela empresa |
+| C2 | "Todos estão se alimentando mais saudável, se movimentando mais e fazendo melhores escolhas." | hábito, MEV (é o relato da paciente, contado pela médica) |
+
+Não usar: o número de pacientes atendidos, exames, receitas, bioimpedância e "resultados de recomposição corporal"
+(resultado clínico), nem "vendo resultado nos colegas".
+
+**Pendências do B e do C (04/11):** autorização por escrito da colaboradora do e-mail e ok da Dra. Marília para
+publicar o relato, mesmo sem nomes.
+
