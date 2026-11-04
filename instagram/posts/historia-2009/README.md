@@ -96,3 +96,13 @@ Fontes: `essencia.md` (eager-bell): frase do site "O problema não é o plano de
   recortada por `recortes.py`.
 - Pendências: validar com o Dr. Ronald (resultado do hospital, pulseira por 48 h); legenda nova; resposta
   automática da palavra CUIDADO.
+
+## Decisão de 04/11: foto única em vez de carrossel
+
+A Nina preferiu publicar em 06/11 uma **foto única** e contar a história na legenda. O carrossel (v3) fica guardado
+em `slides.html` para outro uso.
+
+- Arte: `foto-unica.png` (gerada de `foto.html`, que é a capa sem a numeração). Para o Canva: `canva-foto.html`.
+- Legenda: `legenda-foto.txt` (1.204 caracteres; linter: único aviso é o CTA, que ele não reconhece em português).
+- Texto alternativo: "Duas poltronas de couro caramelo, uma mesinha com planta, livros e um abajur aceso, num
+  espaço de atendimento com luz quente. Por cima, o título: O colaborador no centro."
