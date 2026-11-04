@@ -281,7 +281,7 @@ Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
  dict(id='N08', data=D(18), semana=3, bloco='5 · Atualidade', eixo='Notícias + Mercado', fmt=CARR,
   titulo='Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH',
   sub='O dado mais recente de afastamentos e a gestão de riscos psicossociais além da planilha',
-  status='Pauta proposta (calendário de novembro)', resp='Nina · Dr. Ronald (NR-01 e saúde mental)',
+  status='Texto aprovado (04/11) · arte para aprovação', resp='Nina · Dr. Ronald (NR-01 e saúde mental)',
   espec='Carrossel 4:5 (1080 × 1350), 8 slides, estilo institucional.',
   gancho='546,2 mil afastamentos do trabalho por saúde mental no Brasil em 2025, concedidos pelo INSS. E agora, RH?',
   objetivo='Usar o dado mais recente de afastamentos para explicar o que a NR-01 pede sobre riscos psicossociais e por que mapear o risco é só o começo.',
@@ -294,7 +294,7 @@ Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
   stories='Caixa de perguntas: "Qual a sua maior dúvida sobre a NR-01?" (respostas viram conteúdo).',
   fonte='Ministério da Previdência Social (nota oficial na Agência Gov, jan/2026): 546.254 benefícios por incapacidade temporária concedidos pelo INSS por transtornos mentais e comportamentais em 2025, 15,66% acima de 2024 (472.328); também no g1. Segundo recorde seguido. NR-01 (Portaria MTE): gerenciamento de riscos psicossociais no GRO/PGR, exigido desde maio de 2026.',
   validar='Conferir no painel oficial da Previdência o número e o ano. Conferir com o Dr. Ronald a situação da NR-01 (vigência e o que é exigido). Guia de NR-01 pronto e validado até 13/11. Sem alarmismo ("epidemia", "bomba-relógio").',
-  arquivos='Ainda sem pasta. Sugestão: instagram/posts/nr01-afastamentos/',
+  arquivos='instagram/posts/nr01-afastamentos/ (png/n-01 a n-08, canva.html, nr01-afastamentos.pdf)',
   legenda='''Recorde de afastamentos por saúde mental: o que a NR-01 cobra do RH.
 
 Em 2025, foram 546,2 mil licenças por transtornos mentais no Brasil, o segundo recorde seguido, segundo o Ministério da Previdência Social.
