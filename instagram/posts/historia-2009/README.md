@@ -73,18 +73,26 @@ Quer essas quatro ideias funcionando na sua empresa? Comente CUIDADO e enviamos 
 
 - v1 (commit `cf70e3a`): contava a origem no hospital, que já tinha saído no post de 21/10.
 
+## Versão final (v3, 04/11): o colaborador no centro
+
+| # | Fundo | Título | Conteúdo |
+|---|---|---|---|
+| 1 | foto (poltronas) | O colaborador *no centro.* | O Escritório do Cuidado é um espaço de atendimento médico e psicológico dentro da sua empresa. Tira do caminho a maior barreira: o tempo e o acesso. A proximidade aumenta a adesão. A adesão gera resultado. |
+| 2 | verde-escuro | O problema não é o *plano de saúde.* | Antes do cuidado, vem o caminho: marcar e esperar a vaga → sair do trabalho e se deslocar → esperar na recepção → voltar e compensar as horas → e o cuidado fica para depois. Fecho: a maior barreira é o tempo e o acesso. |
+| 3 | claro | Começamos pelo lugar *mais difícil.* | 2009, hospital com poucos recursos, Escritório do Paciente, "o que importa para você?". 34 → cerca de 20 reclamações por mês. CTA: mande este post. |
+| 4 | tiffany + foto | Daí nasceu o *Escritório do Cuidado.* | 01 Escuta · 02 Medidas (bioimpedância e pulseira por 48 h) · 03 Plano (MEV) · 04 Retorno (médicos e psicólogos). |
+| 5 | verde-escuro | Proximidade gera adesão. *Adesão gera resultado.* | Relatórios anonimizados para o RH; −28% de absenteísmo (HBR, 2022) e −22% de custos com saúde (SHRM, 2023). Fecho: o retorno é consequência; o ponto de partida é a pessoa. |
+| 6 | claro + foto (copa) | No centro, a pessoa. *Todo dia, dentro da empresa.* | Comente CUIDADO; na segunda, resultados reais. |
+
+Fontes: `essencia.md` (eager-bell): frase do site "O problema não é o plano de saúde", "proximidade gera adesão",
+"fazer o certo pelos motivos certos", dinâmica das consultas; números oficiais de `referencias.md`.
+
 ## Design
 
-- **Capa:** visual da inspiração (03/11): foto das poltronas (`fotos/capa-a.jpg`, enviada pela Nina em
-  04/11) em tela cheia, título grande em branco no alto com "centro" em Tiffany.
-- **Slides 2 a 6:** padrão de `instagram/carrossel.md`, como o de 03/11. Fundos alternados (off, verde-escuro,
-  tiffany, off, verde-escuro), título Raleway 800 com a segunda linha em serif itálico, fecho em serif.
-  2: foto em cima e a troca de pergunta (a antiga riscada, a nova na pílula). 3: número grande 34 → 20 e o
-  pedido de envio. 4: foto numa faixa à direita. 5: foto ao lado e lista com setas. 6: foto da copa
-  (`fotos/capa-b.jpg`) em cima e o convite.
-- **Fotos:** slides 2, 4 e 5 usam os renders de `marca/espaco`, recortados e aquecidos por `recortes.py`.
-  Podem ser trocados por fotos reais no Canva.
-- Gerar: `python3 instagram/posts/historia-2009/recortes.py`, depois `render.mjs`, `canva.mjs` e `pdf.mjs`
-  (ver CLAUDE.md).
-- Pendências: validar a linha do tempo com o Dr. Ronald; legenda nova no tom do texto final; resposta
+- Capa no visual da inspiração (foto em tela cheia, `fotos/capa-a.jpg`); slides 2 a 6 no padrão de
+  `instagram/carrossel.md`, com recursos dos posts anteriores: linha do tempo com pontos (2), número grande
+  34 → 20 (3), etapas numeradas em bolinhas (4), cartões de número (5), foto em cima e pílula (6).
+- Fotos: `capa-a.jpg` e `capa-b.jpg` são as da Nina (04/11); a do slide 4 é render (`marca/espaco`),
+  recortada por `recortes.py`.
+- Pendências: validar com o Dr. Ronald (resultado do hospital, pulseira por 48 h); legenda nova; resposta
   automática da palavra CUIDADO.
