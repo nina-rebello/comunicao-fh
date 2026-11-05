@@ -168,10 +168,22 @@ fundo verde.
   com o logo no rodapé.
 - **Foto:** `fotos/moldura.jpg`, feita por `moldura.py` (recorte 888 × 640 da foto da Nina, esfriada, sem véu).
 
-## Foto única v7 (05/11): moldura no Tiffany (versão atual)
+## Foto única v7 (05/11): moldura no Tiffany
 
 Pedido da Nina: o fundo no nosso Tiffany.
 
 - **Arte:** `foto-v7.html` → `foto-unica-v7.png`; Canva: `canva-foto-v7.html`. Mesmo layout da v6.
 - **Cores:** fundo Tiffany `#9FC5BD`; com o fundo claro, o texto passou a escuro: "O colaborador" e o parágrafo em
   `#141B1B`, "Desde 2009" e "no centro." no verde `#2F6B64`. O logo ganhou um anel claro para não sumir no Tiffany.
+
+## Foto única v8 (05/11): capa de revista (em escolha)
+
+Retorno da Nina sobre a v7: não gostou da foto, da tipografia do título, do excesso de texto nem do Tiffany chapado.
+
+- **Layout:** fundo off-white; Tiffany só no fio do alto; "@fairhealth.br" e "Escritório do Cuidado" em caixa alta
+  no verde; título numa fonte só (Raleway 500, 128 px); sem parágrafo, a explicação fica na legenda; foto emoldurada
+  embaixo. Comparação lado a lado em `previa-v8-a-b.png`.
+- **v8 (`foto-v8.html` → `foto-unica-v8.png`):** foto da copa (`fotos/capa-b.jpg`, recortada por `recorte-v8.py`).
+  **[CONFIRMAR]** a origem dessa foto: ela é igual à de um post de referência de outra conta que a Nina mandou
+  ("O Paciente no centro"). Se não for do nosso espaço ou não tiver licença, não usar.
+- **v8b (`foto-v8b.html` → `foto-unica-v8b.png`):** mesmo layout com a foto das poltronas azuis enviada pela Nina.
