@@ -176,7 +176,7 @@ Pedido da Nina: o fundo no nosso Tiffany.
 - **Cores:** fundo Tiffany `#9FC5BD`; com o fundo claro, o texto passou a escuro: "O colaborador" e o parágrafo em
   `#141B1B`, "Desde 2009" e "no centro." no verde `#2F6B64`. O logo ganhou um anel claro para não sumir no Tiffany.
 
-## Foto única v8 (05/11): capa de revista (em escolha)
+## Foto única v8 (05/11): capa de revista
 
 Retorno da Nina sobre a v7: não gostou da foto, da tipografia do título, do excesso de texto nem do Tiffany chapado.
 
@@ -187,3 +187,13 @@ Retorno da Nina sobre a v7: não gostou da foto, da tipografia do título, do ex
   **[CONFIRMAR]** a origem dessa foto: ela é igual à de um post de referência de outra conta que a Nina mandou
   ("O Paciente no centro"). Se não for do nosso espaço ou não tiver licença, não usar.
 - **v8b (`foto-v8b.html` → `foto-unica-v8b.png`):** mesmo layout com a foto das poltronas azuis enviada pela Nina.
+
+## Foto única v9 (05/11): capa de revista com o texto (em escolha)
+
+Retorno da Nina sobre a v8: "faltou o texto".
+
+- **Arte:** `foto-v9.html` (duas seções) → `foto-unica-v9.png` (copa) e `foto-unica-v9b.png` (poltronas azuis);
+  Canva: `canva-foto-v9.html`, com as duas opções em duas páginas. Fotos recortadas por `recorte-v9.py`.
+- **Texto:** o parágrafo da v1 volta em duas colunas entre o título e a foto, como chamadas de capa de revista,
+  com "o tempo e o acesso" em negrito verde.
+- Continua valendo o **[CONFIRMAR]** da v8 sobre a origem da foto da copa.
