@@ -128,7 +128,7 @@ serif itálico.
   em Raleway 800 e "no centro." em serif itálico verde, frase curta e pílula "perto de quem trabalha".
 - A v1 (`foto.html`, `foto-unica.png`) fica guardada.
 
-## Foto única v3 (05/11): vidro fosco (versão atual)
+## Foto única v3 (05/11): vidro fosco
 
 A Nina não gostou do cartão claro da v2 e pediu, seguindo a base da v1, um fundo mais "glass" (referência de cartão
 translúcido sobre a foto).
@@ -138,3 +138,13 @@ translúcido sobre a foto).
   curta "Atendimento médico e psicológico" e a pílula "dentro da empresa".
 - **Vidro:** o desfoque é assado na foto por `vidro.py` (o Canva não lê `backdrop-filter`); no HTML fica só a borda
   clara e um brilho leve. Foto: `fotos/capa-fria.jpg` (esfriada por `esfriar.py`).
+
+## Foto única v4 (05/11): penumbra elegante (versão atual)
+
+Referência da Nina ("elegante igual esse"): foto escura, sem cartão, título grande em branco e texto corrido logo
+abaixo, direto sobre a foto.
+
+- **Arte:** `foto-v4.html` → `foto-unica-v4.png`; Canva: `canva-foto-v4.html`.
+- **Foto:** `fotos/capa-escura.jpg`, feita por `escurecer.py` a partir da foto fria (exposição mais baixa, contraste,
+  alto e bordas mais escuros, onde fica o texto). O abajur continua aceso.
+- **Texto:** "O colaborador / no centro." (Raleway 800, 128 px) e o parágrafo da v1 em 4 linhas, quebradas à mão.
