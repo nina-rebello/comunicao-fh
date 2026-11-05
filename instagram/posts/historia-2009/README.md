@@ -198,7 +198,7 @@ Retorno da Nina sobre a v8: "faltou o texto".
   com "o tempo e o acesso" em negrito verde.
 - Continua valendo o **[CONFIRMAR]** da v8 sobre a origem da foto da copa.
 
-## Foto única v10 (05/11): dois estilos para testar (em escolha)
+## Foto única v10 (05/11): dois estilos para testar
 
 A Nina mandou duas referências novas para testar. As duas usam a foto das poltronas azuis e o texto da v1.
 
@@ -209,3 +209,14 @@ A Nina mandou duas referências novas para testar. As duas usam a foto das poltr
 - **v10b, papel e foto:** metade de cima em papel off-white com "O COLABORADOR" em caixa alta fina, "no centro."
   em serif itálico verde por cima, o texto, uma pílula de contorno e uma foto de detalhe (abajur e planta); as
   poltronas na faixa de baixo.
+
+## Foto única v11 (05/11): vidro mais bonito (prévia, aguardando aprovação)
+
+Retorno da Nina sobre a v10a: "faça uma caixa de vidro mais bonita, tá muito tosca". Também pediu para não criar
+design novo no Canva até aprovar: só prévia.
+
+- **Arte:** `foto-v11.html` → `foto-unica-v11.png`. Sem `canva-foto-v11.html` até a aprovação.
+- **Vidro (`vidro-v11.py` → `fotos/v11-fundo.jpg`):** tudo assado na foto. Sombra suave por baixo; desfoque
+  menor (dá para ver a poltrona azul através do vidro); vidro um pouco mais frio, com véu verde-escuro leve;
+  brilho diagonal mais claro no alto à esquerda; granulado fino; borda de luz de 1,5 px que é forte no alto e quase
+  some embaixo. O cartão desceu para ficar sobre a poltrona e o tapete, e ganhou o selo "Desde 2009".
