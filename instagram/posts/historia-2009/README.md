@@ -253,7 +253,7 @@ em `foto-v13-cores.html` → `foto-unica-v13a.png`, `v13b` e `v13c` (lado a lado
 - **b:** grafite, com "centro." no Tiffany escuro (#5FA89A).
 - **c:** tudo no azul das poltronas (#2B3646), como a referência, que usa no texto a cor do sofá.
 
-## Foto única v14 (05/11): névoa Tiffany (prévia, aguardando aprovação)
+## Foto única v14 (05/11): névoa Tiffany (prévia)
 
 Pedido da Nina sobre as cores da v13: "use mais o nosso Tiffany; você vê o que é melhor, no blur ou no texto".
 
@@ -262,3 +262,13 @@ Pedido da Nina sobre as cores da v13: "use mais o nosso Tiffany; você vê o que
 - **Arte:** `foto-v14.html` → `foto-unica-v14.png`. Foto: `fotos/v14-nevoa-tiffany.jpg`, de
   `nevoa-v13.py tiffany` (mesmo desfoque da v13, com a névoa em #9FC5BD, mais forte no alto).
 - **Texto:** tudo em grafite (#141B1B), o "@fairhealth.br" um pouco mais suave.
+
+## Foto única v15 (05/11): névoa branca e Tiffany no texto (prévia, aguardando aprovação)
+
+Pedido da Nina: "volte o blur pro branco e coloque o Tiffany no texto". Duas opções em `foto-v15.html`, lado a lado
+em `previa-v15-a-b.png`; a névoa é a branca da v13 (`fotos/v13-nevoa.jpg`).
+
+- **v15 (`foto-unica-v15.png`):** título em Tiffany (#9FC5BD); parágrafo e @ em grafite. O Tiffany sobre a névoa
+  clara tem pouco contraste (cerca de 1,7:1): no celular, o título pode ficar com pouca leitura.
+- **v15b (`foto-unica-v15b.png`):** título em grafite com uma faixa Tiffany de marca-texto atrás de "no centro.".
+  O Tiffany continua no texto e o título lê bem.
