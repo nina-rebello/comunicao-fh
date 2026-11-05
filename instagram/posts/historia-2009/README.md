@@ -243,3 +243,12 @@ o texto por cima, no nosso design. Sem Canva até aprovar.
   a foto vai desfocando aos poucos e uma névoa off-white (#F1F5F3) clareia o alto; granulado fino na foto toda.
 - **Texto:** "@fairhealth.br", "O colaborador / no centro." em Raleway 800 verde-escuro (#1F3A36) com "centro." no
   verde da marca, e o parágrafo da v1 em Raleway 500.
+
+### v13: três opções de cor do texto (prévia)
+
+A Nina não gostou das cores dos textos da v13 (verde-escuro com "centro." no verde). Três opções, mesmo layout,
+em `foto-v13-cores.html` → `foto-unica-v13a.png`, `v13b` e `v13c` (lado a lado em `previa-v13-cores.png`):
+
+- **a:** tudo em grafite (#141B1B).
+- **b:** grafite, com "centro." no Tiffany escuro (#5FA89A).
+- **c:** tudo no azul das poltronas (#2B3646), como a referência, que usa no texto a cor do sofá.
