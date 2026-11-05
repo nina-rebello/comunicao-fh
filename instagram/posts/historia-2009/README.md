@@ -113,5 +113,6 @@ em `slides.html` para outro uso.
 - "Parece pouco, mas muda tudo: a pessoa deixa de ser um sintoma e passa a ser..." virou "A resposta mostra quem está
   por trás do sintoma: a rotina, a família, as prioridades." (frase pronta e contraste "deixa de ser / passa a ser").
 - Deck de aprovação (`instagram/aprovacao/posts-06-a-13-11.pptx`) regerado com a legenda nova.
+- Legenda: entrou um trecho sobre a bioimpedância e a pulseira inteligente (smartband, 48 h), com base em `essencia.md`.
 - Continua pendente: alguém responder as DMs do CUIDADO no mesmo dia (resposta automática só até 13/11) e o
   Dr. Ronald conferir a bioimpedância no atendimento.
