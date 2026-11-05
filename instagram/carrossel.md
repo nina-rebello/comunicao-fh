@@ -161,13 +161,117 @@ precisa ser traduzida para uma marca de cuidado, não copiada.
 - **Meio:** desenvolve com dados e fontes, em tom de reportagem.
 - **Fim:** uma única ação.
 
+## Método Vinci (prints de 03/11)
+
+Referência: posts do @vinci.society, enviados pela Nina em 03/11 ("o método
+Vinci para criar conteúdo", o funil dos conteúdos profundos e o bônus dos
+elementos que viciam). Completa o guia de tendências do branch
+`claude/charming-shannon-emducm` (`instagram/carrossel-de-tendencia.md`), que
+chega às mesmas conclusões.
+
+### Antes de tudo: o conteúdo profundo funciona como um funil
+
+Os conteúdos profundos, os que geram receita, seguem três etapas:
+
+- **Atenção:** pense no post como o trailer de um filme. Ele começa causando
+  impacto e desperta curiosidade suficiente para a pessoa querer ver o resto.
+  É a capa.
+- **Retenção:** depois, o conteúdo leva a pessoa do ponto A ao ponto B,
+  mantendo o interesse e entregando o que a capa prometeu. É o miolo.
+- **Ponto de virada:** por fim, o fechamento amarra tudo o que foi construído.
+  Se houver uma chamada de venda, ela entra de forma natural, como
+  continuação da mensagem, e não como algo solto ou forçado.
+
+Para nós, o melhor ponto de virada retoma a capa: a pergunta ou a cena que
+abriu o post é respondida no último slide, e o convite (Comente CUIDADO) é a
+consequência dessa resposta. Exemplo: no post de 03/11, a capa mostra alguém
+perguntando "o que eu faço?" a uma IA, e o último slide responde: "Quando
+alguém do seu time perguntar isso, que a resposta venha de gente."
+
+### 1. Caçador de referências
+
+Antes de escrever, monte um banco com quatro buscas:
+
+- **Dores não atendidas do público.** Para nós: o RH que não consegue cuidar
+  de todo mundo e o colaborador que não tem tempo, dinheiro ou coragem de
+  procurar ajuda.
+- **Assuntos mais comentados, dentro e fora do nicho.** IA no dia a dia,
+  canetas, sono medido no relógio, NR-01, fim de ano.
+- **Formatos que deram certo**, nossos e de outras contas.
+- **Jeitos interessantes de conectar dois assuntos.**
+
+A tarefa é criar um encaixe entre o Escritório do Cuidado e esse banco. É a
+"regra da ponte" do guia de tendências: o assunto do momento abre o post, e o
+cuidado fecha.
+
+### 2. Abordagem única
+
+Há três jeitos de se destacar num assunto:
+
+- ser o primeiro a falar (como os portais);
+- ser o mais profundo (como os artigos longos);
+- ser o diferente, que analisa um assunto de que todos já falaram sob uma
+  ótica que ninguém usou.
+
+Para nós, o caminho é o terceiro, porque não somos portal de notícia. Por
+exemplo, todo mundo debate se a IA substitui o psicólogo. A nossa ótica é
+outra: o que o uso da IA para desabafar mostra sobre o cuidado que falta
+perto das pessoas, no trabalho.
+
+### 3. Visual atraente
+
+O post precisa ter ganchos visuais ao longo de todo o conteúdo, e não só na
+capa:
+
+- **cenas ou imagens intrigantes:** algo que a pessoa não esperava ver no
+  feed de uma marca de saúde (por exemplo, uma conversa de madrugada com uma
+  IA, montada com balões, sem marca de terceiros);
+- **quebra de padrão a cada slide:** layout, fundo e tipo de imagem mudam de
+  um slide para o outro.
+
+Nos Reels, a quebra de padrão vem a cada 2 segundos, junto com legenda
+animada e efeitos sonoros.
+
+### 4. Resultado visível
+
+Conteúdo bom engaja e vende. Por isso cada post nasce com uma meta clara e
+mensurável, ligada ao objetivo do canal, para sabermos se ele "deu certo".
+
+| Canal | Objetivo | Posicionamento |
+|---|---|---|
+| Instagram @fairhealth.br | Desejo pelo Escritório do Cuidado e conversa com o RH (comentários CUIDADO e envios para quem cuida das pessoas) | Referência em saúde corporativa centrada na pessoa: calma, humana e com evidência, que traduz o que está acontecendo para o RH e sempre termina no cuidado |
+
+O README de cada post diz qual métrica decide se ele deu certo e com quais
+posts comparar.
+
+### Bônus: o que deixa o conteúdo viciante
+
+- **Curiosidade:** abra uma pergunta na cabeça de quem lê e não entregue a
+  resposta logo. A pessoa passa o slide para descobrir.
+- **Conflito:** um problema ou obstáculo que quebra o curso normal das coisas
+  e exige uma reação. A solução é a recompensa que o público espera.
+- **Inversão de valores:** leve a pessoa a acreditar ou sentir uma coisa e
+  depois vire essa percepção. A quebra de expectativa gera surpresa e emoção.
+
+Para nós, a solução do conflito é sempre o Escritório do Cuidado. A inversão
+nunca vira alarmismo nem ataque a alguém: o tom é de quem entende por que as
+pessoas fazem o que fazem.
+
 ## Antes de publicar
 
 - [ ] A capa diz qual dúvida responde, em até 12 palavras.
+- [ ] A capa abre uma curiosidade (a resposta não vem na capa).
+- [ ] O post parte de uma dor real ou de um assunto do momento e termina no
+      Escritório do Cuidado.
+- [ ] Há um conflito e uma inversão, sem alarmismo.
 - [ ] O slide 2 se sustenta sozinho.
+- [ ] O visual muda de um slide para o outro, e a capa não usa foto genérica
+      de banco de imagem.
 - [ ] Há um CTA durante a leitura, coerente com o assunto, depois de o
       carrossel entregar alguma coisa.
-- [ ] Há um só convite no final.
+- [ ] Há um só convite no final, e ele continua a mensagem (o último slide
+      amarra o que foi construído e, de preferência, responde à capa).
 - [ ] O miolo cumpre o que a capa prometeu.
 - [ ] Todo número tem fonte no slide.
+- [ ] O README diz qual métrica decide se o post deu certo.
 - [ ] O Dr. Ronald aprovou a menção médica (CFM).

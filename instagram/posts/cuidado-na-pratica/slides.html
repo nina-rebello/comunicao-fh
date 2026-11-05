@@ -1,141 +1,205 @@
 <!doctype html>
-<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel 03/11: O cuidado que todo mundo queria ter no trabalho</title>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel 03/11: 7 em cada 10 brasileiros já perguntaram a uma IA sobre a própria saúde (v8)</title>
 <link rel="stylesheet" href="../../marca/base.css">
 <style>
-/* Carrossel de 03/11, continuação do 30/10 ("Na terça: como funciona o cuidado na prática").
-   Segue instagram/carrossel.md na versão curta (6 slides). Cada slide parte de algo que todo mundo
-   já viveu ou deseja (ser ouvido, não perder o dia, um plano possível, não recomeçar do zero) e
-   responde com o que o Escritório do Cuidado faz. CTA de envio no slide 3, convite no 6.
-   Tudo em posição fixa e fotos em <img> já recortadas (recortes.py), para o Canva. */
+/* Carrossel de 03/11 (v7), continuação do 30/10. Pauta do PDF: como funciona o cuidado na prática.
+   Segue instagram/carrossel.md (versão curta, 6 slides) e o método Vinci: tema do momento (IA para
+   desabafar e tirar dúvidas de saúde), curiosidade na capa, conflito e inversão no slide 2, a
+   resposta do Escritório do Cuidado nos slides 3 a 5 e o ponto de virada no 6.
+   v7 (pedidos de 03/11): capa clara no verde-água (tiffany), sem o quase-preto nos outros slides;
+   dados do slide 2 em cartões com barras e grade de 100 pontos; molduras com a descrição da foto
+   ideal, que a Nina escolhe e coloca. Tudo em posição fixa, para o Canva. */
+/* Tiffany oficial (diretrizes-criativas.md, medido na arte oficial em 02/10). */
+:root{--agua:#9FC5BD}
 @font-face{font-family:"Instrument Serif";font-style:normal;src:url(../../marca/fontes/instrument-serif-latin-400-normal.woff2)}
 @font-face{font-family:"Instrument Serif";font-style:italic;src:url(../../marca/fontes/instrument-serif-latin-400-italic.woff2)}
 .ed{padding:0;text-align:left;align-items:stretch;justify-content:flex-start}
 .ed.liso{background:var(--off);color:var(--tinta);--ac:var(--escuro)}
-.ed.full{background:var(--tinta);color:#fff;--ac:var(--menta)}
 .ed.verde{background:var(--escuro);color:#fff;--ac:var(--menta)}
 .ed.agua{background:var(--agua);color:var(--tinta);--ac:var(--escuro)}
 .abs{position:absolute}
 .topo{position:absolute;top:56px;left:72px;right:72px;display:flex;justify-content:space-between;
   font-size:22px;font-weight:600;letter-spacing:2px;text-transform:uppercase;opacity:.75;z-index:3}
-.topo.claro{color:#fff;opacity:.9}
 .h{font-weight:800;letter-spacing:-2px;line-height:1.04}
 .tit{position:absolute;font-size:66px;white-space:nowrap}
 .serif{font-family:"Instrument Serif",serif;font-style:italic;font-weight:400;letter-spacing:-1px;line-height:1;color:var(--ac)}
 .tit-s{position:absolute;font-size:82px;white-space:nowrap}
 .txt{font-size:32px;line-height:1.38;text-wrap:pretty}
 .txt b{color:var(--escuro)}
-.full .txt b,.verde .txt b{color:var(--menta)}
+.verde .txt b{color:var(--menta)}
 .rotulo{font-size:24px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--ac)}
 .fecho{font-family:"Instrument Serif",serif;font-style:italic;font-size:50px;line-height:1.05;color:var(--ac);letter-spacing:-.5px;text-wrap:pretty}
-.assina{font-size:22px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;opacity:.7}
+.fonte{font-size:21px;font-weight:500;opacity:.65}
 
 /* Número da etapa numa bolinha, com o nome ao lado. */
 .no{position:absolute;width:64px;height:64px;border-radius:50%;background:var(--ac)}
 .no-t{position:absolute;width:64px;text-align:center;font-size:24px;font-weight:800;line-height:1.2;color:#fff}
-.full .no-t,.verde .no-t{color:var(--tinta)}
+.verde .no-t{color:var(--tinta)}
 
-.foto{position:absolute;display:block;object-fit:cover}
 .fio{position:absolute;height:2px;background:rgba(20,27,27,.16)}
 .cta{position:absolute;background:var(--menta);border-radius:22px}
+.agua .cta{background:var(--off)}
 .pilula{position:absolute;border:3px solid currentColor;border-radius:999px}
 .pil-t{position:absolute;text-align:center;font-weight:500;white-space:nowrap;line-height:1.2}
 .pil-t b{font-weight:800;font-style:normal}
 .selo{position:relative;height:58px;font-size:30px;font-weight:700;line-height:58px;white-space:nowrap}
+.selo .anel{position:absolute;left:-5px;top:-5px;width:68px;height:68px;border-radius:50%;background:#fff}
 .selo img{position:absolute;left:0;top:0;width:58px;height:58px;border-radius:50%}
 .selo span{position:absolute;left:74px;top:0}
 .selo.abs{position:absolute;width:400px}
+
+/* Moldura da foto: a Nina troca pela imagem. A descrição da cena fica dentro. */
+.moldura{position:absolute;border-radius:24px;border:3px dashed rgba(47,107,100,.55);background:rgba(255,255,255,.45)}
+.verde .moldura{border-color:rgba(255,255,255,.5);background:rgba(255,255,255,.1)}
+.aviso{position:absolute;text-align:center;font-size:23px;font-weight:700;line-height:1.35;color:var(--escuro)}
+.verde .aviso{color:#fff}
+
+/* Conversa (v7.1, mais elegante): uma "tela" off-white sobre o tiffany liso, balões enviados em
+   tiffany com texto escuro, texto em caixa própria por cima (para o Canva). */
+.tela{position:absolute;background:var(--off);border-radius:44px}
+.balao{position:absolute;background:var(--agua);border-radius:36px 36px 10px 36px}
+.balao-t{position:absolute;font-size:33px;line-height:1.3;font-weight:500;color:var(--tinta)}
+.digita{position:absolute;background:#E3ECE9;border-radius:36px 36px 36px 10px}
+.ponto{position:absolute;width:15px;height:15px;border-radius:50%;background:var(--escuro)}
+.hora{position:absolute;font-size:22px;font-weight:600;letter-spacing:1px;opacity:.5}
+.pil-solida{position:absolute;background:var(--escuro);border-radius:999px}
+
+/* Lista do slide 2 (o desenho da v4, de volta a pedido de 03/11). */
+.num{position:absolute;font-size:62px;font-weight:800;font-style:italic;letter-spacing:-2px;line-height:1;color:var(--escuro);margin:0}
+.leg{position:absolute;font-size:31px;line-height:1.25;font-weight:500}
+/* (antes) Dados do slide 2: cartões com número, rótulo curto e barra proporcional ao percentual. */
+.card{position:absolute;background:#fff;border-radius:24px;border:2px solid rgba(47,107,100,.14)}
+.card-n{position:absolute;font-size:70px;font-weight:800;letter-spacing:-2.5px;line-height:1;color:var(--escuro)}
+.card-t{position:absolute;font-size:29px;font-weight:700;line-height:1.2;color:var(--tinta)}
+.trilho{position:absolute;height:12px;border-radius:6px;background:rgba(47,107,100,.14)}
+.barra{position:absolute;height:12px;border-radius:6px;background:var(--escuro)}
+.p{position:absolute;width:24px;height:24px;border-radius:50%;background:rgba(255,255,255,.22)}
+.p.on{background:var(--menta)}
 </style>
 <style media="canva">
 body{background:none;margin:0}
 .slide{margin:0}
 </style></head><body>
 
-<!-- 1 · CAPA: um desejo, com endereço. O kicker ancora no Escritório do Cuidado, o título diz o que
-     todo mundo quer e a pílula promete os 4 pontos e cumpre o "na prática" anunciado no 30/10. -->
-<section class="slide ed full" id="c-01">
-  <img src="fotos/c-01.jpg" class="foto" alt="" style="left:0;top:0;width:1080px;height:1350px">
-  <div class="abs" style="inset:0;background:linear-gradient(rgba(12,17,16,.55) 0%,rgba(12,17,16,0) 15%,rgba(12,17,16,0) 32%,rgba(12,17,16,.78) 50%,rgba(12,17,16,.95) 72%)"></div>
-  <div class="topo claro"><span>@fairhealth.br</span><span>01/06</span></div>
-  <p class="rotulo abs" style="left:72px;top:604px">Por dentro do Escritório do Cuidado</p>
-  <h1 class="h abs" style="left:72px;top:656px;font-size:94px;letter-spacing:-3.5px;line-height:1">O cuidado que<br>todo mundo</h1>
-  <p class="serif abs" style="left:66px;top:838px;font-size:168px;letter-spacing:-3px">queria ter</p>
-  <h1 class="h abs" style="left:72px;top:1010px;font-size:94px;letter-spacing:-3.5px;line-height:1">no trabalho.</h1>
-  <div class="pilula" style="left:72px;bottom:96px;width:780px;height:74px;color:#fff"></div>
-  <p class="pil-t" style="left:72px;bottom:115px;width:780px;font-size:30px;color:#fff">Como isso funciona <b>na prática</b>, em 4 pontos →</p>
+<!-- 1 · CAPA (v8, simulação com a imagem enviada pela Nina em 03/11): mão segurando o celular com a
+     conversa, fundida no Tiffany oficial. Por cima da foto: "Hoje" no lugar de "Today" e o balão da
+     IA digitando, que abre a curiosidade fechada no slide 6. -->
+<section class="slide ed agua" id="c-01">
+  <img src="fotos/c-01.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
+  <div class="topo"><span>@fairhealth.br</span><span>01/06</span></div>
+  <div class="abs" style="left:306px;top:306px;width:90px;height:40px;background:#f4f5f7"></div>
+  <p class="abs" style="left:316px;top:312px;font-size:21px;font-weight:500;color:#8f95a1">Hoje</p>
+  <div class="abs" style="left:316px;top:596px;width:124px;height:60px;background:#e7e9ee;border-radius:30px 30px 30px 8px"></div>
+  <div class="abs" style="left:346px;top:620px;width:13px;height:13px;border-radius:50%;background:#7d8490"></div>
+  <div class="abs" style="left:371px;top:620px;width:13px;height:13px;border-radius:50%;background:#7d8490;opacity:.6"></div>
+  <div class="abs" style="left:396px;top:620px;width:13px;height:13px;border-radius:50%;background:#7d8490;opacity:.35"></div>
+  <p class="abs" style="left:318px;top:666px;font-size:19px;font-weight:500;color:#8f95a1">IA digitando</p>
+  <p class="serif abs" style="left:66px;top:800px;font-size:128px;letter-spacing:-3px;color:var(--escuro)">7 em cada 10</p>
+  <h1 class="h abs" style="left:72px;top:938px;font-size:60px;letter-spacing:-2.5px;line-height:1.03;color:#1F3A36">brasileiros já perguntaram<br>a uma IA sobre a<br>própria saúde.</h1>
+  <p class="fonte abs" style="left:72px;top:1136px">Fonte: Olá Doutor, pesquisa com 500 pessoas (2026)</p>
+  <div class="pil-solida" style="left:72px;bottom:64px;width:760px;height:76px"></div>
+  <p class="pil-t" style="left:72px;bottom:84px;width:760px;font-size:30px;color:#fff">O que isso diz sobre <b>o cuidado no trabalho</b> →</p>
 </section>
 
-<!-- 2 · 01 SER OUVIDO: foto na metade de cima. Se sustenta sozinho: o desejo, a causa real e a
-     pergunta com que toda consulta começa. -->
+<!-- 2 · CONFLITO E INVERSÃO (se sustenta sozinho): os três motivos em cartões, cada um com uma barra
+     do tamanho do percentual, e a virada num painel verde-escuro com 4 pontos acesos em 100. -->
 <section class="slide ed liso" id="c-02">
-  <img src="fotos/c-02.jpg" class="foto" alt="" style="left:0;top:0;width:1080px;height:580px">
-  <div class="abs" style="left:0;right:0;top:0;height:170px;background:linear-gradient(rgba(12,17,16,.5),rgba(12,17,16,0))"></div>
-  <div class="topo claro"><span>@fairhealth.br</span><span>02/06</span></div>
-  <div class="no" style="left:72px;top:628px"></div><p class="no-t" style="left:72px;top:647px">01</p>
-  <p class="rotulo abs" style="left:156px;top:646px">Ser ouvido</p>
-  <h2 class="h tit" style="left:72px;top:724px">Todo mundo quer ser</h2>
-  <p class="serif tit-s" style="left:70px;top:796px">ouvido de verdade.</p>
-  <p class="txt abs" style="left:72px;right:72px;top:922px">Às vezes, o que tira o sono é o turno, a conta do mês ou a casa. Por isso, no Escritório do Cuidado, a primeira consulta começa por uma pergunta: <b>o que importa para você?</b></p>
-  <p class="fecho abs" style="left:72px;right:72px;bottom:72px">Cuidado começa pela história, não pelo sintoma.</p>
+  <div class="topo"><span>@fairhealth.br</span><span>02/06</span></div>
+  <p class="rotulo abs" style="left:72px;top:150px">Por que uma IA?</p>
+  <h2 class="h tit" style="left:72px;top:200px">Ela está lá quando</h2>
+  <p class="serif tit-s" style="left:70px;top:272px">ninguém mais está.</p>
+
+  <div class="fio" style="left:72px;right:72px;top:400px"></div>
+  <p class="num" style="left:72px;top:426px">31,2%</p><p class="leg" style="left:330px;top:432px;width:678px">porque está disponível a qualquer hora</p>
+  <div class="fio" style="left:72px;right:72px;top:510px"></div>
+  <p class="num" style="left:72px;top:536px">26,2%</p><p class="leg" style="left:330px;top:542px;width:678px">pelo custo</p>
+  <div class="fio" style="left:72px;right:72px;top:620px"></div>
+  <p class="num" style="left:72px;top:646px">14%</p><p class="leg" style="left:330px;top:652px;width:678px">por vergonha de falar com outra pessoa</p>
+  <div class="fio" style="left:72px;right:72px;top:730px"></div>
+  <p class="fonte abs" style="left:72px;right:72px;top:752px">Motivos de quem usa IA para questões emocionais · Doctoralia, 3.903 usuários (2026)</p>
+
+  <div class="abs" style="left:0;right:0;top:820px;bottom:0;background:var(--escuro)"></div>
+  <p class="abs" style="left:72px;top:870px;width:560px;font-size:32px;line-height:1.3;font-weight:500;color:#fff">Mas, numa crise forte<br>de ansiedade, só</p>
+  <p class="h abs" style="left:66px;top:960px;font-size:170px;letter-spacing:-7px;line-height:1;color:var(--menta)">4%</p>
+  <p class="abs" style="left:72px;top:1136px;width:560px;font-size:32px;line-height:1.3;font-weight:500;color:#fff">recorreriam primeiro a uma IA.</p>
+  <!-- grade de 100 pontos (10 x 10), com 4 acesos -->
+  <div class="p on" style="left:678px;top:870px"></div><div class="p on" style="left:712px;top:870px"></div><div class="p on" style="left:746px;top:870px"></div><div class="p on" style="left:780px;top:870px"></div><div class="p" style="left:814px;top:870px"></div><div class="p" style="left:848px;top:870px"></div><div class="p" style="left:882px;top:870px"></div><div class="p" style="left:916px;top:870px"></div><div class="p" style="left:950px;top:870px"></div><div class="p" style="left:984px;top:870px"></div>
+  <div class="p" style="left:678px;top:904px"></div><div class="p" style="left:712px;top:904px"></div><div class="p" style="left:746px;top:904px"></div><div class="p" style="left:780px;top:904px"></div><div class="p" style="left:814px;top:904px"></div><div class="p" style="left:848px;top:904px"></div><div class="p" style="left:882px;top:904px"></div><div class="p" style="left:916px;top:904px"></div><div class="p" style="left:950px;top:904px"></div><div class="p" style="left:984px;top:904px"></div>
+  <div class="p" style="left:678px;top:938px"></div><div class="p" style="left:712px;top:938px"></div><div class="p" style="left:746px;top:938px"></div><div class="p" style="left:780px;top:938px"></div><div class="p" style="left:814px;top:938px"></div><div class="p" style="left:848px;top:938px"></div><div class="p" style="left:882px;top:938px"></div><div class="p" style="left:916px;top:938px"></div><div class="p" style="left:950px;top:938px"></div><div class="p" style="left:984px;top:938px"></div>
+  <div class="p" style="left:678px;top:972px"></div><div class="p" style="left:712px;top:972px"></div><div class="p" style="left:746px;top:972px"></div><div class="p" style="left:780px;top:972px"></div><div class="p" style="left:814px;top:972px"></div><div class="p" style="left:848px;top:972px"></div><div class="p" style="left:882px;top:972px"></div><div class="p" style="left:916px;top:972px"></div><div class="p" style="left:950px;top:972px"></div><div class="p" style="left:984px;top:972px"></div>
+  <div class="p" style="left:678px;top:1006px"></div><div class="p" style="left:712px;top:1006px"></div><div class="p" style="left:746px;top:1006px"></div><div class="p" style="left:780px;top:1006px"></div><div class="p" style="left:814px;top:1006px"></div><div class="p" style="left:848px;top:1006px"></div><div class="p" style="left:882px;top:1006px"></div><div class="p" style="left:916px;top:1006px"></div><div class="p" style="left:950px;top:1006px"></div><div class="p" style="left:984px;top:1006px"></div>
+  <div class="p" style="left:678px;top:1040px"></div><div class="p" style="left:712px;top:1040px"></div><div class="p" style="left:746px;top:1040px"></div><div class="p" style="left:780px;top:1040px"></div><div class="p" style="left:814px;top:1040px"></div><div class="p" style="left:848px;top:1040px"></div><div class="p" style="left:882px;top:1040px"></div><div class="p" style="left:916px;top:1040px"></div><div class="p" style="left:950px;top:1040px"></div><div class="p" style="left:984px;top:1040px"></div>
+  <div class="p" style="left:678px;top:1074px"></div><div class="p" style="left:712px;top:1074px"></div><div class="p" style="left:746px;top:1074px"></div><div class="p" style="left:780px;top:1074px"></div><div class="p" style="left:814px;top:1074px"></div><div class="p" style="left:848px;top:1074px"></div><div class="p" style="left:882px;top:1074px"></div><div class="p" style="left:916px;top:1074px"></div><div class="p" style="left:950px;top:1074px"></div><div class="p" style="left:984px;top:1074px"></div>
+  <div class="p" style="left:678px;top:1108px"></div><div class="p" style="left:712px;top:1108px"></div><div class="p" style="left:746px;top:1108px"></div><div class="p" style="left:780px;top:1108px"></div><div class="p" style="left:814px;top:1108px"></div><div class="p" style="left:848px;top:1108px"></div><div class="p" style="left:882px;top:1108px"></div><div class="p" style="left:916px;top:1108px"></div><div class="p" style="left:950px;top:1108px"></div><div class="p" style="left:984px;top:1108px"></div>
+  <div class="p" style="left:678px;top:1142px"></div><div class="p" style="left:712px;top:1142px"></div><div class="p" style="left:746px;top:1142px"></div><div class="p" style="left:780px;top:1142px"></div><div class="p" style="left:814px;top:1142px"></div><div class="p" style="left:848px;top:1142px"></div><div class="p" style="left:882px;top:1142px"></div><div class="p" style="left:916px;top:1142px"></div><div class="p" style="left:950px;top:1142px"></div><div class="p" style="left:984px;top:1142px"></div>
+  <div class="p" style="left:678px;top:1176px"></div><div class="p" style="left:712px;top:1176px"></div><div class="p" style="left:746px;top:1176px"></div><div class="p" style="left:780px;top:1176px"></div><div class="p" style="left:814px;top:1176px"></div><div class="p" style="left:848px;top:1176px"></div><div class="p" style="left:882px;top:1176px"></div><div class="p" style="left:916px;top:1176px"></div><div class="p" style="left:950px;top:1176px"></div><div class="p" style="left:984px;top:1176px"></div>
+  <p class="fecho abs" style="left:72px;right:72px;bottom:60px;font-size:46px;color:var(--menta)">Na hora que pesa, a gente quer gente.</p>
 </section>
 
-<!-- 3 · 02 CUIDADO POR PERTO + CTA: título em toda a largura, texto à esquerda e foto numa faixa à
-     direita. O pedido de envio entra depois de o carrossel já ter entregado duas coisas. -->
-<section class="slide ed full" id="c-03">
+<!-- 3 · 01 ESCUTA + CTA, no tiffany: foto na metade de cima. Responde à vergonha: escuta sem
+     julgamento e com sigilo. O pedido de envio entra depois da primeira prova. -->
+<section class="slide ed agua" id="c-03">
+  <div class="moldura" style="left:-3px;top:-3px;width:1086px;height:483px;border-radius:0"></div>
+  <p class="aviso" style="left:140px;width:800px;top:172px">FOTO: conversa de escuta no Escritório do Cuidado.<br>Alguém do time de frente, atento, ouvindo; a outra pessoa<br>de costas ou só as mãos. Luz natural, horizontal (1080x480).</p>
   <div class="topo"><span>@fairhealth.br</span><span>03/06</span></div>
+  <div class="no" style="left:72px;top:524px"></div><p class="no-t" style="left:72px;top:543px">01</p>
+  <p class="rotulo abs" style="left:156px;top:542px">Escuta</p>
+  <h2 class="h tit" style="left:72px;top:614px">Todo mundo quer ser</h2>
+  <p class="serif tit-s" style="left:70px;top:686px">ouvido de verdade.</p>
+  <p class="txt abs" style="left:72px;right:56px;top:806px">No Escritório do Cuidado, a primeira consulta começa por uma pergunta: <b>o que importa para você?</b> Turno, casa, sono e a conta do mês entram na conversa. Sem julgamento, e com sigilo.</p>
+  <div class="cta" style="left:72px;right:72px;top:1080px;height:150px"></div>
+  <p class="abs" style="left:110px;right:110px;top:1112px;font-size:31px;line-height:1.3;font-weight:500;color:var(--tinta)">Conhece quem cuida das pessoas na sua empresa?<br><b>Mande este post para essa pessoa.</b></p>
+</section>
+
+<!-- 4 · 02 POR PERTO (feedback da médica), em verde-escuro: título em toda a largura, texto à esquerda
+     e foto numa faixa à direita. A dúvida chega ao profissional antes de virar remédio, e a caixa
+     explica a iatrogenia e o que ela custa no trabalho. -->
+<section class="slide ed verde" id="c-04">
+  <div class="topo"><span>@fairhealth.br</span><span>04/06</span></div>
   <div class="no" style="left:72px;top:150px"></div><p class="no-t" style="left:72px;top:169px">02</p>
-  <p class="rotulo abs" style="left:156px;top:168px">Cuidado por perto</p>
+  <p class="rotulo abs" style="left:156px;top:168px">Por perto</p>
   <h2 class="h tit" style="left:72px;top:246px">Ninguém quer perder</h2>
   <p class="serif tit-s" style="left:70px;top:318px">meio dia por uma consulta.</p>
-  <img src="fotos/c-03.jpg" class="foto" alt="" style="left:640px;top:450px;width:368px;height:540px;border-radius:24px">
-  <p class="txt abs" style="left:72px;width:528px;top:456px">Por isso o cuidado fica dentro da empresa: médico, psicólogo e assistente social <b>a poucos passos de quem trabalha</b>, presencial ou remoto.</p>
-  <p class="fecho abs" style="left:72px;width:528px;top:820px">Sem trânsito e sem sala de espera.</p>
-  <div class="cta" style="left:72px;right:72px;top:1040px;height:150px"></div>
-  <p class="abs" style="left:110px;right:110px;top:1072px;font-size:31px;line-height:1.3;font-weight:500;color:var(--tinta)">Conhece quem cuida das pessoas na sua empresa?<br><b>Mande este post: os 4 pontos estão aqui.</b></p>
+  <div class="moldura" style="left:640px;top:450px;width:368px;height:520px"></div>
+  <p class="aviso" style="left:664px;width:320px;top:582px">FOTO: colaborador no<br>posto de trabalho<br>(fábrica ou escritório),<br>em plano médio, sem<br>logo de empresa.<br>Vertical (368x520).</p>
+  <p class="txt abs" style="left:72px;width:528px;top:456px">Médico, psicólogo e assistente social ficam dentro da empresa, <b>a poucos passos de quem trabalha</b>, presencial ou remoto.</p>
+  <p class="fecho abs" style="left:72px;width:528px;top:740px">A dúvida chega a um profissional antes de virar remédio.</p>
+  <div class="cta" style="left:72px;right:72px;top:1020px;height:200px"></div>
+  <p class="abs" style="left:110px;right:110px;top:1050px;font-size:31px;line-height:1.35;font-weight:500;color:var(--tinta)">Remédio sem indicação e exame sem necessidade fazem mal. Na medicina, esse dano tem nome: <b>iatrogenia</b>. No trabalho, ele vira atestado e falta.</p>
 </section>
 
-<!-- 4 · 03 UM PLANO POSSÍVEL: fundo água (o slide de virada), número grande e foto ao lado. A prova
-     é o trecho A1 de instagram/depoimentos.md, que diz exatamente isso. -->
-<section class="slide ed agua" id="c-04">
-  <div class="topo"><span>@fairhealth.br</span><span>04/06</span></div>
-  <p class="h abs" style="left:60px;top:132px;font-size:250px;letter-spacing:-12px;line-height:1;color:var(--escuro)">03</p>
-  <p class="rotulo abs" style="left:72px;top:410px">Um plano<br>possível</p>
-  <img src="fotos/c-04.jpg" class="foto" alt="" style="left:560px;top:150px;width:448px;height:400px;border-radius:24px">
-  <h2 class="h tit" style="left:72px;top:608px">Quem nunca recebeu</h2>
-  <p class="serif tit-s" style="left:70px;top:680px">uma dieta impossível?</p>
-  <p class="txt abs" style="left:72px;right:72px;top:800px">No Escritório do Cuidado, o plano é combinado com a pessoa e cabe na rotina real: <b>dormir meia hora mais cedo, almoçar longe da mesa.</b> A base é a Medicina do Estilo de Vida.</p>
-  <div class="fio" style="left:72px;right:72px;top:1030px"></div>
-  <p class="fecho abs" style="left:72px;right:72px;top:1060px;font-size:46px">“Não é aquela dieta impossível de fazer. É algo pra vida.”</p>
-  <p class="assina abs" style="left:72px;top:1192px">Colaboradora atendida pelo Escritório do Cuidado</p>
-</section>
-
-<!-- 5 · 04 CONTINUIDADE: foto saindo pela lateral, em fundo claro. O sigilo entra como a única
-     prova do slide ("Pode falar"). -->
+<!-- 5 · 03 PLANO E RETORNO, em fundo claro: número grande e foto ao lado. "Uma resposta não é um
+     plano": o cuidado na medida certa, e a prova de absenteísmo (número oficial do voice.md). -->
 <section class="slide ed liso" id="c-05">
   <div class="topo"><span>@fairhealth.br</span><span>05/06</span></div>
-  <img src="fotos/c-05.jpg" class="foto" alt="" style="left:0;top:150px;width:340px;height:1050px;border-radius:0 24px 24px 0">
-  <div class="no" style="left:396px;top:150px"></div><p class="no-t" style="left:396px;top:169px">04</p>
-  <p class="rotulo abs" style="left:480px;top:168px">Continuidade</p>
-  <h2 class="h tit" style="left:396px;top:246px">Ninguém quer</h2>
-  <p class="serif tit-s" style="left:394px;top:316px">começar do zero</p>
-  <h2 class="h tit" style="left:396px;top:404px">a cada consulta.</h2>
-  <p class="txt abs" style="left:396px;right:72px;top:520px">A equipe acompanha cada pessoa. Histórico e metas ficam na plataforma, e a cada retorno o plano é revisto.</p>
-  <div class="fio" style="left:396px;right:72px;top:742px"></div>
-  <p class="rotulo abs" style="left:396px;top:774px">Sigilo</p>
-  <p class="txt abs" style="left:396px;right:72px;top:822px"><b>Pode falar:</b> o que é conversado fica no atendimento. O RH recebe só indicadores do grupo, anonimizados.</p>
-  <p class="fecho abs" style="left:396px;right:72px;bottom:150px">O plano muda quando a vida muda.</p>
+  <p class="h abs" style="left:60px;top:132px;font-size:230px;letter-spacing:-11px;line-height:1;color:var(--escuro)">03</p>
+  <p class="rotulo abs" style="left:72px;top:390px">Plano<br>e retorno</p>
+  <div class="moldura" style="left:560px;top:150px;width:448px;height:360px"></div>
+  <p class="aviso" style="left:584px;width:400px;top:232px">FOTO: rotina possível.<br>Prato simples e colorido,<br>ou agenda com metas<br>escritas à mão. Tons claros<br>(448x360).</p>
+  <h2 class="h tit" style="left:72px;top:560px">Uma resposta</h2>
+  <p class="serif tit-s" style="left:70px;top:632px">não é um plano.</p>
+  <p class="txt abs" style="left:72px;right:60px;top:748px">No Escritório do Cuidado, o plano é combinado com a pessoa, tem base na Medicina do Estilo de Vida e é revisto a cada retorno. <b>Cada um recebe o cuidado de que precisa: sem remédio a mais nem exame à toa.</b></p>
+  <div class="fio" style="left:72px;right:72px;top:1010px"></div>
+  <p class="h abs" style="left:66px;top:1040px;font-size:110px;letter-spacing:-5px;line-height:1;color:var(--escuro)">−28%</p>
+  <p class="abs" style="left:420px;top:1050px;width:588px;font-size:31px;line-height:1.25;font-weight:500">de absenteísmo com programas de saúde preventiva</p>
+  <p class="fonte abs" style="left:420px;top:1140px">Fonte: Harvard Business Review, 2022</p>
 </section>
 
-<!-- 6 · CONVITE: o desejo da capa vira pergunta para quem decide. Comente CUIDADO e o gancho para
-     o post de quarta. -->
-<section class="slide ed verde" id="c-06">
+<!-- 6 · PONTO DE VIRADA + CONVITE, no tiffany como a capa: volta ao balão "o que eu faço?" e fecha a
+     curiosidade que a capa abriu. A resposta vem de gente. -->
+<section class="slide ed agua" id="c-06">
   <div class="topo"><span>@fairhealth.br</span><span>06/06</span></div>
-  <h2 class="h tit" style="left:72px;top:340px;font-size:96px;letter-spacing:-3.5px">Quer esse cuidado</h2>
-  <p class="serif tit-s" style="left:68px;top:440px;font-size:124px">para o seu time?</p>
-  <div class="pilula" style="left:72px;top:650px;width:440px;height:86px;color:var(--menta)"></div>
-  <p class="pil-t" style="left:72px;top:669px;width:440px;font-size:40px;color:var(--menta)">Comente <b>CUIDADO</b></p>
-  <p class="txt abs" style="left:72px;right:72px;top:766px;font-size:38px">e enviamos na DM como funciona o diagnóstico gratuito.</p>
-  <p class="fecho abs" style="left:72px;right:72px;bottom:190px;font-size:46px">Na quarta: quatro frentes, um cuidado conectado.</p>
-  <div class="selo abs" style="left:72px;bottom:90px"><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>
+  <div class="tela" style="right:72px;top:140px;width:396px;height:132px;border-radius:36px"></div>
+  <div class="balao" style="right:104px;top:166px;width:300px;height:80px"></div>
+  <p class="balao-t" style="right:138px;top:186px;width:236px;text-align:right;white-space:nowrap">o que eu faço?</p>
+  <h2 class="h tit" style="left:72px;top:300px;font-size:76px;letter-spacing:-3px">Quando alguém do seu<br>time perguntar isso,</h2>
+  <p class="serif tit-s" style="left:68px;top:470px;font-size:98px;line-height:.95">que a resposta<br>venha de gente.</p>
+  <p class="txt abs" style="left:72px;right:72px;top:694px">Escuta, cuidado por perto e um plano com retorno: é isso que o <b>Escritório do Cuidado</b> leva para dentro da empresa.</p>
+  <div class="pil-solida" style="left:72px;top:830px;width:440px;height:86px"></div>
+  <p class="pil-t" style="left:72px;top:849px;width:440px;font-size:40px;color:#fff">Comente <b>CUIDADO</b></p>
+  <p class="txt abs" style="left:72px;right:40px;top:940px;font-size:34px">e enviamos na DM como funciona o diagnóstico gratuito.</p>
+  <p class="fecho abs" style="left:72px;right:72px;bottom:180px;font-size:42px">Na quarta: quatro frentes, um cuidado conectado.</p>
+  <div class="selo abs" style="left:77px;bottom:90px"><div class="anel"></div><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>
 </section>
 
 </body></html>
