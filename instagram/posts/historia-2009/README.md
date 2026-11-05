@@ -233,7 +233,7 @@ nossas tipografias". Sem Canva até aprovar.
   passou a um tom liso (#EAE5E1), igual ao da página.
 - **Texto:** o parágrafo da v1 em Raleway 500, centrado, em 3 linhas, como na arte.
 
-## Foto única v13 (05/11): névoa no alto (prévia, aguardando aprovação)
+## Foto única v13 (05/11): névoa no alto (prévia)
 
 Referência da Nina: a imagem que vai ficando desfocada e clara, como névoa. Pedido: o efeito no alto, bem leve, com
 o texto por cima, no nosso design. Sem Canva até aprovar.
@@ -252,3 +252,13 @@ em `foto-v13-cores.html` → `foto-unica-v13a.png`, `v13b` e `v13c` (lado a lado
 - **a:** tudo em grafite (#141B1B).
 - **b:** grafite, com "centro." no Tiffany escuro (#5FA89A).
 - **c:** tudo no azul das poltronas (#2B3646), como a referência, que usa no texto a cor do sofá.
+
+## Foto única v14 (05/11): névoa Tiffany (prévia, aguardando aprovação)
+
+Pedido da Nina sobre as cores da v13: "use mais o nosso Tiffany; você vê o que é melhor, no blur ou no texto".
+
+- **Decisão:** o Tiffany vai na névoa, e o texto fica em grafite. Texto em Tiffany sobre fundo claro não dá leitura;
+  grafite sobre Tiffany dá.
+- **Arte:** `foto-v14.html` → `foto-unica-v14.png`. Foto: `fotos/v14-nevoa-tiffany.jpg`, de
+  `nevoa-v13.py tiffany` (mesmo desfoque da v13, com a névoa em #9FC5BD, mais forte no alto).
+- **Texto:** tudo em grafite (#141B1B), o "@fairhealth.br" um pouco mais suave.
