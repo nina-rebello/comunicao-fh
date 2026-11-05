@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Foto única 06/11 v10: dois estilos para testar</title>
+<link rel="stylesheet" href="../../marca/base.css">
+<style>
+/* v10 (05/11): dois estilos das referências da Nina, com a foto das poltronas azuis.
+   #foto-unica-v10a: foto em tela cheia, cartão de vidro fosco embaixo à esquerda (sai pela borda) e selo de vidro
+   no alto à direita (referência da marcenaria). O desfoque vem assado em fotos/v10a-fundo.jpg.
+   #foto-unica-v10b: papel off-white no alto com o título grande em caixa alta e o serif itálico por cima, texto,
+   pílula de contorno e foto de detalhe; as poltronas na faixa de baixo (referência das cadeiras).
+   Imagens geradas por estilos-v10.py. Tudo em posição absoluta, para o Canva. */
+@font-face{font-family:"Instrument Serif";font-style:italic;src:url(../../marca/fontes/instrument-serif-latin-400-italic.woff2)}
+.s{padding:0;background:#141B1B}
+.abs{position:absolute;margin:0;text-align:left;white-space:nowrap}
+.img{position:absolute;display:block}
+/* v10a */
+.va-cartao{position:absolute;left:-60px;top:700px;width:746px;height:532px;border:2px solid rgba(255,255,255,.32);
+  border-radius:40px;background:rgba(255,255,255,.05)}
+.va-selo{position:absolute;left:640px;top:92px;width:496px;height:140px;border:2px solid rgba(255,255,255,.32);
+  border-radius:36px;background:rgba(255,255,255,.05)}
+.va-logo{position:absolute;left:688px;top:116px;width:110px;height:95px}
+.va-div{position:absolute;left:826px;top:124px;width:2px;height:80px;background:rgba(255,255,255,.6)}
+.va-sel-t{left:852px;top:122px;font-size:28px;font-weight:700;line-height:1.2;color:#fff}
+.va-t{left:72px;font-size:92px;font-weight:800;letter-spacing:-3px;line-height:1;color:#fff}
+.va-txt{left:76px;top:968px;font-size:31px;line-height:1.36;font-weight:500;color:#fff}
+/* v10b */
+.vb{background:#F4F6F3}
+.vb-marca{left:0;top:58px;width:1080px;text-align:center !important;font-size:22px;font-weight:700;letter-spacing:3px;
+  text-transform:uppercase;color:#141B1B}
+.vb-t{left:0;top:104px;width:1080px;text-align:center !important;font-size:104px;font-weight:400;letter-spacing:2px;
+  line-height:1;color:#141B1B}
+.vb-s{left:150px;top:192px;font-family:"Instrument Serif",serif;font-style:italic;font-weight:400;font-size:150px;
+  letter-spacing:-1px;line-height:1;color:#2F6B64}
+.vb-txt{left:96px;top:384px;font-size:29px;line-height:1.42;font-weight:500;color:#141B1B}
+.vb-pil{position:absolute;left:96px;top:640px;width:486px;height:66px;border:2px solid #141B1B;border-radius:999px}
+.vb-pil-t{left:96px;top:657px;width:490px;text-align:center !important;font-size:26px;font-weight:600;letter-spacing:2px;
+  line-height:36px;text-transform:uppercase;color:#141B1B}
+</style>
+<style media="canva">
+body{background:none;margin:0}
+.slide{margin:0}
+</style></head><body>
+<section class="slide s" id="foto-unica-v10a">
+  <img src="fotos/v10a-fundo.jpg" class="img" alt="Duas poltronas azuis, uma mesinha com planta e um abajur aceso num espaço de atendimento" style="left:0;top:0;width:1080px;height:1350px">
+  <div class="va-selo"></div>
+  <img src="../../marca/logo-coracao-transparente.png" class="va-logo" alt="fairhealth">
+  <div class="va-div"></div>
+  <p class="abs va-sel-t">Escritório<br>do Cuidado</p>
+  <div class="va-cartao"></div>
+  <p class="abs va-t" style="top:768px">O colaborador</p>
+  <p class="abs va-t" style="top:862px">no centro.</p>
+  <p class="abs va-txt">O Escritório do Cuidado é um espaço de<br>atendimento médico e psicológico<br>dentro da empresa. Tira do caminho<br>a maior barreira ao cuidado:<br>o tempo e o acesso.</p>
+</section>
+<section class="slide s vb" id="foto-unica-v10b">
+  <img src="fotos/v10b-papel.jpg" class="img" alt="" style="left:0;top:0;width:1080px;height:760px">
+  <p class="abs vb-marca">@fairhealth.br</p>
+  <p class="abs vb-t">O COLABORADOR</p>
+  <p class="abs vb-s">no centro.</p>
+  <p class="abs vb-txt">O Escritório do Cuidado é um espaço<br>de atendimento médico e psicológico<br>dentro da empresa. Tira do caminho<br>a maior barreira ao cuidado:<br>o tempo e o acesso.</p>
+  <div class="vb-pil"></div>
+  <p class="abs vb-pil-t">Escritório do Cuidado</p>
+  <img src="fotos/v10b-detalhe.jpg" class="img" alt="Abajur aceso e uma planta sobre a mesinha" style="left:644px;top:378px;width:340px;height:326px;border-radius:24px">
+  <img src="fotos/v10b-baixo.jpg" class="img" alt="Duas poltronas azuis e uma mesinha num espaço de atendimento" style="left:0;top:746px;width:1080px;height:604px">
+</section>
+</body></html>

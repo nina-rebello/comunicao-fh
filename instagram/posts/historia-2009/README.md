@@ -188,7 +188,7 @@ Retorno da Nina sobre a v7: não gostou da foto, da tipografia do título, do ex
   ("O Paciente no centro"). Se não for do nosso espaço ou não tiver licença, não usar.
 - **v8b (`foto-v8b.html` → `foto-unica-v8b.png`):** mesmo layout com a foto das poltronas azuis enviada pela Nina.
 
-## Foto única v9 (05/11): capa de revista com o texto (em escolha)
+## Foto única v9 (05/11): capa de revista com o texto
 
 Retorno da Nina sobre a v8: "faltou o texto".
 
@@ -197,3 +197,15 @@ Retorno da Nina sobre a v8: "faltou o texto".
 - **Texto:** o parágrafo da v1 volta em duas colunas entre o título e a foto, como chamadas de capa de revista,
   com "o tempo e o acesso" em negrito verde.
 - Continua valendo o **[CONFIRMAR]** da v8 sobre a origem da foto da copa.
+
+## Foto única v10 (05/11): dois estilos para testar (em escolha)
+
+A Nina mandou duas referências novas para testar. As duas usam a foto das poltronas azuis e o texto da v1.
+
+- **Arquivos:** `foto-v10.html` (duas seções) → `foto-unica-v10a.png` e `foto-unica-v10b.png`; Canva:
+  `canva-foto-v10.html`, com as duas em páginas separadas. Imagens geradas por `estilos-v10.py`.
+- **v10a, vidro:** foto em tela cheia; cartão de vidro fosco embaixo à esquerda, saindo pela borda, com o título em
+  Raleway 800 branco e o texto; selo de vidro no alto à direita com o logo em coração e "Escritório do Cuidado".
+- **v10b, papel e foto:** metade de cima em papel off-white com "O COLABORADOR" em caixa alta fina, "no centro."
+  em serif itálico verde por cima, o texto, uma pílula de contorno e uma foto de detalhe (abajur e planta); as
+  poltronas na faixa de baixo.
