@@ -127,3 +127,14 @@ serif itálico.
 - **Arte:** `foto-v2.html` → `foto-unica-v2.png`; Canva: `canva-foto-v2.html`. Cartão off-white no alto, "O colaborador"
   em Raleway 800 e "no centro." em serif itálico verde, frase curta e pílula "perto de quem trabalha".
 - A v1 (`foto.html`, `foto-unica.png`) fica guardada.
+
+## Foto única v3 (05/11): vidro fosco (versão atual)
+
+A Nina não gostou do cartão claro da v2 e pediu, seguindo a base da v1, um fundo mais "glass" (referência de cartão
+translúcido sobre a foto).
+
+- **Arte:** `foto-v3.html` → `foto-unica-v3.png`; Canva: `canva-foto-v3.html`. Layout da v1 (selo "Desde 2009",
+  "O colaborador no centro." em branco com "centro." em Tiffany) dentro de um cartão de vidro fosco, com a frase
+  curta "Atendimento médico e psicológico" e a pílula "dentro da empresa".
+- **Vidro:** o desfoque é assado na foto por `vidro.py` (o Canva não lê `backdrop-filter`); no HTML fica só a borda
+  clara e um brilho leve. Foto: `fotos/capa-fria.jpg` (esfriada por `esfriar.py`).
