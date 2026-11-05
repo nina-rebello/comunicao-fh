@@ -71,7 +71,7 @@ pres.addSection({ title: '06/11' });
 slidePost({
   secao: '06/11', kicker: 'SEXTA, 06/11 · FOTO ÚNICA · ARTE E LEGENDA PRONTAS',
   titulo: 'Uma história de cuidado que começou em 2009',
-  img: 'posts/historia-2009/foto-unica.png', iw: 1080, ih: 1350,
+  img: 'posts/historia-2009/foto-unica-aprovada.png', iw: 1080, ih: 1350,
   legenda: ler('posts/historia-2009/legenda-foto.txt'), rodape: 11,
 });
 pres.addSection({ title: '11/11' });

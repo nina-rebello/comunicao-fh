@@ -263,7 +263,7 @@ Pedido da Nina sobre as cores da v13: "use mais o nosso Tiffany; você vê o que
   `nevoa-v13.py tiffany` (mesmo desfoque da v13, com a névoa em #9FC5BD, mais forte no alto).
 - **Texto:** tudo em grafite (#141B1B), o "@fairhealth.br" um pouco mais suave.
 
-## Foto única v15 (05/11): névoa branca e Tiffany no texto (prévia, aguardando aprovação)
+## Foto única v15 (05/11): névoa branca e Tiffany no texto
 
 Pedido da Nina: "volte o blur pro branco e coloque o Tiffany no texto". Duas opções em `foto-v15.html`, lado a lado
 em `previa-v15-a-b.png`; a névoa é a branca da v13 (`fotos/v13-nevoa.jpg`).
@@ -272,3 +272,11 @@ em `previa-v15-a-b.png`; a névoa é a branca da v13 (`fotos/v13-nevoa.jpg`).
   clara tem pouco contraste (cerca de 1,7:1): no celular, o título pode ficar com pouca leitura.
 - **v15b (`foto-unica-v15b.png`):** título em grafite com uma faixa Tiffany de marca-texto atrás de "no centro.".
   O Tiffany continua no texto e o título lê bem.
+
+## Versão aprovada (05/11): v15b
+
+A Nina aprovou a v15b (névoa branca, título em grafite com marca-texto Tiffany atrás de "no centro.").
+
+- **Arte:** `foto-aprovada.html` (só a v15b) → `foto-unica-aprovada.png`; Canva: `canva-foto-aprovada.html`.
+- **Deck de aprovação:** `instagram/aprovacao/posts-06-a-13-11.pptx` regerado com esta arte.
+- **Legenda:** `legenda-foto.txt` (revisada em 05/11, com a bioimpedância e a pulseira).
