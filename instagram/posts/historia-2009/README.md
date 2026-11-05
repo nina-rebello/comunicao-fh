@@ -221,7 +221,7 @@ design novo no Canva até aprovar: só prévia.
   brilho diagonal mais claro no alto à esquerda; granulado fino; borda de luz de 1,5 px que é forte no alto e quase
   some embaixo. O cartão desceu para ficar sobre a poltrona e o tapete, e ganhou o selo "Desde 2009".
 
-## Foto única v12 (05/11): cópia da arte da Nina com as nossas fontes (prévia, aguardando aprovação)
+## Foto única v12 (05/11): cópia da arte da Nina com as nossas fontes (prévia)
 
 A Nina mandou uma arte pronta (`fotos/referencia-nina-v12.jpg`) e pediu: "faça exatamente como esse, só use as
 nossas tipografias". Sem Canva até aprovar.
@@ -232,3 +232,14 @@ nossas tipografias". Sem Canva até aprovar.
 - **Foto:** recortada da própria arte por `foto-v12.py`, com o tapete e as poltronas saindo da moldura; o fundo
   passou a um tom liso (#EAE5E1), igual ao da página.
 - **Texto:** o parágrafo da v1 em Raleway 500, centrado, em 3 linhas, como na arte.
+
+## Foto única v13 (05/11): névoa no alto (prévia, aguardando aprovação)
+
+Referência da Nina: a imagem que vai ficando desfocada e clara, como névoa. Pedido: o efeito no alto, bem leve, com
+o texto por cima, no nosso design. Sem Canva até aprovar.
+
+- **Arte:** `foto-v13.html` → `foto-unica-v13.png`.
+- **Foto (`nevoa-v13.py` → `fotos/v13-nevoa.jpg`):** as poltronas azuis nítidas embaixo; a partir de ~62% da altura
+  a foto vai desfocando aos poucos e uma névoa off-white (#F1F5F3) clareia o alto; granulado fino na foto toda.
+- **Texto:** "@fairhealth.br", "O colaborador / no centro." em Raleway 800 verde-escuro (#1F3A36) com "centro." no
+  verde da marca, e o parágrafo da v1 em Raleway 500.
