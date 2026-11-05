@@ -149,10 +149,21 @@ abaixo, direto sobre a foto.
   alto e bordas mais escuros, onde fica o texto). O abajur continua aceso.
 - **Texto:** "O colaborador / no centro." (Raleway 800, 128 px) e o parágrafo da v1 em 4 linhas, quebradas à mão.
 
-## Foto única v5 (05/11): o layout da v4, mais claro (versão atual)
+## Foto única v5 (05/11): o layout da v4, mais claro
 
 Retorno da Nina sobre a v4: "muito escuro, não combina com a gente".
 
 - **Arte:** `foto-v5.html` → `foto-unica-v5.png`; Canva: `canva-foto-v5.html`. Mesmo texto e layout da v4.
 - **Foto:** `fotos/capa-clara.jpg`, feita por `clarear.py`: a foto fria quase na luz natural, com um véu verde-escuro
   da marca (#1E3F3B) só no alto, atrás do texto, que some antes das poltronas.
+
+## Foto única v6 (05/11): moldura (versão atual)
+
+Ideia da Nina: "e se fizermos meio que uma moldura?", com referências de capa de revista e de foto emoldurada sobre
+fundo verde.
+
+- **Arte:** `foto-v6.html` → `foto-unica-v6.png`; Canva: `canva-foto-v6.html`.
+- **Layout:** fundo verde da marca (#2F6B64); no alto, "Desde 2009" e o título ("O colaborador" em Raleway 800 branco,
+  "no centro." em serif itálico menta); a foto emoldurada no meio, em luz natural; o texto da v1 embaixo e o selo
+  com o logo no rodapé.
+- **Foto:** `fotos/moldura.jpg`, feita por `moldura.py` (recorte 888 × 640 da foto da Nina, esfriada, sem véu).
