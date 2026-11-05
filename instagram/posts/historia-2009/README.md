@@ -116,3 +116,14 @@ em `slides.html` para outro uso.
 - Legenda: entrou um trecho sobre a bioimpedância e a pulseira inteligente (smartband, 48 h), com base em `essencia.md`.
 - Continua pendente: alguém responder as DMs do CUIDADO no mesmo dia (resposta automática só até 13/11) e o
   Dr. Ronald conferir a bioimpedância no atendimento.
+
+## Foto única v2 (05/11): leitura e tons frios
+
+Retorno da Nina: o texto estava com pouca leitura. Referências enviadas: cartão claro sobre a foto, título grande com
+serif itálico.
+
+- **Foto:** a do espaço enviada pela Nina (`fotos/espaco-nina-original.jpg`), recortada em 4:5 e esfriada para os
+  tons da marca por `esfriar.py` (menos laranja, branco mais frio, sombras puxadas para o verde) → `fotos/capa-fria.jpg`.
+- **Arte:** `foto-v2.html` → `foto-unica-v2.png`; Canva: `canva-foto-v2.html`. Cartão off-white no alto, "O colaborador"
+  em Raleway 800 e "no centro." em serif itálico verde, frase curta e pílula "perto de quem trabalha".
+- A v1 (`foto.html`, `foto-unica.png`) fica guardada.
