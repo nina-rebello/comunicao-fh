@@ -157,7 +157,7 @@ Retorno da Nina sobre a v4: "muito escuro, não combina com a gente".
 - **Foto:** `fotos/capa-clara.jpg`, feita por `clarear.py`: a foto fria quase na luz natural, com um véu verde-escuro
   da marca (#1E3F3B) só no alto, atrás do texto, que some antes das poltronas.
 
-## Foto única v6 (05/11): moldura (versão atual)
+## Foto única v6 (05/11): moldura
 
 Ideia da Nina: "e se fizermos meio que uma moldura?", com referências de capa de revista e de foto emoldurada sobre
 fundo verde.
@@ -167,3 +167,11 @@ fundo verde.
   "no centro." em serif itálico menta); a foto emoldurada no meio, em luz natural; o texto da v1 embaixo e o selo
   com o logo no rodapé.
 - **Foto:** `fotos/moldura.jpg`, feita por `moldura.py` (recorte 888 × 640 da foto da Nina, esfriada, sem véu).
+
+## Foto única v7 (05/11): moldura no Tiffany (versão atual)
+
+Pedido da Nina: o fundo no nosso Tiffany.
+
+- **Arte:** `foto-v7.html` → `foto-unica-v7.png`; Canva: `canva-foto-v7.html`. Mesmo layout da v6.
+- **Cores:** fundo Tiffany `#9FC5BD`; com o fundo claro, o texto passou a escuro: "O colaborador" e o parágrafo em
+  `#141B1B`, "Desde 2009" e "no centro." no verde `#2F6B64`. O logo ganhou um anel claro para não sumir no Tiffany.
