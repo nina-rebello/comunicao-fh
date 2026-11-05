@@ -210,7 +210,7 @@ A Nina mandou duas referências novas para testar. As duas usam a foto das poltr
   em serif itálico verde por cima, o texto, uma pílula de contorno e uma foto de detalhe (abajur e planta); as
   poltronas na faixa de baixo.
 
-## Foto única v11 (05/11): vidro mais bonito (prévia, aguardando aprovação)
+## Foto única v11 (05/11): vidro mais bonito (prévia)
 
 Retorno da Nina sobre a v10a: "faça uma caixa de vidro mais bonita, tá muito tosca". Também pediu para não criar
 design novo no Canva até aprovar: só prévia.
@@ -220,3 +220,15 @@ design novo no Canva até aprovar: só prévia.
   menor (dá para ver a poltrona azul através do vidro); vidro um pouco mais frio, com véu verde-escuro leve;
   brilho diagonal mais claro no alto à esquerda; granulado fino; borda de luz de 1,5 px que é forte no alto e quase
   some embaixo. O cartão desceu para ficar sobre a poltrona e o tapete, e ganhou o selo "Desde 2009".
+
+## Foto única v12 (05/11): cópia da arte da Nina com as nossas fontes (prévia, aguardando aprovação)
+
+A Nina mandou uma arte pronta (`fotos/referencia-nina-v12.jpg`) e pediu: "faça exatamente como esse, só use as
+nossas tipografias". Sem Canva até aprovar.
+
+- **Arte:** `foto-v12.html` → `foto-unica-v12.png`.
+- **Título:** "Escritório do / Cuidado" em Instrument Serif (a serif da marca), centrado, nas mesmas posições e
+  larguras da arte. A Instrument Serif só tem um peso, então o título fica mais fino que o da arte.
+- **Foto:** recortada da própria arte por `foto-v12.py`, com o tapete e as poltronas saindo da moldura; o fundo
+  passou a um tom liso (#EAE5E1), igual ao da página.
+- **Texto:** o parágrafo da v1 em Raleway 500, centrado, em 3 linhas, como na arte.
