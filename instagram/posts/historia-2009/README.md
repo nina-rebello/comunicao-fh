@@ -106,3 +106,12 @@ em `slides.html` para outro uso.
 - Legenda: `legenda-foto.txt` (sem o 34 → 20, que sem contexto ficava solto: pedido da Nina em 04/11; linter: único aviso é o CTA, que ele não reconhece em português).
 - Texto alternativo: "Duas poltronas de couro caramelo, uma mesinha com planta, livros e um abajur aceso, num
   espaço de atendimento com luz quente. Por cima, o título: O colaborador no centro."
+
+## Revisão de 05/11 (legenda da foto única)
+
+- Hashtags: 5, começando por #fairhealth (regra da marca), em vez de 3.
+- "Parece pouco, mas muda tudo: a pessoa deixa de ser um sintoma e passa a ser..." virou "A resposta mostra quem está
+  por trás do sintoma: a rotina, a família, as prioridades." (frase pronta e contraste "deixa de ser / passa a ser").
+- Deck de aprovação (`instagram/aprovacao/posts-06-a-13-11.pptx`) regerado com a legenda nova.
+- Continua pendente: alguém responder as DMs do CUIDADO no mesmo dia (resposta automática só até 13/11) e o
+  Dr. Ronald conferir a bioimpedância no atendimento.
