@@ -56,40 +56,37 @@ deste time porque [motivo pessoal, em uma frase]."
 
 ## #2 · qui 05/11 (atrasado: sai na próxima data livre) · Reconhecimento · Uma história desde 2009
 
-**Formato:** texto. Pode ir com a foto do Dr. Ronald.
+**Formato:** imagem + texto. É o post do Instagram de 06/11 (`instagram/posts/historia-2009/`) passado para o
+LinkedIn (pedido da Nina, 06/11: reaproveitar o que já foi feito para o Instagram).
 
-**Texto fechado em 06/11.** Os trechos em aberto foram preenchidos com o que está em `instagram/essencia.md`
-("De onde veio"), seguindo as regras de `instagram/voice.md`:
+- **Imagem:** a arte aprovada do Instagram, sem mudança: `instagram/posts/historia-2009/foto-unica-aprovada.png`
+  (1080 × 1350; o LinkedIn mostra o formato 4:5 inteiro no feed). No Canva: o design aprovado de 06/11.
+- **Texto:** a legenda do Instagram (`legenda-foto.txt`) adaptada às regras do LinkedIn: a primeira frase se sustenta
+  sozinha antes do "ver mais"; a lista do atendimento em setas, como no post #1; sem "Comente CUIDADO", fecha com
+  uma pergunta aberta; 3 hashtags, sem #fairhealth.
 
-- **"Desenvolvemos"**, e não "surgiu" ou "foi criado".
-- O Escritório do Paciente aparece como parte da história, e não como serviço atual.
-- O Escritório do Cuidado vem inspirado nele, sem dizer que um "virou" o outro.
-- "Atendimento", não "consulta".
-- Sem números de cliente: o caso do hospital-dia fica de fora (decisão de 30/10 e regra do número com contexto).
-- Termina com uma pergunta aberta, que é a chamada do LinkedIn.
-
-**[PENDENTE]** O Dr. Ronald confere a história antes de publicar: o ano de 2009, o hospital com poucos recursos, a
-pergunta "o que importa para você?" e as duas ideias incorporadas depois (cuidar de quem cuida e o mesmo acesso a
-todos, que são o Quadruple e o Quintuple Aim).
+**[PENDENTE]** O Dr. Ronald confere a bioimpedância e a pulseira por 48 horas (a mesma pendência da legenda do
+Instagram).
 
 ```
-A fairhealth é nova. O jeito de cuidar, não.
+Em 2009, num hospital, mudamos a primeira pergunta do atendimento. Ela ainda guia tudo o que fazemos hoje.
 
-Em 2009, dentro de um hospital, desenvolvemos o Escritório do Paciente. Os pacientes estavam cada vez mais longe do centro do cuidado, e o projeto mudou a primeira pergunta do atendimento: em vez de "o que você tem?", "o que importa para você?".
+Em vez de "o que você tem?", passamos a perguntar "o que importa para você?". A resposta mostra quem está por trás do sintoma: a rotina, a família, as prioridades.
 
-O modelo funcionou num lugar difícil, um hospital com poucos recursos, onde a rotina tende a afastar o paciente. E mostrou que podia ser repetido.
+Esse projeto, o Escritório do Paciente, é uma parte importante da nossa história. Foi ali que aprendemos a base do nosso trabalho: o cuidado começa por ouvir a pessoa.
 
-Nos anos seguintes, ele incorporou duas ideias que a ciência da saúde passou a defender: cuidar também de quem cuida e garantir o mesmo acesso a todos.
+Anos depois, levamos esse aprendizado para onde as pessoas passam a maior parte do dia: o trabalho. Porque, na empresa, o problema quase nunca é o plano de saúde. É o caminho até o cuidado: marcar, se deslocar, esperar, compensar as horas. No meio disso, a saúde fica para depois.
 
-Com o tempo, ficou claro onde esse cuidado fazia mais falta: dentro das empresas. É ali que a maioria das pessoas passa boa parte do dia, e é ali que a saúde costuma ficar para depois.
+Foi daí que desenvolvemos o Escritório do Cuidado, com atendimento médico e psicológico dentro da empresa:
+→ tudo começa pela escuta
+→ a bioimpedância mostra a composição corporal, e uma pulseira inteligente, usada por 48 horas, acompanha o sono e o movimento na rotina real
+→ cada pessoa recebe um plano individual, com base na Medicina do Estilo de Vida, revisto a cada retorno
 
-Foi daí que desenvolvemos o Escritório do Cuidado: atendimento médico e psicológico dentro da empresa, com o mesmo ponto de partida de 2009.
+A proximidade aumenta a adesão. A adesão gera resultado. E o RH acompanha a evolução do grupo em relatórios anonimizados, sem expor ninguém.
 
-Mais de 15 anos depois, a lição continua a mesma: cuidado que funciona começa pela escuta.
+Na sua empresa, alguém pergunta ao colaborador o que importa para ele?
 
-Na sua empresa, quem pergunta ao colaborador o que importa para ele?
-
-#bemestarcorporativo #saudecorporativa #medicinadoestilodevida
+#bemestarcorporativo #saudecorporativa #gestaodepessoas
 ```
 
 **Para o time compartilhar (Dr. Ronald, com as palavras dele):** "Em 2009, eu não imaginava que este cuidado
