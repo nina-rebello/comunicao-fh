@@ -290,3 +290,6 @@ mais a leitura".
   névoa fica um pouco mais forte atrás do parágrafo. As poltronas continuam nítidas.
 - **Arte:** `foto-v16.html` → `foto-unica-v16.png` (antes e depois em `previa-v16-antes-depois.png`). No Canva, só a
   foto de fundo do design aprovado foi trocada, sem criar design novo.
+- **Aprovado e salvo no Canva (06/11):** a foto de fundo do design aprovado foi trocada pela da v16. A versão
+  aprovada no repositório (`foto-aprovada.html`, `foto-unica-aprovada.png`, `canva-foto-aprovada.html`) e o deck de
+  aprovação passaram a usar a névoa da v16.
