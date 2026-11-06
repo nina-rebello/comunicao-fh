@@ -280,3 +280,13 @@ A Nina aprovou a v15b (névoa branca, título em grafite com marca-texto Tiffany
 - **Arte:** `foto-aprovada.html` (só a v15b) → `foto-unica-aprovada.png`; Canva: `canva-foto-aprovada.html`.
 - **Deck de aprovação:** `instagram/aprovacao/posts-06-a-13-11.pptx` regerado com esta arte.
 - **Legenda:** `legenda-foto.txt` (revisada em 05/11, com a bioimpedância e a pulseira).
+
+## Ajuste na versão aprovada (06/11): névoa mais baixa (v16)
+
+Pedido da Nina no design aprovado do Canva: "faça esse blur chegando um pouco mais para baixo para melhorar ainda
+mais a leitura".
+
+- **Foto:** `fotos/v16-nevoa.jpg`, de `nevoa-v13.py baixo`: o desfoque e a névoa descem cerca de 8% da altura, e a
+  névoa fica um pouco mais forte atrás do parágrafo. As poltronas continuam nítidas.
+- **Arte:** `foto-v16.html` → `foto-unica-v16.png` (antes e depois em `previa-v16-antes-depois.png`). No Canva, só a
+  foto de fundo do design aprovado foi trocada, sem criar design novo.
