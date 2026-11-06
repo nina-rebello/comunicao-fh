@@ -54,34 +54,46 @@ deste time porque [motivo pessoal, em uma frase]."
 
 ---
 
-## #2 · qui 05/11 · Reconhecimento · Uma história desde 2009
+## #2 · qui 05/11 (atrasado: sai na próxima data livre) · Reconhecimento · Uma história desde 2009
 
 **Formato:** texto. Pode ir com a foto do Dr. Ronald.
 
-**[PENDENTE]** Validar com o Dr. Ronald antes de publicar. O cronograma pede
-para contar a história do Escritório (do Paciente), e não da FairHealth.
-Preencher os trechos entre {{ }}.
+**Texto fechado em 06/11.** Os trechos em aberto foram preenchidos com o que está em `instagram/essencia.md`
+("De onde veio"), seguindo as regras de `instagram/voice.md`:
+
+- **"Desenvolvemos"**, e não "surgiu" ou "foi criado".
+- O Escritório do Paciente aparece como parte da história, e não como serviço atual.
+- O Escritório do Cuidado vem inspirado nele, sem dizer que um "virou" o outro.
+- "Atendimento", não "consulta".
+- Sem números de cliente: o caso do hospital-dia fica de fora (decisão de 30/10 e regra do número com contexto).
+- Termina com uma pergunta aberta, que é a chamada do LinkedIn.
+
+**[PENDENTE]** O Dr. Ronald confere a história antes de publicar: o ano de 2009, o hospital com poucos recursos, a
+pergunta "o que importa para você?" e as duas ideias incorporadas depois (cuidar de quem cuida e o mesmo acesso a
+todos, que são o Quadruple e o Quintuple Aim).
 
 ```
-A FairHealth é nova. O jeito de cuidar, não.
+A fairhealth é nova. O jeito de cuidar, não.
 
-Ele começou em 2009, com o Escritório do Paciente, criado pelo Dr. Ronald Maia Filho. A ideia era simples e, na época, pouco comum: antes de tratar a doença, conhecer a pessoa. A rotina, o trabalho, o que ela quer, o que atrapalha.
+Em 2009, dentro de um hospital, desenvolvemos o Escritório do Paciente. Os pacientes estavam cada vez mais longe do centro do cuidado, e o projeto mudou a primeira pergunta do atendimento: em vez de "o que você tem?", "o que importa para você?".
 
-{{Um marco da trajetória, em uma ou duas frases.}}
+O modelo funcionou num lugar difícil, um hospital com poucos recursos, onde a rotina tende a afastar o paciente. E mostrou que podia ser repetido.
 
-{{Outro marco: como o modelo foi amadurecendo.}}
+Nos anos seguintes, ele incorporou duas ideias que a ciência da saúde passou a defender: cuidar também de quem cuida e garantir o mesmo acesso a todos.
 
-Com o tempo, ficou claro onde esse cuidado fazia mais falta: dentro das empresas. É ali que a maioria das pessoas passa boa parte do dia, e é ali que o cuidado costuma estar mais longe.
+Com o tempo, ficou claro onde esse cuidado fazia mais falta: dentro das empresas. É ali que a maioria das pessoas passa boa parte do dia, e é ali que a saúde costuma ficar para depois.
 
-A FairHealth é o próximo passo dessa história: o mesmo método, agora no lugar onde as pessoas trabalham.
+Foi daí que desenvolvemos o Escritório do Cuidado: atendimento médico e psicológico dentro da empresa, com o mesmo ponto de partida de 2009.
 
-São mais de 15 anos aprendendo uma coisa: cuidado que funciona começa pela escuta.
+Mais de 15 anos depois, a lição continua a mesma: cuidado que funciona começa pela escuta.
+
+Na sua empresa, quem pergunta ao colaborador o que importa para ele?
 
 #bemestarcorporativo #saudecorporativa #medicinadoestilodevida
 ```
 
-**Para o time compartilhar (Dr. Ronald):** "Em 2009, eu não imaginava que
-este cuidado chegaria às empresas. Hoje ele chega."
+**Para o time compartilhar (Dr. Ronald, com as palavras dele):** "Em 2009, eu não imaginava que este cuidado
+chegaria às empresas. Hoje ele chega."
 
 ---
 
