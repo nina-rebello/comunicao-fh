@@ -54,7 +54,7 @@ deste time porque [motivo pessoal, em uma frase]."
 
 ---
 
-## #2 · qui 05/11 (atrasado: sai na próxima data livre) · Reconhecimento · Uma história desde 2009
+## #2 · seg 09/11, 8:00 (era qui 05/11) · PRÓXIMO POST · Reconhecimento · Uma história desde 2009
 
 **Formato:** imagem + texto. É o post do Instagram de 06/11 (`instagram/posts/historia-2009/`) passado para o
 LinkedIn (pedido da Nina, 06/11: reaproveitar o que já foi feito para o Instagram).
