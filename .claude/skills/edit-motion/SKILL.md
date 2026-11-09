@@ -32,7 +32,7 @@ Se `plano` não estiver `concluido`, pare e sugira terminá-lo.
 - **Uma camada de animações e uma de legendas, cada uma com a duração do vídeo inteiro** (regras comuns,
   seção 4), no formato validado. Os itens ficam no tempo deles dentro da camada.
 - Legenda palavra por palavra no tempo da transcrição, recentralizando a cada palavra (ofício §5); a
-  palavra-chave em Raleway ExtraBold Itálico com marca-texto Tiffany e punch leve na hora em que é dita.
+  palavra-chave em Nunito Black Itálico com marca-texto Tiffany e punch leve na hora em que é dita.
 - Número contando até o valor, com a fonte pequena embaixo. Pílulas em cascata. Cartão em tela cheia e
   fechamento como no perfil.
 - Anotar os **eventos para o som** ao construir (o que chega, sai, conta, revela; tempo, força, descrição).
