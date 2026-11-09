@@ -41,6 +41,13 @@ A identidade vem da marca, não das referências.
   alta (pendência da marca).
 - Slogan, quando couber no fechamento: « Fazemos o certo pelos motivos certos ».
 
+## Capa do reel (texto de título inicial)
+- Padrão enviado pela Nina em 09/11: PNG 1080x1920 com o topo transparente e um degradê verde-noite `#0F1F1C`
+  subindo de baixo (transparente até y 760, 72% em y 1060, 95% na base); "@FAIRHEALTH.BR" pequeno e espaçado;
+  título branco em 3 linhas no máximo (Nunito 800, 104 px, margem 72 px) com a palavra-chave numa pílula Tiffany
+  e texto verde; subtítulo de até 700 px com o trecho final em negrito branco. O título é o gancho da
+  programação. Modelo: `video/ferramentas/modelos/capa-reel.html`; gerador: `scripts/capa.py`.
+
 ## Quadro e áreas seguras (9:16, 1080x1920)
 - Saída das animações e das legendas em 1080x1920, mesmo com o bruto em 720x1280.
 - Nada essencial nos ~220 px de cima nem nos ~420 px de baixo (nome, legenda e botões do Instagram), nem nos

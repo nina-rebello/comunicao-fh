@@ -21,6 +21,11 @@ Se `som` não estiver `concluido` (ou `nao_precisa`), pare e sugira terminá-la.
 - `LEIA.txt` curto: o que é cada arquivo e a ordem das faixas no CapCut (apresentadora embaixo, animações,
   legendas por cima; `sfx` abaixo da voz).
 
+## Capa (texto de título inicial)
+Gere com `$PY capa.py <video> "<título com a [palavra-chave]>" "<subtítulo com **negrito**>"`: o título é o gancho
+do reel na programação (`marketing/ferramentas/conteudo_posts_*.py`). Sai `capa_titulo.png` (topo transparente,
+para pôr por cima do começo do vídeo no CapCut) e `capa_previa.png`. Mostrar a prévia à Nina.
+
 ## Conferir antes de entregar
 Resolução, fps e número de frames iguais em todas as peças; nenhum texto fora da área segura (3 quadros: no
 gancho, no número principal e no fechamento); "fairhealth" minúsculo; todo número com a fonte na tela;
