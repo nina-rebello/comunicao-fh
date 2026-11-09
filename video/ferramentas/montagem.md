@@ -1,6 +1,6 @@
 # Montagem do fluxo de edição
 
-Fase atual: 3 (referências e perfil) · Atualizado em 09/11/2026
+Fase atual: 4 (plano do fluxo) · Atualizado em 09/11/2026
 
 ## Ambiente
 - **Decisão (09/11):** a edição passa para o Claude Code instalado no computador da Nina, com os vídeos em
@@ -67,7 +67,9 @@ Fase atual: 3 (referências e perfil) · Atualizado em 09/11/2026
 - Nomes (09/11): skill mestra `/editar`; prefixo das etapas `edit-` (ex.: `/edit-preparar`).
 
 ## Perfil
-- fairhealth: a criar na fase 3. Base visual em `instagram/diretrizes-criativas.md` e `instagram/marca/`.
+- fairhealth: escrito em 09/11, em `video/ferramentas/perfis/fairhealth/` (identidade, motion, câmera, cortes,
+  som, catálogo e a síntese das referências). Identidade vinda da marca; jeito de mover vindo das referências.
+  Pendentes: fotos do espaço como imagem de apoio (sim ou não); Tiffany `#9FC5BD` × `#96C5BD`.
 - Referências (09/11): três gravações de tela em `Calude Editing/Referências/` (ref01 podcast de bem-estar,
   ref02 cirurgião "NO Edit / FINAL", ref03 "Raw Video / Claude Edit"). Folhas de contato e quadros em
   `Calude Editing/_CLAUDE/referencias/`. Análise feita pela imagem (sem medir curvas: são gravações de tela,
@@ -80,5 +82,5 @@ Fase atual: 3 (referências e perfil) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Fase 3: Nina confirma a síntese das referências; depois escrever o perfil fairhealth. Instalar a skill globalmente não é preciso:
+Fase 4: propor a lista de etapas do fluxo e esperar a aprovação. Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
