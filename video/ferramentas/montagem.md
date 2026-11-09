@@ -1,6 +1,6 @@
 # Montagem do fluxo de edição
 
-Fase atual: 4 (plano do fluxo) · Atualizado em 09/11/2026
+Fase atual: 6 (teste num clipe curto) · Atualizado em 09/11/2026
 
 ## Ambiente
 - **Decisão (09/11):** a edição passa para o Claude Code instalado no computador da Nina, com os vídeos em
@@ -75,12 +75,24 @@ Fase atual: 4 (plano do fluxo) · Atualizado em 09/11/2026
   `Calude Editing/_CLAUDE/referencias/`. Análise feita pela imagem (sem medir curvas: são gravações de tela,
   com o vídeo pequeno e a interface do Instagram por cima). Aguardando a Nina confirmar a síntese.
 
-## Fluxo aprovado
-(fase 4)
+## Fluxo aprovado (09/11)
+Skill mestra: **`/editar`**. Claude Code aberto na raiz de `comunicao-fh`.
+1. `edit-preparar`: briefing, inventário, transcrição (mlx-whisper + bordas pelas pausas + termos), aparar
+   começo e fim (junta iniciar, preparar e cortes).
+2. `edit-plano`: animações, legendas e intenção de câmera numa lista; aprovação pelo chat.
+3. `edit-motion`: animações e legendas no HyperFrames; teste verde × transparente no CapCut na primeira vez;
+   revisão no CapCut. (A etapa de assets saiu: tudo vem de `instagram/marca/`.)
+4. `edit-camera`: aproximações e punch aplicados no vídeo da apresentadora.
+5. `edit-som`: efeitos sonoros numa faixa.
+6. `edit-entrega`: MP4 final e peças soltas, conferidos; revisão final no CapCut.
+Entrega no CapCut: prévia + peças com a duração do vídeo inteiro, começando em 0:00 (é só arrastar).
 
-## Skills escritas
-(fase 5)
+## Skills escritas (09/11)
+No repositório (versionadas no git), não em `~/.claude/skills`: `.claude/skills/editar/` (com
+`regras-comuns.md`), `edit-preparar`, `edit-plano`, `edit-motion`, `edit-camera`, `edit-som`, `edit-entrega`.
+Apoio: `video/ferramentas/termos.md`, `validacao.md`, `scripts/` (vazia: os scripts nascem no teste).
 
 ## Próximo passo
-Fase 4: propor a lista de etapas do fluxo e esperar a aprovação. Instalar a skill globalmente não é preciso:
+Fase 6: rodar o fluxo inteiro no bruto da Marília (`marilia_0911_calude.mp4`) com `/editar`, etapa por
+etapa, escrevendo e testando os scripts. Abrir o Claude Code na raiz de `comunicao-fh`. Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
