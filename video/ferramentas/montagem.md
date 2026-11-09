@@ -16,7 +16,9 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 ## Decisões
 - Revisão: no CapCut. O CapCut não importa projeto de outro programa (ajuda do CapCut), então a entrega é
   o MP4 completo mais as peças soltas: o vídeo cortado sem animação, cada animação em MP4 com fundo verde
-  (para o chroma key do CapCut) e os efeitos sonoros em áudio. Legendas: dinâmicas (pedido de 09/11; quem gera, a decidir).
+  (para o chroma key do CapCut) e os efeitos sonoros em áudio. Legendas: dinâmicas, geradas pelo fluxo (09/11) a partir
+  dos tempos por palavra, no estilo da marca (Raleway, palavra falada em destaque Tiffany, "fairhealth" em
+  minúsculas), entregues como camada separada como as animações e sem colidir com elas. Mesmo teste no CapCut.
   Na primeira vez, um arquivo de teste curto para conferir no CapCut.
 - Tipo e formato: reels do Instagram, vertical 9:16, de 30 a 90 s, com alguém falando para a câmera (ex.: Dr.
   Ronald). Motion sem gravação fica para depois, como versão curta do fluxo. Taxa de quadros: 30 fps
@@ -64,5 +66,5 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Decidir quem gera as legendas dinâmicas e seguir pela decisão 8 (câmera). Instalar a skill globalmente não é preciso:
+Seguir a entrevista pela decisão 8 (câmera). Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
