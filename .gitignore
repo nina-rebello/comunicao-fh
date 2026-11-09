@@ -5,3 +5,6 @@ video/ferramentas/Calude Editing/
 
 # Ambiente Python da edição (recriável)
 video/ferramentas/.venv/
+
+# Sons gerados pelo sfx.py (recriáveis)
+video/ferramentas/sons/*.wav

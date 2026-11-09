@@ -14,11 +14,11 @@ O som entra por último, sobre animações e câmera travadas. Poucos efeitos e 
 
 Se `camera` não estiver `concluido` (ou `nao_precisa`), pare e sugira terminá-la.
 
-## A biblioteca (primeira vez)
-`video/ferramentas/sons/<categoria>/` (pop, whoosh, clique, impacto-suave). Os áudios ficam fora do git
-(adicionar a pasta ao `.gitignore`, exceto `indice.md`). Sons só com licença clara para uso comercial (ex.:
-CC0), conferida um a um; anotar no índice a origem, a licença, a duração útil e o tempo até o pico. Baixar
-qualquer coisa só com o "sim" da Nina, dizendo de onde e o quê. Faltou som? Deixe sem e anote.
+## A biblioteca
+Hoje os sons são **sintetizados** pelo `sfx.py` no FFmpeg (pop, tique, sino, whoosh), em
+`video/ferramentas/sons/` (fora do git, recriáveis): sem download e sem licença de terceiros. As receitas
+ficam no próprio script, com a duração e o tempo até o pico. Para sons de banco no futuro: só com licença clara
+para uso comercial (ex.: CC0), conferida um a um, e baixar só com o "sim" da Nina, dizendo de onde e o quê.
 
 ## Ofício (do guia, no gosto do perfil)
 - O som segue o que se vê: entrada de número, pílula, cartão, punch e fechamento. Legenda palavra por palavra
@@ -32,7 +32,10 @@ qualquer coisa só com o "sim" da Nina, dizendo de onde e o quê. Faltou som? De
 |---|---|---|
 | `indice_sons.py` | mede duração útil, tempo até o pico, brilho | pular o silêncio do começo |
 | `sfx.py` | alinha, nivela pela voz e mixa numa faixa WAV da duração do vídeo; gera a prévia | fade de 1 frame em cada som; nada acima da voz |
-Na primeira vez, escreva, teste e anote o uso aqui.
+Uso (testado em 09/11): grave `sfx.itens` [{id, tempo, som, alinhar: inicio|pico, db, nota}] e rode
+`$PY sfx.py <video> <N>`: mede o pico da voz, põe cada efeito ~14 dB abaixo (mais o `db` do item) e grava
+`renders/sfx_vNN.wav` com a duração do vídeo. O `previa.py` mistura essa faixa com a voz e copia o WAV para
+a entrega.
 
 ## Resumo, revisão e aprovação
 Lista curta (`sfx01` no tempo X, qual som), caminho da pasta; `aguardando_aprovacao`. Revisão por número

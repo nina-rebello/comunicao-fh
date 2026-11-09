@@ -30,7 +30,15 @@ Se `motion` não estiver `concluido`, pare e sugira terminá-la.
 | Script | O que faz | Armadilhas |
 |---|---|---|
 | `camera.py` | calcula escala e posição por frame (curvas do ofício) e aplica com FFmpeg, junto com a escala para 1080x1920 | um só reescalonamento (evita perder nitidez duas vezes); conferir que a borda nunca aparece; mesmo número de frames |
-Na primeira vez, escreva, teste num trecho de 5 s e anote o uso aqui.
+Uso (testado em 09/11, `marilia_0911_calude`): grave `camera.ancora` [x, y] (o rosto, em 1080x1920) e
+`camera.movimentos` [{id, inicio, fim, de, para, curva, nota}] no estado e rode `$PY camera.py <video> <N>`.
+- Curvas: `linear`, `power2.out`, `power2.inOut`, `sine.inOut`, `expo.out`. Cada movimento parte de onde o
+  anterior terminou (o script recusa o contrário). Escala abaixo de 1,0 é recusada.
+- Zoom pelo filtro `perspective` do FFmpeg (subpixel, cúbico): `crop` arredonda e o zoom lento treme.
+  A escala vira soma de trechos com `clip()` (`if` aninhado estoura o analisador do FFmpeg; o quadro é `in`).
+- ~3,5 min para 55 s no M2. Grava em arquivo temporário e só renomeia no fim.
+- **Recortes:** onde há um elemento atrás da apresentadora (recorte), a escala tem de ser 1,00 naquele trecho,
+  senão o recorte desalinha. Saltos de escala só escondidos sob tela cheia.
 
 ## Passo a passo
 1. Rascunho numerado (`cam01`…): o quê, onde (palavra e tempo), duração, curva, de quanto a quanto. Mostrar
