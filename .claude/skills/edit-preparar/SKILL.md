@@ -53,7 +53,16 @@ repetido, diga quais e qual sugere manter, e espere a Nina.
 | `transcrever.py` | áudio, mlx-whisper, ajuste das bordas pelas pausas, termos, frases | sem `initial_prompt`; retranscrever trechos com som e sem palavra |
 | `aparar.py` | início e fim do corte com a folga do perfil, em frames | arredondar para frame numa função só |
 
-Na primeira vez, escreva os que faltam, teste no vídeo e anote o uso aqui. Depois, reaproveite.
+Uso (escritos e testados em 09/11, no `marilia_0911_calude`), com `PY=video/ferramentas/.venv/bin/python`
+e a partir de `video/ferramentas/scripts/`:
+1. `$PY inventario.py <video>`: cria o estado (se não existir) e o bloco `midia`, com os alertas.
+2. `$PY transcrever.py <video>`: ~20 s para 55 s de vídeo; imprime as frases, as bordas ajustadas, os termos
+   trocados, as palavras de baixa confiança e os marcadores.
+3. `$PY aparar.py <video> [folga_inicio] [folga_fim]`: grava o bloco `cortes`.
+4. `$PY estado.py <video> status` e `--etapa preparar=aguardando_aprovacao`.
+`comum.py` tem os caminhos (acha as pastas acentuadas sem depender da forma Unicode), a conversão única de
+segundos para frame, o ffprobe e o silencedetect. Palavra de baixa confiança (< 0,5) vira marcador
+`palavra_duvidosa` para a Nina conferir ouvindo.
 
 ## Resumo no chat
 Duração do bruto → duração aparada, fps, resolução (com alerta se for baixa), a transcrição por frase (curta,
