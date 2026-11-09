@@ -30,7 +30,10 @@ loudness. Mostrar os 3 quadros à Nina.
 | Script | O que faz | Armadilhas |
 |---|---|---|
 | `entrega.py` | compõe o final, copia as peças, mede loudness e frames | nunca sobrescrever uma versão; caminhos com acento por glob |
-Na primeira vez, escreva, teste e anote o uso aqui.
+Uso (testado em 09/11): `$PY entrega.py <video> <N da prévia aprovada>` → `Vídeos Prontos/<video>/final_vNN/`.
+Loudnorm em dois passes (mede e aplica): o primeiro vídeo veio em -29,9 LUFS e saiu em -13,9 LUFS, pico -1 dBTP.
+A voz da peça `apresentadora` fica no nível original (o LEIA.txt avisa). Depois, conferir 3 quadros com as
+linhas das áreas seguras (y 220 e y 1500).
 
 ## Revisão e aprovação
 A revisão final é no CapCut. Ajuste pedido aqui volta para a etapa dona dele (ex.: som → `edit-som`), que gera

@@ -1,6 +1,6 @@
 # Montagem do fluxo de edição
 
-Fase atual: 6 (teste num clipe curto) · Atualizado em 09/11/2026
+Fase atual: 6 (teste num clipe curto) · primeiro vídeo entregue em 09/11 · Atualizado em 09/11/2026
 
 ## Ambiente
 - **Decisão (09/11):** a edição passa para o Claude Code instalado no computador da Nina, com os vídeos em
@@ -93,7 +93,15 @@ No repositório (versionadas no git), não em `~/.claude/skills`: `.claude/skill
 `regras-comuns.md`), `edit-preparar`, `edit-plano`, `edit-motion`, `edit-camera`, `edit-som`, `edit-entrega`.
 Apoio: `video/ferramentas/termos.md`, `validacao.md`, `scripts/` (vazia: os scripts nascem no teste).
 
+## Teste no primeiro vídeo (09/11, `marilia_0911_calude`)
+- Fluxo inteiro rodado, com seis prévias até a aprovação. Entrega final em
+  `~/FairHealth/Comunicação/Calude Editing/Vídeos Prontos/marilia_0911_calude/final_v06/`.
+- Scripts escritos e testados: `comum`, `estado`, `inventario`, `transcrever`, `aparar`, `legendas`, `previa`,
+  `camera`, `sfx`, `entrega`. Aprendizados no `aprendizados.md` do vídeo.
+- Correções da Nina que viraram regra no perfil: Nunito; legenda sem fundo, centralizada, só a palavra-chave em
+  destaque; bonecos do ícone dela; logo só no fechamento; branding com toque de tecnologia e modernidade.
+
 ## Próximo passo
-Fase 6: rodar o fluxo inteiro no bruto da Marília (`marilia_0911_calude.mp4`) com `/editar`, etapa por
-etapa, escrevendo e testando os scripts. Abrir o Claude Code na raiz de `comunicao-fh`. Instalar a skill globalmente não é preciso:
-ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
+- O teste do CapCut (A transparente × B fundo verde) para liberar as camadas soltas.
+- `/editar aprendizados` para levar as linhas `[ ]` do caderno para as skills e o perfil.
+- Fase 7 (fechamento) depois disso.
