@@ -55,7 +55,11 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
   fortes e a câmera casada com a entrada dos números. Sem seguir o rosto. Zoom máximo de 10 a 15% enquanto o
   bruto vier em 720x1280 (mais, se vier em 1080x1920 ou maior). O movimento vai pronto dentro do vídeo da
   apresentadora (o CapCut não importa keyframes), por isso a câmera é feita depois das animações.
-- Som: (a decidir)
+- Som (09/11): efeitos poucos e baixos, só nas entradas das animações e no fechamento (pop, whoosh, clique,
+  impacto suave). Biblioteca pequena de sons gratuitos com licença clara para uso comercial (ex.: CC0 do
+  Freesound), conferida som a som, organizada por tipo, na pasta de ferramentas. Entrega: áudios separados
+  no tempo certo. Música de fundo: fica com a Nina, no CapCut ou no Instagram (conta comercial tem
+  biblioteca restrita).
 - Revisões: (a decidir)
 - Nomes: (a decidir)
 
@@ -69,5 +73,5 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Seguir a entrevista pela decisão 9 (som). Instalar a skill globalmente não é preciso:
+Seguir a entrevista pela decisão 10 (revisões). Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
