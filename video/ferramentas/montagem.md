@@ -51,7 +51,10 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
   (Tiffany visível, número só com fonte, área segura do 9:16).
   - Teste antes de usar: o fundo verde para chroma key pode apagar o Tiffany (azul-esverdeado). Na primeira
     vez, gerar um clipe curto com fundo verde e outro com transparência e conferir os dois no CapCut.
-- Câmera: (a decidir)
+- Câmera (09/11): pouca e discreta. Duas ou três aproximações lentas no vídeo, um punch só nas frases mais
+  fortes e a câmera casada com a entrada dos números. Sem seguir o rosto. Zoom máximo de 10 a 15% enquanto o
+  bruto vier em 720x1280 (mais, se vier em 1080x1920 ou maior). O movimento vai pronto dentro do vídeo da
+  apresentadora (o CapCut não importa keyframes), por isso a câmera é feita depois das animações.
 - Som: (a decidir)
 - Revisões: (a decidir)
 - Nomes: (a decidir)
@@ -66,5 +69,5 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Seguir a entrevista pela decisão 8 (câmera). Instalar a skill globalmente não é preciso:
+Seguir a entrevista pela decisão 9 (som). Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
