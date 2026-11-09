@@ -68,6 +68,10 @@ Fase atual: 3 (referências e perfil) · Atualizado em 09/11/2026
 
 ## Perfil
 - fairhealth: a criar na fase 3. Base visual em `instagram/diretrizes-criativas.md` e `instagram/marca/`.
+- Referências (09/11): três gravações de tela em `Calude Editing/Referências/` (ref01 podcast de bem-estar,
+  ref02 cirurgião "NO Edit / FINAL", ref03 "Raw Video / Claude Edit"). Folhas de contato e quadros em
+  `Calude Editing/_CLAUDE/referencias/`. Análise feita pela imagem (sem medir curvas: são gravações de tela,
+  com o vídeo pequeno e a interface do Instagram por cima). Aguardando a Nina confirmar a síntese.
 
 ## Fluxo aprovado
 (fase 4)
@@ -76,5 +80,5 @@ Fase atual: 3 (referências e perfil) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Fase 3: analisar as três referências e escrever o perfil fairhealth. Instalar a skill globalmente não é preciso:
+Fase 3: Nina confirma a síntese das referências; depois escrever o perfil fairhealth. Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
