@@ -2,3 +2,6 @@
 video/ferramentas/Calude Editing/
 
 .DS_Store
+
+# Ambiente Python da edição (recriável)
+video/ferramentas/.venv/

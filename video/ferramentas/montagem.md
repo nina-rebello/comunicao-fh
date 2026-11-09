@@ -9,7 +9,9 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
   (npx 10.9), Git 2.39, Homebrew 7.0, FFmpeg 9.0.2 (instalado em 09/11 pelo Homebrew). Sem GPU NVIDIA: a transcrição local roda no chip M2
   (mais devagar, mas dá para reels de 30 a 90 s). Disco: 40 GB livres (91% cheio), atenção com renders.
 - Até aqui a montagem foi na nuvem (Linux, Python 3.13, FFmpeg 6.1, Node 22, sem GPU), só para referência.
-- Instalado nesta montagem: FFmpeg 9.0.2 (`brew install ffmpeg`, 09/11).
+- Instalado nesta montagem: FFmpeg 9.0.2 (`brew install ffmpeg`, 09/11); ambiente Python em
+  `video/ferramentas/.venv` (fora do git) com mlx-whisper 0.4.3 e o modelo `mlx-community/whisper-large-v3-turbo`
+  (cerca de 1,6 GB, no cache do Hugging Face).
 
 ## Decisões
 - Revisão: no CapCut. O CapCut não importa projeto de outro programa (ajuda do CapCut), então a entrega é
@@ -25,7 +27,16 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
   44,1 kHz estéreo). Três referências gravadas da tela do
   celular (22 a 26 s, 1170x2532).
   Ferramentas, perfil, estado de cada vídeo e este caderno ficam no repositório (`video/`).
-- Transcrição: (a decidir)
+- Transcrição (09/11): local, de graça, com **mlx-whisper** (Whisper para o chip M2), modelo
+  `large-v3-turbo`, `language="pt"`, `word_timestamps=True`, `condition_on_previous_text=False`.
+  Teste no bruto da Marília (54,6 s): 18,6 s para transcrever, texto certo em todas as frases.
+  - Tempos por palavra: a maioria a menos de 0,15 s, mas alguns erram de 0,3 a 0,6 s (as bordas invadem as
+    pausas). Por isso a etapa de preparar **ajusta as bordas das palavras às pausas** medidas pelo FFmpeg
+    (`silencedetect`) antes de qualquer corte. Se isso não bastar, testar alinhamento forçado (ex.: WhisperX).
+  - "fairhealth" sai como "Fair Health": corrigir depois, por uma lista de termos (não pelo `initial_prompt`,
+    que pode fazer o Whisper inventar frases).
+  - Hesitações: este take não tinha nenhuma, então não deu para avaliar. Conferir no primeiro bruto com
+    erros; o Whisper costuma limpar os "ééé". Trechos com som e sem palavra: retranscrever.
 - Notas faladas: (a decidir)
 - Animação: (a decidir)
 - Câmera: (a decidir)
@@ -43,5 +54,5 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Seguir a entrevista pela decisão 4 (transcrição; sugestão: local, de graça, no chip M2). Instalar a skill globalmente não é preciso:
+Seguir a entrevista pela decisão 5 (notas faladas na gravação). Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
