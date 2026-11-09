@@ -16,7 +16,7 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 ## Decisões
 - Revisão: no CapCut. O CapCut não importa projeto de outro programa (ajuda do CapCut), então a entrega é
   o MP4 completo mais as peças soltas: o vídeo cortado sem animação, cada animação em MP4 com fundo verde
-  (para o chroma key do CapCut) e os efeitos sonoros em áudio. Legendas: as automáticas do CapCut.
+  (para o chroma key do CapCut) e os efeitos sonoros em áudio. Legendas: dinâmicas (pedido de 09/11; quem gera, a decidir).
   Na primeira vez, um arquivo de teste curto para conferir no CapCut.
 - Tipo e formato: reels do Instagram, vertical 9:16, de 30 a 90 s, com alguém falando para a câmera (ex.: Dr.
   Ronald). Motion sem gravação fica para depois, como versão curta do fluxo. Taxa de quadros: 30 fps
@@ -42,7 +42,13 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 - Cortes (09/11): quase nenhum. A Marília grava ensaiado, num take só. O fluxo apara o começo e o fim e
   não corta o meio; se aparecer um erro ou uma pausa estranha, marca para a Nina decidir, sem cortar.
   Roteiro: não é usado nos cortes.
-- Animação: (a decidir)
+- Animação (09/11): poucas e no branding da fairhealth. Só nos momentos fortes, começando pelos números
+  (ex.: "8 em cada 10", "98%") e a marca no fim. Quase tudo em sobreposição sobre a apresentadora; tela cheia
+  só no fechamento com a marca. Ferramenta: HyperFrames (HTML em vídeo, como os `slides.html` dos carrosséis),
+  usando cores, Raleway e logos de `instagram/marca/` e as regras de `instagram/diretrizes-criativas.md`
+  (Tiffany visível, número só com fonte, área segura do 9:16).
+  - Teste antes de usar: o fundo verde para chroma key pode apagar o Tiffany (azul-esverdeado). Na primeira
+    vez, gerar um clipe curto com fundo verde e outro com transparência e conferir os dois no CapCut.
 - Câmera: (a decidir)
 - Som: (a decidir)
 - Revisões: (a decidir)
@@ -58,5 +64,5 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Seguir a entrevista pela decisão 7 (animações). Instalar a skill globalmente não é preciso:
+Decidir quem gera as legendas dinâmicas e seguir pela decisão 8 (câmera). Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
