@@ -4,6 +4,9 @@ previa.py <video> <versao> [--teste-capcut INICIO FIM]
 
 Lê: o bruto (aparado pelo bloco `cortes`), _CLAUDE/<video>/renders/{animacoes,legendas}_vNN.mov (ProRes 4444
 com transparência) e, se existir, renders/apresentadora_vNN.mp4 (com a câmera aplicada).
+Recortes (`motions.recortes`: [{"arquivo", "inicio", "fim_visivel"}]): a apresentadora recortada (MOV com alfa,
+feito com `hyperframes remove-background`) entra por cima das animações e por baixo das legendas, só entre
+`inicio` e `fim_visivel`, para um elemento ficar atrás dela.
 Escreve em Vídeos Prontos/<video>/vNN/: <video>_previa_vNN.mp4 e apresentadora_vNN.mp4; as camadas no formato
 validado em validacao.md (verde: MP4 sobre #00FF00; transparencia: MOV ProRes 4444).
 --teste-capcut gera só o teste curto dos dois formatos (camadas juntas), em Vídeos Prontos/<video>/teste_capcut/.
@@ -57,8 +60,15 @@ def main(video, versao, teste=None):
     previa = os.path.join(out, f"{video}_previa_{vv}.mp4")
     if os.path.exists(previa):
         sys.exit(f"{previa} já existe: use uma versão nova")
-    ff("-i", apres, "-i", anim, "-i", leg, "-filter_complex",
-       "[0:v][1:v]overlay=0:0[a];[a][2:v]overlay=0:0,format=yuv420p", "-c:v", "libx264", "-crf", "17",
+    entradas, filtro, ultimo = ["-i", apres, "-i", anim], "[0:v][1:v]overlay=0:0[v0];", "v0"
+    for n, r in enumerate(e.get("motions", {}).get("recortes", [])):
+        entradas += ["-itsoffset", str(r["inicio"]), "-i", r["arquivo"]]
+        filtro += (f"[{ultimo}][{n + 2}:v]overlay=0:0:eof_action=pass:"
+                   f"enable='between(t,{r['inicio']},{r['fim_visivel']})'[r{n}];")
+        ultimo = f"r{n}"
+    entradas += ["-i", leg]
+    filtro += f"[{ultimo}][{entradas.count('-i') - 1}:v]overlay=0:0,format=yuv420p"
+    ff(*entradas, "-filter_complex", filtro, "-map", "0:a", "-c:v", "libx264", "-crf", "17",
        "-preset", "slow", "-c:a", "copy", "-movflags", "+faststart", previa)
     ff("-i", apres, "-c", "copy", os.path.join(out, f"apresentadora_{vv}.mp4"))
     fmt = formato_validado()

@@ -63,13 +63,20 @@ def main(video):
         ini = max(0, b[0]["inicio"] - t0 - 0.12)
         prox = bs[n + 1][0]["inicio"] - t0 - 0.12 if n + 1 < len(bs) else dur
         fim = min(b[-1]["fim"] - t0 + 0.45, prox)
+        for a, _ in cfg.get("ocultar", []):  # a legenda sai antes de um trecho oculto começar
+            if ini < a - t0 < fim:
+                fim = a - t0
         spans = []
         for k, w in enumerate(b):
             chave = round(w["inicio"], 2) in chaves
-            txt = html.escape(w["palavra"].rstrip(",.") if chave else w["palavra"])
-            spans.append(f'<span class="p{" k" if chave else ""}" id="b{n}w{k}">{txt}</span>')
+            # Na palavra-chave, vírgula e ponto saem; "?" e "!" ficam, fora do marca-texto.
+            pont = w["palavra"][-1] if chave and w["palavra"][-1] in "?!" else ""
+            txt = html.escape(w["palavra"].rstrip(",.?!") if chave else w["palavra"])
+            fora = f'<span class="p" id="b{n}w{k}x">{pont}</span>' if pont else ""
+            spans.append(f'<span class="p{" k" if chave else ""}" id="b{n}w{k}">{txt}</span>{fora}')
             tw = round(w["inicio"] - t0, 3)
-            js.append(f'tl.fromTo("#b{n}w{k}",{{opacity:.55}},{{opacity:1,duration:.12,ease:"power2.out",lazy:false,immediateRender:false}},{tw});')
+            alvo = f'"#b{n}w{k}, #b{n}w{k}x"' if pont else f'"#b{n}w{k}"'
+            js.append(f'tl.fromTo({alvo},{{opacity:.55}},{{opacity:1,duration:.12,ease:"power2.out",lazy:false,immediateRender:false}},{tw});')
             if chave:
                 js.append(f'tl.fromTo("#b{n}w{k}",{{"--m":0,scale:1}},{{"--m":1,scale:1.08,duration:.18,ease:"expo.out",lazy:false,immediateRender:false}},{tw});')
                 js.append(f'tl.to("#b{n}w{k}",{{scale:1,duration:.3,ease:"power2.out",lazy:false}},{tw + 0.18:.3f});')
@@ -89,7 +96,7 @@ def main(video):
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
 html, body {{ width: 1080px; height: 1920px; overflow: hidden; background: transparent; }}
 #root {{ position: relative; width: 1080px; height: 1920px; font-family: "Nunito", sans-serif; }}
-.bloco {{ position: absolute; left: 0; top: 1240px; width: 940px; display: flex; justify-content: center; }}
+.bloco {{ position: absolute; left: 0; top: 1240px; width: 1080px; display: flex; justify-content: center; }}
 .linha {{ color: #FFFFFF; font-weight: 800; font-size: 62px; line-height: 1; letter-spacing: -.005em;
   padding: 16px 20px 20px; white-space: nowrap; opacity: 0;
   text-shadow: 0 2px 4px rgba(13, 24, 22, .6), 0 4px 22px rgba(13, 24, 22, .5); }}

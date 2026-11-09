@@ -34,9 +34,9 @@ A identidade vem da marca, não das referências.
   Aceso em Tiffany, apagado em `#D3D8D3`.
 
 ## Logo
-- **Logo em círculo** (`instagram/marca/logo-circulo.png`) **sempre na tela** (pedido da Nina, 09/11): 96 px,
-  no topo, centralizado (y 240), acima da cabeça. No fechamento ele se abre no selo creme com "@fairhealth.br"
-  (o logo desliza para a esquerda e a pílula cresce a partir dele). **Logo em coração nunca junto de número.** Uma logo por vídeo.
+- **Logo em círculo** (`instagram/marca/logo-circulo.png`) **só no fechamento** (Nina, 09/11: o logo fixo o vídeo
+  todo foi testado e tirado). No "Contrate…" ele aparece no topo, centralizado (96 px, y 240), e se abre no selo
+  creme com "@fairhealth.br" (o logo desliza para a esquerda e a pílula cresce a partir dele). **Logo em coração nunca junto de número.** Uma logo por vídeo.
 - O PNG do círculo tem só 196 px: em 1080x1920, usar no máximo ~180 px de largura até existir a versão em
   alta (pendência da marca).
 - Slogan, quando couber no fechamento: « Fazemos o certo pelos motivos certos ».

@@ -25,7 +25,8 @@ Origem: as três refs fazem legenda palavra por palavra; decisão da Nina de 09/
 - **Uma palavra-chave por frase** em Nunito Black Itálico, com **marca-texto Tiffany** atrás e o texto em
   verde-autoridade `#1F3A36` (aprovado pela Nina em 09/11: "deixe apenas o destaque"). Punch leve na hora em
   que é dita.
-- Posição: abaixo do queixo, na altura do peito (ref02), dentro da área segura. Nunca sobre o rosto.
+- Posição: **centralizada no quadro** (Nina, 09/11), na altura do peito (ref02, y ~1240 de 1920), dentro da
+  área segura. Nunca sobre o rosto.
 - "fairhealth" sempre em minúsculas; números como na fala ("98%", "8 em cada 10").
 
 ## §5. Números (o momento mais forte do vídeo)
@@ -43,10 +44,10 @@ Origem: ref01 ("+ Consume", "+ Over consume"; "+ Chamomile", "+ Valerian").
 
 ## §4. Cartões em tela cheia
 Origem: refs 02 e 03 (cartão escuro com número gigante; cartão claro com ícone).
-- **No máximo um cartão de dado** por vídeo, para o número mais forte, e o **cartão de fechamento** com a logo.
+- **No máximo um cartão de dado** por vídeo, para o número mais forte, e o selo com a logo no fechamento.
 - Cartão de dado: estilo "Luz tiffany" da marca (fundo verde-noite `#0D1816`, número em Tiffany, texto em
   creme, luz Tiffany desfocada ao fundo, grão leve) ou fundo verde-autoridade com número Tiffany.
-- Fechamento: o logo, que fica no topo o vídeo todo, se abre no selo com @fairhealth.br (sem cartão em tela cheia).
+- Fechamento: o logo aparece no topo no "Contrate…" e se abre no selo com @fairhealth.br (sem cartão em tela cheia).
 - Entrada e saída do cartão: corte com assentamento ou speed ramp leve (ofício §4), variando entre vídeos.
 
 ## §8. Movimento secundário
