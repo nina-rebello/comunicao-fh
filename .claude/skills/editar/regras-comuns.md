@@ -7,7 +7,7 @@ O Claude Code é aberto na raiz do repositório `comunicao-fh`. Caminhos a parti
 
 | O quê | Onde | No git? |
 |---|---|---|
-| Pasta da edição | `video/ferramentas/Calude Editing/` (abaixo: `CE/`) | não |
+| Pasta da edição | `~/FairHealth/Comunicação/Calude Editing/` (abaixo: `CE/`), fora do repositório | não |
 | Brutos | `CE/Vídeos Brutos/` | não |
 | Referências de estilo | `CE/Referências/` | não |
 | Trabalho do Claude, por vídeo | `CE/_CLAUDE/<video>/` (estado, transcrição, animações, renders) | não |

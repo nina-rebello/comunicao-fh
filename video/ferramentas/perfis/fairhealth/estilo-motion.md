@@ -20,10 +20,11 @@ de tela) e decisões da Nina de 09/11. Numeração igual à do `guias/oficio-mot
 Origem: as três refs fazem legenda palavra por palavra; decisão da Nina de 09/11 (legenda pelo fluxo).
 - **Palavra por palavra, no tempo da fala**, com a linha recentralizando a cada palavra (ofício §5).
   Blocos de 2 a 5 palavras; troca de bloco na pausa da frase.
-- **Texto em creme `#F0F0E9`, Raleway 500**, com sombra suave verde-escura para ler sobre o vídeo.
-- **Uma palavra-chave por frase** em Raleway ExtraBold Itálico, maior (~1,6×), com **marca-texto Tiffany**
-  atrás e o texto em verde-autoridade `#1F3A36` (refs 01 e 03; marca-texto Tiffany já está em teste na
-  marca). A palavra-chave ganha um punch leve na hora em que é dita.
+- **Sem fundo** (pedido da Nina, 09/11): texto branco em Nunito 800, 62 px, com sombra verde-escura suave
+  para ler sobre o vídeo. Palavras ainda não ditas a 55% de opacidade.
+- **Uma palavra-chave por frase** em Nunito Black Itálico, com **marca-texto Tiffany** atrás e o texto em
+  verde-autoridade `#1F3A36` (aprovado pela Nina em 09/11: "deixe apenas o destaque"). Punch leve na hora em
+  que é dita.
 - Posição: abaixo do queixo, na altura do peito (ref02), dentro da área segura. Nunca sobre o rosto.
 - "fairhealth" sempre em minúsculas; números como na fala ("98%", "8 em cada 10").
 
@@ -45,7 +46,7 @@ Origem: refs 02 e 03 (cartão escuro com número gigante; cartão claro com íco
 - **No máximo um cartão de dado** por vídeo, para o número mais forte, e o **cartão de fechamento** com a logo.
 - Cartão de dado: estilo "Luz tiffany" da marca (fundo verde-noite `#0D1816`, número em Tiffany, texto em
   creme, luz Tiffany desfocada ao fundo, grão leve) ou fundo verde-autoridade com número Tiffany.
-- Cartão de fechamento: creme ou Tiffany chapado, logo em círculo, slogan ou @fairhealth.br.
+- Fechamento: o logo, que fica no topo o vídeo todo, se abre no selo com @fairhealth.br (sem cartão em tela cheia).
 - Entrada e saída do cartão: corte com assentamento ou speed ramp leve (ofício §4), variando entre vídeos.
 
 ## §8. Movimento secundário

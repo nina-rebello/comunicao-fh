@@ -21,15 +21,22 @@ A identidade vem da marca, não das referências.
   `#96C5BD`. Usar `#9FC5BD` até a Nina confirmar.
 
 ## Fontes
-- **Raleway** (`instagram/marca/fontes/`, licença OFL): texto em peso regular (400) ou médio (500);
-  **palavra-chave em ExtraBold Itálico (800 itálico)**. É o "elemento de reconhecimento 3" da marca e casa com
-  o contraste fino × grosso da ref01.
-- Números grandes: Raleway 800, sem itálico.
-- Não usar Oswald, Poppins nem Instrument Serif nos vídeos (estão na pasta, mas não são da identidade).
+- **Nunito** (pedido da Nina, 09/11: "a fonte correta é o Nunito"). Vem do Google Fonts (`@import` no
+  HTML de cada camada). Texto em 700–800; **palavra-chave em Nunito Black Itálico (900 itálico)**; números em 900.
+- A diretriz da marca (`instagram/diretrizes-criativas.md`) ainda diz Raleway, marcada como pendente.
+  Nos vídeos vale a Nunito.
+
+## Bonecos (pictograma de pessoas)
+- O ícone enviado pela Nina em 09/11: cabeça redonda, tronco com ombros arredondados e uma peça só nas pernas.
+  Redesenhado em SVG (viewBox `420 150 415 955`): `<circle cx="624" cy="286" r="124"/>` e o caminho
+  `M428,542 A110,110 0 0 1 538,432 L716,432 A110,110 0 0 1 826,542 L826,759 A28,28 0 0 1 798,787 L752,787
+  L752,1057 A40,40 0 0 1 712,1097 L540,1097 A40,40 0 0 1 500,1057 L500,787 L456,787 A28,28 0 0 1 428,759 Z`.
+  Aceso em Tiffany, apagado em `#D3D8D3`.
 
 ## Logo
-- **Logo em círculo** (`instagram/marca/logo-circulo.png`) no fechamento, e como marca d'água só se a Nina
-  pedir. **Logo em coração nunca junto de número.** Uma logo por vídeo.
+- **Logo em círculo** (`instagram/marca/logo-circulo.png`) **sempre na tela** (pedido da Nina, 09/11): 96 px,
+  no topo, centralizado (y 240), acima da cabeça. No fechamento ele se abre no selo creme com "@fairhealth.br"
+  (o logo desliza para a esquerda e a pílula cresce a partir dele). **Logo em coração nunca junto de número.** Uma logo por vídeo.
 - O PNG do círculo tem só 196 px: em 1080x1920, usar no máximo ~180 px de largura até existir a versão em
   alta (pendência da marca).
 - Slogan, quando couber no fechamento: « Fazemos o certo pelos motivos certos ».

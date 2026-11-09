@@ -23,7 +23,8 @@ Fase atual: 6 (teste num clipe curto) · Atualizado em 09/11/2026
 - Tipo e formato: reels do Instagram, vertical 9:16, de 30 a 90 s, com alguém falando para a câmera (ex.: Dr.
   Ronald). Motion sem gravação fica para depois, como versão curta do fluxo. Taxa de quadros: 30 fps
   (medida no primeiro bruto, 09/11; conferir a cada vídeo novo).
-- Pastas: `video/ferramentas/Calude Editing/`, com `Vídeos Brutos/`, `Referências/` e `Vídeos Prontos/`.
+- Pastas (09/11, mudou): `~/FairHealth/Comunicação/Calude Editing/`, fora do repositório, com `Vídeos Brutos/`,
+  `Referências/`, `Vídeos Prontos/` e `_CLAUDE/`. A cópia antiga em `video/ferramentas/Calude Editing/` não é mais usada.
   O repositório é público: a pasta inteira está no `.gitignore` (09/11) e os vídeos nunca vão para o git.
   Primeiro bruto: `marilia_0911_calude.mp4` (54,6 s, 720x1280, HEVC, 30 fps constante, áudio AAC
   44,1 kHz estéreo). Três referências gravadas da tela do

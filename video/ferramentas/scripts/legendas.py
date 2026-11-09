@@ -55,7 +55,7 @@ def main(video):
     bs = blocos(ws, cfg.get("ocultar", []))
     proj = os.path.join(pasta, "motion", "legendas")
     os.makedirs(os.path.join(proj, "fontes"), exist_ok=True)
-    for f in ["raleway-latin-500-normal.woff2", "raleway-latin-600-normal.woff2", "raleway-latin-800-italic.woff2"]:
+    for f in []:  # Nunito vem do Google Fonts no @import
         if os.path.exists(os.path.join(FONTES, f)):
             shutil.copy(os.path.join(FONTES, f), os.path.join(proj, "fontes", f))
     divs, js = [], []
@@ -69,7 +69,7 @@ def main(video):
             txt = html.escape(w["palavra"].rstrip(",.") if chave else w["palavra"])
             spans.append(f'<span class="p{" k" if chave else ""}" id="b{n}w{k}">{txt}</span>')
             tw = round(w["inicio"] - t0, 3)
-            js.append(f'tl.fromTo("#b{n}w{k}",{{opacity:.38}},{{opacity:1,duration:.12,ease:"power2.out",lazy:false,immediateRender:false}},{tw});')
+            js.append(f'tl.fromTo("#b{n}w{k}",{{opacity:.55}},{{opacity:1,duration:.12,ease:"power2.out",lazy:false,immediateRender:false}},{tw});')
             if chave:
                 js.append(f'tl.fromTo("#b{n}w{k}",{{"--m":0,scale:1}},{{"--m":1,scale:1.08,duration:.18,ease:"expo.out",lazy:false,immediateRender:false}},{tw});')
                 js.append(f'tl.to("#b{n}w{k}",{{scale:1,duration:.3,ease:"power2.out",lazy:false}},{tw + 0.18:.3f});')
@@ -84,17 +84,17 @@ def main(video):
 <meta name="viewport" content="width=1080, height=1920" />
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
 <style>
-@font-face {{ font-family: "Raleway"; font-weight: 500; src: url("fontes/raleway-latin-500-normal.woff2") format("woff2"); }}
-@font-face {{ font-family: "Raleway"; font-weight: 800; font-style: italic; src: url("fontes/raleway-latin-800-italic.woff2") format("woff2"); }}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400..900;1,400..900&display=block");
 :root {{ --tiffany: #9FC5BD; --verde: #1F3A36; --creme: #F0F0E9; }}
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
 html, body {{ width: 1080px; height: 1920px; overflow: hidden; background: transparent; }}
-#root {{ position: relative; width: 1080px; height: 1920px; font-family: "Raleway", sans-serif; }}
+#root {{ position: relative; width: 1080px; height: 1920px; font-family: "Nunito", sans-serif; }}
 .bloco {{ position: absolute; left: 0; top: 1240px; width: 940px; display: flex; justify-content: center; }}
-.linha {{ background: rgba(31, 58, 54, .9); color: var(--creme); font-weight: 500; font-size: 56px; line-height: 1;
-  letter-spacing: -.01em; padding: 22px 30px 26px; border-radius: 22px; white-space: nowrap; opacity: 0; }}
-.p {{ display: inline-block; opacity: .38; }}
-.k {{ --m: 0; position: relative; font-weight: 800; font-style: italic; color: var(--creme); padding: 0 .14em; margin: 0 .06em; }}
+.linha {{ color: #FFFFFF; font-weight: 800; font-size: 62px; line-height: 1; letter-spacing: -.005em;
+  padding: 16px 20px 20px; white-space: nowrap; opacity: 0;
+  text-shadow: 0 2px 4px rgba(13, 24, 22, .6), 0 4px 22px rgba(13, 24, 22, .5); }}
+.p {{ display: inline-block; opacity: .55; }}
+.k {{ --m: 0; position: relative; font-weight: 900; font-style: italic; padding: 0 .14em; margin: 0 .06em; text-shadow: none; }}
 .k::before {{ content: ""; position: absolute; inset: -6px -2px -8px; background: var(--tiffany); border-radius: 10px;
   transform: scaleX(var(--m)); transform-origin: left center; z-index: -1; }}
 .k {{ z-index: 0; color: var(--verde); }}

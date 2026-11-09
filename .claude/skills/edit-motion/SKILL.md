@@ -26,7 +26,7 @@ Se `plano` não estiver `concluido`, pare e sugira terminá-lo.
   (o verde pode apagar o Tiffany, que é azul-esverdeado). Anotar em `validacao.md` e só então seguir.
 
 ## Construir
-- Fontes da marca embutidas (Raleway de `instagram/marca/fontes/`, em base64 ou caminho local), cores do
+- Fonte Nunito pelo Google Fonts (`@import` no HTML), cores do
   perfil, logo de `instagram/marca/logo-circulo.png`.
 - Composição em 1080x1920 na taxa do vídeo. **Áreas seguras do perfil** (topo, base e lado direito livres).
 - **Uma camada de animações e uma de legendas, cada uma com a duração do vídeo inteiro** (regras comuns,

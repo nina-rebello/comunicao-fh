@@ -10,7 +10,7 @@ Fluxo: `edit-preparar` → `edit-plano` → `edit-motion` → `edit-camera` → 
 Antes de tudo, leia `regras-comuns.md` (nesta pasta), uma vez por sessão.
 
 ## /editar
-1. **Qual vídeo:** liste os brutos em `video/ferramentas/Calude Editing/V*deos Brutos/` e, para cada um, se já
+1. **Qual vídeo:** liste os brutos em `~/FairHealth/Comunicação/Calude Editing/V*deos Brutos/` e, para cada um, se já
    tem `_CLAUDE/<video>/projeto.json`. Se a Nina disse qual, use esse; se só um está em andamento, proponha
    esse; senão pergunte.
 2. **Vídeo novo** (sem `projeto.json`): diga que ele ainda não foi iniciado e ofereça a `edit-preparar`.

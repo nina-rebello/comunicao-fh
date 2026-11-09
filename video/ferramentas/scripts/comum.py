@@ -3,7 +3,8 @@ import glob, json, os, subprocess, unicodedata
 
 RAIZ = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 FERR = os.path.join(RAIZ, "video", "ferramentas")
-CE = os.path.join(FERR, "Calude Editing")
+# Pasta da edição, fora do repositório (pedido da Nina, 09/11).
+CE = os.path.expanduser("~/FairHealth/Comunicação/Calude Editing")
 
 
 def _sub(nome):

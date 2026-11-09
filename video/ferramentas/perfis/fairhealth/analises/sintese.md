@@ -1,7 +1,7 @@
 # Síntese das referências — 09/11/2026
 
-Três gravações da tela do celular (1170x2532, 22 a 26 s), em `video/ferramentas/Calude Editing/Referências/`
-(fora do git). Folhas de contato em `Calude Editing/_CLAUDE/referencias/`. Analisadas pela imagem: o vídeo
+Três gravações da tela do celular (1170x2532, 22 a 26 s), em `~/FairHealth/Comunicação/Calude Editing/Referências/`
+(fora do git). Folhas de contato em `Calude Editing/_CLAUDE/referencias/` (cópia antiga no repositório). Analisadas pela imagem: o vídeo
 aparece pequeno e com a interface do Instagram por cima, então as curvas e as durações não foram medidas.
 Servem para o **jeito de mover**, nunca para copiar o desenho.
 

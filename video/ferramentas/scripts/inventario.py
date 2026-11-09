@@ -35,7 +35,8 @@ def main(video):
     if w < 1080 or h < 1920:
         alertas.append(f"resolução {w}x{h}, abaixo de 1080x1920: zoom da câmera limitado (perfil)")
     e["midia"], e["alertas"] = m, alertas
-    e["etapas"]["preparar"] = "em_andamento"
+    if e["etapas"]["preparar"] == "pendente":
+        e["etapas"]["preparar"] = "em_andamento"
     salvar(video, e)
     print(f"{video}: {m['duracao']:.2f} s, {w}x{h}, {m['fps']} fps (médio {m['fps_medio']}), {m['codec']}, áudio {m['audio']}")
     for a in alertas:
