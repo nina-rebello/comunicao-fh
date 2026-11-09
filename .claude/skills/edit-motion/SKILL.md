@@ -45,7 +45,18 @@ Se `plano` não estiver `concluido`, pare e sugira terminá-lo.
 |---|---|---|
 | `legendas.py` | blocos e tempos das legendas a partir da transcrição | troca de bloco na pausa; "fairhealth" minúsculo |
 | `previa.py` | compõe bruto aparado + camadas numa prévia MP4 1080x1920 | escalar o bruto para 1080x1920; mesmo fps; chroma ou alpha conforme `validacao.md` |
-Na primeira vez, escreva os que faltam, teste e anote o uso aqui.
+Uso (testados em 09/11, `marilia_0911_calude`), a partir de `video/ferramentas/scripts/`:
+1. `$PY legendas.py <video>`: gera `motion/legendas/index.html` a partir de `plano.legendas`
+   (`palavras_chave` por tempo de início, `ocultar` [[ini, fim]], `correcoes` {"tempo": "palavra"}).
+2. Animações: `motion/animacoes/index.html` escrito à mão por vídeo (uma composição com todos os `mo`, fundo
+   transparente, duração `(frames − 0,5)/fps`). Fontes e logo copiados para dentro do projeto.
+3. `npx --yes hyperframes@<versão> check` e `snapshot --at …`; compor o snapshot sobre o quadro do bruto
+   escalado para conferir.
+4. Render: `npx --yes hyperframes@<versão> render motion/<camada> --format mov --fps 30 -o renders/<camada>_vNN.mov`
+   (ProRes 4444 com alfa; ~2 min para 55 s de animações, um pouco mais para as legendas).
+5. `$PY previa.py <video> <N>`: prévia, apresentadora e camadas no formato de `validacao.md`;
+   `$PY previa.py <video> <N> --teste-capcut INI FIM`: o teste dos dois formatos.
+Os avisos `line_unread` do check nas legendas são esperados (a legenda segue a fala).
 
 ## Entrega e resumo
 Pasta `vNN` com a prévia, `apresentadora_vNN.mp4` (aparada, escalada), `animacoes_vNN`, `legendas_vNN`
