@@ -1,9 +1,10 @@
 """Gera a capa (texto de título inicial) de um reel no modelo padrão: PNG 1080x1920 com topo transparente.
 
-capa.py <video> "<título com a [palavra-chave] entre colchetes>" "<subtítulo com o trecho em **negrito**>" [@arroba]
+capa.py <video> "<título com a [palavra-chave] entre colchetes>" "<subtítulo com o trecho em **negrito**>" [@arroba] [--sem-fundo]
 
 Usa video/ferramentas/modelos/capa-reel.html. Escreve em Vídeos Prontos/<video>/: capa_titulo.png (para pôr por
-cima do vídeo no CapCut) e capa_previa.png (sobre o primeiro quadro, para conferir).
+cima do vídeo no CapCut) e capa_previa.png (sobre o primeiro quadro, para conferir). Com --sem-fundo, só a escrita, sem o degradê:
+capa_texto_sem_fundo.png.
 """
 import glob, html, os, re, subprocess, sys
 from comum import FERR, carregar, pasta_prontos, pasta_trabalho
@@ -11,7 +12,7 @@ from comum import FERR, carregar, pasta_prontos, pasta_trabalho
 BASE_PX = 400  # distância do fim do texto até a base do quadro: fica acima da legenda e dos botões do Instagram
 
 
-def main(video, titulo, sub, arroba="@FAIRHEALTH.BR"):
+def main(video, titulo, sub, arroba="@FAIRHEALTH.BR", sem_fundo=False):
     e, pasta = carregar(video), pasta_trabalho(video)
     t = html.escape(titulo)
     # a palavra-chave vira pílula e fica presa à pontuação que vem depois (o "?" não cai sozinho na linha)
@@ -19,6 +20,8 @@ def main(video, titulo, sub, arroba="@FAIRHEALTH.BR"):
     s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", html.escape(sub))
     doc = open(os.path.join(FERR, "modelos", "capa-reel.html")).read()
     doc = doc.replace("__TITULO__", t).replace("__SUB__", s).replace("__ARROBA__", html.escape(arroba)).replace("__BASE__", str(BASE_PX))
+    if sem_fundo:
+        doc = doc.replace('<div id="fundo"></div>', "")
     proj = os.path.join(pasta, "motion", "capa")
     os.makedirs(proj, exist_ok=True)
     open(os.path.join(proj, "index.html"), "w").write(doc)
@@ -28,6 +31,10 @@ def main(video, titulo, sub, arroba="@FAIRHEALTH.BR"):
     png = sorted(glob.glob(os.path.join(snap, "frame-*.png")))[-1]
     out = os.path.join(pasta_prontos(), video)
     os.makedirs(out, exist_ok=True)
+    if sem_fundo:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", png, "-c:v", "png", os.path.join(out, "capa_texto_sem_fundo.png")], check=True)
+        print("escrita sem fundo em", out)
+        return
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", png, "-c:v", "png", os.path.join(out, "capa_titulo.png")], check=True)
     base = e.get("camera", {}).get("render") or e["midia"]["arquivo"]
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", base, "-i", png, "-filter_complex",
@@ -36,4 +43,5 @@ def main(video, titulo, sub, arroba="@FAIRHEALTH.BR"):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:])
+    a = [x for x in sys.argv[1:] if x != "--sem-fundo"]
+    main(*a, sem_fundo="--sem-fundo" in sys.argv)
