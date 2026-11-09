@@ -8,6 +8,12 @@ de tela) e decisões da Nina de 09/11. Numeração igual à do `guias/oficio-mot
   O resto do tempo, a apresentadora e a legenda. Tom B2B: nada que pareça propaganda.
 - Uma protagonista por vez: quando um número ou cartão entra, a legenda dá lugar (some ou fica menor).
 
+## Direção (Nina, 09/11)
+- **Branding da marca com um toque de tecnologia e modernidade:** brilho Tiffany suave, interface de conversa
+  (balão com "digitando"), elementos que passam levemente atrás da apresentadora (recorte, sem esconder conteúdo).
+- A pergunta-assinatura "O que importa para você?" ganha animação própria no alto: balão verde-autoridade com
+  contorno e brilho Tiffany, "digitando" e as palavras no tempo da fala, "importa" com marca-texto.
+
 ## §1. Velocidades
 - Ponto de partida: as do ofício (entrada ~15 f, saída ~8 f, a 30 fps). Refs 01 e 03 parecem um pouco mais
   rápidas nas palavras; medir no primeiro vídeo aprovado.
