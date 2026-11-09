@@ -3,8 +3,9 @@
 Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 
 ## Ambiente
-- Ambiente na nuvem do Claude Code (Linux), reciclado entre sessões: o que precisa durar fica no repositório.
-- Python 3.13 · FFmpeg 6.1 · Node.js 22 · Git 2.43 · sem GPU (4 núcleos, 15 GB de RAM).
+- **Decisão (09/11):** a edição passa para o Claude Code instalado no computador da Nina, com os vídeos em
+  pastas locais. A fase 1 (ambiente) precisa ser refeita lá: conferir sistema, Python, FFmpeg, Node.js, Git e GPU.
+- Até aqui a montagem foi na nuvem (Linux, Python 3.13, FFmpeg 6.1, Node 22, sem GPU), só para referência.
 - Instalado nesta montagem: nada ainda.
 
 ## Decisões
@@ -15,7 +16,8 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 - Tipo e formato: reels do Instagram, vertical 9:16, de 30 a 90 s, com alguém falando para a câmera (ex.: Dr.
   Ronald). Motion sem gravação fica para depois, como versão curta do fluxo. Taxa de quadros: medir no
   primeiro vídeo.
-- Pastas: (a decidir)
+- Pastas: locais, no computador da Nina (caminho a definir lá): brutos, referências e vídeo pronto por vídeo.
+  Ferramentas, perfil, estado de cada vídeo e este caderno ficam no repositório (`video/`).
 - Transcrição: (a decidir)
 - Notas faladas: (a decidir)
 - Animação: (a decidir)
@@ -34,4 +36,6 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Decisão 3 (pastas e organização) e seguir a entrevista.
+No computador da Nina: refazer a fase 1 (ambiente), definir o caminho das pastas locais e seguir a
+entrevista pela decisão 4 (transcrição; sugestão: local, de graça). Instalar a skill globalmente não é preciso:
+ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
