@@ -60,7 +60,10 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
   Freesound), conferida som a som, organizada por tipo, na pasta de ferramentas. Entrega: áudios separados
   no tempo certo. Música de fundo: fica com a Nina, no CapCut ou no Instagram (conta comercial tem
   biblioteca restrita).
-- Revisões: (a decidir)
+- Revisões (09/11): (1) plano das animações e das legendas aprovado pelo chat, antes de animar; (2) animações e
+  legendas prontas, no CapCut; (3) câmera e som, no CapCut (revisão final). Cortes sem revisão própria: o fluxo
+  só avisa se marcou algum trecho. Correções pelo chat, citando o tempo ("0:21 o 98% entra cedo"); o que vale
+  para outros vídeos vai para o caderno de aprendizados.
 - Nomes: (a decidir)
 
 ## Perfil
@@ -73,5 +76,5 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Seguir a entrevista pela decisão 10 (revisões). Instalar a skill globalmente não é preciso:
+Decisão 11 (nomes das skills) e depois a fase 3 (referências e perfil). Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
