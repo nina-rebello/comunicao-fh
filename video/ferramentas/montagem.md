@@ -37,7 +37,8 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
     que pode fazer o Whisper inventar frases).
   - Hesitações: este take não tinha nenhuma, então não deu para avaliar. Conferir no primeiro bruto com
     erros; o Whisper costuma limpar os "ééé". Trechos com som e sem palavra: retranscrever.
-- Notas faladas: (a decidir)
+- Notas faladas (09/11): deixadas para depois. Sugestão em aberto: abrir com "nota de edição" e fechar com
+  "fim da nota", com uma pausa curta antes e depois.
 - Animação: (a decidir)
 - Câmera: (a decidir)
 - Som: (a decidir)
@@ -54,5 +55,5 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Seguir a entrevista pela decisão 5 (notas faladas na gravação). Instalar a skill globalmente não é preciso:
+Seguir a entrevista pela decisão 6 (cortes: ritmo, hesitações, roteiro). Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
