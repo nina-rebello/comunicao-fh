@@ -39,6 +39,9 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
     erros; o Whisper costuma limpar os "ééé". Trechos com som e sem palavra: retranscrever.
 - Notas faladas (09/11): deixadas para depois. Sugestão em aberto: abrir com "nota de edição" e fechar com
   "fim da nota", com uma pausa curta antes e depois.
+- Cortes (09/11): quase nenhum. A Marília grava ensaiado, num take só. O fluxo apara o começo e o fim e
+  não corta o meio; se aparecer um erro ou uma pausa estranha, marca para a Nina decidir, sem cortar.
+  Roteiro: não é usado nos cortes.
 - Animação: (a decidir)
 - Câmera: (a decidir)
 - Som: (a decidir)
@@ -55,5 +58,5 @@ Fase atual: 2 (entrevista) · Atualizado em 09/11/2026
 (fase 5)
 
 ## Próximo passo
-Seguir a entrevista pela decisão 6 (cortes: ritmo, hesitações, roteiro). Instalar a skill globalmente não é preciso:
+Seguir a entrevista pela decisão 7 (animações). Instalar a skill globalmente não é preciso:
 ela está no repositório, em `.claude/skills/fluxo-de-edicao`.
