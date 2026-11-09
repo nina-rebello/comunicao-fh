@@ -42,11 +42,13 @@ A identidade vem da marca, não das referências.
 - Slogan, quando couber no fechamento: « Fazemos o certo pelos motivos certos ».
 
 ## Capa do reel (texto de título inicial)
-- Padrão enviado pela Nina em 09/11: PNG 1080x1920 com o topo transparente e um degradê verde-noite `#0F1F1C`
-  subindo de baixo (transparente até y 760, 72% em y 1060, 95% na base); "@FAIRHEALTH.BR" pequeno e espaçado;
-  título branco em 3 linhas no máximo (Nunito 800, 104 px, margem 72 px) com a palavra-chave numa pílula Tiffany
-  e texto verde; subtítulo de até 700 px com o trecho final em negrito branco. O título é o gancho da
-  programação. Modelo: `video/ferramentas/modelos/capa-reel.html`; gerador: `scripts/capa.py`.
+- Padrão (Nina, 09/11; v2 "mais harmônico", a partir de uma capa de referência): o título fica sobre o próprio
+  vídeo, com um degradê verde-noite `#0F1F1C` suave só na parte de baixo (transparente até y 880, 78% na base).
+  "@FAIRHEALTH.BR" pequeno; título branco Nunito 800, 118 px, entrelinha justa (108 px), em **linhas curtas**
+  quebradas à mão (2 a 3 palavras), com a palavra-chave numa pílula Tiffany e texto verde; subtítulo de até
+  800 px, Nunito 600, com o trecho final em negrito. O bloco termina 400 px acima da base (fora da legenda e dos
+  botões do Instagram). O título é o gancho da programação.
+- Modelo: `video/ferramentas/modelos/capa-reel.html`; gerador: `scripts/capa.py` (quebre o título com Enter).
 
 ## Quadro e áreas seguras (9:16, 1080x1920)
 - Saída das animações e das legendas em 1080x1920, mesmo com o bruto em 720x1280.

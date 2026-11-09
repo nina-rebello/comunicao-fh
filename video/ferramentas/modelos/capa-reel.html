@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=1080, height=1920" />
-<!-- Capa padrão dos reels (modelo enviado pela Nina em 09/11): topo transparente, degradê verde-noite de baixo,
-     @, título branco com a palavra-chave numa pílula Tiffany e subtítulo com o trecho final em negrito.
-     Medidas tiradas do modelo; preenchido pelo scripts/capa.py. -->
+<!-- Capa padrão dos reels. v2 (Nina, 09/11, "mais harmônico assim"): título grande em linhas curtas e
+     entrelinha justa, sobre o próprio vídeo, com um degradê suave só embaixo; palavra-chave em pílula Tiffany.
+     Nunito. Preenchido pelo scripts/capa.py. -->
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400..900;1,400..900&display=block");
 :root { --tiffany: #9FC5BD; --verde: #1F3A36; --noite: 15, 31, 28; }
@@ -13,16 +13,19 @@
 html, body { width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
 #root { position: relative; width: 1080px; height: 1920px; font-family: "Nunito", sans-serif; }
 #fundo { position: absolute; inset: 0; background: linear-gradient(to bottom,
-  rgba(var(--noite), 0) 0, rgba(var(--noite), 0) 760px, rgba(var(--noite), .34) 900px, rgba(var(--noite), .72) 1060px,
-  rgba(var(--noite), .85) 1260px, rgba(var(--noite), .92) 1380px, rgba(var(--noite), .95) 1920px); }
-#bloco { position: absolute; left: 72px; width: 936px; bottom: __BASE__px; }
-#arroba { font-weight: 700; font-size: 26px; letter-spacing: .16em; color: rgba(214, 226, 222, .82); }
-#titulo { margin-top: 26px; font-weight: 800; font-size: 104px; line-height: 102px; letter-spacing: -.015em; color: #FFFFFF; }
+  rgba(var(--noite), 0) 0, rgba(var(--noite), 0) 880px, rgba(var(--noite), .32) 1120px,
+  rgba(var(--noite), .62) 1420px, rgba(var(--noite), .78) 1920px); }
+#bloco { position: absolute; left: 76px; width: 880px; bottom: __BASE__px; }
+#arroba { font-weight: 800; font-size: 28px; letter-spacing: .08em; color: rgba(255, 255, 255, .88);
+  text-shadow: 0 2px 10px rgba(var(--noite), .5); }
+#titulo { margin-top: 14px; font-weight: 800; font-size: 118px; line-height: 108px; letter-spacing: -.02em; color: #FFFFFF;
+  text-shadow: 0 3px 24px rgba(var(--noite), .45); }
 #titulo .nw { white-space: nowrap; }
 #titulo .k { display: inline-block; background: var(--tiffany); color: var(--verde); border-radius: 60px;
-  padding: 0 .2em; line-height: 98px; margin: 0 .02em; }
-#sub { margin-top: 110px; max-width: 700px; font-weight: 400; font-size: 34px; line-height: 43px; color: rgba(214, 226, 222, .9); }
-#sub b { font-weight: 800; color: #FFFFFF; }
+  padding: 0 .16em; line-height: 104px; margin-left: -.06em; text-shadow: none; }
+#sub { margin-top: 34px; max-width: 800px; font-weight: 600; font-size: 36px; line-height: 46px; color: rgba(255, 255, 255, .86);
+  text-shadow: 0 2px 12px rgba(var(--noite), .55); }
+#sub b { font-weight: 900; color: #FFFFFF; }
 </style>
 </head>
 <body>

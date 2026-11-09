@@ -8,7 +8,7 @@ cima do vídeo no CapCut) e capa_previa.png (sobre o primeiro quadro, para confe
 import glob, html, os, re, subprocess, sys
 from comum import FERR, carregar, pasta_prontos, pasta_trabalho
 
-BASE_PX = 368  # distância do fim do subtítulo até a base do quadro (modelo: subtítulo termina em y 1552)
+BASE_PX = 400  # distância do fim do texto até a base do quadro: fica acima da legenda e dos botões do Instagram
 
 
 def main(video, titulo, sub, arroba="@FAIRHEALTH.BR"):
