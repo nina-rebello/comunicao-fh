@@ -54,16 +54,17 @@ deste time porque [motivo pessoal, em uma frase]."
 
 ---
 
-## #2 · seg 09/11, 8:00 (era qui 05/11) · PRÓXIMO POST · Reconhecimento · Uma história desde 2009
+## #2 · qui 12/11, 8:00 (era 05/11, depois 09/11) · PRÓXIMO POST · Reconhecimento · O colaborador no centro
 
-**Formato:** imagem + texto. É o post do Instagram de 06/11 (`instagram/posts/historia-2009/`) passado para o
-LinkedIn (pedido da Nina, 06/11: reaproveitar o que já foi feito para o Instagram).
+**Formato:** imagem quadrada (1080 × 1080, como o post #1) + texto. É o post do Instagram de 06/11
+(`instagram/posts/historia-2009/`) passado para o LinkedIn (pedido da Nina, 06/11 e 10/11).
 
-- **Imagem:** a arte aprovada do Instagram, sem mudança: `instagram/posts/historia-2009/foto-unica-aprovada.png`
-  (1080 × 1350; o LinkedIn mostra o formato 4:5 inteiro no feed). No Canva: o design aprovado de 06/11.
+- **Imagem:** `linkedin/posts/02-escritorio-do-cuidado/linkedin-02.png`, a arte aprovada do Instagram refeita em
+  quadrado (`slide.html` e `nevoa.py` na mesma pasta): névoa branca no alto, "O colaborador no centro." com o
+  marca-texto Tiffany e o parágrafo; no lugar do @ do Instagram, "fairhealth · Escritório do Cuidado".
 - **Texto:** a legenda do Instagram (`legenda-foto.txt`) adaptada às regras do LinkedIn: a primeira frase se sustenta
   sozinha antes do "ver mais"; a lista do atendimento em setas, como no post #1; sem "Comente CUIDADO", fecha com
-  uma pergunta aberta; 3 hashtags, sem #fairhealth.
+  uma pergunta aberta; 3 hashtags.
 
 **[PENDENTE]** O Dr. Ronald confere a bioimpedância e a pulseira por 48 horas (a mesma pendência da legenda do
 Instagram).

@@ -59,7 +59,7 @@ Post de página alcança pouco sozinho. Toda quinta:
 | # | Data | Bloco | Post | Formato |
 | --- | --- | --- | --- | --- |
 | 1 | qui 29/10 | Reconhecimento | Apresentando a FairHealth | Documento PDF |
-| 2 | **seg 09/11, 8:00** (era qui 05/11; próximo post) | Reconhecimento | Uma história de cuidado que começou em 2009 | Imagem + texto (post do Instagram de 06/11) |
+| 2 | **qui 12/11, 8:00** (era 05/11; próximo post) | Reconhecimento | O colaborador no centro (Escritório do Cuidado) | Imagem quadrada + texto (post do Instagram de 06/11) |
 | 3 | qui 12/11 | Relevância | O cuidado não cabe na agenda de quem trabalha | Texto |
 | 4 | qui 19/11 | Relevância | Prevenção também é investimento | Texto |
 | 5 | qui 26/11 | Compreensão | Entre a medicina do trabalho e o plano de saúde | Texto |
