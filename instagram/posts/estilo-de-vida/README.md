@@ -204,3 +204,9 @@ Diabetes", "Medicina do Estilo de Vida" e "saúde do colaborador" no texto. Os a
 feitas para inglês. Todos os números são os do carrossel, já conferidos.
 
 Texto alternativo da capa: "Fundo creme com brilho verde-água. Título: Estilo de vida também é tratamento sério."
+
+## Ajustes de 10/11
+
+- Pedido da Nina: sem paginação. Os "01/06" a "06/06" do alto dos slides saíram; PNGs, PDF e prévia regerados.
+- Hashtags: 5, a primeira #fairhealth (regra da marca): `#fairhealth #diabetes #medicinadoestilodevida
+  #saudecorporativa #diamundialdodiabetes`.
