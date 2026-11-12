@@ -71,6 +71,11 @@ Novembro está em `marketing/Cronograma_Posts_03-11_a_30-11.xlsx`.
   entregas da fairhealth seguem o texto do site da fairjob (página fairhealth), resumido em
   `instagram/referencias.md`, "Site da fairjob". O que não estiver lá (ex.: pulseira por 48 h, prazos, o que o RH
   leva) não entra sem confirmação.
+- **A Medicina do Estilo de Vida (MEV) acontece dentro do Escritório do Cuidado** (Nina, 12/11). Nunca apresentar o
+  Programa MEV e o Escritório como duas coisas separadas: o Escritório cuida de cada pessoa (atendimento e plano
+  pela MEV) e, dentro dele, os workshops nos 7 pilares educam a empresa toda.
+- **Sempre citar a bioimpedância e os smartwatches** quando o post falar do atendimento ou das medições (pedido
+  do chefe médico, via Nina, 12/11). O nome é "smartwatch"; o "por 48 horas" não está no site e não entra.
 - O verificador não reconhece chamadas em português ("link da bio"); o aviso de "sem chamada" nesse caso é falso.
 
 ## Carrosséis (pedido da Nina, 20/10)

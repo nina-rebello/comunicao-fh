@@ -67,8 +67,7 @@ deste time porque [motivo pessoal, em uma frase]."
   sozinha antes do "ver mais"; a lista do atendimento em setas, como no post #1; sem "Comente CUIDADO", fecha com
   uma pergunta aberta; 3 hashtags.
 
-**[PENDENTE]** O Dr. Ronald confere a bioimpedância e a pulseira por 48 horas (a mesma pendência da legenda do
-Instagram).
+Bioimpedância e smartwatches citados, sem o "por 48 horas", que não está no site (Nina, 12/11).
 
 ```
 Em 2009, num hospital, mudamos a primeira pergunta do atendimento. Ela ainda guia tudo o que fazemos hoje.
@@ -81,7 +80,7 @@ Anos depois, levamos esse aprendizado para onde as pessoas passam a maior parte 
 
 Foi daí que desenvolvemos o Escritório do Cuidado, com atendimento médico e psicológico dentro da empresa:
 → tudo começa pela escuta
-→ a bioimpedância mostra a composição corporal, e uma pulseira inteligente, usada por 48 horas, acompanha o sono e o movimento na rotina real
+→ a bioimpedância mostra a composição corporal, e os smartwatches acompanham o sono e o movimento na rotina real
 → cada pessoa recebe um plano individual, com base na Medicina do Estilo de Vida, revisto a cada retorno
 
 A proximidade aumenta a adesão. A adesão gera resultado. E o RH acompanha a evolução do grupo em relatórios anonimizados, sem expor ninguém.
