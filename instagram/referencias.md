@@ -102,3 +102,41 @@ Usadas no carrossel de 11/11 (`instagram/posts/estilo-de-vida`).
   Todos receberam a oferta do programa em grupo depois do DPP (conferido no texto completo).
 - **Regra (04/11, Nina):** nenhum número entra sem conferência na fonte original. Reportagem serve para achar o
   dado, não para confirmá-lo.
+
+
+## Site da fairjob, página fairhealth (prints da Nina, 12/11): a fonte de como o serviço funciona
+
+Regra (Nina, 12/11): o que o post diz sobre como a fairhealth funciona segue este texto. Fora dele, confirmar antes.
+
+- **Passos para começar (cards):** 1. (texto não visível no print; o diagnóstico gratuito não existe) · 2. Proposta
+  personalizada: "Desenvolvemos um programa sob medida para o seu time" · 3. Implementação: "Iniciamos com
+  onboarding e primeiros atendimentos". Botão do site: "Falar com especialista".
+- **A jornada do programa em 12 meses:** "integra letramento e atendimento clínico de forma simultânea, ambos
+  fundamentados na Medicina do Estilo de Vida (MEV)". Os workshops educam e engajam a população; o Escritório do
+  Cuidado atua nos casos individuais.
+  - **No 1º mês · Diagnóstico integrado:** levantamento de perfil de saúde da população via fairdata + avaliação de
+    risco por área e faixa etária. Prioridades de intervenção por evidência, não por suposição.
+  - **Mês 1 a 12 · Escritório do Cuidado, atendimentos individualizados:** atendimentos médicos e psicológicos
+    individuais para casos identificados no diagnóstico. Entrega de Plano Individual do Cuidado por dimensão de MEV.
+    Médico, psicólogo, assistente social, felicitologista; cuidado contínuo.
+  - **Mês 1 a 12 · Programa MEV, letramento e sensibilização:** workshops e jornadas educativas nos 7 pilares MEV,
+    com linguagem acessível e engajamento de lideranças. Ativação do Escritório do Cuidado com agenda aberta.
+  - **No 12º mês · Mensuração e consolidação:** ciclo de pesquisa fairdata revela evolução dos indicadores. Relatório
+    de impacto em sinistralidade para o CFO e o plano de saúde. Preparação para acreditação fairtrust.
+- **Escritório do Cuidado, "O que é importante para você hoje?":** espaço físico de atendimento médico e
+  psicológico dentro da empresa, reduzindo a principal barreira ao cuidado: o tempo e o acesso. A proximidade
+  aumenta a adesão. A adesão gera resultado.
+  - Atendimento médico preventivo: medicina geral com foco em rastreamento de risco, avaliação de estilo de vida e
+    orientação preventiva. Presença semanal ou quinzenal conforme porte.
+  - Plantões alternados: médicos, psicólogos, assistentes sociais e felicitologistas em escalas complementares.
+  - Anamnese e medições com tecnologia: coleta de dados de saúde física e mental com ferramentas tecnológicas.
+  - Medicina do Estilo de Vida: diagnóstico completo, fatores de risco e conscientização.
+  - Complementar ao plano e SST/SESMT: plano de ação personalizado para cada colaborador, encaminhamentos e
+    acompanhamento contínuo.
+  - Dados anonimizados para o RH: relatórios de tendências de saúde, anonimizados e agregados, no painel fairdata.
+  - Números do site: −27% absenteísmo (Chapman, American Journal of Health Promotion); +40% participação em programas
+    com componente presencial (Journal of Occupational and Environmental Medicine); R$ 2,7 de retorno para cada R$ 1
+    (Berry, Mirabito e Baun, Harvard Business Review); 12 meses de tempo médio para resultados no plano de saúde
+    (SHRM); −26% custos médicos (Baicker, Cutler e Song, Health Affairs).
+- **NR-01 no site:** "conformidade" e "cumprir as exigências da NR-1" aparecem no site; nos posts continua valendo
+  "apoio na prevenção de riscos psicossociais", sem prometer conformidade (`voice.md`).

@@ -67,6 +67,10 @@ Novembro está em `marketing/Cronograma_Posts_03-11_a_30-11.xlsx`.
 - **Não existe "diagnóstico gratuito"** (Nina, 12/11). Nunca oferecer diagnóstico gratuito em post, legenda, bio
   ou LinkedIn. A palavra CUIDADO envia como funciona o Escritório do Cuidado. O que estiver escrito de outro jeito
   nos arquivos antigos está desatualizado.
+- **Como o serviço funciona: só o que está no site** (Nina, 12/11). Etapas, jornada, profissionais, frequência e
+  entregas da fairhealth seguem o texto do site da fairjob (página fairhealth), resumido em
+  `instagram/referencias.md`, "Site da fairjob". O que não estiver lá (ex.: pulseira por 48 h, prazos, o que o RH
+  leva) não entra sem confirmação.
 - O verificador não reconhece chamadas em português ("link da bio"); o aviso de "sem chamada" nesse caso é falso.
 
 ## Carrosséis (pedido da Nina, 20/10)
