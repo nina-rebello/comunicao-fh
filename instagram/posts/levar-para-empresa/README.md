@@ -3,7 +3,7 @@
 **Sexta, 13/11.** Semana 4, bloco 4 (Produto). Pauta do PDF: encerramento da apresentação inicial com orientação
 para o RH. Post comercial, com CTA forte: primeiro "Comente CUIDADO (comercial)" do mês.
 
-**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v2 em prévia (12/11): o caminho. A v1 fica abaixo, como registro.
+**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v3 em prévia (12/11): 5 slides, passo 0 no convite. A v1 fica abaixo, como registro.
 
 ## Ângulo
 
@@ -90,3 +90,22 @@ trajeto. Mantém a base da v1 (fundos, marca-texto, fechos) e acrescenta:
 - Caminho em SVG dentro de um `div` posicionado (regra do Canva); cor da linha `#7DB5A9`, um pouco mais escura
   que o Tiffany para aparecer no fundo claro.
 - A v1 fica em `slides-v1.html`, `png-v1/` e `previa-v1.png`. Tira contínua dos 6 slides em `previa-tira.png`.
+
+## Design v3 (12/11): 3 passos e o passo 0 (versão atual)
+
+Pedidos da Nina sobre a v2: capa mais leve com só 3 marcos (1 Diagnóstico, 2 Escritório do Cuidado, 3 Mensuração);
+um slide para cada passo; o convite como "passo 0" (falar com um especialista), já que o primeiro passo do caminho
+é o diagnóstico. Saiu o slide "Três passos para começar": a proposta e a implementação foram para o passo 0.
+
+| # | Slide |
+|---|---|
+| 1 | Capa: título e o caminho leve, linha fina com 3 marcos vazados (1º mês · Diagnóstico; 1º ao 12º mês · Escritório do Cuidado; 12º mês · Mensuração) |
+| 2 | Passo 1 · No 1º mês: Diagnóstico integrado |
+| 3 | Passo 2 · Do 1º ao 12º mês: O Escritório do Cuidado, dentro da empresa (bioimpedância e smartwatches; MEV dentro do Escritório) + CTA de mandar o post |
+| 4 | Passo 3 · No 12º mês: Mensuração e consolidação |
+| 5 | "E antes do passo 1?" O passo 0: falar com um especialista. Proposta sob medida e implementação; Comente CUIDADO; fecho "Fica por último no post, mas vem primeiro na prática." |
+
+- A linha continua de um slide para o outro (entra e sai na altura 1210) e termina no "0" do convite.
+- Números em algarismos alinhados (`font-variant-numeric: lining-nums`): a Raleway usa algarismos antigos por padrão.
+- Legenda reescrita na mesma ordem (passos 1 a 3 e o passo 0), com `caption.py` e `detect.py`.
+- Versões anteriores: `slides-v2.html`, `png-v2/`, `previa-v2.png`, `previa-tira-v2.png`; `slides-v1.html`, `png-v1/`.
