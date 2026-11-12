@@ -19,3 +19,15 @@ for i, m in enumerate(medidas):
                f'<img src="fotos/tx-{m["id"]}.png" class="abs" data-tx="{m["id"]}" alt="" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px">', s)
     print(m['id'], x, y, w, h)
 html.write_text(s)
+
+# Pílulas (v7): a largura de cada <div data-plbox="id"> acompanha o texto medido do <p data-pl="id">.
+pilulas = json.loads(subprocess.check_output(['node', str(AQUI / 'medir-pilulas.mjs'), str(html)]))
+s = html.read_text()
+for m in pilulas:
+    def ajusta(mt, m=m):
+        tag = mt.group(0)
+        esq = int(re.search(r'left:(\d+)px', tag).group(1))
+        larg = round(m['x'] + m['w'] - esq + 34)
+        return re.sub(r'width:\d+px', f'width:{larg}px', tag)
+    s = re.sub(rf'<div class="pl[^"]*" data-plbox="{m["id"]}"[^>]*>', ajusta, s)
+html.write_text(s)

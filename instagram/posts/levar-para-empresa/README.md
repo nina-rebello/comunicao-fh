@@ -3,7 +3,7 @@
 **Sexta, 13/11.** Semana 4, bloco 4 (Produto). Pauta do PDF: encerramento da apresentação inicial com orientação
 para o RH. Post comercial, com CTA forte: primeiro "Comente CUIDADO (comercial)" do mês.
 
-**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. **Versão atual: v6 (12/11)**, o design da v2 (o caminho) com o conteúdo de 5 slides. A v1 fica abaixo, como registro.
+**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. **Versão atual: v7 (12/11)**, tópicos em pílulas e o design da capa em todos os slides. A v1 fica abaixo, como registro.
 
 ## Ângulo
 
@@ -153,7 +153,7 @@ primeiro passo é falar com um especialista", com a linha `#7DB5A9` passando de 
   diagnóstico, Escritório e mensuração), restaurada do commit `de4cd66`.
 - A v5 fica em `slides-v5.html`, `png-v5/`, `previa-v5.png` e `previa-tira-v5.png`.
 
-## v6 (12/11): design da v2 com o conteúdo de 5 slides (versão atual)
+## v6 (12/11): design da v2 com o conteúdo de 5 slides
 
 A Nina esclareceu: o conteúdo é o de 5 slides definido antes (capa com 3 passos, um slide por passo, convite), e o
 design é o da v2 (o caminho). O "passo 0" continua fora (pedido dela).
@@ -168,3 +168,22 @@ design é o da v2 (o caminho). O "passo 0" continua fora (pedido dela).
 
 - Linha `#7DB5A9` de 12 px, entrando e saindo de cada slide na altura 1210, como na v2.
 - Legenda: a da v4 (passos 1 a 3 e "Para começar, fale com um especialista"), restaurada do commit `5493d99`.
+
+## v7 (12/11): tópicos em pílulas (versão atual)
+
+Referência da Nina: tópicos em pílulas com ícone, ligadas por um fio vertical, a primeira escura. Pedido: "esse
+estilinho dos tópicos na capa e o design da capa no restante".
+
+- **Capa:** os passos viram pílulas grandes ligadas por um fio: escura "O passo a passo em 12 meses" (calendário) e
+  claras "1º mês · Diagnóstico integrado" (lupa), "1º ao 12º mês · Escritório do Cuidado" (coração), "12º mês ·
+  Mensuração" (gráfico).
+- **Todos os slides no fundo da capa** (`fotos/fundo-1.jpg`, creme com brilho Tiffany); sai o papel e sai a linha
+  entre os slides.
+- **Passos:** o rótulo virou pílula escura com ícone ("Passo 1 · No 1º mês" etc.). Diagnóstico e Mensuração ganham
+  pílulas claras ligadas por fio (Perfil de saúde · fairdata / Risco por área e faixa etária; Evolução dos
+  indicadores / Dados anonimizados para o RH). No Escritório do Cuidado, os 3 itens têm ícone em círculo claro,
+  ligados por fio (pessoas, pulso para bioimpedância e smartwatches, prancheta para o plano).
+- **Convite:** "Para começar, uma conversa." com as pílulas Fale com um especialista → Proposta sob medida para o seu
+  time → Onboarding e primeiros atendimentos (conteúdo do site), e o Comente CUIDADO.
+- Ícones em SVG dentro de `div` posicionado; a largura de cada pílula é medida por `gerar.py` (`medir-pilulas.mjs`).
+- A v6 fica em `slides-v6.html`, `png-v6/`, `previa-v6.png`, `previa-tira-v6.png`.
