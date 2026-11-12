@@ -3,7 +3,7 @@
 **Sexta, 13/11.** Semana 4, bloco 4 (Produto). Pauta do PDF: encerramento da apresentação inicial com orientação
 para o RH. Post comercial, com CTA forte: primeiro "Comente CUIDADO (comercial)" do mês.
 
-**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. **Design escolhido: v2 (12/11)**, o caminho com 6 slides (a Nina voltou para ele depois de ver a v3, a v4 e a v5). A v1 fica abaixo, como registro.
+**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. **Versão atual: v6 (12/11)**, o design da v2 (o caminho) com o conteúdo de 5 slides. A v1 fica abaixo, como registro.
 
 ## Ângulo
 
@@ -141,7 +141,7 @@ estrutura da v4 (5 slides, sem passo 0), com:
 - **Convite:** a faixa termina no logo da fairhealth, com o @ ao lado.
 - A v4 fica em `slides-v4.html`, `png-v4/`, `previa-v4.png`. Tira contínua em `previa-tira.png`.
 
-## Escolha final (12/11): volta para a v2
+## Volta para a v2 (12/11, substituída pela v6)
 
 A Nina pediu para voltar ao design da v2 ("o caminho"): capa com o mapa de 4 marcos, slide "Três passos para
 começar" (Passo 1), Diagnóstico (Passo 2), Escritório do Cuidado (Passo 3), Mensuração (Passo 4) e o convite "O
@@ -152,3 +152,19 @@ primeiro passo é falar com um especialista", com a linha `#7DB5A9` passando de 
 - Legenda: a de 12/11 que acompanha a v2 (começa pela conversa com um especialista, depois proposta, implementação,
   diagnóstico, Escritório e mensuração), restaurada do commit `de4cd66`.
 - A v5 fica em `slides-v5.html`, `png-v5/`, `previa-v5.png` e `previa-tira-v5.png`.
+
+## v6 (12/11): design da v2 com o conteúdo de 5 slides (versão atual)
+
+A Nina esclareceu: o conteúdo é o de 5 slides definido antes (capa com 3 passos, um slide por passo, convite), e o
+design é o da v2 (o caminho). O "passo 0" continua fora (pedido dela).
+
+| # | Slide |
+|---|---|
+| 1 | Capa da v2 com o caminho em S e 3 marcos: 1 · 1º mês · Diagnóstico; 2 · 1º ao 12º mês · Escritório do Cuidado; 3 · 12º mês · Mensuração |
+| 2 | Passo 1 · No 1º mês: Diagnóstico integrado (número 1 na linha) |
+| 3 | Passo 2 · Do 1º ao 12º mês: O Escritório do Cuidado, dentro da empresa + CTA de mandar o post (número 2) |
+| 4 | Passo 3 · No 12º mês: Mensuração e consolidação (número 3) |
+| 5 | Para começar, fale com um especialista: proposta sob medida, implementação, Comente CUIDADO; a linha termina num ponto |
+
+- Linha `#7DB5A9` de 12 px, entrando e saindo de cada slide na altura 1210, como na v2.
+- Legenda: a da v4 (passos 1 a 3 e "Para começar, fale com um especialista"), restaurada do commit `5493d99`.
