@@ -3,7 +3,7 @@
 **Sexta, 13/11.** Semana 4, bloco 4 (Produto). Pauta do PDF: encerramento da apresentação inicial com orientação
 para o RH. Post comercial, com CTA forte: primeiro "Comente CUIDADO (comercial)" do mês.
 
-**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v3 em prévia (12/11): 5 slides, passo 0 no convite. A v1 fica abaixo, como registro.
+**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v4 em prévia (12/11): visual da v1, 5 slides, sem linha do tempo e sem passo 0. A v1 fica abaixo, como registro.
 
 ## Ângulo
 
@@ -91,7 +91,7 @@ trajeto. Mantém a base da v1 (fundos, marca-texto, fechos) e acrescenta:
   que o Tiffany para aparecer no fundo claro.
 - A v1 fica em `slides-v1.html`, `png-v1/` e `previa-v1.png`. Tira contínua dos 6 slides em `previa-tira.png`.
 
-## Design v3 (12/11): 3 passos e o passo 0 (versão atual)
+## Design v3 (12/11): 3 passos e o passo 0 (descartada)
 
 Pedidos da Nina sobre a v2: capa mais leve com só 3 marcos (1 Diagnóstico, 2 Escritório do Cuidado, 3 Mensuração);
 um slide para cada passo; o convite como "passo 0" (falar com um especialista), já que o primeiro passo do caminho
@@ -109,3 +109,19 @@ um slide para cada passo; o convite como "passo 0" (falar com um especialista), 
 - Números em algarismos alinhados (`font-variant-numeric: lining-nums`): a Raleway usa algarismos antigos por padrão.
 - Legenda reescrita na mesma ordem (passos 1 a 3 e o passo 0), com `caption.py` e `detect.py`.
 - Versões anteriores: `slides-v2.html`, `png-v2/`, `previa-v2.png`, `previa-tira-v2.png`; `slides-v1.html`, `png-v1/`.
+
+## Design v4 (12/11): volta ao visual da v1 (versão atual)
+
+A Nina não gostou da linha do tempo nem do "passo 0" ("parece que está errado"). Volta o visual da v1, sem linha,
+com a estrutura de 5 slides:
+
+| # | Slide |
+|---|---|
+| 1 | Capa: título e os 3 passos numerados em círculos (Diagnóstico integrado, no 1º mês; Escritório do Cuidado, do 1º ao 12º mês; Mensuração, no 12º mês) |
+| 2 | Passo 1 · No 1º mês: Diagnóstico integrado |
+| 3 | Passo 2 · Do 1º ao 12º mês: O Escritório do Cuidado, dentro da empresa + CTA de mandar o post |
+| 4 | Passo 3 · No 12º mês: Mensuração e consolidação (etiquetas no lugar da linha do tempo da v1) |
+| 5 | Para começar, fale com um especialista. Proposta sob medida e implementação; Comente CUIDADO |
+
+Legenda: o parágrafo do passo 0 virou "Para começar, fale com um especialista...". A v3 fica em `slides-v3.html`,
+`png-v3/`, `previa-v3.png` e `previa-tira-v3.png`.
