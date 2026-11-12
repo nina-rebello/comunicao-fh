@@ -3,7 +3,7 @@
 **Sexta, 13/11.** Semana 4, bloco 4 (Produto). Pauta do PDF: encerramento da apresentação inicial com orientação
 para o RH. Post comercial, com CTA forte: primeiro "Comente CUIDADO (comercial)" do mês.
 
-**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v1 em prévia (12/11). A v1 fica abaixo, como registro.
+**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v2 em prévia (12/11): o caminho. A v1 fica abaixo, como registro.
 
 ## Ângulo
 
@@ -76,3 +76,17 @@ No padrão do carrossel de 11/11: capa e convite em creme com brilho Tiffany (`f
 duas etiquetas (perfil de saúde · fairdata; risco por área e faixa etária); slide 4: três itens com pontos Tiffany;
 slide 5: linha do tempo de 12 meses (1º mês, 1º ao 12º, 12º). Arte em `slides.html` → `png/l-01.png` a `l-06.png`,
 prévia em `previa.png`. Canva só depois da aprovação.
+
+## Design v2 (12/11): o caminho
+
+Referências da Nina: um caminho que liga os passos (pontos numerados sobre uma linha) e a capa que já mostra o
+trajeto. Mantém a base da v1 (fundos, marca-texto, fechos) e acrescenta:
+
+- **Capa:** além do título, o mapa inteiro do caminho, uma linha Tiffany em S com os 4 marcos (1 Começo · Três
+  passos; 2 1º mês · Diagnóstico; 3 1º ao 12º mês · Escritório do Cuidado; 4 12º mês · Mensuração).
+- **Slides 2 a 5:** cada um aprofunda um marco, com o rótulo "Passo N" e o número grande sobre a linha. A linha
+  entra e sai de cada slide na mesma altura (1210 px), então ela continua de um slide para o outro ao arrastar.
+- **Convite:** a linha chega ao fim num ponto.
+- Caminho em SVG dentro de um `div` posicionado (regra do Canva); cor da linha `#7DB5A9`, um pouco mais escura
+  que o Tiffany para aparecer no fundo claro.
+- A v1 fica em `slides-v1.html`, `png-v1/` e `previa-v1.png`. Tira contínua dos 6 slides em `previa-tira.png`.
