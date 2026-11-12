@@ -3,7 +3,7 @@
 **Sexta, 13/11.** Semana 4, bloco 4 (Produto). Pauta do PDF: encerramento da apresentação inicial com orientação
 para o RH. Post comercial, com CTA forte: primeiro "Comente CUIDADO (comercial)" do mês.
 
-**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v5 em prévia (12/11): passo a passo com faixa em ziguezague, inspirado nas referências da Nina. A v1 fica abaixo, como registro.
+**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. **Design escolhido: v2 (12/11)**, o caminho com 6 slides (a Nina voltou para ele depois de ver a v3, a v4 e a v5). A v1 fica abaixo, como registro.
 
 ## Ângulo
 
@@ -126,7 +126,7 @@ com a estrutura de 5 slides:
 Legenda: o parágrafo do passo 0 virou "Para começar, fale com um especialista...". A v3 fica em `slides-v3.html`,
 `png-v3/`, `previa-v3.png` e `previa-tira-v3.png`.
 
-## Design v5 (12/11): faixa em ziguezague (versão atual)
+## Design v5 (12/11): faixa em ziguezague (descartada)
 
 Pedido da Nina: "se inspire nesses designs para fazer uma jogada de passo a passo" (referências: passos numerados
 grandes ligados por uma faixa grossa que atravessa os slides; rótulos em caixa sólida). Mesmo texto e mesma
@@ -140,3 +140,15 @@ estrutura da v4 (5 slides, sem passo 0), com:
   começo da faixa.
 - **Convite:** a faixa termina no logo da fairhealth, com o @ ao lado.
 - A v4 fica em `slides-v4.html`, `png-v4/`, `previa-v4.png`. Tira contínua em `previa-tira.png`.
+
+## Escolha final (12/11): volta para a v2
+
+A Nina pediu para voltar ao design da v2 ("o caminho"): capa com o mapa de 4 marcos, slide "Três passos para
+começar" (Passo 1), Diagnóstico (Passo 2), Escritório do Cuidado (Passo 3), Mensuração (Passo 4) e o convite "O
+primeiro passo é falar com um especialista", com a linha `#7DB5A9` passando de um slide para o outro.
+
+- `slides.html` voltou a ser a `slides-v2.html`; os PNGs foram gerados de novo e conferidos pixel a pixel com
+  `png-v2/` (iguais). `previa.png` e `previa-tira.png` são as da v2.
+- Legenda: a de 12/11 que acompanha a v2 (começa pela conversa com um especialista, depois proposta, implementação,
+  diagnóstico, Escritório e mensuração), restaurada do commit `de4cd66`.
+- A v5 fica em `slides-v5.html`, `png-v5/`, `previa-v5.png` e `previa-tira-v5.png`.
