@@ -3,7 +3,7 @@
 **Sexta, 13/11.** Semana 4, bloco 4 (Produto). Pauta do PDF: encerramento da apresentação inicial com orientação
 para o RH. Post comercial, com CTA forte: primeiro "Comente CUIDADO (comercial)" do mês.
 
-**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. **Versão atual: v7 (12/11)**, tópicos em pílulas e o design da capa em todos os slides. A v1 fica abaixo, como registro.
+**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. **Versão atual: v8 (12/11)**: capa com os tópicos em pílulas e os slides 2 a 5 da v6, sem mudança. A v1 fica abaixo, como registro.
 
 ## Ângulo
 
@@ -169,7 +169,7 @@ design é o da v2 (o caminho). O "passo 0" continua fora (pedido dela).
 - Linha `#7DB5A9` de 12 px, entrando e saindo de cada slide na altura 1210, como na v2.
 - Legenda: a da v4 (passos 1 a 3 e "Para começar, fale com um especialista"), restaurada do commit `5493d99`.
 
-## v7 (12/11): tópicos em pílulas (versão atual)
+## v7 (12/11): tópicos em pílulas em todos os slides (descartada)
 
 Referência da Nina: tópicos em pílulas com ícone, ligadas por um fio vertical, a primeira escura. Pedido: "esse
 estilinho dos tópicos na capa e o design da capa no restante".
@@ -187,3 +187,10 @@ estilinho dos tópicos na capa e o design da capa no restante".
   time → Onboarding e primeiros atendimentos (conteúdo do site), e o Comente CUIDADO.
 - Ícones em SVG dentro de `div` posicionado; a largura de cada pílula é medida por `gerar.py` (`medir-pilulas.mjs`).
 - A v6 fica em `slides-v6.html`, `png-v6/`, `previa-v6.png`, `previa-tira-v6.png`.
+
+## v8 (12/11): só a capa muda (versão atual)
+
+A Nina esclareceu: só o primeiro slide devia mudar. A capa é a da v7 (tópicos em pílulas com ícone, ligadas por um
+fio, a primeira escura) e os slides 2 a 5 são os da v6, conferidos pixel a pixel com `png-v6/` (iguais). A capa
+ganhou o começo da linha (`#7DB5A9`, altura 1210), que continua no slide 2. A v7 fica em `slides-v7.html`,
+`png-v7/` e `previa-v7.png`. Legenda: a da v6, sem mudança.
