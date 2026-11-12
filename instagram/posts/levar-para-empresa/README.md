@@ -194,3 +194,13 @@ A Nina esclareceu: só o primeiro slide devia mudar. A capa é a da v7 (tópicos
 fio, a primeira escura) e os slides 2 a 5 são os da v6, conferidos pixel a pixel com `png-v6/` (iguais). A capa
 ganhou o começo da linha (`#7DB5A9`, altura 1210), que continua no slide 2. A v7 fica em `slides-v7.html`,
 `png-v7/` e `previa-v7.png`. Legenda: a da v6, sem mudança.
+
+## No Canva (12/11)
+
+**Design editável:** [Carrossel 13/11 · Como levar a fairhealth para a sua empresa · 5 slides](https://www.canva.com/d/ofEsq6SCtBXpBI9)
+(id `DAHav6ueu9g`), importado de `canva.html` da v8. Miniaturas conferidas: iguais aos PNGs.
+
+- O primeiro `canva.html` tinha 16,6 MB e o Canva recusou (limite de 10 MB). `canva-leve.py` monta a versão leve
+  (2 MB): fundos em 1080 × 1350 (JPEG 84) e marca-textos em PNG com paleta, em `fotos-canva/`, via `canva-src.html`.
+- No Canva ficam editáveis: todos os textos, as pílulas e os círculos (formas), os ícones e as linhas (gráficos SVG).
+  Os fundos e os marca-textos são imagens soltas (dá para mover, trocar ou apagar).
