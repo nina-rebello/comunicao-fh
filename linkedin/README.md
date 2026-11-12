@@ -77,7 +77,7 @@ pausas e ritmo de trabalho, saúde mental no expediente, ambiente da empresa.
 - [ ] Página da FairHealth no LinkedIn com logo, capa e site.
 - [ ] Definir quem do time compartilha toda quinta (mínimo 3 pessoas).
 - [ ] Dr. Ronald valida a história de 2009 (post 2) e o texto do post 5.
-- [ ] Página do diagnóstico gratuito no ar até 17/12, com UTM do LinkedIn
+- [ ] Página de contato do Escritório do Cuidado no ar até 17/12 (o diagnóstico gratuito não existe), com UTM do LinkedIn
       (`?utm_source=linkedin&utm_medium=organico&utm_campaign=post-NN`).
 
 ## Como medir

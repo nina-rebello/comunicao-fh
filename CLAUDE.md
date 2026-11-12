@@ -64,6 +64,9 @@ Novembro está em `marketing/Cronograma_Posts_03-11_a_30-11.xlsx`.
 - Antes de entregar, o texto passa pela skill **ig-human**.
 - Quando a skill e a marca discordam, vale a marca: 5 hashtags, a primeira #fairhealth; "fairhealth" em minúsculas;
   comunicação B2B; sem travessão; números só com fonte; sem promessa clínica; sem preço.
+- **Não existe "diagnóstico gratuito"** (Nina, 12/11). Nunca oferecer diagnóstico gratuito em post, legenda, bio
+  ou LinkedIn. A palavra CUIDADO envia como funciona o Escritório do Cuidado. O que estiver escrito de outro jeito
+  nos arquivos antigos está desatualizado.
 - O verificador não reconhece chamadas em português ("link da bio"); o aviso de "sem chamada" nesse caso é falso.
 
 ## Carrosséis (pedido da Nina, 20/10)

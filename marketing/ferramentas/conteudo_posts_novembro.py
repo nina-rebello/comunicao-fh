@@ -25,7 +25,7 @@ POSTS = [
   fio='Vem de: 30/10 ("Na terça: como funciona o cuidado na prática"). Leva para: 04/11, as quatro frentes.',
   visual='Uma foto por ponto, com layouts alternados (foto inteira, metade de cima, faixa, ao lado do número, saindo pela lateral). Fundos foto, off, tinta, água, off e verde-escuro. Fotos de banco (Unsplash), ilustrativas.',
   material='Fotos do banco da marca (nenhum colaborador atendido). Depoimento A1.',
-  cta='Slide 3: mande este post para quem cuida das pessoas · Slide 6: Comente CUIDADO (diagnóstico gratuito)',
+  cta='Slide 3: mande este post para quem cuida das pessoas · Slide 6: Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Repost do slide 2 com a caixa de perguntas "O que importa para você hoje?".',
   fonte='Executive Summary (plataforma com prontuário, histórico e metas); depoimento A1 (instagram/depoimentos.md).',
   validar='Formato do depoimento A1 com o Dr. Ronald; revisão do texto (CFM); alguém para responder as DMs do CUIDADO até a resposta automática ficar pronta.',
@@ -42,7 +42,7 @@ O plano é combinado com a pessoa, tem base na Medicina do Estilo de Vida e cabe
 
 E o cuidado continua. Histórico e metas ficam registrados na plataforma, e a cada retorno o plano é revisto. O que é conversado fica no atendimento. Para cuidar da saúde corporativa, o RH recebe só indicadores do grupo, anonimizados.
 
-Quer esse cuidado para o seu time? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
+Quer esse cuidado para o seu time? Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
 
 #fairhealth #saudecorporativa #medicinadoestilodevida #cuidadocentradonapessoa #gestaodepessoas''',
   roteiro=[
@@ -51,7 +51,7 @@ Quer esse cuidado para o seu time? Comente CUIDADO e enviamos na DM como funcion
    ('Slide 3 · Cuidado por perto', 'Ninguém quer perder meio dia por uma consulta.\nPor isso o cuidado fica dentro da empresa: médico, psicólogo e assistente social a poucos passos de quem trabalha, presencial ou remoto.\nSem trânsito e sem sala de espera.', '', 'Fundo escuro, foto (profissional de capacete) numa faixa à direita.', 'CTA de envio: Conhece quem cuida das pessoas na sua empresa? Mande este post.'),
    ('Slide 4 · Um plano possível', 'Quem nunca recebeu uma dieta impossível?\nNo Escritório do Cuidado, o plano é combinado com a pessoa e cabe na rotina real: dormir meia hora mais cedo, almoçar longe da mesa. A base é a Medicina do Estilo de Vida.\n"Não é aquela dieta impossível de fazer. É algo pra vida." Colaboradora atendida pelo Escritório do Cuidado', '', 'Fundo água (virada), número grande e foto (prato) ao lado.', 'Depoimento A1.'),
    ('Slide 5 · Continuidade', 'Ninguém quer começar do zero a cada consulta.\nA equipe acompanha cada pessoa. Histórico e metas ficam na plataforma, e a cada retorno o plano é revisto. Sigilo. Pode falar: o que é conversado fica no atendimento. O RH recebe só indicadores do grupo, anonimizados.\nO plano muda quando a vida muda.', '', 'Fundo claro, foto (escada) saindo pela lateral.', ''),
-   ('Slide 6 · convite', 'Quer esse cuidado para o seu time?\nComente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.\nNa quarta: quatro frentes, um cuidado conectado.', '', 'Verde-escuro, sem foto.', 'Ponte para o 04/11.'),
+   ('Slide 6 · convite', 'Quer esse cuidado para o seu time?\nComente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.\nNa quarta: quatro frentes, um cuidado conectado.', '', 'Verde-escuro, sem foto.', 'Ponte para o 04/11.'),
   ]),
 
  dict(id='N02', data=D(4), semana=1, bloco='3 · Compreensão', eixo='Produto', fmt=REEL,
@@ -66,7 +66,7 @@ Quer esse cuidado para o seu time? Comente CUIDADO e enviamos na DM como funcion
   fio='Vem de: 03/11, a jornada de uma pessoa. Leva para: 06/11, de onde vem esse método.',
   visual='Motion em Tiffany e verde. Um fio contínuo (creme) passa por quatro pontos; em cada ponto, um ícone linear fino e o nome da frente. No fim, o fio desenha a página de um relatório com barras simples (dados de exemplo, sem números reais).',
   material='Motion no Canva, ícones lineares finos, trilha calma. Sem pessoas em cena.',
-  cta='Comente CUIDADO (diagnóstico gratuito)',
+  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Quiz: "Qual destas frentes acompanha a rotina entre as consultas?" (resposta: wearables).',
   fonte='Executive Summary e one-pager (11/10): as quatro peças. Nota do calendário: "Para o RH: a plataforma entrega relatório".',
   validar='Nomes das frentes iguais aos do one-pager. O que o relatório do RH mostra de fato (fairdata): não mostrar indicador que ainda não existe. Publicação hoje (04/11): o roteiro precisa de aprovação rápida.',
@@ -77,7 +77,7 @@ O Escritório do Cuidado leva médico, psicólogo e assistente social para dentr
 
 E a plataforma junta tudo num relatório para o RH, com indicadores do grupo, anonimizados. O que cada pessoa conta fica no atendimento. O que o RH recebe é a visão do todo, para decidir onde cuidar primeiro.
 
-Quer ver como isso funciona na sua empresa? Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
+Quer ver como isso funciona na sua empresa? Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
 
 #fairhealth #saudecorporativa #medicinadoestilodevida #escritoriodocuidado #gestaodepessoas''',
   roteiro=[
@@ -209,35 +209,35 @@ Fonte: Diabetes Prevention Program Research Group, N Engl J Med, 2002.
   status='Roteiro proposto', resp='Nina · Comunicação (DMs)',
   espec='Carrossel 4:5 (1080 × 1350), 6 slides. Post comercial.',
   gancho='O orçamento de 2027 está fechando. Onde entra o cuidado?',
-  objetivo='Fechar a apresentação inicial com um caminho claro para o RH: diagnóstico, proposta e implementação.',
+  objetivo='Fechar a apresentação inicial com um caminho claro para o RH: conversa, proposta e implementação.',
   portras='Começar é simples e não pede decisão grande: o primeiro passo é uma conversa.',
   persona='RH; Diretoria financeira',
   fio='Vem de: 11/11, a ciência. Fecha os 4 blocos de 19/10 a 13/11. Leva para: as pautas de atualidade (16/11 em diante).',
   visual='Três passos no fio contínuo. Capa com foto de mesa de reunião (banco) ou fundo verde-escuro. Último slide verde-escuro com a palavra CUIDADO em destaque.',
   material='Tipografia e o fio.',
-  cta='Comente CUIDADO (diagnóstico gratuito)',
+  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Sequência com os 3 passos e o adesivo "Mande uma mensagem".',
-  fonte='Executive Summary: entrada comercial (diagnóstico gratuito, proposta personalizada, implementação com onboarding e primeiros atendimentos).',
-  validar='Resposta automática da palavra CUIDADO e página do diagnóstico no ar até 13/11. Quem responde as DMs. Sem prazos de etapa e sem preço. NR-1: "apoio na prevenção", nunca "conformidade".',
+  fonte='Executive Summary: entrada comercial (proposta personalizada, implementação com onboarding e primeiros atendimentos). O diagnóstico gratuito não existe (Nina, 12/11).',
+  validar='Resposta automática da palavra CUIDADO no ar até 13/11. Quem responde as DMs. Sem prazos de etapa e sem preço. NR-1: "apoio na prevenção", nunca "conformidade".',
   arquivos='Ainda sem pasta. Sugestão: instagram/posts/como-levar/',
   legenda='''O orçamento de 2027 está fechando. Onde entra o cuidado?
 
 Levar o Escritório do Cuidado para a sua empresa começa por uma conversa. São três passos.
 
-Primeiro, um diagnóstico gratuito para entender o time, os turnos e o que mais pesa hoje. Depois, uma proposta personalizada, do tamanho e da rotina da sua empresa. Por fim, a implementação, com onboarding e os primeiros atendimentos: médico, psicólogo e assistente social perto de quem trabalha.
+Primeiro, uma conversa para entender o time, os turnos e o que mais pesa hoje. Depois, uma proposta personalizada, do tamanho e da rotina da sua empresa. Por fim, a implementação, com onboarding e os primeiros atendimentos: médico, psicólogo e assistente social perto de quem trabalha.
 
 O RH acompanha tudo por indicadores do grupo, anonimizados, e ganha apoio na prevenção de riscos psicossociais (NR-1).
 
-Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
+Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
 
 #fairhealth #saudecorporativa #gestaodepessoas #rh #escritoriodocuidado''',
   roteiro=[
    ('Slide 1 · capa', 'O orçamento de 2027 está fechando.\nOnde entra o cuidado?', '', 'Foto de mesa de reunião (banco) ou fundo verde-escuro.', ''),
-   ('Slide 2 · diagnóstico', 'Começa por uma conversa.\nDiagnóstico gratuito: entender o time, os turnos e o que mais pesa hoje.', '', 'Fundo claro, primeiro ponto no fio.', 'Funciona sozinho.'),
+   ('Slide 2 · conversa', 'Começa por uma conversa.\nPara entender o time, os turnos e o que mais pesa hoje.', '', 'Fundo claro, primeiro ponto no fio.', 'Funciona sozinho.'),
    ('Slide 3 · proposta', 'Proposta personalizada\nO programa desenhado para o tamanho e a rotina da sua empresa.', '', 'Fundo Tiffany, segundo ponto.', 'Sem preço.'),
    ('Slide 4 · implementação', 'Implementação\nOnboarding e primeiros atendimentos, com médico, psicólogo e assistente social perto de quem trabalha.', '', 'Fundo verde, terceiro ponto.', 'Sem prazos.'),
    ('Slide 5 · o que o RH acompanha', 'Indicadores do grupo, anonimizados.\nApoio na prevenção de riscos psicossociais (NR-1).', '', 'Fundo claro, página de relatório estilizada.', 'Nunca "conformidade".'),
-   ('Slide 6 · chamada', 'Comente CUIDADO\ne enviamos na DM como funciona o diagnóstico gratuito.', '', 'Verde-escuro, CUIDADO em destaque, logo.', ''),
+   ('Slide 6 · chamada', 'Comente CUIDADO\ne enviamos na DM como funciona o Escritório do Cuidado.', '', 'Verde-escuro, CUIDADO em destaque, logo.', ''),
   ]),
 
  dict(id='N07', data=D(16), semana=3, bloco='5 · Atualidade', eixo='Cultura', fmt=REEL,
@@ -252,7 +252,7 @@ Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
   fio='Vem de: 13/11, como levar o cuidado à empresa. Leva para: 18/11, afastamentos e NR-01.',
   visual='Tipografia animada sobre fundo azul-acinzentado da paleta (sem azul de campanha que fuja da marca), uma frase por vez. Fecho em Tiffany com o logo.',
   material='Canva (animação de texto), trilha calma. Opcional: imagens de banco de rotina de trabalho (capacete, crachá, relógio), sem rosto.',
-  cta='Comente CUIDADO (diagnóstico gratuito)',
+  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Enquete: "Quando foi a última vez que você foi ao médico sem estar doente?" (Neste ano · Faz tempo).',
   fonte='{{dado sobre homens e consultas + fonte}}: buscar pesquisa recente (Ministério da Saúde, SBU ou Fiocruz) e conferir na fonte original.',
   validar='Revisão técnica do Dr. Ronald (CFM): nada sobre exame específico, diagnóstico ou promessa. Conferir o dado sobre homens e saúde na fonte original. Sem carona em caso de famoso.',
@@ -265,7 +265,7 @@ Quando o cuidado está dentro da empresa, a conta muda. Médico, psicólogo e as
 
 O Novembro Azul dura um mês. O cuidado pode durar o ano todo.
 
-Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
+Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
 
 #fairhealth #novembroazul #saudedohomem #saudecorporativa #medicinapreventiva''',
   roteiro=[
@@ -428,17 +428,17 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
 
  dict(id='N12', data=D(27), semana=4, bloco='6 · Decisão', eixo='Cases + Produto', fmt=CARR,
   titulo='Case Chemitec: como 98% do time aceitou ser cuidado',
-  sub='Adesão e continuidade num case real, com o convite ao diagnóstico antes do orçamento de 2027',
+  sub='Adesão e continuidade num case real, com o convite para conversar antes do orçamento de 2027',
   status='Pauta proposta (calendário de novembro)', resp='Nina · Sócios (liberação do case)',
   espec='Carrossel 4:5 (1080 × 1350), 8 slides, estilo institucional. Sexta de Black Friday: sem linguagem de promoção.',
   gancho='98% do time aceitou ser cuidado. O que essa empresa fez diferente?',
-  objetivo='Provar adesão e continuidade com um case real e convidar o RH ao diagnóstico antes do orçamento de 2027.',
+  objetivo='Provar adesão e continuidade com um case real e convidar o RH para uma conversa antes do orçamento de 2027.',
   portras='Adesão não se impõe: acontece quando o cuidado está perto, começa pela escuta e cabe na rotina.',
   persona='RH; Diretoria financeira',
   fio='Vem de: 25/11, Geração Z. Leva para: 30/11, a virada para dezembro.',
   visual='Estilo institucional, um número por slide, calmo, sempre com "1º semestre de 2026". Fotos de banco de indústria (capacete, linha de produção), sem rosto de colaborador.',
   material='Tipografia e fotos de banco. Logo da Chemitec só com autorização.',
-  cta='Comente CUIDADO (diagnóstico gratuito)',
+  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Sequência com os 4 números e o adesivo "Mande uma mensagem".',
   fonte='Chemitec, 1º semestre de 2026 (voice.md, LIBERADO): 161 atendimentos; 48 colaboradores atendidos (98% de adesão); 81,3% voltaram para 2 ou mais atendimentos; 46 smartbands em uso. Sempre agregado.',
   validar='Decisão de 30/10 tirou dados de clientes dos posts: confirmar com os sócios se o case sai e se pode citar o nome Chemitec (autorização escrita do cliente). Se não puder, "uma indústria que atendemos". Conferir como foi a implantação (slide 2) antes de descrever.',
@@ -449,7 +449,7 @@ Na Chemitec, no primeiro semestre de 2026, o Escritório do Cuidado atendeu 48 c
 
 O que estava por trás: o cuidado perto de quem trabalha, a primeira consulta começando por "o que importa para você?" e um plano que cabe no turno. O RH recebe só indicadores do grupo, anonimizados.
 
-Antes de fechar o orçamento de 2027, comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
+Antes de fechar o orçamento de 2027, comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
 
 #fairhealth #saudecorporativa #escritoriodocuidado #gestaodepessoas #medicinadoestilodevida''',
   roteiro=[
@@ -460,7 +460,7 @@ Antes de fechar o orçamento de 2027, comente CUIDADO e enviamos na DM como func
    ('Slide 5 · continuidade', '81,3% voltaram para dois ou mais atendimentos.\nNinguém volta a um lugar onde não se sentiu cuidado.', '', 'Fundo verde.', ''),
    ('Slide 6 · entre as consultas', '46 smartbands acompanham a rotina de quem é cuidado.\nO RH recebe só indicadores do grupo.', '', 'Foto de pulseira (banco).', ''),
    ('Slide 7 · o que estava por trás', 'Cuidado perto de quem trabalha · a primeira consulta começa por "o que importa para você?" · um plano que cabe no turno', '', 'Fundo claro, três pontos no fio.', 'Fatos do método, sem frase-resumo.'),
-   ('Slide 8 · chamada', 'Antes de fechar o orçamento de 2027:\ncomente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.', '', 'Verde-escuro, logo.', 'Sem "oferta", "promoção" ou "Black Friday".'),
+   ('Slide 8 · chamada', 'Antes de fechar o orçamento de 2027:\ncomente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.', '', 'Verde-escuro, logo.', 'Sem "oferta", "promoção" ou "Black Friday".'),
   ]),
 
  dict(id='N13', data=D(30), semana=5, bloco='6 · Decisão', eixo='Cultura', fmt=REEL,
@@ -475,7 +475,7 @@ Antes de fechar o orçamento de 2027, comente CUIDADO e enviamos na DM como func
   fio='Vem de: 27/11, o case. Leva para: o calendário de dezembro.',
   visual='Tipografia animada sobre Tiffany e verde, com um círculo que se fecha em 60 segundos durante a prática. Sem pessoas em cena.',
   material='Canva (animação de texto), trilha calma, sem locução ou com voz em off.',
-  cta='Comente CUIDADO (diagnóstico gratuito)',
+  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Contagem regressiva para 2027 e a pergunta "O que você quer levar de cuidado para o ano que vem?".',
   fonte='Prática de respiração e pausa: conteúdo educativo do guia "Saúde mental: o cuidado no dia a dia" (referencias.md). Sem número.',
   validar='A psicóloga ou o Dr. Ronald valida a prática (sem promessa de efeito). Sem número sem fonte.',
@@ -486,7 +486,7 @@ Fechamento, entrega, confraternização, férias para organizar. O fim de ano ap
 
 Uma pausa de um minuto não resolve tudo, mas lembra que o cuidado cabe no dia. Pare, solte os ombros, respire devagar cinco vezes e escolha uma coisa que importa hoje.
 
-Para a empresa, o convite é o mesmo, numa escala maior: cuidar antes de 2027 começar. Comente CUIDADO e enviamos na DM como funciona o diagnóstico gratuito.
+Para a empresa, o convite é o mesmo, numa escala maior: cuidar antes de 2027 começar. Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
 
 #fairhealth #saudecorporativa #saudemental #bemestarnotrabalho #gestaodepessoas''',
   roteiro=[
@@ -506,7 +506,7 @@ PENDENCIAS = [
     ('N03, N04, N12', 'Dados de clientes: a decisão de 30/10 tirou os números de cliente dos posts. Confirmar se o caso do hospital (06/11), os números da indústria (09/11) e o case Chemitec com nome (27/11) podem entrar.', 'Sócios', 'Aberta'),
     ('N04', 'Data de gravação do reel com o Dr. Ronald e autorização de uso de imagem.', 'Dr. Ronald e Comunicação', 'Aberta'),
     ('N05', 'Leitura do Diabetes Prevention Program pela responsável médica. Escolher a capa (estudo ou canetas).', 'Responsável médica', 'Aberta'),
-    ('N06', 'Resposta automática da palavra CUIDADO e página do diagnóstico prontas até 13/11. Quem responde as DMs até lá.', 'Comunicação', 'Aberta'),
+    ('N06', 'Resposta automática da palavra CUIDADO pronta até 13/11 (o diagnóstico gratuito não existe: CUIDADO envia como funciona o Escritório do Cuidado). Quem responde as DMs até lá.', 'Comunicação', 'Aberta'),
     ('N07', 'Achar e conferir um dado sobre homens e consultas (fonte oficial). Revisão técnica do Dr. Ronald.', 'Comunicação e Dr. Ronald', 'Aberta'),
     ('N08', 'Número conferido na nota oficial da Previdência e texto da NR-01 conferido no PDF do MTE (04/11). Falta a leitura do Dr. Ronald e o ok da Nina para citar a fairdata.', 'Comunicação e Dr. Ronald', 'Aberta'),
     ('N10', 'Conferir os números do Panorama da Saúde Emocional do RH 2026 no material da Flash.', 'Comunicação', 'Aberta'),

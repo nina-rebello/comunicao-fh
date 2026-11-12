@@ -42,7 +42,8 @@ Quer levar isso para a sua empresa? O primeiro passo é um diagnóstico gratuito
 #bemestarcorporativo #saudecorporativa #gestaodepessoas
 ```
 
-**Primeiro comentário (da página, logo depois de publicar):**
+**Primeiro comentário (da página, logo depois de publicar):** (já publicado em 29/10; a partir de 12/11 o
+diagnóstico gratuito não existe e não aparece nos próximos posts)
 
 ```
 Diagnóstico gratuito: uma conversa para entender a rotina e as necessidades da sua empresa. Sem compromisso.
@@ -253,13 +254,13 @@ Nas últimas semanas, contamos aqui por que a FairHealth existe, por que o cuida
 
 Para levar isso à sua empresa, são três passos:
 
-1. Diagnóstico gratuito. Uma conversa para entender o seu time, a rotina da empresa e o que mais pesa hoje.
+1. Uma conversa. Para entender o seu time, a rotina da empresa e o que mais pesa hoje.
 
 2. Proposta personalizada. Um modelo de cuidado feito para o tamanho e a realidade da sua empresa.
 
 3. Implementação. Acolhimento do time, primeiros atendimentos e acompanhamento do RH desde o início.
 
-Se a saúde do seu time está nos planos para 2027, o link para o diagnóstico está no primeiro comentário.
+Se a saúde do seu time está nos planos para 2027, o link para falar com a gente está no primeiro comentário.
 
 #bemestarcorporativo #saudecorporativa #RH
 ```
@@ -267,7 +268,7 @@ Se a saúde do seu time está nos planos para 2027, o link para o diagnóstico e
 **Primeiro comentário (da página):**
 
 ```
-Diagnóstico gratuito: uma conversa para entender o seu time e o que faz sentido para a sua empresa.
+Para conversar com a gente sobre o Escritório do Cuidado na sua empresa:
 https://www.fairhealth.com.br/?utm_source=linkedin&utm_medium=organico&utm_campaign=post-08
 ```
 

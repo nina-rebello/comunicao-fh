@@ -27,11 +27,14 @@ revisados com a ig-human.
 
 **2. Bio (150 caracteres):**
 
+**Atualização (12/11):** o diagnóstico gratuito não existe; as bios abaixo chamam para conhecer o Escritório do
+Cuidado. Conferir o limite de 150 caracteres antes de usar.
+
 A (144, com oferta):
 ```
 Levamos atendimento médico e psicológico para dentro da sua empresa.
 Nossa história começou num hospital, em 2009.
-Diagnóstico gratuito no link.
+Conheça o Escritório do Cuidado no link.
 ```
 
 B (135, com o nome do produto):
@@ -47,7 +50,7 @@ validado) ou por "Como o Escritório do Cuidado chega a uma empresa" quando exis
 **4. Destaques (4):** Como funciona · Time · Para empresas · Contato. "Resultados" entra quando houver dado validado.
 Capas em Tiffany, texto em Raleway.
 
-**5. Link:** um destino só. Se a bio oferecer o diagnóstico gratuito, o link vai direto para a página de contato ou
+**5. Link:** um destino só. Se a bio levar para o Escritório do Cuidado, o link vai direto para a página de contato ou
 agendamento, não para a home.
 
 **6. Grade:** com os fixados, a primeira linha fica toda na marca. Os posts fora da marca (Dia da Esperança, Planetree,
@@ -69,7 +72,7 @@ Pedido da Nina: usar as descrições da marca já enviadas. Fontes: "Em uma fras
 ```
 Escritório do Cuidado: acolhimento e prevenção dentro da sua empresa.
 Não é benefício. É infraestrutura de cuidado.
-Diagnóstico gratuito no link.
+Conheça o Escritório do Cuidado no link.
 ```
 
 2 (133):
@@ -126,5 +129,5 @@ C (149):
 ```
 Escritório do Cuidado: médico e psicólogo dentro da sua empresa.
 Tudo começa com: o que é importante para você?
-Faça um diagnóstico gratuito no link.
+Conheça o Escritório do Cuidado no link.
 ```

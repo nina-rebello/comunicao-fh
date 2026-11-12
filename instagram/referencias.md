@@ -17,8 +17,9 @@ guia "Saúde mental: o cuidado no dia a dia". Os originais ficam fora do repo.
   conscientização) → plano de cuidado individualizado.
 - **NR-1:** programa de prevenção de riscos psicossociais e plataforma de
   indicadores (segurança psicológica).
-- **Entrada comercial:** 1. Diagnóstico gratuito → 2. Proposta personalizada
-  → 3. Implementação (onboarding e primeiros atendimentos).
+- **Entrada comercial:** 1. Uma conversa com o time → 2. Proposta personalizada
+  → 3. Implementação (onboarding e primeiros atendimentos). O "diagnóstico gratuito" do Executive Summary
+  **não existe** (Nina, 12/11): nunca oferecer.
 - **Slogan:** « Fazemos o certo pelos motivos certos »
 - **Contato:** www.fairhealth.com.br · ola@fairjob.com.br
 - **Números citados:** −28% de absenteísmo (Harvard Business Review, 2022) e

@@ -195,9 +195,9 @@ Sempre com a skill ig-caption (e o verificador `caption.py`) e, antes de entrega
 - **Palavra-chave:** `CUIDADO`
   - "Comenta CUIDADO que eu te mostro como funciona o Escritório do Cuidado."
 - **Alternativa institucional:** "Quer levar isso para sua empresa? Link na bio."
-- **O que a palavra-chave envia:** o **diagnóstico gratuito**, uma reunião para
-  mapear as necessidades da empresa (primeiro passo comercial do Executive
-  Summary).
+- **O que a palavra-chave envia:** como funciona o Escritório do Cuidado.
+- **Não existe "diagnóstico gratuito" (Nina, 12/11).** Nunca oferecer, em nenhum canal. O "diagnóstico gratuito"
+  do Executive Summary não vale.
 - **Para onde vai o link:** www.fairhealth.com.br (confirmar).
 
 ## Canais
@@ -290,7 +290,7 @@ traduzir assim:
 | "Aderente à NR-1", "conformidade NR-1" | Apoio na prevenção de riscos psicossociais (NR-1). Nunca prometer conformidade |
 | "Garantindo acompanhamento e resultados duradouros" | Acompanhamento contínuo |
 | Concorrentes citados pelo nome | Nunca citar. Falar da categoria ("plataformas de bem-estar genéricas") |
-| "Diagnóstico gratuito" | Só com ok do comercial |
+| "Diagnóstico gratuito" | Não existe (Nina, 12/11). Nunca usar |
 
 ## Número só com contexto (04/11)
 
