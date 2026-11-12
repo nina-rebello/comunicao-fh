@@ -3,7 +3,7 @@
 **Sexta, 13/11.** Semana 4, bloco 4 (Produto). Pauta do PDF: encerramento da apresentação inicial com orientação
 para o RH. Post comercial, com CTA forte: primeiro "Comente CUIDADO (comercial)" do mês.
 
-**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design a fazer. A v1 fica abaixo, como registro.
+**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v1 em prévia (12/11). A v1 fica abaixo, como registro.
 
 ## Ângulo
 
@@ -67,3 +67,12 @@ bioimpedância e smartwatches; sem o slide separado dos workshops (repetia o Esc
 Fonte de cada linha: site da fairjob (prints de 12/11), resumido em `referencias.md`. "Relatório de impacto para o
 financeiro e o plano de saúde" suaviza o "relatório de impacto em sinistralidade para o CFO" do site (regra de não
 prometer redução de sinistralidade, `voice.md`). Legenda em `legenda.txt` (12/11), com `caption.py` e `detect.py`.
+
+## Design v1 (12/11)
+
+No padrão do carrossel de 11/11: capa e convite em creme com brilho Tiffany (`fotos/fundo-1.jpg`), miolo em papel
+(`fotos/fundo-papel.jpg`), títulos pesados com marca-texto Tiffany com textura (`fotos/tx-*.png`, gerados por
+`gerar.py`), fechos em serif itálico, sem numeração de slide. Slide 2: três passos com círculos numerados; slide 3:
+duas etiquetas (perfil de saúde · fairdata; risco por área e faixa etária); slide 4: três itens com pontos Tiffany;
+slide 5: linha do tempo de 12 meses (1º mês, 1º ao 12º, 12º). Arte em `slides.html` → `png/l-01.png` a `l-06.png`,
+prévia em `previa.png`. Canva só depois da aprovação.
