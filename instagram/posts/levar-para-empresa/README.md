@@ -3,7 +3,7 @@
 **Sexta, 13/11.** Semana 4, bloco 4 (Produto). Pauta do PDF: encerramento da apresentação inicial com orientação
 para o RH. Post comercial, com CTA forte: primeiro "Comente CUIDADO (comercial)" do mês.
 
-**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v4 em prévia (12/11): visual da v1, 5 slides, sem linha do tempo e sem passo 0. A v1 fica abaixo, como registro.
+**Status:** texto v2 (passo a passo, 12/11), só com o que está no site da fairjob. Design v5 em prévia (12/11): passo a passo com faixa em ziguezague, inspirado nas referências da Nina. A v1 fica abaixo, como registro.
 
 ## Ângulo
 
@@ -110,7 +110,7 @@ um slide para cada passo; o convite como "passo 0" (falar com um especialista), 
 - Legenda reescrita na mesma ordem (passos 1 a 3 e o passo 0), com `caption.py` e `detect.py`.
 - Versões anteriores: `slides-v2.html`, `png-v2/`, `previa-v2.png`, `previa-tira-v2.png`; `slides-v1.html`, `png-v1/`.
 
-## Design v4 (12/11): volta ao visual da v1 (versão atual)
+## Design v4 (12/11): volta ao visual da v1
 
 A Nina não gostou da linha do tempo nem do "passo 0" ("parece que está errado"). Volta o visual da v1, sem linha,
 com a estrutura de 5 slides:
@@ -125,3 +125,18 @@ com a estrutura de 5 slides:
 
 Legenda: o parágrafo do passo 0 virou "Para começar, fale com um especialista...". A v3 fica em `slides-v3.html`,
 `png-v3/`, `previa-v3.png` e `previa-tira-v3.png`.
+
+## Design v5 (12/11): faixa em ziguezague (versão atual)
+
+Pedido da Nina: "se inspire nesses designs para fazer uma jogada de passo a passo" (referências: passos numerados
+grandes ligados por uma faixa grossa que atravessa os slides; rótulos em caixa sólida). Mesmo texto e mesma
+estrutura da v4 (5 slides, sem passo 0), com:
+
+- **Faixa Tiffany de 30 px**, em retas, que começa na capa e passa de um slide para o outro sempre na mesma altura
+  (capa→1: 1180; 1→2: 1230; 2→3: 1100; 3→4: 1120), subindo e descendo em ziguezague.
+- **Nós grandes "01", "02", "03"** sobre a faixa, com círculo claro, borda verde e anel externo fino.
+- **"Passo 01/02/03" numa caixa sólida verde**, ao lado do período (No 1º mês etc.).
+- **Capa:** etiqueta "Para o RH" em pílula, os 3 passos com números em caixas quadradas ("01", "02", "03") e o
+  começo da faixa.
+- **Convite:** a faixa termina no logo da fairhealth, com o @ ao lado.
+- A v4 fica em `slides-v4.html`, `png-v4/`, `previa-v4.png`. Tira contínua em `previa-tira.png`.

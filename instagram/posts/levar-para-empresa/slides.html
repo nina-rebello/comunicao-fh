@@ -2,7 +2,11 @@
 <html lang="pt-BR"><head><meta charset="utf-8"><title>Carrossel 13/11: Como levar a fairhealth para a sua empresa</title>
 <link rel="stylesheet" href="../../marca/base.css">
 <style>
-/* Carrossel de 13/11, design v4 (12/11): volta ao visual da v1, sem linha do tempo e sem "passo 0" (Nina).
+/* Carrossel de 13/11, design v5 (12/11): referências da Nina (passos numerados ligados por uma faixa grossa que
+   atravessa os slides em ziguezague; rótulos em caixa sólida). Faixa Tiffany de 30 px, sempre em retas, que sai de um
+   slide e entra no seguinte na mesma altura; nós com "01", "02", "03" grandes e anel duplo; o caminho termina no logo.
+   SVG dentro de div posicionado, para o Canva.
+   Design v4 (12/11): volta ao visual da v1, sem linha do tempo e sem "passo 0" (Nina).
    5 slides: capa com os 3 passos numerados, um slide por passo, convite. Versões anteriores em slides-v1/v2/v3.html.
    Design v1 (12/11): o passo a passo, só com o conteúdo do site da fairjob. Mesmo padrão do
    carrossel de 11/11: capa e convite em creme com brilho Tiffany (fotos/fundo-1.jpg), miolo em papel texturizado
@@ -39,83 +43,101 @@
 .ed, .ed *{font-variant-numeric:lining-nums}
 .cp{position:absolute;font-size:38px;font-weight:800;letter-spacing:-1px;line-height:1.1;white-space:nowrap;margin:0}
 .cp-t{position:absolute;font-size:22px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--escuro);margin:0;white-space:nowrap}
+.faixa{position:absolute;left:0;top:0;width:1080px;height:1350px}
+.anel-fora{position:absolute;border-radius:50%;border:3px solid var(--escuro)}
+.no-g{position:absolute;border-radius:50%;background:#F6F8F7;border:6px solid var(--escuro)}
+.no-g-t{position:absolute;text-align:center !important;font-weight:800;letter-spacing:-2px;color:var(--escuro);margin:0}
+.cx{position:absolute;background:var(--escuro)}
+.cx-t{position:absolute;text-align:center !important;font-size:24px;font-weight:800;letter-spacing:3px;line-height:29px;text-transform:uppercase;color:#fff;margin:0;white-space:nowrap}
+.pill{position:absolute;height:52px;border:2px solid var(--escuro);border-radius:999px}
+.pill-t{position:absolute;text-align:center !important;font-size:22px;font-weight:800;letter-spacing:3px;line-height:27px;text-transform:uppercase;color:var(--escuro);margin:0;white-space:nowrap}
+.n-box{position:absolute;width:76px;height:76px;background:var(--escuro)}
+.n-box-t{position:absolute;width:76px;text-align:center !important;font-size:32px;font-weight:800;line-height:38px;color:#fff;margin:0}
 </style>
 <style media="canva">body{background:none;margin:0}.slide{margin:0}</style></head><body>
 
 <section class="slide ed" id="l-01">
   <img src="fotos/fundo-1.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
   <div class="topo"><span>@fairhealth.br</span><span></span></div>
-  <p class="rotulo abs" style="left:72px;top:170px">Para o RH</p>
-  <h1 class="tit" style="left:68px;top:220px;font-size:96px;letter-spacing:-3.8px;line-height:1.02">Como levar a<br>fairhealth para<br>a sua empresa:</h1>
-  <img src="fotos/tx-v4-capa.png" class="abs" data-tx="v4-capa" alt="" style="left:58px;top:513px;width:732px;height:108px">
-  <p class="mk" data-mk="v4-capa" style="left:62px;top:514px;font-size:96px;letter-spacing:-3.8px"><span>&nbsp;o passo a passo.&nbsp;</span></p>
-  <div class="no" style="left:72px;top:740px"></div><p class="no-t" style="left:72px;top:760px">1</p>
+  <div class="pill" style="left:72px;top:150px;width:220px"></div><p class="pill-t" style="left:72px;width:224px;top:164px">Para o RH</p>
+  <h1 class="tit" style="left:68px;top:240px;font-size:96px;letter-spacing:-3.8px;line-height:1.02">Como levar a<br>fairhealth para<br>a sua empresa:</h1>
+  <img src="fotos/tx-v5-capa.png" class="abs" data-tx="v5-capa" alt="" style="left:58px;top:533px;width:732px;height:108px">
+  <p class="mk" data-mk="v5-capa" style="left:62px;top:534px;font-size:96px;letter-spacing:-3.8px"><span>&nbsp;o passo a passo.&nbsp;</span></p>
+  <div class="n-box" style="left:72px;top:740px"></div><p class="n-box-t" style="left:72px;top:759px">01</p>
   <p class="cp" style="left:176px;top:742px">Diagnóstico integrado</p>
   <p class="cp-t" style="left:176px;top:790px">No 1º mês</p>
-  <div class="no" style="left:72px;top:870px"></div><p class="no-t" style="left:72px;top:890px">2</p>
-  <p class="cp" style="left:176px;top:872px">Escritório do Cuidado</p>
-  <p class="cp-t" style="left:176px;top:920px">Do 1º ao 12º mês</p>
-  <div class="no" style="left:72px;top:1000px"></div><p class="no-t" style="left:72px;top:1020px">3</p>
-  <p class="cp" style="left:176px;top:1002px">Mensuração</p>
-  <p class="cp-t" style="left:176px;top:1050px">No 12º mês</p>
+  <div class="n-box" style="left:72px;top:850px"></div><p class="n-box-t" style="left:72px;top:869px">02</p>
+  <p class="cp" style="left:176px;top:852px">Escritório do Cuidado</p>
+  <p class="cp-t" style="left:176px;top:900px">Do 1º ao 12º mês</p>
+  <div class="n-box" style="left:72px;top:960px"></div><p class="n-box-t" style="left:72px;top:979px">03</p>
+  <p class="cp" style="left:176px;top:962px">Mensuração</p>
+  <p class="cp-t" style="left:176px;top:1010px">No 12º mês</p>
+  <div class="faixa"><svg width="1080" height="1350" viewBox="0 0 1080 1350"><path d="M600 1140 L1080 1180" fill="none" stroke="#9FC5BD" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
   <p class="abs" style="left:72px;top:1220px;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--escuro)">Arraste para o lado →</p>
 </section>
 
 <section class="slide ed" id="l-02">
   <img src="fotos/fundo-papel.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
   <div class="topo"><span>@fairhealth.br</span><span></span></div>
-  <p class="rotulo abs" style="left:72px;top:150px">Passo 1 · No 1º mês</p>
-  <h2 class="tit" style="left:68px;top:200px;font-size:104px;letter-spacing:-4px">Diagnóstico</h2>
-  <img src="fotos/tx-v4-p1.png" class="abs" data-tx="v4-p1" alt="" style="left:58px;top:311px;width:528px;height:118px">
-  <p class="mk" data-mk="v4-p1" style="left:62px;top:312px;font-size:104px;letter-spacing:-4px"><span>&nbsp;integrado.&nbsp;</span></p>
-  <p class="txt" style="left:72px;width:900px;top:500px;font-size:34px">Antes de cuidar, entender a população: o <b>perfil de saúde</b> com a fairdata e a <b>avaliação de risco</b> por área e faixa etária.</p>
+  <div class="cx" style="left:72px;top:140px;width:220px;height:52px"></div><p class="cx-t" style="left:72px;width:220px;top:152px">Passo 01</p><p class="rotulo abs" style="left:316px;top:152px">No 1º mês</p>
+  <h2 class="tit" style="left:68px;top:220px;font-size:104px;letter-spacing:-4px">Diagnóstico</h2>
+  <img src="fotos/tx-v5-p1.png" class="abs" data-tx="v5-p1" alt="" style="left:58px;top:331px;width:528px;height:118px">
+  <p class="mk" data-mk="v5-p1" style="left:62px;top:332px;font-size:104px;letter-spacing:-4px"><span>&nbsp;integrado.&nbsp;</span></p>
+  <p class="txt" style="left:72px;width:900px;top:510px;font-size:34px">Antes de cuidar, entender a população: o <b>perfil de saúde</b> com a fairdata e a <b>avaliação de risco</b> por área e faixa etária.</p>
   <div class="chip" style="left:72px;top:720px;width:430px"></div><p class="chip-t" style="left:72px;width:434px;top:736px">Perfil de saúde · fairdata</p>
   <div class="chip" style="left:526px;top:720px;width:482px"></div><p class="chip-t" style="left:526px;width:486px;top:736px">Risco por área e faixa etária</p>
-  <div class="fio" style="left:72px;width:936px;top:900px"></div>
-  <p class="fecho" style="left:72px;right:72px;top:950px;font-size:56px">Prioridades por evidência,<br>não por suposição.</p>
+  <p class="fecho" style="left:72px;top:850px;font-size:52px;white-space:nowrap">Prioridades por evidência,<br>não por suposição.</p>
+  <div class="faixa"><svg width="1080" height="1350" viewBox="0 0 1080 1350"><path d="M0 1180 L820 1060 L1080 1230" fill="none" stroke="#9FC5BD" stroke-width="30" stroke-linecap="butt" stroke-linejoin="round"/></svg></div>
+  <div class="anel-fora" style="left:707px;top:947px;width:220px;height:220px"></div><div class="no-g" style="left:726px;top:966px;width:176px;height:176px"></div><p class="no-g-t" style="left:732px;width:176px;top:1022px;font-size:64px;line-height:77px">01</p>
 </section>
 
 <section class="slide ed" id="l-03">
   <img src="fotos/fundo-papel.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
   <div class="topo"><span>@fairhealth.br</span><span></span></div>
-  <p class="rotulo abs" style="left:72px;top:130px">Passo 2 · Do 1º ao 12º mês</p>
-  <h2 class="tit" style="left:68px;top:176px;font-size:84px;letter-spacing:-3px">O Escritório do Cuidado,</h2>
-  <img src="fotos/tx-v4-p2.png" class="abs" data-tx="v4-p2" alt="" style="left:58px;top:269px;width:784px;height:95px">
-  <p class="mk" data-mk="v4-p2" style="left:62px;top:270px;font-size:84px;letter-spacing:-3px"><span>&nbsp;dentro da empresa.&nbsp;</span></p>
+  <div class="cx" style="left:72px;top:120px;width:220px;height:52px"></div><p class="cx-t" style="left:72px;width:220px;top:132px">Passo 02</p><p class="rotulo abs" style="left:316px;top:132px">Do 1º ao 12º mês</p>
+  <h2 class="tit" style="left:68px;top:196px;font-size:84px;letter-spacing:-3px">O Escritório do Cuidado,</h2>
+  <img src="fotos/tx-v5-p2.png" class="abs" data-tx="v5-p2" alt="" style="left:58px;top:289px;width:784px;height:95px">
+  <p class="mk" data-mk="v5-p2" style="left:62px;top:290px;font-size:84px;letter-spacing:-3px"><span>&nbsp;dentro da empresa.&nbsp;</span></p>
   <div class="pt" style="left:78px;top:450px"></div>
   <p class="it-t" style="left:124px;width:880px;top:432px">Atendimento médico e psicológico num espaço físico, com <b>médicos, psicólogos, assistentes sociais e felicitologistas</b> em plantões alternados.</p>
-  <div class="pt" style="left:78px;top:640px"></div>
-  <p class="it-t" style="left:124px;width:880px;top:622px">Anamnese e medições com <b>bioimpedância e smartwatches</b>.</p>
-  <div class="pt" style="left:78px;top:740px"></div>
-  <p class="it-t" style="left:124px;width:880px;top:722px">Um <b>Plano Individual do Cuidado</b> para cada colaborador, com base na <b>Medicina do Estilo de Vida</b>, que também chega à empresa toda em workshops nos 7 pilares.</p>
-  <div class="fio" style="left:72px;width:936px;top:940px"></div>
-  <p class="fecho" style="left:72px;right:72px;top:980px">A proximidade aumenta a adesão.<br>A adesão gera resultado.</p>
-  <p class="cta" style="left:72px;width:940px;top:1170px;font-size:27px">Conhece quem decide sobre saúde na sua empresa? Mande este post.</p>
+  <div class="pt" style="left:78px;top:618px"></div>
+  <p class="it-t" style="left:124px;width:880px;top:600px">Anamnese e medições com <b>bioimpedância e smartwatches</b>.</p>
+  <div class="pt" style="left:78px;top:708px"></div>
+  <p class="it-t" style="left:124px;width:880px;top:690px">Um <b>Plano Individual do Cuidado</b> para cada colaborador, com base na <b>Medicina do Estilo de Vida</b>, que também chega à empresa toda em workshops nos 7 pilares.</p>
+  <p class="fecho" style="left:72px;right:72px;top:870px;font-size:40px">A proximidade aumenta a adesão.<br>A adesão gera resultado.</p>
+  <p class="cta" style="left:72px;width:620px;top:990px;font-size:26px">Conhece quem decide sobre saúde na sua empresa? Mande este post.</p>
+  <div class="faixa"><svg width="1080" height="1350" viewBox="0 0 1080 1350"><path d="M0 1230 L880 1180 L1080 1100" fill="none" stroke="#9FC5BD" stroke-width="30" stroke-linecap="butt" stroke-linejoin="round"/></svg></div>
+  <div class="anel-fora" style="left:767px;top:1067px;width:220px;height:220px"></div><div class="no-g" style="left:786px;top:1086px;width:176px;height:176px"></div><p class="no-g-t" style="left:792px;width:176px;top:1142px;font-size:64px;line-height:77px">02</p>
 </section>
 
 <section class="slide ed" id="l-04">
   <img src="fotos/fundo-papel.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
   <div class="topo"><span>@fairhealth.br</span><span></span></div>
-  <p class="rotulo abs" style="left:72px;top:150px">Passo 3 · No 12º mês</p>
-  <h2 class="tit" style="left:68px;top:200px;font-size:104px;letter-spacing:-4px">Mensuração</h2>
-  <img src="fotos/tx-v4-p3.png" class="abs" data-tx="v4-p3" alt="" style="left:58px;top:311px;width:776px;height:118px">
-  <p class="mk" data-mk="v4-p3" style="left:62px;top:312px;font-size:104px;letter-spacing:-4px"><span>&nbsp;e consolidação.&nbsp;</span></p>
-  <p class="txt" style="left:72px;width:900px;top:500px;font-size:32px">Uma nova pesquisa da fairdata mostra a <b>evolução dos indicadores</b>, e sai o relatório de impacto para o financeiro e o plano de saúde.</p>
-  <p class="txt" style="left:72px;width:900px;top:680px;font-size:32px">Ao longo do ano, o RH acompanha com dados <b>anonimizados e agregados</b> no painel da fairdata.</p>
-  <div class="chip" style="left:72px;top:880px;width:470px"></div><p class="chip-t" style="left:72px;width:474px;top:896px">Evolução dos indicadores</p>
-  <div class="chip" style="left:566px;top:880px;width:442px"></div><p class="chip-t" style="left:566px;width:446px;top:896px">Dados anonimizados</p>
+  <div class="cx" style="left:72px;top:140px;width:220px;height:52px"></div><p class="cx-t" style="left:72px;width:220px;top:152px">Passo 03</p><p class="rotulo abs" style="left:316px;top:152px">No 12º mês</p>
+  <h2 class="tit" style="left:68px;top:220px;font-size:104px;letter-spacing:-4px">Mensuração</h2>
+  <img src="fotos/tx-v5-p3.png" class="abs" data-tx="v5-p3" alt="" style="left:58px;top:331px;width:776px;height:118px">
+  <p class="mk" data-mk="v5-p3" style="left:62px;top:332px;font-size:104px;letter-spacing:-4px"><span>&nbsp;e consolidação.&nbsp;</span></p>
+  <p class="txt" style="left:72px;width:900px;top:510px;font-size:32px">Uma nova pesquisa da fairdata mostra a <b>evolução dos indicadores</b>, e sai o relatório de impacto para o financeiro e o plano de saúde.</p>
+  <p class="txt" style="left:72px;width:900px;top:690px;font-size:32px">Ao longo do ano, o RH acompanha com dados <b>anonimizados e agregados</b> no painel da fairdata.</p>
+  <div class="chip" style="left:72px;top:850px;width:470px"></div><p class="chip-t" style="left:72px;width:474px;top:866px">Evolução dos indicadores</p>
+  <div class="chip" style="left:566px;top:850px;width:442px"></div><p class="chip-t" style="left:566px;width:446px;top:866px">Dados anonimizados</p>
+  <div class="faixa"><svg width="1080" height="1350" viewBox="0 0 1080 1350"><path d="M0 1100 L380 1190 L1080 1120" fill="none" stroke="#9FC5BD" stroke-width="30" stroke-linecap="butt" stroke-linejoin="round"/></svg></div>
+  <div class="anel-fora" style="left:267px;top:1077px;width:220px;height:220px"></div><div class="no-g" style="left:286px;top:1096px;width:176px;height:176px"></div><p class="no-g-t" style="left:292px;width:176px;top:1152px;font-size:64px;line-height:77px">03</p>
 </section>
 
 <section class="slide ed" id="l-05">
   <img src="fotos/fundo-1.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:1350px">
   <div class="topo"><span>@fairhealth.br</span><span></span></div>
-  <h2 class="tit" style="left:68px;top:250px;font-size:100px;letter-spacing:-4px;line-height:1.02">Para começar,</h2>
-  <img src="fotos/tx-v4-c1.png" class="abs" data-tx="v4-c1" alt="" style="left:58px;top:363px;width:607px;height:113px">
-  <p class="mk" data-mk="v4-c1" style="left:62px;top:364px;font-size:100px;letter-spacing:-4px"><span>&nbsp;fale com um&nbsp;</span></p>
-  <img src="fotos/tx-v4-c2.png" class="abs" data-tx="v4-c2" alt="" style="left:58px;top:475px;width:604px;height:113px">
-  <p class="mk" data-mk="v4-c2" style="left:62px;top:476px;font-size:100px;letter-spacing:-4px"><span>&nbsp;especialista.&nbsp;</span></p>
-  <p class="txt" style="left:72px;width:880px;top:680px;font-size:32px">Dessa conversa sai uma <b>proposta sob medida</b> para o seu time, e a implementação começa com onboarding e primeiros atendimentos.</p>
-  <p class="txt" style="left:72px;width:880px;top:870px;font-size:36px">Comente <b>CUIDADO</b> e enviamos na DM como o Escritório do Cuidado funciona na sua empresa.</p>
-  <div class="selo" style="left:72px;top:1220px"><img src="../../marca/logo-circulo.png" alt=""><span>@fairhealth.br</span></div>
+  <h2 class="tit" style="left:68px;top:220px;font-size:100px;letter-spacing:-4px;line-height:1.02">Para começar,</h2>
+  <img src="fotos/tx-v5-c1.png" class="abs" data-tx="v5-c1" alt="" style="left:58px;top:333px;width:607px;height:113px">
+  <p class="mk" data-mk="v5-c1" style="left:62px;top:334px;font-size:100px;letter-spacing:-4px"><span>&nbsp;fale com um&nbsp;</span></p>
+  <img src="fotos/tx-v5-c2.png" class="abs" data-tx="v5-c2" alt="" style="left:58px;top:445px;width:604px;height:113px">
+  <p class="mk" data-mk="v5-c2" style="left:62px;top:446px;font-size:100px;letter-spacing:-4px"><span>&nbsp;especialista.&nbsp;</span></p>
+  <p class="txt" style="left:72px;width:880px;top:650px;font-size:32px">Dessa conversa sai uma <b>proposta sob medida</b> para o seu time, e a implementação começa com onboarding e primeiros atendimentos.</p>
+  <p class="txt" style="left:72px;width:880px;top:830px;font-size:36px">Comente <b>CUIDADO</b> e enviamos na DM como o Escritório do Cuidado funciona na sua empresa.</p>
+  <div class="faixa"><svg width="1080" height="1350" viewBox="0 0 1080 1350"><path d="M0 1120 L330 1190" fill="none" stroke="#9FC5BD" stroke-width="30" stroke-linecap="butt" stroke-linejoin="round"/></svg></div>
+  <div class="anel-fora" style="left:247px;top:1107px;width:160px;height:160px"></div>
+  <img src="../../marca/logo-circulo.png" class="abs" alt="" style="left:262px;top:1122px;width:136px;height:136px;border-radius:50%">
+  <p class="abs" style="left:450px;top:1170px;font-size:32px;font-weight:700;white-space:nowrap">@fairhealth.br</p>
 </section>
 </body></html>
