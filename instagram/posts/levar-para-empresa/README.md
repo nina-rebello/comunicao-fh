@@ -224,3 +224,9 @@ especialista do nosso time. Dessa conversa saem:" e, abaixo, Proposta personaliz
 Legenda: "Passo 1: comece pela primeira conversa, com um especialista do nosso time. É dela que saem a proposta
 personalizada... e a implementação...". A v9 fica em `slides-v9.html`, `png-v9/`, `previa-v9.png`. No Canva, a mesma
 mudança foi feita na página 2 do design `DAHav6ueu9g`.
+
+## v11 (13/11): programa de 4 meses (versão atual)
+
+A Nina avisou que o plano oferecido é de 4 meses, não 12. Em `slides.html`, na legenda e no Canva (páginas 1, 4 e 5):
+"12º mês" virou "4º mês", "1º ao 12º mês" virou "1º ao 4º mês", "em 12 meses" virou "em 4 meses" e "ao longo do ano"
+virou "ao longo do programa". Regra registrada no `CLAUDE.md` e em `referencias.md`. A v10 fica em `slides-v10.html`.

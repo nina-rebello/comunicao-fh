@@ -138,6 +138,8 @@ Regra (Nina, 12/11): o que o post diz sobre como a fairhealth funciona segue est
     com componente presencial (Journal of Occupational and Environmental Medicine); R$ 2,7 de retorno para cada R$ 1
     (Berry, Mirabito e Baun, Harvard Business Review); 12 meses de tempo médio para resultados no plano de saúde
     (SHRM); −26% custos médicos (Baicker, Cutler e Song, Health Affairs).
+- **Duração (Nina, 13/11):** o plano oferecido hoje é de **4 meses**, e não os 12 da página. Nos posts: 1º mês ·
+  Diagnóstico; 1º ao 4º mês · Escritório do Cuidado; 4º mês · Mensuração.
 - **Ajustes da Nina (12/11):** a MEV fica dentro do Escritório do Cuidado (não é frente separada), e as medições
   sempre citam a bioimpedância e os smartwatches.
 - **NR-01 no site:** "conformidade" e "cumprir as exigências da NR-1" aparecem no site; nos posts continua valendo

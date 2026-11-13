@@ -71,6 +71,8 @@ Novembro está em `marketing/Cronograma_Posts_03-11_a_30-11.xlsx`.
   entregas da fairhealth seguem o texto do site da fairjob (página fairhealth), resumido em
   `instagram/referencias.md`, "Site da fairjob". O que não estiver lá (ex.: pulseira por 48 h, prazos, o que o RH
   leva) não entra sem confirmação.
+- **O programa oferecido é de 4 meses** (Nina, 13/11), não 12 como no site: diagnóstico no 1º mês, Escritório do
+  Cuidado do 1º ao 4º mês, mensuração no 4º mês. Nos posts, "4 meses" e "ao longo do programa" (nunca "do ano").
 - **A Medicina do Estilo de Vida (MEV) acontece dentro do Escritório do Cuidado** (Nina, 12/11). Nunca apresentar o
   Programa MEV e o Escritório como duas coisas separadas: o Escritório cuida de cada pessoa (atendimento e plano
   pela MEV) e, dentro dele, os workshops nos 7 pilares educam a empresa toda.
