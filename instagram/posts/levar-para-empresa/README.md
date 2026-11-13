@@ -204,3 +204,15 @@ ganhou o começo da linha (`#7DB5A9`, altura 1210), que continua no slide 2. A v
   (2 MB): fundos em 1080 × 1350 (JPEG 84) e marca-textos em PNG com paleta, em `fotos-canva/`, via `canva-src.html`.
 - No Canva ficam editáveis: todos os textos, as pílulas e os círculos (formas), os ícones e as linhas (gráficos SVG).
   Os fundos e os marca-textos são imagens soltas (dá para mover, trocar ou apagar).
+
+## v9 (13/11): volta o slide "Três passos para começar" (versão atual)
+
+Pedido da Nina: voltar o slide "Passo 1 · Como começa / Três passos para começar" (o da v2), arrumando no Canva.
+
+- **Repositório:** `slides.html` com 6 slides: capa (v8), Três passos (Passo 1, igual à v2), Diagnóstico (Passo 2),
+  Escritório do Cuidado (Passo 3), Mensuração (Passo 4) e o convite. A v8 fica em `slides-v8.html`, `png-v8/`.
+- **Canva (mesmo design, `DAHav6ueu9g`):** o slide foi importado sozinho (`canva-passo1.html`) e inserido como página 2;
+  nas páginas 3 a 5, "Passo 1/2/3" e os números na linha viraram 2/3/4. Título do design: "· 6 slides". A capa ficou
+  como a Nina deixou no Canva (sem a pílula escura).
+- **Legenda:** na mesma ordem: Passo 1 (conversa, proposta, implementação), Passo 2 (diagnóstico), Passo 3
+  (Escritório do Cuidado), Passo 4 (mensuração). Saiu o parágrafo "Para começar...", que virou o Passo 1.
