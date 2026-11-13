@@ -216,3 +216,11 @@ Pedido da Nina: voltar o slide "Passo 1 · Como começa / Três passos para come
   como a Nina deixou no Canva (sem a pílula escura).
 - **Legenda:** na mesma ordem: Passo 1 (conversa, proposta, implementação), Passo 2 (diagnóstico), Passo 3
   (Escritório do Cuidado), Passo 4 (mensuração). Saiu o parágrafo "Para começar...", que virou o Passo 1.
+
+## v10 (13/11): o Passo 1 sem passos dentro (versão atual)
+
+A Nina não queria um Passo 1 com três passos embutidos. O slide 2 virou "Comece pela primeira conversa.": "Com um
+especialista do nosso time. Dessa conversa saem:" e, abaixo, Proposta personalizada e Implementação (texto do site).
+Legenda: "Passo 1: comece pela primeira conversa, com um especialista do nosso time. É dela que saem a proposta
+personalizada... e a implementação...". A v9 fica em `slides-v9.html`, `png-v9/`, `previa-v9.png`. No Canva, a mesma
+mudança foi feita na página 2 do design `DAHav6ueu9g`.
