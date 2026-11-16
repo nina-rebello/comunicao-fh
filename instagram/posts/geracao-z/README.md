@@ -1,4 +1,4 @@
-# Carrossel: Geração Z e desconexão · 9 slides (25/11)
+# Carrossel: Geração Z e desconexão · 8 slides (25/11)
 
 Primeiro teste no tom editorial da @brandsdecoded_: manchete sem serifa,
 texto em serifa (Instrument Serif), dado com nome da pesquisa e da autora,
@@ -17,9 +17,8 @@ O texto de cada slide está em `slides.html`, as artes em `png/` e a prévia em
 | 4 | Dado | Mais de 1 em cada 5 não tem com quem contar; 27% preocupados; 71,1% tristes com as redes |
 | 5 | Tendência | Gen Z stare e task masking: o meme descreve um sintoma |
 | 6 | Técnico | As causas da desconexão e a NR-01 |
-| 7 | **Produto** | "O que importa para você?" no Escritório do Cuidado (foto do espaço) |
-| 8 | **Produto RH + salvamento** | O que o RH recebe; três perguntas para o líder |
-| 9 | Chamada | Geração Z não é o problema. Falta de cuidado é. Comente CUIDADO. Fonte completa. |
+| 7 | **Produto** | "O que importa para você?" no Escritório do Cuidado (foto do espaço): profissionais, bioimpedância e smartwatches, plano pela Medicina do Estilo de Vida; o RH recebe dados anonimizados e agregados |
+| 8 | **Salvamento + chamada** | Para o líder: três perguntas no lugar do rótulo. Comente CUIDADO. Fonte completa. |
 
 ## Fotos que faltam (slides 1, 2, 3 e 4)
 
@@ -47,18 +46,18 @@ cara de anúncio.
 
 ## Legenda
 
-```
-Geração Z e saúde mental no trabalho: o olhar vazio na reunião não é preguiça.
+Em `legenda.txt` (revisada em 16/11).
 
-No Mapa da Felicidade Real dos Brasileiros 2026, da pesquisadora Renata Rivetti com o Instituto Ideia, só 33% dos jovens de 16 a 24 anos disseram estar muito satisfeitos com a vida. Dos 25 anos para cima, foram 47,9%.
+## Revisão de 16/11 (regras de 12 e 13/11)
 
-No trabalho, a distância passa do dobro: 46,7% dos jovens dizem que o trabalho os deixa mais infelizes, contra 20,5% nas outras idades. Mais de 1 em cada 5 diz não ter com quem contar na hora difícil.
-
-Na internet, isso virou meme. Gen Z stare, task masking, o olhar vazio na reunião. É fácil rotular uma geração inteira. Mas sobrecarga, falta de sentido, ansiedade, sono ruim e solidão não têm idade, e vários desses são riscos psicossociais que a NR-01 agora pede para a empresa gerenciar.
-
-No Escritório do Cuidado, todo atendimento começa com a mesma pergunta: o que importa para você? Médico, psicólogo e assistente social dentro da empresa, com um plano de cuidado para cada pessoa. O RH recebe só indicadores do grupo, anonimizados.
-
-Comente CUIDADO e mostramos como funciona na sua empresa.
-
-#fairhealth #saudecorporativa #geracaoz #saudemental #gestaodepessoas
-```
+- **8 slides** (o máximo da marca): o antigo slide 8 (RH + três perguntas) e o 9 (chamada) foram reorganizados.
+  A parte do RH entrou no slide 7; as três perguntas para o líder foram para o último slide, com o Comente CUIDADO
+  e a fonte. Saiu o "Geração Z não é o problema. Falta de cuidado é.", que dizia a mensagem de forma explícita
+  demais (regra do `CLAUDE.md`), e o segundo pedido ("mande para um líder"), para ficar uma chamada só.
+- **Slide 7:** como o site descreve o Escritório: médicos, psicólogos, assistentes sociais e felicitologistas;
+  medições com bioimpedância e smartwatches; plano individual com base na Medicina do Estilo de Vida (dentro do
+  Escritório); o RH recebe dados anonimizados e agregados.
+- **Legenda** atualizada no mesmo sentido, conferida com `caption.py` e `detect.py`.
+- A v1 de 9 slides fica em `slides-v1-9slides.html` e `png-v1-9slides/`.
+- **Continua pendente:** as fotos dos slides 1 a 4 (vagas listradas), a conferência dos números no material
+  original do Mapa da Felicidade e a revisão do Dr. Ronald.

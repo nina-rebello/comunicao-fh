@@ -56,7 +56,14 @@ Referência enviada pela Nina em 04/11: depoimentos em balões de conversa sobre
 - [ ] **Autorização por escrito** da colaboradora do e-mail para publicar o trecho, mesmo sem nome, e ok da
       Dra. Marília para o relato. A letra miúda diz "publicados com autorização": só publicar com as duas.
 - [ ] Dr. Ronald: formato dos depoimentos (CFM), a mesma pendência do post de 03/11.
-- [ ] Legenda: o rascunho do N09 ainda fala só do A2. Refazer com a ig-caption e revisar com a ig-human.
+- [x] Legenda (16/11): em `legenda.txt`, com os três trechos, o Escritório como no site (profissionais, bioimpedância
+      e smartwatches, plano pela Medicina do Estilo de Vida) e o Comente CUIDADO; conferida com `caption.py` e `detect.py`.
 - [ ] Texto alternativo: "Fundo verde-água com grade. Título: Depoimentos. Três balões de conversa com trechos de
       depoimentos de colaboradoras e da equipe do Escritório do Cuidado, e a frase: O que é bom a gente tem que
       compartilhar."
+
+## Revisão de 16/11 (regras de 12 e 13/11)
+
+A arte não precisou mudar: é uma imagem só (sem numeração), sem diagnóstico gratuito, sem prazo de programa e sem
+descrever o serviço. A legenda nova (`legenda.txt`) é que cita bioimpedância e smartwatches e a Medicina do Estilo de
+Vida dentro do Escritório. As autorizações por escrito continuam pendentes.
