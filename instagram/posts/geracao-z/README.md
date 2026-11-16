@@ -103,7 +103,7 @@ registrada no `CLAUDE.md`.
 
 ## Cores (16/11)
 
-Regra nova da Nina (`CLAUDE.md`): Tiffany do logo nos fundos e na maior parte; o escuro só nos detalhes. Os slides
-2, 3, 5, 7 (parte de baixo) e 8 passaram a fundo Tiffany `#9FC5BD`, com texto escuro e destaques em `#24564F`; o 6
-(as causas) ficou em verde-escuro como único contraste; a capa e o slide 4 são foto em tela cheia. O logo do último
-slide ganhou um anel branco para não sumir no Tiffany.
+Regra da Nina (`CLAUDE.md`): fundos neutros podem ficar; o problema é destacar um azul que não é o nosso. Ficou assim:
+2, 5 e 7 (parte de baixo) em papel (creme, como antes); 3 e 8 em Tiffany `#9FC5BD` (no lugar do fundo "noite" e do
+verde); 6 em verde-escuro da marca `#2F6B64` (no lugar do "noite"), como único contraste; capa e slide 4 em foto. O
+fundo "noite" (`#14201E`) saiu. O logo do último slide ganhou um anel branco para não sumir no Tiffany.
