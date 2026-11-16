@@ -45,7 +45,7 @@ A identidade vem da marca, não das referências.
 - Padrão (Nina, 09/11; v2 "mais harmônico", a partir de uma capa de referência): o título fica sobre o próprio
   vídeo, com um degradê verde-noite `#0F1F1C` suave só na parte de baixo (transparente até y 880, 78% na base).
   "@FAIRHEALTH.BR" pequeno; título branco Nunito 800, 118 px, entrelinha justa (108 px), em **linhas curtas**
-  quebradas à mão (2 a 3 palavras), com a palavra-chave numa pílula Tiffany e texto verde; subtítulo de até
+  quebradas à mão (2 a 3 palavras), com a palavra-chave no mesmo tamanho, peso e estilo do título, em verde sobre um fundo Tiffany justo à palavra e arredondado (Nina, 16/11); subtítulo de até
   800 px, Nunito 600, com o trecho final em negrito. O bloco termina 400 px acima da base (fora da legenda e dos
   botões do Instagram). O título é o gancho da programação.
 - Modelo: `video/ferramentas/modelos/capa-reel.html`; gerador: `scripts/capa.py` (quebre o título com Enter).
