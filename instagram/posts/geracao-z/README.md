@@ -100,3 +100,10 @@ Pedido da Nina: menos Instrument Serif; o padrão é Raleway e a serif fica só 
 que estavam em serif passaram a Raleway (tamanhos reduzidos, porque a Raleway é mais larga), e os destaques em itálico
 viraram cor ou negrito. A serif ficou só na pergunta "o que importa para você?" (slide 7 e item 3 do slide 8). Regra
 registrada no `CLAUDE.md`.
+
+## Cores (16/11)
+
+Regra nova da Nina (`CLAUDE.md`): Tiffany do logo nos fundos e na maior parte; o escuro só nos detalhes. Os slides
+2, 3, 5, 7 (parte de baixo) e 8 passaram a fundo Tiffany `#9FC5BD`, com texto escuro e destaques em `#24564F`; o 6
+(as causas) ficou em verde-escuro como único contraste; a capa e o slide 4 são foto em tela cheia. O logo do último
+slide ganhou um anel branco para não sumir no Tiffany.
