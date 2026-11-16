@@ -143,3 +143,15 @@ Balão de mensagem: E agora, RH?"
 - [ ] Dr. Ronald: revisar o texto de saúde mental (CFM) e a leitura da NR-01.
 - [ ] Métrica que decide se o post deu certo (método Vinci): cliques no link da bio e contatos de empresas, com
       salvamentos e compartilhamentos como apoio, comparados com o carrossel de 28/10 (também de dados para o RH).
+
+## Revisão de 16/11 (regras de 12 e 13/11)
+
+- **Numeração:** saiu o "01/06" a "06/06" do topo (regra do `CLAUDE.md`: sem numerar os slides), nos dois HTML.
+- **Slide 5, cartão Cuidar:** "escuta, acompanhamento e encaminhamento" virou "escuta, bioimpedância, smartwatches e
+  acompanhamento" (sempre citar bioimpedância e smartwatches).
+- **Legenda:** o parágrafo do Escritório do Cuidado passou a "médicos, psicólogos e assistentes sociais [...] com
+  escuta, medições com bioimpedância e smartwatches, acompanhamento e encaminhamento. E o RH recebe indicadores do
+  grupo, anonimizados e agregados." Conferida de novo com `caption.py` e `detect.py`.
+- Sem diagnóstico gratuito, sem prazo de programa e sem a MEV separada: nada a mudar nesses pontos.
+- PNGs, alternativas, PDF, `canva.html` e prévia regerados. O `canva.html` passa de 10 MB (limite do Canva): para
+  importar, gerar uma versão leve como a do carrossel de 13/11 (`levar-para-empresa/canva-leve.py`).
