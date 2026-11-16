@@ -94,6 +94,9 @@ Novembro está em `marketing/Cronograma_Posts_03-11_a_30-11.xlsx`.
   - comunicação B2B, sem frases de acolhimento direto ao leitor.
   - **Tipografia (Nina, 16/11):** o padrão é Raleway, em títulos e textos. A Instrument Serif (itálico) fica só
     para detalhes, como uma palavra ou uma frase curta em destaque; nunca em parágrafos ou títulos inteiros.
+  - **Cores (Nina, 16/11):** sempre dar preferência ao Tiffany do logo (`#9FC5BD`) nos fundos e na maior parte da
+    peça; o verde-azulado escuro (`#2F6B64`) fica para os detalhes (destaques, números, assinaturas, um elemento).
+    Fundos escuros só como exceção.
 - No Canva, antes de alterar um slide, duplicar a versão antiga daquele slide no mesmo design.
 
 ## Levar um post para o Canva
