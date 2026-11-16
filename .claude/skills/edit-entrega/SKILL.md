@@ -26,6 +26,11 @@ Gere com `$PY capa.py <video> "<título com a [palavra-chave]>" "<subtítulo com
 do reel na programação (`marketing/ferramentas/conteudo_posts_*.py`). Sai `capa_titulo.png` (topo transparente,
 para pôr por cima do começo do vídeo no CapCut) e `capa_previa.png`. Mostrar a prévia à Nina.
 
+## Velocidade
+Se o vídeo tiver de ser acelerado (ex.: 1,2x, pedido da Nina em 16/11), grave `velocidade` no estado
+(`estado.py <video> --set velocidade 1.2`). Tudo é montado no tempo original e o `previa.py` acelera no fim
+(imagem com `setpts` e som com `atempo`, sem mudar o tom da voz), inclusive a peça `apresentadora`.
+
 ## Conferir antes de entregar
 Resolução, fps e número de frames iguais em todas as peças; nenhum texto fora da área segura (3 quadros: no
 gancho, no número principal e no fechamento); "fairhealth" minúsculo; todo número com a fonte na tela;

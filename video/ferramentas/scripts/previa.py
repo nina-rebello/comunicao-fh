@@ -72,17 +72,25 @@ def main(video, versao, teste=None):
     entradas += ["-i", leg]
     filtro += f"[{ultimo}][{entradas.count('-i') - 1}:v]overlay=0:0,format=yuv420p[v]"
     sfx = os.path.join(pasta, "renders", f"sfx_{vv}.wav")
+    vel = e.get("velocidade", 1)  # ex.: 1.2 (Nina, 16/11): acelera o vídeo pronto, imagem e som juntos
     if os.path.exists(sfx):  # voz + efeitos
         entradas += ["-i", sfx]
         filtro += f";[0:a]aresample=48000[voz];[voz][{entradas.count('-i') - 1}:a]amix=inputs=2:normalize=0:duration=first[a]"
-        audio = ["-map", "[a]", "-c:a", "aac", "-b:a", "256k"]
     else:
-        audio = ["-map", "0:a", "-c:a", "copy"]
+        filtro += ";[0:a]aresample=48000[a]"
+    if vel != 1:
+        filtro = filtro.replace("format=yuv420p[v]", f"setpts=PTS/{vel},fps={fps},format=yuv420p[v]")
+        filtro = filtro[:filtro.rindex("[a]")] + f",atempo={vel}[a]"
+    audio = ["-map", "[a]", "-c:a", "aac", "-b:a", "256k"]
     ff(*entradas, "-filter_complex", filtro, "-map", "[v]", *audio, "-c:v", "libx264", "-crf", "17",
        "-preset", "slow", "-movflags", "+faststart", previa)
     if os.path.exists(sfx):
         ff("-i", sfx, "-c", "copy", os.path.join(out, f"sfx_{vv}.wav"))
-    ff("-i", apres, "-c", "copy", os.path.join(out, f"apresentadora_{vv}.mp4"))
+    if vel != 1:
+        ff("-i", apres, "-vf", f"setpts=PTS/{vel},fps={fps}", "-af", f"atempo={vel}", "-c:v", "libx264", "-crf", "16",
+           "-c:a", "aac", "-b:a", "256k", os.path.join(out, f"apresentadora_{vv}.mp4"))
+    else:
+        ff("-i", apres, "-c", "copy", os.path.join(out, f"apresentadora_{vv}.mp4"))
     fmt = formato_validado()
     for nome, src in (("animacoes", anim), ("legendas", leg)):
         if fmt == "transparencia":
