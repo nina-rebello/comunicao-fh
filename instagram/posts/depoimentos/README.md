@@ -82,3 +82,10 @@ balões de mensagem do iOS e um "Feedback de Cliente" em fundo verde chapado com
   letra miúda. Saíram o cartão branco do rodapé, o slogan e o traço do título.
 - Os balões são SVG dentro de `div` posicionado (regra do Canva). O `slides.html` é gerado por `gerar_v2.py`.
 - O texto dos depoimentos não mudou.
+
+## v3 (16/11): cores trocadas e sem [...]
+
+Pedidos da Nina sobre a v2: o Tiffany vai para o fundo e o verde-escuro para o balão da equipe (com texto branco e
+assinatura menta); título, frase de fecho, @ e letra miúda passam ao escuro, e o logo ganhou um anel branco para
+não sumir no Tiffany. Saíram os [...] dos balões, e a letra miúda virou "Trechos publicados com autorização e
+anonimizados." (os cortes continuam existindo no texto, só não aparecem marcados, por decisão da Nina).
