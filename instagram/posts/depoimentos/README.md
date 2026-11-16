@@ -4,7 +4,7 @@
 `marketing/ferramentas/conteudo_posts_novembro.py`. Vem depois do carrossel da NR-01 (18/11) e antes do Reel
 "Quem cuida do RH?" (23/11).
 
-**Status:** arte v1 para aprovação (04/11).
+**Status:** arte v2 para aprovação (16/11), mais limpa. A v1 fica em `slides-v1.html`, `png-v1/`, `previa-v1.png`.
 
 - **Arte** (1080x1350): `png/d-01.png` (também em `previa.png`).
 - **Canva:** `canva.html` (autocontido). Para importar, siga o `CLAUDE.md` (commit, push e endereço raw com o
@@ -67,3 +67,18 @@ Referência enviada pela Nina em 04/11: depoimentos em balões de conversa sobre
 A arte não precisou mudar: é uma imagem só (sem numeração), sem diagnóstico gratuito, sem prazo de programa e sem
 descrever o serviço. A legenda nova (`legenda.txt`) é que cita bioimpedância e smartwatches e a Medicina do Estilo de
 Vida dentro do Escritório. As autorizações por escrito continuam pendentes.
+
+## v2 (16/11): mais elegante, menos formas
+
+Pedido da Nina: sem foto de perfil e com algo mais elegante, sem formas que deixem o post infantil. Referências:
+balões de mensagem do iOS e um "Feedback de Cliente" em fundo verde chapado com balões brancos.
+
+- **Fundo verde-escuro liso** (`#2A625B`), sem grade nem brilho.
+- **Título centrado:** "Escritório do Cuidado" (menta, caixa alta espaçada) e "Depoimentos" em Raleway 800 branco.
+- **Três balões de mensagem com rabicho**, sem avatar e sem os tiques de lido: as duas colaboradoras em branco, à
+  esquerda; a equipe em Tiffany, à direita, como resposta. A assinatura fica dentro do balão, em caixa alta pequena
+  ("Colaboradora atendida", "Equipe do Escritório do Cuidado").
+- **Pé:** a frase "O que é bom a gente tem que compartilhar." em serif itálico menta, o logo com @fairhealth.br e a
+  letra miúda. Saíram o cartão branco do rodapé, o slogan e o traço do título.
+- Os balões são SVG dentro de `div` posicionado (regra do Canva). O `slides.html` é gerado por `gerar_v2.py`.
+- O texto dos depoimentos não mudou.
