@@ -69,3 +69,21 @@ preguiça, a desconexão tem causa". A capa passou a ter a pergunta como título
 "*Não é preguiça.* A desconexão tem causa." como subtítulo em serif. O "olhar vazio na reunião" continua no slide 5
 (o meme), e o slide 6 ("Desconexão tem causa. E nenhuma delas é a idade.") responde à capa. A primeira linha da
 legenda virou a mesma pergunta; o termo de busca "saúde mental no trabalho" foi para o parágrafo da NR-01.
+
+## Fotos escolhidas (16/11)
+
+A Nina mandou opções e escolheu, para as quatro vagas (teste de composição feito só no chat; as fotos não entram no
+repositório, que é público, até os direitos estarem confirmados):
+
+| Slide | Foto escolhida | Observação |
+|---|---|---|
+| 1 · capa | Moça olhando para cima num escritório, colegas desfocados dos lados, luz de filme (vertical) | Rosto no alto, título embaixo |
+| 2 | Grupo de jovens almoçando numa mesa, luz natural, janelas ao fundo (vertical, recortada na faixa horizontal) | Parece ensaio de marca de roupa: conferir antes de usar |
+| 3 | Moça no celular entre pilhas de livros, luz quente (vertical, na faixa estreita ao lado do 46,7%) | Tem tela de app de música visível |
+| 4 | Rapaz no metrô, fone, cabeça para trás e olhos fechados, janela com movimento (vertical 4:5) | Escolhida no lugar da foto do ônibus: o rosto fica no alto e o texto na parte escura |
+
+Descartadas: a do ônibus (o rapaz ficava atrás do texto), a mulher com post-its no rosto (texto em cirílico, cena
+carregada) e a mulher na janela com chuva (parece imagem de IA).
+
+**Antes de publicar:** achar a origem de cada uma pelo Google Lens, baixar o original (Unsplash, Pexels ou banco pago,
+com pelo menos 1080 px de largura) e salvar em `fotos/`. As cópias recebidas têm de 736 a 1200 px e vêm do Pinterest.
