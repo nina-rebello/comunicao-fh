@@ -93,3 +93,10 @@ com pelo menos 1080 px de largura) e salvar em `fotos/`. As cópias recebidas t�
 A Nina não gostou do render do espaço no slide 7. Entrou a foto real do Escritório do Cuidado (a mesma do post de 06/11,
 `instagram/posts/historia-2009/fotos/espaco-nina-original.jpg`, foto da marca), numa faixa de 1080 × 640 no alto
 (`fotos/gz-07-faixa.jpg`), com o texto em fundo escuro embaixo. Em tela cheia, as poltronas ficavam atrás do texto.
+
+## Tipografia (16/11)
+
+Pedido da Nina: menos Instrument Serif; o padrão é Raleway e a serif fica só para detalhes. Todos os textos e títulos
+que estavam em serif passaram a Raleway (tamanhos reduzidos, porque a Raleway é mais larga), e os destaques em itálico
+viraram cor ou negrito. A serif ficou só na pergunta "o que importa para você?" (slide 7 e item 3 do slide 8). Regra
+registrada no `CLAUDE.md`.

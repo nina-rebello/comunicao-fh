@@ -92,6 +92,8 @@ Novembro está em `marketing/Cronograma_Posts_03-11_a_30-11.xlsx`.
   - nada de slide-resumo que diga a mensagem de forma explícita demais; a conclusão aparece nos fatos (retorno da
     Nina sobre o conteúdo v7 de 21/10);
   - comunicação B2B, sem frases de acolhimento direto ao leitor.
+  - **Tipografia (Nina, 16/11):** o padrão é Raleway, em títulos e textos. A Instrument Serif (itálico) fica só
+    para detalhes, como uma palavra ou uma frase curta em destaque; nunca em parágrafos ou títulos inteiros.
 - No Canva, antes de alterar um slide, duplicar a versão antiga daquele slide no mesmo design.
 
 ## Levar um post para o Canva
