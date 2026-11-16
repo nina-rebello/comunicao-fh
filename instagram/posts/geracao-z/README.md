@@ -87,3 +87,9 @@ carregada) e a mulher na janela com chuva (parece imagem de IA).
 
 **Antes de publicar:** achar a origem de cada uma pelo Google Lens, baixar o original (Unsplash, Pexels ou banco pago,
 com pelo menos 1080 px de largura) e salvar em `fotos/`. As cópias recebidas têm de 736 a 1200 px e vêm do Pinterest.
+
+## Slide 7 com a foto do Escritório (16/11)
+
+A Nina não gostou do render do espaço no slide 7. Entrou a foto real do Escritório do Cuidado (a mesma do post de 06/11,
+`instagram/posts/historia-2009/fotos/espaco-nina-original.jpg`, foto da marca), numa faixa de 1080 × 640 no alto
+(`fotos/gz-07-faixa.jpg`), com o texto em fundo escuro embaixo. Em tela cheia, as poltronas ficavam atrás do texto.
