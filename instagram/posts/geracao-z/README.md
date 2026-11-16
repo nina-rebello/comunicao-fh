@@ -103,7 +103,8 @@ registrada no `CLAUDE.md`.
 
 ## Cores (16/11)
 
-Regra da Nina (`CLAUDE.md`): fundos neutros podem ficar; o problema é destacar um azul que não é o nosso. Ficou assim:
-2, 5 e 7 (parte de baixo) em papel (creme, como antes); 3 e 8 em Tiffany `#9FC5BD` (no lugar do fundo "noite" e do
-verde); 6 em verde-escuro da marca `#2F6B64` (no lugar do "noite"), como único contraste; capa e slide 4 em foto. O
-fundo "noite" (`#14201E`) saiu. O logo do último slide ganhou um anel branco para não sumir no Tiffany.
+A Nina testou a versão em branco e Tiffany e preferiu a versão escura anterior. Ficou assim: capa e slide 4 em foto;
+2 e 5 em papel (creme); 3, 6 e 7 no fundo "noite" (`#14201E`); 8 no verde-escuro da marca `#2F6B64`. O logo do
+último slide voltou sem o anel branco. A versão branca e Tiffany fica no histórico do git (commit anterior a este).
+Atenção: o fundo "noite" contraria a regra de cores do `CLAUDE.md` (16/11); falta a Nina dizer se a regra muda ou se
+este post é exceção.
