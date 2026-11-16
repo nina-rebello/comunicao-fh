@@ -11,7 +11,7 @@ O texto de cada slide está em `slides.html`, as artes em `png/` e a prévia em
 
 | Slide | Função | Conteúdo |
 | --- | --- | --- |
-| 1 | Capa | O olhar vazio na reunião não é preguiça. |
+| 1 | Capa | Por que a Geração Z está tão desconectada do trabalho? Não é preguiça. A desconexão tem causa. |
 | 2 | Promessa | A pesquisa: 33% dos jovens muito satisfeitos, contra 47,9% |
 | 3 | Dado | 46,7% dizem que o trabalho os deixa mais infelizes (20,5% nas outras idades) |
 | 4 | Dado | Mais de 1 em cada 5 não tem com quem contar; 27% preocupados; 71,1% tristes com as redes |
@@ -61,3 +61,11 @@ Em `legenda.txt` (revisada em 16/11).
 - A v1 de 9 slides fica em `slides-v1-9slides.html` e `png-v1-9slides/`.
 - **Continua pendente:** as fotos dos slides 1 a 4 (vagas listradas), a conferência dos números no material
   original do Mapa da Felicidade e a revisão do Dr. Ronald.
+
+## Capa nova (16/11)
+
+Pedido da Nina: deixar claras a pergunta "Por que a Geração Z está tão desconectada do trabalho?" e a ideia "não é
+preguiça, a desconexão tem causa". A capa passou a ter a pergunta como título, em Raleway 800 (pedido dela), e
+"*Não é preguiça.* A desconexão tem causa." como subtítulo em serif. O "olhar vazio na reunião" continua no slide 5
+(o meme), e o slide 6 ("Desconexão tem causa. E nenhuma delas é a idade.") responde à capa. A primeira linha da
+legenda virou a mesma pergunta; o termo de busca "saúde mental no trabalho" foi para o parágrafo da NR-01.
