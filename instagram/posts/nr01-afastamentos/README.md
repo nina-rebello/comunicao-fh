@@ -166,3 +166,13 @@ Balão de mensagem: E agora, RH?"
   assistentes sociais), medições do grupo (bioimpedância e smartwatches) e indicadores para o RH (do grupo,
   anonimizados e agregados). Mesmo conteúdo da legenda e do slide 5.
 - **Slide 5:** foto de escuta (`fotos/escuta.jpg`), origem e licença a confirmar.
+
+## v7 (17/11): contexto da fairhealth (chefe, via Nina)
+
+O chefe pediu: dar contexto antes da norma, dizer que a solução para medir é a fairdata, que a fairhealth é o outro lado
+da moeda (complementa) e não deixar parecer que a fairhealth resolve tudo.
+- **Slide 5:** frase nova sob os cartões: "A fairdata mede o risco. A fairhealth complementa com o cuidado."
+- **Slide 6:** "Medir e cuidar andam juntos." + "Fale com a gente pelo link da bio e conheça a fairdata e o Escritório do Cuidado." O
+  bloco passou a se chamar "O que o Escritório do Cuidado entrega".
+- **Legenda:** o parágrafo do Escritório do Cuidado abre com "A fairdata é o caminho para medir" e a chamada convida a conhecer
+  a fairdata e o Escritório do Cuidado. Sem promessa de conformidade com a NR-01.

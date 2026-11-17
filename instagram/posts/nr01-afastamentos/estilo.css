@@ -109,3 +109,7 @@
 .e-t{position:absolute;margin:0;font-size:34px;font-weight:800;letter-spacing:-.8px;line-height:1;color:var(--texto);white-space:nowrap}
 .e-s{position:absolute;margin:0;font-size:27px;font-weight:500;line-height:1;color:var(--texto);opacity:.8;white-space:nowrap}
 .e-fio{position:absolute;height:2px;background:rgba(20,27,27,.14)}
+
+/* Frase de fecho do slide 5 (v7, 17/11): a fairhealth complementa. */
+.k-fecho{position:absolute;margin:0;font-size:32px;font-weight:600;line-height:1.25;color:var(--texto)}
+.k-fecho b{font-weight:800;font-style:normal;color:var(--escuro)}
