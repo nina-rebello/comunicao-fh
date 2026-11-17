@@ -23,8 +23,8 @@ for n in ['tx-barra-cinza.png', 'tx-barra-tiffany.png', 'print-nr01.png']:
 im = Image.open(ORIG / 'escuta.jpg').convert('RGB')
 esc = 2160 / im.width
 im = im.resize((2160, round(im.height * esc)), Image.LANCZOS)
-y = round(120 * esc)
-im.crop((0, y, 2160, y + 480)).filter(ImageFilter.UnsharpMask(2, 60, 3)).save(FOTOS / 'n-05.jpg', quality=90)
+y = round(110 * esc)
+im.crop((0, y, 2160, y + 600)).filter(ImageFilter.UnsharpMask(2, 60, 3)).save(FOTOS / 'n-05.jpg', quality=90)
 
 L = [
  'Assédio de qualquer natureza no trabalho', 'Má gestão de mudanças organizacionais', 'Baixa clareza de papel/função',
@@ -115,30 +115,30 @@ body{background:none;margin:0}
 
 <section class="slide ed q" id="n-05">
   <img src="fotos/fundo-papel.jpg" class="fundo" alt="">
-  <img src="fotos/n-05.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:240px">
+  <img src="fotos/n-05.jpg" class="abs" alt="" style="left:0;top:0;width:1080px;height:300px">
   <div class="abs" style="left:52px;top:42px;width:252px;height:54px;background:#2F6B64;border-radius:10px"></div>
   <div class="topo claro"><span>fairhealth</span><span></span></div>
-  <p class="tit" style="left:72px;top:266px;font-size:70px;letter-spacing:-3px">Medir e cuidar:</p>
-  <p class="serif" style="left:68px;top:342px;font-size:92px">a norma pede os dois.</p>
+  <p class="tit" style="left:72px;top:326px;font-size:70px;letter-spacing:-3px">Medir e cuidar:</p>
+  <p class="serif" style="left:68px;top:402px;font-size:92px">a norma pede os dois.</p>
 
-  <div class="card-m" style="left:72px;top:464px;width:440px;height:450px"></div>
-  <p class="k-rot" style="left:108px;top:500px">Medir</p>
-  <p class="k-item" style="left:108px;top:556px;width:368px"><b>b)</b> Identificar os perigos</p>
-  <p class="k-item" style="left:108px;top:606px;width:368px"><b>c)</b> Avaliar os riscos</p>
-  <p class="k-item" style="left:108px;top:656px;width:368px"><b>d)</b> Classificar os riscos</p>
-  <div class="k-fio" style="left:108px;width:368px;top:734px"></div>
-  <p class="k-rodape" style="left:108px;top:758px;width:368px">Com a <b>fairdata</b>: o diagnóstico dos riscos do grupo.</p>
+  <div class="card-m" style="left:72px;top:524px;width:440px;height:470px"></div>
+  <p class="k-rot" style="left:108px;top:560px">Medir</p>
+  <p class="k-item" style="left:108px;top:616px;width:368px"><b>b)</b> Identificar os perigos</p>
+  <p class="k-item" style="left:108px;top:666px;width:368px"><b>c)</b> Avaliar os riscos</p>
+  <p class="k-item" style="left:108px;top:716px;width:368px"><b>d)</b> Classificar os riscos</p>
+  <div class="k-fio" style="left:108px;width:368px;top:794px"></div>
+  <p class="k-rodape" style="left:108px;top:818px;width:368px">Com a <b>fairdata</b>: o diagnóstico dos riscos do grupo.</p>
 
-  <div class="card-c" style="left:568px;top:464px;width:440px;height:450px"></div>
-  <p class="k-rot claro" style="left:604px;top:500px">Cuidar</p>
-  <p class="k-item claro" style="left:604px;top:556px;width:368px"><b>e)</b> Implementar medidas de prevenção</p>
-  <p class="k-item claro" style="left:604px;top:644px;width:368px"><b>f)</b> Acompanhar o controle dos riscos</p>
-  <div class="k-fio claro" style="left:604px;width:368px;top:734px"></div>
-  <p class="k-rodape claro" style="left:604px;top:750px;width:378px">Com o <b>Escritório do Cuidado</b>: escuta, bioimpedância, smartwatches e acompanhamento.</p>
+  <div class="card-c" style="left:568px;top:524px;width:440px;height:470px"></div>
+  <p class="k-rot claro" style="left:604px;top:560px">Cuidar</p>
+  <p class="k-item claro" style="left:604px;top:616px;width:368px"><b>e)</b> Implementar medidas de prevenção</p>
+  <p class="k-item claro" style="left:604px;top:704px;width:368px"><b>f)</b> Acompanhar o controle dos riscos</p>
+  <div class="k-fio claro" style="left:604px;width:368px;top:794px"></div>
+  <p class="k-rodape claro" style="left:604px;top:810px;width:378px">Com o <b>Escritório do Cuidado</b>: escuta, bioimpedância, smartwatches e acompanhamento.</p>
 
-  <div class="seta-c" style="left:510px;top:669px"></div><p class="seta-t" style="left:510px;top:684px">→</p>
-  <p class="k-fecho" style="left:72px;top:936px;width:936px;font-size:30px"><b>A fairdata mede o risco.</b> A fairhealth complementa com o cuidado.</p>
-  <p class="fonte" style="left:72px;right:72px;top:1030px;font-size:17px">Fonte: NR-01, item 1.5.3.2, alíneas b a f (Ministério do Trabalho e Emprego).</p>
+  <div class="seta-c" style="left:510px;top:729px"></div><p class="seta-t" style="left:510px;top:744px">→</p>
+  <p class="k-fecho" style="left:72px;top:1004px;width:936px;font-size:26px;white-space:nowrap"><b>A fairdata mede o risco.</b> A fairhealth complementa com o cuidado.</p>
+  <p class="fonte" style="left:72px;right:72px;top:1046px;font-size:17px">Fonte: NR-01, item 1.5.3.2, alíneas b a f (Ministério do Trabalho e Emprego).</p>
 </section>
 
 <section class="slide ed q" id="n-06">

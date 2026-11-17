@@ -37,5 +37,5 @@ texto, em **1080 x 1080** (quadrado, como o post #1 da página).
 
 ## v7 (17/11): mesmas mudanças do Instagram
 
-Slide 5 com a frase "A fairdata mede o risco. A fairhealth complementa com o cuidado." (foto mais baixa, 240 px, para caber), slide 6 com
+Slide 5 com a frase "A fairdata mede o risco. A fairhealth complementa com o cuidado." em uma linha, sob os cartões, slide 6 com
 "Medir e cuidar andam juntos." e "pelo link abaixo", legenda e primeiro comentário atualizados.
