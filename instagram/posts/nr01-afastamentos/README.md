@@ -147,6 +147,8 @@ Balão de mensagem: E agora, RH?"
 ## Revisão de 16/11 (regras de 12 e 13/11)
 
 - **Numeração:** saiu o "01/06" a "06/06" do topo (regra do `CLAUDE.md`: sem numerar os slides), nos dois HTML.
+- **Slide 5, foto (17/11):** `fotos/escuta.jpg` (736 x 414, vista de cima de uma conversa de escuta, com caderno e smartwatch no pulso) no lugar de `conversa1.jpg`. Escolha da Nina entre quatro referências; **origem e licença a confirmar** (a imagem não é do banco da marca). Resolução baixa: o `gerar.py` amplia com nitidez leve. O tag @fairhealth.br ganhou bloco verde (a foto é clara no canto).
+- **Canva (17/11):** o `canva.html` passou a ser a versão leve (`canva-leve.py`, cerca de 2,5 MB, usa `fotos-canva/`).
 - **Slide 5, cartão Cuidar:** "escuta, acompanhamento e encaminhamento" virou "escuta, bioimpedância, smartwatches e
   acompanhamento" (sempre citar bioimpedância e smartwatches).
 - **Legenda:** o parágrafo do Escritório do Cuidado passou a "médicos, psicólogos e assistentes sociais [...] com

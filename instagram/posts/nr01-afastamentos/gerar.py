@@ -88,7 +88,7 @@ def recorte_foto(orig, nome, w, h, fx, fy):
     im = im.resize((round(im.width * escala), round(im.height * escala)), Image.LANCZOS)
     x = min(max(round(im.width * fx - w), 0), im.width - 2 * w)
     y = min(max(round(im.height * fy - h), 0), im.height - 2 * h)
-    im.crop((x, y, x + 2 * w, y + 2 * h)).save(FOTOS / nome, quality=88)
+    im.crop((x, y, x + 2 * w, y + 2 * h)).filter(ImageFilter.UnsharpMask(2, 60, 3)).save(FOTOS / nome, quality=90)
 
 
 def print_nr01():
@@ -125,7 +125,7 @@ if __name__ == '__main__':
     textura.marca(300, 484, CINZA, seed=3, alfa=.9, sentido='v').save(FOTOS / 'tx-barra-cinza.png')
     textura.marca(300, 560, TIFFANY, seed=4, alfa=.95, sentido='v').save(FOTOS / 'tx-barra-tiffany.png')
     fita('fita.png')
-    recorte_foto('conversa1.jpg', 'n-05.jpg', 1080, 420, 0.50, 0.50)
+    recorte_foto('escuta.jpg', 'n-05.jpg', 1080, 420, 0.50, 0.49)
     print_nr01()
     subprocess.run(['node', str(RAIZ / 'instagram/ferramentas/render-transparente.mjs'), str(AQUI / 'recorte.html'),
                     str(FOTOS)], check=True)
