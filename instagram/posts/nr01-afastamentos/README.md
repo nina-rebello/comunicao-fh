@@ -157,3 +157,12 @@ Balão de mensagem: E agora, RH?"
 - Sem diagnóstico gratuito, sem prazo de programa e sem a MEV separada: nada a mudar nesses pontos.
 - PNGs, alternativas, PDF, `canva.html` e prévia regerados. O `canva.html` passa de 10 MB (limite do Canva): para
   importar, gerar uma versão leve como a do carrossel de 13/11 (`levar-para-empresa/canva-leve.py`).
+
+## Revisão de 17/11 (pedido da Nina)
+
+- **CVV 188 saiu** do slide 6 e da legenda: o post é para o RH, e a linha falava direto com o colaborador (regra B2B do
+  `CLAUDE.md`). Se o Dr. Ronald exigir canal de ajuda, usar nota discreta no rodapé.
+- **Slide 6 preenchido** com "O que a empresa recebe": atendimento dentro da empresa (médicos, psicólogos e
+  assistentes sociais), medições do grupo (bioimpedância e smartwatches) e indicadores para o RH (do grupo,
+  anonimizados e agregados). Mesmo conteúdo da legenda e do slide 5.
+- **Slide 5:** foto de escuta (`fotos/escuta.jpg`), origem e licença a confirmar.

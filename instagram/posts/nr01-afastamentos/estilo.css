@@ -102,3 +102,10 @@
 .acao{position:absolute;width:96px;height:96px;border-radius:50%;background:var(--agua)}
 .acao-svg{position:absolute;width:52px;height:52px}
 .acao-svg svg{display:block;width:52px;height:52px}
+
+/* Convite (slide 6): o que a empresa recebe, em três linhas. */
+.e-rot{position:absolute;margin:0;font-size:24px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--escuro)}
+.e-dot{position:absolute;width:18px;height:18px;border-radius:50%;background:var(--agua)}
+.e-t{position:absolute;margin:0;font-size:34px;font-weight:800;letter-spacing:-.8px;line-height:1;color:var(--texto);white-space:nowrap}
+.e-s{position:absolute;margin:0;font-size:27px;font-weight:500;line-height:1;color:var(--texto);opacity:.8;white-space:nowrap}
+.e-fio{position:absolute;height:2px;background:rgba(20,27,27,.14)}

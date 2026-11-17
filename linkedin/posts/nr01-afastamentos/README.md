@@ -24,6 +24,8 @@ texto, em **1080 x 1080** (quadrado, como o post #1 da página).
   (`linkedin/README.md`) e a mesma base de dados e fontes do post do Instagram.
 - **Slide 5:** a foto de escuta tem **origem e licença a confirmar** (não é do banco da marca), como no Instagram.
 
+- **Sem CVV 188 e com o último slide preenchido** ("O que a empresa recebe"), como no Instagram (17/11).
+
 ## Pendências
 
 - [ ] Aprovação da Nina.
