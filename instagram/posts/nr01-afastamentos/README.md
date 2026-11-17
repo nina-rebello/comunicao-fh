@@ -184,3 +184,9 @@ A lista dos 13 fatores do guia do MTE saiu (era conteúdo de norma, para a faird
 plano de ação por colaborador; "Complementa o plano de saúde e o SST", tudo do site da fairjob) e convite. O slide 6 ficou sem
 o balão e sem o bloco "O que o Escritório do Cuidado entrega" (a Nina já tinha tirado no Canva do Instagram). Legenda sem a frase dos exemplos
 do guia e com "Complementa o plano de saúde e o SST."
+
+## v9 (17/11): slide 5 minimalista
+
+A pedido da Nina, o slide do Escritório do Cuidado ficou só com título, texto e bullets com hífen, em fundo liso, sem cartão, ícones ou
+linhas. Abre com o gancho do slide anterior ("Medir mostra onde está o risco. Cuidar acontece onde o trabalho acontece."), apresenta o
+Escritório (tempo e acesso), lista o que acontece na prática e fecha com adesão e resultado (frase do site da fairjob).

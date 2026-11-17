@@ -132,24 +132,21 @@ body{background:none;margin:0}
 </section>
 
 <section class="slide ed q" id="n-05">
-  <img src="fotos/fundo-tiffany.jpg" class="fundo" alt="">
   <div class="topo"><span>fairhealth</span><span></span></div>
-  <p class="tit" style="left:72px;top:100px;font-size:60px;letter-spacing:-2.5px">Escritório do Cuidado</p>
-  <p class="serif" style="left:68px;top:164px;font-size:84px">dentro da empresa</p>
-  <p class="txt" style="left:72px;top:266px;width:936px;font-size:28px;font-weight:600;color:var(--texto)">Um espaço de atendimento médico e psicológico dentro da empresa. Reduz a principal barreira ao cuidado: o tempo e o acesso.</p>
-  <div class="folha" style="left:72px;top:404px;width:936px;height:476px"></div>
-  <div class="e-dot" style="left:112px;top:444px"></div><p class="e-t" style="left:152px;top:436px">Atendimento preventivo</p>
-  <p class="e-s" style="left:152px;top:476px">medicina geral, rastreamento de risco e orientação</p>
-  <div class="e-fio" style="left:112px;width:856px;top:526px"></div>
-  <div class="e-dot" style="left:112px;top:556px"></div><p class="e-t" style="left:152px;top:548px">Plantões</p>
-  <p class="e-s" style="left:152px;top:588px">médicos, psicólogos e assistentes sociais</p>
-  <div class="e-fio" style="left:112px;width:856px;top:638px"></div>
-  <div class="e-dot" style="left:112px;top:668px"></div><p class="e-t" style="left:152px;top:660px">Medições</p>
-  <p class="e-s" style="left:152px;top:700px">bioimpedância e smartwatches</p>
-  <div class="e-fio" style="left:112px;width:856px;top:750px"></div>
-  <div class="e-dot" style="left:112px;top:780px"></div><p class="e-t" style="left:152px;top:772px">Plano de ação por colaborador</p>
-  <p class="e-s" style="left:152px;top:812px">encaminhamentos e acompanhamento</p>
-  <p class="txt" style="left:72px;top:912px;font-size:30px;font-weight:700;color:var(--escuro)">Complementa o plano de saúde e o SST.</p>
+  <p class="tit" style="left:72px;top:110px;font-size:50px;letter-spacing:-2px;line-height:1.1;color:var(--texto)">Medir mostra onde</p>
+  <p class="tit" style="left:72px;top:165px;font-size:50px;letter-spacing:-2px;line-height:1.1;color:var(--texto)">está o risco.</p>
+  <p class="tit" style="left:72px;top:220px;font-size:50px;letter-spacing:-2px;line-height:1.1;color:var(--escuro)">Cuidar acontece onde</p>
+  <p class="tit" style="left:72px;top:275px;font-size:50px;letter-spacing:-2px;line-height:1.1;color:var(--escuro)">o trabalho acontece.</p>
+  <p class="txt" style="left:72px;top:352px;width:936px;font-size:28px;font-weight:500;color:var(--texto)">O Escritório do Cuidado é um espaço de atendimento médico e psicológico dentro da empresa. Ele reduz a principal barreira ao cuidado: o tempo e o acesso.</p>
+  <p class="txt" style="left:72px;top:496px;font-size:28px;font-weight:500;color:var(--texto)">-</p>
+  <p class="txt" style="left:104px;top:496px;width:900px;font-size:28px;font-weight:500;color:var(--texto)">plantões de médicos, psicólogos e assistentes sociais</p>
+  <p class="txt" style="left:72px;top:553px;font-size:28px;font-weight:500;color:var(--texto)">-</p>
+  <p class="txt" style="left:104px;top:553px;width:900px;font-size:28px;font-weight:500;color:var(--texto)">atendimento preventivo e medições com bioimpedância e smartwatches</p>
+  <p class="txt" style="left:72px;top:648px;font-size:28px;font-weight:500;color:var(--texto)">-</p>
+  <p class="txt" style="left:104px;top:648px;width:900px;font-size:28px;font-weight:500;color:var(--texto)">plano de ação para cada colaborador, com encaminhamentos e acompanhamento</p>
+  <p class="txt" style="left:72px;top:743px;font-size:28px;font-weight:500;color:var(--texto)">-</p>
+  <p class="txt" style="left:104px;top:743px;width:900px;font-size:28px;font-weight:500;color:var(--texto)">indicadores do grupo para o RH, anonimizados e agregados</p>
+  <p class="txt" style="left:72px;top:830px;width:936px;font-size:30px;font-weight:800;color:var(--escuro)">Quanto mais perto, mais adesão. E é a adesão que gera resultado.</p>
 </section>
 
 <section class="slide ed q" id="n-06">
