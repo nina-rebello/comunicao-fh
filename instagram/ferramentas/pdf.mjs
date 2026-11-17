@@ -1,4 +1,4 @@
-// Gera um PDF (1 página por slide, 1080x1350) com texto real, para importar no Canva.
+// Gera um PDF (1 página por slide, 1080x1350; ALTURA=1080 para o quadrado do LinkedIn) com texto real, para importar no Canva.
 // Cada linha de texto vira uma caixa posicionada e sem quebra automática, para o
 // Canva não refazer as quebras nem o entrelinhamento com as métricas dele.
 // Uso: node instagram/ferramentas/pdf.mjs caminho/slides.html saida.pdf
@@ -83,8 +83,9 @@ await page.evaluate(() => {
   }
 });
 
-await page.addStyleTag({ content: '@page{size:1080px 1350px;margin:0} body{background:none!important;margin:0;padding:0!important;display:block!important} .slide{margin:0!important;break-after:page}' });
+const ALTURA = process.env.ALTURA || '1350'; // 1080 para o quadrado do LinkedIn
+await page.addStyleTag({ content: '@page{size:1080px ' + ALTURA + 'px;margin:0} body{background:none!important;margin:0;padding:0!important;display:block!important} .slide{margin:0!important;break-after:page}' });
 if (process.env.PREVIA) await page.screenshot({ path: process.env.PREVIA, fullPage: true });
-await page.pdf({ path: out, width: '1080px', height: '1350px', printBackground: true, preferCSSPageSize: true });
+await page.pdf({ path: out, width: '1080px', height: ALTURA + 'px', printBackground: true, preferCSSPageSize: true });
 await browser.close();
 console.log('ok', out);
