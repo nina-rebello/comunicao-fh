@@ -176,3 +176,11 @@ da moeda (complementa) e não deixar parecer que a fairhealth resolve tudo.
   bloco passou a se chamar "O que o Escritório do Cuidado entrega".
 - **Legenda:** o parágrafo do Escritório do Cuidado abre com "A fairdata é o caminho para medir" e a chamada convida a conhecer
   a fairdata e o Escritório do Cuidado. Sem promessa de conformidade com a NR-01.
+
+## v8 (17/11): sai a lista de riscos, entra o Escritório do Cuidado
+
+A lista dos 13 fatores do guia do MTE saiu (era conteúdo de norma, para a fairdata ou a fairjob). Nova ordem: capa, dado, norma,
+"Medir e cuidar", **Escritório do Cuidado** (novo: atendimento preventivo, plantões, medições com bioimpedância e smartwatches,
+plano de ação por colaborador; "Complementa o plano de saúde e o SST", tudo do site da fairjob) e convite. O slide 6 ficou sem
+o balão e sem o bloco "O que o Escritório do Cuidado entrega" (a Nina já tinha tirado no Canva do Instagram). Legenda sem a frase dos exemplos
+do guia e com "Complementa o plano de saúde e o SST."

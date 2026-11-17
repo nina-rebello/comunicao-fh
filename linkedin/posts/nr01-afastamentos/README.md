@@ -39,3 +39,11 @@ texto, em **1080 x 1080** (quadrado, como o post #1 da página).
 
 Slide 5 com a frase "A fairdata mede o risco. A fairhealth complementa com o cuidado." em uma linha, sob os cartões, slide 6 com
 "Medir e cuidar andam juntos." e "pelo link abaixo", legenda e primeiro comentário atualizados.
+
+## v8 (17/11): sai a lista de riscos, entra o Escritório do Cuidado
+
+A lista dos 13 fatores do guia do MTE saiu (era conteúdo de norma, para a fairdata ou a fairjob). Nova ordem: capa, dado, norma,
+"Medir e cuidar", **Escritório do Cuidado** (novo: atendimento preventivo, plantões, medições com bioimpedância e smartwatches,
+plano de ação por colaborador; "Complementa o plano de saúde e o SST", tudo do site da fairjob) e convite. O slide 6 ficou sem
+o balão e sem o bloco "O que o Escritório do Cuidado entrega" (a Nina já tinha tirado no Canva do Instagram). Legenda sem a frase dos exemplos
+do guia e com "Complementa o plano de saúde e o SST."
