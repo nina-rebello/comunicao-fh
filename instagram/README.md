@@ -16,6 +16,7 @@ da marca) e `voice.md` (como falamos, o que não se diz e como traduzir o posici
 | Ver a identidade visual (brand book com modelos e exemplos de uso) | `marca/identidade-visual-v6.html` (atual: v1 + foto em faixa + tiffany no detalhe + Luz tiffany + aba Elementos gráficos), `marca/identidade-visual-v5.html`, `marca/identidade-visual-v4.html`, `marca/identidade-visual-v3.html`, `marca/identidade-visual.html` (v1) e `marca/identidade-visual-v2.html` (recusada) · https://claude.ai/artifact/DgAhEQ2eVjEwbBHBj2JGof |
 | Consultar o Design System e o mood board da marca (privado, no claude.ai) | https://claude.ai/artifact/RMM23SD9UBeFiuXWh78pn8 |
 | Pedir ao Claude o Design System (prompt pronto) | `prompt-design-system.md` |
+| Ver como as inspirações de dezembro entram nos posts | `inspiracoes-dezembro.md` |
 | Citar materiais institucionais | `referencias.md` |
 | Usar depoimentos | `depoimentos.md` |
 | Planejar fotos e vídeos | `sessao-de-fotos.md` |
