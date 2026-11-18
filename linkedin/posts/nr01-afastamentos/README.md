@@ -53,3 +53,8 @@ do guia e com "Complementa o plano de saúde e o SST."
 A pedido da Nina, o slide do Escritório do Cuidado ficou só com título, texto e bullets com hífen, em fundo liso, sem cartão, ícones ou
 linhas. Abre com o gancho do slide anterior ("Medir mostra onde está o risco. Cuidar acontece onde o trabalho acontece."), apresenta o
 Escritório (tempo e acesso), lista o que acontece na prática e fecha com adesão e resultado (frase do site da fairjob).
+
+## v10 (18/11): só fairhealth
+
+Mesmas mudanças do Instagram (sem a fairdata). O link continua no primeiro comentário: `www.fairhealth.com.br` com a UTM do LinkedIn
+(`comentario.txt`), a confirmar antes de publicar.

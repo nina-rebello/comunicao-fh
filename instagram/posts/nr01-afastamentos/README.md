@@ -190,3 +190,9 @@ do guia e com "Complementa o plano de saúde e o SST."
 A pedido da Nina, o slide do Escritório do Cuidado ficou só com título, texto e bullets com hífen, em fundo liso, sem cartão, ícones ou
 linhas. Abre com o gancho do slide anterior ("Medir mostra onde está o risco. Cuidar acontece onde o trabalho acontece."), apresenta o
 Escritório (tempo e acesso), lista o que acontece na prática e fecha com adesão e resultado (frase do site da fairjob).
+
+## v10 (18/11): só fairhealth
+
+A fairdata saiu do post (Nina, para evitar atrito entre sócios): slide 4 sem "Com a fairdata" e com "Medir é um lado da norma. A fairhealth cuida do outro.",
+slide 6 com "Fale com a gente pelo link da bio e leve o Escritório do Cuidado para a sua empresa.", legenda sem a fairdata. Atenção: o chefe tinha pedido para
+dizer que a solução para medir é a fairdata; a decisão de tirar foi da Nina.
