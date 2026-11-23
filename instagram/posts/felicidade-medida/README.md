@@ -1,7 +1,10 @@
-# 30/11 · Carrossel "Como se mede a felicidade no trabalho?"
+# Carrossel "Como se mede a felicidade no trabalho?" (fora do calendário)
 
-Seminário Mirix (2 de 3: 27/11 repostagem, 30/11 este carrossel, 02/12 reel). Cronograma: `N13` em
-`marketing/ferramentas/conteudo_posts_novembro.py`. Fonte: BH Ao Vivo (21/11/2026), sobre o Seminário Internacional Mirix.
+**23/11: saiu do calendário.** A Nina voltou os carrosséis de novembro e dezembro à versão de antes do Seminário Mirix (30/11
+volta a ser o carrossel sobre pedido de demissão); só os reels mudaram. A arte fica guardada: pode servir ao carrossel de 18/12
+("O que influencia a felicidade dos seus colaboradores?") ou ao corte 2 do podcast (16/12), que fala da Felicidade Interna Bruta.
+
+Feito em 23/11 para 30/11 (era o `N13` do cronograma de novembro na versão do Seminário Mirix). Fonte: BH Ao Vivo (21/11/2026), sobre o Seminário Internacional Mirix.
 
 - `slides.html` → `png/fm-01` a `fm-07`, `previa.png`. 7 slides, sem foto.
 - Visual: o sistema aprovado em 23/11 no carrossel de 25/11 (verde da marca `#2F6B64` nos slides escuros, papel nos claros,

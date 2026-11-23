@@ -1,4 +1,4 @@
-// Programação de novembro de 2026. Em 23/11, 27/11 e 30/11 passaram a ser os posts do Seminário Mirix; o case Chemitec e o carrossel de demissão foram para dezembro.
+// Programação de novembro de 2026. Em 23/11 o 30/11 passou a ser o carrossel sobre pedido de demissão. O reel de 02/12 é o primeiro corte do podcast do Seminário Mirix.
 // d, formato, bloco, tipo, eixo, título curto (calendário), título, descrição, chamada
 const POSTS = [
   [3, "carrossel", 3, "P", "Produto", "Como funciona o cuidado na prática?", "Como funciona o cuidado na prática?",
@@ -23,18 +23,18 @@ const POSTS = [
     "Dados do Panorama da Saúde Emocional do RH 2026 e o cuidado que chega também a quem cuida", "Mande para alguém do RH"],
   [25, "carrossel", 5, "P", "Cultura", "Por que a Geração Z está tão desconectada do trabalho?", "Por que a Geração Z está tão desconectada do trabalho?",
     "Não é preguiça nem falta de compromisso. A resposta começa com a pergunta que quase ninguém faz: o que importa para você?", "Comente CUIDADO"],
-  [27, "carrossel", 6, "I", "Notícias", "Seminário Mirix: a felicidade pode ser medida", "Seminário Mirix: a felicidade no trabalho pode ser medida",
-    "Dr. Ronald Maia Filho e Fernando Brancaccio em Belo Horizonte, e o que isso muda para quem cuida de gente", "Comente CUIDADO"],
-  [30, "carrossel", 6, "P", "Cultura", "Como se mede a felicidade no trabalho?", "Como se mede a felicidade no trabalho?",
-    "As 9 dimensões da Felicidade Interna Bruta do Butão e o questionário anônimo que nasceu delas", "Comente CUIDADO"],
+  [27, "carrossel", 6, "P", "Cases", "Case Chemitec: 98% de adesão", "Como 98% do time aceitou ser cuidado",
+    "Case Chemitec: 161 atendimentos e 81,3% de retorno, com o convite para conversar antes do orçamento de 2027", "Comente CUIDADO"],
+  [30, "carrossel", 7, "P", "Cultura", "Por que as pessoas pedem demissão?", "Por que as pessoas pedem demissão?",
+    "O motivo que o RH só descobre na entrevista de desligamento e o que existe por trás dele", "Comente CUIDADO"],
 ];
 const DATAS = { 1: "Início do Novembro Azul", 2: "Finados", 14: "Dia Mundial do Diabetes", 15: "Proclamação da República", 20: "Consciência Negra (feriado)" };
 const SEMANAS = [
   { n: 1, ini: 2, fim: 6, rotulo: "03 a 06/11", desc: "Compreensão e começo da confiança. O cuidado na prática, as quatro frentes conectadas e a trajetória do método." },
   { n: 2, ini: 9, fim: 13, rotulo: "09 a 13/11", desc: "Confiança. Resultados reais, a ciência por trás do cuidado e o convite para o RH." },
   { n: 3, ini: 16, fim: 20, rotulo: "16 a 19/11", desc: "Atualidade. Novembro Azul, NR-01 e a voz de quem é cuidado: temas do momento que levam ao Escritório do Cuidado. Sexta, 20/11, é feriado." },
-  { n: 4, ini: 23, fim: 27, rotulo: "23 a 27/11", desc: "Atualidade. Quem cuida do RH, a desconexão dos jovens e o Seminário Mirix, onde os sócios mostraram que a felicidade no trabalho pode ser medida." },
-  { n: 5, ini: 30, fim: 30, rotulo: "30/11", desc: "Passagem para dezembro. Como se mede a felicidade no trabalho, a partir da metodologia apresentada no seminário. Quarta, 02/12, tem o reel com os cortes do vídeo." },
+  { n: 4, ini: 23, fim: 27, rotulo: "23 a 27/11", desc: "Atualidade e decisão. Quem cuida do RH, a desconexão dos jovens e a prova da Chemitec." },
+  { n: 5, ini: 30, fim: 30, rotulo: "30/11", desc: "Passagem para dezembro, com o RH fechando o orçamento de 2027. Na quarta, 02/12, o primeiro reel do podcast do Seminário Mirix (os reels de dezembro intercalam o podcast e a Dra. Marília)." },
 ];
 module.exports = {
   mes: 10, nomeMes: "Novembro", periodo: "01/11 a 30/11", sub: "3 posts por semana",
@@ -44,8 +44,7 @@ module.exports = {
   painel: { titulo: "Para novembro funcionar", itens: [
     "Até 13/11: guia de NR-01 pronto e validado",
     "Até 13/11: resposta automática da palavra CUIDADO no ar",
-    "Até 26/11: ok de Fernando e Dr. Ronald, foto do evento e crédito da matéria (posts de 27 e 30/11)",
-    "Conferir as 9 dimensões da FIB na fonte original (carrossel de 30/11)",
+    "Até 27/11: pesquisa dos motivos de demissão achada e conferida (carrossel de 30/11)",
     "Revisão técnica dos posts de Novembro Azul, NR-01 e saúde mental",
     "Conferir na fonte original os dados do INSS, da Flash e da pesquisa sobre homens e saúde",
   ] },

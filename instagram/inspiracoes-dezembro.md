@@ -7,13 +7,13 @@ entram. Regra de cor (CLAUDE.md, 16/11): nada de azul ou verde de outra paleta e
 
 | Referência | O que aproveitamos | O que não usamos | Post |
 | --- | --- | --- | --- |
-| Print "Por que as contas atrasam?" (gráfico de barras) + "por que as pessoas se demitem?" | Barras horizontais com percentual à esquerda e ícone à direita | Vermelho e emoji; percentuais sem fonte | 18/12 |
-| "Everyone needs someone in their corner" (Reality With PSJ) | Foto aérea de duas pessoas, aspas, título forte e três palavras no canto | Telefone, @ e rodapé de contato | guardado para janeiro |
+| Print "Por que as contas atrasam?" (gráfico de barras) + "por que as pessoas se demitem?" | Barras horizontais com percentual à esquerda e ícone à direita | Vermelho e emoji; percentuais sem fonte | 30/11 |
+| "Everyone needs someone in their corner" (Reality With PSJ) | Foto aérea de duas pessoas, aspas, título forte e três palavras no canto | Telefone, @ e rodapé de contato | 04/12 |
 | "Responsible.fit" (dados de sono sobre a foto) | Leitura do relógio sobreposta à foto da capa | Marca d'água; dados reais | 07/12 |
 | Post do médico do sono ("você não descansa") | Tipografia grande em duas camadas sobre foto; o gancho foi reescrito | CRM no topo da arte; o texto original | 09/12 |
 | Balança com aplicativo | Composição do carrossel (balança, celular, linha de tendência) | Peso na tela; tela com dados reais | 11/12 |
 | "Esgotamento emocional" e "Bournout em mulheres multitarefas" | Colagem sobre papel, destaque na palavra, "cansaço constante não é fraqueza" | Azul do marca-texto (vira Tiffany); foto escura com cara de anúncio | 14/12 |
-| Print "O que influencia sua saúde financeira" + "felicidade de seus colaboradores" | Lista com marcadores e destaque, agora com as 9 dimensões da Felicidade Interna Bruta (matéria do seminário) no lugar de percentuais | Verde da paleta de origem; percentuais de exemplo | 30/11 |
+| Print "O que influencia sua saúde financeira" (controles deslizantes) + "felicidade de seus colaboradores" | Controles deslizantes com percentual | Verde da paleta de origem; percentuais de exemplo | 18/12 |
 | "The workplace wellness gap is growing" (Triangle Sessions) | Número grande, frase ao lado, chave e chamada com seta | Verde-limão; 92% e 60% sem fonte | 16/12 |
 | Case study com fichário (Clarify) | Folha de relatório com visão geral e três cartões | Azul-bebê; números de exemplo apresentados como reais | 21/12 |
 | "Your health impacts how you feel" | Rosto de perfil para o céu, frase curta no alto | Azul escuro | 24/12 |
@@ -24,8 +24,12 @@ Pautas que vêm de dezembro na base: sleepmaxxing (`carrossel-de-tendencia.md`, 
 Cronograma: `marketing/Cronograma_Posts_02-12_a_30-12.xlsx`, gerado de
 `marketing/ferramentas/conteudo_posts_dezembro.py`.
 
+## Reels de dezembro: podcast e Marília (Nina, 23/11)
 
-## Seminário Mirix (matéria do BH Ao Vivo, 21/11/2026)
+Os carrosséis e as fotos ficam como estavam antes da mudança do Seminário Mirix. Só os reels mudam, intercalando os cortes do
+podcast (o vídeo do Seminário Internacional Mirix, do BH Ao Vivo, com Fernando Brancaccio e Dr. Ronald Maia Filho) e os vídeos
+da Dra. Marília para a câmera: 02/12 podcast (corte 1, `S01`), 09/12 Marília (sono), 16/12 podcast (corte 2, a Felicidade
+Interna Bruta), 23/12 Marília (por onde o cuidado começa), 30/12 podcast (corte 3, a escuta). Os reels "Dezembro chegou",
+"A empresa acha que cuida" e "O time responde" saíram do calendário. O carrossel das 9 dimensões da FIB (feito em 23/11 para
+30/11) ficou guardado em `instagram/posts/felicidade-medida/`: pode servir ao carrossel de 18/12 ou ao corte 2 do podcast.
 
-Posts de 27/11 (repostagem), 30/11 (as 9 dimensões da FIB) e 02/12 (reel com cortes do vídeo de 30 min). O case Chemitec foi
-para 04/12 e o carrossel de demissão para 18/12. A foto "Todo mundo precisa de alguém por perto" fica guardada para janeiro.

@@ -1,6 +1,9 @@
-# 04/12 · Carrossel "98% do time aceitou ser cuidado" (case de adesão)
+# 27/11 · Carrossel "98% do time aceitou ser cuidado" (case de adesão)
 
-Cronograma: `C01` em `marketing/ferramentas/conteudo_posts_dezembro.py`. Dados: Chemitec, 1º semestre de 2026 (`voice.md`,
+**23/11:** feito para 04/12, voltou para 27/11 com o calendário de antes do Seminário Mirix (sexta de Black Friday: sem
+linguagem de promoção, e a arte não tem nenhuma).
+
+Cronograma: `N12` em `marketing/ferramentas/conteudo_posts_novembro.py`. Dados: Chemitec, 1º semestre de 2026 (`voice.md`,
 "Provas que podemos usar"), sempre agregados.
 
 - `slides.html` → `png/ca-01` a `ca-08`, `previa.png`. 8 slides, um número por slide, sempre com "1º semestre de 2026".
