@@ -9,6 +9,7 @@ import datetime as dt
 
 D = lambda d: dt.date(2026, 11, d)
 REEL, CARR, FOTO = 'Reel', 'Carrossel', 'Foto única'
+VIS = 'Direção visual'
 ESP_REEL = 'Reel 9:16 (1080 × 1920), 30 a 45 s, texto na tela desde o 1º quadro, legendas sempre. Capa 4:5 para a grade.'
 
 # Cada roteiro: lista de (parte, texto na tela ou no slide, fala (reels), visual e direção, observação)
@@ -463,40 +464,34 @@ Antes de fechar o orçamento de 2027, comente CUIDADO e enviamos na DM como func
    ('Slide 8 · chamada', 'Antes de fechar o orçamento de 2027:\ncomente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.', '', 'Verde-escuro, logo.', 'Sem "oferta", "promoção" ou "Black Friday".'),
   ]),
 
- dict(id='N13', data=D(30), semana=5, bloco='6 · Decisão', eixo='Cultura', fmt=REEL,
-  titulo='Dezembro chegou: a corrida das metas também adoece',
-  sub='Uma prática de 1 minuto para o fim de ano e o convite para cuidar antes de 2027',
-  status='Pauta proposta (calendário de novembro)', resp='Nina · psicóloga ou Dr. Ronald (prática de 1 minuto)',
-  espec=ESP_REEL + ' Tipografia animada com contagem de 1 minuto.',
-  gancho='Dezembro chegou. E a corrida das metas também.',
-  objetivo='Abrir dezembro com uma prática simples de 1 minuto para o time e o convite para a empresa cuidar antes de 2027.',
-  portras='O fim de ano aperta todo mundo. Uma pausa pequena não resolve tudo, mas lembra que o cuidado cabe no dia.',
-  persona='Colaboradores; RH; Lideranças',
-  fio='Vem de: 27/11, o case. Leva para: o calendário de dezembro.',
-  visual='Tipografia animada sobre Tiffany e verde, com um círculo que se fecha em 60 segundos durante a prática. Sem pessoas em cena.',
-  material='Canva (animação de texto), trilha calma, sem locução ou com voz em off.',
+ dict(id='N13', data=D(30), semana=5, bloco='7 · Causas', eixo='Cultura + Produto', fmt=CARR,
+  titulo='Por que as pessoas pedem demissão?',
+  sub='O motivo que o RH só descobre na entrevista de desligamento e o que existe por trás dele',
+  inspiracao='Print "Por que as contas atrasam?" (gráfico de barras em carrossel) + legenda da Nina: "por que as pessoas se demitem?"',
   cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
-  stories='Contagem regressiva para 2027 e a pergunta "O que você quer levar de cuidado para o ano que vem?".',
-  fonte='Prática de respiração e pausa: conteúdo educativo do guia "Saúde mental: o cuidado no dia a dia" (referencias.md). Sem número.',
-  validar='A psicóloga ou o Dr. Ronald valida a prática (sem promessa de efeito). Sem número sem fonte.',
-  arquivos='Ainda sem pasta. Sugestão: instagram/posts/dezembro-metas/',
-  legenda='''Dezembro chegou. E a corrida das metas também.
-
-Fechamento, entrega, confraternização, férias para organizar. O fim de ano aperta todo mundo ao mesmo tempo, e o cuidado costuma ficar para janeiro.
-
-Uma pausa de um minuto não resolve tudo, mas lembra que o cuidado cabe no dia. Pare, solte os ombros, respire devagar cinco vezes e escolha uma coisa que importa hoje.
-
-Para a empresa, o convite é o mesmo, numa escala maior: cuidar antes de 2027 começar. Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
-
-#fairhealth #saudecorporativa #saudemental #bemestarnotrabalho #gestaodepessoas''',
+  fonte='{{4 motivos de pedido de demissão com percentuais + pesquisa e ano}} (buscar pesquisa brasileira recente e conferir no original). NR-01 e fatores psicossociais: gov.br/MTE (mesma conferência do 18/11).',
+  validar='Achar e conferir a pesquisa dos motivos (sem ela, o slide 3 não sai com percentuais). Revisão do Dr. Ronald (NR-01).',
   roteiro=[
-   ('0 a 3 s', 'Dezembro chegou.\nE a corrida das metas também.', '', 'Duas linhas, ritmo rápido.', 'Gancho.'),
-   ('3 a 8 s', 'Fechamento. Entrega. Confraternização. Férias para organizar.', '', 'Palavras em sequência, aceleradas.', ''),
-   ('8 a 12 s', 'Antes de seguir: 1 minuto.', '', 'O ritmo desacelera; aparece um círculo.', 'Virada.'),
-   ('12 a 22 s', 'Pare. Solte os ombros.\nRespire devagar, cinco vezes.', '', 'O círculo se fecha devagar.', 'Prática validada pela psicóloga.'),
-   ('22 a 26 s', 'Escolha uma coisa que importa hoje.', '', 'Frase única.', ''),
-   ('26 a 30 s', 'Para a empresa: cuidar antes de 2027 começar.\nComente CUIDADO', '', 'Logo sobre Tiffany.', ''),
-  ]),
+   ('Slide 1 · capa', 'Por que as pessoas pedem demissão?\nO que o RH só descobre na entrevista de desligamento.', '', '', ''),
+   ('Slide 2 · contexto', 'A entrevista de desligamento chega tarde.\nQuando a pessoa já decidiu sair, o motivo começou antes. E quase sempre ficou sem ser dito.', '', '', ''),
+   ('Slide 3 · dado (gráfico de barras)', 'Os motivos mais citados\n{{motivo 1 · %}} · {{motivo 2 · %}} · {{motivo 3 · %}} · {{outros · %}}\nFonte: {{pesquisa, ano, número de respondentes}}', '', '', 'Sem os percentuais conferidos, o slide não sai.'),
+   ('Slide 4 · o que existe por trás', 'Por trás do motivo, quase sempre há uma causa de saúde: sobrecarga, sono ruim, ansiedade, conflito com a liderança.\nVários desses são fatores de risco psicossocial, tema que a NR-01 trata como de gestão.', '', '', ''),
+   ('Slide 5 · produto', 'No Escritório do Cuidado, a primeira pergunta é: o que importa para você?\nMédico, psicólogo e assistente social dentro da empresa, presencial ou remoto. O plano é feito com a pessoa, com base na Medicina do Estilo de Vida, com bioimpedância e smartwatch acompanhando a rotina.', '', '', ''),
+   ('Slide 6 · RH + convite', 'O RH não fica sabendo o que cada um conta. Recebe só indicadores do grupo, anonimizados, para agir antes que o desgaste vire saída ou afastamento.\nQuer ver como isso funciona na sua empresa? Comente CUIDADO.', '', '', 'Chamada única.'),
+   (VIS, 'Fundo creme/papel, título em Raleway. No slide 3, barras horizontais como no print: percentual à esquerda, ícone linear à direita, a barra maior em verde-azulado escuro (#2F6B64) e as demais em Tiffany (#9FC5BD). Sem vermelho nem emoji. Slide 5 com foto do espaço ou de banco; fundo verde-azulado escuro só em um slide de contraste.', '', '', ''),
+  ],
+  legenda='''Por que as pessoas pedem demissão? O RH costuma descobrir só na entrevista de desligamento, quando a decisão já foi tomada.
+
+No carrossel, os motivos mais citados em {{pesquisa + ano}} e o que costuma existir por trás deles: sobrecarga, sono ruim, ansiedade e conflito com a liderança. Vários são fatores de risco psicossocial, tema que a NR-01 trata como de gestão.
+
+No Escritório do Cuidado, a conversa começa por uma pergunta: o que importa para você? Médico, psicólogo e assistente social dentro da empresa escutam, e o plano é feito com a pessoa, com base na Medicina do Estilo de Vida. A bioimpedância e o smartwatch acompanham a rotina entre uma consulta e outra.
+
+O RH não fica sabendo o que cada um conta. Recebe só indicadores do grupo, anonimizados, para agir antes que o desgaste vire saída ou afastamento.
+
+Quer entender como isso funcionaria na sua empresa? Comente CUIDADO e enviamos como funciona o Escritório do Cuidado.
+
+#fairhealth #saudecorporativa #gestaodepessoas #turnover #medicinadoestilodevida''',
+  palavras='pedem demissão,entrevista de desligamento,Escritório do Cuidado'),
 ]
 
 PENDENCIAS = [
@@ -511,7 +506,7 @@ PENDENCIAS = [
     ('N08', 'Número conferido na nota oficial da Previdência e texto da NR-01 conferido no PDF do MTE (04/11). Falta a leitura do Dr. Ronald e o ok da Nina para citar a fairdata.', 'Comunicação e Dr. Ronald', 'Aberta'),
     ('N10', 'Conferir os números do Panorama da Saúde Emocional do RH 2026 no material da Flash.', 'Comunicação', 'Aberta'),
     ('N11', 'Fotos dos slides 1 a 4, corte para 8 slides e conferência dos números do Mapa da Felicidade.', 'Nina', 'Aberta'),
-    ('N13', 'Validar a prática de 1 minuto.', 'Psicóloga ou Dr. Ronald', 'Aberta'),
+    ('N13', 'Achar e conferir a pesquisa dos motivos de pedido de demissão (percentuais, ano, amostra). Sem ela, o slide 3 não sai. Revisão do Dr. Ronald (NR-01).', 'Comunicação e Dr. Ronald', 'Aberta'),
     ('Todos', 'Legendas novas (04/11 em diante) passam pela ig-caption e pela ig-human antes de publicar; fotos com licença e origem confirmadas.', 'Comunicação', 'Aberta'),
 ]
 
@@ -521,5 +516,5 @@ DATAS = [
     (D(15), 'Proclamação da República (domingo)'),
     (D(20), 'Consciência Negra (feriado): o post da semana vai para quinta, 19/11'),
     (D(27), 'Black Friday: sem linguagem de promoção'),
-    (D(30), 'Novembro Azul o mês todo; 30/11 abre a passagem para dezembro'),
+    (D(30), 'Novembro Azul o mês todo; 30/11 (segunda) abre a passagem para dezembro, e o reel "Dezembro chegou" vai para quarta, 02/12'),
 ]

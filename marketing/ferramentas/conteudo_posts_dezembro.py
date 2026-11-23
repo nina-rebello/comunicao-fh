@@ -1,4 +1,4 @@
-# Detalhamento dos 13 posts de dezembro de 2026 (02/12 a 30/12), usado por gerar_cronograma_simples.py (modelo padrão).
+# Detalhamento dos 13 posts de dezembro de 2026 (02/12 a 30/12; reels sempre na quarta, desde 23/11), usado por gerar_cronograma_simples.py (modelo padrão).
 # Base: as inspirações que a Nina mandou em 18/11 (instagram/inspiracoes-dezembro.md), o ritmo de novembro
 # (conteudo_posts_novembro.py), instagram/carrossel-de-tendencia.md (sleepmaxxing guardado para dezembro),
 # instagram/voice.md, instagram/referencias.md (site da fairjob, programa de 4 meses) e o CLAUDE.md.
@@ -11,37 +11,43 @@ import datetime as dt
 D = lambda d: dt.date(2026, 12, d)
 REEL, CARR, FOTO = 'Reel', 'Carrossel', 'Foto única'
 VIS = 'Direção visual'
+ESP_REEL = 'Reel 9:16 (1080 × 1920), 30 a 45 s, texto na tela desde o 1º quadro, legendas sempre. Capa 4:5 para a grade.'
 
 POSTS = [
- dict(id='D01', data=D(2), semana=1, bloco='7 · Causas', eixo='Cultura + Produto', fmt=CARR,
-  titulo='Por que as pessoas pedem demissão?',
-  sub='O motivo que o RH só descobre na entrevista de desligamento e o que existe por trás dele',
-  inspiracao='Print "Por que as contas atrasam?" (gráfico de barras em carrossel) + legenda da Nina: "por que as pessoas se demitem?"',
+ dict(id='D00', data=D(2), semana=1, bloco='7 · Causas', eixo='Cultura', fmt=REEL,
+  titulo='Dezembro chegou: a corrida das metas também adoece',
+  sub='Uma prática de 1 minuto para o fim de ano e o convite para cuidar antes de 2027',
+  status='Pauta proposta (calendário de novembro)', resp='Nina · psicóloga ou Dr. Ronald (prática de 1 minuto)',
+  espec=ESP_REEL + ' Tipografia animada com contagem de 1 minuto.',
+  gancho='Dezembro chegou. E a corrida das metas também.',
+  objetivo='Abrir dezembro com uma prática simples de 1 minuto para o time e o convite para a empresa cuidar antes de 2027.',
+  portras='O fim de ano aperta todo mundo. Uma pausa pequena não resolve tudo, mas lembra que o cuidado cabe no dia.',
+  persona='Colaboradores; RH; Lideranças',
+  fio='Vem de: 30/11, o carrossel sobre pedido de demissão. Leva para: 04/12, a foto "Todo mundo precisa de alguém por perto".',
+  visual='Tipografia animada sobre Tiffany e verde, com um círculo que se fecha em 60 segundos durante a prática. Sem pessoas em cena.',
+  material='Canva (animação de texto), trilha calma, sem locução ou com voz em off.',
   cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
-  fonte='{{4 motivos de pedido de demissão com percentuais + pesquisa e ano}} (buscar pesquisa brasileira recente e conferir no original). NR-01 e fatores psicossociais: gov.br/MTE (mesma conferência do 18/11).',
-  validar='Achar e conferir a pesquisa dos motivos (sem ela, o slide 3 não sai com percentuais). Revisão do Dr. Ronald (NR-01).',
+  stories='Contagem regressiva para 2027 e a pergunta "O que você quer levar de cuidado para o ano que vem?".',
+  fonte='Prática de respiração e pausa: conteúdo educativo do guia "Saúde mental: o cuidado no dia a dia" (referencias.md). Sem número.',
+  validar='A psicóloga ou o Dr. Ronald valida a prática (sem promessa de efeito). Sem número sem fonte.',
+  arquivos='Ainda sem pasta. Sugestão: instagram/posts/dezembro-metas/',
+  legenda='''Dezembro chegou. E a corrida das metas também.
+
+Fechamento, entrega, confraternização, férias para organizar. O fim de ano aperta todo mundo ao mesmo tempo, e o cuidado costuma ficar para janeiro.
+
+Uma pausa de um minuto não resolve tudo, mas lembra que o cuidado cabe no dia. Pare, solte os ombros, respire devagar cinco vezes e escolha uma coisa que importa hoje.
+
+Para a empresa, o convite é o mesmo, numa escala maior: cuidar antes de 2027 começar. Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
+
+#fairhealth #saudecorporativa #saudemental #bemestarnotrabalho #gestaodepessoas''',
   roteiro=[
-   ('Slide 1 · capa', 'Por que as pessoas pedem demissão?\nO que o RH só descobre na entrevista de desligamento.', '', '', ''),
-   ('Slide 2 · contexto', 'A entrevista de desligamento chega tarde.\nQuando a pessoa já decidiu sair, o motivo começou antes. E quase sempre ficou sem ser dito.', '', '', ''),
-   ('Slide 3 · dado (gráfico de barras)', 'Os motivos mais citados\n{{motivo 1 · %}} · {{motivo 2 · %}} · {{motivo 3 · %}} · {{outros · %}}\nFonte: {{pesquisa, ano, número de respondentes}}', '', '', 'Sem os percentuais conferidos, o slide não sai.'),
-   ('Slide 4 · o que existe por trás', 'Por trás do motivo, quase sempre há uma causa de saúde: sobrecarga, sono ruim, ansiedade, conflito com a liderança.\nVários desses são fatores de risco psicossocial, tema que a NR-01 trata como de gestão.', '', '', ''),
-   ('Slide 5 · produto', 'No Escritório do Cuidado, a primeira pergunta é: o que importa para você?\nMédico, psicólogo e assistente social dentro da empresa, presencial ou remoto. O plano é feito com a pessoa, com base na Medicina do Estilo de Vida, com bioimpedância e smartwatch acompanhando a rotina.', '', '', ''),
-   ('Slide 6 · RH + convite', 'O RH não fica sabendo o que cada um conta. Recebe só indicadores do grupo, anonimizados, para agir antes que o desgaste vire saída ou afastamento.\nQuer ver como isso funciona na sua empresa? Comente CUIDADO.', '', '', 'Chamada única.'),
-   (VIS, 'Fundo creme/papel, título em Raleway. No slide 3, barras horizontais como no print: percentual à esquerda, ícone linear à direita, a barra maior em verde-azulado escuro (#2F6B64) e as demais em Tiffany (#9FC5BD). Sem vermelho nem emoji. Slide 5 com foto do espaço ou de banco; fundo verde-azulado escuro só em um slide de contraste.', '', '', ''),
-  ],
-  legenda='''Por que as pessoas pedem demissão? O RH costuma descobrir só na entrevista de desligamento, quando a decisão já foi tomada.
-
-No carrossel, os motivos mais citados em {{pesquisa + ano}} e o que costuma existir por trás deles: sobrecarga, sono ruim, ansiedade e conflito com a liderança. Vários são fatores de risco psicossocial, tema que a NR-01 trata como de gestão.
-
-No Escritório do Cuidado, a conversa começa por uma pergunta: o que importa para você? Médico, psicólogo e assistente social dentro da empresa escutam, e o plano é feito com a pessoa, com base na Medicina do Estilo de Vida. A bioimpedância e o smartwatch acompanham a rotina entre uma consulta e outra.
-
-O RH não fica sabendo o que cada um conta. Recebe só indicadores do grupo, anonimizados, para agir antes que o desgaste vire saída ou afastamento.
-
-Quer entender como isso funcionaria na sua empresa? Comente CUIDADO e enviamos como funciona o Escritório do Cuidado.
-
-#fairhealth #saudecorporativa #gestaodepessoas #turnover #medicinadoestilodevida''',
-  palavras='pedem demissão,entrevista de desligamento,Escritório do Cuidado'),
-
+   ('0 a 3 s', 'Dezembro chegou.\nE a corrida das metas também.', '', 'Duas linhas, ritmo rápido.', 'Gancho.'),
+   ('3 a 8 s', 'Fechamento. Entrega. Confraternização. Férias para organizar.', '', 'Palavras em sequência, aceleradas.', ''),
+   ('8 a 12 s', 'Antes de seguir: 1 minuto.', '', 'O ritmo desacelera; aparece um círculo.', 'Virada.'),
+   ('12 a 22 s', 'Pare. Solte os ombros.\nRespire devagar, cinco vezes.', '', 'O círculo se fecha devagar.', 'Prática validada pela psicóloga.'),
+   ('22 a 26 s', 'Escolha uma coisa que importa hoje.', '', 'Frase única.', ''),
+   ('26 a 30 s', 'Para a empresa: cuidar antes de 2027 começar.\nComente CUIDADO', '', 'Logo sobre Tiffany.', ''),
+  ]),
  dict(id='D02', data=D(4), semana=1, bloco='7 · Causas', eixo='Produto', fmt=FOTO,
   titulo='Todo mundo precisa de alguém por perto',
   sub='Escuta, clareza e um plano possível, dentro da empresa',
@@ -123,22 +129,23 @@ Se o cansaço é constante, vale procurar um profissional de saúde.
 #fairhealth #saudecorporativa #sonoreparador #medicinadoestilodevida #gestaodepessoas''',
   palavras='sono reparador,acordar cansado,sono interrompido'),
 
- dict(id='D05', data=D(11), semana=2, bloco='8 · Sono e dados', eixo='Produto', fmt=REEL,
+ dict(id='D05', data=D(11), semana=2, bloco='8 · Sono e dados', eixo='Produto', fmt=CARR,
   titulo='O número do dia não conta a história toda',
   sub='Bioimpedância e smartwatch: a tendência de semanas entra na consulta',
   inspiracao='Imagem da balança com o aplicativo ao lado (tela com composição corporal e gráfico de tendência).',
-  cta='Mande este reel para quem cuida do time na sua empresa',
+  cta='Mande este post para quem cuida do time na sua empresa',
   fonte='Site da fairjob (medições com tecnologia, bioimpedância e smartwatch). Sem número. Sem "por 48 horas" (não está no site).',
   validar='Quais dados o smartwatch e a bioimpedância registram de fato. Tela do aplicativo no motion é genérica, sem dados reais e sem peso na tela.',
   roteiro=[
-   ('0 a 3 s', 'Um número isolado não é diagnóstico.', '', 'Motion: balança e celular com uma linha de tendência. Sem pessoas em cena.', 'Gancho.'),
-   ('3 a 10 s', 'Bioimpedância: a composição corporal ao longo do tempo.', '', 'O gráfico mostra a linha, não um valor.', 'Evitar peso na tela.'),
-   ('10 a 17 s', 'Smartwatch: sono, atividade e frequência cardíaca entre as consultas.', '', 'Ícones lineares finos em Tiffany.', 'Confirmar os dados que o aparelho registra.'),
-   ('17 a 24 s', 'Na consulta, a conversa olha as últimas semanas. O plano é feito com a pessoa, pela Medicina do Estilo de Vida.', '', 'As duas linhas se juntam numa página de consulta.', ''),
-   ('24 a 30 s', 'Os dados de cada pessoa ficam no atendimento. O RH recebe só indicadores do grupo, anonimizados.\nMande para quem cuida do time.', '', 'Logo e chamada no fim.', 'Chamada única.'),
-   (VIS, 'Reel 9:16, 25 a 30 s, motion, sem fala, trilha calma. Fundo creme, linhas em verde-azulado escuro e Tiffany, tipografia Raleway. A balança e o celular do exemplo servem só de referência de composição: no motion, usar formas lisas e uma tela genérica.', '', '', ''),
+   ('Slide 1 · capa', 'O número do dia não conta a história toda.\nO que a consulta olha é a tendência.', '', '', ''),
+   ('Slide 2 · promessa (funciona sozinho)', 'Um número isolado não é diagnóstico.\nO que ajuda a cuidar é ver como ele se move ao longo das semanas.', '', '', ''),
+   ('Slide 3 · bioimpedância', 'Bioimpedância\nMostra a composição corporal ao longo do tempo, e não um número solto.', '', '', 'Sem peso na tela.'),
+   ('Slide 4 · smartwatch', 'Smartwatch\nAcompanha sono, atividade e frequência cardíaca entre uma consulta e outra.', '', '', 'Confirmar os dados que o aparelho registra.'),
+   ('Slide 5 · na consulta', 'Na consulta, a conversa olha as últimas semanas.\nO profissional e a pessoa montam o plano juntos, com base na Medicina do Estilo de Vida, dentro do Escritório do Cuidado.', '', '', ''),
+   ('Slide 6 · RH + convite', 'Nada disso vira vigilância. Os dados de cada pessoa ficam no atendimento, e o RH recebe só indicadores do grupo, anonimizados.\nMande este post para quem cuida do time na sua empresa.', '', '', 'Chamada única.'),
+   (VIS, 'Carrossel 4:5, 6 slides, fundo creme/papel, Raleway. Capa e slide 3 com a composição da referência (balança e celular com uma linha de tendência), em formas lisas, sem peso na tela e sem dados reais. Linha de tendência em Tiffany e verde-azulado escuro (#2F6B64).', '', '', ''),
   ],
-  legenda='''Um número isolado não é diagnóstico. O que a consulta olha é a tendência. Mande este reel para quem cuida do time.
+  legenda='''Um número isolado não é diagnóstico. O que a consulta olha é a tendência.
 
 No Escritório do Cuidado, a bioimpedância mostra a composição corporal ao longo do tempo, e o smartwatch acompanha sono, atividade e frequência cardíaca entre uma consulta e outra.
 
@@ -146,9 +153,10 @@ Os dois entram na conversa com o profissional, que olha as últimas semanas e mo
 
 Nada disso vira vigilância. Os dados de cada pessoa ficam no atendimento, e o RH recebe só indicadores do grupo, anonimizados.
 
+Mande este post para quem cuida do time na sua empresa.
+
 #fairhealth #saudecorporativa #bioimpedancia #smartwatch #medicinadoestilodevida''',
   palavras='bioimpedância,smartwatch,composição corporal'),
-
  dict(id='D06', data=D(14), semana=3, bloco='9 · Esgotamento', eixo='Notícias + Produto', fmt=CARR,
   titulo='3 sinais de esgotamento no trabalho que a OMS descreve',
   sub='O cansaço constante não é fraqueza',
@@ -181,7 +189,7 @@ Quer entender como funciona na sua empresa? Comente CUIDADO.
 #fairhealth #saudementalnotrabalho #burnout #nr01 #saudecorporativa''',
   palavras='saúde mental no trabalho,burnout,esgotamento'),
 
- dict(id='D07', data=D(16), semana=3, bloco='9 · Esgotamento', eixo='Cultura + Produto', fmt=CARR,
+ dict(id='D07', data=D(18), semana=3, bloco='9 · Esgotamento', eixo='Cultura + Produto', fmt=CARR,
   titulo='O que influencia a felicidade dos seus colaboradores?',
   sub='Sono, relações, contas e propósito: o que pesa e quem cuida de cada parte',
   inspiracao='Print "O que influencia sua saúde financeira" (controles deslizantes com percentuais) + legenda da Nina: "o que influencia a felicidade de seus colaboradores".',
@@ -209,7 +217,7 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
 #fairhealth #saudecorporativa #felicidadenotrabalho #medicinadoestilodevida #gestaodepessoas''',
   palavras='felicidade de quem trabalha,Medicina do Estilo de Vida,saúde mental'),
 
- dict(id='D08', data=D(18), semana=3, bloco='9 · Esgotamento', eixo='Notícias + Produto', fmt=REEL,
+ dict(id='D08', data=D(16), semana=3, bloco='9 · Esgotamento', eixo='Notícias + Produto', fmt=REEL,
   titulo='A empresa acha que cuida. O time percebe?',
   sub='A distância entre querer um empregador que cuide e sentir que a empresa cuida',
   inspiracao='Post "The workplace wellness gap is growing" (número grande em branco, frase ao lado, chave e chamada com seta).',
@@ -305,7 +313,7 @@ Obrigado a cada RH, líder e profissional de saúde que cuidou de pessoas em 202
 #fairhealth #boasfestas #saudecorporativa #gestaodepessoas #cuidado''',
   palavras='boas festas,fim de ano,cuida de gente'),
 
- dict(id='D12', data=D(28), semana=5, bloco='11 · Virada do ano', eixo='Institucional', fmt=REEL,
+ dict(id='D12', data=D(30), semana=5, bloco='11 · Virada do ano', eixo='Institucional', fmt=REEL,
   titulo='O que é importante para você? O time responde',
   sub='A pergunta que abre cada atendimento, respondida por quem cuida',
   inspiracao='Série "Quem cuida" (voice.md): cada pessoa responde "O que é importante para você?", sem foco em cargo. Tom humano dos posts de rosto das referências.',
@@ -328,7 +336,7 @@ Escutar vem antes de tratar. Por isso a conversa começa pelo que pesa e pelo qu
 #fairhealth #saudecorporativa #escritoriodocuidado #cuidadocentradonapessoa #medicinadoestilodevida''',
   palavras='o que é importante para você,Escritório do Cuidado,Medicina do Estilo de Vida'),
 
- dict(id='D13', data=D(30), semana=5, bloco='11 · Virada do ano', eixo='Mercado + Produto', fmt=CARR,
+ dict(id='D13', data=D(28), semana=5, bloco='11 · Virada do ano', eixo='Mercado + Produto', fmt=CARR,
   titulo='5 perguntas para o RH levar ao planejamento de 2027',
   sub='Adesão, dados, prevenção, NR-01 e medição: o que perguntar antes de fechar o programa de saúde',
   inspiracao='Post "Corporate wellness = corporate success" (declaração curta e centralizada) no fechamento, e os números oficiais em destaque, sem a igualdade do post.',
@@ -357,9 +365,10 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
 #fairhealth #saudecorporativa #gestaodepessoas #planejamento2027 #medicinadoestilodevida''',
   palavras='planejamento de 2027,programa de saúde,absenteísmo'),
 ]
+POSTS.sort(key=lambda p: p['data'])
 
 PENDENCIAS = [
- ('D01', 'Achar e conferir a pesquisa dos motivos de pedido de demissão (percentuais, ano, amostra). Sem ela, o slide 3 não sai.', 'Comunicação', 'Aberta'),
+ ('D00', 'Validar a prática de 1 minuto (psicóloga ou Dr. Ronald).', 'Psicóloga ou Dr. Ronald', 'Aberta'),
  ('D02, D11', 'Fotos de banco com licença comercial (aérea de duas pessoas em poltronas; perfil olhando para o céu).', 'Nina', 'Aberta'),
  ('D03, D05', 'Quais dados o smartwatch e a bioimpedância registram. Foto da capa do sono, com dados de exemplo marcados.', 'Dr. Ronald e fairdata', 'Aberta'),
  ('D04', 'Revisão do roteiro do sono pelo Dr. Ronald, data de gravação e, se ele aparecer, nome e CRM na tela (CFM).', 'Dr. Ronald e Comunicação', 'Aberta'),
