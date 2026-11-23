@@ -429,7 +429,7 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
 
  dict(id='N12', data=D(27), semana=4, bloco='6 · Decisão', eixo='Cases + Produto', fmt=FOTO,
   titulo='Como ler o relatório do Escritório do Cuidado (case de uma indústria atendida)',
-  sub='Post único em forma de relatório: cada número do relatório real (jan a set 2026), o que significa e como levar ao CFO e ao RH',
+  sub='Post único em forma de relatório: cada número do relatório real (jan a nov 2026), o que significa e como levar ao CFO e ao RH',
   status='Arte para aprovação (23/11, v2: post único em forma de relatório), sem o nome do cliente', resp='Nina · Sócios (liberação do case)',
   espec='Foto única 4:5 (1080 × 1350), estilo relatório clean (cartões brancos sobre papel). Sexta de Black Friday: sem linguagem de promoção.',
   gancho='Como ler o relatório do Escritório do Cuidado?',
@@ -441,16 +441,16 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
   material='Relatório real do Escritório do Cuidado (print enviado pela Nina em 23/11). Sem foto. Logo da Chemitec só com autorização.',
   cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Sequência com os 4 números e o adesivo "Mande uma mensagem".',
-  fonte='Relatório do Escritório do Cuidado da Chemitec, 01/01 a 03/09/2026 (print da Nina, 23/11), modelo Quintuple Aim (IHI): 48 colaboradores atendidos (adesão de 94,1% de 51 ativos); 189 atendimentos (181 presenciais, 95,8%; 8 online, 4,2%); por tipo: médico 75,7%, psicológico 17,5%, felicitológico 4,2%, serviço social 2,6%; 46 smartbands; mulheres 50% (24), homens 35,4% (17), outros 14,6% (7); faixas 18–24 16,7%, 25–34 27,1%, 35–49 39,6%, 50+ 16,7%; retorno 93,8% (45 de 48 com 2 ou mais atendimentos). Sempre agregado.',
-  validar='Sócios: o case sai e pode citar o nome Chemitec? (decisão de 30/10; autorização escrita do cliente). Sem isso, "uma indústria atendida". Os números do relatório (jan a set) substituem os do 1º semestre do voice.md.',
+  fonte='Relatório do Escritório do Cuidado da Chemitec, 01/01 a 23/11/2026 (PDF da Nina, 23/11), modelo Quintuple Aim (IHI): 51 colaboradores atendidos (adesão de 92,7% de 55 ativos); 210 atendimentos (198 presenciais, 94,3%; 12 online, 5,7%); por tipo: médico 75,2%, psicológico 18,6%, felicitológico 3,8%, serviço social 2,4%; 48 smartbands; faixas 18–24 15,7% (8), 25–34 23,5% (12), 35–49 45,1% (23), 50+ 15,7% (8); retorno 96,1% (49 de 51 com 2 ou mais atendimentos). O gênero veio vazio (0% e 0%, "outros" 100%) e ficou fora. Sempre agregado.',
+  validar='Sócios: o case sai e pode citar o nome Chemitec? (decisão de 30/10; autorização escrita do cliente). Sem isso, "uma indústria atendida". Os números do relatório de 23/11 substituem os anteriores (1º semestre e jan a set).',
   arquivos='instagram/posts/case-adesao/ (slides.html, png/relatorio.png, previa.png, legenda.txt, canva.html, README). O carrossel de 8 slides ficou como v1.',
-  legenda='''Como ler o relatório do Escritório do Cuidado? Estes são os números de uma indústria atendida, de janeiro a setembro de 2026.
+  legenda='''Como ler o relatório do Escritório do Cuidado? Estes são os números de uma indústria atendida, de janeiro a novembro de 2026.
 
-Adesão de 94,1%: 48 de 51 colaboradores ativos foram atendidos. Quase todo o time. Para o CFO e o RH, é o primeiro número a olhar, porque programa de saúde que ninguém usa não chega a resultado nenhum.
+Adesão de 92,7%: 51 de 55 colaboradores ativos foram atendidos. Quase todo o time. Para o CFO e o RH, é o primeiro número a olhar, porque programa de saúde que ninguém usa não chega a resultado nenhum.
 
-Retorno de 93,8%. Das 48 pessoas, 45 voltaram para dois ou mais atendimentos, num total de 189 no período, quase quatro por pessoa. É na continuidade que o plano de cada um acontece.
+Retorno de 96,1%. Das 51 pessoas, 49 voltaram para dois ou mais atendimentos, num total de 210 no período, mais de quatro por pessoa. É na continuidade que o plano de cada um acontece.
 
-Quase tudo foi presencial: 95,8% dos atendimentos aconteceram dentro da empresa, com médico, psicólogo, felicitologista e assistente social no mesmo lugar, 46 smartwatches em uso e bioimpedância nas consultas. Todas as idades usaram.
+Quase tudo foi presencial: 94,3% dos atendimentos aconteceram dentro da empresa, com médico, psicólogo, felicitologista e assistente social no mesmo lugar, 48 smartwatches em uso e bioimpedância nas consultas. Todas as idades usaram.
 
 O RH recebe só indicadores do grupo, agregados e anonimizados. Nunca o que cada pessoa contou.
 
@@ -458,10 +458,10 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
 
 #fairhealth #saudecorporativa #escritoriodocuidado #gestaodepessoas #indicadoresdesaude''',
   roteiro=[
-   ('Imagem única 4:5', 'Relatório · Escritório do Cuidado\nComo ler o relatório do Escritório do Cuidado\nUma indústria atendida, de janeiro a setembro de 2026: o que cada número significa e como levar ao CFO e ao RH.', '', 'Cabeçalho com o logo.', ''),
-   ('Números', '94,1% · Adesão (48 de 51 ativos). Significa: quase todo o time usou. Para o CFO e o RH: sem uso, não há resultado. Adesão vem primeiro.\n93,8% · Retorno (45 de 48 voltaram). Significa: voltaram 2 vezes ou mais. Para o CFO e o RH: é na continuidade que o plano de cada pessoa acontece.\n189 · Atendimentos (quase 4 por pessoa). Significa: uso contínuo, não um evento. Para o CFO e o RH: o cuidado entrou na rotina da empresa, mês a mês.\n46 · Smartwatches em uso e bioimpedância. Significa: acompanhamento contínuo. Para o CFO e o RH: decisões com dados do grupo, agregados e anonimizados.', '', 'Quatro cartões brancos, número no verde da marca.', ''),
-   ('Painéis', 'Tipo de atendimento: médico 75,7% · psicológico 17,5% · felicitológico 4,2% · serviço social 2,6%. Uma porta só para corpo, mente e contexto de vida.\nFormato: 95,8% presencial, dentro da empresa (online 4,2%). Tempo e acesso deixam de ser barreira ao cuidado.\nQuem foi atendido: 50% mulheres · 35,4% homens · 14,6% outros; 18–24 16,7% · 25–34 27,1% · 35–49 39,6% · 50+ 16,7%. Todas as idades usaram.', '', 'Barras em verde, Tiffany e menta.', ''),
-   ('Rodapé', 'Fonte: relatório do Escritório do Cuidado de uma indústria atendida (01/01 a 03/09/2026), modelo Quintuple Aim (IHI). O RH recebe só indicadores do grupo, agregados e anonimizados: nunca o que cada pessoa contou.', '', '', 'Nome do cliente só com autorização.'),
+   ('Imagem única 4:5', 'Relatório · Escritório do Cuidado\nComo ler o relatório do Escritório do Cuidado\nUma indústria atendida, de janeiro a novembro de 2026: o que cada número significa e como levar ao CFO e ao RH.', '', 'Cabeçalho com o logo.', ''),
+   ('Números', '92,7% · Adesão (51 de 55 ativos). Significa: quase todo o time usou. Para o CFO e o RH: sem uso, não há resultado. Adesão vem primeiro.\n96,1% · Retorno (49 de 51 voltaram). Significa: voltaram 2 vezes ou mais. Para o CFO e o RH: é na continuidade que o plano de cada pessoa acontece.\n210 · Atendimentos (mais de 4 por pessoa). Significa: uso contínuo, não um evento. Para o CFO e o RH: o cuidado entrou na rotina da empresa, mês a mês.\n48 · Smartwatches em uso e bioimpedância. Significa: acompanhamento contínuo. Para o CFO e o RH: decisões com dados do grupo, agregados e anonimizados.', '', 'Quatro cartões brancos, número no verde da marca.', ''),
+   ('Painéis', 'Tipo de atendimento: médico 75,2% · psicológico 18,6% · felicitológico 3,8% · serviço social 2,4%. Uma porta só para corpo, mente e contexto de vida.\nFormato: 94,3% presencial, dentro da empresa (online 5,7%, 12 atendimentos). Tempo e acesso deixam de ser barreira ao cuidado.\nQuem foi atendido: 51 pessoas; 18–24 15,7% · 25–34 23,5% · 35–49 45,1% · 50+ 15,7%. Todas as idades usaram.', '', 'Barras em verde, Tiffany e menta.', ''),
+   ('Rodapé', 'Fonte: relatório do Escritório do Cuidado de uma indústria atendida (01/01 a 23/11/2026), modelo Quintuple Aim (IHI). O RH recebe só indicadores do grupo, agregados e anonimizados: nunca o que cada pessoa contou.', '', '', 'Nome do cliente só com autorização.'),
   ]),
 
  dict(id='N13', data=D(30), semana=5, bloco='7 · Causas', eixo='Cultura + Produto', fmt=CARR,

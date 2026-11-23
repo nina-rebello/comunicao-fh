@@ -130,6 +130,10 @@ As skills nunca inventam números. Quando faltar um dado, o roteiro sai com
 - **Chemitec (1º semestre de 2026): LIBERADO.** 161 atendimentos,
   48 colaboradores atendidos (98% de adesão), 81,3% voltaram para 2 ou mais
   atendimentos, 46 smartbands em uso. Usar sempre agregado, nunca por pessoa.
+  - **Relatório de 01/01 a 23/11/2026 (PDF da Nina, 23/11), o mais recente:** 51 colaboradores atendidos (adesão de 92,7%
+    de 55 ativos), 210 atendimentos (94,3% presenciais), 96,1% de retorno (49 de 51 com 2 ou mais atendimentos), 48
+    smartbands ("smartwatch" nos posts); por tipo, médico 75,2%, psicológico 18,6%, felicitológico 3,8%, serviço social
+    2,4%. O nome Chemitec só com autorização dos sócios (decisão de 30/10).
 - **Estudos externos (números oficiais, do Executive Summary): sempre citar
   a fonte.**
   - −28% de absenteísmo (Harvard Business Review, 2022)
