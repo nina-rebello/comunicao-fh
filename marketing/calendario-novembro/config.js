@@ -24,7 +24,7 @@ const POSTS = [
   [25, "carrossel", 5, "P", "Cultura", "Por que a Geração Z está tão desconectada do trabalho?", "Por que a Geração Z está tão desconectada do trabalho?",
     "Não é preguiça nem falta de compromisso. A resposta começa com a pergunta que quase ninguém faz: o que importa para você?", "Comente CUIDADO"],
   [27, "foto", 6, "P", "Cases", "Case: o relatório do Escritório do Cuidado", "Como ler o relatório do Escritório do Cuidado",
-    "Post único em forma de relatório: adesão de 92,7%, retorno de 96,1% e 210 atendimentos numa indústria, de janeiro a novembro, e como levar ao CFO e ao RH", "Comente CUIDADO"],
+    "Post único em forma de relatório: adesão de 92,7%, retorno de 96,1% e 210 atendimentos numa indústria química, de janeiro a novembro, e como levar ao CFO e ao RH", "Comente CUIDADO"],
   [30, "carrossel", 7, "P", "Cultura", "Por que as pessoas pedem demissão?", "Por que as pessoas pedem demissão?",
     "O motivo que o RH só descobre na entrevista de desligamento e o que existe por trás dele", "Comente CUIDADO"],
 ];

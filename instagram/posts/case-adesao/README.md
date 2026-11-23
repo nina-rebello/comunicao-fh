@@ -20,10 +20,10 @@ significa e como levar ao CFO e ao RH), numa estética clean e moderna, sem o vi
 - `canva-src.html` e `canva.html`: versão achatada para o Canva (conferida: igual ao PNG). Ainda não importada.
 - `legenda.txt`: ig-caption (`caption.py` com "programa de saúde, adesão, indicadores": 3/3) e ig-human (`detect.py`
   REVIEW só pelo VOICE, como nos outros posts).
-- **Sem o nome do cliente** ("uma indústria atendida") até os sócios liberarem (decisão de 30/10). Sexta de Black Friday: sem
+- **Sem o nome do cliente** ("uma indústria química atendida", pedido da Nina em 23/11) até os sócios liberarem (decisão de 30/10). Sexta de Black Friday: sem
   linguagem de promoção.
 
-Texto alternativo: "Relatório do Escritório do Cuidado de uma indústria atendida, de janeiro a novembro de 2026: adesão de
+Texto alternativo: "Relatório do Escritório do Cuidado de uma indústria química atendida, de janeiro a novembro de 2026: adesão de
 92,7%, retorno de 96,1%, 210 atendimentos, 48 smartwatches, 94,3% presencial, tipos de atendimento e faixas de idade,
 cada número com o que significa para o CFO e o RH."
 
