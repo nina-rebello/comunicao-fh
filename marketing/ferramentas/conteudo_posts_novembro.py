@@ -463,28 +463,28 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
   fonte='BH Ao Vivo, 21/11/2026: Fernando Brancaccio foi ao Butão conhecer a Felicidade Interna Bruta (FIB); a matéria lista as 9 dimensões (bem-estar psicológico, saúde, uso do tempo, vitalidade comunitária, educação, cultura, meio ambiente, governança, padrão de vida) e descreve um questionário anônimo, que busca fatores como saúde emocional, relações sociais, condições financeiras, segurança e qualidade da gestão. Conferir as 9 dimensões na fonte original da FIB (Centre for Bhutan and GNH Studies). Sem números.',
   validar='Confirmar com Fernando se o questionário faz parte da oferta da fairhealth (a matéria só diz que ele nasceu da parceria com o Dr. Ronald e foi aplicado na Clínica Mirix) e quais dimensões ele usa. Conferir as 9 dimensões da FIB na fonte original. Sem os 73,9 pontos da Clínica Mirix.',
   roteiro=[
-   ('Slide 1 · capa', 'Como se mede a felicidade no trabalho?\nA metodologia do Butão que inspirou um questionário para empresas.', '', '', ''),
-   ('Slide 2 · promessa (funciona sozinho)', 'Felicidade parece subjetiva demais para medir. Mas pode ser medida, acompanhada e estimulada com ações concretas.', '', '', ''),
-   ('Slide 3 · as 9 dimensões', 'A Felicidade Interna Bruta, no Butão\nOlha o bem-estar além da renda, em 9 dimensões: bem-estar psicológico · saúde · uso do tempo · vitalidade comunitária · educação · cultura · meio ambiente · governança · padrão de vida.\nFernando Brancaccio foi ao Butão estudar a metodologia.', '', '', 'Conferir as 9 dimensões na fonte original.'),
-   ('Slide 4 · no trabalho', 'No trabalho, a pergunta muda\nNão é só "você está satisfeito com a empresa?". O questionário procura fatores como saúde emocional, relações sociais, condições financeiras, segurança e qualidade da gestão.', '', '', ''),
-   ('Slide 5 · anônimo', 'Anônimo, para dizer a verdade\nO questionário mostra pontos fortes e fragilidades para orientar ações de melhoria. Percepção vira indicador, indicador vira decisão.', '', '', ''),
-   ('Slide 6 · Escritório', 'No Escritório do Cuidado, o ponto de partida é o mesmo: o que importa para você? Médico, psicólogo, assistente social e felicitologista, plano pela Medicina do Estilo de Vida, bioimpedância e smartwatch. O RH recebe só indicadores do grupo, anonimizados.', '', '', ''),
-   ('Slide 7 · convite', 'Quer ver como funciona na sua empresa? Comente CUIDADO.\nFonte: BH Ao Vivo, 21/11/2026, sobre o Seminário Internacional Mirix.', '', '', 'Chamada única.'),
-   (VIS, 'Fundo off-white leve, Raleway. O slide 3 é o centro: as 9 dimensões em grade 3x3 ou lista com marcador fino em Tiffany e verde-azulado escuro (#2F6B64), inspirado na lista com marcadores do print, sem percentuais. Sem verde de outra paleta.', '', '', ''),
+   ('Slide 1 · capa', 'Como se mede a felicidade no trabalho?\nA metodologia do Butão que inspirou um questionário para empresas.', '', 'Verde da marca, grade de 9 pontos em Tiffany.', ''),
+   ('Slide 2 · promessa (funciona sozinho)', 'Felicidade parece subjetiva demais para ser medida.\nMas ela pode ser medida, acompanhada e estimulada com ações concretas.\nFoi o tema do Seminário Internacional Mirix, em Belo Horizonte, em novembro.', '', 'Papel.', ''),
+   ('Slide 3 · as 9 dimensões', 'Felicidade Interna Bruta, no Butão\nO bem-estar além da renda, em 9 dimensões: bem-estar psicológico · saúde · uso do tempo · vitalidade comunitária · educação · cultura · meio ambiente · governança · padrão de vida.\nFernando Brancaccio foi ao Butão estudar a metodologia.', '', 'Verde, grade 3 × 3 com marcador Tiffany.', 'Conferir as 9 dimensões na fonte original.'),
+   ('Slide 4 · no trabalho', 'No trabalho\nA pergunta muda.\nNão é só "você está satisfeito com a empresa?". O questionário procura fatores como: saúde emocional · relações sociais · condições financeiras · segurança · qualidade da gestão.', '', 'Papel, lista com marcador (a referência).', ''),
+   ('Slide 5 · anônimo', 'Anônimo, para dizer a verdade.\nAs respostas mostram pontos fortes e fragilidades e orientam ações de melhoria.\nPercepção vira indicador. Indicador vira decisão.', '', 'Verde.', ''),
+   ('Slide 6 · Escritório', 'No Escritório do Cuidado\nO ponto de partida é o mesmo: o que importa para você?\nMédicos, psicólogos, assistentes sociais e felicitologistas dentro da empresa, com um plano pela Medicina do Estilo de Vida, bioimpedância e smartwatch.\nO RH recebe só indicadores do grupo, anonimizados.', '', 'Papel; a pergunta em Instrument Serif.', ''),
+   ('Slide 7 · convite', 'Quer ver como funciona na sua empresa?\nComente CUIDADO e mostramos como o Escritório do Cuidado funciona.\nFonte: BH Ao Vivo (21/11/2026), sobre o Seminário Internacional Mirix. As 9 dimensões são as da Felicidade Interna Bruta do Butão.', '', 'Tiffany, logo.', 'Chamada única.'),
+   (VIS, 'Sistema aprovado em 23/11 (carrossel de 25/11): verde da marca nos slides escuros, papel nos claros e o fecho em Tiffany. Raleway; Instrument Serif só na pergunta. Sem foto. Arte em instagram/posts/felicidade-medida/.', '', '', ''),
   ],
-  legenda='''Felicidade no trabalho dá para medir, acompanhar e estimular com ações concretas.
+  legenda='''Como se mede a felicidade no trabalho? Ela pode ser medida, acompanhada e estimulada com ações concretas.
 
-No Butão, a Felicidade Interna Bruta olha o bem-estar em nove dimensões, de saúde e bem-estar psicológico a uso do tempo, vitalidade comunitária e padrão de vida. O Fernando Brancaccio foi até lá estudar a metodologia, e ela inspirou um questionário anônimo para empresas, que mostra pontos fortes e fragilidades para orientar ações.
+No Butão, a Felicidade Interna Bruta olha o bem-estar além da renda, em nove dimensões: bem-estar psicológico, saúde, uso do tempo, vitalidade comunitária, educação, cultura, meio ambiente, governança e padrão de vida. O Fernando Brancaccio foi até lá estudar a metodologia, e ela inspirou um questionário anônimo para empresas.
 
-A pergunta deixa de ser se a pessoa está satisfeita com a empresa. Passa a incluir saúde emocional, relações, condições financeiras, segurança e qualidade da gestão. Percepção vira indicador, indicador vira decisão.
+No trabalho, a pergunta deixa de ser só se a pessoa está satisfeita com a empresa. O questionário procura fatores como saúde emocional, relações sociais, condições financeiras, segurança e qualidade da gestão. As respostas mostram pontos fortes e fragilidades. Percepção vira indicador. Indicador vira decisão.
 
-No Escritório do Cuidado, o ponto de partida é o mesmo: o que importa para você? O RH recebe só indicadores do grupo, anonimizados.
+No Escritório do Cuidado, o ponto de partida é o mesmo: o que importa para você? Médicos, psicólogos, assistentes sociais e felicitologistas atendem dentro da empresa, com um plano pela Medicina do Estilo de Vida, bioimpedância e smartwatch. O RH recebe só indicadores do grupo, anonimizados.
 
 Fonte: BH Ao Vivo (21/11/2026), sobre o Seminário Internacional Mirix.
 
 Quer ver como funciona na sua empresa? Comente CUIDADO.
 
-#fairhealth #saudecorporativa #felicidadenotrabalho #bemestarcorporativo #gestaodepessoas''',
+#fairhealth #felicidadenotrabalho #saudecorporativa #bemestarcorporativo #gestaodepessoas''',
   palavras='felicidade no trabalho,Felicidade Interna Bruta,questionário anônimo'),
 ]
 

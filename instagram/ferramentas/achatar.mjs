@@ -70,6 +70,13 @@ const slides = await page.evaluate((vagas) => {
         }
         continue;
       }
+      // formas lisas: elementos com cor de fundo (pontos, faixas), viram retângulos (arredondados, se for o caso)
+      const bgEl = rgba(st.backgroundColor);
+      if (bgEl.a > 0 && st.backgroundImage === 'none') {
+        const p = pos(r); const a = bgEl.a * opac(el, sec);
+        itens.push({ tipo: 'linha', ...p, cor: hex(mistura(bgEl, a, fundo)), op: fundo ? 1 : Math.round(a * 100) / 100, z: 1.5,
+          raio: st.borderRadius !== '0px' ? st.borderRadius : '' });
+      }
       // linhas: borda de cima (régua) ou de baixo (itens de lista)
       for (const lado of ['Top', 'Bottom']) {
         const w = parseFloat(st[`border${lado}Width`]);
@@ -121,7 +128,12 @@ const slides = await page.evaluate((vagas) => {
       });
       clone.querySelectorAll('[data-fora]').forEach((c) => c.remove());
       const html = clone.innerHTML.replace(/\u2028/g, '<br>').replace(/\s*\n\s*/g, ' ').trim().replace(/(\s*<br>)+$/, '');
-      itens.push({ tipo: 'texto', html, ...pos(r), z: 3,
+      // a caixa de texto começa no conteúdo (sem o padding e a borda do bloco, como nos itens de lista com marcador)
+      const caixa = pos(r);
+      const pl = parseFloat(st.paddingLeft) + parseFloat(st.borderLeftWidth), pt_ = parseFloat(st.paddingTop) + parseFloat(st.borderTopWidth);
+      const pr = parseFloat(st.paddingRight) + parseFloat(st.borderRightWidth), pb = parseFloat(st.paddingBottom) + parseFloat(st.borderBottomWidth);
+      caixa.x = r2(caixa.x + pl); caixa.y = r2(caixa.y + pt_); caixa.w = r2(caixa.w - pl - pr); caixa.h = r2(caixa.h - pt_ - pb);
+      itens.push({ tipo: 'texto', html, ...caixa, z: 3,
         estilo: `font-family:${st.fontFamily.replace(/"/g, "'")};font-size:${st.fontSize};font-weight:${st.fontWeight};font-style:${st.fontStyle};` +
           `letter-spacing:${st.letterSpacing};line-height:${st.lineHeight};color:${corDe(el)};text-transform:${st.textTransform};font-variant-numeric:${st.fontVariantNumeric};` +
           (fundo ? '' : (opac(el, sec) < 1 ? `opacity:${r2(opac(el, sec))};` : '')) });
