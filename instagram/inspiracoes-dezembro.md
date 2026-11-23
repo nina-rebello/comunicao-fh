@@ -28,8 +28,9 @@ Cronograma: `marketing/Cronograma_Posts_02-12_a_30-12.xlsx`, gerado de
 
 Os carrosséis e as fotos ficam como estavam antes da mudança do Seminário Mirix. Só os reels mudam, intercalando os cortes do
 podcast (o vídeo do Seminário Internacional Mirix, do BH Ao Vivo, com Fernando Brancaccio e Dr. Ronald Maia Filho) e os vídeos
-da Dra. Marília para a câmera: 02/12 podcast (corte 1, `S01`), 09/12 Marília (sono), 16/12 podcast (corte 2, a Felicidade
-Interna Bruta), 23/12 Marília (por onde o cuidado começa), 30/12 podcast (corte 3, a escuta). Os reels "Dezembro chegou",
-"A empresa acha que cuida" e "O time responde" saíram do calendário. O carrossel das 9 dimensões da FIB (feito em 23/11 para
+da Dra. Marília para a câmera: 30/11 podcast (corte 1, `S01`, no lugar do carrossel de demissão, que ficou guardado),
+02/12 "Dezembro chegou" (voltou para a quarta), 09/12 Marília (sono), 16/12 podcast (corte 2, a Felicidade Interna Bruta),
+23/12 Marília (por onde o cuidado começa), 30/12 podcast (corte 3, a escuta). Os reels "A empresa acha que cuida" e
+"O time responde" saíram do calendário. O carrossel das 9 dimensões da FIB (feito em 23/11 para
 30/11) ficou guardado em `instagram/posts/felicidade-medida/`: pode servir ao carrossel de 18/12 ou ao corte 2 do podcast.
 

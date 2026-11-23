@@ -430,7 +430,7 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
  dict(id='N12', data=D(27), semana=4, bloco='6 · Decisão', eixo='Cases + Produto', fmt=FOTO,
   titulo='Como ler o relatório do Escritório do Cuidado (case de uma indústria química atendida)',
   sub='Post único em forma de relatório: cada número do relatório real (jan a nov 2026), o que significa e como levar ao CFO e ao RH',
-  status='Arte para aprovação (23/11, v2: post único em forma de relatório), sem o nome do cliente', resp='Nina · Sócios (liberação do case)',
+  status='Aprovado (23/11): post final, sem o nome do cliente ("uma indústria química atendida")', resp='Nina · Sócios (liberação do case)',
   espec='Foto única 4:5 (1080 × 1350), estilo relatório clean (cartões brancos sobre papel). Sexta de Black Friday: sem linguagem de promoção.',
   gancho='Como ler o relatório do Escritório do Cuidado?',
   objetivo='Provar adesão e continuidade com um case real e convidar o RH para uma conversa antes do orçamento de 2027.',
@@ -464,6 +464,67 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
    ('Rodapé', 'Fonte: relatório do Escritório do Cuidado de uma indústria química atendida (01/01 a 23/11/2026), modelo Quintuple Aim (IHI). O RH recebe só indicadores do grupo, agregados e anonimizados: nunca o que cada pessoa contou.', '', '', 'Nome do cliente só com autorização.'),
   ]),
 
+ dict(id='S01', data=D(30), semana=5, bloco='7 · Causas', eixo='Notícias + Institucional', fmt=REEL,
+  titulo='A felicidade no trabalho pode ser medida',
+  status='Cortes conferidos (23/11). Podcast, corte 1; sai na segunda, 30/11 (decisão da Nina, 23/11), no lugar do carrossel de demissão', resp='Nina (edição com /editar)',
+  fio='Vem de: 27/11, o relatório do case. Leva para: 02/12, o reel "Dezembro chegou".',
+  arquivos='instagram/posts/seminario-mirix-reel/ (legenda.txt, README). Cortes brutos no Mac: Calude Editing/Vídeos Brutos/Seminario_Mirix_cortes_brutos (prefixo S01_).',
+  sub='Cortes do Seminário Internacional Mirix com Fernando Brancaccio e Dr. Ronald Maia Filho',
+  inspiracao='Cortes do vídeo de 30 min do seminário (YouTube, BH Ao Vivo).',
+  cta='Mande este reel para quem cuida de gente na sua empresa',
+  fonte='Vídeo do seminário (BH Ao Vivo, YouTube y72CI2hTDpg, 29:54), transcrito palavra por palavra em 23/11. Minutos conferidos no vídeo: "Às vezes uma conversa resolve" em 03:27,9 (Dr. Ronald, conferir ouvindo) e "Não é eu contra você. É nós juntos" em 10:25,1 (Fernando). Cortes brutos em Calude Editing/Vídeos Brutos/Seminario_Mirix_cortes_brutos (prefixo S01_). Matéria de 21/11/2026.',
+  validar='Autorização de BH Ao Vivo e da Mirix para reaproveitar trechos. Ok de Fernando e Dr. Ronald. Número do CRM do Dr. Ronald para a tela (CFM; não está no repositório). Atrás do Dr. Ronald aparece a tela com o logo MIRIX: deslocar o recorte, desfocar ou cobrir. Não usar: burnout de 2012 (08:34–09:02), índice 73,9 (13:13–13:58), telas e vinhetas da Mirix (ex.: 21:30–21:39).',
+  roteiro=[
+   ('0 a 3 s', 'A felicidade no trabalho pode ser medida.', 'Corte do Fernando: 23:40,6–23:44,0 ("Não se melhora aquilo que não se mede.")', 'Recorte 9:16 no Fernando (plano dos dois convidados), título em Nunito 800 com a palavra-chave em pílula Tiffany. Nome do Fernando na tela.', 'Gancho. Não há fala literal "a felicidade pode ser medida"; a mais próxima ("Mensurável, é mensurável", 11:19) é plano aberto com a tela MIRIX.'),
+   ('3 a 12 s', 'Percepção vira indicador. Indicador vira decisão.', 'Corte do Fernando: 26:44,3–26:52,7 ("Se eu medi uma percepção (...) olha, precisamos melhorar aqui.")', 'Mesmo recorte, texto na tela.', ''),
+   ('12 a 22 s', 'Decisão compartilhada: entender o que importa para a pessoa.', 'Corte do Dr. Ronald: 21:22,3–21:29,3 ("Cada vez mais a gente usa uma estratégia que se chama decisão compartilhada.") + 03:27,9–03:29,0 ("Às vezes uma conversa resolve.")', 'Recorte 9:16 no Dr. Ronald; nome e CRM na tela; cobrir ou desfocar a tela MIRIX ao fundo.', 'Ouvir 03:27,9 para confirmar que a frase é dele.'),
+   ('22 a 30 s', 'Não é eu contra você, nós juntos.', 'Corte do Fernando: 10:21,9–10:27,8 ("Com o gestor, com a marca, exatamente isso. Não é eu contra você. É nós juntos.")', 'Frase na tela em Nunito, só ela.', ''),
+   ('30 a 38 s', 'No Escritório do Cuidado, tudo começa pela pergunta: o que importa para você?\nMande para quem cuida de gente na sua empresa.', 'Corte do Dr. Ronald: 21:00,9–21:11,7 ("Tanto no Escritório do Paciente como no Escritório do Cuidado, nós fazemos uma pergunta (...) o que importa para você.")', 'O vídeo passa para o fundo Tiffany com o logo no fim.', 'Chamada única.'),
+   (VIS, 'Reel 9:16, cerca de 37 s, legendas sempre. Recorte vertical do plano dos dois convidados (cada um cabe inteiro em 607 × 1080, ampliado 1,78 vez), com o nome de cada pessoa em Tiffany e Nunito, como nos reels editados. Áudio limpo, normalizar para -14 LUFS. Sem logos da Mirix na tela, a menos que autorizado.', '', '', ''),
+  ],
+  legenda='''Felicidade no trabalho se mede, e o que se mede vira decisão.
+
+Não se melhora aquilo que não se mede. Quando a percepção de cada pessoa vira indicador, o gestor deixa de decidir por opinião e passa a perguntar como melhorar. No Seminário Internacional Mirix, em Belo Horizonte, o Fernando Brancaccio e o Dr. Ronald Maia Filho mostraram que o caminho começa por uma pergunta: o que importa para você?
+
+É essa pergunta que abre cada atendimento no Escritório do Cuidado. O plano é feito com a pessoa, pela Medicina do Estilo de Vida, com bioimpedância e smartwatch ao longo dos 4 meses do programa, e o RH recebe só indicadores do grupo, anonimizados.
+
+Trechos do vídeo do BH Ao Vivo.
+
+Mande este reel para quem cuida de gente na sua empresa.
+
+#fairhealth #saudecorporativa #felicidadenotrabalho #escritoriodocuidado #gestaodepessoas''',
+  palavras='felicidade no trabalho,Seminário Internacional Mirix,indicadores'),
+]
+
+PENDENCIAS = [
+    ('N02', 'Publicação hoje (04/11): aprovar o roteiro do reel e produzir o motion. Definir com a fairdata o que o relatório do RH mostra.', 'Nina e fairdata', 'Urgente'),
+    ('N01, N09', 'Formato dos depoimentos (A1 no 03/11, A2 no 19/11) com o Dr. Ronald.', 'Dr. Ronald', 'Aberta'),
+    ('N03', 'Validar a história do Escritório (2009, hospital, como funcionava) e a descrição dos Aims.', 'Dr. Ronald', 'Aberta'),
+    ('N03, N04, N12', 'Dados de clientes: a decisão de 30/10 tirou os números de cliente dos posts. Confirmar se o caso do hospital (06/11), os números da indústria (09/11) e o case Chemitec com nome (27/11) podem entrar.', 'Sócios', 'Aberta'),
+    ('N04', 'Data de gravação do reel com o Dr. Ronald e autorização de uso de imagem.', 'Dr. Ronald e Comunicação', 'Aberta'),
+    ('N05', 'Leitura do Diabetes Prevention Program pela responsável médica. Escolher a capa (estudo ou canetas).', 'Responsável médica', 'Aberta'),
+    ('N06', 'Resposta automática da palavra CUIDADO pronta até 13/11 (o diagnóstico gratuito não existe: CUIDADO envia como funciona o Escritório do Cuidado). Quem responde as DMs até lá.', 'Comunicação', 'Aberta'),
+    ('N07', 'Achar e conferir um dado sobre homens e consultas (fonte oficial). Revisão técnica do Dr. Ronald.', 'Comunicação e Dr. Ronald', 'Aberta'),
+    ('N08', 'Número conferido na nota oficial da Previdência e texto da NR-01 conferido no PDF do MTE (04/11). Falta a leitura do Dr. Ronald e o ok da Nina para citar a fairdata.', 'Comunicação e Dr. Ronald', 'Aberta'),
+    ('N10', 'Conferir os números do Panorama da Saúde Emocional do RH 2026 no material da Flash.', 'Comunicação', 'Aberta'),
+    ('N11', 'Fotos dos slides 1 a 4, corte para 8 slides e conferência dos números do Mapa da Felicidade.', 'Nina', 'Aberta'),
+    ('Guardado', 'Carrossel sobre pedido de demissão (sem data desde 23/11): achar e conferir a pesquisa dos motivos (percentuais, ano, amostra). Revisão do Dr. Ronald (NR-01).', 'Comunicação e Dr. Ronald', 'Aberta'),
+    ('Todos', 'Legendas novas (04/11 em diante) passam pela ig-caption e pela ig-human antes de publicar; fotos com licença e origem confirmadas.', 'Comunicação', 'Aberta'),
+   ('S01', 'Minutos dos cortes conferidos (23/11). Falta: autorização de BH Ao Vivo e Mirix para reaproveitar trechos; ok de Fernando e Dr. Ronald; número do CRM do Dr. Ronald para a tela.', 'Nina', 'Aberta'),
+]
+
+DATAS = [
+    (D(2), 'Finados (feriado, sem post)'),
+    (D(14), 'Dia Mundial do Diabetes (sábado)'),
+    (D(15), 'Proclamação da República (domingo)'),
+    (D(20), 'Consciência Negra (feriado): o post da semana vai para quinta, 19/11'),
+    (D(27), 'Black Friday: sem linguagem de promoção'),
+    (D(30), 'Novembro Azul o mês todo; 30/11 (segunda) abre a passagem para dezembro com o corte 1 do podcast, e o reel "Dezembro chegou" vai para quarta, 02/12'),
+]
+
+# Guardados (fora do calendário). Em 23/11 o 30/11 passou a ser o corte 1 do podcast (S01) e o carrossel sobre pedido
+# de demissão ficou sem data. Não entra na planilha: só POSTS é lido pelo gerar_cronograma_simples.py.
+GUARDADOS = [
  dict(id='N13', data=D(30), semana=5, bloco='7 · Causas', eixo='Cultura + Produto', fmt=CARR,
   titulo='Por que as pessoas pedem demissão?',
   sub='O motivo que o RH só descobre na entrevista de desligamento e o que existe por trás dele',
@@ -492,29 +553,4 @@ Quer entender como isso funcionaria na sua empresa? Comente CUIDADO e enviamos c
 
 #fairhealth #saudecorporativa #gestaodepessoas #turnover #medicinadoestilodevida''',
   palavras='pedem demissão,entrevista de desligamento,Escritório do Cuidado'),
-]
-
-PENDENCIAS = [
-    ('N02', 'Publicação hoje (04/11): aprovar o roteiro do reel e produzir o motion. Definir com a fairdata o que o relatório do RH mostra.', 'Nina e fairdata', 'Urgente'),
-    ('N01, N09', 'Formato dos depoimentos (A1 no 03/11, A2 no 19/11) com o Dr. Ronald.', 'Dr. Ronald', 'Aberta'),
-    ('N03', 'Validar a história do Escritório (2009, hospital, como funcionava) e a descrição dos Aims.', 'Dr. Ronald', 'Aberta'),
-    ('N03, N04, N12', 'Dados de clientes: a decisão de 30/10 tirou os números de cliente dos posts. Confirmar se o caso do hospital (06/11), os números da indústria (09/11) e o case Chemitec com nome (27/11) podem entrar.', 'Sócios', 'Aberta'),
-    ('N04', 'Data de gravação do reel com o Dr. Ronald e autorização de uso de imagem.', 'Dr. Ronald e Comunicação', 'Aberta'),
-    ('N05', 'Leitura do Diabetes Prevention Program pela responsável médica. Escolher a capa (estudo ou canetas).', 'Responsável médica', 'Aberta'),
-    ('N06', 'Resposta automática da palavra CUIDADO pronta até 13/11 (o diagnóstico gratuito não existe: CUIDADO envia como funciona o Escritório do Cuidado). Quem responde as DMs até lá.', 'Comunicação', 'Aberta'),
-    ('N07', 'Achar e conferir um dado sobre homens e consultas (fonte oficial). Revisão técnica do Dr. Ronald.', 'Comunicação e Dr. Ronald', 'Aberta'),
-    ('N08', 'Número conferido na nota oficial da Previdência e texto da NR-01 conferido no PDF do MTE (04/11). Falta a leitura do Dr. Ronald e o ok da Nina para citar a fairdata.', 'Comunicação e Dr. Ronald', 'Aberta'),
-    ('N10', 'Conferir os números do Panorama da Saúde Emocional do RH 2026 no material da Flash.', 'Comunicação', 'Aberta'),
-    ('N11', 'Fotos dos slides 1 a 4, corte para 8 slides e conferência dos números do Mapa da Felicidade.', 'Nina', 'Aberta'),
-    ('N13', 'Achar e conferir a pesquisa dos motivos de pedido de demissão (percentuais, ano, amostra). Sem ela, o slide 3 não sai. Revisão do Dr. Ronald (NR-01).', 'Comunicação e Dr. Ronald', 'Aberta'),
-    ('Todos', 'Legendas novas (04/11 em diante) passam pela ig-caption e pela ig-human antes de publicar; fotos com licença e origem confirmadas.', 'Comunicação', 'Aberta'),
-]
-
-DATAS = [
-    (D(2), 'Finados (feriado, sem post)'),
-    (D(14), 'Dia Mundial do Diabetes (sábado)'),
-    (D(15), 'Proclamação da República (domingo)'),
-    (D(20), 'Consciência Negra (feriado): o post da semana vai para quinta, 19/11'),
-    (D(27), 'Black Friday: sem linguagem de promoção'),
-    (D(30), 'Novembro Azul o mês todo; 30/11 (segunda) abre a passagem para dezembro, e o reel "Dezembro chegou" vai para quarta, 02/12'),
 ]

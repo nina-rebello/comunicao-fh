@@ -1,8 +1,9 @@
-// Programação de dezembro de 2026. Reels sempre na quarta (desde 23/11), intercalando o podcast do Seminário Mirix e os vídeos da Dra. Marília (23/11). Ordem e datas iguais a ferramentas/conteudo_posts_dezembro.py.
+// Programação de dezembro de 2026. Reels sempre na quarta (desde 23/11), intercalando o podcast do Seminário Mirix e os vídeos da Dra. Marília (23/11).
+// O corte 1 do podcast saiu em 30/11 (novembro); 02/12 é o reel "Dezembro chegou". Ordem e datas iguais a ferramentas/conteudo_posts_dezembro.py.
 // d, formato, bloco, tipo, eixo, título curto (calendário), título, descrição, chamada
 const POSTS = [
-  [2, "reel", 7, "I", "Notícias", "Podcast: a felicidade no trabalho pode ser medida", "A felicidade no trabalho pode ser medida",
-    "Podcast, corte 1: trechos do Seminário Mirix com Fernando Brancaccio e Dr. Ronald Maia Filho", "Mande para quem cuida de gente"],
+  [2, "reel", 7, "E", "Cultura", "Dezembro chegou: a corrida das metas também adoece", "Dezembro chegou: a corrida das metas também adoece",
+    "Uma prática de 1 minuto para o fim de ano e o convite para cuidar antes de 2027", "Comente CUIDADO"],
   [4, "foto", 7, "P", "Produto", "Todo mundo precisa de alguém por perto", "Todo mundo precisa de alguém por perto",
     "Escuta, clareza e um plano possível, dentro da empresa", "Mande para quem cuida das pessoas"],
   [7, "carrossel", 8, "P", "Cultura", "Seu sono virou nota no relógio", "Seu sono virou nota no relógio. Por que o cansaço continua?",
@@ -30,7 +31,7 @@ const POSTS = [
 ];
 const DATAS = { 1: "Dezembro começa", 24: "Véspera de Natal", 25: "Natal (feriado)", 31: "Réveillon" };
 const SEMANAS = [
-  { n: 1, ini: 1, fim: 6, rotulo: "02 a 04/12", desc: "Causas. A segunda, 30/11, tem o carrossel sobre pedido de demissão; o primeiro corte do podcast do Seminário Mirix mostra que a felicidade no trabalho se mede; e todo mundo precisa de alguém por perto." },
+  { n: 1, ini: 1, fim: 6, rotulo: "02 a 04/12", desc: "Causas. A segunda, 30/11, abre com o primeiro corte do podcast do Seminário Mirix; na quarta, a corrida das metas de dezembro; e todo mundo precisa de alguém por perto." },
   { n: 2, ini: 7, fim: 11, rotulo: "07 a 11/12", desc: "Sono e dados. A nota do relógio, o sono que não descansa (vídeo da Dra. Marília) e a tendência que a bioimpedância e o smartwatch mostram na consulta." },
   { n: 3, ini: 14, fim: 18, rotulo: "14 a 18/12", desc: "Esgotamento e felicidade. O que a OMS descreve, o que o Butão ensina sobre felicidade (podcast, corte 2) e o que pesa na vida de quem trabalha." },
   { n: 4, ini: 21, fim: 25, rotulo: "21 a 24/12", desc: "Começar. O que o RH recebe, como o programa de 4 meses começa (vídeo da Dra. Marília) e uma pausa de fim de ano. Sexta, 25/12, é feriado." },
@@ -43,7 +44,8 @@ module.exports = {
   POSTS, DATAS, SEMANAS,
   painel: { titulo: "Para dezembro funcionar", itens: [
     "Até 27/11: pesquisa dos motivos de demissão achada e conferida (carrossel de 30/11)",
-    "Até 27/11: autorização de BH Ao Vivo e da Mirix e ok de Fernando e Dr. Ronald para os cortes do podcast",
+    "Até 27/11: autorização de BH Ao Vivo e da Mirix e ok de Fernando e Dr. Ronald para os cortes do podcast (o primeiro sai em 30/11)",
+    "Até 01/12: prática de 1 minuto do reel de 02/12 validada",
     "Datas de gravação dos vídeos da Dra. Marília (09/12 e 23/12), com nome e CRM na tela",
     "Até 09/12: Dr. Ronald revisa o roteiro do sono e os dados do smartwatch e da bioimpedância",
     "Até 14/12: texto da OMS e da NR-01 conferidos nos originais",

@@ -1,6 +1,7 @@
 # Detalhamento dos 13 posts de dezembro de 2026 (02/12 a 30/12; reels sempre na quarta, desde 23/11), usado por gerar_cronograma_simples.py (modelo padrão).
 # 23/11 (Nina): os carrosséis e as fotos voltam à versão de antes do Seminário Mirix; só os reels mudam, intercalando o
-# podcast (cortes do vídeo do Seminário Internacional Mirix: S01, P02, P03) e os vídeos da Dra. Marília (D04, D10).
+# podcast (cortes do vídeo do Seminário Internacional Mirix: S01 em 30/11, P02, P03) e os vídeos da Dra. Marília (D04, D10);
+# 02/12 volta a ser o reel "Dezembro chegou" (D00).
 # Base: as inspirações que a Nina mandou em 18/11 (instagram/inspiracoes-dezembro.md), o ritmo de novembro
 # (conteudo_posts_novembro.py), instagram/carrossel-de-tendencia.md (sleepmaxxing guardado para dezembro),
 # instagram/voice.md, instagram/referencias.md (site da fairjob, programa de 4 meses) e o CLAUDE.md.
@@ -16,36 +17,40 @@ VIS = 'Direção visual'
 ESP_REEL = 'Reel 9:16 (1080 × 1920), 30 a 45 s, texto na tela desde o 1º quadro, legendas sempre. Capa 4:5 para a grade.'
 
 POSTS = [
- dict(id='S01', data=D(2), semana=1, bloco='7 · Causas', eixo='Notícias + Institucional', fmt=REEL,
-  titulo='A felicidade no trabalho pode ser medida',
-  status='Cortes conferidos (23/11). Podcast, corte 1 (reels intercalam o podcast e a Marília, decisão de 23/11)', resp='Nina (edição com /editar)',
-  fio='Vem de: 30/11, o carrossel sobre pedido de demissão. Leva para: 04/12, a foto "Todo mundo precisa de alguém por perto".',
-  arquivos='instagram/posts/seminario-mirix-reel/ (legenda.txt, README). Cortes brutos no Mac: Calude Editing/Vídeos Brutos/Seminario_Mirix_cortes_brutos (prefixo S01_).',
-  sub='Cortes do Seminário Internacional Mirix com Fernando Brancaccio e Dr. Ronald Maia Filho',
-  inspiracao='Cortes do vídeo de 30 min do seminário (YouTube, BH Ao Vivo). Substitui o reel "Dezembro chegou", que vira story.',
-  cta='Mande este reel para quem cuida de gente na sua empresa',
-  fonte='Vídeo do seminário (BH Ao Vivo, YouTube y72CI2hTDpg, 29:54), transcrito palavra por palavra em 23/11. Minutos conferidos no vídeo: "Às vezes uma conversa resolve" em 03:27,9 (Dr. Ronald, conferir ouvindo) e "Não é eu contra você. É nós juntos" em 10:25,1 (Fernando). Cortes brutos em Calude Editing/Vídeos Brutos/Seminario_Mirix_cortes_brutos (prefixo S01_). Matéria de 21/11/2026.',
-  validar='Autorização de BH Ao Vivo e da Mirix para reaproveitar trechos. Ok de Fernando e Dr. Ronald. Número do CRM do Dr. Ronald para a tela (CFM; não está no repositório). Atrás do Dr. Ronald aparece a tela com o logo MIRIX: deslocar o recorte, desfocar ou cobrir. Não usar: burnout de 2012 (08:34–09:02), índice 73,9 (13:13–13:58), telas e vinhetas da Mirix (ex.: 21:30–21:39).',
+ dict(id='D00', data=D(2), semana=1, bloco='7 · Causas', eixo='Cultura', fmt=REEL,
+  titulo='Dezembro chegou: a corrida das metas também adoece',
+  sub='Uma prática de 1 minuto para o fim de ano e o convite para cuidar antes de 2027',
+  status='Pauta proposta (volta para 02/12, decisão da Nina de 23/11)', resp='Nina · psicóloga ou Dr. Ronald (prática de 1 minuto)',
+  espec=ESP_REEL + ' Tipografia animada com contagem de 1 minuto.',
+  gancho='Dezembro chegou. E a corrida das metas também.',
+  objetivo='Abrir dezembro com uma prática simples de 1 minuto para o time e o convite para a empresa cuidar antes de 2027.',
+  portras='O fim de ano aperta todo mundo. Uma pausa pequena não resolve tudo, mas lembra que o cuidado cabe no dia.',
+  persona='Colaboradores; RH; Lideranças',
+  fio='Vem de: 30/11, o corte 1 do podcast. Leva para: 04/12, a foto "Todo mundo precisa de alguém por perto".',
+  visual='Tipografia animada sobre Tiffany e verde, com um círculo que se fecha em 60 segundos durante a prática. Sem pessoas em cena.',
+  material='Canva (animação de texto), trilha calma, sem locução ou com voz em off.',
+  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
+  stories='Contagem regressiva para 2027 e a pergunta "O que você quer levar de cuidado para o ano que vem?".',
+  fonte='Prática de respiração e pausa: conteúdo educativo do guia "Saúde mental: o cuidado no dia a dia" (referencias.md). Sem número.',
+  validar='A psicóloga ou o Dr. Ronald valida a prática (sem promessa de efeito). Sem número sem fonte.',
+  arquivos='Ainda sem pasta. Sugestão: instagram/posts/dezembro-metas/',
+  legenda='''Dezembro chegou. E a corrida das metas também.
+
+Fechamento, entrega, confraternização, férias para organizar. O fim de ano aperta todo mundo ao mesmo tempo, e o cuidado costuma ficar para janeiro.
+
+Uma pausa de um minuto não resolve tudo, mas lembra que o cuidado cabe no dia. Pare, solte os ombros, respire devagar cinco vezes e escolha uma coisa que importa hoje.
+
+Para a empresa, o convite é o mesmo, numa escala maior: cuidar antes de 2027 começar. Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
+
+#fairhealth #saudecorporativa #saudemental #bemestarnotrabalho #gestaodepessoas''',
   roteiro=[
-   ('0 a 3 s', 'A felicidade no trabalho pode ser medida.', 'Corte do Fernando: 23:40,6–23:44,0 ("Não se melhora aquilo que não se mede.")', 'Recorte 9:16 no Fernando (plano dos dois convidados), título em Nunito 800 com a palavra-chave em pílula Tiffany. Nome do Fernando na tela.', 'Gancho. Não há fala literal "a felicidade pode ser medida"; a mais próxima ("Mensurável, é mensurável", 11:19) é plano aberto com a tela MIRIX.'),
-   ('3 a 12 s', 'Percepção vira indicador. Indicador vira decisão.', 'Corte do Fernando: 26:44,3–26:52,7 ("Se eu medi uma percepção (...) olha, precisamos melhorar aqui.")', 'Mesmo recorte, texto na tela.', ''),
-   ('12 a 22 s', 'Decisão compartilhada: entender o que importa para a pessoa.', 'Corte do Dr. Ronald: 21:22,3–21:29,3 ("Cada vez mais a gente usa uma estratégia que se chama decisão compartilhada.") + 03:27,9–03:29,0 ("Às vezes uma conversa resolve.")', 'Recorte 9:16 no Dr. Ronald; nome e CRM na tela; cobrir ou desfocar a tela MIRIX ao fundo.', 'Ouvir 03:27,9 para confirmar que a frase é dele.'),
-   ('22 a 30 s', 'Não é eu contra você, nós juntos.', 'Corte do Fernando: 10:21,9–10:27,8 ("Com o gestor, com a marca, exatamente isso. Não é eu contra você. É nós juntos.")', 'Frase na tela em Nunito, só ela.', ''),
-   ('30 a 38 s', 'No Escritório do Cuidado, tudo começa pela pergunta: o que importa para você?\nMande para quem cuida de gente na sua empresa.', 'Corte do Dr. Ronald: 21:00,9–21:11,7 ("Tanto no Escritório do Paciente como no Escritório do Cuidado, nós fazemos uma pergunta (...) o que importa para você.")', 'O vídeo passa para o fundo Tiffany com o logo no fim.', 'Chamada única.'),
-   (VIS, 'Reel 9:16, cerca de 37 s, legendas sempre. Recorte vertical do plano dos dois convidados (cada um cabe inteiro em 607 × 1080, ampliado 1,78 vez), com o nome de cada pessoa em Tiffany e Nunito, como nos reels editados. Áudio limpo, normalizar para -14 LUFS. Sem logos da Mirix na tela, a menos que autorizado.', '', '', ''),
-  ],
-  legenda='''Felicidade no trabalho se mede, e o que se mede vira decisão.
-
-Não se melhora aquilo que não se mede. Quando a percepção de cada pessoa vira indicador, o gestor deixa de decidir por opinião e passa a perguntar como melhorar. No Seminário Internacional Mirix, em Belo Horizonte, o Fernando Brancaccio e o Dr. Ronald Maia Filho mostraram que o caminho começa por uma pergunta: o que importa para você?
-
-É essa pergunta que abre cada atendimento no Escritório do Cuidado. O plano é feito com a pessoa, pela Medicina do Estilo de Vida, com bioimpedância e smartwatch ao longo dos 4 meses do programa, e o RH recebe só indicadores do grupo, anonimizados.
-
-Trechos do vídeo do BH Ao Vivo.
-
-Mande este reel para quem cuida de gente na sua empresa.
-
-#fairhealth #saudecorporativa #felicidadenotrabalho #escritoriodocuidado #gestaodepessoas''',
-  palavras='felicidade no trabalho,Seminário Internacional Mirix,indicadores'),
+   ('0 a 3 s', 'Dezembro chegou.\nE a corrida das metas também.', '', 'Duas linhas, ritmo rápido.', 'Gancho.'),
+   ('3 a 8 s', 'Fechamento. Entrega. Confraternização. Férias para organizar.', '', 'Palavras em sequência, aceleradas.', ''),
+   ('8 a 12 s', 'Antes de seguir: 1 minuto.', '', 'O ritmo desacelera; aparece um círculo.', 'Virada.'),
+   ('12 a 22 s', 'Pare. Solte os ombros.\nRespire devagar, cinco vezes.', '', 'O círculo se fecha devagar.', 'Prática validada pela psicóloga.'),
+   ('22 a 26 s', 'Escolha uma coisa que importa hoje.', '', 'Frase única.', ''),
+   ('26 a 30 s', 'Para a empresa: cuidar antes de 2027 começar.\nComente CUIDADO', '', 'Logo sobre Tiffany.', ''),
+  ]),
  dict(id='D02', data=D(4), semana=1, bloco='7 · Causas', eixo='Produto', fmt=FOTO,
   titulo='Todo mundo precisa de alguém por perto',
   sub='Escuta, clareza e um plano possível, dentro da empresa',
@@ -359,7 +364,7 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
 POSTS.sort(key=lambda p: p['data'])
 
 PENDENCIAS = [
- ('S01', 'Minutos dos cortes conferidos (23/11). Falta: autorização de BH Ao Vivo e Mirix para reaproveitar trechos; ok de Fernando e Dr. Ronald; número do CRM do Dr. Ronald para a tela.', 'Nina', 'Aberta'),
+ ('D00', 'Validar a prática de 1 minuto (psicóloga ou Dr. Ronald).', 'Psicóloga ou Dr. Ronald', 'Aberta'),
  ('D02, D11', 'Fotos de banco com licença comercial (aérea de duas pessoas em poltronas; perfil olhando para o céu).', 'Nina', 'Aberta'),
  ('D03, D05', 'Quais dados o smartwatch e a bioimpedância registram. Foto da capa do sono, com dados de exemplo marcados.', 'Dr. Ronald e fairdata', 'Aberta'),
  ('D04, D10', 'Vídeos da Marília: data de gravação, nome e CRM dela na tela (CFM). Revisão do roteiro do sono pelo Dr. Ronald.', 'Dra. Marília, Dr. Ronald e Nina', 'Aberta'),
@@ -372,7 +377,7 @@ PENDENCIAS = [
 ]
 
 DATAS = [
- (D(1), 'Dezembro começa; o primeiro corte do podcast sai na quarta, 02/12'),
+ (D(1), 'Dezembro começa; o reel "Dezembro chegou" sai na quarta, 02/12 (o corte 1 do podcast saiu na segunda, 30/11)'),
  (D(24), 'Véspera de Natal: post leve de agradecimento, sem promoção'),
  (D(25), 'Natal (feriado, sem post)'),
  (D(31), 'Réveillon (sem post, a menos que a Nina queira um agradecimento extra)'),

@@ -1,5 +1,8 @@
 # 27/11 · Foto única "Como ler o relatório do Escritório do Cuidado" (case de adesão)
 
+**Post final (aprovado pela Nina em 23/11):** `png/relatorio.png` e `legenda.txt`, sem o nome do cliente ("uma indústria
+química atendida").
+
 Cronograma: `N12` em `marketing/ferramentas/conteudo_posts_novembro.py`.
 
 ## v2 (23/11): post único em forma de relatório
@@ -17,7 +20,7 @@ significa e como levar ao CFO e ao RH), numa estética clean e moderna, sem o vi
     "outros" 100%) e saiu do post; vale avisar quem gera o relatório.
 - `slides.html` → `png/relatorio.png` (= `previa.png`). Papel, cartões brancos sem borda, números no verde da marca, barras
   em verde, Tiffany e menta. Quatro números com "Significa" e "Para o CFO e o RH"; três painéis com uma leitura cada.
-- `canva-src.html` e `canva.html`: versão achatada para o Canva (conferida: igual ao PNG). Ainda não importada.
+- `canva-src.html` e `canva.html`: versão achatada para o Canva (conferida: igual ao PNG), pronta para importar.
 - `legenda.txt`: ig-caption (`caption.py` com "programa de saúde, adesão, indicadores": 3/3) e ig-human (`detect.py`
   REVIEW só pelo VOICE, como nos outros posts).
 - **Sem o nome do cliente** ("uma indústria química atendida", pedido da Nina em 23/11) até os sócios liberarem (decisão de 30/10). Sexta de Black Friday: sem

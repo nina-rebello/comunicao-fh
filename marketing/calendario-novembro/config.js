@@ -1,4 +1,4 @@
-// Programação de novembro de 2026. Em 23/11 o 30/11 passou a ser o carrossel sobre pedido de demissão. O reel de 02/12 é o primeiro corte do podcast do Seminário Mirix.
+// Programação de novembro de 2026. Em 23/11 o 30/11 passou a ser o corte 1 do podcast do Seminário Mirix (o carrossel sobre pedido de demissão ficou guardado) e o 27/11, o relatório do case.
 // d, formato, bloco, tipo, eixo, título curto (calendário), título, descrição, chamada
 const POSTS = [
   [3, "carrossel", 3, "P", "Produto", "Como funciona o cuidado na prática?", "Como funciona o cuidado na prática?",
@@ -25,8 +25,8 @@ const POSTS = [
     "Não é preguiça nem falta de compromisso. A resposta começa com a pergunta que quase ninguém faz: o que importa para você?", "Comente CUIDADO"],
   [27, "foto", 6, "P", "Cases", "Case: o relatório do Escritório do Cuidado", "Como ler o relatório do Escritório do Cuidado",
     "Post único em forma de relatório: adesão de 92,7%, retorno de 96,1% e 210 atendimentos numa indústria química, de janeiro a novembro, e como levar ao CFO e ao RH", "Comente CUIDADO"],
-  [30, "carrossel", 7, "P", "Cultura", "Por que as pessoas pedem demissão?", "Por que as pessoas pedem demissão?",
-    "O motivo que o RH só descobre na entrevista de desligamento e o que existe por trás dele", "Comente CUIDADO"],
+  [30, "reel", 7, "I", "Notícias", "Podcast: a felicidade no trabalho pode ser medida", "A felicidade no trabalho pode ser medida",
+    "Podcast, corte 1: trechos do Seminário Mirix com Fernando Brancaccio e Dr. Ronald Maia Filho", "Mande para quem cuida de gente"],
 ];
 const DATAS = { 1: "Início do Novembro Azul", 2: "Finados", 14: "Dia Mundial do Diabetes", 15: "Proclamação da República", 20: "Consciência Negra (feriado)" };
 const SEMANAS = [
@@ -34,7 +34,7 @@ const SEMANAS = [
   { n: 2, ini: 9, fim: 13, rotulo: "09 a 13/11", desc: "Confiança. Resultados reais, a ciência por trás do cuidado e o convite para o RH." },
   { n: 3, ini: 16, fim: 20, rotulo: "16 a 19/11", desc: "Atualidade. Novembro Azul, NR-01 e a voz de quem é cuidado: temas do momento que levam ao Escritório do Cuidado. Sexta, 20/11, é feriado." },
   { n: 4, ini: 23, fim: 27, rotulo: "23 a 27/11", desc: "Atualidade e decisão. Quem cuida do RH, a desconexão dos jovens e a prova da Chemitec." },
-  { n: 5, ini: 30, fim: 30, rotulo: "30/11", desc: "Passagem para dezembro, com o RH fechando o orçamento de 2027. Na quarta, 02/12, o primeiro reel do podcast do Seminário Mirix (os reels de dezembro intercalam o podcast e a Dra. Marília)." },
+  { n: 5, ini: 30, fim: 30, rotulo: "30/11", desc: "Passagem para dezembro, com o RH fechando o orçamento de 2027: o primeiro corte do podcast do Seminário Mirix. O reel \"Dezembro chegou\" vai para quarta, 02/12." },
 ];
 module.exports = {
   mes: 10, nomeMes: "Novembro", periodo: "01/11 a 30/11", sub: "3 posts por semana",
