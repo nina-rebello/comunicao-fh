@@ -123,3 +123,14 @@ este post é exceção.
   aceita duas fontes na mesma caixa de texto.
 - **No Canva (23/11):** design `DAHbvhptIK0` ("25/11 Geração Z e desconexão (carrossel)"), 7 páginas, com as quatro fotos já nos
   quadros e todos os textos editáveis. Link de edição: https://www.canva.com/d/XbGWPpCX_jdAcmw
+
+## Versão Tiffany (23/11)
+
+Retorno da Nina: os slides estavam escuros demais ("mórbido"); pediu o Tiffany no lugar do azul escuro onde fosse possível, num link
+do Canva separado para não perder o anterior.
+
+- Slides 3, 5 e 6 saíram do fundo "noite" para o Tiffany `#9FC5BD` (acento `#24564F`). O slide 7 continua no verde-escuro da marca
+  `#2F6B64`, como o único slide de contraste; o 2 continua em papel.
+- O degradê por cima das fotos (capa e slide 4) saiu do quase preto e foi para o verde da marca `#2F6B64`, mais leve no alto.
+- A versão escura fica em `slides-v2-escura.html`, `png-v2-escura/` e `previa-v2-escura.png`, e no Canva em `DAHbvhptIK0`.
+

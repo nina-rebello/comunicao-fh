@@ -31,8 +31,8 @@ def degrade(w, h, paradas, cor, nome):
             px[x, y] = (*cor, round(a * 255))
     im.save(LEVE / nome, optimize=True)
 
-# .gz.foto::before: linear-gradient(rgba(10,16,15,.15) 30%, rgba(10,16,15,.9) 78%)
-degrade(216, 270, [(0, .15), (.30, .15), (.78, .9), (1, .9)], (10, 16, 15), 'degrade-foto.png')
+# .gz.foto::before: linear-gradient(rgba(47,107,100,0) 28%, rgba(47,107,100,.6) 55%, rgba(47,107,100,.95) 82%), o verde da marca
+degrade(216, 270, [(0, 0), (.28, 0), (.55, .6), (.82, .95), (1, .95)], (47, 107, 100), 'degrade-foto.png')
 # a sombra no alto da foto do Escritório (slide 6): rgba(10,16,15,.55) -> transparente, 150 px
 degrade(216, 30, [(0, .55), (1, 0)], (10, 16, 15), 'sombra-topo.png')
 
