@@ -42,7 +42,7 @@ module.exports = {
   objetivo: "Fechar o ano mostrando o cuidado por trás dos temas que o RH já tem na cabeça: a saída de pessoas, o sono, os dados, o esgotamento e a felicidade. Cada tema leva ao Escritório do Cuidado e ao que o RH recebe, indicadores do grupo e anonimizados. Terminamos com como o programa de 4 meses começa, enquanto o RH planeja 2027.",
   POSTS, DATAS, SEMANAS,
   painel: { titulo: "Para dezembro funcionar", itens: [
-    "30/11: vídeo do seminário, minutos dos cortes e autorizações (reel de 02/12)",
+    "30/11: autorizações, ok dos sócios e CRM do Dr. Ronald (reel de 02/12)",
     "02/12: sócios confirmam o case Chemitec (04/12)",
     "09/12: Dr. Ronald revisa o reel do sono",
     "14/12: OMS e NR-01 conferidas nos originais",

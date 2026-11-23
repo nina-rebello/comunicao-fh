@@ -277,23 +277,25 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
   sub='Cortes do Seminário Internacional Mirix com Fernando Brancaccio e Dr. Ronald Maia Filho',
   inspiracao='Cortes do vídeo de 30 min do seminário (YouTube, BH Ao Vivo). Substitui o reel "Dezembro chegou", que vira story.',
   cta='Mande este reel para quem cuida de gente na sua empresa',
-  fonte='Vídeo do seminário (BH Ao Vivo, YouTube) e matéria de 21/11/2026. As frases entre aspas vêm da matéria: conferir no vídeo e anotar o minuto de cada corte. O vídeo ainda não foi acessado (o YouTube bloqueia a leitura pela ferramenta).',
-  validar='Arquivo do vídeo ou transcrição e os minutos dos cortes. Autorização de BH Ao Vivo e da Mirix para reaproveitar trechos. Ok de Fernando e Dr. Ronald. Nome e CRM do Dr. Ronald na tela (CFM).',
+  fonte='Vídeo do seminário (BH Ao Vivo, YouTube y72CI2hTDpg, 29:54), transcrito palavra por palavra em 23/11. Minutos conferidos no vídeo: "Às vezes uma conversa resolve" em 03:27,9 (Dr. Ronald, conferir ouvindo) e "Não é eu contra você. É nós juntos" em 10:25,1 (Fernando). Cortes brutos em Calude Editing/Vídeos Brutos/Seminario_Mirix_cortes_brutos (prefixo S01_). Matéria de 21/11/2026.',
+  validar='Autorização de BH Ao Vivo e da Mirix para reaproveitar trechos. Ok de Fernando e Dr. Ronald. Número do CRM do Dr. Ronald para a tela (CFM; não está no repositório). Atrás do Dr. Ronald aparece a tela com o logo MIRIX: deslocar o recorte, desfocar ou cobrir. Não usar: burnout de 2012 (08:34–09:02), índice 73,9 (13:13–13:58), telas e vinhetas da Mirix (ex.: 21:30–21:39).',
   roteiro=[
-   ('0 a 3 s', 'A felicidade no trabalho pode ser medida.', 'Corte do Fernando: {{min:seg}} (a felicidade pode ser medida, acompanhada e estimulada)', 'Corte vertical 9:16 sobre o vídeo do seminário, título em Raleway 800.', 'Gancho. Conferir a fala no vídeo.'),
-   ('3 a 12 s', 'Percepção vira indicador. Indicador vira decisão.', 'Corte do Fernando: {{min:seg}}', 'Mesma pessoa, plano mais fechado; texto na tela.', ''),
-   ('12 a 22 s', 'Decisão compartilhada: entender o que importa para a pessoa.', 'Corte do Dr. Ronald: {{min:seg}} ("Às vezes uma conversa resolve.")', 'Nome e CRM na tela.', 'Conferir a frase no vídeo.'),
-   ('22 a 30 s', 'Não é eu contra você, nós juntos.', 'Corte do Fernando: {{min:seg}}', 'Frase em Instrument Serif itálico, só ela.', 'Conferir a frase no vídeo.'),
-   ('30 a 38 s', 'No Escritório do Cuidado, tudo começa pela pergunta: o que importa para você?\nMande para quem cuida de gente na sua empresa.', '', 'Fundo Tiffany, logo no fim.', 'Chamada única.'),
-   (VIS, 'Reel 9:16, 35 a 40 s, legendas sempre. Recorte vertical do vídeo do seminário, com o nome de cada pessoa em Tiffany. Fundo neutro e Raleway. Sem logos da Mirix na tela, a menos que autorizado.', '', '', ''),
+   ('0 a 3 s', 'A felicidade no trabalho pode ser medida.', 'Corte do Fernando: 23:40,6–23:44,0 ("Não se melhora aquilo que não se mede.")', 'Recorte 9:16 no Fernando (plano dos dois convidados), título em Nunito 800 com a palavra-chave em pílula Tiffany. Nome do Fernando na tela.', 'Gancho. Não há fala literal "a felicidade pode ser medida"; a mais próxima ("Mensurável, é mensurável", 11:19) é plano aberto com a tela MIRIX.'),
+   ('3 a 12 s', 'Percepção vira indicador. Indicador vira decisão.', 'Corte do Fernando: 26:44,3–26:52,7 ("Se eu medi uma percepção (...) olha, precisamos melhorar aqui.")', 'Mesmo recorte, texto na tela.', ''),
+   ('12 a 22 s', 'Decisão compartilhada: entender o que importa para a pessoa.', 'Corte do Dr. Ronald: 21:22,3–21:29,3 ("Cada vez mais a gente usa uma estratégia que se chama decisão compartilhada.") + 03:27,9–03:29,0 ("Às vezes uma conversa resolve.")', 'Recorte 9:16 no Dr. Ronald; nome e CRM na tela; cobrir ou desfocar a tela MIRIX ao fundo.', 'Ouvir 03:27,9 para confirmar que a frase é dele.'),
+   ('22 a 30 s', 'Não é eu contra você, nós juntos.', 'Corte do Fernando: 10:21,9–10:27,8 ("Com o gestor, com a marca, exatamente isso. Não é eu contra você. É nós juntos.")', 'Frase na tela em Nunito, só ela.', ''),
+   ('30 a 38 s', 'No Escritório do Cuidado, tudo começa pela pergunta: o que importa para você?\nMande para quem cuida de gente na sua empresa.', 'Corte do Dr. Ronald: 21:00,9–21:11,7 ("Tanto no Escritório do Paciente como no Escritório do Cuidado, nós fazemos uma pergunta (...) o que importa para você.")', 'O vídeo passa para o fundo Tiffany com o logo no fim.', 'Chamada única.'),
+   (VIS, 'Reel 9:16, cerca de 37 s, legendas sempre. Recorte vertical do plano dos dois convidados (cada um cabe inteiro em 607 × 1080, ampliado 1,78 vez), com o nome de cada pessoa em Tiffany e Nunito, como nos reels editados. Áudio limpo, normalizar para -14 LUFS. Sem logos da Mirix na tela, a menos que autorizado.', '', '', ''),
   ],
-  legenda='''A felicidade no trabalho pode ser medida. Mande este reel para quem cuida de gente na sua empresa.
+  legenda='''Felicidade no trabalho se mede, e o que se mede vira decisão.
 
-Cortes do Seminário Internacional Mirix, em Belo Horizonte, com o Fernando Brancaccio e o Dr. Ronald Maia Filho. A ideia é simples: percepção vira indicador, indicador vira decisão, e o cuidado começa pelo que importa para cada pessoa.
+Não se melhora aquilo que não se mede. Quando a percepção de cada pessoa vira indicador, o gestor deixa de decidir por opinião e passa a perguntar como melhorar. No Seminário Internacional Mirix, em Belo Horizonte, o Fernando Brancaccio e o Dr. Ronald Maia Filho mostraram que o caminho começa por uma pergunta: o que importa para você?
 
-No Escritório do Cuidado, a conversa parte da pergunta "o que importa para você?", com plano pela Medicina do Estilo de Vida, bioimpedância e smartwatch. O RH recebe só indicadores do grupo, anonimizados.
+É essa pergunta que abre cada atendimento no Escritório do Cuidado. O plano é feito com a pessoa, pela Medicina do Estilo de Vida, com bioimpedância e smartwatch ao longo dos 4 meses do programa, e o RH recebe só indicadores do grupo, anonimizados.
 
-O vídeo completo está no canal do BH Ao Vivo.
+Trechos do vídeo do BH Ao Vivo.
+
+Mande este reel para quem cuida de gente na sua empresa.
 
 #fairhealth #saudecorporativa #felicidadenotrabalho #escritoriodocuidado #gestaodepessoas''',
   palavras='felicidade no trabalho,Seminário Internacional Mirix,indicadores'),
@@ -365,7 +367,7 @@ Quer entender como isso funcionaria na sua empresa? Comente CUIDADO e enviamos c
 POSTS.sort(key=lambda p: p['data'])
 
 PENDENCIAS = [
- ('S01', 'Arquivo do vídeo do seminário (ou transcrição) e minutos dos cortes. Autorização de BH Ao Vivo e Mirix para reaproveitar trechos. Ok de Fernando e Dr. Ronald; nome e CRM na tela.', 'Nina', 'Aberta'),
+ ('S01', 'Minutos dos cortes conferidos (23/11). Falta: autorização de BH Ao Vivo e Mirix para reaproveitar trechos; ok de Fernando e Dr. Ronald; número do CRM do Dr. Ronald para a tela.', 'Nina', 'Aberta'),
  ('C01', 'Case Chemitec: confirmar com os sócios se o case sai e se pode citar o nome (decisão de 30/10 tirou dados de cliente). Se não, "uma indústria que atendemos".', 'Sócios', 'Aberta'),
  ('D01', 'Achar e conferir a pesquisa dos motivos de pedido de demissão (percentuais, ano, amostra). Sem ela, o slide 3 não sai.', 'Comunicação', 'Aberta'),
  ('D03, D05', 'Quais dados o smartwatch e a bioimpedância registram. Foto da capa do sono, com dados de exemplo marcados.', 'Dr. Ronald e fairdata', 'Aberta'),
