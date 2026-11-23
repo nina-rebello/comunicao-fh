@@ -389,19 +389,19 @@ Se você precisa de ajuda agora, o CVV atende pelo 188, 24 horas.
  dict(id='N11', data=D(25), semana=4, bloco='5 · Atualidade', eixo='Cultura + Produto', fmt=CARR,
   titulo='Por que a Geração Z está tão desconectada do trabalho?',
   sub='Não é preguiça: a desconexão tem causa, e a resposta começa por "o que importa para você?"',
-  status='Arte em rascunho (faltam fotos; reduzir de 9 para 8 slides)', resp='Nina · Dr. Ronald (saúde mental, NR-01)',
-  espec='Carrossel 4:5 (1080 × 1350), 8 slides (o rascunho tem 9; juntar os slides 5 e 6). Tom editorial, série "Cuidado em números".',
-  gancho='O olhar vazio na reunião não é preguiça.',
-  objetivo='Pegar a tendência (Gen Z stare, task masking) e mostrar que a desconexão tem causa, e que a resposta começa pela pergunta "o que importa para você?".',
+  status='Arte em rascunho (faltam fotos nos slides 1 a 4)', resp='Nina · Dr. Ronald (saúde mental, NR-01)',
+  espec='Carrossel 4:5 (1080 × 1350), 7 slides (sem o slide do meme, a pedido da Nina em 23/11). Tom editorial, série "Cuidado em números".',
+  gancho='Geração Z desconectada do trabalho: não é preguiça.',
+  objetivo='Mostrar com dados que a desconexão da Geração Z tem causa, e que a resposta começa pela pergunta "o que importa para você?".',
   portras='Geração Z não é o problema. Falta de cuidado é.',
   persona='RH; Lideranças',
   fio='Vem de: 23/11, quem cuida do RH. Leva para: 27/11, o case de adesão.',
   visual='Manchete sem serifa, texto em Instrument Serif, foto real em tela cheia (banco com licença comercial ou sessão de fotos). Cores e logo da fairhealth.',
   material='Fotos dos slides 1 a 4 (vagas descritas no slides.html). Foto do espaço no slide 6.',
   cta='Comente CUIDADO',
-  stories='Enquete: "Você já viu o gen Z stare na sua empresa?".',
+  stories='Enquete: "Seu time tem com quem contar na hora difícil?".',
   fonte='Mapa da Felicidade Real dos Brasileiros 2026 (Renata Rivetti e Instituto Ideia; 1.500 entrevistas; 20/02 a 01/03/2026; margem de 2,5 pontos), via Metrópoles e Grupo Amanhã.',
-  validar='Conferir os números no material original. O que o relatório do RH mostra de fato (slide 7). Revisão do Dr. Ronald. A @brandsdecoded_ já publicou os mesmos dados: o nosso se diferencia pelo que vem depois. Cortar para 8 slides (regra da marca).',
+  validar='Conferir os números no material original. O que o relatório do RH mostra de fato (slide 6). Revisão do Dr. Ronald. A @brandsdecoded_ já publicou os mesmos dados: o nosso se diferencia pelo que vem depois.',
   arquivos='instagram/posts/geracao-z/ (slides.html, png/, previa.png, README.md)',
   legenda='''Geração Z e saúde mental no trabalho: o olhar vazio na reunião não é preguiça.
 
@@ -409,7 +409,7 @@ No Mapa da Felicidade Real dos Brasileiros 2026, da pesquisadora Renata Rivetti 
 
 No trabalho, a distância passa do dobro: 46,7% dos jovens dizem que o trabalho os deixa mais infelizes, contra 20,5% nas outras idades. Mais de 1 em cada 5 diz não ter com quem contar na hora difícil.
 
-Na internet, isso virou meme. Gen Z stare, task masking, o olhar vazio na reunião. É fácil rotular uma geração inteira. Mas sobrecarga, falta de sentido, ansiedade, sono ruim e solidão não têm idade, e vários desses são riscos psicossociais que a NR-01 agora pede para a empresa gerenciar.
+É fácil rotular uma geração inteira. Mas sobrecarga, falta de sentido, ansiedade, sono ruim e solidão não têm idade, e vários desses são riscos psicossociais que a NR-01 agora pede para a empresa gerenciar.
 
 No Escritório do Cuidado, todo atendimento começa com a mesma pergunta: o que importa para você? Médico, psicólogo e assistente social dentro da empresa, com um plano de cuidado para cada pessoa. O RH recebe só indicadores do grupo, anonimizados.
 
@@ -421,10 +421,10 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
    ('Slide 2 · promessa', 'Só 33% dos jovens de 16 a 24 anos se dizem muito satisfeitos com a vida. Dos 25 para cima, 47,9%.', '', 'Foto + dado com nome da pesquisa e da autora.', 'Foto pendente.'),
    ('Slide 3 · dado', '46,7% dos jovens dizem que o trabalho os deixa mais infelizes (20,5% nas outras idades).', '', 'Dado grande.', 'Foto pendente.'),
    ('Slide 4 · dado', 'Mais de 1 em cada 5 não tem com quem contar. 27% preocupados; 71,1% tristes com as redes.', '', 'Dado em lista.', '"Mais de 1 em cada 5" vem de 79% que têm com quem contar.'),
-   ('Slide 5 · tendência e causa', 'Gen Z stare, task masking: o meme descreve um sintoma. As causas (sobrecarga, falta de sentido, ansiedade, sono ruim, solidão) não têm idade, e várias são riscos psicossociais da NR-01.', '', 'Texto em serif.', 'Junta os slides 5 e 6 do rascunho.'),
+   ('Slide 5 · causas', 'Desconexão tem causa, e nenhuma delas é a idade: sobrecarga, falta de sentido, ansiedade, sono ruim, solidão. Vários são riscos psicossociais que a NR-01 pede para a empresa gerenciar.', '', 'Lista numerada.', ''),
    ('Slide 6 · produto', 'No Escritório do Cuidado, todo atendimento começa com a mesma pergunta: o que importa para você?', '', 'Foto do espaço.', ''),
-   ('Slide 7 · produto RH e salvamento', 'O RH recebe só indicadores do grupo, anonimizados.\nTrês perguntas para o líder fazer ao time.', '', 'Checklist.', 'Conferir o que o relatório mostra.'),
-   ('Slide 8 · chamada', 'Geração Z não é o problema. Falta de cuidado é.\nComente CUIDADO.\nFonte completa da pesquisa.', '', 'Verde-escuro, logo.', ''),
+   ('Slide 6b · RH', 'O RH recebe só indicadores do grupo, anonimizados.', '', 'No slide do produto.', 'Conferir o que o relatório mostra.'),
+   ('Slide 7 · para o líder e chamada', 'Geração Z não é o problema. Falta de cuidado é.\nComente CUIDADO.\nFonte completa da pesquisa.', '', 'Verde-escuro, logo.', ''),
   ]),
 
  dict(id='N12', data=D(27), semana=4, bloco='6 · Decisão', eixo='Cases + Produto', fmt=CARR,

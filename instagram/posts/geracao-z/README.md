@@ -1,4 +1,4 @@
-# Carrossel: Geração Z e desconexão · 8 slides (25/11)
+# Carrossel: Geração Z e desconexão · 7 slides (25/11)
 
 Primeiro teste no tom editorial da @brandsdecoded_: manchete sem serifa,
 texto em serifa (Instrument Serif), dado com nome da pesquisa e da autora,
@@ -15,10 +15,9 @@ O texto de cada slide está em `slides.html`, as artes em `png/` e a prévia em
 | 2 | Promessa | A pesquisa: 33% dos jovens muito satisfeitos, contra 47,9% |
 | 3 | Dado | 46,7% dizem que o trabalho os deixa mais infelizes (20,5% nas outras idades) |
 | 4 | Dado | Mais de 1 em cada 5 não tem com quem contar; 27% preocupados; 71,1% tristes com as redes |
-| 5 | Tendência | Gen Z stare e task masking: o meme descreve um sintoma |
-| 6 | Técnico | As causas da desconexão e a NR-01 |
-| 7 | **Produto** | "O que importa para você?" no Escritório do Cuidado (foto do espaço): profissionais, bioimpedância e smartwatches, plano pela Medicina do Estilo de Vida; o RH recebe dados anonimizados e agregados |
-| 8 | **Salvamento + chamada** | Para o líder: três perguntas no lugar do rótulo. Comente CUIDADO. Fonte completa. |
+| 5 | Técnico | As causas da desconexão e a NR-01 |
+| 6 | **Produto** | "O que importa para você?" no Escritório do Cuidado (foto do espaço): profissionais, bioimpedância e smartwatches, plano pela Medicina do Estilo de Vida; o RH recebe dados anonimizados e agregados |
+| 7 | **Salvamento + chamada** | Para o líder: três perguntas no lugar do rótulo. Comente CUIDADO. Fonte completa. |
 
 ## Fotos que faltam (slides 1, 2, 3 e 4)
 
@@ -108,3 +107,11 @@ A Nina testou a versão em branco e Tiffany e preferiu a versão escura anterior
 último slide voltou sem o anel branco. A versão branca e Tiffany fica no histórico do git (commit anterior a este).
 Atenção: o fundo "noite" contraria a regra de cores do `CLAUDE.md` (16/11); falta a Nina dizer se a regra muda ou se
 este post é exceção.
+
+## Revisão de 23/11 (pedido da Nina)
+
+- **Saiu o slide do meme** ("A desconexão virou meme", Gen Z stare e task masking): não condiz com a linguagem técnica, intelectual e
+  médica da marca. O carrossel passou a **7 slides** e os ids foram renumerados (`gz-01` a `gz-07`). A legenda perdeu a frase do meme, e o
+  cronograma de novembro (`conteudo_posts_novembro.py` e a planilha) foi atualizado.
+- Continuam pendentes: as fotos dos slides 1 a 4, a conferência dos números no material original, o que o relatório do RH mostra e a revisão
+  do Dr. Ronald.
