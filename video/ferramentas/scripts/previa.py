@@ -16,6 +16,10 @@ import os, subprocess, sys
 from comum import FERR, carregar, pasta_prontos, pasta_trabalho, salvar
 
 W, H = 1080, 1920
+# Testada em 23/11 no IMG_2164: chiado nas pausas de -48 para -68 dB antes do nivelamento; voz em -14 LUFS.
+LIMPEZA_PADRAO = ("highpass=f=80,afftdn=nr=24:nf=-48:tn=1,anlmdn=s=4,equalizer=f=250:t=q:w=1:g=-2,"
+                  "equalizer=f=3500:t=q:w=1.2:g=3,acompressor=threshold=-30dB:ratio=2.5:attack=8:release=200:makeup=4,"
+                  "loudnorm=I=-14:TP=-1.5:LRA=9")
 
 
 def ff(*args):
@@ -73,11 +77,17 @@ def main(video, versao, teste=None):
     filtro += f"[{ultimo}][{entradas.count('-i') - 1}:v]overlay=0:0,format=yuv420p[v]"
     sfx = os.path.join(pasta, "renders", f"sfx_{vv}.wav")
     vel = e.get("velocidade", 1)  # ex.: 1.2 (Nina, 16/11): acelera o vídeo pronto, imagem e som juntos
+    # limpeza da voz (Nina, 23/11: "mais alto e mais claro, tirando os chiados"): corta o grave, tira o chiado,
+    # dá presença e nivela em -14 LUFS. Fica no estado em `audio_limpeza` ("padrao" ou uma cadeia de filtros).
+    limp = e.get("audio_limpeza")
+    if limp == "padrao":
+        limp = LIMPEZA_PADRAO
+    voz = f"[0:a]{limp + ',' if limp else ''}aresample=48000"
     if os.path.exists(sfx):  # voz + efeitos
         entradas += ["-i", sfx]
-        filtro += f";[0:a]aresample=48000[voz];[voz][{entradas.count('-i') - 1}:a]amix=inputs=2:normalize=0:duration=first[a]"
+        filtro += f";{voz}[voz];[voz][{entradas.count('-i') - 1}:a]amix=inputs=2:normalize=0:duration=first[a]"
     else:
-        filtro += ";[0:a]aresample=48000[a]"
+        filtro += f";{voz}[a]"
     if vel != 1:
         filtro = filtro.replace("format=yuv420p[v]", f"setpts=PTS/{vel},fps={fps},format=yuv420p[v]")
         filtro = filtro[:filtro.rindex("[a]")] + f",atempo={vel}[a]"
@@ -86,8 +96,9 @@ def main(video, versao, teste=None):
        "-preset", "slow", "-movflags", "+faststart", previa)
     if os.path.exists(sfx):
         ff("-i", sfx, "-c", "copy", os.path.join(out, f"sfx_{vv}.wav"))
-    if vel != 1:
-        ff("-i", apres, "-vf", f"setpts=PTS/{vel},fps={fps}", "-af", f"atempo={vel}", "-c:v", "libx264", "-crf", "16",
+    if vel != 1 or limp:
+        af = ",".join(x for x in [limp, f"atempo={vel}" if vel != 1 else ""] if x)
+        ff("-i", apres, "-vf", f"setpts=PTS/{vel},fps={fps}", "-af", af, "-c:v", "libx264", "-crf", "16",
            "-c:a", "aac", "-b:a", "256k", os.path.join(out, f"apresentadora_{vv}.mp4"))
     else:
         ff("-i", apres, "-c", "copy", os.path.join(out, f"apresentadora_{vv}.mp4"))

@@ -31,6 +31,12 @@ Se o vídeo tiver de ser acelerado (ex.: 1,2x, pedido da Nina em 16/11), grave `
 (`estado.py <video> --set velocidade 1.2`). Tudo é montado no tempo original e o `previa.py` acelera no fim
 (imagem com `setpts` e som com `atempo`, sem mudar o tom da voz), inclusive a peça `apresentadora`.
 
+## Limpeza da voz
+Para gravação com chiado ou voz baixa (Nina, 23/11), grave `audio_limpeza` = `padrao` no estado. O `previa.py`
+passa a voz por: corte de grave (80 Hz), redução de chiado (`afftdn` + `anlmdn`), um pouco menos de 250 Hz,
+presença em 3,5 kHz, compressão leve e nível em -14 LUFS. No IMG_2164 o chiado das pausas caiu de -48 para -68 dB
+antes do nivelamento. Meça o ruído numa pausa antes e depois.
+
 ## Conferir antes de entregar
 Resolução, fps e número de frames iguais em todas as peças; nenhum texto fora da área segura (3 quadros: no
 gancho, no número principal e no fechamento); "fairhealth" minúsculo; todo número com a fonte na tela;
