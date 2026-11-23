@@ -1,4 +1,4 @@
-# Detalhamento dos 13 posts de dezembro de 2026 (02/12 a 30/12; reels sempre na quarta, desde 23/11), usado por gerar_cronograma_simples.py (modelo padrão).
+# Detalhamento dos 13 posts de dezembro de 2026 (02/12 a 30/12; reels sempre na quarta, desde 23/11; seminário Mirix em 27/11, 30/11 e 02/12, em 23/11), usado por gerar_cronograma_simples.py (modelo padrão).
 # Base: as inspirações que a Nina mandou em 18/11 (instagram/inspiracoes-dezembro.md), o ritmo de novembro
 # (conteudo_posts_novembro.py), instagram/carrossel-de-tendencia.md (sleepmaxxing guardado para dezembro),
 # instagram/voice.md, instagram/referencias.md (site da fairjob, programa de 4 meses) e o CLAUDE.md.
@@ -14,62 +14,6 @@ VIS = 'Direção visual'
 ESP_REEL = 'Reel 9:16 (1080 × 1920), 30 a 45 s, texto na tela desde o 1º quadro, legendas sempre. Capa 4:5 para a grade.'
 
 POSTS = [
- dict(id='D00', data=D(2), semana=1, bloco='7 · Causas', eixo='Cultura', fmt=REEL,
-  titulo='Dezembro chegou: a corrida das metas também adoece',
-  sub='Uma prática de 1 minuto para o fim de ano e o convite para cuidar antes de 2027',
-  status='Pauta proposta (calendário de novembro)', resp='Nina · psicóloga ou Dr. Ronald (prática de 1 minuto)',
-  espec=ESP_REEL + ' Tipografia animada com contagem de 1 minuto.',
-  gancho='Dezembro chegou. E a corrida das metas também.',
-  objetivo='Abrir dezembro com uma prática simples de 1 minuto para o time e o convite para a empresa cuidar antes de 2027.',
-  portras='O fim de ano aperta todo mundo. Uma pausa pequena não resolve tudo, mas lembra que o cuidado cabe no dia.',
-  persona='Colaboradores; RH; Lideranças',
-  fio='Vem de: 30/11, o carrossel sobre pedido de demissão. Leva para: 04/12, a foto "Todo mundo precisa de alguém por perto".',
-  visual='Tipografia animada sobre Tiffany e verde, com um círculo que se fecha em 60 segundos durante a prática. Sem pessoas em cena.',
-  material='Canva (animação de texto), trilha calma, sem locução ou com voz em off.',
-  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
-  stories='Contagem regressiva para 2027 e a pergunta "O que você quer levar de cuidado para o ano que vem?".',
-  fonte='Prática de respiração e pausa: conteúdo educativo do guia "Saúde mental: o cuidado no dia a dia" (referencias.md). Sem número.',
-  validar='A psicóloga ou o Dr. Ronald valida a prática (sem promessa de efeito). Sem número sem fonte.',
-  arquivos='Ainda sem pasta. Sugestão: instagram/posts/dezembro-metas/',
-  legenda='''Dezembro chegou. E a corrida das metas também.
-
-Fechamento, entrega, confraternização, férias para organizar. O fim de ano aperta todo mundo ao mesmo tempo, e o cuidado costuma ficar para janeiro.
-
-Uma pausa de um minuto não resolve tudo, mas lembra que o cuidado cabe no dia. Pare, solte os ombros, respire devagar cinco vezes e escolha uma coisa que importa hoje.
-
-Para a empresa, o convite é o mesmo, numa escala maior: cuidar antes de 2027 começar. Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
-
-#fairhealth #saudecorporativa #saudemental #bemestarnotrabalho #gestaodepessoas''',
-  roteiro=[
-   ('0 a 3 s', 'Dezembro chegou.\nE a corrida das metas também.', '', 'Duas linhas, ritmo rápido.', 'Gancho.'),
-   ('3 a 8 s', 'Fechamento. Entrega. Confraternização. Férias para organizar.', '', 'Palavras em sequência, aceleradas.', ''),
-   ('8 a 12 s', 'Antes de seguir: 1 minuto.', '', 'O ritmo desacelera; aparece um círculo.', 'Virada.'),
-   ('12 a 22 s', 'Pare. Solte os ombros.\nRespire devagar, cinco vezes.', '', 'O círculo se fecha devagar.', 'Prática validada pela psicóloga.'),
-   ('22 a 26 s', 'Escolha uma coisa que importa hoje.', '', 'Frase única.', ''),
-   ('26 a 30 s', 'Para a empresa: cuidar antes de 2027 começar.\nComente CUIDADO', '', 'Logo sobre Tiffany.', ''),
-  ]),
- dict(id='D02', data=D(4), semana=1, bloco='7 · Causas', eixo='Produto', fmt=FOTO,
-  titulo='Todo mundo precisa de alguém por perto',
-  sub='Escuta, clareza e um plano possível, dentro da empresa',
-  inspiracao='Post "Everyone needs someone in their corner" (Reality With PSJ): foto aérea de duas pessoas em poltronas, creme, verde e terracota.',
-  cta='Mande esta imagem para quem cuida das pessoas na sua empresa',
-  fonte='Sem número. Descrição do Escritório do Cuidado conforme o site da fairjob (referencias.md).',
-  validar='Foto de banco com licença comercial (vista de cima, duas pessoas conversando, poltronas e piso claro). Nenhum colaborador atendido.',
-  roteiro=[
-   ('Imagem única 4:5', 'Todo mundo precisa de alguém por perto.\nEscuta, clareza e um plano possível, dentro da empresa.\nEscuta · Clareza · Plano', '', '', 'Sem telefone nem @ de outra marca.'),
-   (VIS, 'Foto aérea de duas pessoas conversando em poltronas, piso claro, uma planta na mesinha. Aspas grandes em Tiffany claro no alto, título em Raleway 800 verde-azulado escuro (#2F6B64), as três palavras no canto de baixo, uma em Tiffany. Logo fairhealth no canto, sem rodapé de contato. Cuidar para o verde das poltronas combinar com o verde da marca.', '', '', ''),
-  ],
-  legenda='''Todo mundo precisa de alguém por perto. No trabalho também.
-
-Alguém para escutar sem pressa, ajudar a enxergar com clareza o que pesa e montar um plano que caiba na rotina.
-
-É isso que o Escritório do Cuidado leva para dentro da empresa: médico, psicólogo e assistente social, presencial ou remoto, e um plano individual de cuidado com base na Medicina do Estilo de Vida.
-
-Mande esta imagem para quem cuida das pessoas na sua empresa.
-
-#fairhealth #saudecorporativa #escritoriodocuidado #cuidadocentradonapessoa #gestaodepessoas''',
-  palavras='Escritório do Cuidado,Medicina do Estilo de Vida,dentro da empresa'),
-
  dict(id='D03', data=D(7), semana=2, bloco='8 · Sono e dados', eixo='Cultura + Produto', fmt=CARR,
   titulo='Seu sono virou nota no relógio. Por que o cansaço continua?',
   sub='O que o smartwatch mostra, o que ele não mostra e onde o cuidado começa',
@@ -100,7 +44,6 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
 
 #fairhealth #saudecorporativa #sono #wearables #medicinadoestilodevida''',
   palavras='smartwatch,cansaço,sleepmaxxing'),
-
  dict(id='D04', data=D(9), semana=2, bloco='8 · Sono e dados', eixo='Cultura', fmt=REEL,
   titulo='Acordar toda hora: você dorme, mas não descansa',
   sub='Por que oito horas na cama nem sempre são oito horas de descanso',
@@ -128,7 +71,6 @@ Se o cansaço é constante, vale procurar um profissional de saúde.
 
 #fairhealth #saudecorporativa #sonoreparador #medicinadoestilodevida #gestaodepessoas''',
   palavras='sono reparador,acordar cansado,sono interrompido'),
-
  dict(id='D05', data=D(11), semana=2, bloco='8 · Sono e dados', eixo='Produto', fmt=CARR,
   titulo='O número do dia não conta a história toda',
   sub='Bioimpedância e smartwatch: a tendência de semanas entra na consulta',
@@ -188,35 +130,6 @@ Quer entender como funciona na sua empresa? Comente CUIDADO.
 
 #fairhealth #saudementalnotrabalho #burnout #nr01 #saudecorporativa''',
   palavras='saúde mental no trabalho,burnout,esgotamento'),
-
- dict(id='D07', data=D(18), semana=3, bloco='9 · Esgotamento', eixo='Cultura + Produto', fmt=CARR,
-  titulo='O que influencia a felicidade dos seus colaboradores?',
-  sub='Sono, relações, contas e propósito: o que pesa e quem cuida de cada parte',
-  inspiracao='Print "O que influencia sua saúde financeira" (controles deslizantes com percentuais) + legenda da Nina: "o que influencia a felicidade de seus colaboradores".',
-  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
-  fonte='{{percentuais dos fatores que mais influenciam a felicidade + pesquisa e ano}}. Candidata: Mapa da Felicidade Real dos Brasileiros 2026 (Renata Rivetti e Instituto Ideia), já usado em 25/11: conferir se traz os fatores. Pilares da MEV: Cartilha do Escritório do Cuidado. Felicitologista: site da fairjob.',
-  validar='Os percentuais e a fonte (sem eles, os controles deslizantes não têm posição e o slide 3 não sai). Não repetir os números da Geração Z de 25/11.',
-  roteiro=[
-   ('Slide 1 · capa', 'O que influencia a felicidade dos seus colaboradores?\nÀs vezes, a resposta está na rotina e não no cargo.', '', '', ''),
-   ('Slide 2 · contexto', 'Felicidade no trabalho não é clima de festa. É um conjunto de coisas que a empresa pode enxergar e cuidar.', '', '', ''),
-   ('Slide 3 · dado (controles deslizantes)', 'O que mais pesa\nSono e energia · {{%}}\nRelações · {{%}}\nContas em dia · {{%}}\nPropósito · {{%}}\nFonte: {{pesquisa, ano}}', '', '', 'Sem percentuais conferidos, o slide não sai. Os fatores podem mudar conforme a pesquisa.'),
-   ('Slide 4 · sono e energia', 'Sono e energia\nSono reparador é um dos sete pilares da Medicina do Estilo de Vida. Quem dorme mal sente o dia inteiro.', '', '', ''),
-   ('Slide 5 · relações e propósito', 'Relações e propósito\nSentir que pertence e que o trabalho faz sentido também são pilares da MEV, e é onde a escuta da liderança mais pesa.', '', '', ''),
-   ('Slide 6 · contas', 'Contas em dia\nFim de ano aperta a conta de muita gente. No Escritório do Cuidado, o assistente social ajuda a olhar o que pesa fora do trabalho.', '', '', ''),
-   ('Slide 7 · produto + convite', 'No Escritório do Cuidado, médico, psicólogo, assistente social e felicitologista cuidam de cada parte. O RH recebe só indicadores do grupo, anonimizados.\nQuer ver como funciona na sua empresa? Comente CUIDADO.', '', '', 'Chamada única.'),
-   (VIS, 'Fundo off-white leve. No slide 3, controles deslizantes como no print: linha fina em Tiffany claro, marcador em verde-azulado escuro (um coração só se combinar com a marca; senão, uma bolinha), percentual à direita. Sem verde de outra paleta: o verde do print vira o nosso Tiffany e o verde-azulado escuro (#2F6B64). Um slide pequeno de rosca no fim do slide 3 não é necessário.', '', '', ''),
-  ],
-  legenda='''O que influencia a felicidade de quem trabalha com você? Sono, relações, contas e propósito entram na conta.
-
-No carrossel, os fatores que mais pesam segundo {{pesquisa + ano}}. Vários são pilares da Medicina do Estilo de Vida: sono reparador, relações sociais, saúde mental e propósito. Outros, como a conta que aperta no fim do ano, pedem a escuta do serviço social.
-
-No Escritório do Cuidado, médico, psicólogo, assistente social e felicitologista cuidam de cada parte, presencial ou remoto, com um plano individual feito com a pessoa. O RH recebe só indicadores do grupo, anonimizados.
-
-Quer ver como funciona na sua empresa? Comente CUIDADO.
-
-#fairhealth #saudecorporativa #felicidadenotrabalho #medicinadoestilodevida #gestaodepessoas''',
-  palavras='felicidade de quem trabalha,Medicina do Estilo de Vida,saúde mental'),
-
  dict(id='D08', data=D(16), semana=3, bloco='9 · Esgotamento', eixo='Notícias + Produto', fmt=REEL,
   titulo='A empresa acha que cuida. O time percebe?',
   sub='A distância entre querer um empregador que cuide e sentir que a empresa cuida',
@@ -240,7 +153,6 @@ Programa que ninguém usa não chega a quem precisa. Adesão é o primeiro resul
 
 #fairhealth #saudecorporativa #bemestarcorporativo #gestaodepessoas #escritoriodocuidado''',
   palavras='bem-estar,Escritório do Cuidado,adesão'),
-
  dict(id='D09', data=D(21), semana=4, bloco='10 · Começar', eixo='Produto + Mercado', fmt=CARR,
   titulo='O que o RH recebe do Escritório do Cuidado?',
   sub='Um relatório de indicadores do grupo, anonimizados, sem o nome de ninguém',
@@ -269,7 +181,6 @@ Quer ver um exemplo completo? Comente CUIDADO e enviamos como funciona o Escrit�
 
 #fairhealth #saudecorporativa #fairdata #gestaodepessoas #indicadoresdesaude''',
   palavras='indicadores do grupo,anonimizados,painel fairdata'),
-
  dict(id='D10', data=D(23), semana=4, bloco='10 · Começar', eixo='Produto', fmt=REEL,
   titulo='Janeiro está aí: por onde o cuidado começa na empresa',
   sub='Conversa, proposta personalizada e implementação, num programa de 4 meses',
@@ -294,7 +205,6 @@ O programa dura quatro meses: diagnóstico integrado da população no primeiro 
 
 #fairhealth #saudecorporativa #escritoriodocuidado #medicinadoestilodevida #gestaodepessoas''',
   palavras='proposta personalizada,Escritório do Cuidado,programa dura quatro meses'),
-
  dict(id='D11', data=D(24), semana=4, bloco='10 · Começar', eixo='Institucional', fmt=FOTO,
   titulo='Boas festas do time fairhealth',
   sub='Uma pausa de fim de ano para quem cuida de gente',
@@ -312,7 +222,6 @@ Obrigado a cada RH, líder e profissional de saúde que cuidou de pessoas em 202
 
 #fairhealth #boasfestas #saudecorporativa #gestaodepessoas #cuidado''',
   palavras='boas festas,fim de ano,cuida de gente'),
-
  dict(id='D12', data=D(30), semana=5, bloco='11 · Virada do ano', eixo='Institucional', fmt=REEL,
   titulo='O que é importante para você? O time responde',
   sub='A pergunta que abre cada atendimento, respondida por quem cuida',
@@ -335,7 +244,6 @@ Escutar vem antes de tratar. Por isso a conversa começa pelo que pesa e pelo qu
 
 #fairhealth #saudecorporativa #escritoriodocuidado #cuidadocentradonapessoa #medicinadoestilodevida''',
   palavras='o que é importante para você,Escritório do Cuidado,Medicina do Estilo de Vida'),
-
  dict(id='D13', data=D(28), semana=5, bloco='11 · Virada do ano', eixo='Mercado + Produto', fmt=CARR,
   titulo='5 perguntas para o RH levar ao planejamento de 2027',
   sub='Adesão, dados, prevenção, NR-01 e medição: o que perguntar antes de fechar o programa de saúde',
@@ -364,19 +272,109 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
 
 #fairhealth #saudecorporativa #gestaodepessoas #planejamento2027 #medicinadoestilodevida''',
   palavras='planejamento de 2027,programa de saúde,absenteísmo'),
+ dict(id='S01', data=D(2), semana=1, bloco='7 · Seminário e prova', eixo='Notícias + Institucional', fmt=REEL,
+  titulo='A felicidade no trabalho pode ser medida',
+  sub='Cortes do Seminário Internacional Mirix com Fernando Brancaccio e Dr. Ronald Maia Filho',
+  inspiracao='Cortes do vídeo de 30 min do seminário (YouTube, BH Ao Vivo). Substitui o reel "Dezembro chegou", que vira story.',
+  cta='Mande este reel para quem cuida de gente na sua empresa',
+  fonte='Vídeo do seminário (BH Ao Vivo, YouTube) e matéria de 21/11/2026. As frases entre aspas vêm da matéria: conferir no vídeo e anotar o minuto de cada corte. O vídeo ainda não foi acessado (o YouTube bloqueia a leitura pela ferramenta).',
+  validar='Arquivo do vídeo ou transcrição e os minutos dos cortes. Autorização de BH Ao Vivo e da Mirix para reaproveitar trechos. Ok de Fernando e Dr. Ronald. Nome e CRM do Dr. Ronald na tela (CFM).',
+  roteiro=[
+   ('0 a 3 s', 'A felicidade no trabalho pode ser medida.', 'Corte do Fernando: {{min:seg}} (a felicidade pode ser medida, acompanhada e estimulada)', 'Corte vertical 9:16 sobre o vídeo do seminário, título em Raleway 800.', 'Gancho. Conferir a fala no vídeo.'),
+   ('3 a 12 s', 'Percepção vira indicador. Indicador vira decisão.', 'Corte do Fernando: {{min:seg}}', 'Mesma pessoa, plano mais fechado; texto na tela.', ''),
+   ('12 a 22 s', 'Decisão compartilhada: entender o que importa para a pessoa.', 'Corte do Dr. Ronald: {{min:seg}} ("Às vezes uma conversa resolve.")', 'Nome e CRM na tela.', 'Conferir a frase no vídeo.'),
+   ('22 a 30 s', 'Não é eu contra você, nós juntos.', 'Corte do Fernando: {{min:seg}}', 'Frase em Instrument Serif itálico, só ela.', 'Conferir a frase no vídeo.'),
+   ('30 a 38 s', 'No Escritório do Cuidado, tudo começa pela pergunta: o que importa para você?\nMande para quem cuida de gente na sua empresa.', '', 'Fundo Tiffany, logo no fim.', 'Chamada única.'),
+   (VIS, 'Reel 9:16, 35 a 40 s, legendas sempre. Recorte vertical do vídeo do seminário, com o nome de cada pessoa em Tiffany. Fundo neutro e Raleway. Sem logos da Mirix na tela, a menos que autorizado.', '', '', ''),
+  ],
+  legenda='''A felicidade no trabalho pode ser medida. Mande este reel para quem cuida de gente na sua empresa.
+
+Cortes do Seminário Internacional Mirix, em Belo Horizonte, com o Fernando Brancaccio e o Dr. Ronald Maia Filho. A ideia é simples: percepção vira indicador, indicador vira decisão, e o cuidado começa pelo que importa para cada pessoa.
+
+No Escritório do Cuidado, a conversa parte da pergunta "o que importa para você?", com plano pela Medicina do Estilo de Vida, bioimpedância e smartwatch. O RH recebe só indicadores do grupo, anonimizados.
+
+O vídeo completo está no canal do BH Ao Vivo.
+
+#fairhealth #saudecorporativa #felicidadenotrabalho #escritoriodocuidado #gestaodepessoas''',
+  palavras='felicidade no trabalho,Seminário Internacional Mirix,indicadores'),
+ dict(id='C01', data=D(4), semana=1, bloco='7 · Seminário e prova', eixo='Cases + Produto', fmt=CARR,
+  titulo='Case Chemitec: como 98% do time aceitou ser cuidado',
+  sub='Adesão e continuidade num case real, com o convite para conversar ao planejar 2027',
+  status='Pauta proposta (calendário de novembro)', resp='Nina · Sócios (liberação do case)',
+  espec='Carrossel 4:5 (1080 × 1350), 8 slides, estilo institucional.',
+  gancho='98% do time aceitou ser cuidado. O que essa empresa fez diferente?',
+  objetivo='Provar adesão e continuidade com um case real e convidar o RH para uma conversa ao planejar 2027.',
+  portras='Adesão não se impõe: acontece quando o cuidado está perto, começa pela escuta e cabe na rotina.',
+  persona='RH; Diretoria financeira',
+  fio='Vem de: 02/12, o reel do seminário. Leva para: 07/12, o sono.',
+  visual='Estilo institucional, um número por slide, calmo, sempre com "1º semestre de 2026". Fotos de banco de indústria (capacete, linha de produção), sem rosto de colaborador.',
+  material='Tipografia e fotos de banco. Logo da Chemitec só com autorização.',
+  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
+  stories='Sequência com os 4 números e o adesivo "Mande uma mensagem".',
+  fonte='Chemitec, 1º semestre de 2026 (voice.md, LIBERADO): 161 atendimentos; 48 colaboradores atendidos (98% de adesão); 81,3% voltaram para 2 ou mais atendimentos; 46 smartwatches em uso. Sempre agregado.',
+  validar='Decisão de 30/10 tirou dados de clientes dos posts: confirmar com os sócios se o case sai e se pode citar o nome Chemitec (autorização escrita do cliente). Se não puder, "uma indústria que atendemos". Conferir como foi a implantação (slide 2) antes de descrever.',
+  arquivos='Ainda sem pasta. Sugestão: instagram/posts/case-adesao/',
+  legenda='''98% do time aceitou ser cuidado. O que essa empresa fez diferente?
+
+Na Chemitec, no primeiro semestre de 2026, o Escritório do Cuidado atendeu 48 colaboradores, 98% de adesão. Foram 161 atendimentos, e 81,3% das pessoas voltaram para dois ou mais. Entre uma consulta e outra, 46 smartwatches acompanham a rotina de quem é cuidado.
+
+O que estava por trás: o cuidado perto de quem trabalha, a primeira consulta começando por "o que importa para você?" e um plano que cabe no turno. O RH recebe só indicadores do grupo, anonimizados.
+
+Ao planejar 2027, comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
+
+#fairhealth #saudecorporativa #escritoriodocuidado #gestaodepessoas #medicinadoestilodevida''',
+  roteiro=[
+   ('Slide 1 · capa', '98% do time aceitou ser cuidado.\nO que essa empresa fez diferente?', '', 'Foto de banco de indústria, número em destaque.', 'Nome do cliente só com autorização.'),
+   ('Slide 2 · contexto', 'Uma indústria, primeiro semestre de 2026. O Escritório do Cuidado dentro da empresa.', '', 'Fundo claro.', 'Conferir como foi a implantação antes de detalhar.'),
+   ('Slide 3 · adesão', '48 colaboradores atendidos\n98% de adesão', '', 'Fundo verde, número em Tiffany.', ''),
+   ('Slide 4 · volume', '161 atendimentos no semestre', '', 'Fundo Tiffany.', ''),
+   ('Slide 5 · continuidade', '81,3% voltaram para dois ou mais atendimentos.\nNinguém volta a um lugar onde não se sentiu cuidado.', '', 'Fundo verde.', ''),
+   ('Slide 6 · entre as consultas', '46 smartwatches acompanham a rotina de quem é cuidado.\nO RH recebe só indicadores do grupo.', '', 'Foto de pulseira (banco).', ''),
+   ('Slide 7 · o que estava por trás', 'Cuidado perto de quem trabalha · a primeira consulta começa por "o que importa para você?" · um plano que cabe no turno', '', 'Fundo claro, três pontos no fio.', 'Fatos do método, sem frase-resumo.'),
+   ('Slide 8 · chamada', 'Ao planejar 2027:\ncomente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.', '', 'Verde-escuro, logo.', 'Sem "oferta", "promoção" ou "Black Friday".'),
+  ]),
+ dict(id='D01', data=D(18), semana=3, bloco='9 · Esgotamento', eixo='Cultura + Produto', fmt=CARR,
+  titulo='Por que as pessoas pedem demissão?',
+  sub='O motivo que o RH só descobre na entrevista de desligamento e o que existe por trás dele',
+  inspiracao='Print "Por que as contas atrasam?" (gráfico de barras em carrossel) + legenda da Nina: "por que as pessoas se demitem?"',
+  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
+  fonte='{{4 motivos de pedido de demissão com percentuais + pesquisa e ano}} (buscar pesquisa brasileira recente e conferir no original). NR-01 e fatores psicossociais: gov.br/MTE (mesma conferência do 18/11).',
+  validar='Achar e conferir a pesquisa dos motivos (sem ela, o slide 3 não sai com percentuais). Revisão do Dr. Ronald (NR-01).',
+  roteiro=[
+   ('Slide 1 · capa', 'Por que as pessoas pedem demissão?\nO que o RH só descobre na entrevista de desligamento.', '', '', ''),
+   ('Slide 2 · contexto', 'A entrevista de desligamento chega tarde.\nQuando a pessoa já decidiu sair, o motivo começou antes. E quase sempre ficou sem ser dito.', '', '', ''),
+   ('Slide 3 · dado (gráfico de barras)', 'Os motivos mais citados\n{{motivo 1 · %}} · {{motivo 2 · %}} · {{motivo 3 · %}} · {{outros · %}}\nFonte: {{pesquisa, ano, número de respondentes}}', '', '', 'Sem os percentuais conferidos, o slide não sai.'),
+   ('Slide 4 · o que existe por trás', 'Por trás do motivo, quase sempre há uma causa de saúde: sobrecarga, sono ruim, ansiedade, conflito com a liderança.\nVários desses são fatores de risco psicossocial, tema que a NR-01 trata como de gestão.', '', '', ''),
+   ('Slide 5 · produto', 'No Escritório do Cuidado, a primeira pergunta é: o que importa para você?\nMédico, psicólogo e assistente social dentro da empresa, presencial ou remoto. O plano é feito com a pessoa, com base na Medicina do Estilo de Vida, com bioimpedância e smartwatch acompanhando a rotina.', '', '', ''),
+   ('Slide 6 · RH + convite', 'O RH não fica sabendo o que cada um conta. Recebe só indicadores do grupo, anonimizados, para agir antes que o desgaste vire saída ou afastamento.\nQuer ver como isso funciona na sua empresa? Comente CUIDADO.', '', '', 'Chamada única.'),
+   (VIS, 'Fundo creme/papel, título em Raleway. No slide 3, barras horizontais como no print: percentual à esquerda, ícone linear à direita, a barra maior em verde-azulado escuro (#2F6B64) e as demais em Tiffany (#9FC5BD). Sem vermelho nem emoji. Slide 5 com foto do espaço ou de banco; fundo verde-azulado escuro só em um slide de contraste.', '', '', ''),
+  ],
+  legenda='''Por que as pessoas pedem demissão? O RH costuma descobrir só na entrevista de desligamento, quando a decisão já foi tomada.
+
+No carrossel, os motivos mais citados em {{pesquisa + ano}} e o que costuma existir por trás deles: sobrecarga, sono ruim, ansiedade e conflito com a liderança. Vários são fatores de risco psicossocial, tema que a NR-01 trata como de gestão.
+
+No Escritório do Cuidado, a conversa começa por uma pergunta: o que importa para você? Médico, psicólogo e assistente social dentro da empresa escutam, e o plano é feito com a pessoa, com base na Medicina do Estilo de Vida. A bioimpedância e o smartwatch acompanham a rotina entre uma consulta e outra.
+
+O RH não fica sabendo o que cada um conta. Recebe só indicadores do grupo, anonimizados, para agir antes que o desgaste vire saída ou afastamento.
+
+Quer entender como isso funcionaria na sua empresa? Comente CUIDADO e enviamos como funciona o Escritório do Cuidado.
+
+#fairhealth #saudecorporativa #gestaodepessoas #turnover #medicinadoestilodevida''',
+  palavras='pedem demissão,entrevista de desligamento,Escritório do Cuidado'),
 ]
 POSTS.sort(key=lambda p: p['data'])
 
 PENDENCIAS = [
- ('D00', 'Validar a prática de 1 minuto (psicóloga ou Dr. Ronald).', 'Psicóloga ou Dr. Ronald', 'Aberta'),
- ('D02, D11', 'Fotos de banco com licença comercial (aérea de duas pessoas em poltronas; perfil olhando para o céu).', 'Nina', 'Aberta'),
+ ('S01', 'Arquivo do vídeo do seminário (ou transcrição) e minutos dos cortes. Autorização de BH Ao Vivo e Mirix para reaproveitar trechos. Ok de Fernando e Dr. Ronald; nome e CRM na tela.', 'Nina', 'Aberta'),
+ ('C01', 'Case Chemitec: confirmar com os sócios se o case sai e se pode citar o nome (decisão de 30/10 tirou dados de cliente). Se não, "uma indústria que atendemos".', 'Sócios', 'Aberta'),
+ ('D01', 'Achar e conferir a pesquisa dos motivos de pedido de demissão (percentuais, ano, amostra). Sem ela, o slide 3 não sai.', 'Comunicação', 'Aberta'),
  ('D03, D05', 'Quais dados o smartwatch e a bioimpedância registram. Foto da capa do sono, com dados de exemplo marcados.', 'Dr. Ronald e fairdata', 'Aberta'),
  ('D04', 'Revisão do roteiro do sono pelo Dr. Ronald, data de gravação e, se ele aparecer, nome e CRM na tela (CFM).', 'Dr. Ronald e Comunicação', 'Aberta'),
  ('D06', 'Conferir o texto da OMS (CID-11) sobre burnout e a redação sobre a NR-01. Revisão médica ou da psicóloga.', 'Comunicação e Dr. Ronald', 'Aberta'),
- ('D07', 'Percentuais e fonte dos fatores da felicidade (candidata: Mapa da Felicidade Real, já usado em 25/11).', 'Comunicação', 'Aberta'),
  ('D08', 'Achar a pesquisa dos dois números da lacuna (querem x percebem). Liberação dos dados de cliente (decisão de 30/10).', 'Comunicação e Sócios', 'Aberta'),
  ('D09', 'O que o relatório do RH mostra de fato (fairdata). Não mostrar indicador que ainda não existe.', 'Nina e fairdata', 'Aberta'),
  ('D10', 'Resposta automática da palavra CUIDADO funcionando até 23/12.', 'Comunicação', 'Aberta'),
+ ('D11', 'Foto de banco com licença comercial (perfil olhando para o céu).', 'Nina', 'Aberta'),
  ('D12', 'Quem do time grava, quando, e autorização de imagem. Confirmar se a apresentação do time já pode.', 'Nina', 'Aberta'),
  ('D13', 'Redação da NR-01 e do PGR conferida no texto do MTE. Revisão do Dr. Ronald.', 'Comunicação e Dr. Ronald', 'Aberta'),
 ]

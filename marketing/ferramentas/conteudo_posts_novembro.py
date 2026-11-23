@@ -427,78 +427,72 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
    ('Slide 7 · para o líder e chamada', 'Geração Z não é o problema. Falta de cuidado é.\nComente CUIDADO.\nFonte completa da pesquisa.', '', 'Verde-escuro, logo.', ''),
   ]),
 
- dict(id='N12', data=D(27), semana=4, bloco='6 · Decisão', eixo='Cases + Produto', fmt=CARR,
-  titulo='Case Chemitec: como 98% do time aceitou ser cuidado',
-  sub='Adesão e continuidade num case real, com o convite para conversar antes do orçamento de 2027',
-  status='Pauta proposta (calendário de novembro)', resp='Nina · Sócios (liberação do case)',
-  espec='Carrossel 4:5 (1080 × 1350), 8 slides, estilo institucional. Sexta de Black Friday: sem linguagem de promoção.',
-  gancho='98% do time aceitou ser cuidado. O que essa empresa fez diferente?',
-  objetivo='Provar adesão e continuidade com um case real e convidar o RH para uma conversa antes do orçamento de 2027.',
-  portras='Adesão não se impõe: acontece quando o cuidado está perto, começa pela escuta e cabe na rotina.',
-  persona='RH; Diretoria financeira',
-  fio='Vem de: 25/11, Geração Z. Leva para: 30/11, a virada para dezembro.',
-  visual='Estilo institucional, um número por slide, calmo, sempre com "1º semestre de 2026". Fotos de banco de indústria (capacete, linha de produção), sem rosto de colaborador.',
-  material='Tipografia e fotos de banco. Logo da Chemitec só com autorização.',
+ dict(id='N12', data=D(27), semana=4, bloco='6 · Atualidade', eixo='Notícias + Institucional', fmt=CARR,
+  titulo='Seminário Mirix: a felicidade no trabalho pode ser medida',
+  sub='Dr. Ronald Maia Filho e Fernando Brancaccio em Belo Horizonte e o que isso muda para quem cuida de gente',
+  inspiracao='Repostagem da matéria do BH Ao Vivo (21/11/2026) sobre o Seminário Internacional Mirix (05/11). Layout institucional, card nosso.',
   cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
-  stories='Sequência com os 4 números e o adesivo "Mande uma mensagem".',
-  fonte='Chemitec, 1º semestre de 2026 (voice.md, LIBERADO): 161 atendimentos; 48 colaboradores atendidos (98% de adesão); 81,3% voltaram para 2 ou mais atendimentos; 46 smartbands em uso. Sempre agregado.',
-  validar='Decisão de 30/10 tirou dados de clientes dos posts: confirmar com os sócios se o case sai e se pode citar o nome Chemitec (autorização escrita do cliente). Se não puder, "uma indústria que atendemos". Conferir como foi a implantação (slide 2) antes de descrever.',
-  arquivos='Ainda sem pasta. Sugestão: instagram/posts/case-adesao/',
-  legenda='''98% do time aceitou ser cuidado. O que essa empresa fez diferente?
-
-Na Chemitec, no primeiro semestre de 2026, o Escritório do Cuidado atendeu 48 colaboradores, 98% de adesão. Foram 161 atendimentos, e 81,3% das pessoas voltaram para dois ou mais. Entre uma consulta e outra, 46 smartbands acompanham a rotina de quem é cuidado.
-
-O que estava por trás: o cuidado perto de quem trabalha, a primeira consulta começando por "o que importa para você?" e um plano que cabe no turno. O RH recebe só indicadores do grupo, anonimizados.
-
-Antes de fechar o orçamento de 2027, comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
-
-#fairhealth #saudecorporativa #escritoriodocuidado #gestaodepessoas #medicinadoestilodevida''',
+  fonte='BH Ao Vivo, 21/11/2026: "Especialistas apresentam metodologia que mede a felicidade e coloca o ser humano no centro das organizações durante o Seminário Internacional Mirix". Evento "ELO do Cuidado", Belo Horizonte, 05/11/2026. Citações curtas das falas marcadas com aspas na matéria: "Às vezes uma conversa resolve" (Ronald) e "Não é eu contra você, nós juntos" (Fernando). O resto é paráfrase da matéria. Sem os 73,9 pontos da Clínica Mirix (dado de terceiro).',
+  validar='Ok de Fernando e Dr. Ronald para o texto. Foto do evento nossa ou frames do vídeo (não usar as fotos do portal sem autorização). Crédito "Fonte: BH Ao Vivo, 21/11/2026" na arte e link da matéria no primeiro comentário. A matéria não cita fairhealth nem fairjob: a ligação com a marca é só do nosso texto.',
   roteiro=[
-   ('Slide 1 · capa', '98% do time aceitou ser cuidado.\nO que essa empresa fez diferente?', '', 'Foto de banco de indústria, número em destaque.', 'Nome do cliente só com autorização.'),
-   ('Slide 2 · contexto', 'Uma indústria, primeiro semestre de 2026. O Escritório do Cuidado dentro da empresa.', '', 'Fundo claro.', 'Conferir como foi a implantação antes de detalhar.'),
-   ('Slide 3 · adesão', '48 colaboradores atendidos\n98% de adesão', '', 'Fundo verde, número em Tiffany.', ''),
-   ('Slide 4 · volume', '161 atendimentos no semestre', '', 'Fundo Tiffany.', ''),
-   ('Slide 5 · continuidade', '81,3% voltaram para dois ou mais atendimentos.\nNinguém volta a um lugar onde não se sentiu cuidado.', '', 'Fundo verde.', ''),
-   ('Slide 6 · entre as consultas', '46 smartbands acompanham a rotina de quem é cuidado.\nO RH recebe só indicadores do grupo.', '', 'Foto de pulseira (banco).', ''),
-   ('Slide 7 · o que estava por trás', 'Cuidado perto de quem trabalha · a primeira consulta começa por "o que importa para você?" · um plano que cabe no turno', '', 'Fundo claro, três pontos no fio.', 'Fatos do método, sem frase-resumo.'),
-   ('Slide 8 · chamada', 'Antes de fechar o orçamento de 2027:\ncomente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.', '', 'Verde-escuro, logo.', 'Sem "oferta", "promoção" ou "Black Friday".'),
-  ]),
-
- dict(id='N13', data=D(30), semana=5, bloco='7 · Causas', eixo='Cultura + Produto', fmt=CARR,
-  titulo='Por que as pessoas pedem demissão?',
-  sub='O motivo que o RH só descobre na entrevista de desligamento e o que existe por trás dele',
-  inspiracao='Print "Por que as contas atrasam?" (gráfico de barras em carrossel) + legenda da Nina: "por que as pessoas se demitem?"',
-  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
-  fonte='{{4 motivos de pedido de demissão com percentuais + pesquisa e ano}} (buscar pesquisa brasileira recente e conferir no original). NR-01 e fatores psicossociais: gov.br/MTE (mesma conferência do 18/11).',
-  validar='Achar e conferir a pesquisa dos motivos (sem ela, o slide 3 não sai com percentuais). Revisão do Dr. Ronald (NR-01).',
-  roteiro=[
-   ('Slide 1 · capa', 'Por que as pessoas pedem demissão?\nO que o RH só descobre na entrevista de desligamento.', '', '', ''),
-   ('Slide 2 · contexto', 'A entrevista de desligamento chega tarde.\nQuando a pessoa já decidiu sair, o motivo começou antes. E quase sempre ficou sem ser dito.', '', '', ''),
-   ('Slide 3 · dado (gráfico de barras)', 'Os motivos mais citados\n{{motivo 1 · %}} · {{motivo 2 · %}} · {{motivo 3 · %}} · {{outros · %}}\nFonte: {{pesquisa, ano, número de respondentes}}', '', '', 'Sem os percentuais conferidos, o slide não sai.'),
-   ('Slide 4 · o que existe por trás', 'Por trás do motivo, quase sempre há uma causa de saúde: sobrecarga, sono ruim, ansiedade, conflito com a liderança.\nVários desses são fatores de risco psicossocial, tema que a NR-01 trata como de gestão.', '', '', ''),
-   ('Slide 5 · produto', 'No Escritório do Cuidado, a primeira pergunta é: o que importa para você?\nMédico, psicólogo e assistente social dentro da empresa, presencial ou remoto. O plano é feito com a pessoa, com base na Medicina do Estilo de Vida, com bioimpedância e smartwatch acompanhando a rotina.', '', '', ''),
-   ('Slide 6 · RH + convite', 'O RH não fica sabendo o que cada um conta. Recebe só indicadores do grupo, anonimizados, para agir antes que o desgaste vire saída ou afastamento.\nQuer ver como isso funciona na sua empresa? Comente CUIDADO.', '', '', 'Chamada única.'),
-   (VIS, 'Fundo creme/papel, título em Raleway. No slide 3, barras horizontais como no print: percentual à esquerda, ícone linear à direita, a barra maior em verde-azulado escuro (#2F6B64) e as demais em Tiffany (#9FC5BD). Sem vermelho nem emoji. Slide 5 com foto do espaço ou de banco; fundo verde-azulado escuro só em um slide de contraste.', '', '', ''),
+   ('Slide 1 · capa', 'Seminário Mirix: a felicidade no trabalho pode ser medida.\nDr. Ronald Maia Filho e Fernando Brancaccio, em Belo Horizonte.', '', '', ''),
+   ('Slide 2 · o encontro', 'O encontro\nSeminário Internacional Mirix, ELO do Cuidado. Belo Horizonte, 5 de novembro. O tema: do consultório à rede.', '', '', ''),
+   ('Slide 3 · Dr. Ronald', 'Dr. Ronald Maia Filho\nO cuidado começa por entender o que importa para a pessoa, em vez de decidir sozinho o que é melhor para ela.\n"Às vezes uma conversa resolve."', '', '', 'Citação literal da matéria.'),
+   ('Slide 4 · Fernando', 'Fernando Brancaccio\nA felicidade pode ser medida, acompanhada e estimulada com ações concretas. Percepção vira indicador, indicador vira decisão.', '', '', 'Paráfrase da matéria, sem aspas.'),
+   ('Slide 5 · gestão', 'Cuidar de quem trabalha é estratégia de gestão, e não iniciativa assistencial.\n"Não é eu contra você, nós juntos."', '', '', 'Citação literal da matéria (Fernando).'),
+   ('Slide 6 · Escritório + convite', 'No Escritório do Cuidado, a pergunta que abre cada atendimento é a mesma: o que importa para você? O plano é pela Medicina do Estilo de Vida, com bioimpedância e smartwatch, e o RH recebe só indicadores do grupo, anonimizados.\nQuer ver como funciona na sua empresa? Comente CUIDADO.\nFonte: BH Ao Vivo, 21/11/2026.', '', '', 'Chamada única; fonte em letra miúda.'),
+   (VIS, 'Carrossel 4:5, 6 slides, fundo creme/papel, Raleway, um bloco por slide, sem numeração. Slides 3 e 4 com foto do evento ou frame do vídeo em faixa (sem a foto do portal), nome em Tiffany. Citações em Instrument Serif itálico, só a frase. Fonte da matéria em letra miúda no slide 6.', '', '', ''),
   ],
-  legenda='''Por que as pessoas pedem demissão? O RH costuma descobrir só na entrevista de desligamento, quando a decisão já foi tomada.
+  legenda='''Cuidar de quem trabalha é estratégia de gestão, e dá para medir.
 
-No carrossel, os motivos mais citados em {{pesquisa + ano}} e o que costuma existir por trás deles: sobrecarga, sono ruim, ansiedade e conflito com a liderança. Vários são fatores de risco psicossocial, tema que a NR-01 trata como de gestão.
+No Seminário Internacional Mirix, em Belo Horizonte, o Dr. Ronald Maia Filho e o Fernando Brancaccio apresentaram o mesmo caminho por dois lados. O cuidado começa por entender o que importa para a pessoa. E o que importa, como a felicidade no trabalho, pode virar indicador, e o indicador, decisão.
 
-No Escritório do Cuidado, a conversa começa por uma pergunta: o que importa para você? Médico, psicólogo e assistente social dentro da empresa escutam, e o plano é feito com a pessoa, com base na Medicina do Estilo de Vida. A bioimpedância e o smartwatch acompanham a rotina entre uma consulta e outra.
+É o que fazemos no Escritório do Cuidado: a primeira pergunta do atendimento é "o que importa para você?", o plano é feito com a pessoa, com base na Medicina do Estilo de Vida, e a bioimpedância e o smartwatch acompanham a rotina. O RH recebe só indicadores do grupo, anonimizados.
 
-O RH não fica sabendo o que cada um conta. Recebe só indicadores do grupo, anonimizados, para agir antes que o desgaste vire saída ou afastamento.
+Matéria completa no BH Ao Vivo (21/11/2026), com o link no primeiro comentário.
 
-Quer entender como isso funcionaria na sua empresa? Comente CUIDADO e enviamos como funciona o Escritório do Cuidado.
+Quer ver como funciona na sua empresa? Comente CUIDADO.
 
-#fairhealth #saudecorporativa #gestaodepessoas #turnover #medicinadoestilodevida''',
-  palavras='pedem demissão,entrevista de desligamento,Escritório do Cuidado'),
+#fairhealth #saudecorporativa #felicidadenotrabalho #escritoriodocuidado #gestaodepessoas''',
+  palavras='felicidade no trabalho,Seminário Internacional Mirix,Escritório do Cuidado'),
+ dict(id='N13', data=D(30), semana=5, bloco='6 · Atualidade', eixo='Cultura + Produto', fmt=CARR,
+  titulo='Como se mede a felicidade no trabalho?',
+  sub='As 9 dimensões da Felicidade Interna Bruta do Butão e o questionário anônimo que nasceu delas',
+  inspiracao='Print "O que influencia sua saúde financeira" (lista com marcadores e destaque numérico), agora com as 9 dimensões da FIB no lugar de percentuais. Fonte: matéria do BH Ao Vivo (21/11/2026).',
+  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
+  fonte='BH Ao Vivo, 21/11/2026: Fernando Brancaccio foi ao Butão conhecer a Felicidade Interna Bruta (FIB); a matéria lista as 9 dimensões (bem-estar psicológico, saúde, uso do tempo, vitalidade comunitária, educação, cultura, meio ambiente, governança, padrão de vida) e descreve um questionário anônimo, que busca fatores como saúde emocional, relações sociais, condições financeiras, segurança e qualidade da gestão. Conferir as 9 dimensões na fonte original da FIB (Centre for Bhutan and GNH Studies). Sem números.',
+  validar='Confirmar com Fernando se o questionário faz parte da oferta da fairhealth (a matéria só diz que ele nasceu da parceria com o Dr. Ronald e foi aplicado na Clínica Mirix) e quais dimensões ele usa. Conferir as 9 dimensões da FIB na fonte original. Sem os 73,9 pontos da Clínica Mirix.',
+  roteiro=[
+   ('Slide 1 · capa', 'Como se mede a felicidade no trabalho?\nA metodologia do Butão que inspirou um questionário para empresas.', '', '', ''),
+   ('Slide 2 · promessa (funciona sozinho)', 'Felicidade parece subjetiva demais para medir. Mas pode ser medida, acompanhada e estimulada com ações concretas.', '', '', ''),
+   ('Slide 3 · as 9 dimensões', 'A Felicidade Interna Bruta, no Butão\nOlha o bem-estar além da renda, em 9 dimensões: bem-estar psicológico · saúde · uso do tempo · vitalidade comunitária · educação · cultura · meio ambiente · governança · padrão de vida.\nFernando Brancaccio foi ao Butão estudar a metodologia.', '', '', 'Conferir as 9 dimensões na fonte original.'),
+   ('Slide 4 · no trabalho', 'No trabalho, a pergunta muda\nNão é só "você está satisfeito com a empresa?". O questionário procura fatores como saúde emocional, relações sociais, condições financeiras, segurança e qualidade da gestão.', '', '', ''),
+   ('Slide 5 · anônimo', 'Anônimo, para dizer a verdade\nO questionário mostra pontos fortes e fragilidades para orientar ações de melhoria. Percepção vira indicador, indicador vira decisão.', '', '', ''),
+   ('Slide 6 · Escritório', 'No Escritório do Cuidado, o ponto de partida é o mesmo: o que importa para você? Médico, psicólogo, assistente social e felicitologista, plano pela Medicina do Estilo de Vida, bioimpedância e smartwatch. O RH recebe só indicadores do grupo, anonimizados.', '', '', ''),
+   ('Slide 7 · convite', 'Quer ver como funciona na sua empresa? Comente CUIDADO.\nFonte: BH Ao Vivo, 21/11/2026, sobre o Seminário Internacional Mirix.', '', '', 'Chamada única.'),
+   (VIS, 'Fundo off-white leve, Raleway. O slide 3 é o centro: as 9 dimensões em grade 3x3 ou lista com marcador fino em Tiffany e verde-azulado escuro (#2F6B64), inspirado na lista com marcadores do print, sem percentuais. Sem verde de outra paleta.', '', '', ''),
+  ],
+  legenda='''Felicidade no trabalho dá para medir, acompanhar e estimular com ações concretas.
+
+No Butão, a Felicidade Interna Bruta olha o bem-estar em nove dimensões, de saúde e bem-estar psicológico a uso do tempo, vitalidade comunitária e padrão de vida. O Fernando Brancaccio foi até lá estudar a metodologia, e ela inspirou um questionário anônimo para empresas, que mostra pontos fortes e fragilidades para orientar ações.
+
+A pergunta deixa de ser se a pessoa está satisfeita com a empresa. Passa a incluir saúde emocional, relações, condições financeiras, segurança e qualidade da gestão. Percepção vira indicador, indicador vira decisão.
+
+No Escritório do Cuidado, o ponto de partida é o mesmo: o que importa para você? O RH recebe só indicadores do grupo, anonimizados.
+
+Fonte: BH Ao Vivo (21/11/2026), sobre o Seminário Internacional Mirix.
+
+Quer ver como funciona na sua empresa? Comente CUIDADO.
+
+#fairhealth #saudecorporativa #felicidadenotrabalho #bemestarcorporativo #gestaodepessoas''',
+  palavras='felicidade no trabalho,Felicidade Interna Bruta,questionário anônimo'),
 ]
 
 PENDENCIAS = [
     ('N02', 'Publicação hoje (04/11): aprovar o roteiro do reel e produzir o motion. Definir com a fairdata o que o relatório do RH mostra.', 'Nina e fairdata', 'Urgente'),
     ('N01, N09', 'Formato dos depoimentos (A1 no 03/11, A2 no 19/11) com o Dr. Ronald.', 'Dr. Ronald', 'Aberta'),
     ('N03', 'Validar a história do Escritório (2009, hospital, como funcionava) e a descrição dos Aims.', 'Dr. Ronald', 'Aberta'),
-    ('N03, N04, N12', 'Dados de clientes: a decisão de 30/10 tirou os números de cliente dos posts. Confirmar se o caso do hospital (06/11), os números da indústria (09/11) e o case Chemitec com nome (27/11) podem entrar.', 'Sócios', 'Aberta'),
+    ('N03, N04', 'Dados de clientes: a decisão de 30/10 tirou os números de cliente dos posts. Confirmar se o caso do hospital (06/11) e os números da indústria (09/11) podem entrar.', 'Sócios', 'Aberta'),
     ('N04', 'Data de gravação do reel com o Dr. Ronald e autorização de uso de imagem.', 'Dr. Ronald e Comunicação', 'Aberta'),
     ('N05', 'Leitura do Diabetes Prevention Program pela responsável médica. Escolher a capa (estudo ou canetas).', 'Responsável médica', 'Aberta'),
     ('N06', 'Resposta automática da palavra CUIDADO pronta até 13/11 (o diagnóstico gratuito não existe: CUIDADO envia como funciona o Escritório do Cuidado). Quem responde as DMs até lá.', 'Comunicação', 'Aberta'),
@@ -506,7 +500,7 @@ PENDENCIAS = [
     ('N08', 'Número conferido na nota oficial da Previdência e texto da NR-01 conferido no PDF do MTE (04/11). Falta a leitura do Dr. Ronald e o ok da Nina para citar a fairdata.', 'Comunicação e Dr. Ronald', 'Aberta'),
     ('N10', 'Conferir os números do Panorama da Saúde Emocional do RH 2026 no material da Flash.', 'Comunicação', 'Aberta'),
     ('N11', 'Fotos dos slides 1 a 4, corte para 8 slides e conferência dos números do Mapa da Felicidade.', 'Nina', 'Aberta'),
-    ('N13', 'Achar e conferir a pesquisa dos motivos de pedido de demissão (percentuais, ano, amostra). Sem ela, o slide 3 não sai. Revisão do Dr. Ronald (NR-01).', 'Comunicação e Dr. Ronald', 'Aberta'),
+    ('N12, N13', 'Seminário Mirix: ok de Fernando e Dr. Ronald, foto do evento (nossa) e conferir as 9 dimensões da FIB na fonte original. Link da matéria no primeiro comentário.', 'Nina', 'Aberta'),
     ('Todos', 'Legendas novas (04/11 em diante) passam pela ig-caption e pela ig-human antes de publicar; fotos com licença e origem confirmadas.', 'Comunicação', 'Aberta'),
 ]
 
@@ -516,5 +510,5 @@ DATAS = [
     (D(15), 'Proclamação da República (domingo)'),
     (D(20), 'Consciência Negra (feriado): o post da semana vai para quinta, 19/11'),
     (D(27), 'Black Friday: sem linguagem de promoção'),
-    (D(30), 'Novembro Azul o mês todo; 30/11 (segunda) abre a passagem para dezembro, e o reel "Dezembro chegou" vai para quarta, 02/12'),
+    (D(30), 'Novembro Azul o mês todo; 30/11 (segunda) abre a passagem para dezembro. O reel "Dezembro chegou" virou story e o reel de 02/12 é o do seminário Mirix'),
 ]
