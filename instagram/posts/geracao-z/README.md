@@ -150,4 +150,8 @@ acento verde se confunde com o texto preto); e a versão misturava quatro fundos
 - Versões anteriores: `slides-v3-tiffany.html` / `png-v3-tiffany/` / `previa-v3-tiffany.png` e `slides-v2-escura.html` /
   `png-v2-escura/` / `previa-v2-escura.png`.
 - `achatar.mjs` passou a levar o anel do logo (box-shadow) para o Canva como forma lisa atrás da imagem.
+- **No Canva (23/11):** a versão final está no design `DAHbvqgIZ0k`, renomeado para "25/11 Geração Z e desconexão (versão
+  clara)" (https://www.canva.com/d/BPeePZuDoGUUSJ3). As páginas 1 a 7 são o post; as páginas 8 a 11 guardam os slides 3, 5, 6 e 7
+  da versão Tiffany (regra do Canva: duplicar a versão antiga antes de alterar). As páginas novas vieram do design
+  `DAHbvs8wUGM` ("Fonte temporária", pode ser apagado). A versão escura continua em `DAHbvhptIK0`.
 
