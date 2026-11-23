@@ -1,42 +1,36 @@
-# 27/11 · Carrossel "98% do time aceitou ser cuidado" (case de adesão)
+# 27/11 · Foto única "Como ler o relatório do Escritório do Cuidado" (case de adesão)
 
-**23/11:** feito para 04/12, voltou para 27/11 com o calendário de antes do Seminário Mirix (sexta de Black Friday: sem
-linguagem de promoção, e a arte não tem nenhuma).
+Cronograma: `N12` em `marketing/ferramentas/conteudo_posts_novembro.py`.
 
-Cronograma: `N12` em `marketing/ferramentas/conteudo_posts_novembro.py`. Dados: Chemitec, 1º semestre de 2026 (`voice.md`,
-"Provas que podemos usar"), sempre agregados.
+## v2 (23/11): post único em forma de relatório
 
-- `slides.html` → `png/ca-01` a `ca-08`, `previa.png`. 8 slides, um número por slide, sempre com "1º semestre de 2026".
-- **Sem o nome do cliente.** A decisão de 30/10 tirou dados de clientes dos posts e os sócios ainda não confirmaram o case.
-  Esta versão diz "uma indústria que atendemos". Se os sócios liberarem o nome (com autorização escrita do cliente), troca no
-  slide 2 e na legenda.
-- Capa: foto de banco `instagram/marca/fotos-banco/industria2.jpg` (Licença Unsplash), recortada nas mãos com luvas, sem rosto,
-  com "Foto ilustrativa". `gerar.py` faz o recorte (`fotos/capa.jpg`) e o degradê no verde da marca (`fotos/degrade.png`), o
-  mesmo do carrossel de 25/11. Outras opções testadas: `oculos.jpg` (rosto), `solda.jpg` (azul e escuro), `industria1.jpg`.
-- Visual: o sistema aprovado em 23/11 (verde da marca, papel, Tiffany no 4 e no fecho).
-- `canva-src.html` e `canva.html`: versão achatada para o Canva. Ainda não importada (só depois da aprovação).
-- `legenda.txt`: ig-caption (`caption.py` com "programa de saúde, adesão, saúde corporativa": 3/3) e ig-human (`detect.py`
-  56,6, REVIEW pelo VOICE, como nos outros posts).
+Pedido da Nina: no lugar do carrossel, um post único "como se fosse um relatório", com todos os dados explicados (o que
+significa e como levar ao CEO e ao RH), numa estética clean e moderna, sem o visual do painel original.
 
-## Slides
+- Dados: o relatório real do Escritório do Cuidado (print da Nina, 23/11), de 01/01 a 03/09/2026, modelo Quintuple Aim (IHI).
+  Substituem os números do 1º semestre do `voice.md` (161 atendimentos, 98% de adesão, 81,3% de retorno).
+  - 48 colaboradores atendidos, adesão de 94,1% (de 51 ativos); 189 atendimentos (quase 4 por pessoa); 46 smartbands
+    (nos posts, "smartwatch"); retorno de 93,8% (45 de 48 com 2 ou mais atendimentos).
+  - Formato: 181 presenciais (95,8%), 8 online (4,2%). Tipo: médico 75,7%, psicológico 17,5%, felicitológico 4,2%, serviço
+    social 2,6%.
+  - Quem: mulheres 50% (24), homens 35,4% (17), outros 14,6% (7); 18–24 16,7%, 25–34 27,1%, 35–49 39,6%, 50+ 16,7%.
+- `slides.html` → `png/relatorio.png` (= `previa.png`). Papel, cartões brancos sem borda, números no verde da marca, barras
+  em verde, Tiffany e menta. Quatro números com "Significa" e "Para o CEO e o RH"; três painéis com uma leitura cada.
+- `canva-src.html` e `canva.html`: versão achatada para o Canva (conferida: igual ao PNG). Ainda não importada.
+- `legenda.txt`: ig-caption (`caption.py` com "programa de saúde, adesão, indicadores": 3/3) e ig-human (`detect.py` 60,2,
+  REVIEW só pelo VOICE, como nos outros posts).
+- **Sem o nome do cliente** ("uma indústria atendida") até os sócios liberarem (decisão de 30/10). Sexta de Black Friday: sem
+  linguagem de promoção.
 
-1. 98% / do time aceitou ser cuidado. / O que essa indústria fez diferente?
-2. O case / Uma indústria, no primeiro semestre de 2026. / O Escritório do Cuidado dentro da empresa, perto de quem trabalha. /
-   Os números a seguir são do grupo, sem identificar ninguém.
-3. Adesão / 98% / de adesão ao Escritório do Cuidado. / 48 colaboradores atendidos · 1º semestre de 2026
-4. Volume / 161 / atendimentos no semestre.
-5. Continuidade / 81,3% / voltaram para dois ou mais atendimentos.
-6. Entre as consultas / 46 / smartwatches em uso, acompanhando a rotina. / Nas consultas, as medições usam bioimpedância. O RH
-   recebe só indicadores do grupo, anonimizados.
-7. O que estava por trás / Três escolhas do Escritório do Cuidado: o cuidado perto de quem trabalha, dentro da empresa; a
-   primeira consulta começa pela pergunta "o que importa para você?"; um plano pela Medicina do Estilo de Vida que cabe no turno.
-8. Planejando 2027? / Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado. / Nota dos dados e da foto.
+Texto alternativo: "Relatório do Escritório do Cuidado de uma indústria atendida, de janeiro a setembro de 2026: adesão de
+94,1%, retorno de 93,8%, 189 atendimentos, 46 smartwatches, 95,8% presencial, tipos de atendimento e perfil por idade e gênero,
+cada número com o que significa para o CEO e o RH."
 
-Texto alternativo da capa: "Mãos com luvas de proteção trabalhando num painel elétrico, com '98% do time aceitou ser cuidado'
-em destaque (foto ilustrativa)."
+## v1: carrossel de 8 slides
+
+`slides-v1-carrossel.html`, `png-v1-carrossel/`, `previa-v1-carrossel.png`, `legenda-v1-carrossel.txt`, `canva-v1-carrossel.html`
+(números do 1º semestre). A capa usava `fotos/capa.jpg` (`gerar.py`).
 
 ## Pendências
 
-- Sócios: o case sai? Com ou sem o nome? (decisão de 30/10).
-- Conferir como foi a implantação (slide 2 e slide 7 só descrevem o método do site; nada específico da implantação).
-- O `voice.md` fala em "46 smartbands"; nos posts o nome é "smartwatch" (regra de 12/11).
+- Sócios: o case sai? Com ou sem o nome Chemitec?

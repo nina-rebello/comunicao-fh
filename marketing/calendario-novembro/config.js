@@ -23,8 +23,8 @@ const POSTS = [
     "Dados do Panorama da Saúde Emocional do RH 2026 e o cuidado que chega também a quem cuida", "Mande para alguém do RH"],
   [25, "carrossel", 5, "P", "Cultura", "Por que a Geração Z está tão desconectada do trabalho?", "Por que a Geração Z está tão desconectada do trabalho?",
     "Não é preguiça nem falta de compromisso. A resposta começa com a pergunta que quase ninguém faz: o que importa para você?", "Comente CUIDADO"],
-  [27, "carrossel", 6, "P", "Cases", "Case Chemitec: 98% de adesão", "Como 98% do time aceitou ser cuidado",
-    "Case Chemitec: 161 atendimentos e 81,3% de retorno, com o convite para conversar antes do orçamento de 2027", "Comente CUIDADO"],
+  [27, "foto", 6, "P", "Cases", "Case: o relatório do Escritório do Cuidado", "Como ler o relatório do Escritório do Cuidado",
+    "Post único em forma de relatório: adesão de 94,1%, retorno de 93,8% e 189 atendimentos numa indústria, de janeiro a setembro, e como levar ao CEO e ao RH", "Comente CUIDADO"],
   [30, "carrossel", 7, "P", "Cultura", "Por que as pessoas pedem demissão?", "Por que as pessoas pedem demissão?",
     "O motivo que o RH só descobre na entrevista de desligamento e o que existe por trás dele", "Comente CUIDADO"],
 ];

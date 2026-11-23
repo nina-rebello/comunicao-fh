@@ -427,43 +427,41 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
    ('Slide 7 · para o líder e chamada', 'Geração Z não é o problema. Falta de cuidado é.\nComente CUIDADO.\nFonte completa da pesquisa.', '', 'Verde-escuro, logo.', ''),
   ]),
 
- dict(id='N12', data=D(27), semana=4, bloco='6 · Decisão', eixo='Cases + Produto', fmt=CARR,
-  titulo='Case Chemitec: como 98% do time aceitou ser cuidado',
-  sub='Adesão e continuidade num case real, com o convite para conversar antes do orçamento de 2027',
-  status='Arte para aprovação (23/11), sem o nome do cliente', resp='Nina · Sócios (liberação do case)',
-  espec='Carrossel 4:5 (1080 × 1350), 8 slides, estilo institucional. Sexta de Black Friday: sem linguagem de promoção.',
-  gancho='98% do time aceitou ser cuidado. O que essa empresa fez diferente?',
+ dict(id='N12', data=D(27), semana=4, bloco='6 · Decisão', eixo='Cases + Produto', fmt=FOTO,
+  titulo='Como ler o relatório do Escritório do Cuidado (case de uma indústria atendida)',
+  sub='Post único em forma de relatório: cada número do relatório real (jan a set 2026), o que significa e como levar ao CEO e ao RH',
+  status='Arte para aprovação (23/11, v2: post único em forma de relatório), sem o nome do cliente', resp='Nina · Sócios (liberação do case)',
+  espec='Foto única 4:5 (1080 × 1350), estilo relatório clean (cartões brancos sobre papel). Sexta de Black Friday: sem linguagem de promoção.',
+  gancho='Como ler o relatório do Escritório do Cuidado?',
   objetivo='Provar adesão e continuidade com um case real e convidar o RH para uma conversa antes do orçamento de 2027.',
   portras='Adesão não se impõe: acontece quando o cuidado está perto, começa pela escuta e cabe na rotina.',
   persona='RH; Diretoria financeira',
   fio='Vem de: 25/11, Geração Z. Leva para: 30/11, a virada para dezembro.',
-  visual='Estilo institucional, um número por slide, calmo, sempre com "1º semestre de 2026". Fotos de banco de indústria (capacete, linha de produção), sem rosto de colaborador.',
-  material='Tipografia e fotos de banco. Logo da Chemitec só com autorização.',
+  visual='Relatório clean (pedido da Nina, 23/11): papel, cartões brancos sem borda, números no verde da marca, barras em verde, Tiffany e menta. Quatro números com "Significa" e "Para o CEO e o RH"; três painéis (tipo de atendimento, formato, quem foi atendido).',
+  material='Relatório real do Escritório do Cuidado (print enviado pela Nina em 23/11). Sem foto. Logo da Chemitec só com autorização.',
   cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Sequência com os 4 números e o adesivo "Mande uma mensagem".',
-  fonte='Chemitec, 1º semestre de 2026 (voice.md, LIBERADO): 161 atendimentos; 48 colaboradores atendidos (98% de adesão); 81,3% voltaram para 2 ou mais atendimentos; 46 smartbands em uso. Sempre agregado.',
-  validar='Decisão de 30/10 tirou dados de clientes dos posts: confirmar com os sócios se o case sai e se pode citar o nome Chemitec (autorização escrita do cliente). Se não puder, "uma indústria que atendemos". Conferir como foi a implantação (slide 2) antes de descrever.',
-  arquivos='instagram/posts/case-adesao/ (slides.html, png/ca-01 a ca-08, previa.png, legenda.txt, canva.html, README)',
-  legenda='''98% do time aceitou ser cuidado. O que essa indústria fez diferente?
+  fonte='Relatório do Escritório do Cuidado da Chemitec, 01/01 a 03/09/2026 (print da Nina, 23/11), modelo Quintuple Aim (IHI): 48 colaboradores atendidos (adesão de 94,1% de 51 ativos); 189 atendimentos (181 presenciais, 95,8%; 8 online, 4,2%); por tipo: médico 75,7%, psicológico 17,5%, felicitológico 4,2%, serviço social 2,6%; 46 smartbands; mulheres 50% (24), homens 35,4% (17), outros 14,6% (7); faixas 18–24 16,7%, 25–34 27,1%, 35–49 39,6%, 50+ 16,7%; retorno 93,8% (45 de 48 com 2 ou mais atendimentos). Sempre agregado.',
+  validar='Sócios: o case sai e pode citar o nome Chemitec? (decisão de 30/10; autorização escrita do cliente). Sem isso, "uma indústria atendida". Os números do relatório (jan a set) substituem os do 1º semestre do voice.md.',
+  arquivos='instagram/posts/case-adesao/ (slides.html, png/relatorio.png, previa.png, legenda.txt, canva.html, README). O carrossel de 8 slides ficou como v1.',
+  legenda='''Como ler o relatório do Escritório do Cuidado? Estes são os números de uma indústria atendida, de janeiro a setembro de 2026.
 
-Adesão é o primeiro desafio de qualquer programa de saúde corporativa. Numa indústria que atendemos, no primeiro semestre de 2026, o Escritório do Cuidado atendeu 48 colaboradores, 98% de adesão. Foram 161 atendimentos. E 81,3% das pessoas voltaram para dois ou mais.
+Adesão de 94,1%: 48 de 51 colaboradores ativos foram atendidos. Quase todo o time. Para o CEO e o RH, é o primeiro número a olhar, porque programa de saúde que ninguém usa não chega a resultado nenhum.
 
-Entre uma consulta e outra, 46 smartwatches acompanham a rotina de quem é cuidado. Nas consultas, as medições usam bioimpedância. O RH recebe só indicadores do grupo, anonimizados. Nenhum dado individual.
+Retorno de 93,8%. Das 48 pessoas, 45 voltaram para dois ou mais atendimentos, num total de 189 no período, quase quatro por pessoa. É na continuidade que o plano de cada um acontece.
 
-O que estava por trás: o cuidado perto de quem trabalha, a primeira consulta começando por "o que importa para você?" e um plano pela Medicina do Estilo de Vida que cabe no turno.
+Quase tudo foi presencial: 95,8% dos atendimentos aconteceram dentro da empresa, com médico, psicólogo, felicitologista e assistente social no mesmo lugar, 46 smartwatches em uso e bioimpedância nas consultas. Todas as idades usaram.
 
-Planejando 2027? Comente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.
+O RH recebe só indicadores do grupo, agregados e anonimizados. Nunca o que cada pessoa contou.
 
-#fairhealth #saudecorporativa #escritoriodocuidado #gestaodepessoas #medicinadoestilodevida''',
+Quer ver como funciona na sua empresa? Comente CUIDADO.
+
+#fairhealth #saudecorporativa #escritoriodocuidado #gestaodepessoas #indicadoresdesaude''',
   roteiro=[
-   ('Slide 1 · capa', '98%\ndo time aceitou ser cuidado.\nO que essa indústria fez diferente?', '', 'Foto de banco (mãos com luvas num painel elétrico, sem rosto) com degradê no verde da marca; "Foto ilustrativa".', 'Nome do cliente só com autorização.'),
-   ('Slide 2 · contexto', 'O case\nUma indústria, no primeiro semestre de 2026.\nO Escritório do Cuidado dentro da empresa, perto de quem trabalha.\nOs números a seguir são do grupo, sem identificar ninguém.', '', 'Papel.', 'Conferir como foi a implantação antes de detalhar.'),
-   ('Slide 3 · adesão', 'Adesão\n98%\nde adesão ao Escritório do Cuidado.\n48 colaboradores atendidos · 1º semestre de 2026', '', 'Verde, número em Tiffany.', ''),
-   ('Slide 4 · volume', 'Volume\n161\natendimentos no semestre.\n1º semestre de 2026 · dados do grupo', '', 'Tiffany.', ''),
-   ('Slide 5 · continuidade', 'Continuidade\n81,3%\nvoltaram para dois ou mais atendimentos.\n1º semestre de 2026 · dados do grupo', '', 'Verde.', ''),
-   ('Slide 6 · entre as consultas', 'Entre as consultas\n46\nsmartwatches em uso, acompanhando a rotina.\nNo 1º semestre de 2026. Nas consultas, as medições usam bioimpedância. O RH recebe só indicadores do grupo, anonimizados.', '', 'Papel.', ''),
-   ('Slide 7 · o que estava por trás', 'O que estava por trás\nTrês escolhas do Escritório do Cuidado.\nO cuidado perto de quem trabalha, dentro da empresa · A primeira consulta começa pela pergunta: o que importa para você? · Um plano pela Medicina do Estilo de Vida que cabe no turno.', '', 'Papel, lista com marcador.', 'Fatos do método, sem frase-resumo.'),
-   ('Slide 8 · chamada', 'Planejando 2027?\nComente CUIDADO e enviamos na DM como funciona o Escritório do Cuidado.\nDados agregados do Escritório do Cuidado numa indústria atendida, 1º semestre de 2026, sem nenhum dado individual. Foto da capa: banco de imagens, ilustrativa.', '', 'Tiffany, logo.', 'Sem "oferta", "promoção" ou "Black Friday".'),
+   ('Imagem única 4:5', 'Relatório · Escritório do Cuidado\nComo ler o relatório do Escritório do Cuidado\nUma indústria atendida, de janeiro a setembro de 2026: o que cada número significa e como levar ao CEO e ao RH.', '', 'Cabeçalho com o logo.', ''),
+   ('Números', '94,1% · Adesão (48 de 51 ativos). Significa: quase todo o time usou. Para o CEO e o RH: sem uso, não há resultado. Adesão vem primeiro.\n93,8% · Retorno (45 de 48 voltaram). Significa: voltaram 2 vezes ou mais. Para o CEO e o RH: é na continuidade que o plano de cada pessoa acontece.\n189 · Atendimentos (quase 4 por pessoa). Significa: uso contínuo, não um evento. Para o CEO e o RH: o cuidado entrou na rotina da empresa, mês a mês.\n46 · Smartwatches em uso e bioimpedância. Significa: acompanhamento contínuo. Para o CEO e o RH: decisões com dados do grupo, agregados e anonimizados.', '', 'Quatro cartões brancos, número no verde da marca.', ''),
+   ('Painéis', 'Tipo de atendimento: médico 75,7% · psicológico 17,5% · felicitológico 4,2% · serviço social 2,6%. Uma porta só para corpo, mente e contexto de vida.\nFormato: 95,8% presencial, dentro da empresa (online 4,2%). Tempo e acesso deixam de ser barreira ao cuidado.\nQuem foi atendido: 50% mulheres · 35,4% homens · 14,6% outros; 18–24 16,7% · 25–34 27,1% · 35–49 39,6% · 50+ 16,7%. Todas as idades usaram.', '', 'Barras em verde, Tiffany e menta.', ''),
+   ('Rodapé', 'Fonte: relatório do Escritório do Cuidado de uma indústria atendida (01/01 a 03/09/2026), modelo Quintuple Aim (IHI). O RH recebe só indicadores do grupo, agregados e anonimizados: nunca o que cada pessoa contou.', '', '', 'Nome do cliente só com autorização.'),
   ]),
 
  dict(id='N13', data=D(30), semana=5, bloco='7 · Causas', eixo='Cultura + Produto', fmt=CARR,
