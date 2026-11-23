@@ -1,0 +1,42 @@
+{
+ "gz-01": [
+  {
+   "sel": "section",
+   "src": "fotos-canva/vaga-gz-01.png",
+   "alt": "FOTO capa",
+   "sobre": "fotos-canva/degrade-foto.png"
+  }
+ ],
+ "gz-02": [
+  {
+   "sel": ".bloco.vaga",
+   "src": "fotos-canva/vaga-gz-02.png",
+   "alt": "FOTO grupo de jovens",
+   "z": 2
+  }
+ ],
+ "gz-03": [
+  {
+   "sel": ".bloco.vaga",
+   "src": "fotos-canva/vaga-gz-03.png",
+   "alt": "FOTO jovem com celular",
+   "z": 2
+  }
+ ],
+ "gz-04": [
+  {
+   "sel": "section",
+   "src": "fotos-canva/vaga-gz-04.png",
+   "alt": "FOTO jovem no metrô",
+   "sobre": "fotos-canva/degrade-foto.png"
+  }
+ ],
+ "gz-06": [
+  {
+   "sel": "div[style*=\"linear-gradient\"]",
+   "src": "fotos-canva/sombra-topo.png",
+   "alt": "",
+   "z": 2.5
+  }
+ ]
+}

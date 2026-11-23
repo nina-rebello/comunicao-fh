@@ -115,3 +115,9 @@ este post é exceção.
   cronograma de novembro (`conteudo_posts_novembro.py` e a planilha) foi atualizado.
 - Continuam pendentes: as fotos dos slides 1 a 4, a conferência dos números no material original, o que o relatório do RH mostra e a revisão
   do Dr. Ronald.
+- **Canva (23/11):** `canva-fotos.py` gera o `canva.html` a partir do `slides.html`, com tudo em posição absoluta (achatado por
+  `instagram/ferramentas/achatar.mjs`, que mede o slide no navegador e escreve cada texto numa caixa própria, com as quebras de linha
+  do navegador). As vagas de foto viram quadros lisos (`fotos-canva/vaga-*.png`) e os degradês viram camadas PNG por cima. As fotos
+  escolhidas não entram no repositório: vão direto para o Canva por upload e entram no lugar dos quadros.
+- No slide 6, a pergunta "o que importa para você?" passou para uma linha própria, abaixo de "mesma pergunta:", porque o Canva não
+  aceita duas fontes na mesma caixa de texto.
