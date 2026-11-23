@@ -429,7 +429,7 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
 
  dict(id='N12', data=D(27), semana=4, bloco='6 · Decisão', eixo='Cases + Produto', fmt=FOTO,
   titulo='Como ler o relatório do Escritório do Cuidado (case de uma indústria atendida)',
-  sub='Post único em forma de relatório: cada número do relatório real (jan a set 2026), o que significa e como levar ao CEO e ao RH',
+  sub='Post único em forma de relatório: cada número do relatório real (jan a set 2026), o que significa e como levar ao CFO e ao RH',
   status='Arte para aprovação (23/11, v2: post único em forma de relatório), sem o nome do cliente', resp='Nina · Sócios (liberação do case)',
   espec='Foto única 4:5 (1080 × 1350), estilo relatório clean (cartões brancos sobre papel). Sexta de Black Friday: sem linguagem de promoção.',
   gancho='Como ler o relatório do Escritório do Cuidado?',
@@ -437,7 +437,7 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
   portras='Adesão não se impõe: acontece quando o cuidado está perto, começa pela escuta e cabe na rotina.',
   persona='RH; Diretoria financeira',
   fio='Vem de: 25/11, Geração Z. Leva para: 30/11, a virada para dezembro.',
-  visual='Relatório clean (pedido da Nina, 23/11): papel, cartões brancos sem borda, números no verde da marca, barras em verde, Tiffany e menta. Quatro números com "Significa" e "Para o CEO e o RH"; três painéis (tipo de atendimento, formato, quem foi atendido).',
+  visual='Relatório clean (pedido da Nina, 23/11): papel, cartões brancos sem borda, números no verde da marca, barras em verde, Tiffany e menta. Quatro números com "Significa" e "Para o CFO e o RH"; três painéis (tipo de atendimento, formato, quem foi atendido).',
   material='Relatório real do Escritório do Cuidado (print enviado pela Nina em 23/11). Sem foto. Logo da Chemitec só com autorização.',
   cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Sequência com os 4 números e o adesivo "Mande uma mensagem".',
@@ -446,7 +446,7 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
   arquivos='instagram/posts/case-adesao/ (slides.html, png/relatorio.png, previa.png, legenda.txt, canva.html, README). O carrossel de 8 slides ficou como v1.',
   legenda='''Como ler o relatório do Escritório do Cuidado? Estes são os números de uma indústria atendida, de janeiro a setembro de 2026.
 
-Adesão de 94,1%: 48 de 51 colaboradores ativos foram atendidos. Quase todo o time. Para o CEO e o RH, é o primeiro número a olhar, porque programa de saúde que ninguém usa não chega a resultado nenhum.
+Adesão de 94,1%: 48 de 51 colaboradores ativos foram atendidos. Quase todo o time. Para o CFO e o RH, é o primeiro número a olhar, porque programa de saúde que ninguém usa não chega a resultado nenhum.
 
 Retorno de 93,8%. Das 48 pessoas, 45 voltaram para dois ou mais atendimentos, num total de 189 no período, quase quatro por pessoa. É na continuidade que o plano de cada um acontece.
 
@@ -458,8 +458,8 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
 
 #fairhealth #saudecorporativa #escritoriodocuidado #gestaodepessoas #indicadoresdesaude''',
   roteiro=[
-   ('Imagem única 4:5', 'Relatório · Escritório do Cuidado\nComo ler o relatório do Escritório do Cuidado\nUma indústria atendida, de janeiro a setembro de 2026: o que cada número significa e como levar ao CEO e ao RH.', '', 'Cabeçalho com o logo.', ''),
-   ('Números', '94,1% · Adesão (48 de 51 ativos). Significa: quase todo o time usou. Para o CEO e o RH: sem uso, não há resultado. Adesão vem primeiro.\n93,8% · Retorno (45 de 48 voltaram). Significa: voltaram 2 vezes ou mais. Para o CEO e o RH: é na continuidade que o plano de cada pessoa acontece.\n189 · Atendimentos (quase 4 por pessoa). Significa: uso contínuo, não um evento. Para o CEO e o RH: o cuidado entrou na rotina da empresa, mês a mês.\n46 · Smartwatches em uso e bioimpedância. Significa: acompanhamento contínuo. Para o CEO e o RH: decisões com dados do grupo, agregados e anonimizados.', '', 'Quatro cartões brancos, número no verde da marca.', ''),
+   ('Imagem única 4:5', 'Relatório · Escritório do Cuidado\nComo ler o relatório do Escritório do Cuidado\nUma indústria atendida, de janeiro a setembro de 2026: o que cada número significa e como levar ao CFO e ao RH.', '', 'Cabeçalho com o logo.', ''),
+   ('Números', '94,1% · Adesão (48 de 51 ativos). Significa: quase todo o time usou. Para o CFO e o RH: sem uso, não há resultado. Adesão vem primeiro.\n93,8% · Retorno (45 de 48 voltaram). Significa: voltaram 2 vezes ou mais. Para o CFO e o RH: é na continuidade que o plano de cada pessoa acontece.\n189 · Atendimentos (quase 4 por pessoa). Significa: uso contínuo, não um evento. Para o CFO e o RH: o cuidado entrou na rotina da empresa, mês a mês.\n46 · Smartwatches em uso e bioimpedância. Significa: acompanhamento contínuo. Para o CFO e o RH: decisões com dados do grupo, agregados e anonimizados.', '', 'Quatro cartões brancos, número no verde da marca.', ''),
    ('Painéis', 'Tipo de atendimento: médico 75,7% · psicológico 17,5% · felicitológico 4,2% · serviço social 2,6%. Uma porta só para corpo, mente e contexto de vida.\nFormato: 95,8% presencial, dentro da empresa (online 4,2%). Tempo e acesso deixam de ser barreira ao cuidado.\nQuem foi atendido: 50% mulheres · 35,4% homens · 14,6% outros; 18–24 16,7% · 25–34 27,1% · 35–49 39,6% · 50+ 16,7%. Todas as idades usaram.', '', 'Barras em verde, Tiffany e menta.', ''),
    ('Rodapé', 'Fonte: relatório do Escritório do Cuidado de uma indústria atendida (01/01 a 03/09/2026), modelo Quintuple Aim (IHI). O RH recebe só indicadores do grupo, agregados e anonimizados: nunca o que cada pessoa contou.', '', '', 'Nome do cliente só com autorização.'),
   ]),
