@@ -17,9 +17,19 @@ FIM_FRASE = (".", "?", "!")
 def whisper(wav, deslocamento=0.0):
     r = mlx_whisper.transcribe(wav, path_or_hf_repo=MODELO, language="pt", word_timestamps=True,
                                condition_on_previous_text=False)
-    return [{"palavra": w["word"].strip(), "inicio": round(w["start"] + deslocamento, 3),
-             "fim": round(w["end"] + deslocamento, 3), "prob": round(w["probability"], 2)}
-            for s in r["segments"] for w in s["words"]]
+    ws = []
+    for seg in r["segments"]:
+        sw = seg.get("words", [])
+        if not sw:
+            continue
+        media = sum(w["probability"] for w in sw) / len(sw)
+        unicas = len({w["word"].strip().lower().strip(",.") for w in sw}) / len(sw)
+        # trecho inventado: confiança baixa ou palavra repetida em loop ("doutor, doutor, ...", 23/11)
+        if media < 0.5 or (len(sw) >= 6 and unicas < 0.4):
+            continue
+        ws += [{"palavra": w["word"].strip(), "inicio": round(w["start"] + deslocamento, 3),
+                "fim": round(w["end"] + deslocamento, 3), "prob": round(w["probability"], 2)} for w in sw]
+    return ws
 
 
 def ajustar_bordas(ws, sil):
@@ -116,6 +126,13 @@ def main(video):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-to", str(b), "-i", wav, trecho], check=True)
         novas = whisper(trecho, a)
         os.remove(trecho)
+        # retranscrição de trecho quase mudo costuma inventar frase ("Se inscreva no canal. Amém.", 23/11):
+        # só aceita se a confiança média for boa
+        if novas and sum(w["prob"] for w in novas) / len(novas) < 0.5:
+            marcadores.append({"tipo": "som_sem_palavra", "inicio": a, "fim": b,
+                               "texto": "retranscrição descartada (baixa confiança): " + " ".join(w["palavra"] for w in novas)})
+            novas = []
+            continue
         if novas:
             ws = sorted(ws + novas, key=lambda w: w["inicio"])
             marcadores.append({"tipo": "retranscrito", "inicio": a, "fim": b, "texto": " ".join(w["palavra"] for w in novas)})
