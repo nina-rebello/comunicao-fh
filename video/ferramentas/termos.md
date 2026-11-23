@@ -7,3 +7,5 @@ Correções aplicadas depois de transcrever (não vão como contexto para o Whis
 | Fair Health, Fairhealth, fair health | fairhealth |
 | Fair Edu | fairedu |
 | escritório do cuidado, Escritório do cuidado | Escritório do Cuidado |
+| medicina do estilo de vida, Medicina do estilo de vida | Medicina do Estilo de Vida |
+| escritório do paciente, Escritório do paciente | Escritório do Paciente |
