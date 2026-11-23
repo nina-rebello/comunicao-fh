@@ -121,3 +121,5 @@ este post é exceção.
   escolhidas não entram no repositório: vão direto para o Canva por upload e entram no lugar dos quadros.
 - No slide 6, a pergunta "o que importa para você?" passou para uma linha própria, abaixo de "mesma pergunta:", porque o Canva não
   aceita duas fontes na mesma caixa de texto.
+- **No Canva (23/11):** design `DAHbvhptIK0` ("25/11 Geração Z e desconexão (carrossel)"), 7 páginas, com as quatro fotos já nos
+  quadros e todos os textos editáveis. Link de edição: https://www.canva.com/d/XbGWPpCX_jdAcmw
