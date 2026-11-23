@@ -133,4 +133,6 @@ do Canva separado para não perder o anterior.
   `#2F6B64`, como o único slide de contraste; o 2 continua em papel.
 - O degradê por cima das fotos (capa e slide 4) saiu do quase preto e foi para o verde da marca `#2F6B64`, mais leve no alto.
 - A versão escura fica em `slides-v2-escura.html`, `png-v2-escura/` e `previa-v2-escura.png`, e no Canva em `DAHbvhptIK0`.
+- **No Canva (23/11):** design separado `DAHbvqgIZ0k` ("25/11 Geração Z e desconexão (versão Tiffany)"), 7 páginas, com as fotos nos
+  quadros. Link de edição: https://www.canva.com/d/BPeePZuDoGUUSJ3
 
