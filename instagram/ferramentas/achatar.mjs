@@ -59,6 +59,15 @@ const slides = await page.evaluate((vagas) => {
       if (el.tagName === 'IMG') {
         itens.push({ tipo: 'img', src: el.getAttribute('src'), alt: el.getAttribute('alt') || '', ...pos(r), z: 2,
           raio: st.borderRadius !== '0px' ? st.borderRadius : '' });
+        // anel em volta da imagem (box-shadow sem deslocamento nem desfoque): vira uma forma lisa atrás dela
+        const anel = st.boxShadow.match(/^(rgba?\([^)]*\)) 0px 0px 0px ([\d.]+)px$/);
+        if (anel) {
+          const e = +anel[2]; const p = pos(r);
+          itens.push({ tipo: 'linha', x: p.x - e, y: p.y - e, w: p.w + 2 * e, h: p.h + 2 * e, cor: hex(rgba(anel[1])), op: 1, z: 1.9,
+            raio: st.borderRadius !== '0px' ? st.borderRadius : '' });
+          // por dentro do anel, o fundo do slide (a margem transparente da imagem não pode ficar com a cor do anel)
+          if (fundo) itens.push({ tipo: 'linha', ...p, cor: hex(fundo), op: 1, z: 1.95, raio: st.borderRadius !== '0px' ? st.borderRadius : '' });
+        }
         continue;
       }
       // linhas: borda de cima (régua) ou de baixo (itens de lista)
@@ -130,7 +139,7 @@ const corpo = slides.map((s) => {
   const els = s.itens.sort((a, b) => a.z - b.z).map((i) => {
     const box = `position:absolute;left:${i.x}px;top:${i.y}px;width:${i.w}px;height:${i.h}px`;
     if (i.tipo === 'img') return `  <img src="${i.src}" alt="${i.alt}" style="${box};object-fit:cover${i.raio ? `;border-radius:${i.raio}` : ''}">`;
-    if (i.tipo === 'linha') return `  <div style="${box};background:${i.cor}${i.op < 1 ? `;opacity:${i.op}` : ''}"></div>`;
+    if (i.tipo === 'linha') return `  <div style="${box};background:${i.cor}${i.op < 1 ? `;opacity:${i.op}` : ''}${i.raio ? `;border-radius:${i.raio}` : ''}"></div>`;
     // texto: largura com folga (o Canva desenha o texto um pouco mais largo), sem quebra automática
     return `  <p style="position:absolute;margin:0;left:${i.x}px;top:${i.y}px;width:${Math.min(Math.ceil(i.w * 1.08), Math.ceil(1080 - i.x))}px;white-space:nowrap;text-align:left;${i.estilo}">${i.html}</p>`;
   }).join('\n');

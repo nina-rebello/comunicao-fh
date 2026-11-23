@@ -136,3 +136,18 @@ do Canva separado para não perder o anterior.
 - **No Canva (23/11):** design separado `DAHbvqgIZ0k` ("25/11 Geração Z e desconexão (versão Tiffany)"), 7 páginas, com as fotos nos
   quadros. Link de edição: https://www.canva.com/d/BPeePZuDoGUUSJ3
 
+## Versão final: verde da marca, clareando na solução (23/11)
+
+A Nina achou a versão Tiffany menos bonita que a escura. Diagnóstico: as fotos são escuras e de luz quente (no Tiffany viram
+buracos e o laranja briga com o verde-claro); o Tiffany funciona como destaque, não como fundo inteiro (achata o contraste e o
+acento verde se confunde com o texto preto); e a versão misturava quatro fundos sem lógica. Solução aprovada:
+
+- Slides 3 e 5 no verde-escuro do logo `#2F6B64` (no lugar do "noite"), com o Tiffany claro nos destaques; o degradê das fotos
+  (capa e 4) no mesmo verde, então as fotos emendam com os slides do problema.
+- O post clareia na solução: o 6 (Escritório do Cuidado) em papel e o 7 (chamada) em Tiffany, com o anel branco no logo.
+- Pendente: a regra de cores do `CLAUDE.md` (16/11) ainda diz "verde-escuro no máximo em um slide"; este post usa o verde em
+  dois slides e nas sombras das fotos.
+- Versões anteriores: `slides-v3-tiffany.html` / `png-v3-tiffany/` / `previa-v3-tiffany.png` e `slides-v2-escura.html` /
+  `png-v2-escura/` / `previa-v2-escura.png`.
+- `achatar.mjs` passou a levar o anel do logo (box-shadow) para o Canva como forma lisa atrás da imagem.
+
