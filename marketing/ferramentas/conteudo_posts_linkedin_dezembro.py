@@ -14,7 +14,7 @@ PRIM, DESE, CHAM, COM, TIME, FONTE = ('Primeira linha (antes do "ver mais")', 'D
 H3 = '#fairhealth #saudecorporativa #gestaodepessoas'
 
 POSTS = [
- dict(id='L05', data=D(11, 25), semana=1, bloco='Compreensão', fmt=TXT, eixo='Produto',
+ dict(id='L05', data=D(12, 16), semana=4, bloco='Compreensão', fmt=TXT, eixo='Produto',
   titulo='Entre a medicina do trabalho e o plano de saúde',
   sub='O espaço do dia a dia que nenhum dos dois foi feito para ocupar',
   validar='Dr. Ronald valida o trecho sobre o papel da medicina do trabalho (pendência do post de 26/11 do plano antigo). Quem publica: página da fairhealth ou perfil da FairJob (decidir).',
@@ -102,31 +102,32 @@ O que mais dificulta o cuidado com a saúde no dia a dia da sua empresa?
 
 #fairhealth #saudecorporativa #RH'''),
 
- dict(id='L08', data=D(12, 16), semana=4, bloco='Confiança', fmt=TXT, eixo='Cases',
-  titulo='O primeiro resultado é adesão',
-  sub='Os números de uma indústria química atendida, de janeiro a novembro de 2026',
-  validar='Os sócios liberam os dados de cliente (decisão de 30/10); o nome Chemitec fica de fora ("uma indústria química atendida"), como no post do Instagram de 27/11. Mesma base de dados do relatório conferido pela Nina em 23/11.',
+ dict(id='L08', data=D(11, 25), semana=1, bloco='Confiança', fmt='Foto única', eixo='Cases',
+  titulo='O primeiro resultado é adesão: como ler o relatório do Escritório do Cuidado',
+  sub='A arte do relatório (post do Instagram de 27/11) com o texto para o CFO e o RH: indústria química atendida, janeiro a novembro de 2026',
+  validar='Os sócios liberam os dados de cliente (decisão de 30/10); o nome Chemitec fica de fora ("uma indústria química atendida"), como no Instagram de 27/11. Mesma base do relatório conferido pela Nina em 23/11. Passou para 25/11 a pedido da Nina (24/11), trocando de data com o L05.',
   roteiro=[
-   (PRIM, 'Programa de bem-estar que ninguém usa é custo, não cuidado. Por isso o primeiro número que olhamos é adesão.', '', '', ''),
-   (DESE, 'Numa indústria química atendida (01/01 a 23/11/2026): 51 de 55 colaboradores ativos atendidos (adesão de 92,7%); 210 atendimentos, 94,3% presenciais, dentro da empresa; 96,1% de retorno (49 das 51 pessoas voltaram para dois ou mais atendimentos). Vir uma vez pode ser curiosidade; voltar é sinal de que o cuidado fez sentido. Três motivos: o atendimento está dentro da empresa, o plano parte do que importa para cada um e o que se fala fica no atendimento (o RH recebe só indicadores do grupo).', '', '', ''),
-   (CHAM, 'Antes de perguntar se o bem-estar da sua empresa dá resultado, vale perguntar: quantas pessoas voltam?', '', '', 'Uma chamada só.'),
+   ('Imagem', 'A arte do relatório do Instagram de 27/11 (1080 × 1350): linkedin/posts/relatorio-case/relatorio-linkedin.png', '', '', 'A mesma do Instagram.'),
+   (PRIM, 'Programa de bem-estar que ninguém usa é custo, não cuidado. Por isso, o primeiro número que o CFO e o RH deveriam olhar é a adesão.', '', '', ''),
+   (DESE, 'Relatório de uma indústria química atendida (01/01 a 23/11/2026, modelo Quintuple Aim, IHI), número a número: 92,7% de adesão (51 de 55 ativos); 96,1% de retorno (49 de 51), "vir uma vez pode ser curiosidade, voltar é sinal de que o cuidado fez sentido"; 210 atendimentos, mais de 4 por pessoa; 94,3% presenciais; médico, psicólogo, felicitologista e assistente social, bioimpedância e 48 smartwatches. O RH recebe só indicadores do grupo.', '', '', ''),
+   (CHAM, 'Na sua empresa, qual indicador mostra hoje se o programa de saúde está sendo usado?', '', '', 'Uma chamada só.'),
    (COM, 'Sem link neste post.', '', '', ''),
    (TIME, '"Voltar é o número de que mais me orgulho este ano."', '', '', ''),
    (FONTE, 'Relatório do Escritório do Cuidado de uma indústria química atendida, 01/01 a 23/11/2026 (modelo Quintuple Aim, IHI). Sempre agregado; sem gênero (veio vazio).', '', '', ''),
   ],
-  legenda='''Programa de bem-estar que ninguém usa é custo, não cuidado. Por isso, o primeiro número que olhamos é adesão.
+  legenda='''Programa de bem-estar que ninguém usa é custo, não cuidado. Por isso, o primeiro número que o CFO e o RH deveriam olhar é a adesão.
 
-Numa indústria química que atendemos, de janeiro a novembro de 2026, o Escritório do Cuidado teve:
+Este é o relatório do Escritório do Cuidado de uma indústria química que atendemos, de janeiro a novembro de 2026, com os indicadores do modelo Quintuple Aim, do Institute for Healthcare Improvement. E o que cada número diz para quem decide:
 
-51 de 55 colaboradores ativos atendidos, uma adesão de 92,7%
-210 atendimentos, 94,3% deles presenciais, dentro da empresa
-96,1% de retorno: 49 das 51 pessoas voltaram para dois ou mais atendimentos
+→ 92,7% de adesão: 51 de 55 colaboradores ativos foram atendidos. O cuidado chegou a quase todo o time.
+→ 96,1% de retorno: 49 das 51 pessoas voltaram para dois ou mais atendimentos. Vir uma vez pode ser curiosidade. Voltar é sinal de que o cuidado fez sentido.
+→ 210 atendimentos, mais de quatro por pessoa. Uso contínuo, mês a mês, e não um evento isolado.
+→ 94,3% presenciais, dentro da empresa. Tempo e acesso deixam de ser barreira.
+→ Médico, psicólogo, felicitologista e assistente social no mesmo lugar, com bioimpedância nas consultas e 48 smartwatches acompanhando a rotina.
 
-O último número é o que mais diz. Vir uma vez pode ser curiosidade. Voltar é sinal de que o cuidado fez sentido para a pessoa.
+Tudo isso chega ao RH como indicador do grupo, agregado e anonimizado. Nunca o que cada pessoa contou no atendimento.
 
-Na nossa experiência, três coisas explicam isso. O atendimento está dentro da empresa, então não exige sair do trabalho. O plano parte do que importa para cada um, e não de uma meta imposta. E o colaborador sabe que o que fala no atendimento fica no atendimento: o RH recebe só indicadores do grupo, anonimizados.
-
-Antes de perguntar se o bem-estar da sua empresa dá resultado, vale perguntar outra coisa: quantas pessoas voltam?
+Na sua empresa, qual indicador mostra hoje se o programa de saúde está sendo usado?
 
 #fairhealth #saudecorporativa #gestaodepessoas'''),
 
@@ -184,3 +185,4 @@ Na sua empresa, o gestor sabe o que fazer quando percebe um desses sinais?
 
 #fairhealth #saudementalnotrabalho #gestaodepessoas'''),
 ]
+POSTS.sort(key=lambda p: p['data'])

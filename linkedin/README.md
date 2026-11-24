@@ -57,14 +57,15 @@ Post de página alcança pouco sozinho. Toda quarta:
 
 Os textos completos, o roteiro e as pendências estão em `marketing/ferramentas/conteudo_posts_linkedin_dezembro.py` e na
 planilha `marketing/Cronograma_Posts_LinkedIn_25-11_a_30-12.xlsx` (modelo simples). O calendário de quintas abaixo, de 29/10
-a 17/12, fica como histórico: os posts 5 a 8 foram atualizados e passaram para quarta.
+a 17/12, fica como histórico: os posts 5 a 8 foram atualizados e passaram para quarta. Em 24/11 a Nina pediu o relatório do
+case nesta semana: o 8 foi para 25/11 e o 5, para 16/12 (`linkedin/posts/relatorio-case/`).
 
 | # | Data | Bloco | Post | Formato |
 | --- | --- | --- | --- | --- |
-| 5 | qua 25/11 | Compreensão | Entre a medicina do trabalho e o plano de saúde | Texto |
+| 8 | **qua 25/11** | Confiança | O primeiro resultado é adesão: o relatório do Escritório do Cuidado (indústria química atendida) | Imagem (a arte do Instagram de 27/11) + texto |
 | 6 | qua 02/12 | Atualidade | Seminário Mirix: a felicidade no trabalho pode ser medida | Texto (matéria no primeiro comentário) |
 | 7 | qua 09/12 | Compreensão | Como o cuidado entra na rotina sem atrapalhar o trabalho | Texto |
-| 8 | qua 16/12 | Confiança | O primeiro resultado é adesão (indústria química atendida) | Texto com números |
+| 5 | qua 16/12 | Compreensão | Entre a medicina do trabalho e o plano de saúde | Texto |
 | 9 | qua 23/12 | Confiança | Como levar o cuidado para a sua empresa em janeiro | Texto + link no primeiro comentário |
 | 10 | qua 30/12 | Atualidade | O cansaço constante não é fraqueza (OMS) | Texto |
 
