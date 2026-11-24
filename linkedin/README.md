@@ -1,4 +1,4 @@
-# LinkedIn: página FairHealth · 1 post por semana
+# LinkedIn: página fairhealth · 1 post por semana, toda quarta
 
 Os textos prontos ficam em `posts.md`. A voz é a mesma do Instagram
 (`instagram/voice.md`): calma, segura, acolhedora, sem emoji e sem travessão.
@@ -26,8 +26,7 @@ Quem lê: RH, líderes, gestores e quem vive o dia a dia de uma empresa.
 
 ## Dia, horário e formato
 
-- **Quinta, 8:00 (Brasília).** No Instagram, os posts saem segunda, quarta e
-  sexta. A quinta fica livre, e é um dos dias de mais leitura no LinkedIn.
+- **Quarta, 8:00 (Brasília)** (pedido da Nina, 24/11; antes era quinta). O horário segue o de antes e pode ser ajustado.
 - **Formatos:** texto, na maior parte, e documento em PDF quando já existe um
   carrossel pronto (exportado com `instagram/ferramentas/pdf.mjs`).
 
@@ -45,7 +44,7 @@ Quem lê: RH, líderes, gestores e quem vive o dia a dia de uma empresa.
 
 ## A primeira hora decide o alcance
 
-Post de página alcança pouco sozinho. Toda quinta:
+Post de página alcança pouco sozinho. Toda quarta:
 
 - **8:00** a página publica (e comenta o link, quando houver).
 - **Até 9:00** pelo menos 3 pessoas do time compartilham **com um comentário
@@ -54,23 +53,24 @@ Post de página alcança pouco sozinho. Toda quinta:
 - Quem comentar e for de RH ou liderança recebe **mensagem pessoal** de alguém
   do time, começando pela conversa do post. Nunca proposta fria.
 
-## Calendário
+## Calendário (a partir de 24/11: toda quarta, 8:00)
+
+Os textos completos, o roteiro e as pendências estão em `marketing/ferramentas/conteudo_posts_linkedin_dezembro.py` e na
+planilha `marketing/Cronograma_Posts_LinkedIn_25-11_a_30-12.xlsx` (modelo simples). O calendário de quintas abaixo, de 29/10
+a 17/12, fica como histórico: os posts 5 a 8 foram atualizados e passaram para quarta.
 
 | # | Data | Bloco | Post | Formato |
 | --- | --- | --- | --- | --- |
-| 1 | qui 29/10 | Reconhecimento | Apresentando a FairHealth | Documento PDF |
-| 2 | **qui 12/11, 8:00** (era 05/11; próximo post) | Reconhecimento | O colaborador no centro (Escritório do Cuidado) | Imagem quadrada + texto (post do Instagram de 06/11) |
-| 3 | qui 12/11 | Relevância | O cuidado não cabe na agenda de quem trabalha | Texto |
-| 4 | qui 19/11 | Relevância | Prevenção também é investimento | Texto |
-| 5 | qui 26/11 | Compreensão | Entre a medicina do trabalho e o plano de saúde | Texto |
-| 6 | qui 03/12 | Compreensão | Como o cuidado entra na rotina da empresa | Texto |
-| 7 | qui 10/12 | Confiança | O primeiro resultado é adesão (Chemitec) | Texto com números |
-| 8 | qui 17/12 | Confiança | Como levar a FairHealth para a sua empresa | Texto + link |
-| - | 24/12 e 31/12 | - | Pausa (recesso) | - |
+| 5 | qua 25/11 | Compreensão | Entre a medicina do trabalho e o plano de saúde | Texto |
+| 6 | qua 02/12 | Atualidade | Seminário Mirix: a felicidade no trabalho pode ser medida | Texto (matéria no primeiro comentário) |
+| 7 | qua 09/12 | Compreensão | Como o cuidado entra na rotina sem atrapalhar o trabalho | Texto |
+| 8 | qua 16/12 | Confiança | O primeiro resultado é adesão (indústria química atendida) | Texto com números |
+| 9 | qua 23/12 | Confiança | Como levar o cuidado para a sua empresa em janeiro | Texto + link no primeiro comentário |
+| 10 | qua 30/12 | Atualidade | O cansaço constante não é fraqueza (OMS) | Texto |
 
-Depois do dia 17/12, o caminho de apresentação termina. Em janeiro entram
-temas recorrentes de bem-estar corporativo: liderança e saúde do time,
-pausas e ritmo de trabalho, saúde mental no expediente, ambiente da empresa.
+Histórico (quintas): 1 (29/10) Apresentando a fairhealth; 2 (12/11) O colaborador no centro; 3 (12/11) O cuidado não cabe
+na agenda; 4 (19/11) Prevenção também é investimento. Em janeiro entram temas recorrentes de bem-estar corporativo:
+liderança e saúde do time, pausas e ritmo de trabalho, saúde mental no expediente.
 
 ## Antes de começar
 

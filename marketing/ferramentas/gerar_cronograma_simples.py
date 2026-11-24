@@ -11,7 +11,7 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 FONTE = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(__file__), 'conteudo_posts_19-10_a_13-11.py')
 C = runpy.run_path(FONTE)
 DIAS = ['segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo']
-COR_FMT = {'Reel': '96C5BD', 'Carrossel': 'BFE0D9', 'Foto única': 'F0F0E9'}
+COR_FMT = {'Reel': '96C5BD', 'Carrossel': 'BFE0D9', 'Foto única': 'F0F0E9', 'Texto': 'DCEBE7', 'Documento PDF': 'BFE0D9'}
 fino = Side(style='thin', color='C9D6D2')
 BORDA = Border(left=fino, right=fino, top=fino, bottom=fino)
 

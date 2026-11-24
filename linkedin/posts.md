@@ -1,5 +1,8 @@
 # Posts semanais do LinkedIn: textos prontos
 
+**Desde 24/11 o LinkedIn sai toda quarta e os posts 5 a 10 estão em `marketing/ferramentas/conteudo_posts_linkedin_dezembro.py`**
+(os textos de #5 a #8 abaixo são a versão antiga, de quinta, e ficam como histórico).
+
 Caminho, regras e calendário em `README.md`. Cada post tem o texto para colar
 (com as quebras de linha que o LinkedIn mantém), o primeiro comentário quando
 houver link e uma sugestão de frase para o time compartilhar.
