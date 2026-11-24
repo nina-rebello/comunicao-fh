@@ -35,6 +35,12 @@ cada número com o que significa para o CFO e o RH."
 `slides-v1-carrossel.html`, `png-v1-carrossel/`, `previa-v1-carrossel.png`, `legenda-v1-carrossel.txt`, `canva-v1-carrossel.html`
 (números do 1º semestre). A capa usava `fotos/capa.jpg` (`gerar.py`).
 
+## Retorno do Dr. Ronald e do Fernando (24/11)
+
+- O texto passou a dizer "indicadores baseados no modelo Quintuple Aim" (expressão do Dr. Ronald) no rodapé da arte, na
+  legenda e no LinkedIn: o relatório mostra uso e vínculo, não o modelo inteiro.
+- Próximo passo, para janeiro: turnover, absenteísmo e e-NPS no fechamento do ano (`marketing/pautas-janeiro-2027.md`).
+
 ## Pendências
 
 - Sócios: o case sai? Com ou sem o nome Chemitec?

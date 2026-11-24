@@ -15,3 +15,7 @@ Post 8 do cronograma do LinkedIn (`marketing/ferramentas/conteudo_posts_linkedin
 
 Dados: relatório do Escritório do Cuidado de uma indústria química atendida, 01/01 a 23/11/2026 (modelo Quintuple Aim, IHI),
 sempre agregados. Sem o nome do cliente até os sócios liberarem (decisão de 30/10).
+
+**24/11 (retorno do Dr. Ronald e do Fernando):** "indicadores baseados no modelo Quintuple Aim" no texto e no rodapé da arte.
+A continuação, com turnover, absenteísmo e e-NPS, fica para janeiro (`marketing/pautas-janeiro-2027.md`).
+

@@ -441,7 +441,7 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
   material='Relatório real do Escritório do Cuidado (print enviado pela Nina em 23/11). Sem foto. Logo da Chemitec só com autorização.',
   cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
   stories='Sequência com os 4 números e o adesivo "Mande uma mensagem".',
-  fonte='Relatório do Escritório do Cuidado da Chemitec, 01/01 a 23/11/2026 (PDF da Nina, 23/11), modelo Quintuple Aim (IHI): 51 colaboradores atendidos (adesão de 92,7% de 55 ativos); 210 atendimentos (198 presenciais, 94,3%; 12 online, 5,7%); por tipo: médico 75,2%, psicológico 18,6%, felicitológico 3,8%, serviço social 2,4%; 48 smartbands; faixas 18–24 15,7% (8), 25–34 23,5% (12), 35–49 45,1% (23), 50+ 15,7% (8); retorno 96,1% (49 de 51 com 2 ou mais atendimentos). O gênero veio vazio (0% e 0%, "outros" 100%) e ficou fora. Sempre agregado.',
+  fonte='Relatório do Escritório do Cuidado da Chemitec, 01/01 a 23/11/2026 (PDF da Nina, 23/11), indicadores baseados no modelo Quintuple Aim (IHI): 51 colaboradores atendidos (adesão de 92,7% de 55 ativos); 210 atendimentos (198 presenciais, 94,3%; 12 online, 5,7%); por tipo: médico 75,2%, psicológico 18,6%, felicitológico 3,8%, serviço social 2,4%; 48 smartbands; faixas 18–24 15,7% (8), 25–34 23,5% (12), 35–49 45,1% (23), 50+ 15,7% (8); retorno 96,1% (49 de 51 com 2 ou mais atendimentos). O gênero veio vazio (0% e 0%, "outros" 100%) e ficou fora. Sempre agregado.',
   validar='Sócios: o case sai e pode citar o nome Chemitec? (decisão de 30/10; autorização escrita do cliente). Sem isso, "uma indústria química atendida". Os números do relatório de 23/11 substituem os anteriores (1º semestre e jan a set).',
   arquivos='instagram/posts/case-adesao/ (slides.html, png/relatorio.png, previa.png, legenda.txt, canva.html, README). O carrossel de 8 slides ficou como v1.',
   legenda='''Como ler o relatório do Escritório do Cuidado? Os números de uma indústria química atendida, de janeiro a novembro de 2026.
@@ -452,7 +452,7 @@ Retorno de 96,1%. Das 51 pessoas, 49 voltaram para dois ou mais atendimentos, nu
 
 Quase tudo foi presencial: 94,3% dos atendimentos aconteceram dentro da empresa, com médico, psicólogo, felicitologista e assistente social no mesmo lugar, 48 smartwatches em uso e bioimpedância nas consultas. Todas as idades usaram.
 
-O RH recebe só indicadores do grupo, agregados e anonimizados. Nunca o que cada pessoa contou.
+O RH recebe só indicadores do grupo, agregados e anonimizados, baseados no modelo Quintuple Aim, do Institute for Healthcare Improvement. Nunca o que cada pessoa contou.
 
 Quer ver como funciona na sua empresa? Comente CUIDADO.
 
@@ -461,7 +461,7 @@ Quer ver como funciona na sua empresa? Comente CUIDADO.
    ('Imagem única 4:5', 'Relatório · Escritório do Cuidado\nComo ler o relatório do Escritório do Cuidado\nUma indústria química atendida, de janeiro a novembro de 2026: o que cada número significa e como levar ao CFO e ao RH.', '', 'Cabeçalho com o logo.', ''),
    ('Números', '92,7% · Adesão (51 de 55 ativos). Significa: quase todo o time usou. Para o CFO e o RH: sem uso, não há resultado. Adesão vem primeiro.\n96,1% · Retorno (49 de 51 voltaram). Significa: voltaram 2 vezes ou mais. Para o CFO e o RH: é na continuidade que o plano de cada pessoa acontece.\n210 · Atendimentos (mais de 4 por pessoa). Significa: uso contínuo, não um evento. Para o CFO e o RH: o cuidado entrou na rotina da empresa, mês a mês.\n48 · Smartwatches em uso e bioimpedância. Significa: acompanhamento contínuo. Para o CFO e o RH: decisões com dados do grupo, agregados e anonimizados.', '', 'Quatro cartões brancos, número no verde da marca.', ''),
    ('Painéis', 'Tipo de atendimento: médico 75,2% · psicológico 18,6% · felicitológico 3,8% · serviço social 2,4%. Uma porta só para corpo, mente e contexto de vida.\nFormato: 94,3% presencial, dentro da empresa (online 5,7%, 12 atendimentos). Tempo e acesso deixam de ser barreira ao cuidado.\nQuem foi atendido: 51 pessoas; 18–24 15,7% · 25–34 23,5% · 35–49 45,1% · 50+ 15,7%. Todas as idades usaram.', '', 'Barras em verde, Tiffany e menta.', ''),
-   ('Rodapé', 'Fonte: relatório do Escritório do Cuidado de uma indústria química atendida (01/01 a 23/11/2026), modelo Quintuple Aim (IHI). O RH recebe só indicadores do grupo, agregados e anonimizados: nunca o que cada pessoa contou.', '', '', 'Nome do cliente só com autorização.'),
+   ('Rodapé', 'Fonte: relatório do Escritório do Cuidado de uma indústria química atendida (01/01 a 23/11/2026), com indicadores baseados no modelo Quintuple Aim (IHI). O RH recebe só indicadores do grupo, agregados e anonimizados: nunca o que cada pessoa contou.', '', '', 'Nome do cliente só com autorização.'),
   ]),
 
  dict(id='S01', data=D(30), semana=5, bloco='7 · Causas', eixo='Notícias + Institucional', fmt=REEL,

@@ -109,15 +109,15 @@ O que mais dificulta o cuidado com a saúde no dia a dia da sua empresa?
   roteiro=[
    ('Imagem', 'A arte do relatório do Instagram de 27/11 (1080 × 1350): linkedin/posts/relatorio-case/relatorio-linkedin.png', '', '', 'A mesma do Instagram.'),
    (PRIM, 'Programa de bem-estar que ninguém usa é custo, não cuidado. Por isso, o primeiro número que o CFO e o RH deveriam olhar é a adesão.', '', '', ''),
-   (DESE, 'Relatório de uma indústria química atendida (01/01 a 23/11/2026, modelo Quintuple Aim, IHI), número a número: 92,7% de adesão (51 de 55 ativos); 96,1% de retorno (49 de 51), "vir uma vez pode ser curiosidade, voltar é sinal de que o cuidado fez sentido"; 210 atendimentos, mais de 4 por pessoa; 94,3% presenciais; médico, psicólogo, felicitologista e assistente social, bioimpedância e 48 smartwatches. O RH recebe só indicadores do grupo.', '', '', ''),
+   (DESE, 'Relatório de uma indústria química atendida (01/01 a 23/11/2026, indicadores baseados no modelo Quintuple Aim, IHI), número a número: 92,7% de adesão (51 de 55 ativos); 96,1% de retorno (49 de 51), "vir uma vez pode ser curiosidade, voltar é sinal de que o cuidado fez sentido"; 210 atendimentos, mais de 4 por pessoa; 94,3% presenciais; médico, psicólogo, felicitologista e assistente social, bioimpedância e 48 smartwatches. O RH recebe só indicadores do grupo.', '', '', ''),
    (CHAM, 'Na sua empresa, qual indicador mostra hoje se o programa de saúde está sendo usado?', '', '', 'Uma chamada só.'),
    (COM, 'Sem link neste post.', '', '', ''),
    (TIME, '"Voltar é o número de que mais me orgulho este ano."', '', '', ''),
-   (FONTE, 'Relatório do Escritório do Cuidado de uma indústria química atendida, 01/01 a 23/11/2026 (modelo Quintuple Aim, IHI). Sempre agregado; sem gênero (veio vazio).', '', '', ''),
+   (FONTE, 'Relatório do Escritório do Cuidado de uma indústria química atendida, 01/01 a 23/11/2026 (indicadores baseados no modelo Quintuple Aim, IHI). Sempre agregado; sem gênero (veio vazio).', '', '', ''),
   ],
   legenda='''Programa de bem-estar que ninguém usa é custo, não cuidado. Por isso, o primeiro número que o CFO e o RH deveriam olhar é a adesão.
 
-Este é o relatório do Escritório do Cuidado de uma indústria química que atendemos, de janeiro a novembro de 2026, com os indicadores do modelo Quintuple Aim, do Institute for Healthcare Improvement. E o que cada número diz para quem decide:
+Este é o relatório do Escritório do Cuidado de uma indústria química que atendemos, de janeiro a novembro de 2026, com indicadores baseados no modelo Quintuple Aim, do Institute for Healthcare Improvement. E o que cada número diz para quem decide:
 
 → 92,7% de adesão: 51 de 55 colaboradores ativos foram atendidos. O cuidado chegou a quase todo o time.
 → 96,1% de retorno: 49 das 51 pessoas voltaram para dois ou mais atendimentos. Vir uma vez pode ser curiosidade. Voltar é sinal de que o cuidado fez sentido.
