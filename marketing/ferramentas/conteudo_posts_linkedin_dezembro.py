@@ -1,4 +1,5 @@
 # Cronograma do LinkedIn da fairhealth: 1 post por semana, toda quarta (pedido da Nina, 24/11), de 25/11 a 30/12.
+# 25/11 (Nina): saiu o post "Entre a medicina do trabalho e o plano de saúde"; não contrapomos o Escritório à medicina do trabalho nem ao plano de saúde.
 # Substitui o calendário de quintas do linkedin/README.md. Usado por gerar_cronograma_simples.py (modelo padrão):
 #   python3 marketing/ferramentas/gerar_cronograma_simples.py marketing/Cronograma_Posts_LinkedIn_25-11_a_30-12.xlsx marketing/ferramentas/conteudo_posts_linkedin_dezembro.py
 # Regras do LinkedIn (linkedin/README.md): a primeira frase se sustenta sozinha antes do "ver mais", link só no primeiro comentário,
@@ -14,34 +15,6 @@ PRIM, DESE, CHAM, COM, TIME, FONTE = ('Primeira linha (antes do "ver mais")', 'D
 H3 = '#fairhealth #saudecorporativa #gestaodepessoas'
 
 POSTS = [
- dict(id='L05', data=D(12, 16), semana=4, bloco='Compreensão', fmt=TXT, eixo='Produto',
-  titulo='Entre a medicina do trabalho e o plano de saúde',
-  sub='O espaço do dia a dia que nenhum dos dois foi feito para ocupar',
-  validar='Dr. Ronald valida o trecho sobre o papel da medicina do trabalho (pendência do post de 26/11 do plano antigo). Quem publica: página da fairhealth ou perfil da FairJob (decidir).',
-  roteiro=[
-   (PRIM, 'Toda empresa tem medicina do trabalho e plano de saúde. Mesmo assim, falta alguém no meio.', '', '', ''),
-   (DESE, 'A medicina do trabalho olha o risco da empresa; o plano de saúde olha o tratamento. Entre os dois fica o dia a dia: o sono ruim, a ansiedade que ainda não virou crise, o hábito que escorrega. O Escritório do Cuidado ocupa esse espaço (médico, psicólogo, assistente social e felicitologista dentro da empresa, plano pela MEV, bioimpedância e smartwatch) e complementa os dois, sem substituir.', '', '', ''),
-   (CHAM, 'Na sua empresa, quem cuida do colaborador antes de ele precisar do plano?', '', '', 'Uma chamada só.'),
-   (COM, 'Sem link neste post.', '', '', ''),
-   (TIME, '"Muitas vezes, a pessoa só precisa de alguém que escute e diga para onde ir. Esse é o espaço que a gente ocupa." (serviço social)', '', '', ''),
-   (FONTE, 'Descrição do Escritório do Cuidado conforme o site da fairjob (referencias.md). Sem números.', '', '', ''),
-  ],
-  legenda='''Toda empresa tem medicina do trabalho e plano de saúde. Mesmo assim, falta alguém no meio.
-
-A medicina do trabalho olha para o risco da empresa: exames, ambiente, segurança, o que a lei exige.
-
-O plano de saúde olha para o tratamento: entra quando a pessoa já está doente e procura atendimento.
-
-Entre os dois fica quase tudo o que acontece no dia a dia. O colaborador que dorme mal há meses. A ansiedade que ainda não virou crise. O hábito que começou a escorregar. A pessoa que só precisava de alguém para ouvir e saber para onde ir.
-
-É nesse espaço que o Escritório do Cuidado trabalha. Médico, psicólogo, assistente social e felicitologista dentro da empresa, com um plano individual de cuidado pela Medicina do Estilo de Vida e com bioimpedância e smartwatch para acompanhar a rotina entre uma consulta e outra.
-
-Não substituímos a medicina do trabalho nem o plano de saúde. Complementamos os dois, no espaço que nenhum deles foi feito para ocupar.
-
-Na sua empresa, quem cuida do colaborador antes de ele precisar do plano?
-
-#fairhealth #saudecorporativa #gestaodepessoas'''),
-
  dict(id='L06', data=D(12, 2), semana=2, bloco='Atualidade', fmt=TXT, eixo='Notícias + Institucional',
   titulo='Seminário Mirix: a felicidade no trabalho pode ser medida',
   sub='O que Fernando Brancaccio e Dr. Ronald Maia Filho apresentaram em Belo Horizonte, com a matéria do BH Ao Vivo',
@@ -130,6 +103,32 @@ Tudo isso chega ao RH como indicador do grupo, agregado e anonimizado. Nunca o q
 Na sua empresa, qual indicador mostra hoje se o programa de saúde está sendo usado?
 
 #fairhealth #saudecorporativa #gestaodepessoas'''),
+
+ dict(id='L11', data=D(12, 16), semana=4, bloco='Compreensão', fmt=TXT, eixo='Produto',
+  titulo='Os 7 pilares da Medicina do Estilo de Vida na rotina da empresa',
+  sub='Quase nenhum acontece no consultório: acontecem no expediente, e a empresa pode cuidar de cada um',
+  validar='Descrição conforme a Cartilha do Escritório do Cuidado (os 7 pilares) e o site (workshops nos 7 pilares, plano individual por dimensão da MEV). Sem os números da cartilha (sem fonte). Revisão do Dr. Ronald. Substitui o post "Entre a medicina do trabalho e o plano de saúde", que saiu do cronograma em 25/11 (Nina: não vamos contrapor a medicina do trabalho nem o plano de saúde).',
+  roteiro=[
+   (PRIM, 'A saúde de um time não se resolve numa consulta. Ela se constrói em sete frentes do dia a dia.', '', '', ''),
+   (DESE, 'Os 7 pilares da Medicina do Estilo de Vida: alimentação saudável, atividade física, sono reparador, saúde mental e estresse, evitar substâncias, relações sociais e propósito e espiritualidade. Quase nenhum acontece no consultório: acontecem no expediente. No Escritório do Cuidado a MEV está dentro do atendimento (plano individual por pilar, bioimpedância e smartwatch entre as consultas) e os workshops nos 7 pilares levam a conversa para a empresa toda, com a liderança junto. Para o RH, os pilares viram uma linguagem comum, com indicadores do grupo, anonimizados.', '', '', ''),
+   (CHAM, 'Qual desses sete pilares mais pesa no dia a dia do seu time?', '', '', 'Uma chamada só.'),
+   (COM, 'Sem link neste post.', '', '', ''),
+   (TIME, '"O pilar que mais aparece nos atendimentos não é o que as pessoas esperam."', '', '', 'Só se for verdade para o time; confirmar antes.'),
+   (FONTE, 'Cartilha do Escritório do Cuidado (7 pilares da MEV) e site da fairjob (workshops nos 7 pilares; plano individual por dimensão da MEV). Sem números.', '', '', ''),
+  ],
+  legenda='''A saúde de um time não se resolve numa consulta. Ela se constrói em sete frentes do dia a dia.
+
+A Medicina do Estilo de Vida organiza o cuidado em sete pilares: alimentação saudável, atividade física, sono reparador, saúde mental e estresse, evitar substâncias, relações sociais e propósito e espiritualidade.
+
+Repare que quase nenhum deles acontece no consultório. Acontecem no expediente: o horário da refeição, o intervalo que existe ou não, o sono depois de uma semana de entrega, a conversa entre colegas, o sentido que o trabalho tem.
+
+Por isso, no Escritório do Cuidado, a Medicina do Estilo de Vida está dentro do atendimento. O plano de cada pessoa é construído por pilar, e a bioimpedância e o smartwatch acompanham a rotina entre uma consulta e outra. E os workshops nos sete pilares levam a conversa para a empresa toda, em linguagem acessível e com a liderança junto.
+
+Para o RH, os pilares viram uma linguagem comum. Dá para olhar o grupo, em indicadores anonimizados, e escolher por onde começar.
+
+Qual desses sete pilares mais pesa no dia a dia do seu time?
+
+#fairhealth #medicinadoestilodevida #saudecorporativa'''),
 
  dict(id='L09', data=D(12, 23), semana=5, bloco='Confiança', fmt=TXT, eixo='Produto',
   titulo='Como levar o cuidado para a sua empresa em janeiro',

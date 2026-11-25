@@ -64,6 +64,9 @@ Novembro está em `marketing/Cronograma_Posts_03-11_a_30-11.xlsx`.
 - Antes de entregar, o texto passa pela skill **ig-human**.
 - Quando a skill e a marca discordam, vale a marca: 5 hashtags, a primeira #fairhealth; "fairhealth" em minúsculas;
   comunicação B2B; sem travessão; números só com fonte; sem promessa clínica; sem preço.
+- **Sem "guerra" com a medicina do trabalho nem com o plano de saúde** (Nina, 25/11). Não contrapor o Escritório do Cuidado a
+  nenhum dos dois, nem escrever "falta alguém no meio". Eles são parceiros: o Escritório complementa o plano de saúde e o
+  SST/SESMT. O post "Entre a medicina do trabalho e o plano de saúde" foi descartado.
 - **Não existe "diagnóstico gratuito"** (Nina, 12/11). Nunca oferecer diagnóstico gratuito em post, legenda, bio
   ou LinkedIn. A palavra CUIDADO envia como funciona o Escritório do Cuidado. O que estiver escrito de outro jeito
   nos arquivos antigos está desatualizado.

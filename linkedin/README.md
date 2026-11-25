@@ -65,7 +65,7 @@ case nesta semana: o 8 foi para 25/11 e o 5, para 16/12 (`linkedin/posts/relator
 | 8 | **qua 25/11** | Confiança | O primeiro resultado é adesão: o relatório do Escritório do Cuidado (indústria química atendida) | Imagem (a arte do Instagram de 27/11) + texto |
 | 6 | qua 02/12 | Atualidade | Seminário Mirix: a felicidade no trabalho pode ser medida | Texto (matéria no primeiro comentário) |
 | 7 | qua 09/12 | Compreensão | Como o cuidado entra na rotina sem atrapalhar o trabalho | Texto |
-| 5 | qua 16/12 | Compreensão | Entre a medicina do trabalho e o plano de saúde | Texto |
+| 11 | qua 16/12 | Compreensão | Os 7 pilares da Medicina do Estilo de Vida na rotina da empresa | Texto |
 | 9 | qua 23/12 | Confiança | Como levar o cuidado para a sua empresa em janeiro | Texto + link no primeiro comentário |
 | 10 | qua 30/12 | Atualidade | O cansaço constante não é fraqueza (OMS) | Texto |
 

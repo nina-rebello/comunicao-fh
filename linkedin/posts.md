@@ -152,7 +152,9 @@ quanto custa cuidar, eu pergunto de volta quanto custa não cuidar."
 
 ---
 
-## #5 · qui 26/11 · Compreensão · Entre a medicina do trabalho e o plano de saúde
+## #5 · DESCARTADO (Nina, 25/11) · Entre a medicina do trabalho e o plano de saúde
+
+> Não vamos contrapor o Escritório do Cuidado à medicina do trabalho nem ao plano de saúde. Texto mantido só como histórico.
 
 **Formato:** texto. **[PENDENTE]** Validar com o Dr. Ronald (o texto fala do
 papel da medicina do trabalho).
