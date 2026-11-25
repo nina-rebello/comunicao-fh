@@ -28,24 +28,27 @@ const POSTS = [
   [30, "reel", 7, "I", "Notícias", "Podcast: a felicidade no trabalho pode ser medida", "A felicidade no trabalho pode ser medida",
     "Podcast, corte 1: trechos do Seminário Mirix com Fernando Brancaccio e Dr. Ronald Maia Filho", "Mande para quem cuida de gente"],
 ];
+const LINKEDIN = [
+  [25, "imagem", "Confiança", "Cases", "O primeiro resultado é adesão", "O primeiro resultado é adesão: como ler o relatório do Escritório do Cuidado",
+    "A arte do relatório do Instagram de 27/11 com o texto para o CFO e o RH, de uma indústria química atendida", "Pergunta: qual indicador mostra se o programa de saúde é usado?"],
+];
 const DATAS = { 1: "Início do Novembro Azul", 2: "Finados", 14: "Dia Mundial do Diabetes", 15: "Proclamação da República", 20: "Consciência Negra (feriado)" };
 const SEMANAS = [
   { n: 1, ini: 2, fim: 6, rotulo: "03 a 06/11", desc: "Compreensão e começo da confiança. O cuidado na prática, as quatro frentes conectadas e a trajetória do método." },
   { n: 2, ini: 9, fim: 13, rotulo: "09 a 13/11", desc: "Confiança. Resultados reais, a ciência por trás do cuidado e o convite para o RH." },
   { n: 3, ini: 16, fim: 20, rotulo: "16 a 19/11", desc: "Atualidade. Novembro Azul, NR-01 e a voz de quem é cuidado: temas do momento que levam ao Escritório do Cuidado. Sexta, 20/11, é feriado." },
-  { n: 4, ini: 23, fim: 27, rotulo: "23 a 27/11", desc: "Atualidade e decisão. Quem cuida do RH, a desconexão dos jovens e a prova da Chemitec." },
+  { n: 4, ini: 23, fim: 27, rotulo: "23 a 27/11", desc: "Atualidade e decisão. Quem cuida do RH, a desconexão dos jovens e o relatório de uma indústria química atendida, no Instagram e no LinkedIn." },
   { n: 5, ini: 30, fim: 30, rotulo: "30/11", desc: "Passagem para dezembro, com o RH fechando o orçamento de 2027: o primeiro corte do podcast do Seminário Mirix. O reel \"Dezembro chegou\" vai para quarta, 02/12." },
 ];
 module.exports = {
-  mes: 10, nomeMes: "Novembro", periodo: "01/11 a 30/11", sub: "3 posts por semana",
+  mes: 10, nomeMes: "Novembro", periodo: "01/11 a 30/11", sub: "Instagram: 3 por semana  ·  LinkedIn: quartas",
   gradeInicio: new Date(2026, 10, 2), semanasNaGrade: 5,
-  objetivo: "Fechar a apresentação da fairhealth e abrir a conversa com o RH. Primeiro, mostramos o cuidado na prática e as provas de que ele funciona. Depois, usamos temas do momento (Novembro Azul, NR-01, saúde do RH, Geração Z) para mostrar que entendemos o que as empresas estão vivendo e terminamos com o convite para conhecer o Escritório do Cuidado, enquanto o RH fecha o orçamento de 2027.",
-  POSTS, DATAS, SEMANAS,
+  objetivo: "Fechar a apresentação da fairhealth e abrir a conversa com o RH. Primeiro, mostramos o cuidado na prática e as provas de que ele funciona. Depois, usamos temas do momento (Novembro Azul, NR-01, saúde do RH, Geração Z) para mostrar que entendemos o que as empresas estão vivendo e terminamos com o convite para conhecer o Escritório do Cuidado, enquanto o RH fecha o orçamento de 2027. No LinkedIn, a partir de 25/11, um post por semana, sempre na quarta, com o olhar da empresa: RH, CFO e liderança.",
+  POSTS, LINKEDIN, DATAS, SEMANAS,
   painel: { titulo: "Para novembro funcionar", itens: [
-    "Até 13/11: guia de NR-01 pronto e validado",
-    "Até 13/11: resposta automática da palavra CUIDADO no ar",
-    "Até 27/11: pesquisa dos motivos de demissão achada e conferida (carrossel de 30/11)",
-    "Revisão técnica dos posts de Novembro Azul, NR-01 e saúde mental",
-    "Conferir na fonte original os dados do INSS, da Flash e da pesquisa sobre homens e saúde",
+    "Até 26/11: autorização de BH Ao Vivo e da Mirix e ok de Fernando e Dr. Ronald para o primeiro corte do podcast (30/11)",
+    "Até 26/11: sócios liberam os dados de cliente do relatório (LinkedIn 25/11 e Instagram 27/11)",
+    "25/11: definir quem publica o LinkedIn (página fairhealth ou perfil FairJob) e quem compartilha até 9:00",
+    "Revisão técnica dos posts de saúde mental e NR-01",
   ] },
 };

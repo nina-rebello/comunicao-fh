@@ -29,6 +29,18 @@ const POSTS = [
   [30, "reel", 11, "I", "Institucional", "Podcast: o cuidado começa pela escuta", "O cuidado começa pela escuta",
     "Podcast, corte 3: o Dr. Ronald Maia Filho e a pergunta \"o que importa para você?\" (trechos a escolher)", "Mande para quem cuida de gente"],
 ];
+const LINKEDIN = [
+  [2, "texto", "Atualidade", "Notícias", "Seminário Mirix: a felicidade pode ser medida", "Seminário Mirix: a felicidade no trabalho pode ser medida",
+    "O que Fernando Brancaccio e Dr. Ronald Maia Filho apresentaram em Belo Horizonte, com a matéria do BH Ao Vivo no primeiro comentário", "Pergunta: a felicidade do time é medida ou só presumida?"],
+  [9, "texto", "Compreensão", "Produto", "Como o cuidado entra na rotina", "Como o cuidado entra na rotina sem atrapalhar o trabalho",
+    "Escuta, atendimento, plano e acompanhamento, num programa de 4 meses", "Pergunta: o que mais dificulta o cuidado na sua empresa?"],
+  [16, "texto", "Compreensão", "Produto", "Medicina do trabalho e plano de saúde", "Entre a medicina do trabalho e o plano de saúde",
+    "O espaço do dia a dia que nenhum dos dois foi feito para ocupar", "Pergunta: quem cuida do colaborador antes do plano?"],
+  [23, "texto", "Confiança", "Produto", "Levar o cuidado para a empresa em janeiro", "Como levar o cuidado para a sua empresa em janeiro",
+    "Conversa, proposta personalizada e implementação, para quem fecha o planejamento de 2027", "Convite, com o link no primeiro comentário"],
+  [30, "texto", "Atualidade", "Notícias", "O cansaço constante não é fraqueza", "O cansaço constante não é fraqueza",
+    "Os 3 sinais de esgotamento que a OMS descreve e o que o líder pode fazer", "Pergunta: o gestor sabe o que fazer ao ver esses sinais?"],
+];
 const DATAS = { 1: "Dezembro começa", 24: "Véspera de Natal", 25: "Natal (feriado)", 31: "Réveillon" };
 const SEMANAS = [
   { n: 1, ini: 1, fim: 6, rotulo: "02 a 04/12", desc: "Causas. A segunda, 30/11, abre com o primeiro corte do podcast do Seminário Mirix; na quarta, a corrida das metas de dezembro; e todo mundo precisa de alguém por perto." },
@@ -38,20 +50,19 @@ const SEMANAS = [
   { n: 5, ini: 28, fim: 31, rotulo: "28 a 30/12", desc: "Virada do ano. O RH leva 5 perguntas para o planejamento de 2027 e o Dr. Ronald fecha o ano com a pergunta que abre cada atendimento (podcast, corte 3)." },
 ];
 module.exports = {
-  mes: 11, nomeMes: "Dezembro", periodo: "02/12 a 30/12", sub: "reels na quarta: podcast e Marília",
+  mes: 11, nomeMes: "Dezembro", periodo: "02/12 a 30/12", sub: "Instagram: reels na quarta  ·  LinkedIn: toda quarta",
   gradeInicio: new Date(2026, 10, 30), semanasNaGrade: 5,
-  objetivo: "Fechar o ano mostrando o cuidado por trás dos temas que o RH já tem na cabeça: a saída de pessoas, o sono, os dados, o esgotamento e a felicidade. Cada tema leva ao Escritório do Cuidado e ao que o RH recebe, indicadores do grupo e anonimizados. Terminamos com como o programa de 4 meses começa, enquanto o RH planeja 2027.",
-  POSTS, DATAS, SEMANAS,
+  objetivo: "Fechar o ano mostrando o cuidado por trás dos temas que o RH já tem na cabeça: a saída de pessoas, o sono, os dados, o esgotamento e a felicidade. Cada tema leva ao Escritório do Cuidado e ao que o RH recebe, indicadores do grupo e anonimizados. Terminamos com como o programa de 4 meses começa, enquanto o RH planeja 2027. No LinkedIn, um post por semana, sempre na quarta, com o olhar da empresa: RH, CFO e liderança.",
+  POSTS, LINKEDIN, DATAS, SEMANAS,
   painel: { titulo: "Para dezembro funcionar", itens: [
-    "Até 27/11: pesquisa dos motivos de demissão achada e conferida (carrossel de 30/11)",
-    "Até 27/11: autorização de BH Ao Vivo e da Mirix e ok de Fernando e Dr. Ronald para os cortes do podcast (o primeiro sai em 30/11)",
+    "Até 27/11: autorização de BH Ao Vivo e da Mirix e ok de Fernando e Dr. Ronald para os cortes do podcast (o primeiro sai em 30/11) e para o LinkedIn de 02/12",
     "Até 01/12: prática de 1 minuto do reel de 02/12 validada",
     "Datas de gravação dos vídeos da Dra. Marília (09/12 e 23/12), com nome e CRM na tela",
     "Até 09/12: Dr. Ronald revisa o roteiro do sono e os dados do smartwatch e da bioimpedância",
-    "Até 14/12: texto da OMS e da NR-01 conferidos nos originais",
-    "Até 16/12: trechos dos cortes 2 e 3 do podcast escolhidos na transcrição",
+    "Até 14/12 e 30/12: texto da OMS e da NR-01 conferidos nos originais",
+    "Até 16/12: trechos dos cortes 2 e 3 do podcast escolhidos na transcrição, com o CRM do Dr. Ronald na tela",
     "Até 18/12: percentuais da felicidade com fonte",
-    "Até 23/12: resposta automática da palavra CUIDADO no ar",
-    "CRM do Dr. Ronald para a tela dos cortes do podcast",
+    "Até 23/12: resposta automática da palavra CUIDADO e link do LinkedIn no ar",
+    "Toda quarta: definir quem publica o LinkedIn (página fairhealth ou perfil FairJob) e quem compartilha até 9:00",
   ] },
 };
