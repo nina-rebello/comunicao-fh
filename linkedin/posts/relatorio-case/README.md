@@ -1,7 +1,7 @@
 # LinkedIn · qua 25/11, 8:00 · O primeiro resultado é adesão (o relatório do Escritório do Cuidado)
 
 Post 8 do cronograma do LinkedIn (`marketing/ferramentas/conteudo_posts_linkedin_dezembro.py`, `L08`), adiantado de 16/12 para
-25/11 a pedido da Nina (24/11); o post 5 ("Entre a medicina do trabalho e o plano de saúde") foi para 16/12 e depois saiu do cronograma (25/11, Nina): em 16/12 entra o post dos 7 pilares da MEV.
+25/11 a pedido da Nina (24/11); o post 5 ("Entre a medicina do trabalho e o plano de saúde") foi para 16/12 e depois saiu do cronograma (25/11, Nina): em 16/12 entra o post sobre o plano individualizado.
 
 - **Imagem:** `relatorio-linkedin.png`, a mesma arte do post do Instagram de 27/11 (`instagram/posts/case-adesao/`), em
   1080 × 1350 (o LinkedIn mostra 4:5 inteiro no feed do celular).

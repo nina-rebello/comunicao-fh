@@ -105,31 +105,30 @@ Na sua empresa, qual indicador mostra hoje se o programa de saúde está sendo u
 #fairhealth #saudecorporativa #gestaodepessoas'''),
 
  dict(id='L11', data=D(12, 16), semana=4, bloco='Compreensão', fmt=TXT, eixo='Produto',
-  titulo='Os 7 pilares da Medicina do Estilo de Vida na rotina da empresa',
-  sub='Quase nenhum acontece no consultório: acontecem no expediente, e a empresa pode cuidar de cada um',
-  validar='Descrição conforme a Cartilha do Escritório do Cuidado (os 7 pilares) e o site (workshops nos 7 pilares, plano individual por dimensão da MEV). Sem os números da cartilha (sem fonte). Revisão do Dr. Ronald. Substitui o post "Entre a medicina do trabalho e o plano de saúde", que saiu do cronograma em 25/11 (Nina: não vamos contrapor a medicina do trabalho nem o plano de saúde).',
+  titulo='Plano individualizado: o cuidado que cabe na vida de cada colaborador',
+  sub='Como o plano nasce da escuta, como é acompanhado e o que o RH enxerga',
+  validar='Descrição conforme o site (plano individual por dimensão da MEV, acompanhamento contínuo) e o Instagram de 16/10 e 03/11. O depoimento A1 já foi usado em 03/11; formato dos depoimentos com o Dr. Ronald (CFM) segue pendente. Imagem opcional: a arte do triângulo (plano de cuidado, saúde integral, qualidade de vida) do Instagram de 16/10, refeita em quadrado. Substitui os 7 pilares (Nina, 25/11: preferiu falar do plano individualizado).',
   roteiro=[
-   (PRIM, 'A saúde de um time não se resolve numa consulta. Ela se constrói em sete frentes do dia a dia.', '', '', ''),
-   (DESE, 'Os 7 pilares da Medicina do Estilo de Vida: alimentação saudável, atividade física, sono reparador, saúde mental e estresse, evitar substâncias, relações sociais e propósito e espiritualidade. Quase nenhum acontece no consultório: acontecem no expediente. No Escritório do Cuidado a MEV está dentro do atendimento (plano individual por pilar, bioimpedância e smartwatch entre as consultas) e os workshops nos 7 pilares levam a conversa para a empresa toda, com a liderança junto. Para o RH, os pilares viram uma linguagem comum, com indicadores do grupo, anonimizados.', '', '', ''),
-   (CHAM, 'Qual desses sete pilares mais pesa no dia a dia do seu time?', '', '', 'Uma chamada só.'),
+   (PRIM, 'Programa de saúde igual para todo mundo costuma durar pouco. O que dura é o plano que cabe na vida de cada pessoa.', '', '', ''),
+   (DESE, 'No Escritório do Cuidado, cada colaborador sai da primeira consulta com um plano individualizado de cuidado. Ele nasce da escuta (o que importa para você?), é combinado com a pessoa, tem a Medicina do Estilo de Vida como base e cabe na rotina real. O cuidado continua entre as consultas, com bioimpedância e smartwatch, e o plano é revisto a cada retorno (depoimento A1). Para a empresa: quem tem um plano que cabe na rotina volta, e por isso adesão é o primeiro número a olhar. O RH vê o grupo em indicadores anonimizados, nunca o plano de alguém.', '', '', ''),
+   (CHAM, 'O programa de saúde da sua empresa pergunta o que importa para cada pessoa?', '', '', 'Uma chamada só.'),
    (COM, 'Sem link neste post.', '', '', ''),
-   (TIME, '"O pilar que mais aparece nos atendimentos não é o que as pessoas esperam."', '', '', 'Só se for verdade para o time; confirmar antes.'),
-   (FONTE, 'Cartilha do Escritório do Cuidado (7 pilares da MEV) e site da fairjob (workshops nos 7 pilares; plano individual por dimensão da MEV). Sem números.', '', '', ''),
+   (TIME, '"Um plano que não cabe na rotina vira culpa. Um que cabe vira hábito."', '', '', 'Só se o profissional concordar com a frase.'),
+   (FONTE, 'Site da fairjob (Plano Individual do Cuidado por dimensão da MEV; acompanhamento contínuo), Instagram de 16/10 e de 03/11, depoimento A1 (instagram/depoimentos.md). Sem números.', '', '', ''),
   ],
-  legenda='''A saúde de um time não se resolve numa consulta. Ela se constrói em sete frentes do dia a dia.
+  legenda='''Programa de saúde igual para todo mundo costuma durar pouco. O que dura é o plano que cabe na vida de cada pessoa.
 
-A Medicina do Estilo de Vida organiza o cuidado em sete pilares: alimentação saudável, atividade física, sono reparador, saúde mental e estresse, evitar substâncias, relações sociais e propósito e espiritualidade.
+No Escritório do Cuidado, cada colaborador sai da primeira consulta com um plano individualizado de cuidado. Ele nasce da escuta: a conversa começa com uma pergunta, o que importa para você?, e o plano é combinado com a pessoa, e não entregue pronto.
 
-Repare que quase nenhum deles acontece no consultório. Acontecem no expediente: o horário da refeição, o intervalo que existe ou não, o sono depois de uma semana de entrega, a conversa entre colegas, o sentido que o trabalho tem.
+A base é a Medicina do Estilo de Vida, com o cuidado organizado por pilar: sono, alimentação, movimento, estresse, relações. E o plano cabe na rotina real. Pode ser dormir meia hora mais cedo ou almoçar longe da mesa. Como disse uma colaboradora atendida: "Não é aquela dieta impossível de fazer. É algo pra vida."
 
-Por isso, no Escritório do Cuidado, a Medicina do Estilo de Vida está dentro do atendimento. O plano de cada pessoa é construído por pilar, e a bioimpedância e o smartwatch acompanham a rotina entre uma consulta e outra. E os workshops nos sete pilares levam a conversa para a empresa toda, em linguagem acessível e com a liderança junto.
+O cuidado não termina na consulta. A bioimpedância e o smartwatch mostram como foram as últimas semanas, e a cada retorno o plano é revisto, no caminho rumo à saúde integral e à qualidade de vida.
 
-Para o RH, os pilares viram uma linguagem comum. Dá para olhar o grupo, em indicadores anonimizados, e escolher por onde começar.
+Para a empresa, a consequência é prática: quem tem um plano que cabe na rotina volta. Por isso, adesão é o primeiro número que olhamos. E o RH enxerga o grupo em indicadores anonimizados, nunca o plano de ninguém.
 
-Qual desses sete pilares mais pesa no dia a dia do seu time?
+O programa de saúde da sua empresa pergunta o que importa para cada pessoa?
 
-#fairhealth #medicinadoestilodevida #saudecorporativa'''),
-
+#fairhealth #saudecorporativa #medicinadoestilodevida'''),
  dict(id='L09', data=D(12, 23), semana=5, bloco='Confiança', fmt=TXT, eixo='Produto',
   titulo='Como levar o cuidado para a sua empresa em janeiro',
   sub='Conversa, proposta personalizada e implementação, para quem fecha o planejamento de 2027',
