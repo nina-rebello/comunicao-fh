@@ -24,7 +24,7 @@ const POSTS = [
   [25, "carrossel", 5, "P", "Cultura", "Por que a Geração Z está tão desconectada do trabalho?", "Por que a Geração Z está tão desconectada do trabalho?",
     "Não é preguiça nem falta de compromisso. A resposta começa com a pergunta que quase ninguém faz: o que importa para você?", "Comente CUIDADO"],
   [27, "foto", 6, "P", "Cases", "Case: o relatório do Escritório do Cuidado", "Como ler o relatório do Escritório do Cuidado",
-    "Post único em forma de relatório: adesão de 92,7%, retorno de 96,1% e 210 atendimentos numa indústria química, de janeiro a novembro, e como levar ao CFO e ao RH", "Comente CUIDADO"],
+    "Post único em forma de relatório: adesão de 92,7%, retorno de 96,1% e 210 atendimentos numa indústria química, de janeiro a novembro, e como levar ao CFO e ao RH", "Salve para a conversa com o CFO"],
   [30, "reel", 7, "I", "Notícias", "Podcast: a felicidade no trabalho pode ser medida", "A felicidade no trabalho pode ser medida",
     "Podcast, corte 1: trechos do Seminário Mirix com Fernando Brancaccio e Dr. Ronald Maia Filho", "Mande para quem cuida de gente"],
 ];

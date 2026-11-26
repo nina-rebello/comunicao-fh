@@ -439,7 +439,7 @@ Comente CUIDADO e mostramos como funciona na sua empresa.
   fio='Vem de: 25/11, Geração Z. Leva para: 30/11, a virada para dezembro.',
   visual='Relatório clean (pedido da Nina, 23/11): papel, cartões brancos sem borda, números no verde da marca, barras em verde, Tiffany e menta. Quatro números com "Significa" e "Para o CFO e o RH"; três painéis (tipo de atendimento, formato, quem foi atendido).',
   material='Relatório real do Escritório do Cuidado (print enviado pela Nina em 23/11). Sem foto. Logo da Chemitec só com autorização.',
-  cta='Comente CUIDADO (como funciona o Escritório do Cuidado)',
+  cta='Salve este post para levar na próxima conversa com o CFO (sem "Comente CUIDADO": pedido da Nina, 25/11)',
   stories='Sequência com os 4 números e o adesivo "Mande uma mensagem".',
   fonte='Relatório do Escritório do Cuidado da Chemitec, 01/01 a 23/11/2026 (PDF da Nina, 23/11), indicadores baseados no modelo Quintuple Aim (IHI): 51 colaboradores atendidos (adesão de 92,7% de 55 ativos); 210 atendimentos (198 presenciais, 94,3%; 12 online, 5,7%); por tipo: médico 75,2%, psicológico 18,6%, felicitológico 3,8%, serviço social 2,4%; 48 smartbands; faixas 18–24 15,7% (8), 25–34 23,5% (12), 35–49 45,1% (23), 50+ 15,7% (8); retorno 96,1% (49 de 51 com 2 ou mais atendimentos). O gênero veio vazio (0% e 0%, "outros" 100%) e ficou fora. Sempre agregado.',
   validar='Sócios: o case sai e pode citar o nome Chemitec? (decisão de 30/10; autorização escrita do cliente). Sem isso, "uma indústria química atendida". Os números do relatório de 23/11 substituem os anteriores (1º semestre e jan a set).',
@@ -454,7 +454,7 @@ Quase tudo foi presencial: 94,3% dos atendimentos aconteceram dentro da empresa,
 
 O RH recebe só indicadores do grupo, agregados e anonimizados, baseados no modelo Quintuple Aim, do Institute for Healthcare Improvement. Nunca o que cada pessoa contou.
 
-Quer ver como funciona na sua empresa? Comente CUIDADO.
+Salve este post para levar na próxima conversa com o CFO.
 
 #fairhealth #saudecorporativa #escritoriodocuidado #gestaodepessoas #indicadoresdesaude''',
   roteiro=[
